@@ -32,5 +32,12 @@ In order to do this, you **do not** need to create new forks of these projects. 
 - [ ] PM then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
 
 ## Stretch
+- [ ]While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceburg in learning Git. Independantly research the following topics to learn more about Git.
+  - [ ] Research and understand what a `merge conflict` is and how to resolve it.
+  - [ ] Reseach the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the master branch.
+  - [ ] Reseach the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and ammends previous commits you have made.
 
-Once you have successfully submitted Pull Requests for all three projects, you can go back through your projects during this sprint and work on the stretch goals for each project.
+- [ ] Research and set up a Graphical User Interface (GUI) Git console. 
+
+- [ ] Research and setup SSH keys with Github, so that you do not need to imput your username/password each time you push. 
+
