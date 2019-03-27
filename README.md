@@ -30,3 +30,7 @@ In order to do this, you **do not** need to create new forks of these projects. 
   - [ ] Use your own student fork as the base (compare across forks, base-fork -> master).
   - [ ] Add your PM as a reviewer on the Pull-Request
 - [ ] PM then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
+
+## Stretch
+
+Once you have successfully submitted Pull Requests for all three projects, you can go back through your projects during this sprint and work on the stretch goals for each project.
