@@ -18,4 +18,4 @@ You will need to follow the Lambda School Git Workflow to add a file to this pro
 - [ ] PM then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
 
 ## Part Two:
-Go back and follow the same steps for your (UI-III-Flexbox project)[https://github.com/LambdaSchool/UI-III-Flexbox] and your (User Interface - Great Idea Project)[https://github.com/LambdaSchool/User-Interface].
+Go back and follow the same steps for your [UI-III-Flexbox project](https://github.com/LambdaSchool/UI-III-Flexbox) and your [User Interface - Great Idea Project](https://github.com/LambdaSchool/User-Interface).
