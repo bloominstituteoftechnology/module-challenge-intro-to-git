@@ -10,7 +10,7 @@ You will need to follow the Lambda School Git Workflow to add a file to this pro
 - [ ] Add your PM as a collaborator
 - [ ] Clone this repo
 - [ ] Create a branch `git checkout -b 'firstName-lastName'`
-  - [ ] Add a file to the project called 'yourFirstName-lastName'.txt. This file can contain anything.
+  - [ ] Add a file to the project called `yourFirstName-yourLastName`.txt. This file can contain anything.
   - [ ] Run your usual git commands for adding/commiting and pushing **Be sure to push to your branch!**
 - [ ] Create a Pull-Request to submit your work
   - [ ] Use your own student fork as the base (compare across forks, base-fork -> master).
