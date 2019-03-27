@@ -22,6 +22,7 @@ Go back and follow the same steps for your [UI-III-Flexbox project](https://gith
 
 In order to do this, you **do not** need to create new forks of these projects. Follow the steps below for each project:
 
+- [ ] Add your PM as a collaborator to your fork. 
 - [ ] Go into your project folder, make a new branch `firstname-lastname`
 - [ ] Add your first and last name to the README.md file in the project and save.
 - [ ] add/commit/and push to your own branch  **Be sure to push to your branch!**
