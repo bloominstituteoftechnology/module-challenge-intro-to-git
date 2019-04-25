@@ -6,10 +6,10 @@ This project consists of two parts:
 ## Part One:
 You will need to follow the Lambda School Git Workflow to add a file to this project follow the steps below:
 
-- [ ] Create your own version of this repo - Fork
-- [ ] Add your PM as a collaborator
-- [ ] Clone this repo
-- [ ] Create a branch `git checkout -b 'firstName-lastName'`
+- [x] Create your own version of this repo - Fork
+- [x] Add your PM as a collaborator
+- [x] Clone this repo
+- [x] Create a branch `git checkout -b 'firstName-lastName'`
   - [ ] Add a file to the project called `yourFirstName-yourLastName`.txt. This file can contain anything.
   - [ ] Run your usual git commands for adding/commiting and pushing **Be sure to push to your branch!**
 - [ ] Create a Pull-Request to submit your work
