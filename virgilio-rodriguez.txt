@@ -1,0 +1,5 @@
+This is my attempt at using Git, Github, and VSC.
+Let us hope this works this time around.
+
+This is a link to a picture I took with my drone of the Paterson Falls in New Jersey.
+https://scontent.fewr1-1.fna.fbcdn.net/v/t1.0-9/53410191_295973504410803_1009776051426951168_o.jpg?_nc_cat=100&_nc_ht=scontent.fewr1-1.fna&oh=f486dfe44923a0a3883c2bfa3d5b22b3&oe=5D32BD20
