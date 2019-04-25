@@ -1,3 +1,5 @@
 This is the initial change to this text file - hello world!
 
 This is the second change to this text file - test #2
+
+This is the third change to this text file - test #3
