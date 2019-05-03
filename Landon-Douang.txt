@@ -1,0 +1,3 @@
+ls
+Oops I just realized I'm in the .txt file 
+Cool, looks like I did it. 
