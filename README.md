@@ -11,10 +11,10 @@ You will need to follow the Lambda School Git Workflow to add a file to this pro
 - [x] Clone this repo
 - [x] Create a branch `git checkout -b 'firstName-lastName'`
   - [x] Add a file to the project called `yourFirstName-yourLastName`.txt. This file can contain anything.
-  - [ ] Run your usual git commands for adding/commiting and pushing **Be sure to push to your branch!**
-- [ ] Create a Pull-Request to submit your work
-  - [ ] Use your own student fork as the base (compare across forks, base-fork -> master).
-  - [ ] Add your PM as a reviewer on the Pull-Request
+  - [x] Run your usual git commands for adding/commiting and pushing **Be sure to push to your branch!**
+- [x] Create a Pull-Request to submit your work
+  - [x] Use your own student fork as the base (compare across forks, base-fork -> master).
+  - [x] Add your PM as a reviewer on the Pull-Request
 - [ ] PM then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
 
 ## Part Two:
@@ -22,13 +22,13 @@ Go back and follow the same steps for your [UI-III-Flexbox project](https://gith
 
 In order to do this, you **do not** need to create new forks of these projects. Follow the steps below for each project:
 
-- [ ] Add your PM as a collaborator to your fork. 
-- [ ] Go into your project folder, make a new branch `firstname-lastname`
-- [ ] Add your first and last name to the README.md file in the project and save.
-- [ ] add/commit/and push to your own branch  **Be sure to push to your branch!**
-- [ ] Create a Pull-Request to submit your work
-  - [ ] Use your own student fork as the base (compare across forks, base-fork -> master).
-  - [ ] Add your PM as a reviewer on the Pull-Request
+- [x] Add your PM as a collaborator to your fork. 
+- [x] Go into your project folder, make a new branch `firstname-lastname`
+- [x] Add your first and last name to the README.md file in the project and save.
+- [u] add/commit/and push to your own branch  **Be sure to push to your branch!**
+- [x] Create a Pull-Request to submit your work
+  - [x] Use your own student fork as the base (compare across forks, base-fork -> master).
+  - [x] Add your PM as a reviewer on the Pull-Request
 - [ ] PM then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
 
 ## Stretch
