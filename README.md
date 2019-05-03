@@ -25,7 +25,7 @@ In order to do this, you **do not** need to create new forks of these projects. 
 - [x] Add your PM as a collaborator to your fork. 
 - [x] Go into your project folder, make a new branch `firstname-lastname`
 - [x] Add your first and last name to the README.md file in the project and save.
-- [u] add/commit/and push to your own branch  **Be sure to push to your branch!**
+- [x] add/commit/and push to your own branch  **Be sure to push to your branch!**
 - [x] Create a Pull-Request to submit your work
   - [x] Use your own student fork as the base (compare across forks, base-fork -> master).
   - [x] Add your PM as a reviewer on the Pull-Request
