@@ -1,0 +1,7 @@
+fork github repo
+clone forked repo
+checkout branch
+add changes
+commit changes
+push to repo
+make pull request
