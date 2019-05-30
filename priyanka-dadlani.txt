@@ -1,1 +1,3 @@
 Hi!
+
+adding new text to confirm commit/push/pull is done correctly
