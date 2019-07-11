@@ -43,7 +43,9 @@ In order to do this, you **do not** need to create new forks of these projects. 
 - [ ] Research and setup SSH keys with Github, so that you do not need to input your username/password each time you push. 
 
 
-## Stretch Answers
+
+
+# Stretch Answers
 
 - [ ] Research and understand merge conflict
 
@@ -82,6 +84,10 @@ In order to do this, you **do not** need to create new forks of these projects. 
 ``` git merge --abort```
 ``` git merge --continue```
 
+
+
+- [ ] Reseach the Git commands `reset `, `revert`, `clean`.
+
 * ***git-reset*** - Reset current HEAD to the specified state.
 * * SYNOPSIS:
 
@@ -102,3 +108,14 @@ In order to do this, you **do not** need to create new forks of these projects. 
 
 ``` git clean [-d] [-f] [-i] [-n] [-q] [-e <pattern>] [-x | -X] [--] <path>…​ ```
 
+
+
+- [ ] Research and set up a Graphical User Interface (GUI) Git console.
+
+* [Graphical User Interface (GUI) Git console](https://gitforwindows.org/ "Graphical User Interface (GUI) Git console")
+
+
+
+- [Connecting to GitHub with SSH] Research and setup SSH keys with Github, so that you do not need to input your username/password each time you push.
+
+* [](https://help.github.com/en/articles/connecting-to-github-with-ssh "Connecting to GitHub with SSH")
