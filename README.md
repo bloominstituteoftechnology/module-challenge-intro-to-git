@@ -60,13 +60,19 @@ In order to do this, you **do not** need to create new forks of these projects. 
 * ***git-pull:*** - Fetch from and integrate with another repository or a local branch.
 * SYNOPSIS:
 
-  ``` git pull [<options>] [<repository> [<refspec>…​]] ```
+``` git pull [<options>] [<repository> [<refspec>…​]] ```
 
-  * ***git-rebase*** - Reapply commits on top of another base tip.
-  * SYNOPSIS:
+* ***git-rebase*** - Reapply commits on top of another base tip.
+* SYNOPSIS:
 
-  ``` git rebase [-i | --interactive] [<options>] [--exec <cmd>] [--onto <newbase> ```
-	```     [<upstream> [<branch>]]```
-  ``` git rebase [-i | --interactive] [<options>] [--exec <cmd>] [--onto <newbase>] ```
- ```     --root [<branch>] ```
-  ``` git rebase --continue | --skip | --abort | --quit | --edit-todo | --show-current-patch ```
+``` git rebase [-i | --interactive] [<options>] [--exec <cmd>] [--onto <newbase> ```
+```     [<upstream> [<branch>]]```
+``` git rebase [-i | --interactive] [<options>] [--exec <cmd>] [--onto <newbase>] ```
+```     --root [<branch>] ```
+``` git rebase --continue | --skip | --abort | --quit | --edit-todo | --show-current-patch ```
+
+* ***git-clean*** - Remove untracked files from the working tree.
+* SYNOPSIS:
+
+``` git clean [-d] [-f] [-i] [-n] [-q] [-e <pattern>] [-x | -X] [--] <path>…​ ```
+
