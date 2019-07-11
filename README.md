@@ -52,3 +52,11 @@ In order to do this, you **do not** need to create new forks of these projects. 
 * [Competing line change merge conflicts](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line#competing-line-change-merge-conflicts "Competing line change merge conflicts")
 
 * [Removed file merge conflicts](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line#removed-file-merge-conflicts "Removed file merge conflicts")
+
+    -------------------------------------------------------------------------------------------
+
+- [ ] Reseach the Git commands `pull`, `rebase`, `merge`.
+
+* git pull: Fetch from and integrate with another repository or a local branch.
+  Syntax:
+  ``` git pull [<options>] [<repository> [<refspec>…​]] ```
