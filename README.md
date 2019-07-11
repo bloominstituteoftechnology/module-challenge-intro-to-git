@@ -45,7 +45,7 @@ In order to do this, you **do not** need to create new forks of these projects. 
 
 
 
-# Stretch Answers
+# Stretch Answers  :smile:
 
 - [ ] Research and understand merge conflict
 
@@ -57,6 +57,7 @@ In order to do this, you **do not** need to create new forks of these projects. 
 
     -------------------------------------------------------------------------------------------
 
+:flushed:
 - [ ] Reseach the Git commands `pull`, `rebase`, `merge`.
 
 * ***git-pull:*** - Fetch from and integrate with another repository or a local branch.
@@ -74,6 +75,9 @@ In order to do this, you **do not** need to create new forks of these projects. 
 ``` git rebase --continue | --skip | --abort | --quit | --edit-todo | --show-current-patch ```
 
 
+  --------------------------------------------------------------------------------------------
+
+:flushed:
 * ***git-merge*** - Join two or more development histories together.
 * SYNOPSIS:
 
@@ -86,7 +90,7 @@ In order to do this, you **do not** need to create new forks of these projects. 
 
 
 
-- [ ] Reseach the Git commands `reset `, `revert`, `clean`.
+- [ ] Reseach the Git commands `reset `, `revert`, `clean`. :innocent:
 
 * ***git-reset*** - Reset current HEAD to the specified state.
 * * SYNOPSIS:
@@ -110,15 +114,17 @@ In order to do this, you **do not** need to create new forks of these projects. 
 
 
 
-- [ ] Research and set up a Graphical User Interface (GUI) Git console.
+- [ ] Research and set up a Graphical User Interface (GUI) Git console. :scream:
 
 * [Graphical User Interface (GUI) Git console](https://gitforwindows.org/ "Graphical User Interface (GUI) Git console")
 
 
 
-- [ ] Research and setup SSH keys with Github, so that you do not need to input your username/password each time you push.
+- [ ] Research and setup SSH keys with Github, so that you do not need to input your username/password each time you push. :sunglasses:
 
 * [Connecting to GitHub with SSH](https://help.github.com/en/articles/connecting-to-github-with-ssh "Connecting to GitHub with SSH")
 
+
+:bowtie:
 
  ![picture alt](https://eralpkor.com/img/relaxing_norman.JPG "Norman")
