@@ -33,6 +33,7 @@ In order to do this, you **do not** need to create new forks of these projects. 
 
 ## Stretch
 - [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independantly research the following topics to learn more about Git.
+
   - [ ] Research and understand what a `merge conflict` is and how to resolve it.
   - [ ] Reseach the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the master branch.
   - [ ] Reseach the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and ammends previous commits you have made.
@@ -41,3 +42,11 @@ In order to do this, you **do not** need to create new forks of these projects. 
 
 - [ ] Research and setup SSH keys with Github, so that you do not need to input your username/password each time you push. 
 
+
+## Stretch Answers
+
+- [ ] Research and understand merge conflict
+
+* Merge conflicts occur when competing changes are made to the same line of a file, or when one person edits a file and another person deletes the same file.
+
+* (https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line#competing-line-change-merge-conflicts "Competing line change merge conflicts")
