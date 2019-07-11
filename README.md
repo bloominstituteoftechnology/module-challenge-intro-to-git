@@ -58,5 +58,6 @@ In order to do this, you **do not** need to create new forks of these projects. 
 - [ ] Reseach the Git commands `pull`, `rebase`, `merge`.
 
 * git pull: Fetch from and integrate with another repository or a local branch.
-  Syntax:
+* Syntax:
+
   ``` git pull [<options>] [<repository> [<refspec>…​]] ```
