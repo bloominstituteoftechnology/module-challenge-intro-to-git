@@ -49,4 +49,4 @@ In order to do this, you **do not** need to create new forks of these projects. 
 
 * Merge conflicts occur when competing changes are made to the same line of a file, or when one person edits a file and another person deletes the same file.
 
-* (https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line#competing-line-change-merge-conflicts "Competing line change merge conflicts")
+* [](https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line#competing-line-change-merge-conflicts "Competing line change merge conflicts")
