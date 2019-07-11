@@ -71,6 +71,32 @@ In order to do this, you **do not** need to create new forks of these projects. 
 ```     --root [<branch>] ```
 ``` git rebase --continue | --skip | --abort | --quit | --edit-todo | --show-current-patch ```
 
+
+* ***git-merge*** - Join two or more development histories together.
+* SYNOPSIS:
+
+``` git merge [-n] [--stat] [--no-commit] [--squash] [--[no-]edit]```
+```	[-s <strategy>] [-X <strategy-option>] [-S[<keyid>]]```
+```	[--[no-]allow-unrelated-histories]```
+```	[--[no-]rerere-autoupdate] [-m <msg>] [-F <file>] [<commit>…​]```
+``` git merge --abort```
+``` git merge --continue```
+
+* ***git-reset*** - Reset current HEAD to the specified state.
+* * SYNOPSIS:
+
+``` git reset [-q] [<tree-ish>] [--] <paths>…​```
+``` git reset (--patch | -p) [<tree-ish>] [--] [<paths>…​]```
+``` git reset [--soft | --mixed [-N] | --hard | --merge | --keep] [-q] [<commit>]```
+
+* ***git-revert*** - Revert some existing commits.
+* * SYNOPSIS:
+
+``` git revert [--[no-]edit] [-n] [-m parent-number] [-s] [-S[<keyid>]] <commit>…​```
+``` git revert --continue```
+``` git revert --quit```
+``` git revert --abort```
+
 * ***git-clean*** - Remove untracked files from the working tree.
 * SYNOPSIS:
 
