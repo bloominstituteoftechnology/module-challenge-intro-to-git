@@ -118,4 +118,4 @@ In order to do this, you **do not** need to create new forks of these projects. 
 
 - [Connecting to GitHub with SSH] Research and setup SSH keys with Github, so that you do not need to input your username/password each time you push.
 
-* [](https://help.github.com/en/articles/connecting-to-github-with-ssh "Connecting to GitHub with SSH")
+* [Connecting to GitHub with SSH](https://help.github.com/en/articles/connecting-to-github-with-ssh "Connecting to GitHub with SSH")
