@@ -1,0 +1,1 @@
+This is just a practice text filefor use with my git project.
