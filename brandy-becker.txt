@@ -1,1 +1,30 @@
 this file can contain anything !
+
+Stretch;
+
+merge-conflict: merge conflicts occur when competing changes are made to the same line or file / when one person edits a file and a second person deletes that same file.
+- Navigat into the repository that has the merge conflict
+// cd REPOSITORY-NAME //
+- Generate a list of the files affected by the merge conflict
+// git status //
+- Open up a text editor to navigate to the file w/ the merge conflicts
+- to see the begginning of the merge conflict, search the file for the conflict marker "<<<<<<<"
+- ======= divides changes in the other branch followed by >>>>>>> BRANCH-NAME
+- decide if you want to keep only your branch's changes, keep only the other branch's changes, or make a brand new change that incorporates both changes
+- delete the conflict markers <<<<<<< , ========, >>>>>>>> and make the changes you want in the final merge
+- add your changes 
+// git add . //
+- commit your changes
+// git commit -m "changes" //
+
+
+pull: used to fetch and download content from a remote repository and immediatly update the local repository to match that content
+rebase: integrates changes from one branch into another (also known as merge). Rebase differs from merge by rewriting the commit histoty
+        in order to produce a straith, linear succession of commits
+merge: git's way of putting a forked history back together again. 'git merge' lets you take independant lines of development created by git branch and
+        integrate them into a single branch.
+
+reset: used to undo local changes to the state of a Git repo. operates on the commit history (HEAD), staging indec, and working directory.
+revert: forward-moving undo operation that offers a safe method of undoing changes. instead of deleting commits in the commit history, a revert     
+        will create a new commit that inverses the changes specified.
+clean: considered complimentary to 'git reset' and 'git checkout'- except git clean command operates on untracked files.
