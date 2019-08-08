@@ -1,4 +1,4 @@
 # Dennis Rivera
 This is my txt file for my git repo project.
 
-## Have a great day :)
+## Have a great day :) !
