@@ -1,1 +1,4 @@
 Hello, my name is Onyeka Ijeh.
+
+I am currently a student at Lambda.
+I am currently taking the course on Full Stack Web Development.
