@@ -1,0 +1,13 @@
+My Favourite Resources for learning the Git Workflow:
+
+1. https://gitexplorer.com/
+This website helps you find the git command you are looking for in order to perform a function. 
+
+2. https://chris.beams.io/posts/git-commit/
+This post is a guide to writing useful Git commit messages.
+
+3. https://learngitbranching.js.org/
+This is an interactive game that helps you to wrap your head around Git.
+
+4. https://learn.lambdaschool.com/web1/module/rect59e95N6OSvoCd
+This is a link to the Lambda School Training Kit. There are several video recordings of previous lectures on the topic that walk you through the basic git commands.
