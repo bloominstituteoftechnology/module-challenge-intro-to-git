@@ -17,6 +17,8 @@ You will need to follow the Lambda School Git Workflow to add a file to this pro
   - [ ] Add your PM as a reviewer on the Pull-Request
 - [ ] PM then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
 "Testing to submit work" 
+"Part One of today's project"
+
 ## Part Two:
 Go back and follow the same steps for your [UI-III-Flexbox project](https://github.com/LambdaSchool/UI-III-Flexbox) and your [User Interface - Great Idea Project](https://github.com/LambdaSchool/User-Interface).
 
