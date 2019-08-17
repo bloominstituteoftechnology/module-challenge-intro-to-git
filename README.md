@@ -1,4 +1,7 @@
 # Git for Web Development Project
+
+Heather Nye
+
 In this project you will be using the concepts learned in the Git for Web Development lesson to fork/clone/push/and submit a PR for each project during this sprint.
 
 This project consists of two parts:
