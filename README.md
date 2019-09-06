@@ -25,6 +25,7 @@ In order to do this, you **do not** need to create new forks of these projects. 
 - [ ] Add your TL as a collaborator to your fork. 
 - [ ] Go into your project folder, make a new branch `firstname-lastname`
 - [ ] Add your first and last name to the README.md file in the project and save.
+yannickwessidjam
 - [ ] add/commit/and push to your own branch  **Be sure to push to your branch!**
 - [ ] Create a Pull-Request to submit your work
   - [ ] Use your own student fork as the base (compare across forks, base-fork -> master).
