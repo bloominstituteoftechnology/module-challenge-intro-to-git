@@ -33,11 +33,15 @@ In order to do this, you **do not** need to create new forks of these projects. 
 *Stretch*
 1. [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independantly research the following topics to learn more about Git.
   a. [✔] Research and understand what a `merge conflict` is and how to resolve it.
+
       i. _a merge conflict means two conflicting commits are trying to merge into master and Git needs the user to decide which commit to send. Easiest way to resolve os to choose the most updated commit and re-stage, commit, and push._
+
   b. [✔] Reseach the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the master branch.
+
       i. `pull`: _updates local clone with latest commit from Git repo._
       ii. `rebase`: _rewrites repo git history by restructuring got commits to new first commit._
       iii. `merge`: _combines a branch checkouted frorm master back into master_
+      
   c. [✔] Reseach the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and ammends previous commits you have made.
       i. `reset`:
       ii. `revert`:
