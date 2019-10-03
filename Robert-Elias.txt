@@ -1,4 +1,28 @@
 Just added a file to commit, pull, push.
 Thanks...
 
-# Researching stretch topics. 
+# Researching stretch topics.
+# Git Pull: information on https://www.atlassian.com/git/tutorials/syncing/git-pull
+The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+Merging remote upstream changes into your local repository is a common task in Git-based collaboration work flows. 
+The git pull command is actually a combination of two other commands, git fetch followed by git merge. 
+In fact, pulling with --rebase is such a common workflow that there is a dedicated configuration option for it.
+
+# Git Rebase: https://www.atlassian.com/git/tutorials/merging-vs-rebasing
+The first thing to understand about git rebase is that it solves the same problem as git merge.
+Both of these commands are designed to integrate changes from one branch into another branch—they just do it in very different ways.
+example: git checkout feature  or condensed version git merge feature master
+         git merge master
+
+
+
+# Git Merge: https://dev.to/neshaz/how-to-use-git-merge-the-correctway-25pd
+At some point, a piece of code will reach a state where you'll want to integrate it with the rest of the project.
+This is where the git merge command comes in.
+1. Check if your local repository is up to date with the latest changes from your remote server with a git fetch.
+2. Once the fetch is completed git checkout master.
+3. Ensure the master branch has the latest updates by executing git pull.
+4. Checkout to the branch that should receive the changes, in our case that is master.
+
+Merging
+Once the preparations are completed, you can start the merge with git merge hot-fix command.
