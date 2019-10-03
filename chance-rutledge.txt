@@ -1,0 +1,7 @@
+# hi!
+
+## just writing a litle nothing. 
+
+### pay no attention to this
+
+#### does markdown require a declaration on the page to format it? lets find out
