@@ -1,2 +1,4 @@
 Just added a file to commit, pull, push.
 Thanks...
+
+# Researching stretch topics. 
