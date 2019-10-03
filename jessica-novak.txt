@@ -1,0 +1,9 @@
+git commit -m "updated txt file"
+git push origin Jessica-Novak
+git push origin updated txt file
+git push origin
+git branch -av
+git push origin Jessica-Novak
+git status on branch Jessica-Novak
+clear
+wef 
