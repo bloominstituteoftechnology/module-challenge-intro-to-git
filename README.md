@@ -30,15 +30,15 @@
  <blockquote><i>These commands will allow you to bring in changes that other developers push to the master branch.<br>
   <ul>
    <li><code>pull</code>: updates local clone with latest commit from Git repo.</li>
-   <li><code>rebase</code>: rewrites repo git history by restructuring got commits to new first commit.<li>
+   <li><code>rebase</code>: rewrites repo git history by restructuring got commits to new first commit.</li>
    <li><code>merge</code>:  combines a branch checkouted frorm master back into <code>master</code></li>
   </ul></i></blockquote><br></li>
 
-  <li>✅ | Reseach the Git commands <code>reset</code>, <code>revert</code>, & <code>clean</code>.<br><blockquote><i>These commands will allow you to go back and ammends previous commits you have made
+  <li>✅ | Reseach the Git commands <code>reset</code>, <code>revert</code>, & <code>clean</code>.<br><blockquote><i>These commands will allow you to go back and ammends previous commits you have made.
    <ul>
-    <li><code>reset</code>: </li>
-    <li><code>revert</code>: </li>
-    <li><code>clean</code>: </li>
+    <li><code>reset</code>: undoes all changes made in a partciular commit, or to an entire active directory. Requires the <code>-hard</code> option to work.<br>Use <code>git reset -hard {{ commit }}</code> OR <code> git reset -hard Head</code></li>
+    <li><code>revert</code>: creates a new commit with none the changes of the selected commit.<br> Use <code> git revert {{ commit }}</code></li>
+    <li><code>clean</code>: deletes all untracked files</code> by Git in a particular commit, the current active directory, or certain files with extensions <code>-e</code> in a filter option.<br> Use <code> git clean [ -d [[ regex_pattern ]]</code></li>
     </ul></i></blockquote></li>
    </ul><br></li>
 
