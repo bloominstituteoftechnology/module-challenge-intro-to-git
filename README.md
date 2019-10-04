@@ -45,5 +45,6 @@
   <li>✅ | Research and set up a Graphical User Interface (GUI) Git console.<br> 
    <blockquote><img src="git-gui.png"/></blockquote><br></li>
 
-  <li>✅ | Research and setup SSH keys with Github, so that you do not need to input your username/password each time you push.</li> 
+  <li>✅ | Research and setup SSH keys with Github, so that you do not need to input your username/password each time you push.
+  <blockquote>SSH is an implementation of a rigoursous <code>public / private key</code> encryption scheme that stands for <b>Secure Shell</b>. It's so robust, passwords and usernames are unnecceary and thus removed. You and a server <i>Github for instance</i> share a known public key. Then, upon request, a <code>private</code> key can be generated based off the public key that is computationally impossible <i>for now</i> to reverse-engineer - like guessing which grain of sand on a beach is yours.</li> 
 </ul>
