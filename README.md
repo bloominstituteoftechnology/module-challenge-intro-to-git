@@ -43,7 +43,7 @@
    </ul><br></li>
 
   <li>✅ | Research and set up a Graphical User Interface (GUI) Git console.<br> 
-   <blockquote><img src=""></blockquote><br></li>
+   <blockquote><img src="git-gui.png"/></blockquote><br></li>
 
   <li>✅ | Research and setup SSH keys with Github, so that you do not need to input your username/password each time you push.</li> 
 </ul>
