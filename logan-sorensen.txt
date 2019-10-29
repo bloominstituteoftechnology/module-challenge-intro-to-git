@@ -9,6 +9,7 @@
     5. Name two tags that have required attributes
         Both the <a> tag and the <img> tag require attributes.
     6. What do we put in the head of our HTML document? 
+        The <title> tag is contained in the head of an HTML document.
     7. What is an id? 
         An id is a CSS selector.
     8. What elements can I add an id to? 
@@ -41,6 +42,8 @@
     21. How do we select a p element with a single class of “human””?
         p.human will select any p element with the class of "human".
     22. What is a parent child selector? When would this be useful? 
+        A parent child selector allows a developer to select any "child" elements wrapped inside of a "parent" element. This could be used to only select links
+        that are contained in a specific <section>, or every <p> within a <div>.
     23. How do you select all links within a div with the class of sidebar?
         div a.sidebar will select only links with the class of "sidebar" inside a <div>.
     24. What is a pseudo selector?
@@ -87,7 +90,12 @@
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+       A block element takes up all the space on its line, regardless of how much content is present. Inline elements, on the other hand, can sit next to other inline 
+       elements if there is room on that line.
     2. What happens when an element is positioned absolutely? 
+        If an element is positioned absolutely, it will be removed for the normal document flow and positioned relative to its closest anscestor element.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        Giving an element the "display: inline-block;" property will allow this kind of formatting.
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        <p>, <ul>, and <h1-6> are all block elements. <img> and <a> are both inline elements. <button> defaults to inline-block.
     5. In your own words, explain the box model. What is the fix for the box model? 
