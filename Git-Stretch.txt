@@ -2,11 +2,20 @@
  Git Stretch Questions:
 
  1. Research and understand what a merge conflict is and how to resolve it.
+	A merge conflict exists when the branch and the branch being merged to have conflicting files or edits.
  
  2. Research the Git commands pull, rebase, merge. These commands will allow you to bring in changes that other developers push to the master branch.
+	Pull changes and merges into current branch
+	Merge places all changes on branch into another branch
+	Rebase takes all unique changes from branch and creates revised branch 
  
  3. Research the Git commands reset , revert, clean. These commands will allow you to go back and amends previous commits you have made.
+	reset - undo changes
+	clean - remove untracked files
+	revert - creates a new version of old commit
  
  4. Research and set up a Graphical User Interface (GUI) Git console.
+	Downloaded github desktop
 
  5. Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push.
+	Completed
