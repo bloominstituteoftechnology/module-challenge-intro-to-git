@@ -42,3 +42,5 @@ In order to do this, you **do not** need to create new forks of these projects. 
 - [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
 
 
+-Andrea Harris
+pus
