@@ -1,0 +1,130 @@
+Git for Web Development (10/29/2019)
+
+website URL: https://codepen.io/nicbongo/pen/WNNZwvY?editors=1100
+
+Q&A
+
+<!-- reveiw questions to Submit in today's file firt-lastname.txt --> 
+<!--
+Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+        A. Giving meaining to the HTML structure. This helps transition projects across devs and optimizes SEO.
+    2. What is HTML used for? 
+        A. A "recommended" convention for structuring websites.
+    3. What is an attribute and where do we put it? 
+        A. An attribute either modifies or provides attitional functionality to HTML tags. They are located in the beginning of a given tag.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        A. The page title. Should be only one per page.
+    5. Name two tags that have required attributes
+        A. Anchor tags <a>, need to have an attribute, typically an href <a href=""></>
+        B. Image tags <img>, need an attribute to locate the image file (local or web. <img src="></img>
+    6. What do we put in the head of our HTML document? 
+        A. Footer section
+    7. What is an id? 
+        A. Is a unique identifier(#{}) of a specific tag/element or class on a page. Only one ID can be used per page. 
+            Shouldn't be used for styling alone.
+    8. What elements can I add an id to? 
+        A. IDs can be added to all/any element(s).
+    9. How many times can I use the same id on a page? 
+        A. Once.
+    10. What is a class? 
+        A. An identifier that can refer to multiple elements, typically for CSS stling. Less specifici than ID's.
+    11. What elements can I add a class to? 
+        A. .class can be added to all/any element(s).
+    12. How many times can I use the same class on a page? 
+        A. Infinite
+    13. How do I get my link to open in a new tab?
+        A. add the attribute target="_blank" to to the appropriate tag.
+    14. What is the alt attribute used for? 
+        A. To give additional information to an element that is presented on display in the event said element fails to load.
+    15. How do I reference an id?
+        A. In CSS, #idNameHere {}
+    16. What is the difference between a section and a div
+        A. Sections are for larger blocks of HTML, Divs are for smaller blocks.
+    17. What is CSS used for? 
+        A. Cascade Styling Sheets is used to "style" HTML content. (colors, spacing)
+    18. How do we select an element? Example - every h2 on the page
+        A. specify element followed by a pair of curly brackets (e.g. h2 {} )
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        A. Class selectors can be used for multiple tags. ID's are used for only one tag/element.
+        
+        <p class="para"> this is a class </p>               .para {CSS here} = would style the top and bottom p tags.
+        <p id="ID"> this is an id#</p>                      #ID {CSS hete} = would style ONLY the middle p tag.
+        <p class="para"> this is a class</p>
+
+    20. How do we select classes in CSS?
+        A. a period "." folowed by class name followed by curly braces.
+            e.g. .class {CSS here}
+    21. How do we select a p element with a single class of “human””?
+        p.human {css here}
+    22. What is a parent child selector? When would this be useful? 
+        A.  It allows the dev to select all child elements based on the parent element. Useful for formatting and design.
+    23. How do you select all links within a div with the class of sidebar?
+        A. div.sidebar > a {}
+    24. What is a pseudo selector?
+        A. pseudo is another type of class used for cool effects like hover and trnasition. Pseudo is signified in CSS wih a ":".
+    25. What do we use the change the spacing between lines?
+        A. CSS = element/class/id {line-height : 1.5;}
+    26. What do we use to change the spacing between letters?
+        A. CSS = element/class/id {letter-spacing: normal;}
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        A. CSS = {text-transform: uppercase;}
+    28. How do I add a 1px border around my div that is dotted and black?
+        A. CSS = {1px dotted black}
+    29. How do I select everything on the page? 
+        A. Universal selector = *{}
+    30. How do I write a comment in CSS?
+        A. /*comments in between*/
+    31. How do I find out what file I am in, when I am using the command line? 
+        A. PWD
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        A. ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        A. rm filename (filename must be exact, tab is useful, no prompt and can;t undo the remove/delete)
+    34. Why should I use version control?
+        A. To revert to previous versions if needed/required. Also better for collaboration. 
+    35. How often should I commit to github?
+        A. With any significant changes. Every 20 - 30 mins?
+    36. What is the command we would use to push our repo up to github? 
+        A. git push
+    37. Walk me through Lambda's git flow. 
+        A.  (FROM DASHBOARD) 
+            Student will create OWN version of Repo (Fork)
+            Student will add TL as a collaborator
+            Student then will Clone Repo
+            Student will then create a branch (on which the student will implement the project) git checkout -b 'firstName-lastName'
+            Student will then submit their PR into the new branch.
+            Student will use their own student fork as the base (compare across forks).
+            Student will add their TL as a reviewer on the PR
+            TL then will count the HW as done by merging the HW back into master “STUDENT FORK”.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+        From Stackoverflow: https://stackoverflow.com/questions/9189810/css-display-inline-vs-inline-block
+        An inline element has no line break before or after it, and it tolerates HTML elements next to it.
+        A block element has some whitespace above and below it and does not tolerate any HTML elements next to it.
+        An inline-block element is placed as an inline element (on the same line as adjacent content), but it behaves as a block element.
+    2. What happens when an element is positioned absolutely? 
+        A. It uses the screen edge as a reference (top-left I beleive), and does not respond to other content. Seemingly bringing it
+            forward a layer.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        A. By specifying dimensions as a percentage, rather than fixed pixel length dimension.
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        A. Display: block = <div><h1-h6><p><form><header><footer><section>
+        B. Display: Inline = <span><a><img>
+        C. Display: inline-block = <nav>
+    5. In your own words, explain the box model. What is the fix for the box model? 
+        A. The box model refers to the spacing dimensions regarding an HTML element. All HTML elements can be influenced by height,
+        width, border, padding, margin. Combined, these 5 dimensions are an element's box. These dimensions can be manipulated and 
+        formatted to compliment the design of the website (in CSS). 
+            The box model however runs into various issues, with different internet browsers overwriting these box-dimensions if they 
+        are not specified, which leads to elements overlapping for instance (all to varying degrees as the browsers have their own 
+        defaults). A fix for this is to declare box-sizing in the univeral selector. That way, issues regarding the box level will be 
+        laregly avoided.
+
+
+
+
+   --> 
