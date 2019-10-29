@@ -94,6 +94,4 @@ Stretch Questions
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the fix for the box model? 
 
-
-
    --> 
