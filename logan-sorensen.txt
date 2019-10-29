@@ -1,3 +1,5 @@
+    Project link: https://codepen.io/lsorensen/pen/rNNGeBB
+    
     1. What is Semantic HTML? 
         Semantic HTML refers to elements that give meaning. Tags like <p>, <header> and <section> are all examples of semantic HTML. Tags like <span> and <div> are non-semantic.
     2. What is HTML used for? 
