@@ -34,8 +34,8 @@
     18. How to we select an element? Example - every h2 on the page
         Selecting an element simply requires that you type the name of the element (e.g. h2 {})
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
-        An id can only be used to refer to one element per page, whereas a class can be used as many times as necessary. A class might be applied to all headings on the page in order
-        to format them in an identical way. An id might be used to refer to one specific <div> in order to style it differently from the rest.
+        An id can only be used to refer to one element per page, whereas a class can be used as many times as necessary. A class might be applied to all headings 
+        on the page in order to format them in an identical way. An id might be used to refer to one specific <div> in order to style it differently from the rest.
     20. How do we select classes in CSS?
         Classes can be selcted using the "."
     21. How do we select a p element with a single class of “human””?
@@ -52,11 +52,12 @@
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
         The properties "uppercase", "lowercase", and "capitalize" will perform these changes.
     28. How do I add a 1px border around my div that is dotted and black?
-        The code for this would look like:      div {
-                                                  border-style: dotted;
-                                                  border-width: 1px;
-                                                  border-color: black; 
-                                                }
+        The code for this would look like:      
+            div {
+              border-style: dotted;
+              border-width: 1px;
+              border-color: black; 
+            }
     29. How do I select everything on the page? 
         Using the universal selector "*" will select everything on the page.
     30. How do I write a comment in CSS?
@@ -68,10 +69,20 @@
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
         Typing "rm <file name>" will remove that file from your computer. No prompt will appear to confirm this, and the file will not be recoverable through traditional means.
     34. Why should I use version control? 
-        Version control 
+        Version control allows a user to return to previous versions of a file or directory in order to see that changes that were made in that specific version. 
     35. How often should I commit to github?
+        Changes should be commited roughly every 20 minutes.
     36. What is the command we would use to push our repo up to github? 
+        "git push origin firstname-lastname" will push the repo back to github.
     37. Walk me through Lambda's git flow. 
+        - Fork the repo
+        - Add the TL as a collaborator
+        - Clone the repo
+        - Create a branch to work in
+        - After all the work is finished, changes must added, committed, and pushed to github 
+        - Submit a pull request comparing the new branch with the master student fork
+        - Add the TL as a reviewer
+        - TL will review the changes and merge the branch into the master student fork
 
 Stretch Questions
 
