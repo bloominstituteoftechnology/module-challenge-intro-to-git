@@ -82,9 +82,9 @@ https://codepen.io/derekjdyer/pen/pooWgBq
 
 Stretch Questions
 
-    1. What is the difference between an inline element and a block element?
+    1. What is the difference between an inline element and a block element? A block element takes the full width available and starts a new line
 
-    2. What happens when an element is positioned absolutely?
+    2. What happens when an element is positioned absolutely? It is positioned relative to its nearest ancestor. It scrolls with the page if none exists.
 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
 
