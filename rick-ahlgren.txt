@@ -70,7 +70,8 @@
         stuff goes here
     }
     
-    22. What is a parent child selector? When would this be useful? 
+    22. What is a parent child selector? When would this be useful?
+    A parent child selector (>) is used when you want to style an element that is a child to another element, so if you wanted to style a p element under a specific section without styling the entire section or other p elements. 
     
     23. How do you select all links within a div with the class of sidebar?
     .sidebar a {
