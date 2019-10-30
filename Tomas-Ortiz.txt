@@ -1,0 +1,179 @@
+https://codepen.io/TomasOrtiz/pen/qBBPazZ?editors=1100
+1. What is Semantic HTML? 
+	Semantic HTML is to give your HTML meaning. An example would be <section>
+
+2. What is HTML used for? 
+
+	HTML is used for the structure of a web site. It's the foundation of your website and is used to display text, hyperlinks and images.
+3. What is an attribute and where do we put it? 
+
+	You would put it inside of the tag you want to give an attribute to. An example would be an anchor like this :<a href=""> or an image like <img src="">
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+	An H1 is used to display text in the form of a Headline. It is the largest one and should only be used once since the SEO will grab information from it.
+
+5. Name two tags that have required attributes
+	anchor <a> and image <img>
+
+6. What do we put in the head of our HTML document? 
+	It's usually the title of the page you can see in your browser tab. You can put a <link rel> to link your style sheet or a <style> tag.
+
+    7. What is an id? 
+	An id is similar to a class, but it is unique and can only be used once. An id take priority over a class and is important when we get into Javascript.
+
+    8. What elements can I add an id to? 
+
+	Lots of them. anchors, divs, spans, paragraphs and so on.
+
+    9. How many times can I use the same id on a page? 
+
+	Once.
+
+    10. What is a class? 
+
+	A class is similar to an id, only you can add them as many times as you'd like. They're important for when you want to target and apply css to an element.
+
+    11. What elements can I add a class to? 
+
+	I can't think of anything you couldn't add them to. 
+
+    12. How many times can I use the same class on a page? 
+
+	As many as you'd like.
+
+    13. How do I get my link to open in a new tab?
+	
+	You would need to use the target="_blank" attribute in the anchor tag.
+
+    14. What is the alt attribute used for? 
+	
+	Alt will use the backup link you've put in it in case it doesnt load correctly. It's important for accessibility.
+
+    15. How do I reference an id?
+	# before the element 
+
+    16. What is the difference between a section and a div
+
+	A div is a container for anything and a section is semantic HTML to tell the developer that this is for a section of a page similar to a wrapper. They each may have different block rules but i don't know. i would if i googled it first!
+
+    17. What is CSS used for? 
+
+	CSS is used to target HTML to give it style. Different colors, positioning and rules.
+
+    18. How to we select an element? Example - every h2 on the page
+	you can use css like this h2 {
+	color: red;
+}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+	I have already explained the difference, but if you wanted to make a link within a page to take the user to a certain part of the page, you can use an id to take them there.
+
+    20. How do we select classes in CSS?
+
+	you put a . first and then give the rules in your css page. in the html side you would make something like this <span class="">Hi!</span>
+
+    21. How do we select a p element with a single class of “human””?
+
+	.p human or just .human for all of the paragraphs with human in the tag class.
+
+    22. What is a parent child selector? When would this be useful? 
+
+	From my understanding, lets say you have a <p></p> Now lets nest a <span></span> inside of it. The parent is the <p> and the child of that is the <span>. If you wanted to target the span inside of it, you would use a parent child selector to get that done.
+
+    23. How do you select all links within a div with the class of sidebar?
+	
+    24. What is a pseudo selector?
+
+	I haven't heard of but i've used it. this is from moz: "A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). For example, :hover can be used to change a button's color when the user's pointer hovers over it"
+	Now i know!
+
+    25. What do we use the change the spacing between lines?
+
+	Im going to guess it has to do with the Box Model? so padding, border and margin? i guess it depends.
+
+    26. What do we use to change the spacing between letters?
+
+	I don't know, but it could be related to my answer in 25. it depends on which one.
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+	in css target the element or class and put in lowercase: uppercase: or capitalize:
+
+    28. How do I add a 1px border around my div that is dotted and black?
+	border: dotted;
+	border-color: black;
+	border-width: 1px, 1px, 1px, 1px;
+
+    29. How do I select everything on the page? 
+	the wildcard selector *
+
+    30. How do I write a comment in CSS?
+
+	/* comment here */ but i use ctrl / as a shortcut in VS Code
+
+    31. How do I find out what file I am in, when I am using the command line? 
+
+	I just look on the left to see what folder im in if im using CLI. You can also use "pwd".
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+	ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+	rm and you have to be careful because it wont ask for confirmation and once its gone, it's gone.
+
+    34. Why should I use version control? 
+
+	To make things more organized by not having a bunch of individual backup files and to work on the same thing at the same time with other developers. You can also roll back easily to a previous working branch if something is incompatible or goes horribly wrong.
+
+    35. How often should I commit to github?
+
+	Every 20 minutes or when you want to make sure you save an important change.
+
+    36. What is the command we would use to push our repo up to github? 
+
+	git push origin master
+
+    37. Walk me through Lambda's git flow. 
+
+	I can't by memory, i admit. I'm struggling right now but it isnt permanent.
+
+	The Lambda School Git Flow
+	Student will create OWN version of Repo (Fork)
+	Student will add TL as a collaborator
+	Student then will Clone Repo
+	Student will then create a branch (on which the student will implement the project) git checkout -b 'firstName-lastName'
+	Student will then submit their PR into the new branch.
+	Student will use their own student fork as the base (compare across forks).
+	Student will add their TL as a reviewer on the PR
+	TL then will count the HW as done by merging the HW back into master “STUDENT FORK”.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+	
+	A block-level element always starts on a new line and takes up the full width.
+	An inline element doesn't start on a new line and only takes up as much width as it can. I've had trouble with this in the past so i've had to use css to define how much a block element can with %.
+	
+    2. What happens when an element is positioned absolutely? 
+
+	Once it's absoulte it will be like that for all browsers.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+	something like display: inline; or :block; and you'd give the width: a value of a % or px.
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+	display block: <h1-h6> a list item <li> and a <blockquote>
+	display inline: <a> and <img>
+	display inline-block: <button> and <select>
+
+    5. In your own words, explain the box model. What is the fix for the box model? 
+
+	this is a tough one to explain myself, but the box model consists of content, padding, border and margin. these are the rules on all html elements and they're all different. If you wanted to modify them, you can use css to target each side of the box and it always goes clockwise to define which side you want to modify. so heres an example of what it would look like : margin: 0 auto 0 auto;
+	yikes. i've done it before but it's hard for me to articulate. i do know the rules though.
+
+
+   --> 
