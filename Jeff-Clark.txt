@@ -37,4 +37,4 @@
     37. Walk me through Lambda's git flow. fork the project, clone, create new branch, add, commit, push to github, create a pull request and add TL to the pull request.
 
 
-https://codepen.io/jeffclarktopeka/pen/QWWqEw
+https://codepen.io/jeffclarktopeka/pen/QWWqEwb
