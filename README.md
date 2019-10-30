@@ -161,7 +161,14 @@ https://codepen.io/llpookyll/pen/MWWEeab
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        block elements naturally span the eniter page and are stacked vertically inline elements are as wide as the content inside them and are orderd horizontally
+
     2. What happens when an element is positioned absolutely? 
+        It's positioned in the parent elemement wherever you tell it to (center, top right, top left, etc..)
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    Display: inline-block;
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+     block elements: <div>, <p>, <section>. Inline elements:<span>, <map>. Inline block: <img>.
     5. In your own words, explain the box model. What is the fix for the box model? 
+        the box model is used for positioning of elements in css and the over all page layout.
