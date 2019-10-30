@@ -99,7 +99,7 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
     Then we committed the changes using  git commit -m “our message”
     Then we need to use git push to publish our local commits
     Now we should be able to see these changes
-    You can check the status in between by using git status
+    You can check the status in between by using git status.
         
 
 Stretch Questions
