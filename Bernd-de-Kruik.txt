@@ -155,7 +155,7 @@ Stretch Questions
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
         display: inline-block
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-        Article, aside and address.
+        Article, aside and address have block by default. Map and output have inline by default. Img is inline-block by default.
     5. In your own words, explain the box model. What is the fix for the box model? 
         Distribution of different parts which form around an element. Margin is around the border, allowing to create space between borders for instance. This creates quite the mess since it builds up layers around the content.
         The fix for this is the box-sizing: border-box, which instead setting the inner borders sets the outer border (aside from margin) and shapes the content size depending on the different layers. 
