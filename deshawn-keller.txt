@@ -1,0 +1,123 @@
+https://codepen.io/mrkeller83/pen/PooJmoE
+
+
+<div class="shop">
+<header>  
+<h1>Learning How to Code</h1>
+<div class="lead">
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aperiam earum mollitia enim pariatur atque asperiores, deserunt fuga iure distinctio! Amet iste facilis odio rerum maiores neque laboriosam non aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eius officia reprehenderit dicta molestiae, excepturi inventore aut officiis! Perspiciatis, molestias tempora et nesciunt amet sint blanditiis eos voluptatibus ut facilis!</p>
+  </div>
+</header>
+<section class="top">
+  <h2>I'm a title</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus minima porro, aspernatur esse iure quas vero totam ea cupiditate numquam accusamus enim, eius neque molestiae minus. Aliquam non repudiandae, sunt!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto illo expedita ducimus incidunt similique voluptatum, error minus tenetur accusamus modi perferendis libero inventore quo, tempora. Repellendus quam eligendi, aliquid nobis.</p>
+</section>
+<section class="middle">
+  <h2>This is another section</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto possimus, reiciendis consequatur inventore mollitia ipsa sed quibusdam! Aut nemo voluptatibus modi iste repudiandae ea beatae suscipit. Officia omnis laudantium quasi.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, ratione doloribus nam officia reiciendis eligendi architecto maxime quisquam unde non, illo libero iure aut ad consequuntur animi modi, recusandae voluptatum!</p>
+</section>
+<section class="flix">
+   <img src="https://unsplash.it/200/200">
+   <img src="https://unsplash.it/200/200">
+    `   <img src="https://unsplash.it/200/200"> 
+   <img src="https://unsplash.it/200/200">
+</section>
+</div>
+
+
+
+
+
+
+
+
+
+Questions!
+
+1. What is Semantic HTML? A markup language that puts things in order from the most important to the least important 
+    
+2. What is HTML used for? To create electronic documents on the world wide web.
+
+3. What is an attribute and where do we put it? a value and is associated with an object, in the begining of the element that we are trying to specifiy.
+
+4. What is the h1 tag used for? How many times should I use it on a page? H1 tag is for the title or the main headline on a page and it should only be used once on a page.
+
+5. Name two tags that have required attributes? a href and the src attribute
+
+6. What do we put in the head of our HTML document? <html><head><body>
+
+7. What is an id? The id attribute specifies a unique id for an HTML element
+
+8. What elements can I add an id to? All the elements
+
+ 9. How many times can I use the same id on a page? Once
+
+10. What is a class? The .class selector selects elements with a specific class attribute.
+
+11. What elements can I add a class to? Any
+
+12. How many times can I use the same class on a page? As many as needed
+
+13. How do I get my link to open in a new tab? target="blank"
+
+14. What is the alt attribute used for? Alternative source for a image
+
+15. How do I reference an id? Using "#"
+
+16. What is the difference between a section and a div? Div tag is used to group block elements, while section tag defines a section in a document.
+ 
+17. What is CSS used for? For styling an HTML page, meaning colors and images
+ 
+18. How to we select an element? Example - every h2 on the page h2{
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one? A ID uses the "#" and you use this when you are defining only one and a class "." can be used more than once. 
+
+20. How do we select classes in CSS? Using "." example .sorry{
+
+21. How do we select a p element with a single class of “human””? .p human{
+
+22. What is a parent child selector? When would this be useful? A precise way to target elements at certain points in documents. If you wanted to grab all of the granchildren and have them styled a certain way this feature allows that to happen.
+
+23. How do you select all links within a div with the class of sidebar? <div class="sidebar"> .sidebar{
+    
+24. What is a pseudo selector? specifies a special state of the selected element
+
+25. What do we use the change the spacing between lines? ine spacing
+
+26. What do we use to change the spacing between letters? letter-spacing
+
+27. What do we use to to change everything to CAPITALS? text-transform: uppecase; lowercase? text-transform: lowercase Capitalize?
+    
+28. How do I add a 1px border around my div that is dotted and black?
+
+29. How do I select everything on the page? "*" wild card
+
+30. How do I write a comment in CSS? /* and end with */
+
+31. How do I find out what file I am in, when I am using the command line? dir
+ 
+32. Using the command line - how do I see a list of files/folders in my current folder? ls
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? rm there is nno prompt telling  you that it has been done or that you are sure and it is completely removed from your computer.
+ 
+34. Why should I use version control? Helps us if something breaks we have a launch pad to start from and this is also how we can take code and display it in a whole different situation.
+ 
+35. How often should I commit to github? Every 20-25 mins but as often as needed
+
+36. What is the command we would use to push our repo up to github? git push 
+    
+37. Walk me through Lambda's git flow? forking our own copies and being able to build branches which helps for team coding. The branching helps TL because they get to see where your strengths and weaknesses are. 
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element? Block elements
+
+    2. What happens when an element is positioned absolutely? It is taken out of the flow.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? inline-block
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default? Inline display, inline-block, display: block
+ 
+    5. In your own words, explain the box model. What is the fix for the box model? Box model stars off with  the margin with is closer to the outside of the page then the border which separates away from the padding.  Padding is the intial item that is separated from your code or image. A fix would be when you only put tosides to the box and have the rest auto fill
