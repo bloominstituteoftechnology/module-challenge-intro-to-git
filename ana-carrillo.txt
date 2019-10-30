@@ -1,0 +1,102 @@
+https://codepen.io/acarrillo9724/pen/wvvrzjP?editors=1100
+
+<!-- reveiw questions to Submit in today's file firt-lastname.txt --> 
+<!--
+Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+    A semantic html gives text meaning which makes the text easier for humans and computers to read.
+    2. What is HTML used for? 
+    HTML is used for creating a document in a structured format.
+    3. What is an attribute and where do we put it? 
+    An attribute gives reference to more information. It usually goes <a> with link in side such as <a href"somelink.here">.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    h1 tag is used for making a title important by making it bigger and bolder. You can use it as many times you want to make a title important. 
+    5. Name two tags that have required attributes
+    <a href""> <img href"">.
+    6. What do we put in the head of our HTML document? 
+    Title tag, discribtions, or keywords. this thosse show on you webpage.
+    7. What is an id? 
+    An id is a type of attribute identifier only able to use once per page.
+    8. What elements can I add an id to?
+    You can use any element such as <p> <h1> ... 
+    9. How many times can I use the same id on a page? 
+    Only once.
+    10. What is a class? 
+    A class you can use it more than once it can specify more than one tag.
+    11. What elements can I add a class to?
+    You can use a class on any element such as h1, p, sections, div, etc. 
+    12. How many times can I use the same class on a page? 
+    As many times as you wish .
+    13. How do I get my link to open in a new tab?
+    by using the target attribute equals to _blank after the href link.
+    14. What is the alt attribute used for?
+    Its alternative text to an image.
+    15. How do I reference an id?
+    by using the #
+    16. What is the difference between a section and a div?
+    A section tag can help define a a header, content, or footer.
+    And a div usually divides a page or section.
+    17. What is CSS used for? 
+    To style the html making a website more stiyish
+    18. How to we select an element? Example - every h2 on the page
+    By using the curly brackets after ex: h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    Class Name you can use it on multiple element while an ID name you can only used it once on page.
+    A class name often is used on h1, p, sections, divs.
+    An id name would be used on the header another id name on the footer another id per nav element, etc. 
+    20. How do we select classes in CSS?
+    By using a period before the class name.
+    21. How do we select a p element with a single class of “human””?
+    .human p{}
+    22. What is a parent child selector? When would this be useful? 
+    Is an element that inside another element. This is useful when you want to select an element that is nested another element.    
+    23. How do you select all links within a div with the class of sidebar?
+    I guess use #sidebar a {} for each link on the css file.
+    24. What is a pseudo selector?
+    It styles more the selected element for example the :hover changes when you hover the mouse over selected element on the page.
+    25. What do we use the change the spacing between lines?
+    Line-height property.
+    26. What do we use to change the spacing between letters?
+    The letter spacing property.
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    Use the text-transform property.
+    28. How do I add a 1px border around my div that is dotted and black?
+    Use the boder property.
+    29. How do I select everything on the page?
+    Used the universal property *. 
+    30. How do I write a comment in CSS?
+    Using -->
+    31. How do I find out what file I am in, when I am using the command line? 
+    type ls 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    type ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    Use rm -r [name of file to be remove] once you do this it will be erase for ever.
+    34. Why should I use version control? 
+    Records changes to a file.
+    35. How often should I commit to github?
+    At least every 20 minutes or every time a change is made.
+    36. What is the command we would use to push our repo up to github? 
+    Git push
+    37. Walk me through Lambda's git flow. 
+    open training kit, open the link with git project, fork to my accont, add TL to collab, clone, do what its ask on th VSC, git add, git commit -m "notes here", git push, pull request, add TL as reviewer, get the link, summit daily report.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    A block element usually starts on new line takes a lot of width for instance <div>. While inline elements usuallly are within the text like <span> or <i>
+    2. What happens when an element is positioned absolutely? 
+    It overlaps other elements
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    Selecting the element on css, the giving it the properties of width, padding, margin, etc.
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    block 
+    block elements: <div>, <p>, <u>. Inline elements: <em> or <span>. inline-block: <p>
+    5. In your own words, explain the box model. What is the fix for the box model? 
+    The box model would be the desing or layout. It has a margin,a border, a padding, and the actual content the width and the hieght can also be modified. 
+
+I made this last add for practice
+
+
+   --> 
