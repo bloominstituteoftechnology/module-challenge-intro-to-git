@@ -1,0 +1,165 @@
+https://codepen.io/morbidmiyako/pen/qBBPZzp?editors=1100
+
+<!--1. fork this codepen so that you have a copy on your account -->
+<!--2. Add HTML and CSS to make the codepen look like the example: https://codepen.io/BritHemming/full/jONmxOm  - note that you can change the colours but everything else must look the same -->
+<!-- 3. include the link to this completed codepen at the top of today's file first-lastname.txt --> 
+<!-- 4. when you are finished - answer the review questions at the bottom of this file -->
+<div class="whole" >
+  <section>
+    <header>
+      <h1>    
+        Learning How to Code
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aperiam earum mollitia enim pariatur atque asperiores, deserunt fuga iure distinctio! Amet iste facilis odio rerum maiores neque laboriosam non aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eius officia reprehenderit dicta molestiae, excepturi inventore aut officiis! Perspiciatis, molestias tempora et nesciunt amet sint blanditiis eos voluptatibus ut facilis!
+      </p>
+    </header>
+  </section>
+  <section class="article">
+    <h2>
+      I'm a title
+    </h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus minima porro, aspernatur esse iure quas vero totam ea cupiditate numquam accusamus enim, eius neque molestiae minus. Aliquam non repudiandae, sunt!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto illo expedita ducimus incidunt similique voluptatum, error minus tenetur accusamus modi perferendis libero inventore quo, tempora. Repellendus quam eligendi, aliquid nobis.
+    </p>
+  </section>
+  <section>
+      <h3>
+        This is another section
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto possimus, reiciendis consequatur inventore mollitia ipsa sed quibusdam! Aut nemo voluptatibus modi iste repudiandae ea beatae suscipit. Officia omnis laudantium quasi.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, ratione doloribus nam officia reiciendis eligendi architecto maxime quisquam unde non, illo libero iure aut ad consequuntur animi modi, recusandae voluptatum!
+      </p>
+  </section>
+  <section>
+      <img src="https://unsplash.it/200/200">
+      <img src="https://unsplash.it/200/200">
+      <img src="https://unsplash.it/200/200"> 
+      <img src="https://unsplash.it/200/200">
+  </section>
+</div>
+
+<!-- reveiw questions to Submit in today's file firt-lastname.txt --> 
+<!--
+Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+        HTML5, rules agreed upon by the webdev community to keep it simple yet give meaning to each part of the HTML code.
+    2. What is HTML used for? 
+        Used to lay out the text, images and apps creating the framework.
+    3. What is an attribute and where do we put it? 
+        Its additional information put in a tag, such as classes or links.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        Its used for the most important title, h1-h6 are used to rank importance of titles.
+    5. Name two tags that have required attributes
+        Img and anchor.
+    6. What do we put in the head of our HTML document? 
+        All the scripts.
+    7. What is an id? 
+        A single use class/attribute.
+    8. What elements can I add an id to? 
+        Elements used in CSS.
+    9. How many times can I use the same id on a page? 
+        ONCE.
+    10. What is a class? 
+        A reusable id, more specific than a tag. Falls under attribute.
+    11. What elements can I add a class to? 
+        Same rules as an id.
+    12. How many times can I use the same class on a page? 
+        As often as desired
+    13. How do I get my link to open in a new tab?
+        target ="_blank"
+    14. What is the alt attribute used for? 
+        If the browser is not supporting the first attribute, it can switch to the second.
+    15. How do I reference an id?
+        #
+    16. What is the difference between a section and a div
+        A section has more meaning than div.
+    17. What is CSS used for? 
+        Styling
+    18. How to we select an element? Example - every h2 on the page
+        h2 {
+
+        }
+        (by referencing the element in CSS as written in html)
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        Mainly for javascript, id is more specific and has a 1 time use per id.
+    20. How do we select classes in CSS?
+        .
+    21. How do we select a p element with a single class of “human””?
+        p.human
+    22. What is a parent child selector? When would this be useful? 
+        If you want to specify the paragraph in a header without having to create a class or reference the paragraph in section.
+    23. How do you select all links within a div with the class of sidebar?
+        Div.sidebar a OR div a.sidebar depends on how you read it.
+    24. What is a pseudo selector?
+        For instance :hover
+    25. What do we use the change the spacing between lines?
+        line-height: 
+    26. What do we use to change the spacing between letters?
+        letter-spacing:
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: uppercase, lowercase, capitalize.
+    28. How do I add a 1px border around my div that is dotted and black?
+        border: 1px dotted black
+    29. How do I select everything on the page? 
+        body, since body is less specific then universal (if i understood you right justing)
+    30. How do I write a comment in CSS?
+        <!-- comment -->
+    31. How do I find out what file I am in, when I am using the command line? 
+        its written in the line above the blinking cursor? 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm, there is no undo option for this command. so deleted is deleted.
+    34. Why should I use version control? 
+        To easily track and safegaurd progress and revert to not-broken versions if problems occur.
+    35. How often should I commit to github?
+        every 20 minutes
+    36. What is the command we would use to push our repo up to github? 
+        git push -u origin
+    37. Walk me through Lambda's git flow. 
+            Student will create OWN version of Repo (Fork)
+            Student will add TL as a collaborator
+            Student then will Clone Repo
+            Student will then create a branch (on which the student will implement the project) git checkout -b 'firstName-lastName'
+            Student will then submit their PR into the new branch.
+            Student will use their own student fork as the base (compare across forks).
+            Student will add their TL as a reviewer on the PR
+            TL then will count the HW as done by merging the HW back into master “STUDENT FORK”.
+            Why would you learn this flow?
+            You will work in a specific environment when you go out and get a job as a software developer.
+            Learning a broad approach to different git strategies will help you thrive in any specific environment.
+            Some strategies you will see in the real world are:
+            Forking
+            Branching
+            By learning this flow, you will become a master of both forking and branching.
+            Also, here at Lambda School, we have hundreds of students working with dozens of TLs every day. This flow will help you all collaborate on your work together.
+            We will have a firm understanding of where you’re at with your skills and abilities as you continue to progress.
+            Follow Along
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+        a block element will break a line and use the size allocated by the parent element, while inline can be inside a line and is defined by tags. 
+        block = litteral block not allowing sibbling elements left/right of it while inline does allow sibblings left/right of it.
+    2. What happens when an element is positioned absolutely? 
+        it's location is fixed to the body of the site, regardless of other elements.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        display: inline-block
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        Article, aside and address.
+    5. In your own words, explain the box model. What is the fix for the box model? 
+        Distribution of different parts which form around an element. Margin is around the border, allowing to create space between borders for instance. This creates quite the mess since it builds up layers around the content.
+        The fix for this is the box-sizing: border-box, which instead setting the inner borders sets the outer border (aside from margin) and shapes the content size depending on the different layers. 
+
+
+
+   --> 
