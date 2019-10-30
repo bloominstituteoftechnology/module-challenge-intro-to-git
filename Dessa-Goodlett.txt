@@ -92,7 +92,15 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
     36. What is the command we would use to push our repo up to github? 
     git push origin 'firstname-lastname'
     37. Walk me through Lambda's git flow. 
-    
+    First we forked the repo
+    Then we cloned the repo - git clone URL
+    Then we made some changes and ran a git status
+    Then we staged the changes using git add .
+    Then we committed the changes using  git commit -m “our message”
+    Then we need to use git push to publish our local commits
+    Now we should be able to see these changes
+    You can check the status in between by using git status
+        
 
 Stretch Questions
 
