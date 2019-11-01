@@ -1,0 +1,8 @@
+Stretch git tasks
+
+Merge conflict:   They happen when multiple changes are done over different versions to the same elements, whether they are to the same document or file. Since the changes are to the same file that is trying to merge, there is a conflict as to which version gets added.
+	To resolve the conflict, you may need to make changes to the competing lines of code that are causing the conflict. You may also have to resolve the conflict locally before the change gets pushed to the repo.
+
+Commands: pull, rebase, merge:
+	pull will get and merge changes from a remote server and merge them into your own working directory.
+	
