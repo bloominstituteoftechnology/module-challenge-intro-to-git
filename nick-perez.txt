@@ -43,7 +43,20 @@ https://codepen.io/nickperez1285/pen/GRROPXZ?editors=1100
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    inline elements for not cause line breaks and do not take up the full width of a page.Block elements alwars start on a new line and take up the full width of a 
+
     2. What happens when an element is positioned absolutely? 
+    Its  margins do not collapse with other margins and is positioned to its closest ancestor or initial containing block
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+    ?
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+    Display block elements inlcude article, caption and center . Display inline elements include input and textarea. Display inline-block elements include button
+
+
     5. In your own words, explain the box model. What is the fix for the box model? 
+     Every elements within an web page exsists within a "box" wherein its displayble attributes can be adjusted as desired 
+
