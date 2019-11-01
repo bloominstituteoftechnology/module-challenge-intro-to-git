@@ -1,0 +1,23 @@
+https://codepen.io/matsonaaron1/pen/GRROPLj?editors=1100
+
+
+Review Questions:
+1. What is the difference between an inline element and a block element?
+
+The Inline Element doens not cause a line break and does not take up the full width of the page, only the space bounded by its opening and closing tag. It is usually used within other HTML elements.
+
+2. What happens when an element is positioned absolutely?
+
+It's positioned relative to its nearest positioned ancestor.
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+
+Give it padding/margins around the element.
+
+4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+<p>, <li>, <H tags> --- Display block
+<textarea>, <input> ---Display inline
+
+5. In your own words, explain the box model. What is the fix for the box model?
+The box model is a CSS term that refers  to having a box wrapped around ever HTML element that consists of margins, padding, borders, and the content inside of the box. The downside to the box model is that it fights against the designer's thoughts and design process, but also creates fragile layouts and breaks when an element is too big. From the research that I have done, it appears that there is an element that helps fix this issue. It is box-sizing:border-box. It basically tells the browser to account for any border and padding in the values that you specify for an elements width and height.
