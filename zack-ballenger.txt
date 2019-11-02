@@ -1,0 +1,102 @@
+<!-- reveiw questions to Submit in today's file firt-lastname.txt --> 
+<!--
+Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML?
+ Literally "meaningful"
+    2. What is HTML used for? 
+To build the bare bones of a site, and to help accessibility programs know where to read and what to read. 
+    3. What is an attribute and where do we put it? 
+Attributes change things about the HTML element and we put them within the opening/closing brackets.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+h1 tags are the largest and primary header on a page, and as such should only be used once. 
+    5. Name two tags that have required attributes
+    6. What do we put in the head of our HTML document?
+ A header? If that's not what you're asking, then a container? Semantic markups? 
+    7. What is an id? 
+It's an element with very high specificity, but not as much as <baobab> lol
+    8. What elements can I add an id to? 
+Any that require it, but it's best not to use them like crazy.
+    9. How many times can I use the same id on a page? 
+1
+    10. What is a class? 
+I may have this wrong but I think it's just a way to add a bit of specificity to tags so that you can then invoke them specifically in CSS
+    
+11. What elements can I add a class to? 
+I'm not sure the whole list, but I've used them almost exclusively in divs
+
+    12. How many times can I use the same class on a page? 
+As much as you want but it'll make things confusing when you're styling lol but I think you should only really use it once unless you know exactly why you're using the same class multiple times.
+
+    13. How do I get my link to open in a new tab?
+I honestly just google this but you just change things up in HTML like link first, then, apparently throw target="_blank" that bad boy in the mix and you're golden>
+
+    14. What is the alt attribute used for? 
+It's a semantic description of an image should it fail to load or need to be read for a blind person. 
+
+    15. How do I reference an id?
+Like invoke it? Just .id, right?
+
+    16. What is the difference between a section and a div
+Semantics
+
+    17. What is CSS used for? 
+It allows styling to be done in a "cascade", which just means it's a way to apply styling in varyingly specific ways.
+
+    18. How to we select an element? Example - every h2 on the page
+just do 
+h2 {
+
+}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+Specificity. You'd use a class to describe a broad span of text and stuff the needs to be styled the same way, and you'd use id if there were some very specific part of the page you want to invoke.
+
+    20. How do we select classes in CSS?
+.class
+
+    21. How do we select a p element with a single class of “human””?
+.human p {}
+    22. What is a parent child selector? When would this be useful? 
+    23. How do you select all links within a div with the class of sidebar?
+.sidebar a{
+
+}
+    24. What is a pseudo selector?
+They're a way to tell our code to only access some something when its state is changed, like if you had to only select links when they're hovered over
+
+    25. What do we use the change the spacing between lines? 
+line-height
+
+    26. What do we use to change the spacing between letters?
+space-between
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform: uppercase
+    
+28. How do I add a 1px border around my div that is dotted and black?
+border: border: 10px dotted black
+    
+29. How do I select everything on the page? 
+I think it' probably better to put everything in a container, but you could also use a universal selector
+
+    30. How do I write a comment in CSS?
+<! >
+    
+31. How do I find out what file I am in, when I am using the command line? 
+ls
+
+    32. Using the command line - how do I see a list of files/folders in my current folder? You could cd back to your parent directioy then ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+git rm "file name"
+    
+34. Why should I use version control? 
+We need to go back to certain points along the tail of versions, to save a lot of work and apprehension.
+
+    35. How often should I commit to github?
+As often as you can
+
+    36. What is the command we would use to push our repo up to github? 
+git push
+
+  
