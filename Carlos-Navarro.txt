@@ -1,0 +1,94 @@
+    1. What is Semantic HTML? 
+	R= Semantic HTML ia html that introduces meaning to the webpage rather than just presentation. 
+    2. What is HTML used for? 
+	R= HTMl is used to create electronic documentsthat are diaplayed in the world wide web.
+    3. What is an attribute and where do we put it?
+	R= Attributes provide additional information about the contents of an element, they are used on an oppening tag of an element, and are made of 2 parts "name" and " value".
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	R= The h1 tag is used for a main heading. You should only use one h1 tag unless absolutly neccessary.
+    5. Name two tags that have required attributes
+	R= These are to tags that require attributes IMg tag and INPUT tag.
+    6. What do we put in the head of our HTML document? 
+	R = The head can contain anything from the css or javascript likes to the frameworks, plugins or meta data tags, title tags etc.
+    7. What is an id? 
+	R= The ID is an attribute that specifies a unique ID for an HTML element.
+    8. What elements can I add an id to? 
+	R= Every HTML element can carry the ID attribute it is used to uniquely identify that element.
+    9. How many times can I use the same id on a page? 
+	R=You can only use an id with the same name once.
+    10. What is a class? 
+	R= The class is an attribute which specifies one or more class names for an HTML element.
+    11. What elements can I add a class to? 
+	R= Every HTML element can carry a class attribute.
+    12. How many times can I use the same class on a page?
+	R=  You can only use the same class once but you can use multiple classes on a page.
+    13. How do I get my link to open in a new tab?
+	R= You can just right click the link and it should open a new tab.
+    14. What is the alt attribute used for? 
+	R= The alt attribute specifies an alternate text for an image, if the image cannot be displayed.
+    15. How do I reference an id?
+	R= To reference an ID in css you use the hash# symbol example (#thisisanid {})
+    16. What is the difference between a section and a div
+	R= The section tag defines sections in a document, suah as chapters, headres, footers or any other sections of a document. 
+	The div tag defines a division or a section in a html document. 
+    17. What is CSS used for? 
+	R= CSS is used for styling an html page.
+    18. How to we select an element? Example - every h2 on the page
+	R= To select an element you put the element name on CSS example (h2 {})
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	R= A class is a way to identify several elements, an ID is a way to identify a unique element. You can use a class on a div, header, section, footer etc
+	You can only use an ID on unique things like a Newsletter a Quote or anything that is displyed once.
+    20. How do we select classes in CSS?
+	R= To select a class in CSS you use the period symbol. Example (.thisisaclass)
+    21. How do we select a p element with a single class of “human””?
+	R= To selct that class you can use ( p .human).
+    22. What is a parent child selector? When would this be useful?
+	R= The parent child selector selects all elements that are a direct child of the specified element. When selecting specific tags.
+    23. How do you select all links within a div with the class of sidebar?
+	R= You use a .sidebar.
+    24. What is a pseudo selector?
+	R= A pseudo selector is a selector that selects elements that are in a specifiic state, they are the first element of thier type. 
+    25. What do we use the change the spacing between lines?
+	R= We use line-height:1.5; this changes the spacing between lines.
+    26. What do we use to change the spacing between letters?
+	R= We use letter-sapcing: 2px; this changes the spacing between lines.
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	R= You dont use niether, You use text-transform: uppercase;
+    28. How do I add a 1px border around my div that is dotted and black?
+	R= You can select the div and class if it has any, then you use border:1px dotted black; this will give you the border.
+    29. How do I select everything on the page? 
+	R= With Windows you can use CTRL+A this will select everything on the page.
+    30. How do I write a comment in CSS?
+	R= To write a CSS coment you use these ( /* this is a css comment */ )
+    31. How do I find out what file I am in, when I am using the command line?
+	R= You use the CD commnd.
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	R= You use the LS command 
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+	R= You use git rm you have to be careful because this is not revirsable. It is deleted for good.
+    34. Why should I use version control? 
+	R= It is the best way to save changes directly to the same repository.
+    35. How often should I commit to github?
+	R= When you are finished with your changes.
+    36. What is the command we would use to push our repo up to github?
+	R= You will use git push
+    37. Walk me through Lambda's git flow. 
+	R= First you fork, then you clone, then you add files and changes, then you commit the changes and the you push the changes. 
+	then you create a pull request  
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+	R= Inline elements do not force a new line to begin in the document flow. Block elements on the other hand cause a line break to occur.
+    2. What happens when an element is positioned absolutely?
+	R= An element that is absolutely positioned is taken out of the flow.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+	R= I belive you use a div tag that way you can style it in css and give it margin and padding.
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+	R= 3 Block elements are H1, P, Ul. 2 Inline elements are Span, Img. 1 Inline-Block element is display: this is used in CSS
+    5. In your own words, explain the box model. What is the fix for the box model? 
+	R= The CSS box model is a box that wraps around every HTML element. The fix for the box model is Styling.
+
+
+This is the code pen link.
+	https://codepen.io/Juniordse/pen/qBBppog?editors=1100
