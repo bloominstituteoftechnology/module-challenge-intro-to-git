@@ -1,0 +1,96 @@
+link to part two of assignment https://codepen.io/jeremiah-scott/pen/QWWaprv
+
+
+- answer each question and then push your changes. 
+
+    1. What is Semantic HTML?
+	It is a using universal tags to help with search results and human readability. 
+    2. What is HTML used for?
+	It is the framework for almost all websites. 
+    3. What is an attribute and where do we put it? 
+	an attribute goes inside a tag to provide added info.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	It is used once for the main header.
+    5. Name two tags that have required attributes
+	<img> <a>
+    6. What do we put in the head of our HTML document? 
+	links to css and other metadata.
+    7. What is an id? 
+	a very specific attribute for css.
+    8. What elements can I add an id to?
+	Almost any. 
+    9. How many times can I use the same id on a page?
+	once.
+    10. What is a class? 
+	a broader attribute for css.
+    11. What elements can I add a class to? 
+	any.
+    12. How many times can I use the same class on a page? 
+	unlimited.
+    13. How do I get my link to open in a new tab?
+	target="_blank" inside your <a>
+    14. What is the alt attribute used for? 
+	Gives you alternative text or image if original fails.
+    15. How do I reference an id?
+	#
+    16. What is the difference between a section and a div
+	A div is more general
+    17. What is CSS used for?
+	TO give those webpages some style! 
+    18. How to we select an element? Example - every h2 on the page
+	h2 {
+	}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	A class will be used across the page and an id will only be used once. <section class="muti-sectional"> <h4 id="special">
+    20. How do we select classes in CSS?
+	#
+    21. How do we select a p element with a single class of “human””?
+	p .human{}
+    22. What is a parent child selector? When would this be useful?
+	alows selecting last or nth child. Usefull when trying to give one part of your page a cosistently different style.  
+    23. How do you select all links within a div with the class of sidebar?
+	div .sidebar
+    24. What is a pseudo selector?
+	is a keyword added to a selector that specifies a special state of the selected element. :hover
+    25. What do we use the change the spacing between lines?
+	{line-height: #;}
+    26. What do we use to change the spacing between letters?
+	letter-spacing: value;
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	text-transform: capitals/lower case;
+    28. How do I add a 1px border around my div that is dotted and black?
+	border: 1px dotted black;
+    29. How do I select everything on the page?
+	*{} 
+    30. How do I write a comment in CSS?
+	/* */
+    31. How do I find out what file I am in, when I am using the command line?
+	pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	rm its PERMANENT!
+    34. Why should I use version control?
+	To easily revert and share files to make sure everyone is working on the most up to date file in a team.
+    35. How often should I commit to github?
+	as often as possible if you dont like doing work over.
+    36. What is the command we would use to push our repo up to github?
+	 git push origin "git name"
+    37. Walk me through Lambda's git flow. 
+	Student will create OWN version of Repo (Fork)
+Student will add TL as a collaborator
+Student then will Clone Repo
+Student will then create a branch (on which the student will implement the project) git checkout -b 'firstName-lastName'
+Student will then submit their PR into the new branch.
+Student will use their own student fork as the base (compare across forks).
+Student will add their TL as a reviewer on the PR
+TL then will count the HW as done by merging the HW back into master “STUDENT FORK”.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model? 
+
