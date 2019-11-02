@@ -5,4 +5,5 @@ Merge conflict:   They happen when multiple changes are done over different vers
 
 Commands: pull, rebase, merge:
 	pull will get and merge changes from a remote server and merge them into your own working directory.
-	
+	rebase change the base of a branch from one commit to a different commit. It will look as if you hav created the new commit from a different one. 'While the base may look the same, it is made of different commits' You would use a rebase to make the version history appear more linear. It will give a cleaner, more logical move when looking back at earlier versions. Conflicts may be more common with a rebase since there might be longer branches off of the master that are not included and need to be incorporated into the new rebased version.
+	merge: is used to integrate changes from one branch into another. The branch that receives the changes is the head of the branch tree. Some complications would be merging elements into a stable branch that cause instabilities in the head code of the branch.
