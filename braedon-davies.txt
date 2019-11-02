@@ -1,0 +1,87 @@
+https://codepen.io/daviesb5/pen/jOOYmgJ?editors=1100
+
+
+    1. What is Semantic HTML? HTML that gives meaning and structure to a web-page.
+    2. What is HTML used for? Create the main material of a web-page.
+    3. What is an attribute and where do we put it? A characteristic pertaining to a page element.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        Heading level 1, which designates page content; once, because its the main heading.
+    5. Name two tags that have required attributes: a with need an achor tag, img tags will need a src.
+    6. What do we put in the head of our HTML document? Metadata for our webpage (e.g. <title>,<style>,<meta>)
+    7. What is an id? An attribute that specifies a unique HTML element (i.e., only one element)
+    8. What elements can I add an id to? Any standard HTML element (e.g., <header>, <h1>, <div>, <section>, <p>)
+    9. How many times can I use the same id on a page? Only once
+    10. What is a class? An attribute that groups together HTML elements (groups of either the same tag or different tags)
+    11. What elements can I add a class to? Any standard HTML element (e.g., <header>, <h1>, <div>, <section>, <p>)
+    12. How many times can I use the same class on a page? There's no set limit
+    13. How do I get my link to open in a new tab? Set a target to "_blank"
+    14. What is the alt attribute used for? Alternative text, if an image cannot be displayed
+    15. How do I reference an id? With the the pound sign (#); e.g. #top-of-page
+    16. What is the difference between a section and a div?
+        A section groups together content, that should appear together. A div doesn't have a default specified meaning in HTML, such meaning must be assigned.
+    17. What is CSS used for?
+        Language used to present HTML elements, with characteristics such as font-size, color, background-color, width, and height.
+    18. How to we select an element? [Example - every h2 on the page.] Standard elements don't require puncuation, for instance 'h2 {}'
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one.
+        Classes are groups of elements, these can be referenced multiple times. An id specifies only one instance of element. A class might be useful for 2-3 navigation menus (e.g., hamburger menu, header menu, and footer menu). An id would more appropriate for a copyright notice in the footer.
+    20. How do we select classes in CSS? With a period (.); e.g., .gallery-img
+    21. How do we select a p element with a single class of “human””?
+        In HTML: <p class="human"></p> | In CSS: .human p{}
+    22. What is a parent child selector? When would this be useful?
+        A parent selector contains a child selector. This can be helpful, when we need to designate very specific elements on a web-page.
+    23. How do you select all links within a div with the class of sidebar? .sidebar div a {}
+    24. What is a pseudo selector? Attributes of a selector preceded by a colon (e.g., div:hover).
+    25. What do we use the change the spacing between lines? Add line-height property in CSS
+    26. What do we use to change the spacing between letters? Add letter-spacing property in CSS
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        Use text-transform property with uppercase, lowercase, & capitalize respectively
+    28. How do I add a 1px border around my div that is dotted and black?
+
+        div {
+            border-color: #000; /* black */
+            border-style: dotted;
+            border-width: 1px;
+        }
+
+    29. How do I select everything on the page?
+        
+        * {
+            /* properties go here */
+        }
+
+    30. How do I write a comment in CSS? Either after // on a single line or in between /* */
+    31. How do I find out what file I am in, when I am using the command line? Type 'pwd'
+    32. Using the command line - how do I see a list of files/folders in my current folder? Type 'ls'
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        Type 'rm' and the file name (e.g., 'rm uselessFile.js'); command doesn't trigger a warning and file will be permanently removed
+    34. Why should I use version control?
+        It allows you to keep track of your "commits" (changes) to a file, should we need to re-do work
+    35. How often should I commit to github? You should commit often, especially when your project executes properly
+    36. What is the command we would use to push our repo up to github?
+        
+        git push <remotename> <branchname>
+
+        *For instance:
+
+            git push origin liam-smith
+
+    37. Walk me through Lambda's git flow.
+
+        (1) Make a fork of the repo [repository], so that you have your own version
+        (2) Add your PM (project manager) as a collaborator–this may include a 2nd instructor for your 5th class
+        (3) Clone your repo
+        (4) Create a branch – git check -b 'liam-smith'
+            (a) Add your name to the list
+            (b) Run normal git commands–adding/commiting and pushing. Make sure to push to your branch.
+        (5) To submit your work, create a Pull-Request
+            (a) Use student fork as the forks (compare across forks, base-fork -> master).
+            (b) On the Pull-Request, you'll want to add your PM as a reviewer
+        (6) After the previous steps, PM will mark the assignment as completed by merging the HW back into master "STUDENT FORK."
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model? 
