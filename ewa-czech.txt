@@ -2,7 +2,7 @@ The link to this completed Codepen:
 
 https://codepen.io/eaczechova/pen/oNNoKVv?editors=1100
 
-
+The review questions with answers:
 
 1. What is Semantic HTML? 
     Semantic HTML markup provides underlaying meaning to the web page, not just presentation. 
