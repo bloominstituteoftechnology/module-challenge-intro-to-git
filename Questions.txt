@@ -1,0 +1,188 @@
+
+Learning How to Code: https://codepen.io/BritneyP1989/full/MWWrpRG
+
+1. What is Semantic HTML?
+⁃ Semantic HTML is HTML content with meaning.
+⁃ It makes your websites readable and easily interpreted by machines.
+⁃ It also helps developers to keep their code organized and easier to maintain.
+
+2. What is HTML used for?
+⁃ Hypertext Markup Language (HTML) is used for creating electronic documents, better known as pages or web pages.
+⁃ These pages are what you see when you browse the internet on search engines or other web enabled applications.
+
+3. What is an attribute and where do we put it?
+⁃ An attribute is the characteristic given to HTML elements. It can be things like color, font size, or style.
+⁃ The attribute goes inside the opening HTML tag to specify the element’s behavior.
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+⁃ The h1 tag is used for titles, or headers, within your webpage
+⁃ It is best that a page only have 1 h1 tag at the top of the page and as many h2-h6 tags as needed.
+⁃ There does not seem to be a set rule as to how many times the h1 tag should really be used.
+⁃ As long as it fits into the context of the page structure and does not become overboard or spam.
+
+
+5. Name two tags that have required attributes
+⁃ URL and link tags require attributes such as href.
+⁃ Image or anchor tags require attributes such as src.
+
+6. What do we put in the head of our HTML document?
+⁃ Metadata, which definite the characteristics, styles, title, and other meta data.
+⁃ Tags such as <base>, <link>, <style>, or <script> are used to describe metadata.
+
+7. What is an id?
+⁃ id is an attribute used to specify actions for a unique element.
+
+8. What elements can I add an id to?
+⁃ id can be used in any HTML element aside from metadata. I may not always be useful but it will validate on any element.
+
+9. How many times can I use the same id on a page?
+⁃ ids should be unique and not used more than once. They are to elements the equivalent of serial numbers to electronics or other items.
+⁃ Although CSS may work fine if the same id is duplicated, JavaScript and certain browsers may not read the code correctly and can cause issues with to just pages.
+
+
+10. What is a class?
+⁃ Class is an attribute used to specify elements with one or more class names.
+⁃ It is similar to id except that it can apply to multiple elements instead of just one.
+
+11. What elements can I add a class to?
+⁃ Like id, the class attribute can be added to any HTML element that isn’t metadata, even if it’s not necessarily useful to do so.
+
+12. How many times can I use the same class on a page?
+⁃ You can use the same class multiple times and have as many classes as HTML limits permit.
+⁃ Just keep in mind that all elements with the same class will have the same style.
+
+13. How do I get my link to open in a new tab?
+⁃ In order to do this you need to add a target attribute to your links, aka anchor tags.
+
+
+14. What is the alt attribute used for?
+⁃ alt is used to specify and alternate text for images in cases where there is an error or situation causing the image to not be displayed.
+⁃ It tells the viewer what the image is of for some reason their browser cannot read the image or if the viewer is using a screen reader.
+
+15. How do I reference an id?
+⁃ Is CSS you would use an id selector to reference the id.
+⁃ Example: if the HTML is <div ID = “Name”> you would reference this id with #Name{} in CSS.
+
+16. What is the difference between a section and a div
+⁃ A div is used for grouping block elements together so that you can format them in CSS. It does not provide any meaning.
+⁃ A section defines sections within the document such as headers, footers, or chapters. It gives meaning and groups times together that relates to a theme.
+
+17. What is CSS used for?
+⁃ CSS is used for presentation of the page. It adds design and style to the elements provided.
+⁃ CSS is used to add color, size, font styles, layouts, and more and allows the page to adapt to different types of devices and screens.
+
+18. How to we select an element? Example - every h2 on the page
+⁃ In order to select elements we have to use CSS selectors.
+⁃ We can use (*) which is the universal selector and chooses everything in the page (ex: *{}; (.) which is the class selector and selects the specific class (ex: .divClass{}); (#) which is the id selector and selects the specific id (ex: #divID{}); or we can use the type selector which selects the element we want to edit (ex: h2{} or p{})
+⁃ Each selector must have curly brackets around it and follow the proper format or the style will not apply properly. Must be formatted like p{ color: blue;}. This would make the selected paragraph(s) appears blue on the page.
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+⁃ id and class are very similar to each other but also quite different.
+⁃ id is unique and can be thought of as a serial number for the specific element. You should not use the same id more than once within the page. It identifies one specified element.
+⁃ Class works pretty much the same way as an id but the same class can be used multiple times and applies to a group of class names. It identifies more than one element.
+
+20. How do we select classes in CSS?
+⁃ By placing a “.” in front of the class name.
+⁃ Example: .Class{}
+
+21. How do we select a p element with a single class of “human””?
+⁃ .human{}
+
+22. What is a parent child selector? When would this be useful?
+⁃ A (“parent > child”) selector is used to select the direct child of a specified parent element.
+⁃ This would be useful when trying to select all the list items that are a direct child of a specified unordered list.
+
+23. How do you select all links within a div with the class of sidebar?
+⁃ If the HTML element is <div class=“sidebar”>, then the way to select the class would be .sidebar{}
+
+
+24. What is a pseudo selector?
+⁃ A pseudo selector is a keyword used to define the special state and add effects to existing elements. It can be used to change the color of an element when you hover your cursor over the item.
+
+25. What do we use the change the spacing between lines?
+⁃ The line-height property
+
+26. What do we use to change the spacing between letters?
+⁃ The letter-spacing property
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+⁃ The text-transform property
+⁃ There are 5 different values to this property: lowercase, uppercase, capitalize, none, or inherit.
+⁃ You can also use full-width to force the writing of a character inside a square and allow them to be aligned.
+
+28. How do I add a 1px border around my div that is dotted and black?
+⁃ By using the border property within the selected div brackets.
+⁃ This can be written multiple ways.
+⁃ You can either write border: 1px dotted black;
+⁃ Or you can split it by writing border-width: 1px; border-style: dotted; border-color: black;
+
+29. How do I select everything on the page?
+⁃ By using the universal selector (*)
+⁃ Ex: *{}
+
+30. How do I write a comment in CSS?
+⁃ put /* before the comment and */ after the comment
+
+31. How do I find out what file I am in, when I am using the command line?
+⁃  look for the file name in the terminal/git bash.
+- example: justb@Britneys-ASUS MINGW64 ~/Desktop/Lambda!/Projects/Git-for-Web-Development-Project (Britney-Parkerson)
+let's me know that I am in my Git-for-Web-Development-Project file under my own branch.
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+⁃ ls commands list the file contents of the folder
+- ls -l formats the output lists and -a lists the hidden files
+- showing the directory contents works with "ls -la", "ls -l" or "ls -a"
+
+33. How do I remove a file via the command line? Why do I have to be careful with this?
+⁃ The rm command can be used to rremove files in the command line.
+- You have to be careful because once it is deleted it is permenant. It does not go into a trash bin where it can be recovered later.
+
+34. Why should I use version control?
+⁃ Version control keeps track of all code modifications in a special database.
+- If a mistake is made, a developer can use version control to correct the mistake with minimal disruption to other team members.
+
+35. How often should I commit to github?
+⁃ You should commit each time a new feature is added or a big change is made.
+- It isn't necessarily based on a time frame but more on a significance frame.
+- It is recommended by some to commit at least a few times per hour, or every 20-25 minutes.
+
+36. What is the command we would use to push our repo up to github?
+⁃ git push
+
+37. Walk me through Lambda's git flow.
+⁃ Step 1: Fork - click the Fork button on the repo provided to make your own copy to edit
+- Step 2: Add PM as a collaborator - go to repo settings, select collaborator, type PM's name and click add.
+- Step 3: Clone - click clone and copy the url. Then type "git clone "url"" in the command line to download to your local system.
+- Step 4: Branch - make your own branch by typing "git checkout -b firstname-lastname. Then run git branch to make sure it was branched properly.
+- Step 5: Submit Pull Request - use your fork as a base and compare accross forks. Make sure it submits to your fork. Open the pull request and 
+add your PM as a collaborator in the reviewer section so they can see and review your project.
+- Step 6: Complete. This is for the PM. The PM will accept the merge reuest after reviewing the code and accepting the changes to merge it back 
+to the master.
+
+Stretch Questions
+
+1. What is the difference between an inline element and a block element?
+- A block element begins a new line and will extend across the full width of horizontal space provided by it's parent element. It creates blocks of
+elements such as page diviision and paragraphs and it can contain inline elements and other block elements.
+- Inline elements can beging within a line and do not start a new line. They extende only as far as the tag defines and can contain other inline 
+elements or nothing at all.
+
+2. What happens when an element is positioned absolutely?
+- If an element is positioned absolutely it is removed from the flow and the other elements are positioned as if that element does not exist.
+- It is positioned relative to the nearest ancestor's position.
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+- Use the box model to add padding, border, and margin to the element. You can also add height to help it take up space.
+- You can also use display: inline-block to set width and height.
+
+4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+- block elements: h1-h6, address, div
+- inline elements: button, select
+- inline-block: input
+
+5. In your own words, explain the box model. What is the fix for the box model? 
+- The box model is an important model used for spacing and design on a page. There are 5 spacing properties to use: height, width, padding, border, and margin.
+The padding, border, and margin are the 3 areas that surround the block-level element and together that form a box that takes up space on the page.
+This model helps a developer tell the page where to display the content of the block and how much space there should be around the element in the design of the page.
+- The fix for the box model has a default problem where it dumps padding and borders onto the elements and causes them to be tightly spaced and to overlap each other.
+This can break the entire flow of the layout. To fix this, CSS has the "box-sizing: border-box" as a solution. 
