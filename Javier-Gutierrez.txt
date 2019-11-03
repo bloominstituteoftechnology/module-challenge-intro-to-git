@@ -160,7 +160,7 @@ https://codepen.io/badhabits287/pen/ZEEvMwo
     Version Control makes it possible to keep control of changes , revert  analyze  and compare your work .
 
     35. How often should I commit to github?
-    as often as possible
+    as often as possible . 
 
     36. What is the command we would use to push our repo up to github? 
     we would use "git push" command .
