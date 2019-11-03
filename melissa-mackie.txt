@@ -1,5 +1,5 @@
 Melissa Mackie
-Link: https://codepen.io/Wolfaholic/pen/PooEmmK
+Link: https://codepen.io/Wolfaholic/pen/pooaoOJ
 
 1. What is Semantic HTML? 
 Semantic HTML is markup that gives the page meaning and makes it easier for the page to be read, rather than just presentation. It defines the page.
@@ -47,58 +47,114 @@ it is used incase the image doesnt show up as an alt for it, it is also used for
 #IDNAME
 
 16. What is the difference between a section and a div
-
+a section conveys meaning and should appear as a part of the page in the documents outine. A div is a containter to wrap parts of the page. If it has no meaning a div should be used over section.
 
 17. What is CSS used for? 
+for styling the page and giving the dressing. If HTML is the frame and foudation, it is the curb appeal and decor.
 
 18. How to we select an element? Example - every h2 on the page
 
-19. What is the difference between a class and an id? - Give me an example of when I might use each one
+h2 {
+}
+
+19. What is the difference between a class and an id? 
+Class is a general selctor and may be used to select multiple items to be styled.
+ID is unique and is only used once
+
+#IDNAME can be used to give something a very specifc style over the general selectors as it has a greator weight than Class.
 
 20. How do we select classes in CSS?
 
+.ClassName
+
 21. How do we select a p element with a single class of “human””?
+
+p.human
 
 22. What is a parent child selector? When would this be useful? 
 
+A B // this is used to match all elements inside the chosen parent element. This can be useful for trying to target a specific set of elements without affecting the entire page.
+
 23. How do you select all links within a div with the class of sidebar?
+A parent child seclector would allow you to target the sidebar links only.
 
 24. What is a pseudo selector?
+psuedo classes allow the selection of elements that are in a specific state
 
 25. What do we use the change the spacing between lines?
+We would use the line-height property
 
 26. What do we use to change the spacing between letters?
+We would use the letter spacing property
 
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+The text-transform property is used to specify uppercase and lowercase letters in a text.
 
 28. How do I add a 1px border around my div that is dotted and black?
 
+div {
+ border: 1px dotted black;
+}
+
 29. How do I select everything on the page? 
+Universal selector *
 
 30. How do I write a comment in CSS?
+  /* comment here */
+
 
 31. How do I find out what file I am in, when I am using the command line? 
+The commnand line tells you what file you are in.
 
 32. Using the command line - how do I see a list of files/folders in my current folder?
 
+ls
+
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
 
+git rm -r filename.txt
+
 34. Why should I use version control? 
+version control is a good way to monitor, track and save changes to what you are working on. Also it is like a good save in a video game. Protecting your work from unseen errors and mistakes allowing you to revert before merging it into a live project.
 
 35. How often should I commit to github?
+Often as you remember to. But definatley after each major change is complete.
 
 36. What is the command we would use to push our repo up to github? 
+git push -u origin [branch name]
 
 37. Walk me through Lambda's git flow. 
 
-Stretch Questions
+A: Forking - Everytime we get an assignment, we are going to fork the assingment to our own repository. 
+	a. make sure it is forked into my username/assignment name and it says that I forked it.
+B: Collaborate - add TL to the repository as a collaborator.
+	a. Settings -> Collaborators > Add TL
+C: Clone
+	a. copy the git url and run the command git clone [URL] so it will download
+	b. 
+D: Make a brank on your fork
+	a. dont push to master branch
+	b. label it firstname-lastname
+	c. CD into Project and run checkout -b 'firstname-lastname'
+	D. run git branch to verify it is right
+	e. git push to branch
+E: Pull Request
+	a. select your branch to compare
+	b. open pull request
+	c. add TL as reveiwer
+F: Submit Pull Request
 
-1. What is the difference between an inline element and a block element?
 
-2. What happens when an element is positioned absolutely? 
 
-3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
- 
-4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
 
-5. In your own words, explain the box model. What is the fix for the box model? 
+
+
+
+
+
+
+
+
+
+
+
