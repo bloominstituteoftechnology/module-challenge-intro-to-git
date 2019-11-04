@@ -122,6 +122,8 @@ git push -u origin mark-sayers
 
 
 
+
+
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
