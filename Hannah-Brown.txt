@@ -1,8 +1,13 @@
  https://codepen.io/hannahb593/pen/mddpOPO
  
+ Hannah Brown 
  //
-    1. What is Semantic HTML? Semantic means meaning so it is HTML that gives meaning to a web page. <p> tags are in this as well as things like <header> and <div>s. 
-    2. What is HTML used for? HTML is the skeleton or back bone of all web pages. 
+    1. What is Semantic HTML? 
+    Semantic means meaning so it is HTML that gives meaning to a web page. <p> tags are in this as well as things like <header> and <div>s. 
+
+    2. What is HTML used for? 
+    HTML is the skeleton or back bone of all web pages. 
+    
     3. What is an attribute and where do we put it? Attributes add more info about an element- they are in the start tag. 
     4. What is the h1 tag used for? How many times should I use it on a page? You should use the h1 tag once- it is used for the largest heading on the page- the most important thing which is usually a title. 
     5. Name two tags that have required attributes- hrefs and img scrs
