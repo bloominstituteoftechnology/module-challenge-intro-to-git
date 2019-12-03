@@ -1,40 +1,81 @@
-    1. What is Semantic HTML? 
+    1. What is Semantic HTML?
+        It gives our code meaning.
     2. What is HTML used for? 
+        hyper text markup language. used for putting works on a webpage
     3. What is an attribute and where do we put it? 
+         before the code, adds more info to the code
     4. What is the h1 tag used for? How many times should I use it on a page?
+        the first header, in most cases you should only use it once on for the title
     5. Name two tags that have required attributes
+        id, class
     6. What do we put in the head of our HTML document? 
+    title, maybe some navigation buttons, "about" 
     7. What is an id? 
+        use it to name something so you style it a specific way in css
     8. What elements can I add an id to? 
+        links, 
     9. How many times can I use the same id on a page? 
+        1 time
     10. What is a class? 
+        attribute you can use to group things you want to have the same style
     11. What elements can I add a class to? 
+        
     12. How many times can I use the same class on a page? 
+        as many as you would like 
     13. How do I get my link to open in a new tab?
+        right click> open in a new tab, atleast for windows
     14. What is the alt attribute used for? 
+        povides alternative information for an image if a user for some reason cannot view it
     15. How do I reference an id?
+        #id
     16. What is the difference between a section and a div
+
     17. What is CSS used for? 
+            adding style to our basic text 
     18. How to we select an element? Example - every h2 on the page
+            we would just ust the h2 tag
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+            a class you could use to group similar things you would like to have the same style. id is more specific then class so if you wanted to change one individual thing you could that with a id tag
     20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of “human””?
+            by putting a period then whatever it is names   
+    21. How do we select a p element with a single class of ï¿½humanï¿½ï¿½?
+            .ï¿½humanï¿½ï¿½?
     22. What is a parent child selector? When would this be useful? 
+            if you needed to select everthing in a div you could use     div p { } and what ever code you put in the brackets would be applied to everything in the div
     23. How do you select all links within a div with the class of sidebar?
+         div .sidebar { }
     24. What is a pseudo selector?
+            :hover
     25. What do we use the change the spacing between lines?
+            line-height: ;
     26. What do we use to change the spacing between letters?
+            letter-spacing: ;
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+            text-transform: ;
     28. How do I add a 1px border around my div that is dotted and black?
+           div {
+               boarder: 1px;
+               boarder-color: black;
+               boarder-style: dotted;
+           }
     29. How do I select everything on the page? 
+         use the universal selector *
     30. How do I write a comment in CSS?
+        /* this part would be greyed out */
     31. How do I find out what file I am in, when I am using the command line? 
+        pwd 
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm   because when it is deleted it is gone you cant undo it
     34. Why should I use version control? 
+         so you can have multiple people working on the same code indirectly and it wont break eacothers or the master
     35. How often should I commit to github?
+        as soon as you make a change and have tested it
     36. What is the command we would use to push our repo up to github? 
+        git push <remote> <branch>
     37. Walk me through Lambda's git flow. 
+        make youre changes then you make the command git add. > git commit -a "name"  > git push -m "name"
 
 Stretch Questions
 
