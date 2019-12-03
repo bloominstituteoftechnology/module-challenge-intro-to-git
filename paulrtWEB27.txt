@@ -1,0 +1,42 @@
+  Just for comparison I decided to leave the first attempt at this assignment. I'd say I have made some improvement in the comprehension of the material and application.
+
+This is my December 2019 project for Git for Web Development Project 1;
+https://codepen.io/paulrt/pen/Powwbwp
+
+ Review questions:
+    
+    1. What is the difference between an inline element and a block element? 
+    
+        Block elements take up the entire width of the page, while inline elements only occupy the necessary width of the content.
+
+    2. What happens when an element is positioned absolutely? 
+        
+        An absolutely postioned element will be placed regardless of other elements or formatting, independent from the flow of the code.
+    
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        
+        I believe using the absolute value might be part of the solution.
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default 
+        
+        Button, input, and text-area all are set to block by default.
+
+    5. In your own words, explain the box model. 
+        
+        The CSS Box Model is used describe wrapping each HTML element in it's own margin, padding, and border. This allows for maximum control of placemnt in styling with CSS.
+        
+        What is the fix for the box model?
+
+        Removing padding and borders from an element and imbedding one div inside a second, and then setting the margin only on the inner div eleminate the confusion of the box model.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+This is my ceation of file Paulsnewfile
+Corrected project name
+This is my codepen link;
+https://codepen.io/paulrt/pen/dyyVOQd?editors=1100
+
+And here are my review questions and answers;
+
+
