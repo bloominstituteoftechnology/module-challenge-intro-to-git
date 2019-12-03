@@ -63,30 +63,107 @@ Completed codepen - https://codepen.io/karansapolia/pen/VwYYPYM?editors=1100
 18. How to we select an element? Example - every h2 on the page
     To select and element in CSS, use the element selector. For example, in order to select every h2 in the page,
     use the h2 { } selector.
+
 19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class can be used to reference more than one elements together. An id can only be used to reference a single element.
+    For defining the color and font of all <h2> headings in a page, you could use class. For defining the properties of a specific
+    unique submit button, like its color and the hover animations, you should use id.
+
 20. How do we select classes in CSS?
+    classes can be selected using the class selector pattern. prefix any class name with a '.' and define its properties.
+    For example: .class1 { color: blue; }.
+
 21. How do we select a p element with a single class of “human””?
+    p.human {}
+
 22. What is a parent child selector? When would this be useful? 
+    The '>' symbol is the parent child selector. It is used to select an element when it is child of a specific other element.
+    It is useful when we have nested elements and don't need classes.
+
 23. How do you select all links within a div with the class of sidebar?
+    div > link.sidebar { }
+
 24. What is a pseudo selector?
+    pseudo selector prefix a ':' and have a number of keywords like 'hover', 'last-child', 'clicked' to be available only when specific
+    operations are performed or conditions are fulfilled.
+
 25. What do we use the change the spacing between lines?
+    line-height
+
 26. What do we use to change the spacing between letters?
+    letter-spacing
+
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: capitalize, text-transform: lowercase, text-transform: capitalize.
+
 28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        border: 1px dotted black;
+    }
+
 29. How do I select everything on the page? 
+    * {
+
+    }
+
 30. How do I write a comment in CSS?
+    /* This is a CSS comment */
+
 31. How do I find out what file I am in, when I am using the command line? 
+
 32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm fileName. This is a permanent operation.
+
 34. Why should I use version control? 
+    To save various older versions of a file / folder, without creating multiple copies of it.
+    To help with many people work together on the same files without causing multiple copies.
+
 35. How often should I commit to github?
+    As often as you can.
+
 36. What is the command we would use to push our repo up to github? 
+    git push remote-name branch-name
+
 37. Walk me through Lambda's git flow. 
+    1. Fork the Lanbda repo.
+    2. Clone your copy of the repo to a folder on your computer.
+    3. Create a new branch using 'git branch -d firstname-lastname' with your firstname and lastname.
+    4. Make changes in this branch.
+    5. Add, commit and push these changes to remote version of your branch.
+    6. Create a pull request from your remote branch to your remote master.
+    7. Add your TL as a reviewer of the PR and ask them to check it and merge it to your forked master.
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        An inline element do not start on a new line and takes up only as much width as necessary, ex: <span>.
+        A block element always starts on a new line and takes up the complete available width to it.
+
     2. What happens when an element is positioned absolutely? 
+        The element is removed from the normal document flow and no space is created for the element in the page layout.
+        Is is positioned relative to its closest positioned ancestor, if any, else it is placed relative to its initial
+        containing block.
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        Assign the element as display: inline-block.
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        display: block - <p>, <li>, <h1>.
+        display: inline - <span>, <a>.
+        display: inline-block - <button>
+
     5. In your own words, explain the box model. What is the fix for the box model? 
+        All HTML elements can be considered as boxes. The CSS box model conceptualises a layered box
+        around every HTML element. The layers, from inside to outside are, content, padding, border and margin.
+        Content is where the text and images appear.
+        Padding is a clear area around the content and seperates it from the border.
+        Border is the element border.
+        Margin is an outisde clearance beyond the border. It also is transparent like padding.
+
+        The issues with the box model are fixed by using box-sizing property in CSS.
+        If you set 'box-sizing: border-box', it includes the padding and borders in an element's width.
+        That way, a lot of issues with vague dimensions is reduced for any HTML element. One caveat though is that the 
+        margins are still unaccounted for.
