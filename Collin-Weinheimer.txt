@@ -1,11 +1,13 @@
+    https://codepen.io/cweinh/pen/YzPPQmd?editors=1100
+    
     1. What is Semantic HTML?
-        It gives our code meaning.
+         It gives our code meaning.
     2. What is HTML used for? 
-        hyper text markup language. used for putting works on a webpage
-    3. What is an attribute and where do we put it? 
+         hyper text markup language. used for putting works on a webpage
+     3. What is an attribute and where do we put it? 
          before the code, adds more info to the code
     4. What is the h1 tag used for? How many times should I use it on a page?
-        the first header, in most cases you should only use it once on for the title
+         the first header, in most cases you should only use it once on for the title
     5. Name two tags that have required attributes
         id, class
     6. What do we put in the head of our HTML document? 
