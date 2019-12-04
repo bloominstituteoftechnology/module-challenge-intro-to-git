@@ -58,8 +58,9 @@ https://codepen.io/shellcupp/pen/eYmmvWV?editors=1100
 
     }
     22. What is a parent child selector? When would this be useful? 
-    Parent child selectors are the process of inheritance CSS uses. They can be helpful
-     when styling webpages because parents will pass down their attributes to their children and grandchildren.
+    Parent child selectors are when we select a class or id then also a 
+    specific element. This is helpful for stlying so we can select
+     multiple things to give a style to.
     23. How do you select all links within a div with the class of sidebar?
     .sidebar a{
 
