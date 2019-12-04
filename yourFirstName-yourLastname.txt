@@ -29,7 +29,7 @@ Give your code purpose and structure so that it makes it easier to read as a dev
     Only once.
 
     10. What is a class?
-      
+     
 
     11. What elements can I add a class to? 
     12. How many times can I use the same class on a page? 
