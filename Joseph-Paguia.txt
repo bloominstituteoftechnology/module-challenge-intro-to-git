@@ -1,4 +1,6 @@
-   https://codepen.io/futurewave27/pen/ZEEXebR
+https://codepen.io/futurewave27/pen/zYxxZoj?editors=1100
+
+
 
 1. What is Semantic HTML? 
 Reinforces meaning of the webpage, rather than merely define it appearance.
@@ -117,7 +119,7 @@ Fork a repo
 Add TL as collaborator
 Clone Repo
 Create a branch
-Submit Pull Requext into the new branch
+Submit Pull Request into the new branch
 compare base to git
 
 
