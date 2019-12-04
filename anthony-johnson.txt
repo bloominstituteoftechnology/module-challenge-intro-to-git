@@ -1,42 +1,46 @@
+
+https://codepen.io/anthonyj713/pen/mdyyRZg?editors=1100
+
+
 Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
 
-    1. What is Semantic HTML? 
-    2. What is HTML used for? 
-    3. What is an attribute and where do we put it? 
-    4. What is the h1 tag used for? How many times should I use it on a page?
-    5. Name two tags that have required attributes
-    6. What do we put in the head of our HTML document? 
-    7. What is an id? 
-    8. What elements can I add an id to? 
-    9. How many times can I use the same id on a page? 
-    10. What is a class? 
-    11. What elements can I add a class to? 
-    12. How many times can I use the same class on a page? 
-    13. How do I get my link to open in a new tab?
-    14. What is the alt attribute used for? 
-    15. How do I reference an id?
-    16. What is the difference between a section and a div
-    17. What is CSS used for? 
-    18. How to we select an element? Example - every h2 on the page
-    19. What is the difference between a class and an id? - Give me an example of when I might use each one
-    20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of “human””?
-    22. What is a parent child selector? When would this be useful? 
-    23. How do you select all links within a div with the class of sidebar?
-    24. What is a pseudo selector?
-    25. What do we use the change the spacing between lines?
-    26. What do we use to change the spacing between letters?
-    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-    28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
-    30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
-    32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
-    35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+    1. What is Semantic HTML? Semantic HTML gives meaning to a webpage. Such examples include <p> and <h1>
+    2. What is HTML used for? HTML is the structure of the webpage.
+    3. What is an attribute and where do we put it? Attributes provide additional information about an element. In HTML, they come after the element.
+    4. What is the h1 tag used for? How many times should I use it on a page? The h1 tag is used as the main title of a page. It should be used once typically.
+    5. Name two tags that have required attributes A tag requires href or name attribute. Img tag requires src attribute.
+    6. What do we put in the head of our HTML document? A title tag
+    7. What is an id? An ID specifies an HTML element.
+    8. What elements can I add an id to? Any element can have an id added to it.
+    9. How many times can I use the same id on a page? Only once per page.
+    10. What is a class? An attribute that can specify one or more names for an HTML element
+    11. What elements can I add a class to? They can be added to any element.
+    12. How many times can I use the same class on a page? Multiple times on a page
+    13. How do I get my link to open in a new tab? "_blank" to get a link to open up in a new tab
+    14. What is the alt attribute used for? Alt attribute is used to describe an image.
+    15. How do I reference an id? In CSS, you use . to reference an id.
+    16. What is the difference between a section and a div? A section is a grouping of content while a div is used more for styling purposes.
+    17. What is CSS used for? CSS is used to design a webpage.
+    18. How do we select an element? Example - every h2 on the page. h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. A class tags multiple elements. For example, the United States, France, and Britain could have the Country Class. An ID would tag a specific element. For example, just using it once to create a tag on cookies.
+    20. How do we select classes in CSS? We select classes using . in CSS
+    21. How do we select a p element with a single class of “human””? .human {}
+    22. What is a parent child selector? When would this be useful? The parent child selector allows you to specify what code effects which parts of your HTML. 
+    23. How do you select all links within a div with the class of sidebar? .sidebar
+    24. What is a pseudo selector? Pseudo selector is used to define a special state of an element. Includes hover and focus.
+    25. What do we use the change the spacing between lines? Use the line-height property.
+    26. What do we use to change the spacing between letters? Use the letter-spacing property.
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? CAPITALS uses the uppercase property. Lowercase uses lowercase property. Capitalize the first letter uses the capitalize property.
+    28. How do I add a 1px border around my div that is dotted and black? .div{border: dotted 1px black;}
+    29. How do I select everything on the page? * is the global
+    30. How do I write a comment in CSS? /*     */
+    31. How do I find out what file I am in, when I am using the command line? Pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder? Ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? Rm <file> You have to be careful because it permanently deletes it.
+    34. Why should I use version control? To track changes to code.
+    35. How often should I commit to github? Whenever you make changes and as often as possible.
+    36. What is the command we would use to push our repo up to github? git push -u origin branch-name 
+    37. Walk me through Lambda's git flow. https://www.notion.so/GitFlow-step-by-step-a764163309754e23b1b9c4077b1653cc Going to follow this until it becomes second nature.
 
 Stretch Questions
 
