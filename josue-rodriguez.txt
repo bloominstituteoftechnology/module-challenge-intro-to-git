@@ -5,65 +5,67 @@ MY codepen LINK IS UP ABOVE
 
 
 
- 1. What is Semantic HTML? 
- giving meaning to your text
+   1. What is Semantic HTML? 
+   Giving meaning to your text.
 
     2. What is HTML used for?
-    used for give content to your website and its a mark up language
+    Used for give content to your website and its a mark up language.
 
     3. What is an attribute and where do we put it?
-     an attribute is basically "class" or anything like that that can easily itentify an elements content
+     An attribute is basically "class" and we usually put it in the same tag as an element.
 
     4. What is the h1 tag used for? How many times should I use it on a page?
-    h1 is used for titles and it should only be used once
+    H1 is used for titles and it should only be used once.
 
     5. Name two tags that have required attributes
-    anchor and attributes
+    Anchor and images
 
     6. What do we put in the head of our HTML document? 
-    for the header you input the title of the webpage
+    Metas, links tag or even font links
 
     7. What is an id? 
-    an id as an attribute
+    An id as an attribute
 
     8. What elements can I add an id to? 
-    you can use id on almost any element if not all of them
+    You can use ID on almost any element.
 
     9. How many times can I use the same id on a page? 
-    once
+    Once.
 
     10. What is a class? 
-    class is a type of attribute
+    Class is a type of attribute.
 
     11. What elements can I add a class to?
-    almost any to all of them, Im pretty sure you can do all tbh
+    All of them.
 
     12. How many times can I use the same class on a page?
-    multiple times if im not mistaken
+    Unlimited.
 
     13. How do I get my link to open in a new tab?
-    you use _ i believe
+    You use target='_blank'
 
     14. What is the alt attribute used for? 
-    alt text is to give more info if they hover over an image
+    Alt text is to give more info if they hover over an image.
 
     15. How do I reference an id?
-    you use hashtag
+    #
 
     16. What is the difference between a section and a div
-    section is used for grouping info that has the same topic but div can be used to group anything
+    Section is used for grouping info that has the same topic but div can be used to group anything.
 
     17. What is CSS used for?
-    to style webpage
+    To style webpage
 
     18. How to we select an element? Example - every h2 on the page
-    just type h2 on CSS
+    H2{
+
+    }
 
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
-    id is more important
+    id is more specific, class can be used multiple times.
 
     20. How do we select classes in CSS?
-    with a period
+    .
 
     21. How do we select a p element with a single class of “human””?
     .human p 
@@ -87,15 +89,13 @@ MY codepen LINK IS UP ABOVE
     text-transformation uppercase, Capitalize etc... 
 
     28. How do I add a 1px border around my div that is dotted and black?
-    border: dotted;
-    color: black;
-    margin: 1px 0px;
+    border: 1px dotted black
 
     29. How do I select everything on the page? 
     *
 
     30. How do I write a comment in CSS?
-    /* */ or // i think
+    /* */ 
 
     31. How do I find out what file I am in, when I am using the command line? 
     pwd
@@ -116,3 +116,4 @@ MY codepen LINK IS UP ABOVE
     git push 
 
     37. Walk me through Lambda's git flow. 
+    fork, add collaborator, clone in git posting link with it, create a branch, work on code . then add, commit, and push.
