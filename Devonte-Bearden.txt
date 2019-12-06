@@ -71,3 +71,4 @@ CodePen: https://codepen.io/DBearden/pen/OJPybvp?editors=1100
 29. To select everything on a page, you would use the asterisk as a selector. *
 30. To write a comment in CSS, you would use /* to begin the comment, and use */ to end the comment.
 31. To find what directory you are currently working in with command line, you would the pwd - print working directory - command.
+32. To see a complete list of files and folders, you would use the ls command.
