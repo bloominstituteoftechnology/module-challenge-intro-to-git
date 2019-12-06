@@ -42,3 +42,4 @@ CodePen: https://codepen.io/DBearden/pen/OJPybvp?editors=1100
 
 1. Semantic HTML is the understanding of tags and elements needed to create content for webpages.
 2. HTML is used for the creation of webpages, specifically the content of the page.
+3. An attribute is used to change or add and effect to a give tag/element, and goes inside of the tag.
