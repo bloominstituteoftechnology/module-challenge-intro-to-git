@@ -57,3 +57,4 @@ CodePen: https://codepen.io/DBearden/pen/OJPybvp?editors=1100
 15. To refer to an id, you use the # and the name given in the attribute.
 16. A section applies to documentation, identifying various areas, while div applies to sections within HTML.
 17. CSS is used for styling HTML to make it look more appealing.
+18. In order to select every one of the same type of element, you would use that element's tag in the CSS without the < >. This creates a selector that targets all tags of that type.
