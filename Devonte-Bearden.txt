@@ -50,3 +50,4 @@ CodePen: https://codepen.io/DBearden/pen/OJPybvp?editors=1100
 8. ids can be added to every tag/element, however its usefulness varies between tags.
 9. An id can be used as many times as there tags/elements on a given page, but again its usefulness varies between them.
 10. A class is also an attribute that is used add specificity to a given tag/element, and is identified with the . symbol in CSS.
+11. Like id, class can be added to as many tags/elements as are present on the page. Once again, though, its usefulness varies between elements.
