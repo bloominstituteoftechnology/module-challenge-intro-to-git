@@ -69,3 +69,4 @@ CodePen: https://codepen.io/DBearden/pen/OJPybvp?editors=1100
 27. To change text to fully capital, lowercase and Capitalized, you would use the property text-transform with uppercase, lowercase and capitalized respectively.
 28. To add a 1px border, you would add the border property with the following: 1px black
 29. To select everything on a page, you would use the asterisk as a selector. *
+30. To write a comment in CSS, you would use /* to begin the comment, and use */ to end the comment.
