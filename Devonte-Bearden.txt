@@ -74,3 +74,4 @@ CodePen: https://codepen.io/DBearden/pen/OJPybvp?editors=1100
 32. To see a complete list of files and folders, you would use the ls command.
 33. In order to remove a file using command line, you would use the git rm command. You must be careful with this, because you could potentially romve important computer files, that could leave your machince useless.
 34. You should use version control so that you can refer back to previous builds in case of debugging issues.
+35. You should commit to github very often when collaborating, and when working on new builds for projects.
