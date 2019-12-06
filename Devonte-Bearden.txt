@@ -66,3 +66,4 @@ CodePen: https://codepen.io/DBearden/pen/OJPybvp?editors=1100
 24. A psuedo selector is something that is applied to a selector, but only resolves when the selected elements enters a specified state, like with :hover 
 25. To change the spacing between lines, you would use the line-height property. 
 26. To change the spacing between letters, we use the letter-spacing property. 
+27. To change text to fully capital, lowercase and Capitalized, you would use the property text-transform with uppercase, lowercase and capitalized respectively.
