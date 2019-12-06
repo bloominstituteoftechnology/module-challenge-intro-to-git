@@ -52,3 +52,4 @@ CodePen: https://codepen.io/DBearden/pen/OJPybvp?editors=1100
 10. A class is also an attribute that is used add specificity to a given tag/element, and is identified with the . symbol in CSS.
 11. Like id, class can be added to as many tags/elements as are present on the page. Once again, though, its usefulness varies between elements.
 12. similar to an id, class can be added as many times as tags/elements are present on page.
+13. By adding the _blank attribute, it will open a new tab, versus simply redirecting.
