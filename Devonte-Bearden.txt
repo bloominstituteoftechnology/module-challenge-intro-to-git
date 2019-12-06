@@ -46,3 +46,4 @@ CodePen: https://codepen.io/DBearden/pen/OJPybvp?editors=1100
 4. the h1 tag is used for emphasizing text on a given page, or creating a header-style effect/sizing for a given section of content, and typically should only be used once.
 5. Two tags that require attributes are the anchor tag <a> and the image tag <img>, otherwise they do not work.
 6. In the head of the HTML document, you would insert the <header> tag to create a seperation between the different sections of the page.
+7. An ID is an identifier used to add specification to a given element using the # symbol when writing CSS.
