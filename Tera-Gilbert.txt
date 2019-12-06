@@ -1,5 +1,5 @@
  
-
+https://codepen.io/tera1971/pen/RwwjwQd
 
 
 
@@ -11,6 +11,8 @@
        It is used to create web pages that are displayed on the internet
 
     3. What is an attribute and where do we put it? 
+     is used to select an element with some specific attribute or attribute value.
+     after the . to select the attribute
 
     4. What is the h1 tag used for? How many times should I use it on a page?
        Indicates the headng of a web page, it is used once
@@ -36,6 +38,7 @@
     11. What elements can I add a class to? 
 
     12. How many times can I use the same class on a page? 
+        there is no limit to the number of times a class can be used
 
     13. 
      you can hold down the control button – or the command key on a Mac computer – to open a link in a new tab
@@ -56,15 +59,22 @@
          .h2 (period before element)
 
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
+        A class would be used to style every element in the same class as in h2 and an id is used to style one elements
 
     20. How do we select classes in CSS?
+        . a period followed by name of class
 
     21. How do we select a p element with a single class of “human””?
+        .human
 
     22. What is a parent child selector? When would this be useful? 
+        a  selector that selects all elements that are a direct child of the specified element.
+         Specifies the direct child element (of the specified parent element) to be selected
 
     23. How do you select all links within a div with the class of sidebar?
-
+        #sidebar 
+         
     24. What is a pseudo selector?
         A pseudo-class is a selector that selects elements that are in a specific state
 
@@ -75,8 +85,12 @@
        letter-spacing
 
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: uppercase or lowercase or Capitalize
 
     28. How do I add a 1px border around my div that is dotted and black?
+        .div{
+            border dotted solid black
+        }
 
     29. How do I select everything on the page? 
         * asterisk
@@ -116,9 +130,17 @@ TL then will count the HW as done by merging the HW back into master “STUDENT 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the fix for the box model? 
+     an inline element does not cause a break while a block element always starts on a new line
 
+    2. What happens when an element is positioned absolutely? 
+    an element that is absolutely positioned is taken out of the flow
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+    
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+    5. In your own words, explain the box model. What is the fix for the box model? 
+     the box model is the imaginary box around html elements used to help style an element
+     the fix is box-sizing: border-box
 
