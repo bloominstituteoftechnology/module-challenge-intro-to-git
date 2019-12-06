@@ -72,3 +72,4 @@ CodePen: https://codepen.io/DBearden/pen/OJPybvp?editors=1100
 30. To write a comment in CSS, you would use /* to begin the comment, and use */ to end the comment.
 31. To find what directory you are currently working in with command line, you would the pwd - print working directory - command.
 32. To see a complete list of files and folders, you would use the ls command.
+33. In order to remove a file using command line, you would use the git rm command. You must be careful with this, because you could potentially romve important computer files, that could leave your machince useless.
