@@ -60,3 +60,4 @@ CodePen: https://codepen.io/DBearden/pen/OJPybvp?editors=1100
 18. In order to select every one of the same type of element, you would use that element's tag in the CSS without the < >. This creates a selector that targets all tags of that type.
 19. Class can be applied to multiple elements, while id can only be used once.
 20. To select classes in CSS, you would use . followed immediately by whatever name was given to the class. e.g <h2 class=woot> ~~ corresponding CSS ==> .woot {}
+21. To select a single element with the class human you would create a selector that combines the .human selector with the tag selector p. e.g .human p {}
