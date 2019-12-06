@@ -63,3 +63,4 @@ CodePen: https://codepen.io/DBearden/pen/OJPybvp?editors=1100
 21. To select a single element with the class human you would create a selector that combines the .human selector with the tag selector p. e.g .human p {}
 22. A parent child selector is used to identify an element that is located within another specified element, and is commonly used with div tags to apply different attributes to similar elements.
 23. To select all links within a <div> with the class sidebar, you would use the a selector with the .sidebar selector. e.g .sidebar a
+24. A psuedo selector is something that is applied to a selector, but only resolves when the selected elements enters a specified state, like with :hover 
