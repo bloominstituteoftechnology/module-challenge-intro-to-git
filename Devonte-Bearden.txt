@@ -48,3 +48,4 @@ CodePen: https://codepen.io/DBearden/pen/OJPybvp?editors=1100
 6. In the head of the HTML document, you would insert the <header> tag to create a seperation between the different sections of the page.
 7. An ID is an identifier used to add specification to a given element using the # symbol when writing CSS.
 8. ids can be added to every tag/element, however its usefulness varies between tags.
+9. An id can be used as many times as there tags/elements on a given page, but again its usefulness varies between them.
