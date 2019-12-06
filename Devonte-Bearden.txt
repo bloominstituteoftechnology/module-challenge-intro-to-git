@@ -65,3 +65,4 @@ CodePen: https://codepen.io/DBearden/pen/OJPybvp?editors=1100
 23. To select all links within a <div> with the class sidebar, you would use the a selector with the .sidebar selector. e.g .sidebar a
 24. A psuedo selector is something that is applied to a selector, but only resolves when the selected elements enters a specified state, like with :hover 
 25. To change the spacing between lines, you would use the line-height property. 
+26. To change the spacing between letters, we use the letter-spacing property. 
