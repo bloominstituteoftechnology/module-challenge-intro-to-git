@@ -55,3 +55,4 @@ CodePen: https://codepen.io/DBearden/pen/OJPybvp?editors=1100
 13. By adding the _blank attribute, it will open a new tab, versus simply redirecting.
 14. The alt attribute is used to give a new name to whatever it is applied to. e.g if I add the alt=Loki attribute to the <img src= ABCDEFG>, it will set the image's name to Loki when interacted with. 
 15. To refer to an id, you use the # and the name given in the attribute.
+16. A section applies to documentation, identifying various areas, while div applies to sections within HTML.
