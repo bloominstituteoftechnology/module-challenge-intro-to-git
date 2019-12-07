@@ -1,3 +1,5 @@
+https://codepen.io/robert-tanksley/pen/rNaOGVd?editors=1100
+
  1. What is Semantic HTML? 
 Semantic html gives meaning to your website. It is the foundation/base of the website and creates all of the elements you can then style with css 
 
@@ -12,7 +14,9 @@ H1 is used for the main header, you should only use it once.
 
     5. Name two tags that have required attributes
 anchor tags, and image tags
+
     6. What do we put in the head of our HTML document? 
+You can add a few different tags to the head section of HTML. title is required, style can set the style for a document, you need to use link to an external style sheet, other tags available are meta, script, and base. For further information about the tags, refer to w3schools, or other documentation. 
 
     7. What is an id? 
 an ID is an attribute that denotes a specific tag/element. 
@@ -33,7 +37,7 @@ all of them
 as much or as little as you need to.     
 
     13. How do I get my link to open in a new tab?
-    google "how to force link to open in new tab html" 
+    target="_blank" 
 
     14. What is the alt attribute used for? 
 to display an alternate item or text if a certain element can not render or is missing. 
@@ -55,22 +59,28 @@ A class is used to style multiple elements you would prefer have related styling
    
     20. How do we select classes in CSS?
 .classnamehere
+
     21. How do we select a p element with a single class of “human””?
 p.human
     
     22. What is a parent child selector? When would this be useful? 
+A parent is used to to pass a relation ship to all of its "child" elements. In this way you can use specificity to pass styling to multiple elements at once. This saves time and reduces complication. 
+
 
     23. How do you select all links within a div with the class of sidebar?
-
+use the class selector sidebar -- a.sidebar. 
 
     24. What is a pseudo selector?
+a pseudo selector styles an element based off a certain state, such as mouseover. 
 
     25. What do we use the change the spacing between lines?
+use line-height
 
     26. What do we use to change the spacing between letters?
+ letter-spacing
 
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-
+lowercase, uppercase,capitalize respectively 
 
     28. How do I add a 1px border around my div that is dotted and black?
 border: dotted 1px black
@@ -83,12 +93,14 @@ for single line comments use //comentonasingleline
 else use /* write your comments here */
 
     31. How do I find out what file I am in, when I am using the command line? 
-it would depend on what command line operating system you are using. also you wouldn't be in a file. you'd be in a directory or a folder. files are stored in directories. to be in a file you would need to open it using a program.  
+it would depend on what command line operating system you are using. also you wouldn't be in a file. you'd be in a directory or a folder. files are stored in directories. to be in a file you would need to open it using a program. Assuming you are using Bash, PWD will print the working directory on screen.   
 
     32. Using the command line - how do I see a list of files/folders in my current folder?
 again this depends on the operating system in which you are trying to obtain a list of files/folders. but assuming bash, 
+use the command LS 
 
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+again, assuming you are in BASH and not another kernel/operating system use RM to rome a file, use rmdir to delete an entire directory/folder. 
 
     34. Why should I use version control? 
 version control allows multiple developers, at multiple to locations to be able to contribute to a project and gives you the ability to easily rollout changes, or revert to previous versions on the fly. 
@@ -115,11 +127,15 @@ Create a pull request and add your TL as the reviewer
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+Block elements start a new line, they create a hard line break. 
+Inline elements do not create a new line. You can position inline elements inside block elements, but not the other way around. 
+A div is a block element, a span is not. Other inline elements include <em> <a> and <img> 
 
     2. What happens when an element is positioned absolutely? 
 if you position an element absolute you can position other elements in relation to it. 
 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+I really am not sure how you would this. 
 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
 
