@@ -1,0 +1,85 @@
+https://codepen.io/hamsashajo/pen/VwYvzyE?editors=1100
+
+1. What is Semantic HTML? 
+    2. What is HTML used for?
+	The structure and the bones of your site. 
+    3. What is an attribute and where do we put it?
+	The attribute defines what the section of code will be classified as.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	The header. Usually only once!
+    5. Name two tags that have required attributes
+	"img" "a href"
+    6. What do we put in the head of our HTML document?
+	 The Page Title, and any metadata we may include on the page.
+    7. What is an id? 
+	It is used to further classify a tag/attribute. Creates a very precise reference for CSS
+    8. What elements can I add an id to?
+	Any? 
+    9. How many times can I use the same id on a page? 
+	Once.
+    10. What is a class?
+	 It classifies elements/code so that you can style multiple w/ the same class.
+    11. What elements can I add a class to? 
+	Any?
+    12. How many times can I use the same class on a page?
+	As many as you want. 
+    13. How do I get my link to open in a new tab?
+	Add target="_blank" to the end of your <a> code.
+    14. What is the alt attribute used for? 
+	To signify alternate text for an area.
+    15. How do I reference an id?
+	In CSS you would first reference the class then id. SectionOne(class).SampleId(id)
+    16. What is the difference between a section and a div
+	A section actually defines a section, and a div is more for reference.
+    17. What is CSS used for? 
+	Styling your HTML.
+    18. How to we select an element? Example - every h2 on the page
+	h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	id is the next step in heirarchy after class. You could have a gallery with a class of Gallery, and each photo would be Gallery.Photo1>Gallery.Photo2 etc.
+    20. How do we select classes in CSS?
+	."nameofclass" {}
+    21. How do we select a p element with a single class of “human””?
+	p.human {}
+    22. What is a parent child selector? When would this be useful?
+	It's an order of operations for different content with the same classes 
+    23. How do you select all links within a div with the class of sidebar?
+	div.class a {}
+    24. What is a pseudo selector?
+	It is used to stle an element when a certain action happens to it i.e. :hover
+    25. What do we use the change the spacing between lines?
+	line-height:
+    26. What do we use to change the spacing between letters?
+	letter-spacing:
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	text-transform: captials; || text-transform: lowercase; || text-transform: uppercase;
+    28. How do I add a 1px border around my div that is dotted and black?
+	border-style: 1px dotted black;
+    29. How do I select everything on the page?
+	* would be my guess 
+    30. How do I write a comment in CSS?
+	/**/
+    31. How do I find out what file I am in, when I am using the command line? 
+	ls or pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	git rm
+    34. Why should I use version control?
+	 It helps document and save versions to refer back to later.
+    35. How often should I commit to github?
+	Every time you make a significant change.
+    36. What is the command we would use to push our repo up to github?
+	git push -u origin firstname-lastname 
+    37. Walk me through Lambda's git flow.
+	You need to fork, then clone. You will then create a specific branch that you will be working on by cd'ing to the proper folder then using "git checkout -b 'firstname-lastname'" Then you will push the branch to get hub using "git push -u origin firstname-lastname". Finally you do a compare and pull and make sure your TL is the reciever for the branch.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+	An inline element does not cause a line break.
+    2. What happens when an element is positioned absolutely? 
+	It will not be recognized by itself, and will instead be position with its nearest ancestor
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model?
