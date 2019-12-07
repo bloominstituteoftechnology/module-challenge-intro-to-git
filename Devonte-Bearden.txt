@@ -76,3 +76,4 @@ CodePen: https://codepen.io/DBearden/pen/OJPybvp?editors=1100
 34. You should use version control so that you can refer back to previous builds in case of debugging issues.
 35. You should commit to github very often when collaborating, and when working on new builds for projects.
 36. To push our repo to github, we use the git push command.
+37. Lambda's git flow begins with forking the repo, next you create a clone of the repo and branch it, after making any changes to the repo you use git add to add the changes to repo and stage it, then you use git push to push the repo to github.
