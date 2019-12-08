@@ -1,0 +1,167 @@
+My URL for part two is https://codepen.io/azrael3069/pen/povjNMx?editors=1100
+
+Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
+Christopher Rivera
+    1. What is Semantic HTML? 
+    Semantic HTML are tags we add to give the code meaning. Examples <header><footer><section>.
+
+    2. What is HTML used for? 
+    HTML is used to contruct the webpage.  We can add pictures, paragraphs, text, headings, links etc.
+
+    3. What is an attribute and where do we put it? 
+    An attribute is a property given to a tag. An example of syntax is 
+    <p style="color:red;">Some text here</p>    
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+H1 is the heading 1 tag.  It is the biggest font heading and usually used only once for the main title. 
+
+
+5. Name two tags that have required attributes
+the <img> tag and the <a> tag have required attributes.
+
+    6. What do we put in the head of our HTML document? 
+    We usually put the <title> and <header> tag in the head of our HTML document.
+
+    7. What is an id?
+    
+    An id is very specific tag given to things.  Used for passwords etc.
+
+    8. What elements can I add an id to? 
+    You can add class, style, and more.
+
+    9. How many times can I use the same id on a page?
+    You can use the id name only once. 
+
+    10. What is a class? 
+    every element that is given a class name gets rules applied to it.  Classes make it easier to write code and shorten it, and adding styling to the page.
+
+    11. What elements can I add a class to? 
+     You can add class to majority of elements. 
+     example <h1 class="heading1">text here</h1>
+
+    12. How many times can I use the same class on a page? 
+You can use the class mutliple times depending on what you are doing. What ever you do to that class, every element with that class name will be affected.
+
+
+    13. How do I get my link to open in a new tab?
+    <a href="URL">
+
+    14. What is the alt attribute used for? 
+It uses alternate text to reach an image or link. If it does not work, this attribute can use another name to reach it.
+
+
+    15. How do I reference an id?
+    #id{
+        //code here
+    }
+    16. What is the difference between a section and a div
+    Sections are bigger parts of the webpage with many tags within them. Div can be used to make smaller portions within the sections.  
+
+    17. What is CSS used for?
+    CSS is used for styling, formatting, making our webpage look prettier, more professional.
+
+    18. How to we select an element? Example - every h2 on the page
+h2{
+    //code here
+}
+p{
+    //code here
+}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    an id is more specific usually used for secure passwrods.  Classes, are used to better organize elements and keep code short. Id can only be called once and cant be changed.
+
+    
+    20. How do we select classes in CSS?
+    .class{
+        //code here
+    }
+    21. How do we select a p element with a single class of “human””?
+    .human{
+        //code here
+    }
+    22. What is a parent child selector? When would this be useful?
+    it selects all children of the selected element.Useful when given specific rules for certain elements. 
+
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar{
+        //code here
+    }
+    24. What is a pseudo selector?
+    select elements within a specific state, example an element that is hovering is in a specific state.
+
+    25. What do we use the change the spacing between lines?
+    <br>
+    26. What do we use to change the spacing between letters?
+    the .length property
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    use selectors uppercase: or lowercase:
+
+    28. How do I add a 1px border around my div that is dotted and black?
+    div{
+        border:dotted;
+        color:black;
+    }
+    29. How do I select everything on the page? 
+
+    the wildcard selector 
+    *{
+        //code here
+    }
+    30. How do I write a comment in CSS?
+
+    /*comment here */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+ls will tell you what file you are in and what files are in that directory
+cd changes the directory. 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+ls 
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm <filename>  You must be careful because you could remove important items and cause damage to your computer. 
+
+    34. Why should I use version control? 
+    We will use it in our professional career. It helps us control our computer on a deeper level. Better then using graphical user interface.
+
+    35. How often should I commit to github?
+    Often, good rule of thumb, once before lunch , once before end of day. 
+
+    36. What is the command we would use to push our repo up to github? 
+    git push
+    37. Walk me through Lambda's git flow. 
+    1-create own repo (fork)
+    2- add TL in settings as collaborator
+    3- clone repo
+    4- create branch  git checkout -b 'firstName-lastName'
+    5- then submit PR into new branch   -use own fork when comparing
+    6-TL counts HW done by merging HW back into master "student" fork
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    an inline element is inside the html text 
+        <p style="color:red;">text here</p>
+        block element is written in CSS
+            p{
+                color:red;
+            }
+    2. What happens when an element is positioned absolutely? 
+    The element is taken out of the flow and put nex
+    its last ancestor.  Anything added will be positioned as if the absolute one is not there.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+   You use properties like padding, margin, padding-top,padding-right, width, length etc.
+   
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+   inline-block?? 
+    5. In your own words, explain the box model. What is the fix for the box model? 
+    The box model is used to aide in adding correct proportions for the webpage and certain elements in the webpage.
+    An example is
+    p {
+        padding:40px;
+        border:5px solid pink;
+        margin:50px;
+    }
+    Must be aware of math when building with this tool.
