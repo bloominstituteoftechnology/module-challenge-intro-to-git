@@ -1,3 +1,7 @@
+	
+    Link to codepen: https://codepen.io/maketaller/pen/MWYayXq	
+
+
     1. What is Semantic HTML? 
        Making meaning from content.
 
@@ -54,11 +58,7 @@
     17. What is CSS used for? 
     	Cascading Styles Sheets are used to modify content into created in the Html document.
 
-    18. How to we select an element? Example - every h2 on the page
-    	Use the element name e.g. h2  with a { }  enclosed with the desired properties.
-    
-    19. What is the difference between a class and an id? - Give me an example of when I might use each one
-   	A Ids are unique classes are not unique. 
+    18. How to we select an element? Example - every h2 on the page Use the element name e.g. h2  with a { }  enclosed with the desired properties.  19. What is the difference between a class and an id? - Give me an example of when I might use each one A Ids are unique classes are not unique. 
 
     20. How do we select classes in CSS?
     	We may select classes with the . operator.
