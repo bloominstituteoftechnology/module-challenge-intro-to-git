@@ -1,1 +1,81 @@
 https://codepen.io/riddlej9879/pen/NWPxGdM
+1
+Semantic HTML is the syntax that sets the layout of the webpage but is not the CSS file.
+2
+HTML is used for creating websites to display all around the internet.
+3
+Attributes are elements that add more detail to an HTML webpage. Attributes are placed before and after the item that needs to be tagged.
+4
+The H1 tag is used for marking headers and has the largest increase in font size. H1 can be used any number of times but should be limited to one or as few as possible.
+5
+Anchor and Image both require links to data.
+6
+Headers go at the head of HTML documents.
+7
+An id is a specific and unique HTML attribute used to reference a specific part or element of a webpage in css or javascript.
+8
+Any HTML element can have an id added to it.
+9
+Only one item can have a specific id.
+10
+A class is an html attribute.
+11
+Classes can be added to any HTML element.
+12
+Classe can be used more than one time.
+13
+Adding target="_blank" inside the anchor tag and after the link will cause the link to open in a new webpage.
+14
+The alt element allows the specification of an alternate image to display if the primary image cannot be displayed.
+15
+Ids are referenced using #id_name.
+16
+Section seperations diffent sections in html and div is used to group block elements to format them.
+17
+CSS is a very powerful tool used to style html.
+18
+Elements are selected by adding it to the css file ex: "h2 {}" and all h2 elements are selected and will have the accompanying formats changed.
+19
+A class can be used to identify multiple elements and an id can only be used to identify one. Classes can be used on divs to style several different areas of a webpage. Ids can be used when styling a single element.
+20
+Classes are selected in css by ".class_name"
+21
+.human p {}
+22
+The parent child selector is ">" and is useful when selecting all 'p's, for example, in a certain section but not in all sections.
+23
+.sidebar a {}
+24
+A pseudo selector class is a selector that selects elements that are in a specific state.
+25
+line-spacing: ; is used to change line spacing.
+26
+letter-spacing: ; is used to change the letter spacing.
+27
+text-transform: ; is used to change capitalization.
+28
+border: 1px dotted black;
+29
+Asterisk * selects everything on the page.
+30
+/* */ for comments. 'Ctrl+?' is a shortcut.
+31
+pwd
+32
+ls
+33
+rm removes files and caution is needed bc the system will not ask if its ok and there is no recovering the file.
+34
+Version control should be used because theres always the risk of breaking a program and and it may require reverting to an old copy.
+35
+Commit should be done after any significant changes or before lunch and before the end of the day.
+36
+git push -u origin *branchname*
+37
+Navigate to the repository
+Fork the repository
+Create a branch using "git checkout -b 'josh-riddle'
+Create a 'josh-riddle.txt' file and add the codepen link to it
+Run git add .
+Run git commit
+Run git push
