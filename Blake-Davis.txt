@@ -66,15 +66,39 @@ Make it nice and pretty.
 19. What is the difference between a class and an id? - Give me an example 
 of when I might use each one
 -A class is used for a collection of elements and an ID is for a specific 
-element.  
-    20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of “human””?
-    22. What is a parent child selector? When would this be useful? 
-    23. How do you select all links within a div with the class of sidebar?
-    24. What is a pseudo selector?
-    25. What do we use the change the spacing between lines?
-    26. What do we use to change the spacing between letters?
-    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+element.  For instance, if you want everything in the class to have a green 
+background but you want a specific word to be blue, you can add an ID to 
+that word and change the color to blue for it.  
+
+20. How do we select classes in CSS?
+-Use a period then class name.   .class {}
+
+21. How do we select a p element with a single class of “human””?
+.human p {}
+
+22. What is a parent child selector? When would this be useful? 
+-Parent child selector is used to select all of a specific element 
+that also has a specific parent element.  For instance, all <p> under 
+<div> elements.
+
+23. How do you select all links within a div with the class of sidebar?
+.sidebar > div > a {}
+    
+24. What is a pseudo selector?
+-A pseudo selector adds an additional option when a css item condition is
+met.  For instance, :hover will only change a css selection when the 
+mouse is hovering over the item(s) on the page.
+
+25. What do we use the change the spacing between lines?
+-Use the line-height property
+
+26. What do we use to change the spacing between letters?
+-Use the letter-spacing property
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+-Use the text-transform property.  text-transform: capitals; text-transform: lowercase; 
+text-transform: capitalize;
+
     28. How do I add a 1px border around my div that is dotted and black?
     29. How do I select everything on the page? 
     30. How do I write a comment in CSS?
