@@ -4,7 +4,7 @@ https://codepen.io/davisblakep/pen/VwYeZXZ?editors=1100
 -Semantic HTML is a universal naming scheme in HTML to keep code organized and to keep developers on the same page so to speak.
 
     2. What is HTML used for? 
-To create the foundation of a website i.e. the core building blocks.
+To create the foundation of a website i.e. the core building blocks
 
     3. What is an attribute and where do we put it? 
     4. What is the h1 tag used for? How many times should I use it on a page?
