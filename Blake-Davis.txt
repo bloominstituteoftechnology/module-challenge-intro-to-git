@@ -99,16 +99,41 @@ mouse is hovering over the item(s) on the page.
 -Use the text-transform property.  text-transform: capitals; text-transform: lowercase; 
 text-transform: capitalize;
 
-    28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
-    30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
-    32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
-    35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+28. How do I add a 1px border around my div that is dotted and black?
+div {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: black;
+}
+
+29. How do I select everything on the page? 
+-Universal Selector * or body {}
+
+30. How do I write a comment in CSS?
+/*  */
+
+31. How do I find out what file I am in, when I am using the command line?
+-Use the command: pwd
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+-Use the command: ls
+    
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+-Use the command: rm   Be careful if you delete the wrong item since this can 
+damage the system.
+
+34. Why should I use version control? 
+-Version control allows multiple save states to reference back to and 
+also allows for collaberation amongst multiple people without conflicts.
+
+35. How often should I commit to github?
+-Commit generally after a completing a few lines of code or a section of code.
+
+36. What is the command we would use to push our repo up to github? 
+git push -u origin firstName-lastName
+
+37. Walk me through Lambda's git flow.
+Fork > Clone > Add > Commit > Push 
 
 Stretch Questions
 
