@@ -1,3 +1,6 @@
+CodePan Project link:
+    https://codepen.io/Cali2NewYork/pen/abzdNwR
+
 1. What is Semantic HTML? 
     The process of providing meaning to your content.
     Making you websites readable and easily interpreted by machines I.e.: Screen-readers and Search Engines.
