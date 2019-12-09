@@ -137,9 +137,31 @@ Fork > Clone > Add > Commit > Push
 
 Stretch Questions
 
-    1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the fix for the box model? 
+1. What is the difference between an inline element and a block element?
+-Inline element can be used inline with a set of text and doesn't create
+a new section of code like a block element.  For instance:
+<p>Hello my name is <span>Blake</span></p> would be an inline element:
+Hello my name is Blake
+A block element would break up the structure:
+<div>Hello my name is <p>Blake</p></div>
+Hello my name is 
 
+Blake
+
+2. What happens when an element is positioned absolutely? 
+-It will be positioned to an ancestor, or if no ancestor, it will stick on 
+the page in a certain positino when scrolling.
+
+3. How do I make an element take up only the amount of space it needs but 
+also have the ability to give it a width?
+-With min and max width properties (?)
+
+4. Name 3 elements that are diplay block by default, 2 elements that are display 
+inline by default and 1 element that is display inline-block by default
+Display Block: <p> <div> <header>
+Inline: <span> <img>
+Inline-Block: <button>
+
+5. In your own words, explain the box model. What is the fix for the box model? 
+All HTML elements are considered boxes, and the CSS Box Model is the specific
+outline that includes the content, padding, border, and margin.
