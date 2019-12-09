@@ -1,0 +1,144 @@
+1. What is Semantic HTML? 
+    The process of providing meaning to your content.
+    Making you websites readable and easily interpreted by machines I.e.: Screen-readers and Search Engines.
+    Helps developers keep their code readable, organized and easier to maintain.
+
+2. What is HTML used for? 
+    HTML is used to create electronic documents (called pages) that are displayed on the World Wide Web.
+
+3. What is an attribute and where do we put it? 
+    Attributes provide additional information about HTML elements.  <tag attribute-name="attribute-value">Some content...</tag>
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+    The <h1> to <h6> tags are used to define HTML headings. <h1> defines the most important heading. <h6> defines the least important heading.
+
+5. Name two tags that have required attributes
+    <a> <img>
+
+6. What do we put in the head of our HTML document? 
+    HTML <!DOCTYPE> Declaration and <head>
+
+7. What is an id? 
+    The id attribute specifies a unique id for an HTML element
+
+8. What elements can I add an id to? 
+    CCS and JavaScript
+
+9. How many times can I use the same id on a page? 
+    Once
+
+10. What is a class? 
+    Class attribute is used to define equal styles for elements with the same class name.
+
+11. What elements can I add a class to? 
+    The class attribute can be used on any HTML element
+
+12. How many times can I use the same class on a page? 
+    Several times
+
+13. How do I get my link to open in a new tab?
+    Command + T
+
+14. What is the alt attribute used for? 
+    The alt attribute specifies an alternative text to be used, if an image cannot be displayed.
+
+15. How do I reference an id?
+    #
+
+16. What is the difference between a section and a div
+    <section> is to start a new section of your webpage. <div> Used whenever we don;t need to discribe meaning.
+
+17. What is CSS used for? 
+    Styling your webpage
+
+18. How to we select an element? Example - every h2 on the page
+    h2 {
+
+    }
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    Class allow us to select individual elements by placing a special attribute in our HTML.
+    ID are only allowed to be used once per HTML page.
+    .hello 
+    <div class="hello">Hi</div>
+
+    #hello
+    <div id="hello">Hi</div>
+
+20. How do we select classes in CSS?
+    .class
+
+21. How do we select a p element with a single class of “human””?
+    p.human {
+
+    }
+
+22. What is a parent child selector? When would this be useful? 
+    The "parent > child" selector selects all elements that are a direct child of the specified element.
+    h1:last-child {
+        
+    }
+
+23. How do you select all links within a div with the class of sidebar?
+    .sidebar {
+
+    }
+
+24. What is a pseudo selector?
+    Keyword added to a selector that specifies a special action on the selected element(s).
+
+25. What do we use the change the spacing between lines?
+    Margins
+    
+26. What do we use to change the spacing between letters?
+   Padding
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform:
+
+28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        border-style: dotted;
+        border-width: 1px;
+    }
+
+29. How do I select everything on the page? 
+    * {
+
+    }
+
+30. How do I write a comment in CSS?
+    /* Comment */
+
+31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls -l
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm  
+
+34. Why should I use version control? 
+    You you more control over file and folder your working with
+
+35. How often should I commit to github?
+    Often
+
+36. What is the command we would use to push our repo up to github? 
+    git push origin 'userName'
+
+37. Walk me through Lambda's git flow. 
+    1.  Fork to get your own remote copy
+    2. Add Collaborator(s) to your work
+    3. GitHub respo select file click on clone copy URL link    
+        git clone 'URL'
+    4. Cd 'cloned fileName'
+    5. Open in VSCode using command= code .
+    6. git branch
+    7. git checkout -b 'FirstName-LastName'
+    8. git status
+    9. git add .
+    10. git commit -m "remarks"
+    11. git push -u origin 'FirstName-LastName'
+    12  On GitHub select pull request to submit your work
+
