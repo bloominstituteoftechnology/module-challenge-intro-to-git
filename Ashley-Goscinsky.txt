@@ -195,3 +195,32 @@ Stretch Questions
     and a height and three levels of boxes surrounding it: padding, borders and margins. The height and width refers to the
     actual dimensions, the padding is the space between this content and the border of the box, the border is any kind of line
     surrounding the box and the margin is the space around the border.
+
+
+
+    Stretch Git Tasks
+
+        1. Research and understand what a merge conflict is and how to resolve it.
+        Merge conflicts happen when you merge branches that have competing commits, and Git needs your help to decide which changes 
+        to incorporate in the final merge.
+        To resolve a merge conflict you need to manually edit the conflicted file to select the changes that you want to keep in the final merge. There are a few ways to resolve a merge conflict:
+        If your merge conflict is caused by competing line changes like people making different changes to the same line of the same 
+        file on different branches in your Git repository, you can resolve it on GitHub using the conflict editor.
+        For other types of merge conflicts, you resolve the conflict in a local clone of the repository and push the change to your branch on GitHub.
+        
+        2. Research the Git commands pull, rebase, merge. These commands will allow you to bring in changes that other developers push to the master branch.
+        Pull: a command used to get and download content from a remote repository and immediately update the local repository to match that content. 
+        Rebase: a command that allows you to take all of the changes that were committed on one branch and replay them on a different branch.
+        Merge: a command lets you take the independent lines of development created by git branch and integrate them into a single branch.
+        
+        3. Research the Git commands reset , revert, clean. These commands will allow you to go back and amends previous commits you have made.
+        Reset: a command that is used to undo local changes to the state of a Git repo.
+        Revert: a command that offers a safe method of undoing changes. Instead of deleting or orphaning commits in the commit history, a revert will create a 
+        new commit. Git revert is a safer alternative to git reset in regards to losing work.
+        Clean: a command similiar to an'undo' command. Git clean command operates on untracked files. 
+
+        4. Research and set up a Graphical User Interface (GUI) Git console.
+
+        5. Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push.
+        Completed! I attached a link here to see proof of completion: 
+        https://imgur.com/a/jqjGm8D
