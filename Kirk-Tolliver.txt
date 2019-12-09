@@ -137,8 +137,10 @@
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    	Block elements take up the entire width of the page. Inline elements focus on a specific piece of content.
 
     2. What happens when an element is positioned absolutely? 
+    	Any element in that position is move in order to make way for the absolute positioned object.
 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
 
