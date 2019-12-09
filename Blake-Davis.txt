@@ -164,4 +164,4 @@ Inline-Block: <button>
 
 5. In your own words, explain the box model. What is the fix for the box model? 
 All HTML elements are considered boxes, and the CSS Box Model is the specific
-outline that includes the content, padding, border, and margin.
+outline that includes the content, padding, border, and margin
