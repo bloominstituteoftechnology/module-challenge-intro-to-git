@@ -31,16 +31,42 @@ inside of a tag.
 9. How many times can I use the same id on a page?
 -Once 
 
-    10. What is a class? 
-    11. What elements can I add a class to? 
-    12. How many times can I use the same class on a page? 
-    13. How do I get my link to open in a new tab?
-    14. What is the alt attribute used for? 
-    15. How do I reference an id?
-    16. What is the difference between a section and a div
-    17. What is CSS used for? 
-    18. How to we select an element? Example - every h2 on the page
-    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+10. What is a class? 
+-Used to assign equal styles across all of the elements with the same class
+Name
+
+11. What elements can I add a class to? 
+-Any Element
+
+12. How many times can I use the same class on a page? 
+-Once
+
+13. How do I get my link to open in a new tab?
+-Use the 'target' attribute followed with the '_blank' value
+
+14. What is the alt attribute used for? 
+-Used to display an alternate text or image if the original item is 
+not able to load for the viewer
+
+15. How do I reference an id?
+The # mark
+    
+16. What is the difference between a section and a div
+-Section is an entire section of elements where a div would divide 
+up smaller groupings of elements.  A div could be in a section, but 
+not really the other way around.
+
+17. What is CSS used for? 
+-Cascading Style Sheets is for adding decoration and color to a site.  
+Make it nice and pretty.
+
+18. How to we select an element? Example - every h2 on the page
+-Use the element type followed by the curly bracket: h2 {}
+
+19. What is the difference between a class and an id? - Give me an example 
+of when I might use each one
+-A class is used for a collection of elements and an ID is for a specific 
+element.  
     20. How do we select classes in CSS?
     21. How do we select a p element with a single class of “human””?
     22. What is a parent child selector? When would this be useful? 
