@@ -96,5 +96,4 @@ Classes can be used as many times as needed within a document.
     Depends on your source code system and what else you have in place. If you're using Git, then commit whenever you finish a step
     36. What is the command we would use to push our repo up to github? 
     git push
-    37. Walk me through Lambda's git flow.
-     
+    37. Walk me through Lambda's git flow. 
