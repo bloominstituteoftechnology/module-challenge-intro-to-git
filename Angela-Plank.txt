@@ -1,0 +1,56 @@
+https://codepen.io/aplank2014/pen/eYmpPbQ?editors=1100
+
+
+    1. What is Semantic HTML? HTML code based on meaning, tags provide clue to what they are used for.
+    2. What is HTML used for? Providing content to web pages
+    3. What is an attribute and where do we put it? Attributes are the name and value of the tag, provided in the elements opening tag
+    4. What is the h1 tag used for? How many times should I use it on a page? Main heading, only once
+    5. Name two tags that have required attributes: input, select, textarea
+    6. What do we put in the head of our HTML document? a container for metadata (data about data) 
+    7. What is an id? (#) it's a name that identifies one specific element to make it easier to chose and style that element
+    8. What elements can I add an id to? Note that the id attribute cannot be applied to the following elements: base, head, html, meta, script, style, title
+    9. How many times can I use the same id on a page? only once
+    10. What is a class? (.) A selector used to grab certain elements on an html document
+    11. What elements can I add a class to? 
+    12. How many times can I use the same class on a page? several
+    13. How do I get my link to open in a new tab? The easiest way to open any link in a new tab is to right click on the link, and choose Open link in a new tab. Method 2: Press Ctrl (+ Shift) Key and Click on Link to Open in New Tab Press and hold down on Ctrl key, and click on the link to open the destination page in a new background tab (not in focus)
+    14. What is the alt attribute used for? Alt Attributes are text that describes an image. They are helpful to search engines and visually impaired visitors.
+    15. How do I reference an id? # a hashtag with the id name and a set of opening and closing curly braces
+    16. What is the difference between a section and a div? The only difference between the DIV element and the SECTION element is semantics. In other words, it's the meaning of the section of code you're dividing up. Any content that is contained inside a DIV element does not have any inherent meaning.
+    17. What is CSS used for? To style our webpages
+    18. How to we select an element? Example - every h2 on the page--just use the tag h2 and open and closed curly braces
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one: I might use the same class name on several paragraphs to style them all the same way but I'd only use one id name for one element that won't be repeated, like a header
+    20. How do we select classes in CSS? The dot (.) name of element and curly braces
+    21. How do we select a p element with a single class of “human””? p.human {}
+    22. What is a parent child selector? When would this be useful? If I wanted to select all of the elements between one parent and it's children selectors
+    23. How do you select all links within a div with the class of sidebar? div .sidebar{}
+    24. What is a pseudo selector? A pseudo-class selector acts as if you have added a class to an element in your markup. 
+    25. What do we use the change the spacing between lines? line-height
+    26. What do we use to change the spacing between letters? use letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?  text-transform: lowercase; text-transform: uppercase;
+    28. How do I add a 1px border around my div that is dotted and black?  div{
+        border: dotted 1px black;
+    }
+    29. How do I select everything on the page? * the star is a selector for everything
+    30. How do I write a comment in CSS?  //for single line comments and /* for multiline comments */
+    31. How do I find out what file I am in, when I am using the command line? cd for change directory or ls to list the folder you are in
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm to remove files (no way to get it back, it won't be in the trash)
+    34. Why should I use version control? A version control system remembers the history of your files. If you mess something up, you can get an earlier version back again. A version control system helps you share changes. It makes things easier to manage if several of you are working together, or if you are working in more than one location.
+    35. How often should I commit to github? Maybe twice a day, once before lunch once at the end of the day
+    36. What is the command we would use to push our repo up to github? git push
+    37. Walk me through Lambda's git flow. 
+    Fork, add TL as collaborator, clone your repo (git clone <repo address>), create a branch (cd <repo directory> git checkout -b 'firstname-lastname), push new branch with git push -u origin firstname-lastname, on GITHub compare and pull request-base: your master, compared to your fork, add TL as reviewer
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?  An inline element can't have width and height property set whereas a block and an inline-block element can have. An inline element can not have top or bottom margin that can be set for an inline-block element and block element.
+    2. What happens when an element is positioned absolutely? This value tells the browser that whatever is going to be positioned should be removed from the normal flow of the document and instead placed in an exact location on the page. This is calculated based on that element's closest non-statically positioned ancestor. 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    Block-level elements: <div>, <footer>, <aside>
+    Inline: <span>, <a>
+    Inline-block: <img>
+    5. In your own words, explain the box model. What is the fix for the box model? 
+    The box model is a term used to talk about design and layout. It contains margins, border, padding, and the content of the box in the center. This helps us to put a border or define space between elements.
+
