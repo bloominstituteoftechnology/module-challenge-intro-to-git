@@ -26,12 +26,6 @@ You will need to follow the Lambda School Git Workflow to add a file to this pro
 
 
 ## Stretch
-Stretch Review questions: 
-    1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the fix for the box model? 
 Stretch Git Tasks
 - [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
   - [ ] Research and understand what a `merge conflict` is and how to resolve it.
@@ -41,5 +35,12 @@ Stretch Git Tasks
 - [ ] Research and set up a Graphical User Interface (GUI) Git console. 
 
 - [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
+
+Stretch Research questions: 
+  1. What is the difference between an inline element and a block element?
+  2. What happens when an element is positioned absolutely? 
+  3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+  4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+  5. In your own words, explain the box model. What is the fix for the box model? 
 
 
