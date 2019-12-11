@@ -143,6 +143,7 @@ Wrap a div around some text.
 Elements that are block by default:
 (p) (h1, h2, h3, h4, h5, h6.) (address)
 Elements that are inline by default:
+
     5. In your own words, explain the box model. What is the fix for the box model? 
 The box model is a basic HTML template that describes the ways we can place/manipulate elements stylistically accroding to the model. It includes padding, margin, border, and content (within a "box".) The fix for the box model (which isn't good for responsive design) is "box-sizing: border-box."
 
