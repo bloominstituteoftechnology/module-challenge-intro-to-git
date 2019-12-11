@@ -44,7 +44,7 @@
     
     11. What elements can I add a class to? 
     
-    Anything
+    Any elements
     
     12. How many times can I use the same class on a page? 
     
@@ -95,13 +95,15 @@
     .class {
   css declarations;
 }
-    21. How do we select a p element with a single class of “human””?
+    21. How do we select a p element with a single class of “human””? 
+    .human {}
     
     22. What is a parent child selector? 
     
     The ("parent > child") selector selects all elements that are a direct child of the specified element.
     
     23. How do you select all links within a div with the class of sidebar?
+    .sidebar
     
     24. What is a pseudo selector?
     
@@ -156,41 +158,15 @@
     
     34. Why should I use version control?
     
-    In case there was a bug or break inside something you pushed out and need to roll back.
+    To track code changes
     
     35. How often should I commit to github? Everytime you make a change
     
-    36. What is the command we would use to push our repo up to github? git push -u examplefile master
+    36. What is the command we would use to push our repo up to github? git push -u examplefile first-last name
     
-    37. Walk me through Lambda's git flow
+    37. Walk me through Lambda's git flow  https://www.notion.so/GitFlow-step-by-step-a764163309754e23b1b9c4077b1653cc
+
+
+
+
     
-    Create YOUR OWN version of Repo ---> (Fork)
-
-Add your TL as collaborator
-
-on GitHub:
-Settings -> Collaborators -> Add Collaborator (use your TL's handle)
-(I'd suggest grabbing the invite tag and DM it to your TL on Slack at this point)
-
-Clone Repo
-
-back on your machine:
-git clone <your-repo-address>
-
-Create a branch (the one you are going to be working on)
-
-cd <repo directory>
-git checkout -b 'firstname-lastname'
-
-Push your new branch up to GitHub and make all future pushes to that branch
-
-git push -u origin firstname-lastname
-
-on GitHub
-
-Compare & Pull Request -> Base: master
-compare fork: fork
-
-Add your TL as a reviewer on the Pull Request
-
-On the 'Open a Pull Request' page click on Reviewers
