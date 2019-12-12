@@ -1,0 +1,84 @@
+https://codepen.io/CassAttac/pen/NWPNaNP
+
+
+1. What is Semantic HTML? 
+    Gives more information about what is contained in the HTML so that is understandable by both computer and human coder
+2. What is HTML used for?
+     To create web pages 
+3. What is an attribute and where do we put it? 
+    Attributes are elements that can change HTML's display without using CSS.  Attributes are found under Semantic code.
+4. What is the h1 tag used for? How many times should I use it on a page?
+    In human h1 means 'header one' and it is both a semantic and attribute because we know what it means, but h1 also means that it will display a certain way.  nd you can use h1 as many times as you would like as long as you know were they are and if they are in classes and so on
+5. Name two tags that have required attributes
+    any header (h1-h6) and nav
+6. What do we put in the head of our HTML document? 
+    labels for identification
+7. What is an id? 
+    an id is a way of marking code to add specificity in CSS
+8. What elements can I add an id to? 
+    img, nav
+9. How many times can I use the same id on a page? 
+    once
+10. What is a class? 
+    A way to divide context, so a grouping of items
+11. What elements can I add a class to? 
+    h1-h6, p
+12. How many times can I use the same class on a page? 
+    as many times as you can keep track of
+13. How do I get my link to open in a new tab?
+    add .html
+14. What is the alt attribute used for? 
+    if the previous thing cannot be displayed the alternate can take its place
+15. How do I reference an id?
+    #id
+16. What is the difference between a section and a div
+    section requires a label
+17. What is CSS used for?   
+    CSS styles html beyond attributes
+18. How to we select an element? Example - every h2 on the page
+    start a new line with the tag then { }
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    class- can label anything in code and can be repeated to refer to different things.  Class is good to use for short-termcall backs in CSS
+    id- can only be used once in html.  It is good to use id for something you plan to recall often
+20. How do we select classes in CSS?
+    .class
+21. How do we select a p element with a single class of “human””?
+    .human p
+22. What is a parent child selector? When would this be useful? 
+    children reside within parents. anything that happens to the parents can happen to the children but not vice cersa.  This is useful for any time one might be looking to add specificity within an element
+23. How do you select all links within a div with the class of sidebar?
+    .class
+24. What is a pseudo selector?
+    selects things of a specific type
+25. What do we use the change the spacing between lines?
+    tab
+26. What do we use to change the spacing between letters?
+    space
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform
+28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        border: dotted black 1px;
+    }
+29. How do I select everything on the page? 
+    *
+30. How do I write a comment in CSS?
+    /* */
+31. How do I find out what file I am in, when I am using the command line? 
+    cd
+32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm
+    You should be careful because you will not get a warning before it is deleted and it will be gone
+34. Why should I use version control? 
+    To stay up to date with any and all changes in code from anyone who has access
+35. How often should I commit to github?
+    Pretty often.  Any time you are deciding to take a break is ideal
+36. What is the command we would use to push our repo up to github? 
+    git push -u <name>
+37. Walk me through Lambda's git flow. 
+    fork code
+    add TL as collaborator
+    clone link
+    in personal terminal git clone <name of place/you>
