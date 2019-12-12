@@ -49,7 +49,7 @@ https://codepen.io/Amaury0134/pen/zYxvveK?editors=1100
 
     24. What is a pseudo selector? - A pseudo-class is a selector that selects elements that are in a specific state, they are the first element of their type, or they are being hovered over by the mouse pointer
 
-    25. What do we use the change the spacing between lines?-line-spacing:
+    25. What do we use the change the spacing between lines?-line-spacing
 
     26. What do we use to change the spacing between letters?-letter-spacing
 
