@@ -1,4 +1,4 @@
-    Codepen assignment link:    
+    Codepen assignment link: https://codepen.io/cgiroux86/pen/dyPjOBM?editors=1100    
     
     
 1. What is Semantic HTML? 
@@ -90,4 +90,4 @@
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
         display block - <p>, <h1>, <div> inline - <span>, <a>, <img>
     5. In your own words, explain the box model. What is the fix for the box model? 
-        The box model is a model where a "box" wraps all HTML elements.
+        The box model is a model where a "box" wraps all HTML elements. Not sure about the fix maybe CSS grid or flex?
