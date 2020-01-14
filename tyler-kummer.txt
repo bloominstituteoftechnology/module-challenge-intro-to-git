@@ -1,0 +1,154 @@
+    Codepen Link: https://codepen.io/tylerkummer/pen/KKwBNNy?editors=1100     
+
+    1. What is Semantic HTML? 
+	Semantic HTML is used for defining different tags for different parts of a web page.
+
+    2. What is HTML used for? 
+	HTML is Hypertext Markup Language and it is used as the building block for a web page.
+
+    3. What is an attribute and where do we put it? 
+	An attribute is used to provide additional information about an element and they are placed inside of HTML elements.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	The h1 tag is used for a header tag, where it will have the biggest text to define how important it is.
+	The h1 tag should be used once per web page.
+
+    5. Name two tags that have required attributes
+	Anchor tags <a> and image tag <img>.
+
+    6. What do we put in the head of our HTML document? 
+	The head tag has information that is not displayed in the web browser when the page is loaded. 
+	This includes metadata about the HTML document like document title, character set, styles, scripts, etc.
+
+    7. What is an id? 
+	The id attribute assigns a unique identifier to an HTML element.
+
+    8. What elements can I add an id to?
+	You can add ids to headers, paragraphs, sections, dividers, etc.
+
+    9. How many times can I use the same id on a page? 
+	You can only use the same id once per page, they are meant to be associated with one individual tag.
+
+    10. What is a class? 
+	A class is used for multiple elements so that way if a tag has a certain class name they can all be changed.
+
+    11. What elements can I add a class to? 
+	Divider elements, sections, headers, etc.
+ 
+    12. How many times can I use the same class on a page? 
+	You can use the same class as many times as you need to on a webpage.
+
+    13. How do I get my link to open in a new tab?
+	Inside your anchor element, after the website that is being linked, put target="_blank".
+	Should look like this:
+	<a href="https://www.google.com/" target="_blank">Google</a>
+
+    14. What is the alt attribute used for? 
+	The alt attribute goes inside of an image element and is meant to give additional information about the image if the user cannot properly see the image.
+
+    15. How do I reference an id?
+	The #idName will reference your id where idName is the name you gave the id when declaring it.
+
+    16. What is the difference between a section and a div
+	The section element will is meant to give some context to the different sections of your webpage that is being divided up.
+	The div element does not carry special meaning but is meant to be a last resort when dividing different items on a web page.
+
+    17. What is CSS used for? 
+	CSS stands for Cascading Style Sheets and it is used in conjunction with HTML to give a webpage more style.
+	CSS is used to paint the house that HTML built in a sense.
+
+    18. How to we select an element? Example - every h2 on the page
+	h2{} will select all the h2 elements on your web page.
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	A class is used to label more than one element inside an HTML document,
+	while an id is used to label only one specific element inside an HTML document.
+	A class would be used if there were more than one thing the user would like to edit in their HTML page,
+	while an id would be better used if the user only wants to edit one specific element in their HTML page.
+
+    20. How do we select classes in CSS?
+	Classes are selected by putting a . infront of the name of the class we are selecting.
+	If we hade a class called apples, then we would write that as:
+	.apples{}.
+
+    21. How do we select a p element with a single class of “human””?
+	.human p{}
+
+    22. What is a parent child selector? When would this be useful? 
+	The parent child selector is used to select a specific element within a parent element.
+	For example, if there were a div element and then an h2 element and a p element inside of the div element,
+	then if you only wanted to select and edit the p element you can with parent child selector.
+	Div element has class name yarn, then it would look like this:
+	.yarn p{}.
+
+    23. How do you select all links within a div with the class of sidebar?
+	 <div class="side-bar" style="width:25%">
+  	 	<a href="#" class="bar-item-button">Link 1</a>
+ 	 	<a href="#" class="bar-item-button">Link 2</a>
+  	 	<a href="#" class="bar-item-button">Link 3</a>
+	 </div>
+
+    24. What is a pseudo selector?
+	A pseudo selector is used to define a special state of an element,
+	so a certain style of the element when the cursor hovers over it,
+	the anchor tag being a different color once clicked on, etc.
+
+    25. What do we use the change the spacing between lines?
+	The line-height property will change the spacing between lines.
+
+    26. What do we use to change the spacing between letters?
+	The letter-spacing is used to change the spacing between letters.
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	We use the text-transform property to change the presentation of the text.
+	CAPITALS: text-transform: capitalize;
+	Lowercase: text-transform: lowercase;
+	Uppercase: text-transform: uppercase;
+
+    28. How do I add a 1px border around my div that is dotted and black?
+	<div style="border: dotted 1px black" id="dots"></div>
+
+    29. How do I select everything on the page?
+	By using either *{} or body{}.
+
+    30. How do I write a comment in CSS?
+	/* Insert Comment Here */
+
+    31. How do I find out what file I am in, when I am using the command line?
+	pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	rm fileName.txt
+
+    34. Why should I use version control? 
+	Version control allows us to keep copies of our files from every part of the development cycle. Version control will allow us to revert back to older
+	versions of our code incase a mistake was made in the process. We can also share our code with a team member and vice versa with version control where
+	we can compare our differences and such.
+
+    35. How often should I commit to github?
+	Frequently, so not all the time but also not rarely just commit at a pretty often pace.
+
+    36. What is the command we would use to push our repo up to github? 
+	git push -u origin branch-name
+
+    37. Walk me through Lambda's git flow. 
+	1. Fork your own version of the repo.
+	2. Check if fork was successful if your name is in front of the repo.
+	3. Add TL as a collaborator to the repo in settings.
+	4. Clone your repo using the Clone or Download button and selecting the clipboard.
+	5. Inside of your termnal use the cd command to navigate to the directory you would like to clone the repo to.
+	6. Use git clone<link-to-repo> to clone the reo to the directory I am currently in.
+	7. Use cd <repo-name> to go inside of our new repository.
+	8. Use git checkout -n 'firstname-lastname' to create my own branch for the repo.
+	9. Now work on the repo can begin.
+	10. To add and commit changes to my branch of the repo locally use the commands,
+	    git add . and git commit -m "Comment".
+	11. Push changes back to the Github repo by using git push -u origin branch-name.
+	12. Submit a pull request on Github.
+	13. Go to the forked version of my repo on Github, select name branch, click New pull request button,
+	    click the dropdown that says base repository and make sure it says my forked repo instead.
+	14. Add my TL to the Reviewers and then submit the pull request.
+	15. Don't merge my own pull request.
