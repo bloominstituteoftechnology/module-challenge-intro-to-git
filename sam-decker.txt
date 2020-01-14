@@ -15,7 +15,7 @@ https://codepen.io/samdecker386/pen/povZPzr
         - use probably once unless it makes sense to use it more
 
 5. Name two tags that have required attributes
-        - <input>, <select>
+        - <h1>, <title>
 
 6. What do we put in the head of our HTML document? 
         - <header>
@@ -139,8 +139,21 @@ https://codepen.io/samdecker386/pen/povZPzr
 
 Stretch Questions
 
-    1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the fix for the box model? 
+1. What is the difference between an inline element and a block element?
+        - an inline element does not break the flow of content
+        - a block element will break the line of content
+
+2. What happens when an element is positioned absolutely? 
+        - it is positioned relative to its nearest positioned ancestor
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        - ask it to, nicely
+
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        - DISPLAY BLOCK --> <p>, <header>, <footer>
+        - DISPLAY INLINE --> <a>, <img>
+
+5. In your own words, explain the box model. What is the fix for the box model? 
+        - a box that wraps around every element
+        - contains margin area, border area, padding area, and content area
+        - the fix is box-sizing:border-box (includes padding and borders in width)
