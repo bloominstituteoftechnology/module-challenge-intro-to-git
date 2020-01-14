@@ -109,10 +109,19 @@ depends on who you work for
     36. What is the command we would use to push our repo up to github? 
 git push 
     37. Walk me through Lambda's git flow. 
+1. Fork
+2. Add PM as collaborator
+3. Clone - git clone
+4. create branch - git checkout -b 'firstname-lastname'
+5. add changes - git add
+6. commit changes - git commit -m 'message'
+7. push - git push -u origin branch-name
+8. pull request + review request
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+
     2. What happens when an element is positioned absolutely? 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
