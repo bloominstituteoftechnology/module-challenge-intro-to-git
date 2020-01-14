@@ -1,0 +1,148 @@
+LINK TO CODEPEN: https://codepen.io/CSCK/pen/povZRMv?editors=1100
+
+
+
+QUESTIONS:
+
+    1. What is Semantic HTML? 
+	A way of universally describing the meaning of the markup by using standardized tags
+
+    2. What is HTML used for? 
+	Building the layout of a webpage
+
+    3. What is an attribute and where do we put it? 
+	An attribute is a modifier added to an element
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	For creating a header, normally only once - if you have two Primary sections it may be better to separate them into two different pages
+
+    5. Name two tags that have required attributes
+	img, link both require src
+
+    6. What do we put in the head of our HTML document? 
+	Headers usually contain the title, and any meta information such as links to style sheets or defining the viewport
+
+    7. What is an id? 
+	An id is an attribute, normally used for navigation and styling purposes
+
+    8. What elements can I add an id to? 
+	All of them
+
+    9. How many times can I use the same id on a page? 
+	There is no technical limit, although if being used for navigation, only once
+
+    10. What is a class?
+	A class is an attribute used for styling
+
+    11. What elements can I add a class to? 
+	All of them
+
+    12. How many times can I use the same class on a page? 
+	As many as you'd like, many elements will reuse the same class for consistency and reducing redundancy in the CSS
+
+    13. How do I get my link to open in a new tab?
+	By using the "target" attribute
+
+    14. What is the alt attribute used for? 
+	As a backup if an image cannot be loaded, or if sight accessibility is being used it serves as a descriptor for the impaired user
+
+    15. How do I reference an id?
+	#
+
+    16. What is the difference between a section and a div
+	Section implies that the grouping of sub elements are both related to each other and separate from things outside of it, 
+	while a div is generic and only inherets meaning from its attributes.
+
+    17. What is CSS used for? 
+	Styling
+
+    18. How do we select an element? Example - every h2 on the page
+	In the context of CSS: h2 { }
+	In the context of JS/JQuery: document.getElementsByTagName()
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	Both can be used for styling, but IDs are also used for navigation. A class will normally be repeated frequently, while IDs are generally one time use
+	either for navigation and specificity.
+
+    20. How do we select classes in CSS?
+	.className { }
+
+    21. How do we select a p element with a single class of “human””?
+	p.human { }
+
+    22. What is a parent child selector? When would this be useful? 
+	A selector with more than one class, is useful for when multiple child elements share the same parent but need additional unique attributes
+
+    23. How do you select all links within a div with the class of sidebar?
+	div.sidebar a { }
+
+    24. What is a pseudo selector?
+	it is an add on to any selector to further specify under what circumstances a particular styling should be in effect or take precedence over the same selector
+	without the psuedo selector. i.e: p:hover { }
+
+    25. What do we use the change the spacing between lines?
+	line-height: ;
+
+    26. What do we use to change the spacing between letters?
+	letter-spacing: ;
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	text-transform: uppercase; text-transform: lowercase; text-transform: capitalize;
+
+    28. How do I add a 1px border around my div that is dotted and black?
+	div { 
+	  border: dotted black 1px;
+	}
+
+    29. How do I select everything on the page?
+	* { }
+
+    30. How do I write a comment in CSS?
+	/* */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+	By looking at it...? Not sure I understand the question. Was this meant to say directory instead of file? or if you opened a file
+	using the vim command then the file name is displayed at the bottom, but you would have typed the file name in the first place so...
+	Maybe the question is asking something else entirely and I just dont understand? :x
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	ls or dir
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	rm - because it deletes it rather than moving to trash
+
+    34. Why should I use version control? 
+	To avoid having an entire separate copy for each change, and so you can easily revert back if necessary, fix and find bugs, etc...
+
+    35. How often should I commit to github?
+	Frequently whenever you've made some progress, and if working on a team you should make sure that you test your code before comitting so it doesn't break everyone
+	elses work when they download it
+
+    36. What is the command we would use to push our repo up to github? 
+	git push -u origin firstname-lastname
+
+    37. Walk me through Lambda's git flow. 
+	Fork, Add TL Collaborator, Clone, Branch, (do work), Push, Pull, Add TL to review
+STRETCH QUESTIONS:
+
+    1. What is the difference between an inline element and a block element?
+	A block element starts on a new line, while inline elements are nested inside block elements
+
+    2. What happens when an element is positioned absolutely? 
+	It is positioned relative to its parent, if it has no parent then it is positioned relative to the document body
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+	elementSelector { 
+	width: fit-content;
+	min-width: 500px;
+	}
+
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+	Block: div, p, h1 | Inline: textarea, input | Inline-Block: button
+
+    5. In your own words, explain the box model. What is the fix for the box model? 
+	The box model is a way of defining the size of an element. Going in order from inside out: content, padding, border, margin. Each one encompassing its predecessor
+	and each having their own dimmensions which can have unintended effects
+
+	My preferred solution is using a framework
+
