@@ -1,1 +1,85 @@
 https://codepen.io/haaffinstaaff/pen/jOEpyMX?editors=1100
+
+
+
+Questions:
+    1. What is Semantic HTML? 
+        The use of HTML markup to reinforce the meaning behind the HTML tags
+    2. What is HTML used for? 
+        HTML is used for creating pages on the Internet.
+    3. What is an attribute and where do we put it? 
+        An attribute provides information about the element. They are always put in the opening tag.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        H1 is used for creating a large header. Generally you should only put one per page.
+    5. Name two tags that have required attributes
+        Anchor tags require a link and IMG tags require a link to an image.
+    6. What do we put in the head of our HTML document? 
+        <title></title>
+        Navigation bars
+        Generally a lot of things but I'm not sure what you're referring to here.
+    7. What is an id? 
+        ID is kind of like Class but the specific ID you use can only be used once per page.
+    8. What elements can I add an id to? 
+        Pretty much all elements 
+    9. How many times can I use the same id on a page? 
+        Only once!
+    10. What is a class? 
+        Kind of like ID but the same one can be used multiple times.
+    11. What elements can I add a class to?
+        Same as ID.
+    12. How many times can I use the same class on a page? 
+        Infinite amount of times!
+    13. How do I get my link to open in a new tab?
+        By using an Anchor tag (<a href="#"></a>)
+    14. What is the alt attribute used for? 
+        The alt attribute is the alt text for an image. it's for screenreaders or if the image doesn't load.
+    15. How do I reference an id?
+        #id
+    16. What is the difference between a section and a div
+        Section is used if the items grouped are similar. 
+    17. What is CSS used for? 
+        CSS is used for styling HTML elements
+    18. How to we select an element? Example - every h2 on the page
+        h2{
+
+        }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        Class can be used multiple times but ID can only be used once. ID is useful if you want to target a specific element
+    20. How do we select classes in CSS?
+	.class
+    21. How do we select a p element with a single class of “human””?
+	p .class
+    22. What is a parent child selector? When would this be useful? 
+	parent > child selector selects all elements that are a child of the element.
+    23. How do you select all links within a div with the class of sidebar?
+	.sidebar div a {}
+    24. What is a pseudo selector?
+	A pseudo selector is used to define a special state of an element. Such as, when someone's cursor hovers over a link.
+    25. What do we use the change the spacing between lines?
+	line-height
+    26. What do we use to change the spacing between letters?
+	letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	text-transform
+    28. How do I add a 1px border around my div that is dotted and black?
+	div{
+	border:1px dotted black;
+	}
+    29. How do I select everything on the page? 
+	* {}
+    30. How do I write a comment in CSS?
+	/* text here */
+    31. How do I find out what file I am in, when I am using the command line?
+	pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	rm <file-name>. You should be careful because theres no prompt to make sure you want to do it, and theres no recovering it.
+    34. Why should I use version control? 
+    35. How often should I commit to github?
+	Every time you finish updating something.
+    36. What is the command we would use to push our repo up to github? 
+	git push
+    37. Walk me through Lambda's git flow. 
+	You fork the repo so it's your own. Then you clone it using `git clone <link to repo>`. 
+	When you're ready to commit the changes, you use `git add` to prepare them for committing, then `git commit -m <message here>
