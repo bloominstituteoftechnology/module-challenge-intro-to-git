@@ -1,0 +1,16 @@
+//This is where the links to the pages will be.
+//More changes
+
+//I have added the URL of the CodePen
+//https://codepen.io/dannyd216/full/OJPwgNQ
+
+//I have made another change updating the second-section h2
+https://codepen.io/dannyd216/pen/OJPwgNQ?editors=1100
+
+//New update of the paragraph setting in the website to make the p tags touch
+https://codepen.io/dannyd216/pen/OJPwgNQ?editors=1100
+
+//New changes made to answer the questions at the bottom
+//1 stretch question answered
+https://codepen.io/dannyd216/pen/OJPwgNQ?editors=1000
+
