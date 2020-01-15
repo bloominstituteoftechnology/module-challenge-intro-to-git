@@ -1,3 +1,31 @@
-User Interface I: Project 2 - Sweet Eats Bakery
+User Interface I: Project 2 - Sweet Eats Bakery Link: https://codepen.io/jjaxx/full/eYmKJRe
 
-https://codepen.io/jjaxx/full/eYmKJRe
+Review Questions: 
+
+1) What is the difference between an inline element and a block element?
+
+- An inline element can be put inside a block element but not vice versa. Inline elements don't forcefully begin in a new line whereas block elements do. Block elements also cover the entire width of an object, whereas inline elements are bounded by its opening and closing tag. 
+
+
+2) What happens when an element is positioned absolutely?
+
+- An element with an absolute positioning is removed from the flow of the document and can be placed anywhere within its non-static parent (or nearest ancestor) container. 
+
+
+3) How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+- I would give it a min and max-width. This is kind of a confusing question.
+
+
+4) Name 3 elements that are displayed block by default, 2 elements that are displayed inline, and 1 element that is displayed inline-block. 
+
+Block: <address>, <article>, and <p>
+
+Inline: <textarea> and <input>
+
+Inline-block: <select>
+
+
+5) In your own words, explain the box model. What is the fix for the box model?
+
+- An element has three "layers" or "wrappers": Margins, Borders, and Paddings. The margin is the outermost wrapper that separates the element from its surrounding elements. The border is the second outermost wrapper which can be styled in color, width, and design (solid, dotted, dashed, etc). Padding comes next, and it separates the content of the element from the border by adjusting the width. Both paddings and margins are transparent.
