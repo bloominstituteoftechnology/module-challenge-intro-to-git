@@ -119,4 +119,4 @@ html is used to create the "skeloton" of a website.
     clone your repo
     create your branch
     push your branch 
-    add your tl as a reviewer.
+    add your tl as a reviewer..
