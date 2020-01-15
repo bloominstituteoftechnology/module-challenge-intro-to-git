@@ -3,3 +3,6 @@
 
 //I have added the URL of the CodePen
 //https://codepen.io/dannyd216/full/OJPwgNQ
+
+//I have made another change updating the second-section h2
+https://codepen.io/dannyd216/pen/OJPwgNQ?editors=1100
