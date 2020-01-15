@@ -1,0 +1,93 @@
+git commit -m *new*
+git push
+cd
+
+
+cd /
+git add .
+cd Git Develop
+ 1. What is Semantic HTML? 
+    2. What is HTML used for? 
+    3. What is an attribute and where do we put it? 
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    5. Name two tags that have required attributes
+    6. What do we put in the head of our HTML document? 
+    7. What is an id? 
+    8. What elements can I add an id to? 
+    9. How many times can I use the same id on a page? 
+    10. What is a class? 
+    11. What elements can I add a class to? 
+    12. How many times can I use the same class on a page? 
+    13. How do I get my link to open in a new tab?
+    14. What is the alt attribute used for? 
+    15. How do I reference an id?
+    16. What is the difference between a section and a div
+    17. What is CSS used for? 
+    18. How to we select an element? Example - every h2 on the page
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    20. How do we select classes in CSS?
+    21. How do we select a p element with a single class of "human""?
+    22. What is a parent child selector? When would this be useful? 
+    23. How do you select all links within a div with the class of sidebar?
+    24. What is a pseudo selector?
+    25. What do we use the change the spacing between lines?
+    26. What do we use to change the spacing between letters?
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    28. How do I add a 1px border around my div that is dotted and black?
+    29. How do I select everything on the page? 
+    30. How do I write a comment in CSS?
+    31. How do I find out what file I am in, when I am using the command line? 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    34. Why should I use version control? 
+    35. How often should I commit to github?
+    36. What is the command we would use to push our repo up to github? 
+    37. Walk me through Lambda's git flow. 
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model? 
+1. Sematic html is the information in webpages and web applications rather than defining its look.
+2.Html is used to create electronic documents. basically web pages.
+3. attributes are special words used inside of an opening tag to control certain behaviors.
+4. I feel like you should only used an H1 tag only once, because its a header and not a sub category.
+5. two tags that are required on an html document is doctype,html, title, and body.
+6. you would use the attribute called head.
+7. This unique attribute carries value. its special in html.
+8. this can be used for style sheet selecting, a reference, or a named anchor tag.
+9. you can use as many ids as you like on the page, but most of it wont be valid.
+10. the class element specifies one or more class elements. it can also be used in css and javascript.
+11. any element may be used by it, but a few wont allow it like base, head, html, meta, param, script, style, and title.
+12. well I guess forever, but the class attribute can only be attached to one element at a time.
+13. I usually right click it and use the open in new tab button. 
+14. the alt attribute is used to provide alternative information for an image if the user cannot view it.
+15. html has elements written in it and to reference it I would have to call it out based on the element.
+16. the section element is used for chapters, headers, and footers. the div element is a true divider, this particular tag is used to group block elements.
+17. css is a cascading style sheet. its used for design, you know bringing your work to life.
+18. h1 {     }  thats the example.
+19. the id can describe one element, but the class can select multiple elements.
+20. you would write a period. heres an example, .apple{    }
+21. you would use the head.callout method.
+22.we use this thing called the child selector. this is used for elements that have direct children of other elements. this may be useful when you need to select other children within a element.
+23. you would use descendent selectors.
+24. pseudo class is a selector that specifies a special state of selected elements. for example, :hover.
+25. you would use line height in css.
+26. you would use the letter spacing in css.
+27. the lowercase, uppercase, or capital method would work fine.
+28. you would change the thickness of the border/padding.
+29.
+29. you would hold your mouse button and hover over the entire page unless you want the slower route which is screenshotting.
+30. you gotta use the /* and */
+31. it literally tells you on screen behind your words. for example, right now I am in my "kyler-barber" folder. 
+32. the only way is to use ls -la
+33.you would use this command. del /f filename
+34. it helps teams stay organize, solve problems, and helps prevent anywork from colliding with eachother because every contributor will commit changes eventually.
+35. I believe you should commit when you make major changes.
+36. we use git init first then git commit -m then git add . or git push -u "branch-name"
+37. correct me if I am wrong. you would create your own repo. add your TL as a collaborator. clone that repo you're working with then open your terminal after copying the repo url address. don't forget to create a branch and then a file
+within this branch. cd into it and push your changes. after that get your TL to review it.
+cd
