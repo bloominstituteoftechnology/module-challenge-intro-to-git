@@ -1,0 +1,50 @@
+Part One:
+  1. What is Semantic HTML? Its a way we use to describe meaning to the browser and developer,
+    2. What is HTML used for? To create the main structure or foundation for a web page or application.
+    3. What is an attribute and where do we put it? it provides additional info about an element. We can put it by the img src attribute. 
+    4. What is the h1 tag used for? How many times should I use it on a page? The h1 header is usually for the title. It is used usally only once per page.
+    5. Name two tags that have required attributes img src and img alt
+    6. What do we put in the head of our HTML document? Head Tag.
+    7. What is an id? id can be used to define one element only.
+    8. What elements can I add an id to? Header
+    9. How many times can I use the same id on a page? 1
+    10. What is a class? a class can be used to identify multiple elements.
+    11. What elements can I add a class to? div.
+    12. How many times can I use the same class on a page? as many as you want.
+    13. How do I get my link to open in a new tab? target="blank" attribute
+    14. What is the alt attribute used for? specifies alternate text for an image.
+    15. How do I reference an id? Hashtag #
+    16. What is the difference between a section and a div? section means that the content inside is grouped. div defines a division in a HTML doc.
+    17. What is CSS used for? To style a page.
+    18. How do we select an element? Example - every h2 on the page? use css selector
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    20. How do we select classes in CSS? . period 
+    21. How do we select a p element with a single class of “human””? p.human
+    22. What is a parent child selector? When would this be useful? it selects all elements that are a direct child of the specified element. We could use in css.
+    23. How do you select all links within a div with the class of sidebar? .sidebar :link{}
+    24. What is a pseudo selector? A pseudo-class is a selector that selects elements that are in a specific state.
+    25. What do we use the change the spacing between lines? line-height property 
+    26. What do we use to change the spacing between letters? letter-spacing: 
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    28. How do I add a 1px border around my div that is dotted and black? div {
+        border-style: dotted;
+        border: 1px solid black;}
+    29. How do I select everything on the page? *
+    30. How do I write a comment in CSS? /*  */
+    31. How do I find out what file I am in, when I am using the command line? pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm bc it permanently deletes it.
+    34. Why should I use version control? So you can go go back to see different stages/versions of your project and it can also be used to collaborate and work with groups and make changes.
+    35. How often should I commit to github? Every 20 mins or when you make a good amount of changes.
+    36. What is the command we would use to push our repo up to github? $ git push -u origin master
+    37. Walk me through Lambda's git flow. Fork, Add Collaborator, Clone repo, cd directory you want to add in,use git clone <link-to-repo> command, cd into the newly created repo using the cd <repo-name> command,Use the git checkout -b 'firstname-lastname' command to create your own branch name for the repo.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element? Inline element stays on the same line block does not.
+    2. What happens when an element is positioned absolutely? it offsets from the edges of the element's containing block.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? set padding, border , or margin.
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model? They are rectangular boxes that are generated for elements. Flexbox.
+
+Part 2 Codepen CSS/HTML practice: https://codepen.io/Vishald1/pen/vYEaJev?editors=1100 
