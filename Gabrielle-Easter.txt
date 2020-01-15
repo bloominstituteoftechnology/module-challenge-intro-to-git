@@ -68,6 +68,7 @@
             ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
             $ git rm nameoffile.txt
+            Once deleted, the file will be unrecoverable.
     34. Why should I use version control? 
             monitor and control code changes made during development across several people or teams
     35. How often should I commit to github?
