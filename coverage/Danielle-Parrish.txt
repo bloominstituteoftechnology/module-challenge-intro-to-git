@@ -6,3 +6,6 @@
 
 //I have made another change updating the second-section h2
 https://codepen.io/dannyd216/pen/OJPwgNQ?editors=1100
+
+//New update of the paragraph setting in the website to make the p tags touch
+https://codepen.io/dannyd216/pen/OJPwgNQ?editors=1100
