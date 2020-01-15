@@ -1,1 +1,154 @@
-this is a text file with information in it 
+https://codepen.io/jgreenberg/pen/abzjwNO?editors=1100
+
+
+    1. What is Semantic HTML? 
+        A: Semantic HTML is HTML that goes beyond just formatting a webpage and offers information about the webpage itself. 
+    
+    2. What is HTML used for? 
+        A: It is Hyper-Text-Markup-Language, used to format webpages. 
+    
+    3. What is an attribute and where do we put it? 
+        A: An attribute is a modifier of an HTML type. 
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        A: The h1 tag is the main Header tag; it should generally only be used once. 
+
+    5. Name two tags that have required attributes
+        A: An <img> tag must have a "src" attribute. 
+        A: A <a> tag must have an "href" attribute. 
+
+    6. What do we put in the head of our HTML document? 
+        A: <head>
+
+    7. What is an id? 
+        A: An id is a way of identifying an HTML element, which can then be used in CSS or Javascript to reference that element. 
+
+    8. What elements can I add an id to? 
+        A: The id attribute can be used on any HTML element. 
+
+    9. How many times can I use the same id on a page? 
+        A: You should only use the same id once on a page. 
+
+    10. What is a class? 
+        A: A class is a unique identifier for an HTML element. 
+
+    11. What elements can I add a class to? 
+        A: You can add a class to any element. 
+
+    12. How many times can I use the same class on a page? 
+        A: Multiple times. 
+
+    13. How do I get my link to open in a new tab?
+        A: Add 'target="_blank"' to your <a href> tag.
+
+    14. What is the alt attribute used for? 
+        A: The alt attribute is used to specify alternate text to be used when the element cannot be rendered for whatever reason. 
+
+    15. How do I reference an id?
+        A: You reference an id by using the "#". 
+
+    16. What is the difference between a section and a div
+        A: A section is used for a large piece of a webpage; a div is used for a smaller piece, usually inside of a section. 
+
+    17. What is CSS used for? 
+        A: CSS is used for styling HTML elements, id's, and classes on a webpage. 
+
+    18. How to we select an element? Example - every h2 on the page
+        A: We select an element by simply writing it out for CSS. Example: "h2 { css rules }"
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        A: Id's are to be used sparingly, whereas classes can be used multiple times. 
+
+    20. How do we select classes in CSS?    
+        A: You select classes in CSS by writing "." and then the class name.
+
+    21. How do we select a p element with a single class of “human””?   
+        A: "p .human { css rules }"
+
+    22. What is a parent child selector? When would this be useful? 
+        A: When you have nested elements within each other. 
+
+    23. How do you select all links within a div with the class of sidebar?
+        A: div .sidebar {
+            css rules
+        }
+
+    24. What is a pseudo selector?
+        A pseudo selector is something like a:hover{}
+
+    25. What do we use the change the spacing between lines?
+        A: line-height: 1.5;
+
+    26. What do we use to change the spacing between letters?
+        A: letter-spacing: 2px;
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        A: *{
+            text-transform: uppercase;
+        }
+        *{
+            text-transform: lowercase;
+        }
+        *{
+            text-transform: capitalize;
+        }
+
+    28. How do I add a 1px border around my div that is dotted and black?
+        A: div {
+            border: 1px dotted black;
+        }
+
+    29. How do I select everything on the page? 
+        A: * { css rules }
+
+    30. How do I write a comment in CSS?
+        A: /* comment goes here */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+        A: pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        A: dir
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        A: "rm" command. you have to be careful because it would delete the files permanently. 
+
+    34. Why should I use version control? 
+        A: Because it's good to keep track of the different versions. 
+
+    35. How often should I commit to github?
+        A: Frequently, after you have done updates. 
+
+    36. What is the command we would use to push our repo up to github? 
+        A: git push -u origin branch-name
+
+    37. Walk me through Lambda's git flow. 
+        A: Fork, add collaborator, Clone repo, go to directory, clone on local computer, create branch using "checkout", then "add", "commit", and finally "push". 
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+        A: A block element takes up a full page from left to right. An inline element does not cause a line break, whereas a block-level element does. 
+
+    2. What happens when an element is positioned absolutely? 
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+    5. In your own words, explain the box model. What is the fix for the box model? 
+
+
+Stretch Git Tasks
+- [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
+
+- [ ] Research and understand what a `merge conflict` is and how to resolve it.
+
+
+- [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the master branch.
+
+- [ ] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
+
+- [ ] Research and set up a Graphical User Interface (GUI) Git console. 
+
+- [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
