@@ -1,0 +1,163 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 HelveticaNeue;\f2\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid2\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww12000\viewh14660\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 https://codepen.io/_daveda_/full/vYEzpob \
+\
+1. What is Semantic HTML? \
+Semantic HTML introduces meaning to the webpage rather than just presentation \
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0     2. What is HTML used for? \
+To markup pages\
+\
+    3. What is an attribute and where do we put it? \
+Attributes provide additional information about HTML elements \
+\
+    4. What is the h1 tag used for? How many times should I use it on a page?\
+h1 tag is the header tag, usually title of post or emphasized on page\
+\
+    5. Name two tags that have required attributes\
+<a> tag has a required HREF or Name attribute \
+<img> tag has a SRC required attribute \
+<script>the language attribute is mandatory    \
+\
+6. What do we put in the head of our HTML document? \
+the <head> element is a container for metadata \
+\
+    7. What is an id? \
+ID perform certain tasks for the element with the specific ID value\
+\
+    8. What elements can I add an id to? \
+Can add one element to an id\
+\
+    9. How many times can I use the same id on a page? \
+Can only have one unique ID\
+\
+    10. What is a class? \
+the class is an attitude which specifies one or more class names for an HTML element \
+\
+    11. What elements can I add a class to? \
+add a class name to the div element \
+\
+    12. How many times can I use the same class on a page? \
+Multiple\
+\
+    13. How do I get my link to open in a new tab?\
+\'93_blank\'94 attribute to your links\
+\
+    14. What is the alt attribute used for? \
+The alt attribute is the HTML attribute used in HTML and XHTML documents to specify alternative text (alt text) that is to be rendered when the element to which it is applied cannot be rendered\
+\
+    15. How do I reference an id?\
+#\
+\
+    16. What is the difference between a section and a div\
+<section> means that the content inside is grouped (i.e. relates to a single theme), and should appear as an entry in an outline of the page.  <div>, on the other hand, does not convey any meaning, aside from any found in its class, lang and title attributes.  So no: using a <div> does not define a section in HTML.\
+\
+    17. What is CSS used for? \
+Style Pages\
+\
+    18. How to we select an element? Example - every h2 on the page\
+h2 \{\}\
+\
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one\
+In the CSS, a class selector is a name preceded by a full stop (\'93.\'94) and an ID selector is a name preceded by a hash character (\'93#\'94). The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.\
+\
+    20. How do we select classes in CSS?\
+To select elements with a specific class, write a period (.) character, followed by the name of the class\
+\
+    21. How do we select a p element with a single class of \'93human\'94\'94?\
+p.human \{\}\
+\
+    22. What is a parent child selector? When would this be useful? \
+The element>element selector is used to select elements with a specific parent. \
+\
+    23. How do you select all links within a div with the class of sidebar?\
+.\'94name\'94-div a:link .sidebar\
+\
+    24. What is a pseudo selector?\
+A pseudo-class is used to define a special state of an element.  For example, it can be used to:  Style an element when a user mouses over it Style visited and unvisited links differently Style an element when it gets focus\
+\
+    25. What do we use the change the spacing between lines?\
+line-height property \
+\
+    26. What do we use to change the spacing between letters?\
+letter-spacing: \
+\
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?\
+The CSS text-transform Property lowercase: makes all of the letters in the selected text lowercase. uppercase: makes all of the letters in the selected text uppercase or ALL CAPS. capitalize: capitalizes the first letter of each word in the selected text.\
+\
+    28. How do I add a 1px border around my div that is dotted and black?\
+\
+div \{\
+	border: 1px solid black;\
+	outline-style: dotted;\
+\}\
+border:1px solid black outline-style: dotted\
+\pard\pardeftab720\partightenfactor0
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0     29. How do I select everything on the page? \
+*\
+\
+    30. How do I write a comment in CSS?\
+/* everything in the comment here */\
+\
+    31. How do I find out what file I am in, when I am using the command line? \
+pwd \'97 print working directory \
+\
+    32. Using the command line - how do I see a list of files/folders in my current folder?\
+ls\
+\
+    33. How do I remove a file via the command line? Why do I have to be careful with this? \
+Type the rm command, a space, and then the name of the file you want to delete. If the file is not in the current working directory, provide a path to the file's location. You can pass more than one filename to rm . Doing so deletes all of the specified files.\
+\
+    34. Why should I use version control? \
+Version control helps teams solve these kinds of problems, tracking every individual change by each contributor and helping prevent concurrent work from conflicting. Changes made in one part of the software can be incompatible with those made by another developer working at the same time.\
+\
+    35. How often should I commit to github?\
+every time we make a change\
+\
+    36. What is the command we would use to push our repo up to github? \
+git push\
+\
+    37. Walk me through Lambda's git flow. \
+\pard\pardeftab560\slleading20\pardirnatural\partightenfactor0
+
+\f1 \cf0 \
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\f2\fs20 \cf0 {\listtext	\uc0\u8226 	}
+\f1\fs24 Student will create OWN version of Repo (Fork)\
+\ls1\ilvl0
+\f2\fs20 {\listtext	\uc0\u8226 	}
+\f1\fs24 Student will add TL as a collaborator\
+\ls1\ilvl0
+\f2\fs20 {\listtext	\uc0\u8226 	}
+\f1\fs24 Student then will Clone Repo\
+\ls1\ilvl0
+\f2\fs20 {\listtext	\uc0\u8226 	}
+\f1\fs24 Student will then create a branch (on which the student will implement the project) git checkout -b 'firstName-lastName'\
+\ls1\ilvl0
+\f2\fs20 {\listtext	\uc0\u8226 	}
+\f1\fs24 Student will then submit their PR into the new branch.\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls1\ilvl1
+\f2\fs20 \cf0 {\listtext	\uc0\u8226 	}
+\f1\fs24 Student will use their own student fork as the base (compare across forks).\
+\ls1\ilvl1
+\f2\fs20 {\listtext	\uc0\u8226 	}
+\f1\fs24 Student will add their TL as a reviewer on the PR\
+\pard\pardeftab560\pardirnatural\partightenfactor0
+\ls1\ilvl0
+\f2\fs20 \cf0 {\listtext	\uc0\u8226 	}
+\f1\fs24 TL then will count the HW as done by merging the HW back into master \'93STUDENT FORK\'94.\
+}
