@@ -1,0 +1,9 @@
+Completed CodePen for Part II: https://codepen.io/dtebo83/pen/povOyRr
+
+Questions:
+
+1. What is the difference between an inline element and a block element? An inline element doesn't create a new line or add space. A block element will create space above and below it.
+2. What happens when an element is positioned absolutely? It is taken out of the normal document flow and placed exactly where you tell it to be placed.
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? Set the CSS display property to 'inline'.
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default? Block elements: div, p, section. Inline elements: span, a. Inline-Block element: I had to look this one up honestly, but now that I found the answer, I feel stupid. Of course button is inline-block! :( Source: https://stackoverflow.com/questions/21614938/html-element-which-defaults-to-displayinline-block (Answer by Dryden Long)
+5. In your own words, explain the box model. What is the fix for the box model? The box model is the concept that defines the 'box' for each HTML element. It includes margin, padding, border, and content. Source: w3schools.com/css/css_boxmodel.asp The fix for the box model is the css property 'box-sizing: border-box'. According to https://pressupinc.com/blog/2014/01/whats-wrong-css-box-model-fix/, "It preserves the declared width and height of an element's contents, with the result that padding and borders add to an element’s width and height as interpreted by the browser.
