@@ -1,7 +1,10 @@
  https://codepen.io/hannahb593/pen/mddpOPO
  
  Hannah Brown 
+ // 
  //
+    The questions and my answers 
+    
     1. What is Semantic HTML? 
     Semantic means meaning so it is HTML that gives meaning to a web page. <p> tags are in this as well as things like <header> and <div>s. 
 
