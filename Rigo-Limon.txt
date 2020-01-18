@@ -1,0 +1,132 @@
+https://codepen.io/rigo0523/pen/eYmPeLo?editors=1100
+
+
+Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+    it's correct use of html to reinforce meaning of content on a web page 
+
+    2. What is HTML used for? 
+    it is used to create website applications and pages and it also introduces meaning to the web page rather than just how it looks. 
+
+    3. What is an attribute and where do we put it? 
+    it's a changeable property that can be be used to manipulate the DOM
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    it is used to emphasize an important title of a page and it's easier for search engines to find it, it should only be used once per page. 
+
+    5. Name two tags that have required attributes
+    the <img> and <a> tags
+
+    6. What do we put in the head of our HTML document? 
+    Meta tag, title tag, css, js and all other sources that lead to another text file
+
+    7. What is an id? 
+    it's an id attribute to point to a style in a sheet, it should only be used once per page
+
+    8. What elements can I add an id to? 
+    we can add it to the main container of the page since it should only be used once
+
+    9. How many times can I use the same id on a page? 
+    only once 
+
+    10. What is a class? 
+    it's got a specificity of 1 and it's more widely used to style html elements from a CSS file
+
+    11. What elements can I add a class to? 
+        all the elements but accordingly
+
+    12. How many times can I use the same class on a page?
+    as many times as you want as long as you target those specific sections 
+
+    13. How do I get my link to open in a new tab?
+    by adding a target = blank attribute in the anchor tag
+
+    14. What is the alt attribute used for? 
+    alternate text for an image in case the image doesn't render  correctly at least it tells you what the broken image is absolutely
+
+    15. How do I reference an id?
+    by either adding css inside the html page or by adding it through a css file instead 
+
+    16. What is the difference between a section and a div
+    a section is more semantic while a div can and should only be used inside a semantic tag like aside, section, footer, etc..
+
+    17. What is CSS used for? 
+    to style the html page and give it color and animations
+
+    18. How to we select an element? Example - every h2 on the page
+        by adding h2 {} in the css file 
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        an id can only be used once per page and a class can be used as many times, an id has a specifity of 100 and a class of 10
+
+    20. How do we select classes in CSS?
+        by using the dot notation so .navigation {} in the css text file
+
+    21. How do we select a p element with a single class of “human””?
+        by p.human
+
+    22. What is a parent child selector? When would this be useful? 
+        selects all elements that are direct child of specified element
+
+    23. How do you select all links within a div with the class of sidebar?
+        by getting the div first and then the dot notation so div. class 
+
+    24. What is a pseudo selector?
+    is a keyword added to a selector that lets you style a specific part of the selected element
+
+    25. What do we use the change the spacing between lines?
+        a little confused by this question, not sure what it means
+
+    26. What do we use to change the spacing between letters?
+    word spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        UPPERCASE and lowercase
+
+    28. How do I add a 1px border around my div that is dotted and black? 
+        border: 1px dotted black;
+
+    29. How do I select everything on the page? 
+    by using the * symbol
+
+
+    30. How do I write a comment in CSS?
+    /* this is a comment in CSS */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+    by hitting PWD
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        hit 'ls' 
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        use rm -r, you have to be careful to not remove all directories if you force remove it with "-Fr"
+
+    34. Why should I use version control? 
+        to upload all the code to github and you can collaborate and share your code with others 
+
+    35. How often should I commit to github?
+        as much as possible and perhaps everyday if you are thinking of a web dev career 
+    
+    36. What is the command we would use to push our repo up to github? 
+        git push origin "name here"
+    37. Walk me through Lambda's git flow. 
+        fork, clone, add collaborator (TL), checkout a brank under my name, add changes to my files, git add them all to stage, git commit any notes and then push
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    an inline element stays in the same row, a block element stretches a whole row if need be
+
+    2. What happens when an element is positioned absolutely? 
+        it goes out of the flow of the page, you need tomake sure the parent element is set to relative 
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        by setting the correct width and padding on the element
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        DIV, P, ASIDE >>>>>>>>>> inline are break tag and a span tag and 1 elemtn with inline block is a button
+
+    5. In your own words, explain the box model. What is the fix for the box model? 
+        it consists of the padding, margin and border, can be seen by going into to the console so you can see how much padding, border or margin an element has. 
