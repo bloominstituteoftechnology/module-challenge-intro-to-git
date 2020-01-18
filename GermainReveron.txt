@@ -1,4 +1,6 @@
-Here is my Project
+Here is my Project..
+
+
 
 Finish
 https://codepen.io/greveron/pen/YzPOgVW?editors=1100 
@@ -24,7 +26,7 @@ https://codepen.io/greveron/pen/YzPOgVW?editors=1100
     18. How to we select an element? Example - every h2 on the page
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
     20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of �human��?
+    21. How do we select a p element with a single class of “human””?
     22. What is a parent child selector? When would this be useful? 
     23. How do you select all links within a div with the class of sidebar?
     24. What is a pseudo selector?
@@ -48,4 +50,4 @@ Stretch Questions
     2. What happens when an element is positioned absolutely? 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the fix for the box 
+    5. In your own words, explain the box model. What is the fix for the box model? 
