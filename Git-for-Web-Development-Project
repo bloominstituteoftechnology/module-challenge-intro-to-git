@@ -1,0 +1,137 @@
+<!--1. fork this codepen so that you have a copy on your account -->
+<!--2. Add HTML and CSS to make the codepen look like the example: https://codepen.io/BritHemming/full/jONmxOm  - note that you can change the colours but everything else must look the same -->
+<!-- 3. include the link to this completed codepen at the top of today's file first-lastname.txt --> 
+<!-- 4. when you are finished - answer the review questions at the bottom of this file -->
+<header>
+  <h1 class="h1">Learning How to Code
+  </h1>
+</header>
+
+<body class="body">
+ <section>
+  <div class="div1">
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aperiam earum mollitia enim pariatur atque asperiores, deserunt fuga iure distinctio! Amet iste facilis odio rerum maiores neque laboriosam non aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eius officia reprehenderit dicta molestiae, excepturi inventore aut officiis! Perspiciatis, molestias tempora et nesciunt amet sint blanditiis eos voluptatibus ut facilis!</p>
+  </div>
+ </section> 
+<h2 class="h2-title">I'm a title</h2>
+  <section class="section1">
+    <div> 
+      <p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus minima porro, aspernatur esse iure quas vero totam ea cupiditate numquam accusamus enim, eius neque molestiae minus. Aliquam non repudiandae, sunt!
+      </p>
+    </div
+      <div>  
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto illo expedita ducimus incidunt similique voluptatum, error minus tenetur accusamus modi perferendis libero inventore quo, tempora. Repellendus quam eligendi, aliquid nobis.
+        </p>
+    </div>    
+  </section>
+  
+ <h2 class="h2-title2">This is another section</h2>
+  <section>
+    <div class="last-div">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto possimus, reiciendis consequatur inventore mollitia ipsa sed quibusdam! Aut nemo voluptatibus modi iste repudiandae ea beatae suscipit. Officia omnis laudantium quasi.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, ratione doloribus nam officia reiciendis eligendi architecto maxime quisquam unde non, illo libero iure aut ad consequuntur animi modi, recusandae voluptatum!
+      </p>      
+    </div>
+  </section>
+<img src="https://unsplash.it/200/200">
+<img src="https://unsplash.it/200/200">
+<img src="https://unsplash.it/200/200"> 
+<img src="https://unsplash.it/200/200">
+</body>
+
+<!-- reveiw questions to Submit in today's file firt-lastname.txt --> 
+<!--
+Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+        gives meaning using tags
+    2. What is HTML used for? 
+        skeleton of the project
+    3. What is an attribute and where do we put it?
+        is used to select an element to style in css
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        it is used for the the title of the page and should only be used once for seo
+    5. Name two tags that have required attributes
+      img and src
+    6. What do we put in the head of our HTML document?
+      header
+    7. What is an id? 
+      its a specific attribute
+    8. What elements can I add an id to? 
+      any
+    9. How many times can I use the same id on a page? 
+      once
+    10. What is a class? 
+        its an attribute that can be used many times to style in css
+    11. What elements can I add a class to? 
+        any
+    12. How many times can I use the same class on a page? 
+        multiple
+    13. How do I get my link to open in a new tab?
+    14. What is the alt attribute used for? 
+        if the image does not load it gives a description in text
+    15. How do I reference an id?
+    16. What is the difference between a section and a div
+        section is used to section of parts of html and div groups together block items
+    17. What is CSS used for? 
+        to style your project
+    18. How do we select an element? Example - every h2 on the page
+        .h2{
+
+}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+      specificity ranks differently between class and id.
+      
+    20. How do we select classes in CSS?
+        with dot notation
+    21. How do we select a p element with a single class of “human””?
+        .human{
+
+}
+    22. What is a parent child selector? When would this be useful? 
+        a parent selector is responsible for what the nested elements inherit.
+          useful when you want to style something nested in the parent block to look just like a parent
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar{
+
+}
+    24. What is a pseudo selector?
+    25. What do we use the change the spacing between lines?
+        padding
+    26. What do we use to change the spacing between letters?
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    28. How do I add a 1px border around my div that is dotted and black?
+        border: 1px dotted black
+    29. How do I select everything on the page? 
+          star selector
+    30. How do I write a comment in CSS?
+      // or /* *\
+    31. How do I find out what file I am in, when I am using the command line?
+        
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm, but it does not warn you or show up in the trash
+    34. Why should I use version control? 
+    35. How often should I commit to github?
+        often
+    36. What is the command we would use to push our repo up to github?
+        commit
+    37. Walk me through Lambda's git flow. 
+        1 fork
+        2 add pm as colab
+        3 clone the forked repo
+        4 git clone + link
+        5 git checkout -b 'marin-keo'
+        6 open repo with your text editor
+        7 add>commit>push
+        8 commit -m "message"
+        9 git push origin login if nessessary
+        10 click compare and pr
+        11 create pull request
+        12 add pm as reviewer
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model? 
