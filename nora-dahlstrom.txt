@@ -1,0 +1,182 @@
+    1. What is Semantic HTML? 
+ 
+    semantic html is an element that has meaning. like the <p> tag for instance. text goes inside
+    the p tag. this is both semantic and presentational.
+
+    2. What is HTML used for?
+    
+    it's used to create pages that are used on the internet
+    
+    3. What is an attribute and where do we put it? 
+
+    it's put into the html and css. like the anchor tag in html and img in css.
+    its a changable attribute. 
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+
+    itso nly used once on a page. its meant to be the biggest title on the page.
+
+    5. Name two tags that have required attributes. img and a come to mind
+
+    6. What do we put in the head of our HTML document? the head tag
+    7. What is an id? secifies a unique id for html element.
+
+    8. What elements can I add an id to? any html element as far as i know
+
+    9. How many times can I use the same id on a page? its one id per element
+
+    10. What is a class? its used to add style to any element its attached to as it were.
+    so if multiple html elements have the same class they get the same style
+
+    11. What elements can I add a class to? any element in html as far as i know 
+
+    12. How many times can I use the same class on a page? as many as needed as far as i know
+
+    13. How do I get my link to open in a new tab? with the hashtag sign <a href="_blank">
+
+    14. What is the alt attribute used for? its used for alternate text for an image. if 
+    an image can't be displayed. also helps users who cannot see or hear who use a viewer.
+    i hope i got the write word for that.
+
+    15. How do I reference an id? with the hashtag sign #{
+        code goes here
+    }
+    16. What is the difference between a section and a div a div is an empty container.
+    a general purpose container and a section is used for parts of the page that still reference
+    back to the topic of the page you are on
+
+    17. What is CSS used for? to style the page. adding color, giving images shape and even 
+    making text bigger or smaller just to name a few
+
+    18. How to we select an element? Example - every h2 on the page <h2> and end it with a </h2>
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    a class can refer to one or more elements with the same class while an id refers to a
+    unque id on the element.
+    <p class="pink">text</p> in the css side .pink { color: pink; } naturally this wouldn't be 
+    how it would look in the documents.
+    <h2 id= "peppermint">some text</h2> in the css side 
+    #peppermint {color: green; } i hope i did that alright.
+    
+    20. How do we select classes in CSS? with the period .
+
+    21. How do we select a p element with a single class of “human”? 
+    p.human? im kinda confused on this one 
+
+    22. What is a parent child selector? When would this be useful? 
+     the selector is a > and it would be useful when making an ordered list or 
+     an unordered list 
+
+    23. How do you select all links within a div with the class of sidebar?
+    use the class .sidebar and style each one after 
+
+    24. What is a pseudo selector? selects elements in a specific state for example 
+    they are 1st of their type
+
+    25. What do we use the change the spacing between lines? with the break tag <br>
+
+    26. What do we use to change the spacing between letters? with the letter spacing property
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    with the property text-transform then use the keyword uppercase
+
+    28. How do I add a 1px border around my div that is dotted and black? 
+    div{
+        border: 1px dotted black
+    }
+
+    29. How do I select everything on the page? witht the universal selector *
+
+    30. How do I write a comment in CSS? 
+    /* some text */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+    with the command pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls 
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+    with the rm and the name of the file in the current directory that you want to remove
+    you have to be care ful with this becuase removing any file is dangerous unless you know
+    what it is for
+
+    34. Why should I use version control? because it helps teams solve problems, track 
+    changes of each contribulor, and helps prevent recurring files uh concurrent files i mean.
+
+
+    35. How often should I commit to github?
+        depends on the source code system and what else you have in place
+
+    36. What is the command we would use to push our repo up to github? 
+    git push 
+      
+    37. Walk me through Lambda's git flow. 
+    (a)Make sure you are on the correct assignment which will be the lambda repository
+    (b)for the repository to your github account
+    (c)verify it's forked properly in your github repository
+    (d)click on clone or download if you clone you are clicking the link which looks like 
+    a lil clipboard
+    (e)find the folder you want your project to go to
+    (f)open a new git bash instance in the file you want your folder
+    (g)type git clone and the url of the repository
+    hit enter
+    (h)use ls or dir to check the files in this directory
+    (i)you then should be able to see your cloned file
+    (j)use git status to check your branch
+    (k)make sure you're in the root directory of your project 
+    (L)make some changes to your project and save them
+    (m)use git add to add the changes 
+    at this point the add is staged now onto the next step
+    (n)use git commit -m to add a message to the git you just staged changes to
+    (o)when your done use the command git push origin and the name of your branch
+    for example git push origin Nora-Dahlstrom would be the name of my branch
+    (p)after you push go back to check on the github repo and be sure your changes show
+    before making a pull request be sure to have your TL added as a collaborator 
+    on the project
+    (q)click on collaborators and add them by their github name
+    (r)after they are added you can finish your project by making a PR a pull request
+    (s)go back to the homepage of the repo and click on code
+    (t)click on compare and pull request
+    (u)next part is very important 
+    search for yourself and click on your Username, Repository Name
+    if you are successful the header bar will change
+    (v)Add a Pull Request Subject and a semantic message that will help your TL understand 
+    what you finished or still need to complete.  Once your TL has accepted your 
+    collaborator request, you should be able to add them as a reviewer to the repository.
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    let's see i know you can't put a block element inside an inline element. an inline element
+    doesn't cause a line break and doesn't take the full width of a page
+    and a block element always starts a new line and takes up the full page from left 
+    to right
+    a span is an inline element and a div is a block element 
+
+    2. What happens when an element is positioned absolutely? it's taken out of the flow
+    like it doesn't exist
+
+    3. How do I make an element take up only the amount of space it needs but also have 
+    the ability to give it a width? 
+    this sounds like a box model thing. padding, width, height, margin and border. you can
+    give your element width and still make sure it takes up only the required amount of space
+
+    4. Name 3 elements that are display block by default, 
+    2 elements that are display inline by default and 1 element that is display
+     inline-block by default
+      three elements that are block elements by default are html, css and p 
+        two elements that display inline by default are the <em> tag and the <a> tag 
+        one element that is display inline block by default is <img>
+
+    5. In your own words, explain the box model. What is the fix for the box model? 
+    the box model is the content wrapped in the border, padding, margin. like a blanket. 
+    it's used when talking about design and layout and it's essentially how every page on 
+    the net is. 
+    i looked up the second question and found an article i think it sounds like it relates to that 
+    question there.
+    something called box sizing border box which includes padding and border in an elements 
+    width. 
+  im still not 100 percent on these answers to some of these questions. lol.
+
