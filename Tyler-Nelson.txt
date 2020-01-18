@@ -1,0 +1,112 @@
+1. What is Semantic HTML? 
+    2. What is HTML used for? 
+    Marking up content for a webpage.
+    3. What is an attribute and where do we put it? 
+    An attribute is characteristic of a page element. Such as font or color.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    A Main header; once.
+    5. Name two tags that have required attributes 
+    TR and OL.
+    6. What do we put in the head of our HTML document? 
+    Title,Links, and Meta data 
+    7. What is an id? 
+    An Identifier used to select an element.
+    8. What elements can I add an id to? 
+    H1, Div, and Section.
+    9. How many times can I use the same id on a page? 
+    Once.
+    10. What is a class? 
+    An Identifier used for a potential group of elements.
+    11. What elements can I add a class to? 
+    Just about any element.
+    12. How many times can I use the same class on a page? 
+    As many times as needed.
+    13. How do I get my link to open in a new tab?
+    Right click, select the option "open in new tab."
+    14. What is the alt attribute used for? 
+    It's basically an identifier for an image.
+    15. How do I reference an id?
+    By using the hash symbol.
+    16. What is the difference between a section and a div
+    a section is supposed to ascertain meaning, but the div does not have to.
+    17. What is CSS used for? 
+    Styling and Formatting your Markup.
+    18. How to we select an element? Example - every h2 on the page
+    By typing said element, followed by curly braces."H2{}"
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class usually references a group of elements, while an ID has one specific element.
+    20. How do we select classes in CSS?
+    using the period, followed by the class name.
+    21. How do we select a p element with a single class of “human””?
+    ".human"
+    22. What is a parent child selector? When would this be useful? 
+    It allows you to choose a ascendant or descendant aspect of an element; useful when multiple elements are nested together.
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar a
+    24. What is a pseudo selector?
+    A pseudo selector is a keyword added to selectors that specifies a special state of the element to be selected.
+    25. What do we use the change the spacing between lines?
+    The line-height property.
+    26. What do we use to change the spacing between letters?
+    The letter-spacing property.
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    The property "text-transform", followed by uppercase or lowercase.
+    28. How do I add a 1px border around my div that is dotted and black?
+    border: 1px.
+    29. How do I select everything on the page? 
+    wilcard selector "*"
+    30. How do I write a comment in CSS?
+    "/*comment*/"
+    31. How do I find out what file I am in, when I am using the command line? 
+    look at the directory path
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm. it does not provide any warning and permanently deletes the file.
+    34. Why should I use version control? 
+    I should use it to frequently save and comment on updated work, so that it can be edited or so you can recover an earlier version.
+    35. How often should I commit to github?
+    As many times as necessary.
+    36. What is the command we would use to push our repo up to github? 
+    git push.
+    37. Walk me through Lambda's git flow. 
+    Confirm you are on the correct assignment.
+    Fork your assignment.
+    Confirm you are in the correct repository.
+    Find the designated path you wish to clone your file to.
+    Use git clone to copy and paste the link into the aforementioned path.
+    Use ls to confirm it is in the directory.
+    Type “git checkout -b <your-name>” to create your own branch.
+    Use git status to confirm you are in the correct Branch.
+    Confirm you are in the root directory.
+    Make changes to your project then type "git add" in the terminal to stage these changes.
+    Use git status again to confirm changes have been saved.
+    After you've saved your changes type  “git commit -m “<some meaningfully semantic message about your changes here>”
+    After you've commited your changes , type: “git push origin <your-branch-name>”
+    Go back to github and refresh the page to confirm your changes have been pushed.
+    Add your tl as a collaborator.
+    After you've added your tl, go back to the homepage and click on "compare and pull request."
+    click on dropdown menu and search for your username/repo name
+    Confirm the master branch and the branch you've created.
+    Add a pull request subject and a semantic message your TL will understand.
+    Once TL accepts collaborator request add them as a reviewer, if they have no accepted, send them a DM.
+    click on create pull request and you are finished.
+
+
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    A block element stretches across the width of the page and has a fixed amount of space.
+    An inline element only takes up as much space as the content within it.
+    2. What happens when an element is positioned absolutely? 
+    element is positioned relative to its parent element.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    Use an inline element and changes it's width using the "width" property in CSS.
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    Block Elements: Section, Table, Article. Inline:Span, A, and Map. Inline Block: Img 
+    5. In your own words, explain the box model. What is the fix for the box model?
+    Design format containing content at the center then working its way out to padding, border, and margin; all of which add up 
+    to the entirety of the page. 
+Project Link: https://codepen.io/TyNelson/pen/ExaddBd
