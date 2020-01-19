@@ -143,3 +143,5 @@ Stretch Questions
     5. In your own words, explain the box model. What is the fix for the box model? 
     all the elements in html can be considerd as boxes. For every HTML element, we can have - margins, padding, border, height and width. 
     The box model is a box that wraps around every HTML element.
+
+    The Fix: box-sizing: border-box
