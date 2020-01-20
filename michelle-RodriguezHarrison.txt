@@ -56,11 +56,26 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
             h2 {
 
             }
-            
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+            With a class you can select multiple elements, but with an ID you can only use it for one.
+            If you only want certain paragraphs centered, you can do:
+            <p class="centerMe">I want to be centered</p> 
+            .centerMe {
+                text-align: center;
+            }
+
+            An ID is usefule for things like Logos and Page titles. Elements of which only have one on each page.
+
     20. How do we select classes in CSS?
+            With a period (.) 
+
     21. How do we select a p element with a single class of “human””?
+            .human p {}
+
     22. What is a parent child selector? When would this be useful? 
+
+
     23. How do you select all links within a div with the class of sidebar?
     24. What is a pseudo selector?
     25. What do we use the change the spacing between lines?
@@ -70,9 +85,17 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
     29. How do I select everything on the page? 
     30. How do I write a comment in CSS?
     31. How do I find out what file I am in, when I am using the command line? 
+            
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+            the ls command
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+            the rm command. You have to be careful because once it's gone, it's can't be retrieved.
+
     34. Why should I use version control? 
+            In case you make mistakes, you can go back.
+
     35. How often should I commit to github?
     36. What is the command we would use to push our repo up to github? 
     37. Walk me through Lambda's git flow. 
