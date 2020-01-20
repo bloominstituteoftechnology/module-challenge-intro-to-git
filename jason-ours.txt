@@ -21,7 +21,7 @@ link for css + html practice for Part 2 https://codepen.io/jasonours/pen/RwNYeeP
     19. What is the difference between a class and an id? - Give me an example of when I might use each one. The difference between class and id is that class can be used to style multiple elements and can be used many times on a page while id only styles one element and is only used once per page. Use id on a single unique element. Use CSS on elements you want to style the same way.
     20. How do we select classes in CSS?  You select a class using a '.' and a keyword (.keyword).
     21. How do we select a p element with a single class of “human””?  To selece a p element with a single class of "human" you would type .human
-    22. What is a parent child selector? When would this be useful? 
+    22. What is a parent child selector? When would this be useful? A parent child selector selects a specific 'child' within the nested parent. It is useful when you want to have a 'child' underneath the parent styled differently but don't want to add a class or id.
     23. How do you select all links within a div with the class of sidebar?  To select all links in a div with a class of sidebar, use the .sidebar class selector.
     24. What is a pseudo selector?  Apseudo selector is used to define a special state of an element :(hover, :active).
     25. What do we use the change the spacing between lines?  To change line spacing use the line-height property. 
@@ -41,8 +41,8 @@ link for css + html practice for Part 2 https://codepen.io/jasonours/pen/RwNYeeP
 
 Stretch Questions
 
-    1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the fix for the box model?
+    1. What is the difference between an inline element and a block element?  Inline element does not start on a new line or stretch to the width of the page. Block element does start on a new line and stretches to fit the width of the page.
+    2. What happens when an element is positioned absolutely? When an element is positioned absolutely it positions itself relative to its nearest ancestor.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? Use the box method to add border and padding to the element.
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default. Elements that are block by default are <p>, <div>, and <h1-h6>. Elements that are inline by default are <span> and <a>. An element that is linline-block is <button>.
+    5. In your own words, explain the box model. What is the fix for the box model? Box model is a layout style for CSS that adds width, height, margin, border and padding to an element. Using the style box-sizing: border-box makes the layout more manageable .
