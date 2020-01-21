@@ -87,7 +87,7 @@
     Add your tl as a collaborator.
     After you've added your tl, go back to the homepage and click on "compare and pull request."
     click on dropdown menu and search for your username/repo name
-    Confirm the master branch and the branch you've created.
+    Compare the master branch with the branch you've created.
     Add a pull request subject and a semantic message your TL will understand.
     Once TL accepts collaborator request add them as a reviewer, if they have no accepted, send them a DM.
     click on create pull request and you are finished.
@@ -101,10 +101,10 @@ Stretch Questions
     A block element stretches across the width of the page and has a fixed amount of space.
     An inline element only takes up as much space as the content within it.
     2. What happens when an element is positioned absolutely? 
-    element is positioned relative to its parent element.
+    An element is positioned relative to its parent element.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    Use an inline element and changes it's width using the "width" property in CSS.
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    Use an inline element and changes its width using the "width" property in CSS.
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     Block Elements: Section, Table, Article. Inline:Span, A, and Map. Inline Block: Img 
     5. In your own words, explain the box model. What is the fix for the box model?
     Design format containing content at the center then working its way out to padding, border, and margin; all of which add up 
