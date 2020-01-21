@@ -11,8 +11,7 @@
     - HTML is used for marking up web pages.
 
     3. What is an attribute and where do we put it? 
-    - Attribute adds extra information to HTML tags or elements. We put it inside 
-    of the openning tags.
+    - Attribute adds extra information to HTML tags or elements. We put it inside of the openning tags.
 
     4. What is the h1 tag used for? How many times should I use it on a page?
     - h1 tag is used for the largest heading of a page. You should just use one time on a page.
@@ -31,9 +30,9 @@
 
     9. How many times can I use the same id on a page? 
     - Just 1 time 
+
     10. What is a class? 
-    - Class is an attribute that can be used more than one time as per requirements. it
-    is primarily used for styling.
+    - Class is an attribute that can be used more than one time as per requirements. it is primarily used for styling.
 
     11. What elements can I add a class to? 
     - We can add id to any element
@@ -58,12 +57,13 @@
     - CSS used for styling of the web pages
 
     18. How do we select an element? Example - every h2 on the page
-    - h2 {
+    - We select element as the following: 
+    h2 {
         color: red;
     }
-    19. What is the difference between a class and an id? - Give me an example of when I might use each one
-    - We primarily use class for styling and id for linking. However, id can also
-    be used for style.
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one.
+
+    - We primarily use class for styling and id for linking. However, id can also be used for style.
 
     Example:
    <div class="gallery">
@@ -87,11 +87,15 @@
         .class-name{
             text-align: center;
         }
+
     21. How do we select a p element with a single class of “human””?
+       
        p .human {
 
         }
+
     22. What is a parent child selector? When would this be useful? 
+        
         <div class="sidebar">
             <a class="whatever">
             </a>
@@ -103,21 +107,34 @@
         }
 
     23. How do you select all links within a div with the class of sidebar?
+        
         .sidebar a{
         
         }
     
     24. What is a pseudo selector?
+        
         Example:
+        
         .button:hover{
         
         }
+
     25. What do we use the change the spacing between lines?
     
+    - We use line-height property 
+    Example:
+
+    p {
+        line-height: 1.5;
+    }
       
     26. What do we use to change the spacing between letters?
     
-    
+    We can take action as the following:
+    p {
+        letter-spacing: 1px;
+   }
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
     
     text-transform: uppercase;
