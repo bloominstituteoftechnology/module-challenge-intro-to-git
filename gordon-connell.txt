@@ -21,13 +21,14 @@ https://codepen.io/gconnell29/pen/XWJyjmr
     6. What do we put in the head of our HTML document?
 	The <head> section takes meta data tags as well as links to the CSS and JS files.
 
-    7. What is an id? 
+    7. What is an id?
+	An ID is an attribute that allows you to specifically select an HTML element.
 
     8. What elements can I add an id to?
 	Any element.
 
     9. How many times can I use the same id on a page?
-	Unlimited of times.
+	Only 	once.
 
     10. What is a class?
 	A class is an attribute name creates to manipulate HTML element with more specificity.
@@ -48,7 +49,7 @@ https://codepen.io/gconnell29/pen/XWJyjmr
 	In CSS the # symbol references an ID
 
     16. What is the difference between a section and a div
-	
+	A section implies that everything inside it is related whereas a div simply contains things without implying how related the items inside are.
 
     17. What is CSS used for?
 	CSS is used to add styling to the HTML such as color, sizing, etc.
@@ -57,43 +58,75 @@ https://codepen.io/gconnell29/pen/XWJyjmr
 	In CSS, elements are selected by simply typing the name of the element in the CSS file.
 
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	An ID is the "heavier selector" and can only be used once, where as classes can be used multiple times.
 
     20. How do we select classes in CSS?
 	In CSS classes are selected by putting a . before the name of the class.
 
     21. How do we select a p element with a single class of “human”?
+	You can type .human into the CSS.
 
     22. What is a parent child selector? When would this be useful? 
+	The parent child selector is >.
+	Example - div > p
+	This is useful for when the parent/child of the selected item does not have a specific class or Id but you want to target the parent/child.
 
     23. How do you select all links within a div with the class of sidebar?
+	Type .sidebar a or .sidebar > a in the CSS.
 
     24. What is a pseudo selector?
+	This is a selector that allows you select items when they change or before they are present.
+	Example - :last-child
 
     25. What do we use the change the spacing between lines?
+	We can use the line-height property in CSS.
 
     26. What do we use to change the spacing between letters?
+	We can use the letter-spacing property in CSS.
 
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	text-transform: uppercase 
+	text-transform: lowercase;
+	text-transform: capitalize;
 
     28. How do I add a 1px border around my div that is dotted and black?
+	border: 1px dotted #000000;
 
-    29. How do I select everything on the page? 
+    29. How do I select everything on the page?
+	the * selects everything on the page.
 
     30. How do I write a comment in CSS?
+	// creates an inline comment and /* creates
+	 a block
+	 comment*/
 
-    31. How do I find out what file I am in, when I am using the command line? 
+    31. How do I find out what file I am in, when I am using the command line?
+	You should be able to see where you are by looking one line up at the directory path.
 
     32. Using the command line - how do I see a list of files/folders in my current folder?
+	ls
 
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+	del filename
+	You need to be wary about deleting files because it gets deleted forever, it does not go to the recycle bin and cannot be undone.
 
-    34. Why should I use version control? 
+    34. Why should I use version control?
+	Version control is great for working on large projects with multiple people and reverting back to previous stages of a project.
 
     35. How often should I commit to github?
+	After any significant changes or as often as you'd like so you don't lose your work.
 
-    36. What is the command we would use to push our repo up to github? 
+    36. What is the command we would use to push our repo up to github?
+	git push -u origin firstname-lastname
 
-    37. Walk me through Lambda's git flow. 
+    37. Walk me through Lambda's git flow.
+	Fork a Lambda repo to our own github account
+	Navigate our way to the folder we want to clone this repo in.
+	Clone our version of the repo to our computer and navigate to it.
+	Create our own branch separate from the master branch
+	Add project files/make changes to this branch and save it.
+	Add, commit and push these files to our version repo.
+	Create a pull request with out TL's as collaborators/reviewers.
 
 Stretch Questions
 
