@@ -1,4 +1,4 @@
-code pen link : 
+code pen link : https://codepen.io/Graceeelton/pen/ExjVazY?editors=1100
 
 <!-- reveiw questions to Submit in today's file firt-lastname.txt --> 
 <!--
@@ -105,10 +105,16 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
+         Inline elements are those which only occupy the space bounded by the tags defining the element
+         a block-level element occupies the entire space of its parent element
+    2. What happens when an element is positioned absolutely?
+         An absolutely positioned element no longer exists in the normal document layout flow
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        You would us flex
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
     5. In your own words, explain the box model. What is the fix for the box model? 
+        
 
 
 
