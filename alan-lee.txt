@@ -61,7 +61,7 @@
     24. What is a pseudo selector?
         pseudo-class is a selector that selects elements that are in a specific state.
     25. What do we use the change the spacing between lines?
-
+        line-height
     26. What do we use to change the spacing between letters?
         letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
@@ -91,12 +91,34 @@
     36. What is the command we would use to push our repo up to github?
         git push origin -u [branch-name]
     37. Walk me through Lambda's git flow.
-
+        1. Fork your own version of repo
+        2. Add TL as collaborator to your forked repo
+        3. Go to your terminal and cd into a desired folder for the repo
+        4. Clone the repo into folder
+        5. CD into the cloned repo
+        6. Create a new branch with git checkout -b [firstName-lastName]
+        7. Work on project assignment here
+        8. add and commit work done
+        9. push working branch to github
+        10. Make sure you are on your forked repo and create a pull request
+        11. Add TL to review the pull request
+        12. Do not merge own request
+        13. profit.
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        By default inline elements do not force a new line.
+        Block elements typically cause the line break.
     2. What happens when an element is positioned absolutely? 
+        The element will be fixed to the a specified position. Specified by top,bottom,right,left
+        The element is taken out of the normal flow of the document.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+       wrap the element inside a containing div then you can set the width in css if needed.
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+       Block elements - <h1> to <h6>, <p>, <ul>
+       Inline elements - <span>, <a>
+       Inline-block - <button>
     5. In your own words, explain the box model. What is the fix for the box model? 
+       Box model is literrally a box that wraps around every html element. it consists of margins, borders, padding, and the conent.
+       box-sizing: border-box;
