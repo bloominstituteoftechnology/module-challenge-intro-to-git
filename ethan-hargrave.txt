@@ -42,5 +42,5 @@ Stretch Questions
     1. What is the difference between an inline element and a block element?  An inline element will cause a linebreak whereas a block element will not.
     2. What happens when an element is positioned absolutely? It's position is fixed.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? With box modeling, by adjusting the margin, border, and padding.
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default: block level: <div>, <p>. inline: <button>, <object>. inline-block: <li>
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default: block level: <div>, <p>. inline: <button>, <object>. inline-block: <img>
     5. In your own words, explain the box model. What is the fix for the box model? A box model is a box that is around every HTML element including margin, padding, border. The box model automatically applies margin/padding and can cause overlapping/tight spacing. It is fixed by adjusting box-sizing:border-box.
