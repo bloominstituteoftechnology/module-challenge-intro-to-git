@@ -9,41 +9,89 @@
     4. What is the h1 tag used for? How many times should I use it on a page?
        h1 is used to make text stand out. h1 can be used multiple times on a page but SEO best practices says only 1 per page.
     5. Name two tags that have required attributes
-
-    6. What do we put in the head of our HTML document? 
+       <img />, <a></a>
+    6. What do we put in the head of our HTML document?
+        meta tags, link tags to css
     7. What is an id? 
-    8. What elements can I add an id to? 
+       id is an attribute. it is a unique identifier which is used to specify the document
+    8. What elements can I add an id to?
+       Can add an id to any element.
     9. How many times can I use the same id on a page? 
-    10. What is a class? 
+        1
+    10. What is a class?
+       class attribute specifies one or more classnames for an element.
     11. What elements can I add a class to? 
+        Can add a class to any element.
     12. How many times can I use the same class on a page? 
+        As any times as you need to.
     13. How do I get my link to open in a new tab?
+        Add the target=”_blank” attribute to the <a></a> tag.
     14. What is the alt attribute used for? 
+        alt attribute specifies an alternate text for an image, if the image cannot be displayed
     15. How do I reference an id?
+        Reference an id with #id-name.
     16. What is the difference between a section and a div
+        Section specifies a new section of an html document and div is a generic tag that is used everywhere.
     17. What is CSS used for? 
+        Styling the html
     18. How to we select an element? Example - every h2 on the page
+        h2 {
+          style: value
+        }
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        The difference between an ID and a class is that an ID can be used to identify one element. 
+        A class can be used to identify more than one.
+        You might want to use an id when you need to reference it with an <a> tag to jump to that specific place in the html.
+        You might want to use classes when multiple elements need the same styling.
     20. How do we select classes in CSS?
+        .className { 
+
+        }
     21. How do we select a p element with a single class of “human””?
+        p.human {
+
+        }
     22. What is a parent child selector? When would this be useful? 
+        Parent child selector selects all elements that are direct children of the parent element.
+        Useful when you need to select mulitple things at once.
     23. How do you select all links within a div with the class of sidebar?
+        div.sidebar a {
+
+        }
     24. What is a pseudo selector?
+        pseudo-class is a selector that selects elements that are in a specific state.
     25. What do we use the change the spacing between lines?
+
     26. What do we use to change the spacing between letters?
+        letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: uppercase
     28. How do I add a 1px border around my div that is dotted and black?
+        div {
+          border: 1px dotted black;
+        }
     29. How do I select everything on the page? 
+        * {
+
+        }
     30. How do I write a comment in CSS?
+        for single line //
+        block comments /* comment here *//
     31. How do I find out what file I am in, when I am using the command line? 
+        type pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        type ls
     33. How do I remove a file via the command line? Why do I have to be careful with this?
+        rm [filename]
+        using the command line will remove the file without a prompt and is permanent
     34. Why should I use version control? 
+        helps tracking each individual change by each contributor and helps prevent concurrent work from conflicting.
     35. How often should I commit to github?
-        After 
+        After each feature or step
     36. What is the command we would use to push our repo up to github?
         git push origin -u [branch-name]
-    37. Walk me through Lambda's git flow. 
+    37. Walk me through Lambda's git flow.
+
 
 Stretch Questions
 
