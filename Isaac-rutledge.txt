@@ -1,0 +1,218 @@
+    1. What is Semantic HTML?
+	Semantic HTML is basically a way to organize your html. making it readable for everyone, and organizing it so it's easier to understand using semantic tags
+	e.g. <body><header><h1>Hello World!</h1></header></body>
+
+    2. What is HTML used for? 
+	HTML is a markup language that's used to create and display information into a web based format.
+ 
+    3. What is an attribute and where do we put it? 
+	Attributes are additional characteristics about an element, usually used in CSS to design, and use placement on the visual aspect of the site/app
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	The h1 tag is a Heading tag that's used to create the most important heading on the page, typically used once per page.
+
+    5. Name two tags that have required attributes
+	The img tag, this one requires a src, for the source of the image file, and alt text,
+	and the Link tag, link requires the attribute rel, to classify the type, and href to determine the file of the CSS
+
+    6. What do we put in the head of our HTML document? 
+	anything we don't need to display on the screen, e.g. CSS: <link rel="stylesheet" href="style.css">
+	we can also include Javascript in the head tag as well if needed.
+
+    7. What is an id? 
+	an ID is a unique identifier for an element, only one element can be named this one name with an ID: <div id='randomID'></div>
+    8. What elements can I add an id to?
+	Specific elements that you need to use the ID for to target only that item, so if you want to target this p tag:
+		<section class="section1">
+			<p id="p1">Hello World!</p>
+			<p>Hello World!</p>
+			<p>Hello World!</p>
+			<p>Hello World!</p>
+		</section>
+		<style>
+			p{
+			  color: red;
+			  font-size: 20px;
+			}
+			p#p1{
+			  font-size: 35px;
+			  color: purple;
+			}
+		</style>
+    9. How many times can I use the same id on a page? 
+	once
+    10. What is a class? 
+	a class is a type of classification tag, where you can put multiple elements with, and target them using CSS
+		<section class="section1">
+			<p id="p1">Hello World!</p>
+			<p>Hello World!</p>
+			<p>Hello World!</p>
+			<p>Hello World!</p>
+		</section>
+		<style>
+		   .section1{
+			letter-spacing: 2px;
+			background-color: blue;
+			}
+		</style>
+
+    11. What elements can I add a class to? 
+	similar to the ID you can basically equip this to any element you need to use it on. 
+    12. How many times can I use the same class on a page? 
+	as many times as you like
+    13. How do I get my link to open in a new tab?
+	<a href='' target=_blank>click me!</a>
+    14. What is the alt attribute used for? 
+	alternative text, for an img element
+    15. How do I reference an id?
+	using a #: using the previous example: #p1
+    16. What is the difference between a section and a div
+	a section is a semantic version of div, separating bits of the html into different sections, while a div can typically conatin multiple sections, or can 
+	be used on a smaller scale to target certain parts of a section instead of the entire section. 
+    17. What is CSS used for?
+	CSS is Cascading Style Sheet, and it's used to style the displayed HTML. 
+    18. How to we select an element? Example - every h2 on the page
+	in CSS: h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+		<section class="section1">
+			<p id="p1">Hello World!</p>
+			<p class='red'>Hello World!</p>
+			<p class='red'>Hello World!</p>
+			<p class='red'>Hello World!</p>
+		</section>
+		<style>
+		   .section1{
+			letter-spacing: 2px;
+			background-color: blue;
+			}
+		.red{
+			color: red
+		}
+		#p1{
+		     color: orange;
+		}
+		</style>
+	If you notice the class is called by using a period and an ID is called using a #, you can put multiple classes with the same name but not ID's
+    20. How do we select classes in CSS?
+	*{}
+    21. How do we select a p element with a single class of “human””?
+	p.human{}
+    22. What is a parent child selector?
+		A child selector is used to match all the elements which are a child
+		of a specified element, it gives relation between two elements 	
+	 When would this be useful? 
+		When we need to match elemtents that are direct children of other elements.
+    23. How do you select all links within a div with the class of sidebar?
+	div.sidebar a{}
+    24. What is a pseudo selector?
+	a pseudo selector is a selector that identifies when something takes place on the webpage e.g.
+	button:hover{
+		background-color:red;
+		curser: pointer;
+	}
+	this will change the background color of the button to red when you hover your mouse over it. and change the curser to a pointer
+    25. What do we use the change the spacing between lines?
+
+	line-height:
+
+    26. What do we use to change the spacing between letters?
+
+	letter-spacing:
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+	to change every letter to cap is: text-transform: uppcercase;
+	to capitalize each word its just: text-transform: capitalize;
+
+    28. How do I add a 1px border around my div that is dotted and black?
+
+	div{
+		border: 1px dotted black;
+	}
+
+    29. How do I select everything on the page? 
+
+	in CSS? : *{}
+	in the actual page: control/cmd a
+
+    30. How do I write a comment in CSS?
+
+	/*comment/*
+
+    31. How do I find out what file I am in, when I am using the command line? 
+
+		pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	use ls if you're in a unix/linux bash
+	if you're in windows you can use dir to list out your current file directory
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	rm 'file-name'
+	There is no warning to deleting this file, so it's permanent and not undoable, so don't do this to a file you need to keep.
+
+    34. Why should I use version control? 
+		version control allows you to undo and redo any mistakes, if you're not using it, but you've saved and exited the window before hand
+		you will not be able to recover what you've done before you made the mistake unless you retype it all.
+
+    35. How often should I commit to github?
+	as often as possble. 
+
+    36. What is the command we would use to push our repo up to github? 
+	git push -u origin 'branch-name'
+
+    37. Walk me through Lambda's git flow. 
+	1. Create YOUR OWN version of Repo —> (Fork)
+    Click the Fork Button to fork the Repo
+
+	2. Your name should now be in front of the repo name before the slash '/' if forking is successful
+
+	3.  Add your TL (me) as a collaborator on your forked Repo.
+
+	4. Clone your Repo using githubs 'Clone or download' button
+
+	5. Back inside your CLI, use the **cd** command to go to the directory where you are going to want to clone your forked Repo (i.e. The location where the repo should be saved on your computer)
+
+	6. Use the **git clone <link-to-repo>** command to clone the repo to the directory you are currently in.
+
+	7. **cd** into the newly created repo using the **cd <repo-name>** command
+
+	8. Use the **git checkout -b 'firstname-lastname'** command to create your own branch name for the repo (this is the branch that you will be doing your work on)
+
+	9. Now you can work on your repo and start getting the project assignment done.
+
+	10. To add and commit changes on your branch you can do the following
+
+	11. Push your changes back up to your Github repo
+
+	12. Now that the changes are on github you can submit a PR (Pull Request)
+
+	13. Go back to your forked Project repo on github (make sure you are on YOUR FORKED copy NOT the original Lambda one)
+
+	14. Add your TL to the **Reviewers** and then submit the pull request
+
+	[15.](http://15.DO) DO NOT MERGE YOUR OWN PULL REQUEST
+
+	Your TL will merge the PR after they have done a review
+
+	Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+	A block-level element is an HTML element that begins a new line on a web page and extends 
+	the full width of the available horizontal space of its parent element. ... Block-level elements 
+	are used within the HTML document's body. They can contain inline elements, as well as other block-level
+	 elements
+
+    2. What happens when an element is positioned absolutely? 
+	an element that is absolutely positioned is taken out of the flow; 
+	thus, other elements are positioned as if it did not exist. The absolutely
+	positioned element is positioned relative to its nearest positioned ancestor
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+	Inline Elements. An inline element does not start on a new line and only takes up as much width as necessary.
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+		block: div, p, form				inline: img, br 					inline-block: button
+    
+    5. In your own words, explain the box model. What is the fix for the box model? 
+	 the traditional box model includes the padding and border of the object as part of the width and height.
