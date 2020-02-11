@@ -1,0 +1,107 @@
+
+
+
+https://codepen.io/BrandenBobo/pen/OJVyVdr?editors=1100
+
+    1. What is Semantic HTML? 
+        Using html to meaning to area of our web page
+    2. What is HTML used for?
+        To structure a document so a browser can understand it. 
+    3. What is an attribute and where do we put it? 
+        it adjust an html tag. It goes in the opening tage
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        The main heading. Usually only once
+    5. Name two tags that have required attributes
+        <a>, <img>
+    6. What do we put in the head of our HTML document?
+        Title, encodeing, metadata, links to libaries. 
+    7. What is an id? 
+        A unique identifier for an html element that can be targeted by css.
+    8. What elements can I add an id to? 
+        any, so long as the id is unique
+    9. How many times can I use the same id on a page? 
+        Once
+    10. What is a class? 
+        similar to an id, but can target multiple elements
+    11. What elements can I add a class to? 
+        any
+    12. How many times can I use the same class on a page?
+        as many as needed 
+    13. How do I get my link to open in a new tab?
+        <a href="whatever"  target="_blank>link</a>
+    14. What is the alt attribute used for? 
+        <alternate text if browsers can't understand the tag.
+    15. How do I reference an id?
+        #idName{ }
+    16. What is the difference between a section and a div
+        section groupes related content, div groups thing in more of a structural manner
+    17. What is CSS used for?
+         To add style to html.
+    18. How to we select an element? Example - every h2 on the page
+        elementName{} i.e. h2{ }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        Id's are for spicific elements and can only be used once per page. 
+        Classes are intended to be reused. This allows you write css once for multiple elements
+    20. How do we select classes in CSS?
+        .className
+    21. How do we select a p element with a single class of “human””?
+        p.human
+    22. What is a parent child selector? When would this be useful?
+        :child / :parent - Can lead to more consise/ readable code
+    23. How do you select all links within a div with the class of sidebar?
+        div.sidebar
+    24. What is a pseudo selector?
+        a selector that is "kind of" an element, like a link being hoovered over. for example a:hover{}.
+    25. What do we use the change the spacing between lines?
+        line-hieght property
+    26. What do we use to change the spacing between letters?
+        letter-spacing property
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: Capitalize
+    28. How do I add a 1px border around my div that is dotted and black?
+        div{ border 1px dotted black}
+    29. How do I select everything on the page? 
+        *{}
+    30. How do I write a comment in CSS?
+        /*comment*/
+    31. How do I find out what file I am in, when I am using the command line? 
+        pwd shows your working directory
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm filename. Does ask permission nor backup file.
+    34. Why should I use version control? 
+        To be able to revert to earlier version as wish. To make it easier to work in teams
+    35. How often should I commit to github?
+        as often as possible after changes have been made, and your project is a working state.
+    36. What is the command we would use to push our repo up to github?
+        git push -u origin 'branch-name' 
+    37. Walk me through Lambda's git flow.
+        Student will create OWN version of Repo (Fork)
+            done on github
+        Student will add TL as a collaborator
+            setting -> manage access
+        Student then will Clone Repo
+            cd 'dir'
+            git clone repo-name
+        Student will then create a branch (on which the student will implement the project) git checkout -b 'firstName-lastName'
+            git checkout -b "firstname-lasrname"
+        Student will then submit their PR into the new branch.
+        
+        Student will use their own student fork as the base (compare across forks).
+        
+        Student will add their TL as a reviewer on the PR
+        
+        TL then will count the HW as done by merging the HW back into master “STUDENT FORK”. 
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model? 
+
+
+
+   --> 
