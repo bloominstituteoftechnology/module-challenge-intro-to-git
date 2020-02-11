@@ -1,0 +1,88 @@
+https://codepen.io/lightingwaffle/pen/eYNpOKJ?editors=1100 
+
+    1. What is Semantic HTML? 
+    html gives higher meaning to code 
+    2. What is HTML used for? 
+    a standard for all web pages and allows for common programing ground
+    3. What is an attribute and where do we put it?
+    attributes provide additional information on elements. we put them in elements for additional ways to manipulate the code
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    the h1 tag is used to define html headdings. it should only be used once
+    5. Name two tags that have required attributes
+    tag a required ref. img requires src 
+    6. What do we put in the head of our HTML document? 
+    container for meta data and is placed between html tag and the body tag. ususally contains title style meta link script base
+    7. What is an id? 
+    The id attribute specifies a unique id for an HTML element
+    8. What elements can I add an id to? 
+    The id attribute is most used to point to a style in a style sheet
+    9. How many times can I use the same id on a page? 
+    once 
+    10. What is a class?
+    The class is an attribute which specifies one or more class names for an HTML element. 
+    11. What elements can I add a class to? 
+    any elements
+    12. How many times can I use the same class on a page?
+     as many times as you want
+    13. How do I get my link to open in a new tab?
+    <a href= bla bla website  target="blank">
+    14. What is the alt attribute used for? 
+    The alt attribute provides alternative information for an image or area.
+    15. How do I reference an id?
+    ("somethinglikethisid")
+    16. What is the difference between a section and a div
+    section means that the content inside is grouped// div on the other hand, does not convey any meaning,
+    17. What is CSS used for? 
+    makes things look pretty
+    18. How to we select an element? Example - every h2 on the page
+    h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    id is a one time go. normally used for the first attribut like h1 or so. class is used for identifying all other elements its a name for pulling it up in CSS
+    20. How do we select classes in CSS?
+    a period followed by the name of the class example .firstbox{}
+    21. How do we select a p element with a single class of “human””?
+    p.human {}
+    22. What is a parent child selector? When would this be useful? 
+    Child Selector is used to match all the elements which are child of a specified element. It gives the relation between two elements. The element > element selector selects those elements which are the children of specific parent. its good for things like a nested list to stop the css from cascadeing down further
+    23. How do you select all links within a div with the class of sidebar?
+    sidebar.callout
+    24. What is a pseudo selector?
+    A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element
+    25. What do we use the change the spacing between lines?
+    line-height property
+    26. What do we use to change the spacing between letters?
+    letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform
+    28. How do I add a 1px border around my div that is dotted and black?
+    outline-style property the style part is chaged to reflect what you want
+    29. How do I select everything on the page? 
+    * Selector
+    30. How do I write a comment in CSS?
+    /* Comment */
+    31. How do I find out what file I am in, when I am using the command line? 
+        ~ is normaly followed by the location yyou are in in the cl you can also use ls 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+    rm 
+    34. Why should I use version control? 
+    Version control is a type of system that allows you to keep track of changes made to your code over time. As such, version control is useful because: You can revert back to specific 'versions' of your code.
+    35. How often should I commit to github?
+    like ever 20 minuets or so 
+    36. What is the command we would use to push our repo up to github?
+    git push 
+    37. Walk me through Lambda's git flow. 
+    1 fork repo. 2 add tl. 3 clone repo into terminal. 4 go to directory where you want to clone the file. 5 git clone link to repo. 6cd into repo. 6 use git checkout first-last name. 
+    7you can now work on it. 8 git add. 9 git cimmit- insert comment. 10git push. 11 submit pull request. 
+Stretch Questions
+0
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model? 
+
+
+
+   --> 
