@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,8 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-	box-sizing: border-box;
-	border: 2px solid pink;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -66,36 +65,123 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-header nav{
-	display: inline-block;
-	width:75%;
-	vertical-align:top;
-	margin-top:10px;
-}
 
-header nav a {
-	margin-right: 50px;
-}
-
-header nav a:first-child{
-	margin-left:5px;
-}
-
-.text{
-	display:inline-block;
-	margin: 10px 10px 80px 10px;
-	font-size: 30px;
-	text-align:center;
-}
-
-.hook .text{
-	display: inline-block;
-	vertical-align:top;
-	margin: 40px 80px;
-	padding: 80px 80px;
+.container {
+	width: 880px; 
+	margin: 0 auto;
+  }
 	
-}
+	header nav {
+		display: inline-block;
+		width: 690px;
+		vertical-align: top;
+		margin-top: 35px;
+	  }
+	  
+		
+		header nav a {
+			margin-right: 65px;
+			font-size: 13px;
+			color: gray;
+		}
+	  
+			
+			header nav a:first-child {
+				margin-left: 0;
+			}
+	  
+			
+			header nav a:last-child {
+				margin-right: 0;
+			}
 
-.circleimg {
-	background-color: yellow;
+	
+	header .logo {
+		margin-top: 25px;
+	}
+  
+	.tagline .cta-text {
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 120px;
+		padding: 0px 75px;		
+		font-size: 75px;
+		text-align: center;
+	}   
+
+	.tagline .cta-text button {
+		
+		font-family: 'Bangers', cursive;
+		font-size: 15px;
+		background: white;
+		vertical-align: top;
+
+		
+		margin-top: 6px;
+		padding: 10px 45px;
+		border: 1px solid black;
+	}
+
+	.tagline img {
+		display: inline-block;
+		margin-top: 65px;
+	}
+
+
+
+	.page-content {
+		
+		border-top: 1px solid black;
+		margin-top: 75px;
+		padding-top: 49px;
+	}
+
+	.page-content .top-content {
+		padding: 0 10px;
+	} 
+
+	.page-content .top-content .content-box {
+		width: 410px;
+		display: inline-block;
+		margin-right: 30px;
+	}
+
+	.page-content .top-content .content-box:last-child {
+		margin-right: 0;
+	}
+
+	.page-content .middle-img {
+		margin-top: 45px;
+	}
+
+	.page-content .bottom-content {
+		margin-top: 35px;
+		padding: 0 10px;
+	}
+
+	.page-content .bottom-content .content-box {
+		width: 275px;
+		display: inline-block;
+		margin-right: 10px;
+	}
+
+	.page-content .bottom-content .content-box:last-child {
+		margin-right: 0;
+	}
+
+	address {
+		margin-top: 60px;
+		border-top: 1px solid black;
+		padding: 35px 10px 0;
+	}
+	
+	address p {
+		margin: 20px 0;
+	}
+
+
+footer {
+	margin: 30px 0;
+	text-align: center;
+	font-size: 15px;
 }
