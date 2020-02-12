@@ -57,8 +57,9 @@ https://codepen.io/aurelio4/pen/mdJebLL
     }
 
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
-
-
+     a class can be used on multiple different elements whereas an id can only be used on one element.
+     you can use a class to style 2 different elements the same and you can use an id to give a unique style to an element.
+     
     20. How do we select classes in CSS?
     . (period)
 
