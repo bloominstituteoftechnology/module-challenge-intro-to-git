@@ -1,0 +1,63 @@
+body {
+    font-family: Georgia, Times, serif;
+    color: purple;
+    background-color: #d8da3d
+}
+
+h1 {
+    text-align: center;
+    font-family: Helvetica, Arial
+}
+h1:hover {
+  color: blue;
+}
+ 
+#intro {
+  margin: 20px;
+  padding:10px;
+  background-color: #fff111;
+}
+#intro:hover {
+  color: #d8da3d;
+}
+
+#body {
+  margin: 20px;
+  padding:30px;
+  background-color: #d8da9d;
+}
+#body:hover {
+  color: #d8da3d;
+}
+#outh2{
+  text-transform: uppercase;
+}
+#outh2:hover {
+  text-transform: lowercase;
+}
+#outro {
+  margin: 20px;
+  padding: 30px;
+  background-color: black;
+}
+#outro:hover {
+  color: gray;
+}
+
+#img {
+  text-align: center;
+  margin: 40px;
+  padding: 50px;
+}
+#img1:hover {
+  border: 10px solid blue;
+}
+#img2:hover {
+  border: 10px solid blue;
+}
+#img3:hover {
+  border: 10px solid blue;
+}
+#img4:hover {
+  border: 10px solid blue;
+}
