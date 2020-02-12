@@ -9,40 +9,163 @@ https://codepen.io/j721/pen/NWqGqPB?editors=1100
         markup language used as the building block/backbone of all web pages
 
     3. What is an attribute and where do we put it? 
-        used with a link
-        provides additional information about html elements
-        
+        written inside opening tag
+        used to supply a link or an img
+          
     4. What is the h1 tag used for? How many times should I use it on a page?
+            h1 tag is a headline tag. It provides the largest font-size  
+            used usually only once or for important headings
+
     5. Name two tags that have required attributes
+        img tag
+        anchor tag
+
     6. What do we put in the head of our HTML document? 
+        our heading or title
+
     7. What is an id? 
+        css selector. titles only appear on a single element
+
     8. What elements can I add an id to? 
+        only applies to a single element
+        can be used on any HTML element
+
     9. How many times can I use the same id on a page? 
+        only once
+            
     10. What is a class? 
+        css selector that can be used on multiple elements
+        used to define equal styles for elements with same class name
+
     11. What elements can I add a class to? 
+        multiple elements, any HTML element
+        all elements with the same class attribute will get the same style
+
     12. How many times can I use the same class on a page? 
+        multiple times
+        not really a limit
+
     13. How do I get my link to open in a new tab?
+        right click and bar that pops up click on open a new tab
+
     14. What is the alt attribute used for? 
+        provides alternative info for an image if a user for some reason cannot view it
+
     15. How do I reference an id?
+       use #name_of_id 
+
     16. What is the difference between a section and a div
-    17. What is CSS used for? 
-    18. How to we select an element? Example - every h2 on the page
+        section is a more specific container of holding other elements.
+             A container holding similar elements 
+        div is a generic container to hold other elements
+            holds no special meaning
+
+
+    17. What is CSS used for?
+        used to add stylistic features to web page
+
+    18. How do we select an element? Example - every h2 on the page
+            h2{
+
+                }
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+            a class can be used on multiple elements
+                example for class can be used on an anchor tag, a paragrah tag, a div tag
+
+            an id can only be used on a single element 
+                example id can only be used on a single element such as a box element
+
     20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of “human””?
+        use the .class_name 
+
+    21. How do we select a p element with a single class of “human”?
+        p.human{
+
+        }
+
     22. What is a parent child selector? When would this be useful? 
+            parent child selector: selects all elements that are the direct child of the specified element
+
     23. How do you select all links within a div with the class of sidebar?
+        sidebar a{
+
+        }
+
     24. What is a pseudo selector?
+        css selectors with colon preceding them (:pseudo selector)
+        specifies a special state of the selected element(s)
+
     25. What do we use the change the spacing between lines?
+            use line-height property
+            example div{
+                line-height: normal;
+            }
+
     26. What do we use to change the spacing between letters?
+            use letter-spacing property
+            example h1{
+                letter-spacing: 4px;
+            }
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+            text-transform: capitalize        capitalizes first letter of every word
+            text-transform: lowercase         makes all letters in selected text to lowercase
+            text-transform: uppercase         makes text to all caps
+
+
     28. How do I add a 1px border around my div that is dotted and black?
+            div{
+                border: 1px dotted black;
+            }
+
     29. How do I select everything on the page? 
+        use wildcard/universal selector *{
+        }
+
     30. How do I write a comment in CSS?
+            start a comment with /* and end the comment with */
+
     31. How do I find out what file I am in, when I am using the command line? 
+        use pwd (print working directory) to find out what directory or file you are in 
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+            ls command
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+            rm file_name
+            use caution because there is no warning before you delete the file and there is 
+            no way to recover it once it has been removed
+
     34. Why should I use version control? 
+        able to save multiple previous versions of your codepen
+        able to have multiple people work on the same project
+
     35. How often should I commit to github?
+        whenever a change is made
+
     36. What is the command we would use to push our repo up to github? 
+        git push -u origin branch-name
+
     37. Walk me through Lambda's git flow.
+        fork the repo to own github account
+        add TL as collaborator through manage access
+        clone the repo
+        open Terminal/Command Line and use cd to make sure right directory 
+        git clone with <url link to repo> that was cloned
+        cd into the new repo 
+        create branch using git checkout -b 'firstname-lastname'
+        work on repo
+            git add .     will add all repo changes making it ready for comitting
+            git commit -m "helpful commit message"
+        now push all changes back to GitHub repo
+            git push -u origin branch-name
+        after changes are on github submit a pull request
+        go back to forked project repo. MAKE SURE ON FORKED COPY
+        click on Branch: master
+        drop bar then click on Name-branch
+        then click on new pull request
+        click dropdown button that says base repository and CHANGE it to be your FORKED REPO 
+        add TL to reviewers
+        then submit pull request
+        DO NOT MERGE YOUR OWN PULL REQUEST
