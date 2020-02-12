@@ -1,0 +1,142 @@
+1. What is Semantic HTML? 
+
+Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in webpages and web applications rather than merely to define its presentation or look.
+    
+    2. What is HTML used for? 
+    
+    
+    Hypertext Markup Language. HTML is used to create electronic documents (called pages) that are displayed on the World Wide Web. 
+    
+    3. What is an attribute and where do we put it? 
+    Attributes provide additional information about HTML elements and it is used to define parameters of tags within web pages. 
+    
+    4. What is the h1 tag used for? How many times should I use it on a page? 
+    
+    h1 tag is used as a header element usually used to define the title of articles or different sections of the web site. It can be used at will all though you should probably only use it for the top of each section of the web site. 
+    
+    5. Name two tags that have required attributes
+    The img tag and the form tag
+    
+    6. What do we put in the head of our HTML document? 
+    The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag. HTML metadata is data about the HTML document. ... Metadata typically define the document title, character set, styles, scripts, and other meta information.
+    
+    7. What is an id? 
+     The id attribute specifies a unique id for an HTML element (the value must be unique within the HTML document). The id attribute is most used to point to a style in a style sheet, and by JavaScript (via the HTML DOM) to manipulate the element with the specific id.
+    8. What elements can I add an id to? 
+    HTML The id Attribute The id attribute specifies a unique id for an HTML element (the value must be unique within the HTML document). The id value can be used by CSS and JavaScript to perform certain tasks for the element with the specific id value.
+    
+    9. How many times can I use the same id on a page? 
+    As many times as needed. 
+    
+    10. What is a class? 
+    The class attribute specifies one or more classnames for an element.
+    The class attribute is mostly used to point to a class in a style sheet. However, it can also be used by a JavaScript (via the HTML DOM) to make changes to HTML elements with a specified class.
+    
+    11. What elements can I add a class to? Div tags secttion tags articles etc any tag can have a class defined through css. 
+    
+    12. How many times can I use the same class on a page? You may utilize it as many times as needed
+    
+    
+    13. How do I get my link to open in a new tab?
+    
+    The short answer is: just add a target="_blank" attribute to your links (anchor tags). Now when your visitors click that link, it will open in a new window or tab (depending on which web browser they are using and how they configured that browser).
+    
+    14. What is the alt attribute used for? 
+    
+    The alt attribute specifies an alternate text for an area, if the image cannot be displayed. The alt attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).
+    
+    15. How do I reference an id?
+    Div id="nameOfElement"
+    
+    16. What is the difference between a section and a div
+    
+    17. What is CSS used for? 
+    It is used to style elements within a html page. 
+    
+    18. How to we select an element? Example - every h2 on the page
+    h2{
+    CSS Code Here
+    }
+    
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    
+    20. How do we select classes in CSS?
+    In order to select classes in css we use the #.
+    
+    21. How do we select a p element with a single class of “human””?
+    p .human{
+    Css code here
+    
+    }
+    22. What is a parent child selector? When would this be useful? 
+    Child Selector: Child Selector is used to match all the elements which are child of a specified element. ... The element > element selector selects those elements which are the children of specific parent. The operand on the left side of > is the parent and the operand on the right is the children element. It would be useful to use when trying to have an elemment inherit attributes from a parent or child element. 
+    
+    23. How do you select all links within a div with the class of sidebar?
+    a .sidebar{
+    css code
+    }
+    24. What is a pseudo selector?
+    A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). For example, :hover can be used to change a button's color when the user's pointer hovers over it.
+    
+    25. What do we use the change the spacing between lines?
+    Change The Spacing Between Lines. Use the line-height property in CSS to do so. Browsers by default will create a certain amount of space between lines to ensure that the text is easily readable. For example, for 12-point type, a browser will place about 1 point of vertical space between lines.
+    
+    26. What do we use to change the spacing between letters?
+    letter-spacing:size;
+    
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform:uppercase
+    text-transform:lowercase
+    text-transform:capitalize
+    
+    28. How do I add a 1px border around my div that is dotted and black?
+    border: dotted 1px black;
+    
+    29. How do I select everything on the page? 
+    *{
+    
+    }
+    
+    30. How do I write a comment in CSS?
+    //Comment or /*Comment */
+    
+    31. How do I find out what file I am in, when I am using the command line? ls
+    
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm and you have to be careful because you can do damage to your entire system by deleting the wrong things. 
+    
+    34. Why should I use version control? It allows me to access earlier versions of my code that were stable and also provides a backup within the cloud. 
+    
+    35. How often should I commit to github? Every 20 mins or when a critical update is made. 
+    
+    36. What is the command we would use to push our repo up to github? 
+    git push -u origin branch-name
+    
+    37. Walk me through Lambda's git flow. https://www.notion.so/GitFlow-step-by-step-a764163309754e23b1b9c4077b1653cc
+    
+    
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    You can't put block elements inside inline elements. Formatting. By default, inline elements do not force a new line to begin in the document flow. Block elements, on the other hand, typically cause a line break to occur (although, as usual, this can be changed using CSS).
+    
+    2. What happens when an element is positioned absolutely? 
+    An absolutely positioned element is an element whose computed position value is absolute or fixed . The top , right , bottom , and left properties specify offsets from the edges of the element's containing block. (The containing block is the ancestor relative to which the element is positioned.)
+    
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    Using attributes such as margin width and padding. Following the box model. 
+   
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    Block level elements are as follows; <address><article><aside>
+    Inline elements <a><abbr><acronym>
+    5. In your own words, explain the box model. What is the fix for the box model? 
+    
+    In web development, the CSS box model refers to how HTML elements are modeled in browser engines and how dimension of those HTML elements are derived from CSS properties. It is a fundamental concept for the composition of HTML webpages.
+    Solution for the box model would be something like this 
+    <div id="width_div">
+    <div id="padding_div">
+    Content
+    </div>
+    </div>
