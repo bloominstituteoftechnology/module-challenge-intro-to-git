@@ -1,6 +1,7 @@
 https://codepen.io/KMcodes/pen/JjdYdpE
 
-1. What is Semantic HTML? 
+
+   1. What is Semantic HTML? 
 HTML that adds meaning to a page, something such as a <p> tag.
 
 
@@ -46,7 +47,7 @@ Provides information for an image if the image cannot be viewed due to issues su
 
 
     15. How do I reference an id?
-
+With the #
 
 
     16. What is the difference between a section and a div
@@ -75,39 +76,57 @@ Used to select elements that belong to another element without selecting the who
 
 
     23. How do you select all links within a div with the class of sidebar?
+.sidebar a{}
 
     24. What is a pseudo selector?
+Selects elements in a certain state, either first of their type or being moused over.
 
     25. What do we use the change the spacing between lines?
+The line-height property in CSS. 
 
     26. What do we use to change the spacing between letters?
+letter-spacing: 
 
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+Text-transform:uppercase text-transform:lowercase text-transform:capitalize 
 
     28. How do I add a 1px border around my div that is dotted and black?
+Div {border: 1px black; border-style: dotted;}
 
     29. How do I select everything on the page? 
+* selector 
 
     30. How do I write a comment in CSS?
+/*    */
 
     31. How do I find out what file I am in, when I am using the command line? 
+pwd
 
     32. Using the command line - how do I see a list of files/folders in my current folder?
+Ls
 
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+Rm command, it is dangerous, because it doesn’t put it in recycling bin, its gone forever. 
 
     34. Why should I use version control? 
+It prevents teamwork from conflicting by tracking all changes.
 
     35. How often should I commit to github?
+As often as possible
 
     36. What is the command we would use to push our repo up to github? 
+Git push
 
     37. Walk me through Lambda's git flow. 
+Fork in GitHub, check GitHub for your name, add tl as collaborator,  clone repo, inside cli use cd command to go to directory for repo, use git clone and link to download it, cd into new repo, use git checkout -b firstname-lastname to create branch name, use git add. to add changes, push data back with git push-u origin branch-name, submit pull request, check to make sure it forked properly on GitHub 
+
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+Block elements cause a line break to occur, and inline elements don’t. Inline elements don’t make a line appear in the documents flow by default. 
     2. What happens when an element is positioned absolutely? 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the fix for the box model? 
+
