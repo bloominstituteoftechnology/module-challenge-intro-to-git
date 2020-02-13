@@ -92,5 +92,9 @@ block has width x height while inline does not
     2. What happens when an element is positioned absolutely?
  absolute sticks an element to it's parent when scrolling, while if it's not it sticks. I think it's also called static from what i remember
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+    
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the fix for the box model?
+    box model I see as working from the outside in. 
+    - working from a container into the content involved and positioning it as you work your way in. 
+    fix is : (from outside -> inside) Margin -> border -> padding -> content
