@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -74,10 +74,16 @@ p {
 
 
 .links {
-    display:flex;
+    display:flex; 
     justify-content:space-evenly;
-    padding-top:2%;
-    text-decoration: none;
+    padding:2%;
+    max-width: 95%;
+    
+}
+
+a:link {
+   
+     text-decoration: none;
 }
 
 .lambda-logo {
@@ -121,6 +127,7 @@ p {
      flex-wrap: wrap; 
     justify-content: space-around;
     margin:2%; 
+    color:white;
 }
 
         .box1 {
@@ -201,3 +208,47 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* CSS for about page. */
+
+.intro {
+    border-bottom: 2px dotted black;
+    margin:1%;
+    padding-bottom:2%;
+}
+
+.service-options{
+	display:flex;
+	flex-wrap: wrap;
+	
+}
+
+.item {
+	border-bottom: 2px dotted black;
+	display:flex;
+	flex-direction:column;
+	width:50%;
+	margin:2% 0%;
+	justify-content: space-evenly;
+	padding:10px;
+}
+
+button {
+    margin-top:10px;
+    padding:3%;
+    align-self:flex-start;
+    width:50%;
+    border: 3px solid black;
+    border-radius: 15px;
+    height:80%;
+    font-size: 20px;
+}
+
+.item img {
+    padding-bottom: 2%;
+}
+.Outro {
+    padding:5%;
+}
+
