@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+
+
+/* CSS for the home page */
+
+
+
+.links {
+    display:flex;
+    justify-content:space-evenly;
+    padding-top:2%;
+    text-decoration: none;
+}
+
+.lambda-logo {
+    padding-bottom: 2%;
+}
+
+
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-top: 2%;
+}
+
+.top-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.middle-content {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+.middle-content .boxes {
+     display: flex;
+     flex-wrap: wrap; 
+    justify-content: space-around;
+    margin:2%; 
+}
+
+        .box1 {
+            background-color: teal ;
+            padding:6%;
+            margin:1%
+        }
+
+        .box2 {
+            background-color: gold ;
+            padding:6%;
+            margin:1%
+        }.box3 {
+            background-color: cadetblue;
+            padding:6%;
+            margin:1%
+        }.box4 {
+            background-color: coral ;
+            padding:6%;
+            margin:1%
+        }.box5 {
+            background-color:crimson ;
+            padding:6%;
+            margin:1%
+        }.box6 {
+            background-color: forestgreen;
+            padding:6%;
+            margin:1%
+        }.box7 {
+            background-color:darkorchid;
+            padding:6%;
+            margin:1%
+        }.box8 {
+            background-color: hotpink ;
+            padding:6%;
+            margin:1%
+        }.box9 {
+            background-color: indigo;
+            padding:6%;
+            margin:1%
+        }.box10 {
+            background-color:dodgerblue ;
+            padding:6%;
+            margin:1%
+        }
+
+
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
