@@ -9,7 +9,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,12 +49,14 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	/* border: 2px solid pink; */
 }
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0px 50px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -63,4 +65,173 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* css for home page */
+
+	
+  	header {
+		  display:flex;
+		  justify-content: space-between;
+		  padding:20px;
+
+	  }
+	  
+		
+		header nav a {
+			font-size: 13px;
+			color: gray;
+			justify-content:center;
+			padding:30px;
+		}
+	.logo {
+	
+	}
+  
+	.tagline {
+		display:flex;
+		justify-content:space-around;
+		align-items: center;
+		
+	}   
+
+	.tagline .cta-text {
+		font-size: 70px;
+	}
+
+	.tagline .cta-text button {
+		font-family: 'Bangers', cursive;
+		font-size: 15px;
+		background: white;
+		border: 1px solid black;
+	}
+
+	.tagline img {
+		padding:20px;
+	}
+
+
+
+		 .top-content {
+			border-top: 1px solid black;
+			display:flex;
+			justify-content:center;
+			
+	} 
+
+	.content-box {
+		justify-content: center;
+		max-width:40%;
+		padding:20px;
+	}
+
+	.middleimg  {
+		min-width:100%;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+ 		.bottom-content {
+			display:flex;
+			
+	}
+		.content-box{
+		justify-content: space-around;
+		max-width:40%;
+		padding:20px;
+		}
+	
+
+	
+
+	address {
+		border-top: 1px solid black;
+		padding:20px;
+		/* display:flex;
+		flex-direction: column;
+		align-content: stretch;  */
+	}
+	
+	address p {
+		display:flex;
+		flex-direction: column;
+		align-content: space-around; 
+	}
+
+footer {
+	display:flex;
+	justify-content: center;
+	font-size: 15px;
+
+}
+
+
+
+
+ /* service page CSS  */
+
+/* Intro below this line */
+
+.services-header-img{
+	/* max-width: 100%; */
+	min-width: 100%;
+	/* padding:20px; */
+	/* justify-content:center; */
+	/* margin-left: 9%; */
+}
+/* .intro1{
+	display:flex;
+
+} */
+
+
+.container {
+	padding: 5%;
+}
+.intro {
+	padding: 10px;
+}
+
+.item {
+	background-color:lightgrey;
+	border: 1px solid black;
+	display:flex;
+	flex-direction:column;
+	width:45%;
+	margin:2%;
+	justify-content: space-evenly;
+	padding:30px;
+}
+
+.service-options{
+	display:flex;
+	flex-wrap: wrap;
+	
+}
+
+button {
+	margin:20px;
+	align-self:flex-start;
+}
+
+.facts {
+	display:flex;
+	/* padding: 2%; */
+	justify-content:space-between;
+}
+
+.servicefacts {
+	justify-content: center;
+	align-content:space-between;
+	max-width: 50%;
+
+}
+
+ul {
+	list-style-type: circle;
+}
+
+
+.copy-right{
+	display:flex;
+	justify-content: center;
+	padding-top: 10px;
+}
