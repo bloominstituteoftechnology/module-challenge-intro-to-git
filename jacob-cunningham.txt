@@ -24,16 +24,16 @@
     22. What is a parent child selector? When would this be useful? if you want to change one p tag not all of them. ie .div-class p{}
     23. How do you select all links within a div with the class of sidebar? div.sidebar a{}
     24. What is a pseudo selector? selects a state of an item ie:hover which only applies when you hover over something
-    25. What do we use the change the spacing between lines?
-    26. What do we use to change the spacing between letters?
-    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-    28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
-    30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
-    32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
-    35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow
+    25. What do we use the change the spacing between lines? body{line-height: 1.6;}
+    26. What do we use to change the spacing between letters? body{letter-spacing: 2px;}
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? p{text-transform: uppercase, lowercase, capitalize}
+    28. How do I add a 1px border around my div that is dotted and black? div{border: dotted black 1px;}
+    29. How do I select everything on the page? *{}
+    30. How do I write a comment in CSS? /*
+    31. How do I find out what file I am in, when I am using the command line? git status
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm; it doesn't warn you and removes forever
+    34. Why should I use version control? More dynamic. Creates record of all changes
+    35. How often should I commit to github? every time you make a big change, leave the computer, or about every 30 min
+    36. What is the command we would use to push our repo up to github? push
+    37. Walk me through Lambda's git flow so we fork a document, then add 2 collaborators ( both tls). we then do our work and push it back to git where we add our tls to review
