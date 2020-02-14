@@ -1,0 +1,25 @@
+https://codepen.io/csol/pen/OJVMrzN
+
+Stretch Review questions: 
+    1. What is the difference between an inline element and a block element?
+    Block elements start on a new line and take up as much width as possible.
+    Inline elements don't start on a new line and only take up as much width as necessary.
+    2. What happens when an element is positioned absolutely? 
+    Absolute positioning means an element is positioned relative to its parent element.
+    (If there's no element, it will be positioned relative to the page itself)
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+    Make it an inline-block element.
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    display: block default: div, section & p
+    display: inline default: span, img
+    display: inline-block default: button
+    5. In your own words, explain the box model. What is the fix for the box model?
+    The box model is how elements are displayed on a page. An element has the space it takes up,
+    then it's got padding which is space from the edge of the element to whatever size we give it,
+    this padding can have a border and finally the margin of the entire box. Essentially, boxes
+    within boxes.
+
+    The "fix" to the box model is box-sizing: border-box which includes padding and borders into
+    the element's width.
+
+    ..
