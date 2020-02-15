@@ -36,14 +36,33 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
 
     12. How many times can I use the same class on a page? 
         You can use it as many times as you want.
-        
+
     13. How do I get my link to open in a new tab?
+        <a href="#" target="_blank">Text</a>
+
     14. What is the alt attribute used for? 
+        It is used to display a description of an image if the image doesn't load correctly.
+
     15. How do I reference an id?
+        #id_name
+
     16. What is the difference between a section and a div
+        A section has semantic meaning, telling others that things in a section belong together. A div is just a container for different elements and does not entail information to others.
+
     17. What is CSS used for? 
+        CSS is Cascading Style Sheet, and it is used for styling HTML to be displayed on screen. It makes the website colorful and its content organized for viewability.
+
     18. How to we select an element? Example - every h2 on the page
+        h2 {
+            styling...
+        }
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        A class can contain different elements, which you want to style them the same way. 
+        Example, if you want to make elements in a section, say h2, and p to have same font and color, you group them in the same class and select the class to style them together.
+
+        An id can only be used on one element, hence it has a higher specificity weight than class. You can style one specific element, but it is generally used for referencing to that specific tag for Javascript, or move your window to that tag.
+        
     20. How do we select classes in CSS?
     21. How do we select a p element with a single class of “human””?
     22. What is a parent child selector? When would this be useful? 
