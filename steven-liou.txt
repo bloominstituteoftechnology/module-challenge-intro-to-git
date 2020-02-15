@@ -1,3 +1,6 @@
+My codepen assignment link is:
+https://codepen.io/stevenliou/pen/NWqxVdy?editors=1100
+
 Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
 
     1. What is Semantic HTML? 
@@ -147,7 +150,8 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
         5. Regularly make commits to your editing file by staging it, then commiting it
                                         >git add file_name
                                     or  >git add -a      /for all files in the working tree
-                                    then >git commit
+                                    then check status optionally with >git status
+                                    then >git commit -m "Messages"
         6. When you want to submit your work, push it to github 
                                         >git push -u origin firstname-lastname
         7. Submit a pull request to let your TLs know that you have turned in your homework
