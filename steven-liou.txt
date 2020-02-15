@@ -62,16 +62,53 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
         Example, if you want to make elements in a section, say h2, and p to have same font and color, you group them in the same class and select the class to style them together.
 
         An id can only be used on one element, hence it has a higher specificity weight than class. You can style one specific element, but it is generally used for referencing to that specific tag for Javascript, or move your window to that tag.
-        
+
     20. How do we select classes in CSS?
+        .class_name {
+            styling...
+        }
+
     21. How do we select a p element with a single class of “human””?
+        p.hunman {
+            styling...
+        }
+
     22. What is a parent child selector? When would this be useful? 
+        The parent refers to the outer tag, and the child refers to the nested tag inside the parent. This inheritence gives CSS its name as styling the parents automatically style their children.
+        The child selector allows the children to have specific attributes from their parents.
+
     23. How do you select all links within a div with the class of sidebar?
+        div.sidebar a{
+            styling...
+        }
+
     24. What is a pseudo selector?
+        The pseudo selector is a keyword in CSS that indicates the state of the element.
+
     25. What do we use the change the spacing between lines?
+        line-height: #;
+
     26. What do we use to change the spacing between letters?
+        letter-spacing: normal;
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        To capilize everything: text-transform: uppercase;
+        To lower case everything: text-transform: lowercase;
+        To titlecase everything: text-transform: capitalize;
+
     28. How do I add a 1px border around my div that is dotted and black?
+        div {
+            border-style: dotted;
+            border-width: 1px;
+            border-color: black;
+        }
+
+        or shorthand
+
+        div {
+            border: 1px dotted black;  //width, style, color
+        }
+
     29. How do I select everything on the page? 
     30. How do I write a comment in CSS?
     31. How do I find out what file I am in, when I am using the command line? 
