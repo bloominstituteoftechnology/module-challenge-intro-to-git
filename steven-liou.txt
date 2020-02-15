@@ -110,14 +110,47 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
         }
 
     29. How do I select everything on the page? 
+        * {
+            styling...
+        }
+
     30. How do I write a comment in CSS?
+        // for single line, and /* Comment here */ for multiple lines.
+
     31. How do I find out what file I am in, when I am using the command line? 
+        pwd for print working directory
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls for list, can use modifier -l for details, and -a for showing hidden files
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm file_name
+        You have to be careful because once you execute the command, the file is gone forever.
+
     34. Why should I use version control? 
+        To keep track of different saved versions of your project, allow people in a project to work on their own branch, and merge to the master branch when they finish.
+        It also makes it easy to keep track of what content were added, edited or deleted.
+
     35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
+        You should commit as often as you can when you are working locally. However, you should push to github when you think you are at the point for others to review your work.
+        Then you can submit a pull request to merge your branch to the master branch, for example.
+
+    36. What is the command we would use to push our repo up to github?
+        git push -u origin your_branch 
+
     37. Walk me through Lambda's git flow. 
+        1. Fork the repositories to your own Github account.
+        2. Add TL as collaborators.
+        3. Clone the repo. to your own computer with >git clone
+        4. Create a branch from the fork, by >git checkout -b firstname-lastname
+                                        or > git branch firstname-lastname && checkout firstname-lastname
+        5. Regularly make commits to your editing file by staging it, then commiting it
+                                        >git add file_name
+                                    or  >git add -a      /for all files in the working tree
+                                    then >git commit
+        6. When you want to submit your work, push it to github 
+                                        >git push -u origin firstname-lastname
+        7. Submit a pull request to let your TLs know that you have turned in your homework
 
 Stretch Questions
 
