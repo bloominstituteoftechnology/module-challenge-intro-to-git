@@ -1,21 +1,22 @@
 Completed CodePen link: https://codepen.io/ruthmatieu/pen/zYGqrpa
 
 1. What is Semantic HTML? 
-Semantic HTML provides meaning to content and keeps code readable and organized. For example using nav, section, header, footer in place of span or div gives meaning to what the specific section of code.
+Semantic HTML provides meaning to content and keeps code readable and organized. For example using nav, section, header, footer in place of span or div gives meaning to what the specific section of code is about.
 
 2. What is HTML used for? 
 HTML is used to markup the page with content.
 
 3. What is an attribute and where do we put it? 
+An attribute is a modifier of an element. It goes inside the open tag after the element name. An example would be <img src="image.jpg" alt="cat"> with src and alt being the attributes.
 
 4. What is the h1 tag used for? How many times should I use it on a page?
-An h1 tag is used for the main heading on the page and can only be used once.
+An h1 tag is used for the main heading on the page and should only be used once.
 
 5. Name two tags that have required attributes
 <a> and <img>
 
 6. What do we put in the head of our HTML document? 
-<title></title>
+The page title, stylesheet, fonts, and other links that are needed for the site but not to be shown on the actual page.
 
 7. What is an id? 
 An id is an attribute that can only be used once which helps in styling HTML faster and more efficiently.
@@ -26,7 +27,8 @@ All elements.
 9. How many times can I use the same id on a page? 
 Once.
 
-10. What is a class? 
+10. What is a class?
+A class is an attribute that can be used in multiple places within the HTML document. It also aids in styling faster and more spefically.  
 
 11. What elements can I add a class to? 
 All elements.
@@ -35,27 +37,27 @@ All elements.
 As many times as needed.
 
 13. How do I get my link to open in a new tab?
-Include the attribute target="_blank".
+Include the attribute target="_blank" to <a></a> tags.
 
 14. What is the alt attribute used for? 
-The alt attribute is used to label images for the purpose of accessability. 
+The alt attribute is used to label images for accessibility and SEO purposes.
 
 15. How do I reference an id?
 Using the hashtag (#) references an id.
 
 16. What is the difference between a section and a div
-A section is semantic whereas a div is not. A section is self-explanatory in that it indicates the start of a new section on the page versus a div that is very broad and can be used for multiple reasons.
+A section is semantic whereas a div is not. A section is self-explanatory in that it indicates the start of a new section on the page versus a div that is not semantic and is used primarily as a divider.
 
 17. What is CSS used for? 
 CSS is used to style the HTML.
 
-18. How do we select an element? Example - every h2 on the page
+18. How do we select an element? Example - every h2 on the page?
 An element is selected by referencing its name. For example to target every h2 on the page we would simply say: 
 h2 {
 	}
 
 19. What is the difference between a class and an id? - Give me an example of when I might use each one.
-Both classes and ids are attributes. They allow us to select elements more specifically. An id however can only be used once while a class can be used on multiple elements.
+Both classes and ids are attributes. They allow us to select elements more specifically. An id however can only be used once while a class can be used on multiple elements. An id could be used to specify the different sections of the page and a class could be used on every link in the nav.
 
 20. How do we select classes in CSS?
 Classes are selected with the period (.) symbol.
@@ -65,14 +67,16 @@ p .human {
 	}
 
 22. What is a parent child selector? When would this be useful? 
+A parent child selector works based on the rule of inheritance and will select all children of that specific element. This would be useful when we want to specifically target an element that we otherwise wouldn't be able to target easily.
 
 23. How do you select all links within a div with the class of sidebar?
 .sidebar a {
 	}
 
 24. What is a pseudo selector?
+Pseudo selectors are keywords added to a selector in order to change the state of that element based on a certain action/behavior.
 
-25. What do we use the change the spacing between lines?
+25. What do we use to change the spacing between lines?
 line-height
 
 26. What do we use to change the spacing between letters?
