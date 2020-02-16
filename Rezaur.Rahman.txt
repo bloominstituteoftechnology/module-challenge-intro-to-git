@@ -9,6 +9,7 @@ https://codepen.io/Rezz11/pen/oNXxbdO?editors=1100
  2. What is HTML used for? 
  --> HTML is short for 'Hypertext Markup Language'. The purpose of HTML as a markup language is to provide a
  meaning of the content and establish a document structure.
+
  3. What is an attribute and where do we put it?
  --> HTML attributes are a modifier of an HTML element type. An attribute modifies the default functionality 
  of an element type. It generally appear as name-value pairs, separated by =, and are written within the start
@@ -17,46 +18,134 @@ https://codepen.io/Rezz11/pen/oNXxbdO?editors=1100
  4. What is the h1 tag used for? How many times should I use it on a page?
  --> h1 is the first header tag visible on a page. It is used for the title of the page. It should be used 
  only once per page.
+
  5. Name two tags that have required attributes
  --> div and h1.
+
  6. What do we put in the head of our HTML document?
  --> The <head> tag in HTML is used to define the head portion of the document which contains information 
  related to the document, e.g. meta data.
+
  7. What is an id? 
  --> The id attribute specifies a unique id for an HTML element which must be unique in the whole document.
+
     8. What elements can I add an id to? 
  --> The id attribute can be used on any HTML element.
+
  9. How many times can I use the same id on a page? 
  --> One id can only be used just once.
+
  10. What is a class?
  --> Class is an attribute of an html element. It specifies one or more classnames for an element.
-    11. What elements can I add a class to? 
+
+    11. What elements can I add a class to?
+ --> The class attribute can be used on any HTML element.
+
     12. How many times can I use the same class on a page? 
+ --> As many times as it is required.
+
     13. How do I get my link to open in a new tab?
-    14. What is the alt attribute used for? 
+ --> A target=”_blank” Open in New Browser Tab.
+
+    14. What is the alt attribute used for?
+ --> It is used for an alternative text to be displayed if image is, for any reason not available.
+ 
     15. How do I reference an id?
+ --> Unlike a class, an ID selector is a name preceded by a hash character (“#”).
+
     16. What is the difference between a section and a div
-    17. What is CSS used for? 
+ -->  A section is semantic html element. It means that the content inside is grouped and should appear as 
+    a entry in an outline of a page whereas <div> does not convey any meaning, aside from any found in 
+    its class, title attributes.
+
+    17. What is CSS used for?
+ --> CSS is used for to style the html markup.
+
     18. How to we select an element? Example - every h2 on the page
+ --> h2 {}
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+ --> The difference between an ID and a class is that an ID can be used to identify one element, whereas a 
+     class can be used to identify more than one. Below are the examples:
+
+     <div id="top">
+
+       <h1>Chocolate curry</h1>
+
+       <p class="intro">This is my recipe for making curry purely with chocolate</p>
+
+       <p class="intro">Mmm mm mmmmm</p>
+
+     </div>
+
     20. How do we select classes in CSS?
+ --> We use a (.) followed by the the name of the class.
+
     21. How do we select a p element with a single class of “human””?
+ --> p.human{
+
+  }   
+    
     22. What is a parent child selector? When would this be useful? 
-    23. How do you select all links within a div with the class of sidebar?
+ --> The ("parent > child") selector selects all elements that are a direct child of the specified element.All 
+     the child selectors under the same parent inherites the same properties of that parent.
+
+    23. How do you select all links within a div with the class of sidebar? 
+ --> .sidebar a:link, .sidebar a:visited {
+    color:red;
+    }
+
     24. What is a pseudo selector?
+ --> A pseudo-class is a selector that selects elements that are in a specific state, e.g. they are the first 
+     element of their type, or they are being hovered over by the mouse pointer. 
+
     25. What do we use the change the spacing between lines?
+ --> By using the line-height property.
+
     26. What do we use to change the spacing between letters?
+ --> By using the letter-spacing property.
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+ --> text-transform: uppercase;, text-transform: lowercase; and text-transform: capitalize;
+
     28. How do I add a 1px border around my div that is dotted and black?
+ --> div {
+     border: 1px dotted black;
+ }
+
     29. How do I select everything on the page? 
+ --> The universal selecter (*)  
+
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+ --> You start a comment with /* , and end it with */ .
+
+    31. How do I find out what file I am in, when I am using the command line?  
+ --> pwd. 
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+ --> ls
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+ --> rm followed by the file name. We have to be careful because this is irreversible.
+
     34. Why should I use version control? 
+ --> To track every change ever made to the file.
+
     35. How often should I commit to github?
+ --> Whenever I need to save a valid change that stays.
+
     36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+ --> git push -u origin Rezaur-Rahman or git push -u origin master
+
+    37. Walk me through Lambda's git flow.  
+--> a) Fork the repo to create my own version of the repo.
+    b) Add my both my TL (5th day TL as well) as a collaborator.
+    c) Clone the repo.
+    d) Use the command git clone on the git bash terminal followed by the URL copied from github. All 
+    this to make a local repository.
+    e) Make my own branch 'firstName-lastName'. 
+    f) After adding changes and commiting, we would push the changes to the remote repository.
+    g) Make the pull request to get approval from the TL's or project manager.
 
 Stretch Questions
 
