@@ -128,15 +128,15 @@ Stretch Questions
 An inline element remains on the same line while a block element takes up their own line for each element.
     
 2. What happens when an element is positioned absolutely? 
-An element positioned absolutely will remain fixed in place and 
+An element positioned absolutely will remain fixed in place and act as a block element.
     
 3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
 
     
 4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default.
 
-2 elements that are display block by default: div 
-2 elements that are display inline by default:
+2 elements that are display block by default: <div> and <p>
+2 elements that are display inline by default: <span> and <img>
 1 elements that is display inline-block by default:
     
 5. In your own words, explain the box model. What is the fix for the box model? 
