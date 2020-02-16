@@ -119,7 +119,8 @@ git push origin master (pushes code back to remote origin) or git push [insert-b
 	4. Create your own branch (firstname-lastname)
 	5. Add/commit any changes to file
 	6. Git push to your own branch (not master)
-	7. 
+	7. Submit pull request in your branch
+	8. Add TLs as reviewers on the pull request
 
 Stretch Questions
 
@@ -127,7 +128,7 @@ Stretch Questions
 An inline element remains on the same line while a block element takes up their own line for each element.
     
 2. What happens when an element is positioned absolutely? 
-
+An element positioned absolutely will remain fixed in place and 
     
 3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
 
