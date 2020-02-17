@@ -150,7 +150,27 @@ https://codepen.io/Rezz11/pen/oNXxbdO?editors=1100
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+ --> An inline element does not use the full width of the page and does not enforce line break. A block element 
+     on the other hand does both. Also you can't put block elements inside inline elements, infact, Inline elements can
+     exist within block-level elements. 
+
     2. What happens when an element is positioned absolutely? 
+ --> An absolutely positioned element allows you to literally place any page element exactly where you want it. 
+     You use the positioning attributes top, left, bottom. and right to set the location. Important to note 
+     that these values will be relative to the next parent element with relative (or absolute) positioning. If 
+     there is no such parent, it will default all the way back up to the <html> element itself meaning it will
+      be placed relative to the page itself.
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+ --> This can be achieved by setting the margin to auto.
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+ --> 3 default block level elements are <p>, <h1>, <div>. Example of 2 inline elements are <span> and <br>. Inline-block is <img>.
+    
     5. In your own words, explain the box model. What is the fix for the box model? 
+ --> All html element can be seene as box model. It allows to define space between elements. The box model consists of
+     margin, border, padding and actual content of the box, for instance text. Padding is like a transparent area around the content but inside of the box.
+     The border of the box goes around the padding and content; could be transparent or not. Finally margin is the space between boxes.
+
+     The fix for the box model is to use the CSS property called box-sizing. If we set the box-sizing to border box, 
+     it will define the height and the width for the entire box.
