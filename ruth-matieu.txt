@@ -115,7 +115,7 @@ git push origin master (pushes code back to remote origin) or git push [insert-b
 37. Walk me through Lambda's git flow. 
 	1. Fork the project
 	2. Add TL and 5th day TL as collaborators
-	3. Clone the repo from GitHub using Git in the Terminal (git clone [insert copied 		link]
+	3. Clone the repo from GitHub using Git in the Terminal (git clone [insert copied link]
 	4. Create your own branch (firstname-lastname)
 	5. Add/commit any changes to file
 	6. Git push to your own branch (not master)
