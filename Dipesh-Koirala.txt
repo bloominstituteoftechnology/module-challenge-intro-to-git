@@ -1,3 +1,7 @@
+UI I
+https://codepen.io/dipeshkoirala/pen/abOvQgK 
+https://codepen.io/dipeshkoirala/pen/PoqPXzZ
+
 https://codepen.io/dipeshkoirala/pen/JjjMJYE?editors=1100
 https://codepen.io/dipeshkoirala/pen/LYYeLNL?editors=1100
 
@@ -81,6 +85,7 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
         Ans: Parent child selector is the demonstration of Inheritence.
 
     23. How do you select all links within a div with the class of sidebar?
+
     24. What is a pseudo selector?
         Ans: Pseudo-classes are used when you may not have a set amount of elements, but you still want to style them individually
 
@@ -100,6 +105,7 @@ Copy the questions below into the firt-lastname.txt file on your github repo - a
         Ans: Ctrl+A
 
     30. How do I write a comment in CSS?
+    Ans: /* */
 
     31. How do I find out what file I am in, when I am using the command line? 
     Ans: pwd
@@ -133,6 +139,7 @@ Stretch Questions
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the fix for the box model? 
+    Ans: TRBL Box Contains four sides Top Right Bottom Left; giving the propery a value using this bring upfront the box model. Fix for the box model should be flex
 
 
 
