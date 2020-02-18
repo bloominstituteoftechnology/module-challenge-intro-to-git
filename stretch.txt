@@ -1,0 +1,41 @@
+
+## Stretch
+Stretch Review questions: 
+    1. What is the difference between an inline element and a block element?
+
+    You can't put block elements inside inline elements. Formatting. By default, inline elements do not force a new line to begin in the document flow. Block elements, on the other hand, typically cause a line break to occur (although, as usual, this can be changed using CSS).
+
+    2. What happens when an element is positioned absolutely?
+
+    An absolutely positioned element is an element whose computed position value is absolute or fixed . The top , right , bottom , and left properties specify offsets from the edges of the element's containing block. (The containing block is the ancestor relative to which the element is positioned.
+
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+
+    All HTML block-level elements have five spacing properties: height, width, ... Together, they form the box that the element takes up. ... If margin, border and padding widths were all set at 0 width, the box would be right around the element. ... Now we can get rid of this space around your page with a simple CSS declaration 
+
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+    The display property is one of the most commonly used features of CSS development. ... doesn't remove an element completely. It just makes the element invisible: #box-2 { ... By default, HTML elements have a display behavior as block or inline. ... As we can understand from its name, display: inline-block ...
+    
+    display: none vs. visibility: hidden
+    display: block
+    display: inline
+    display: inline-block
+    
+    
+    5. In your own words, explain the box model. What is the fix for the box model?
+
+    The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+
+
+Stretch Git Tasks
+- [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
+  - [ ] Research and understand what a `merge conflict` is and how to resolve it.
+  - [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the master branch.
+  - [ ] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
+
+- [ ] Research and set up a Graphical User Interface (GUI) Git console. 
+
+- [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
