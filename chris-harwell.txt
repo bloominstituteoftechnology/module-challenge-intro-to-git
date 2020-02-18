@@ -126,3 +126,4 @@ Stretch Questions
           <button>
    5. In your own words, explain the box model. What is the fix for the box model?
       The box model is the way that elements are positioned on the web page. the box model gives them border, padding, margin, and element sizing. One way to fix the box model is to use resets to reset the defaults given on all elements of the page.
+      
