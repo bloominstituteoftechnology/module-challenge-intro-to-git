@@ -1,17 +1,17 @@
 https://codepen.io/aplank2014/pen/eYmpPbQ?editors=1100
 
 
-    1. What is Semantic HTML? HTML code based on meaning, tags provide clue to what they are used for.
+    1. What is Semantic HTML? HTML code based on meaning, the tags provide clue to what they are used for.
     2. What is HTML used for? Providing content to web pages
     3. What is an attribute and where do we put it? Attributes are the name and value of the tag, provided in the elements opening tag
     4. What is the h1 tag used for? How many times should I use it on a page? Main heading, only once
     5. Name two tags that have required attributes: input, select, textarea
     6. What do we put in the head of our HTML document? a container for metadata (data about data) 
     7. What is an id? (#) it's a name that identifies one specific element to make it easier to chose and style that element
-    8. What elements can I add an id to? Note that the id attribute cannot be applied to the following elements: base, head, html, meta, script, style, title
+    8. What elements can I add an id to? The id attribute can be used on any HTML element. Note that the id attribute cannot be applied to the following elements: base, head, html, meta, script, style,title
     9. How many times can I use the same id on a page? only once
     10. What is a class? (.) A selector used to grab certain elements on an html document
-    11. What elements can I add a class to? 
+    11. What elements can I add a class to? The class attribute can be used on any HTML element.
     12. How many times can I use the same class on a page? several
     13. How do I get my link to open in a new tab? The easiest way to open any link in a new tab is to right click on the link, and choose Open link in a new tab. Method 2: Press Ctrl (+ Shift) Key and Click on Link to Open in New Tab Press and hold down on Ctrl key, and click on the link to open the destination page in a new background tab (not in focus)
     14. What is the alt attribute used for? Alt Attributes are text that describes an image. They are helpful to search engines and visually impaired visitors.
