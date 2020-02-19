@@ -136,8 +136,12 @@ An element positioned absolutely will remain fixed in place and act as a block e
 4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default.
 
 2 elements that are display block by default: <div> and <p>
-2 elements that are display inline by default: <span> and <img>
-1 elements that is display inline-block by default:
+2 elements that are display inline by default: <span> and <a>
+1 elements that is display inline-block by default: 
     
 5. In your own words, explain the box model. What is the fix for the box model? 
-The box model is the imaginary box that surrounds. Css Reser  
+The box model is the imaginary box that surrounds all content within an HTML document. It consists of the content itself, padding, border and margin. These properties of the box can be used to style content and the spaces between them. A CSS reset is the fix for the box model.  
+
+
+
+
