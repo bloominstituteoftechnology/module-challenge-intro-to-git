@@ -115,7 +115,7 @@ git push origin master (pushes code back to remote origin) or git push [insert-b
 37. Walk me through Lambda's git flow. 
 	1. Fork the project
 	2. Add TL and 5th day TL as collaborators
-	3. Clone the repo from GitHub using Git in the Terminal (git clone [insert copied 		link]
+	3. Clone the repo from GitHub using Git in the Terminal (git clone [insert copied link]
 	4. Create your own branch (firstname-lastname)
 	5. Add/commit any changes to file
 	6. Git push to your own branch (not master)
@@ -140,8 +140,12 @@ An element positioned absolutely will remain fixed in place and act as a block e
 1 elements that is display inline-block by default: 
     
 5. In your own words, explain the box model. What is the fix for the box model? 
+<<<<<<< HEAD
 The box model is the imaginary box that surrounds all content within an HTML document. It consists of the content itself, padding, border and margin. These properties of the box can be used to style content and the spaces between them. A CSS reset is the fix for the box model.  
 
 
 
 
+=======
+The box model is the imaginary box that surrounds. Css Reser  
+>>>>>>> 390229376d99907ecb1d0f74edbb34644d1285da
