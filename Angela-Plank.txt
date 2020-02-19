@@ -1,5 +1,6 @@
 https://codepen.io/aplank2014/pen/eYmpPbQ?editors=1100
 
+Reviewed and added to.
 
     1. What is Semantic HTML? HTML code based on meaning, the tags provide clue to what they are used for.
     2. What is HTML used for? Providing content to web pages
