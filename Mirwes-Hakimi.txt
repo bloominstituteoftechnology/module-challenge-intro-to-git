@@ -22,3 +22,4 @@ Background-color:yellow;
  1 element that is display inline-block by default? <div> <p class=”highlight”></p> </div>
     5. In your own words, explain the box model. What is the fix for the box model? The box model wraps around every HTML element.
      Like margin, border, padding and content.
+     djlkdfjsl
