@@ -1,0 +1,21 @@
+// Mixins in here
+
+.custom-btn(@bg-color:#2E8B57, @width:200px, @font-color:#fff){
+    display: block;
+    background-color: @bg-color;
+    margin: 0 10px 20px;
+    cursor: pointer;
+    width: @width;
+    height: 40px;
+    font-size: 2rem;
+    text-align: center;
+    padding-top:4%;
+    border-radius: 10px;
+    color:@font-color;
+    
+    &:hover{
+      background-color:@font-color;
+      color:@bg-color;
+    }
+}
+    

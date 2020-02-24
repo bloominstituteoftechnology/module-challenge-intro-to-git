@@ -77,9 +77,11 @@ p {
     display:flex; 
     align-items:baseline;
     padding:2%;
+    justify-content: space-evenly;
 
     
 }
+
 
 a:link {
    

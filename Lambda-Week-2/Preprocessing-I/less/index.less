@@ -1,0 +1,157 @@
+// Is this working?
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	// border: 2px solid blue;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda&display=swap');
+
+@main-color:black;
+@main-font:'Roboto Slab', serif;
+@heading-font:'Ruda', sans-serif;
+
+
+//mix ins
+
+.space-between(){
+	display:flex;
+	justify-content: space-between;
+  }
+
+
+
+body {
+	background-image:url(https://images.unsplash.com/photo-1465173121987-373740a169b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin: 0;
+	border-top:20px solid white;
+	border-bottom:20px solid white;
+	border-left:40px solid white;
+	border-right:40px solid white;
+
+	@media( max-width: 500px ) {
+		border: 8px solid black;
+
+
+	  }
+
+
+
+} //end of body
+
+
+.whole {
+	max-width: 90%;
+	margin: 0 auto;
+	font-size: 1.6rem;
+	
+}//end of whole
+
+header {
+	.space-between();
+	color: lightcoral;
+	padding:2%;
+	border-bottom: 2px dashed @main-color;
+
+	@media( max-width: 500px ) {
+		justify-content: space-between;
+	  }// this closes the media query for the header
+
+}//end of header
+
+nav a{
+	color:black;
+	text-decoration: none;
+
+
+
+
+} //end of nav a. 
+
+a:hover {
+	color: lightcoral;
+} //end of a:hover.
+
+
+
+	
+
+
+.info {
+	padding:1%;
+	text-align: center;
+	
+	
+
+
+	h2 {
+		font-family: @heading-font;
+		color:lightcoral;
+		padding:1%;
+		
+		
+	} // end of h2
+
+
+	p {
+		font-family: @main-font;
+		color:@main-color;
+
+		// padding-left:2%;
+	} // end of p 
+
+} // end of info
