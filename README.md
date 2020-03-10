@@ -41,5 +41,3 @@ Stretch Git Tasks
 - [X] Research and set up a Graphical User Interface (GUI) Git console. 
 
 - [X] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
-
-
