@@ -1,3 +1,5 @@
+ https://codepen.io/memra/pen/qBdpeQx?editors=1100
+ 
  1. What is Semantic HTML? 
  The use of tags which indicate the meaning of the structure (e.g, headers, sections, navs, footer).
     2. What is HTML used for? 
@@ -82,6 +84,6 @@ Stretch Questions
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     inline-block property
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    
+
     5. In your own words, explain the box model. What is the fix for the box model? 
 
