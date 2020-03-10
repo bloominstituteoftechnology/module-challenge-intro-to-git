@@ -1,4 +1,5 @@
 Part One:
+
   1. What is Semantic HTML? Its a way we use to describe meaning to the browser and developer,
     2. What is HTML used for? To create the main structure or foundation for a web page or application.
     3. What is an attribute and where do we put it? it provides additional info about an element. We can put it by the img src attribute. 
@@ -40,7 +41,6 @@ Part One:
     37. Walk me through Lambda's git flow. Fork, Add Collaborator, Clone repo, cd directory you want to add in,use git clone <link-to-repo> command, cd into the newly created repo using the cd <repo-name> command,Use the git checkout -b 'firstname-lastname' command to create your own branch name for the repo.
 
 Stretch Questions
-
     1. What is the difference between an inline element and a block element? Inline element stays on the same line block does not.
     2. What happens when an element is positioned absolutely? it offsets from the edges of the element's containing block.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? set padding, border , or margin.
