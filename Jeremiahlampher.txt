@@ -15,13 +15,13 @@
     6. What do we put in the head of our HTML document?
     <head> this contains metadata for the site. 
     7. What is an id?
-    An id is a way to make your tags more specific. Usualy we refrence id's in css doc or sometimes javascript.
-    8. What elements can I add an id to?
+    An id is a way to make your tags more specific. Usually, we reference id's in css doc or sometimes javascript.
+    8. What elements can I add an id too?
     You can add ids to any element that you want to make more specific or need to style using css.
     9. How many times can I use the same id on a page?
     once
     10. What is a class?
-    A class is almost the same as a id apart from the way you refrence them in css. 
+    A class is almost the same as a id apart from the way you reference them in css. 
     A cool think about a class is you can use the same class on multiple elements.
     11. What elements can I add a class to?
     Any html element.  
@@ -30,11 +30,10 @@
     13. How do I get my link to open in a new tab?
     target="link"
     14. What is the alt attribute used for?
-    It is the description for the img. If for some reason you cant see the img you will see the alt. 
+    It is the description for the img. If for some reason you can't see the img you will see the alt. 
     15. How do I reference an id?
-    name preceded by a hash character (“#”)
-    16. What is the difference between a section and a div
-    section is used to section off the document or create chapters on the page. The div tag is used to devide the document.
+    a name preceded by a hash character (“#”)
+    16. What is the difference between a section and a div section is used to section off the document or create chapters on the page. The div tag is used to divide the document.
     This tag is one of the most important tags to group other tags. So it acts as a container for other tags.
     17. What is CSS used for?
     Styling our web page and making it pretty ♥. 
@@ -44,7 +43,7 @@
     color: red;
     }
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
-    A class is almost the same as a id apart from the way you refrence them in css. 
+    A class is almost the same as a id apart from the way you reference them in css. 
     A cool think about a class is you can use the same class on multiple elements whilst the id can only be used once.
     20. How do we select classes in CSS?
     name preceded by a period character (“.”)
@@ -53,7 +52,7 @@
 
     } 
     22. What is a parent child selector? When would this be useful?
-    selector selects all elements that are a direct child of the specified element.
+    the selector selects all elements that are a direct child of the specified element.
     This is used to match elements that are direct children of other
     elements, which is a little more precise than the traditional contextual selector
     23. How do you select all links within a div with the class of sidebar?
@@ -111,10 +110,10 @@ Stretch Questions
     If there is no ancestor then it will move with the body of the page.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     padding or margins.
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-	Display Block : <div> , <h1> - <h6>, <p>
-	Display inline : <span>, <a>
-	Display inline-block: button
+    4. Name 3 elements that are display block by default, 2 elements that are displayed inline by default and 1 element that is display inline-block by default
+    Display Block : <div> , <h1> - <h6>, <p>
+    Display inline : <span>, <a>
+    Display inline-block: button
     5. In your own words, explain the box model. What is the fix for the box model? 
-	The CSS default box model takes element dimensions and dumps padding and borders on top of them. The result is tightly spaced elements that constantly are overlapping onto each other and breaking entire layout flows.
-	The solution to this problem is to use `box-sizing: border-box` in your css.
+    The CSS default box model takes element dimensions and dumps padding and borders on top of them. The result is tightly spaced elements that constantly are overlapping onto each other and breaking the entire layout flow.
+    The solution to this problem is to use `box-sizing: border-box` in your css.
