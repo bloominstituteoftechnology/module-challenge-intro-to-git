@@ -10,36 +10,39 @@ https://codepen.io/hlspain/pen/poJpMNo?editors=1100
   
   3. What is an attribute and where do we put it? 
     Modifiers for HMTL tags that provide additional information.
+    (href - ex. in <a>)
 
     4. What is the h1 tag used for? How many times should I use it on a page?
     H1 = Header 1, most important header. It should only be used once.
 
     5. Name two tags that have required attributes
-    img, a
+    img, form
 
     6. What do we put in the head of our HTML document? 
-    Header tag
+    Head
 
     7. What is an id? 
     It's an html attribute, more specific than class.
 
     8. What elements can I add an id to? 
-    i.e. anchor links
+    It can be used on any element.
 
     9. How many times can I use the same id on a page? 
     May only use same id once per page.
 
     10. What is a class? 
-    Equal styles for elements with same class name.
+    An html attribute that gives an element more meaning (i.e. add style etc)
 
     11. What elements can I add a class to? 
-    Use .
+    Anything you have defined as a class.
 
     12. How many times can I use the same class on a page? 
     As many times as you want.
 
     13. How do I get my link to open in a new tab?
-    Use <a>.
+    Use the a target attribute:  (i.e.):
+    <a href="https://www.w3schools.com" target="_blank">Visit W3Schools.com!</a> 
+
 
     14. What is the alt attribute used for? 
     Alternate text for image if it can't be displayed.
@@ -51,26 +54,28 @@ https://codepen.io/hlspain/pen/poJpMNo?editors=1100
     Div - no semantic purpose, general way to group; section has semantic html meaning.
 
     17. What is CSS used for? 
-    To add style to a webpage
+    To add style to a webpage.
 
-    18. How to we select an element? Example - every h2 on the page
-    <> and </>
+    18. How do we select an element? Example - every h2 on the page
+    h2 {}
 
     19. What is the difference between a class and an id? - Give me an example of when I might use each o
-    Class = . and is more powerful/encompassin (less specific) than id. 
+    Class = . and is more powerful/encompassing (less specific) than id. 
 
     20. How do we select classes in CSS?
-    {}
+    .class
 
     21. How do we select a p element with a single class of “human””?
+    .human
 
     22. What is a parent child selector? When would this be useful? 
     When you want to use inheritance.
 
     23. How do you select all links within a div with the class of sidebar?
+    .sidebar
 
     24. What is a pseudo selector?
-    A selector that cannot be used by a simple selector.
+    A selector that cannot be used by a simple selector. (i.e. grocery list example)
 
     25. What do we use the change the spacing between lines?
     line-height property
@@ -82,6 +87,9 @@ https://codepen.io/hlspain/pen/poJpMNo?editors=1100
     text-transform
 
     28. How do I add a 1px border around my div that is dotted and black?
+    div {
+      border:1px solid black;
+    }
 
     29. How do I select everything on the page? 
     *
