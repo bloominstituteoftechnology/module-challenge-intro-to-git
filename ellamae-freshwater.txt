@@ -1,0 +1,29 @@
+Code Pen Projects:
+
+1) HTML - https://codepen.io/emfresh2o/pen/RwPQPwd
+2) CSS. - https://codepen.io/emfresh2o/pen/dyodorb
+
+User Interface I Lecture Summary Questions/Answer
+
+1. Order the following selectors from GREATEST to LEAST specificity
+     --- !Important
+     --- ID
+     --- Pseudo-Class
+     --- Class
+     --- Element
+     --- Universal (*)
+
+2. What type of style integration technique will Lambda School be focusing on of the 3 mentioned in the Training Kit?
+Choose from one of the following and explain why:
+    --- Externally linked
+
+2a. Give one reason why you WOULDN’T use each of the other two style techniques listed
+    --- Inline Style overwrites everything except by !important
+    --- Embedded style tag are tightly paired to the page and not usuable and may blocks content by some SEO or search engine optimization rank because you don't have to look on external files or link
+
+3. What is “Semantic”, give a short answer explaining what it is:
+   --- Semantic codes has meaning and easy identifiable
+
+4. What is SEO? Why is it so important for websites?
+    --- SEO means Search Engine Optimization and it is important for ranking websites
+          especially for online business.  It generates targeted traffic.
