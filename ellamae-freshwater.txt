@@ -1,4 +1,4 @@
-March13, 2020 - Git Web Dev Project
+March 13, 2020 - Git Web Dev Project
 
 Git for Web Development Exercise:
 
