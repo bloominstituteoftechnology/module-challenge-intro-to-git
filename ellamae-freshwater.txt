@@ -1,7 +1,164 @@
-Code Pen Projects:
+March13, 2020 - Git Web Dev Project
 
-1) HTML - https://codepen.io/emfresh2o/pen/RwPQPwd
-2) CSS. - https://codepen.io/emfresh2o/pen/dyodorb
+Git for Web Development Exercise:
+
+Part One: Github & CLI 
+    
+Part Two:
+
+Codepen Link:  https://codepen.io/emfresh2o/full/xxGWRRp
+
+Review Questionnaire:
+
+    1. What is Semantic HTML? 
+	— Semantic HTML are tags with meaning helps human and machine understand each codes written
+
+    2. What is HTML used for? 
+	— HTML stands for Hyper Text Markup Language and they are used for creating documents that are displayed on the internet
+
+    3. What is an attribute and where do we put it? 
+	— An attribute provides functionality to an HTML tag element and are usually place at the beginning of each tag
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	— h1 tag is used for the heading or title of the page and it should only be used once
+
+    5. Name two tags that have required attributes
+	—‘href’ and ‘src’
+
+    6. What do we put in the head of our HTML document? 
+	— <Head> metadata
+
+    7. What is an id? 
+	— id is a attribute specifies a unique html element
+
+    8. What elements can I add an id to? 
+	— you can add a specific id to the header element
+
+    9. How many times can I use the same id on a page? 
+	— you can only use a unique ID once on a single element
+
+    10. What is a class? 
+	— Class is an attribute that defines equal styles for elements with the same class
+
+    11. What elements can I add a class to? 
+	— You can add a class attribute to any HTML element
+
+    12. How many times can I use the same class on a page? 
+	— no limit
+
+    13. How do I get my link to open in a new tab?
+	— by adding a blank target to your anchor tag
+
+    14. What is the alt attribute used for? 
+	— it specifies an alternate text for an image
+
+    15. How do I reference an id?
+	— by using a hashtag symbol
+
+    16. What is the difference between a section and a div
+	— a ‘section’ refers to a group of content inside a document like header, footer
+	— a ‘div’ serves as a container for defining a style of the HTML element
+
+    17. What is CSS used for? 
+	— CSS is used for style the HTML document
+
+    18. How to we select an element? Example - every h2 on the page
+	— by using a CSS Selector
+	
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	— Class attribute specifies the style of an element inside a container 
+		ex. <div class=“footer”></div>
+	— id is an attribute specifying a unique style of an element which can only be once
+		ex. <h1 id=“myHeader”>Sample Header</h1>
+
+    20. How do we select classes in CSS?
+	— by writing a period (.) character, followed by the name of the class.
+
+    21. How do we select a p element with a single class of “human””?
+	— by writing a star (*) character
+
+    22. What is a parent child selector? When would this be useful? 
+	— is an elements that are direct children of other elements
+	— it is used when you want to match the element to the specified parent element
+
+    23. How do you select all links within a div with the class of sidebar?
+	— (???)
+
+    24. What is a pseudo selector?
+	— is a selector used to define a special attribute or state of an element
+
+    25. What do we use the change the spacing between lines?
+	— line-height:
+
+    26. What do we use to change the spacing between letters?
+	— letter-spacing:
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	— text-transform: lowercase;
+	— text-transform: capitalize;
+
+    28. How do I add a 1px border around my div that is dotted and black?
+	— border-width: 1px;
+	— border-style: dotted;
+	— border-color: #000000
+	
+    29. How do I select everything on the page? 
+	— on a PC (ctrl+A)
+	— on a Mac (command+A)
+	
+    30. How do I write a comment in CSS?
+	— you start a comment with /* , and end it with */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+	— by typing ‘pwd’ which stands for print working directory
+	
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	— by typing ‘ls’ which stand for list of directory
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	— by typing ‘rm’ which means to remove a file 
+	— remember that it removes the file totally on your computer and cannot be retrieve
+
+    34. Why should I use version control? 
+	— it keeps track of every revisions made from the document by every collaborator
+	
+    35. How often should I commit to Github?
+	— every time you make a modification to your file
+	
+    36. What is the command we would use to push our repo up to Github? 
+	— git push
+
+    37. Walk me through Lambda's git flow. 
+	— Git Flow: Fork—>add TL—>Clone Repo—>open CLI —> type git clone (url) —>
+			create branch —> work on repo —> type git add (to add repo changes)
+			—> type git commit -m “message” —> type git push (upload to GitHub)
+
+Stretch Questions:
+
+    1. What is the difference between an inline element and a block element?
+	— Inline element does not start on a new line and takes up only necessary width.
+	— Block element always starts on a new line and stretches out to the left and right
+
+    2. What happens when an element is positioned absolutely? 
+	— the final position is fixed by the values of top, bottom, right and left
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+	— by setting the margin and padding
+
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+	—???
+
+    5. In your own words, explain the box model. What is the fix for the box model?
+	— HTML elements is like a box model with a precise characteristic or design where you can specify the width, border, margin and the padding.
+
+
+-----------
+
+March 9, 2020 - User Interface I Projects:
+
+Code Pen Links:
+
+1) UI I Project 1 - https://codepen.io/emfresh2o/pen/RwPQPwd
+2) UI I Project 2 - https://codepen.io/emfresh2o/pen/dyodorb
 
 User Interface I Lecture Summary Questions/Answer
 
