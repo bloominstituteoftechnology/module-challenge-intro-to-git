@@ -75,15 +75,15 @@ https://codepen.io/jladrondeguevara/pen/jOPzreK?editors=1100
     "git commit -m 'comment'"
     "git push"
     On github, submit a pull request with your collaborator as a reviewer
-    
+
 
 
     
 
 Stretch Questions
 
-    1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
+    1. What is the difference between an inline element and a block element? Block elements typically move to a new line, whereas the inline element stays put in the same line. An example is, div and span elements. Div is block element, therefore, when used it jumps to a new line. Span is an inline element. This, when used, will stay in the same line.
+    2. What happens when an element is positioned absolutely? It ignores the elements around it and positions itself on the top left corner.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the fix for the box model? 
