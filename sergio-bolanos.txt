@@ -1,1 +1,110 @@
-Working with Terminal
+https://codepen.io/sergiobolanos1998/pen/mdJKjwZ 
+	
+1. What is Semantic HTML? 
+	HTML is a programming language used to create function & content to a web page.
+
+2. What is HTML used for? 
+	HTML is used for inputing functions and content into a web page. ex: adding links to external sites, making paragraphs, adding images, etc.
+
+3. What is an attribute and where do we put it? 
+	An attribute provides additional data about an element. Every HTML element can have an attribute. An attribute is always located in the start tag.
+	
+4. What is the h1 tag used for? How many times should I use it on a page?
+	The h1 tag is the largest font size that ranges from h1 to h6. h1 can be used as many times as you'd like to input a large heading onto the page.
+
+5. Name two tags that have required attributes
+	The a tag requires href to create a hyperlink. The img tag requires a src attribute to provide the URL of the image.	
+
+6. What do we put in the head of our HTML document? 
+	<header>
+
+7. What is an id? 
+	It is a unique id for a html element, so that that element can be called upon in css or js.
+
+8. What elements can I add an id to? 
+	An ID can be used on any HTML Element.
+
+9. How many times can I use the same id on a page? 
+	Once	
+
+10. What is a class? 
+	A class is a entire group of elements elements. 
+
+11. What elements can I add a class to? 
+	Every HTML class
+
+12. How many times can I use the same class on a page? 
+	Multiple
+
+13. How do I get my link to open in a new tab?
+	Using the target attribute with _blank. ex: <a href='URL' target='_blank">
+
+14. What is the alt attribute used for? 
+	If img cannot be uploaded the txt that would take its place. 	
+
+15. How do I reference an id?
+	.ID 
+
+16. What is the difference between a section and a div
+	The 'div' is a generic container for flow content which doesn't inherently represent anything. While the 'section' is a generic section of content which can be called upon.
+
+17. What is CSS used for? 
+	CSS is used to add the styling to a webpage. ex: Color, font, size, ect.
+
+18. How to we select an element? Example - every h2 on the page
+	h2{}
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	A class calls upon every single element with the same element name. The ID calls only 1 specific line/section
+
+20. How do we select classes in CSS?
+	h1{}
+
+21. How do we select a p element with a single class of “human””?
+	.class{}
+
+22. What is a parent child selector? When would this be useful? 
+	Selects all elements that are a direct child of a specified element. 
+
+23. How do you select all links within a div with the class of sidebar?
+24. What is a pseudo selector?
+	it assist in the selection of something that cannot be expressed. ex: hover
+
+25. What do we use the change the spacing between lines?
+	line-height
+
+26. What do we use to change the spacing between letters?
+	letter-spacing
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	text-transform
+
+28. How do I add a 1px border around my div that is dotted and black?
+	div{border: 1px dotted black}
+
+29. How do I select everything on the page? 
+	*{}
+
+30. How do I write a comment in CSS?
+	/*  */
+
+31. How do I find out what file I am in, when I am using the command line? 
+	It shows prior to the %
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+	ls
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	rm. You have to be careful because once it's removed you cannot get it back.
+
+34. Why should I use version control? 
+	So that I could work on a team and keep all info up to date and work on one file.
+
+35. How often should I commit to github?
+	Frequently so you can have the most up to date info in github
+
+36. What is the command we would use to push our repo up to github? 
+	git push --set-upstream origin
+
+37. Walk me through Lambda's git flow. 
+	1. I find the repo I'd like to fork 2. Fork the Repo 3. Clone the Repo into my drive using git clone 4. Create my own branch 5. git add 6. git commit -m 7. git push --set-upstream origin
