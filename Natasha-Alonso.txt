@@ -13,7 +13,7 @@ https://codepen.io/ilalaux/pen/xxGjqjV
     9. How many times can I use the same id on a page? 
     10. What is a class? you can use this to apply a selector to identify more than one element.
     11. What elements can I add a class to? <div>, <a>, <img>
-    12. How many times can I use the same class on a page? 
+    12. How many times can I use the same class on a page? infinite i guess if theres a max limit but is not reached...Classes well you can yous as man as long as you assign it in the markup
     13. How do I get my link to open in a new tab? by setting the target attribute to blank
     14. What is the alt attribute used for?  its used for placeholding other views in case the original source is unvieweable.
     15. How do I reference an id? by referencing the elements used in your markup such as  h1,h2,p,.section,.div.container, etc
@@ -26,10 +26,10 @@ https://codepen.io/ilalaux/pen/xxGjqjV
     22. What is a parent child selector? When would this be useful? selecting all paragraphs within a div, or section
     23. How do you select all links within a div with the class of sidebar?<
     24. What is a pseudo selector? Matches the first textual line in an element.
-    25. What do we use the change the spacing between lines?
-    26. What do we use to change the spacing between letters?
-    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-    28. How do I add a 1px border around my div that is dotted and black?
+    25. What do we use the change the spacing between lines? line height property
+    26. What do we use to change the spacing between letters? .class{letter-spacing: 0;}
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform: capitalize
+    28. How do I add a 1px border around my div that is dotted and black?div{border 1px dotted #000000;}
     29. How do I select everything on the page? /*/
     30. How do I write a comment in CSS?/*hello whats up bruh?*/ 
     31. How do I find out what file I am in, when I am using the command line?"dir" "ls"
@@ -37,7 +37,7 @@ https://codepen.io/ilalaux/pen/xxGjqjV
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
     34. Why should I use version control? be able to track changes and comparisons
     35. How often should I commit to github? every change you make, often
-    36. What is the command we would use to push our repo up to github? git push -u origin master
+    36. What is the command we would use to push our repo up to github? 
     37. Walk me through Lambda's git flow. fork repo, create a branch, add collaberator, commit , then pull request with yourself as a branch, add TL as reviewer. wait for tl merge
 
 Stretch Questions
