@@ -38,7 +38,7 @@ https://codepen.io/ilalaux/pen/xxGjqjV
     34. Why should I use version control? be able to track changes and comparisons
     35. How often should I commit to github? every change you make, often
     36. What is the command we would use to push our repo up to github? git push origin Natasha-Alonso
-    37. Walk me through Lambda's git flow. fork repo, create a branch, add collaberator, commit , then pull request with yourself as a branch, add TL as reviewer. wait for tl merge
+    37. Walk me through Lambda's git flow. fork repo/clone, create a branch, add collaberator, commit , then pull request with yourself as a branch, add TL as reviewer. wait for tl merge
 
 Stretch Questions
 
