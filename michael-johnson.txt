@@ -1,57 +1,139 @@
-https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
+https://codepen.io/glassbones/pen/zYvOBLw?editors=1100
 
- 1. What is Semantic HTML? 
- Html that gives meaning to content. (makes it readable/understandable)
+	1. What is Semantic HTML? 
+	Html that gives meaning to content. (makes it readable/understandable)
+
     2. What is HTML used for? 
+	HTML is the markup language used to create webpages. (the building blocks of the internet)
 
     3. What is an attribute and where do we put it? 
+	Attributes provide additional information about an element of HTML. 
 
     4. What is the h1 tag used for? How many times should I use it on a page?
+	and h1 tag is used to indicate the largest heading on a web page. Should really probably only use this once per page.
 
     5. Name two tags that have required attributes
+	<img> <a>
 
     6. What do we put in the head of our HTML document? 
+	The <head> element is a container for metadata. You throw things like google fonts and what not up here.
 
     7. What is an id? 
-
-    8. What elements can I add an id to? 
-
-    9. How many times can I use the same id on a page? 
-
-    10. What is a class? 
+	The id attribute specifies a unique id for an HTML element. A class is like calling a macbook a laptop and an id is like giving the macbook a unique serial number.
+    
+	8. What elements can I add an id to? 
+	TRICK QUESTION! you can add it to all elements
+    
+	9. How many times can I use the same id on a page? 
+	uno, one time dude.
+    
+	10. What is a class? 
 
     11. What elements can I add a class to? 
+	TRICK QUESTION! you can add them to all elements.
+
     12. How many times can I use the same class on a page? 
+	as many as you want
+
     13. How do I get my link to open in a new tab?
+	add the attribute target="_blank"
+
     14. What is the alt attribute in the image tag used for? 
+	its meta data for search engines or anyone without eyes that work
+
     15. How do I reference an id?
+	refrence an id in CSS? with a '#'. so if the id is called "naruto" you would type "#naruto {}"
+
     16. What is the difference between a section and a div
+	using divs is "BAD!" jokes aside sections are for grouping content and divs should be used to seperate content if needed.
+
     17. What is CSS used for? 
+	styleing html. Html content is like bricks and lumber, CSS is the blueprint for how to arrange them to build a cool house .
+
     18. How to we select an element? Example - every h2 on the page
+	h2 {}
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	A class is like calling a macbook a laptop and an id is like giving the macbook a unique serial number. use a class for styling a couple of things at once, use an id for styling 1 thing in specific.
+	
     20. How do we select classes in CSS?
+	with a period .classNameHere
+
     21. How do we select a p element with a single class of “human””?
+	.human{} would work
+
     22. What is a parent child selector? When would this be useful? 
+	Its a more specific way of selecting an html element. It's useful all the time or else you would have to give a ton of stuff ids.
+
     23. How do you select all links within a div with the class of sidebar?
+	.sidebar a{}
+
     24. What is a pseudo selector?
+	pseudo classes? its a key word added ti a css selector like :hover. :hover would specify styling on an element during mouse over periods.
+
     25. What do we use the change the spacing between lines?
+	line-height 
+
     26. What do we use to change the spacing between letters?
+	letter-spacing
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	text-transform: uppercase;
+	text-transform: lowercase;
+	text-transform: capitalize;
+
     28. How do I add a 1px border around my div that is dotted and black?
+	div {
+		border-style: dotted;
+		border-width: 1px;
+		}
+
     29. How do I select everything on the page? 
+	*{
+	}
+
     30. How do I write a comment in CSS?
+	/* Like this */
+
     31. How do I find out what file I am in, when I am using the command line? 
+	it always tells you where you are at in the current line 
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+	ls
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	rm
+	because there is no recycle bin and no "are u sure about that?"
+
     34. Why should I use version control? 
+	because its basically an undo button and will save you a lot of time in the long run
+
     35. How often should I commit to github?
+	all the time
+
     36. What is the command we would use to push our repo up to github? 
+	git push  <REMOTENAME> <BRANCHNAME> 
+	so  for me that would usually look like... "git push  origin Michael-Johnson"
+
     37. Walk me through Lambda's git flow. 
+	Git add . (this adds all your changes to your branch so they can be commited)
+	git commit -m "message here" (this is like a soft save, it is only saved on the local repository)
+	git push (this is the big update, it's global so everyone will see this save.)
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+	block elements have a width, inline elements do not.
+
     2. What happens when an element is positioned absolutely? 
+	The element is positioned relative to the closes positioned ancestor. So if its in a div it would default to the top left of that div. 0,0;
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+	by using width, size, and padding relative to whatever container it is in?
+	
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+	<footer> <p> <h1>
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+	The box model is the fact that all content on a webpage is inside of boxes and flows similar to a word document. All content flows downward from the top left of the page and all content is relative to the box that it is placed in.
