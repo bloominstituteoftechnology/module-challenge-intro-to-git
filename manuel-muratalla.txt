@@ -1,3 +1,5 @@
+CodePen link for part two: https://codepen.io/ferror18/pen/GRpKgRb
+
 1. What is Semantic HTML? 
     2. What is HTML used for?  Is html that is named in a way that provides meaning for the person reading the code.
     3. What is an attribute and where do we put it? They are additional information about an element, they go in the starting tag.			
@@ -42,7 +44,3 @@ A class is a unique identifier for a group of elements in a page, might be used 
     37. Walk me through Lambda's git flow.  
 
 Fork. 		Add TL as collaborator.		Clone		Create a branch with this name “Firstname-LastName”	 	Submit PR into new branch 	Add TL as reviewer 	TL then will count the HW as done by merging the HW back into master “STUDENT FORK”.
-
-CodePen link for part two: https://codepen.io/ferror18/pen/GRpKgRb
-
-    
