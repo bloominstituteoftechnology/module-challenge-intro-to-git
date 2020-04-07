@@ -1,1 +1,89 @@
 https://codepen.io/johnschuler/pen/JjYPYKW?editors=1100
+
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+    hypertext markup language
+    
+    2. What is HTML used for? 
+    HTML introduces meaning to the web page rather than just presentation
+    3. What is an attribute and where do we put it? 
+    css attributes are used to change elements
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    its used to enlargen text. usually only once.
+    5. Name two tags that have required attributes
+    form label
+    6. What do we put in the head of our HTML document? 
+    the links and meta data
+    7. What is an id? 
+    a class selector 
+    8. What elements can I add an id to? 
+    any only one specific element
+    9. How many times can I use the same id on a page? 
+    once
+    10. What is a class? 
+    same as id but can be used multiple times
+    11. What elements can I add a class to? 
+    any
+    12. How many times can I use the same class on a page? 
+    as much as you want
+    13. How do I get my link to open in a new tab?
+    place the address here  target="_blank"
+    14. What is the alt attribute in the image tag used for? 
+    if link doesnt work go here
+    15. How do I reference an id?
+    .id id=""
+    16. What is the difference between a section and a div
+    sections sre usually inside divs. divs are for larger blocks
+    17. What is CSS used for? 
+    styling pages
+    18. How to we select an element? Example - every h2 on the page
+    call h2 #id
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one clas for many divs with same characteristic . id for a special button
+    20. How do we select classes in CSS? .classname
+    21. How do we select a p element with a single class of “human””?
+    p class="human"
+    22. What is a parent child selector? When would this be useful? 
+    when writing css. div p {css}
+    23. How do you select all links within a div with the class of sidebar?
+    class="sidebar"
+    24. What is a pseudo selector? hover is an example. it specifies behaviour when called
+    25. What do we use the change the spacing between lines?
+    line-height
+
+    26. What do we use to change the spacing between letters?
+    letter-spacing:
+    
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform
+
+
+    28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        border: dotted black 1px;
+    }
+    29. How do I select everything on the page? 
+    control a
+    30. How do I write a comment in CSS?
+    */ /*
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this?  rm
+    34. Why should I use version control? 
+    with branches
+    35. How often should I commit to github?
+    whenever there is a significant change
+    36. What is the command we would use to push our repo up to github? 
+    push "repo address"
+    37. Walk me through Lambda's git flow. 
+    Student will create OWN version of Repo (Fork)
+Student will add TL as a collaborator
+Student then will Clone Repo
+Student will then create a branch (on which the student will implement the project) git checkout -b 'firstName-lastName'
+Student will then submit their PR into the new branch.
+Student will use their own student fork as the base (compare across forks).
+Student will add their TL as a reviewer on the PR
+TL then will count the HW as done by merging the HW back into master “STUDENT FORK”.
