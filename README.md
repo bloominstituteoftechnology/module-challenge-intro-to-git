@@ -6,10 +6,10 @@ This project consists of two parts:
 ## Part One:
 You will need to follow the Lambda School Git Workflow to add a file to this project follow the steps below:
 
-- [ ] Create your own version of this repo - Fork
-- [ ] Add your TL as a collaborator
-- [ ] Clone this repo
-- [ ] Create a branch `git checkout -b 'firstName-lastName'`
+- [x] Create your own version of this repo - Fork
+- [x] Add your TL as a collaborator
+- [x] Clone this repo
+- [x] Create a branch `git checkout -b 'firstName-lastName'`
   - [ ] Add a file to the project called `yourFirstName-yourLastName`.txt. This should contain the link to your completed codepen from part 2 as well as the review questions/answers
   - [ ] Run your usual git commands for adding/committing and pushing **Be sure to push to your branch!**
 - [ ] Create a Pull-Request to submit your work
@@ -18,7 +18,7 @@ You will need to follow the Lambda School Git Workflow to add a file to this pro
 - [ ] TL then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
 
 ## Part Two:
-1. fork this codepen https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
+1. fork this codepen https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100 (+)
 2. You will be marking up all of the HTML and styling it to look like this: https://codepen.io/BritHemming/full/jONmxOm using CSS
 * this should be review from yesterday/ extra practice
 3. After you are finished please copy the review questions into your .txt file and answer them
