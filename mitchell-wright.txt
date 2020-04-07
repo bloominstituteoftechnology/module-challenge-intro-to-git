@@ -1,0 +1,77 @@
+https://codepen.io/mitchellwright/full/OJVKxmz
+
+1. What is Semantic HTML?
+    Semantic HTML is HTML markup that describes the presentation of the website.
+2. What is HTML used for?
+    HTML gives structure to the content of a website.
+3. What is an attribute and where do we put it?
+    Attributes are attached to different HTML elements, such as class, href, etc.
+4. What is the h1 tag used for? How many times should I use it on a page?
+    An h1 tag is the main header tag for a website. There should only be one h1 tag per website.
+5. Name two tags that have required attributes
+    a tag requires the href attribute
+    img tag requires a src attribute
+6. What do we put in the head of our HTML document?
+    title tag, style tag, script tags, meta tags
+7. What is an id?
+    An id is an attribute that allows you to target a specific HTML tag
+8. What elements can I add an id to?
+    id attribute can be added to any element.
+9. How many times can I use the same id on a page?
+    An id should be unique per page.
+10. What is a class?
+    A class is an attribute for a tag that allows you to target it with CSS and JavaScript. It can be applied to multiple elements.
+11. What elements can I add a class to?
+    Any elements.
+12. How many times can I use the same class on a page?
+    As many times as you want.
+13. How do I get my link to open in a new tab?
+    In your anchor tag, use the target attribute target="_blank"
+14. What is the alt attribute in the image tag used for?
+    It was used to describe the image. It is shown if the image does not load successfully, and web crawlers use it for SEO purposes.
+15. How do I reference an id?
+    #id-name
+16. What is the difference between a section and a div
+    divs are used mainly just for styling purposes. The section tag is used to give structure to a site and is used by screen readers and search engines.
+17. What is CSS used for?
+    CSS is used to style the look and layout of a website.
+18. How to we select an element? Example - every h2 on the page
+    h2 {}
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    class can be applied to multiple elements. An id should only be applied to a specific element.
+20. How do we select classes in CSS?
+    .class-name
+21. How do we select a p element with a single class of “human””?
+    p.human {}
+22. What is a parent child selector? When would this be useful?
+    It lets you target only the elements that are children of a specific parent. This could be useful when you want to style a certain element, but only on a certain part of the page.
+23. How do you select all links within a div with the class of sidebar?
+    div.sidebar a {}
+24. What is a pseudo selector?
+    A pseudo-class is a selector that selects elements in a specific state.
+25. What do we use the change the spacing between lines?
+    line-height
+26. What do we use to change the spacing between letters?
+    letter-spacing
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase, text-transform: lowercase, text-transform: capitalize
+28. How do I add a 1px border around my div that is dotted and black?
+    border: 1px dotted #000000;
+29. How do I select everything on the page?
+    * {}
+30. How do I write a comment in CSS?
+    // or /* */
+31. How do I find out what file I am in, when I am using the command line?
+    pwd
+32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+33. How do I remove a file via the command line? Why do I have to be careful with this?
+    rm <filename> If you mess this up, you could delete a bunch of stuff.
+34. Why should I use version control?
+    You can make changes without potentially ruining something. You can also roll back to a previous version if you launch something and it breaks things.
+35. How often should I commit to github?
+    Frequently.
+36. What is the command we would use to push our repo up to github?
+    git push origin <branch name>
+37. Walk me through Lambda's git flow.
+    Fork => Add TL => clone repo => Create branch => submit PR => Add TL as reviewer
