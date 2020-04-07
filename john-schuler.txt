@@ -86,4 +86,4 @@ Student will then create a branch (on which the student will implement the proje
 Student will then submit their PR into the new branch.
 Student will use their own student fork as the base (compare across forks).
 Student will add their TL as a reviewer on the PR
-TL then will count the HW as done by merging the HW back into master “STUDENT FORK”.
+TL then will count the HW as done by merging the HW back into master “STUDENT FORK”..
