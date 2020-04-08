@@ -83,7 +83,12 @@ https://codepen.io/KarmaMichaelis/pen/jOPYjWx?editors=1100
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    A block element takes up any free space on the next line an a inline element only takes up space that it needs.
     2. What happens when an element is positioned absolutely? 
+    The position is then relied upon by its ancestor.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+   You would use display inline-block.
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the fix for the box model? 
+    1)divs, sections, h1, 2)span,em  1)button
+    5. In your own words, explain the box model. What is the fix for the box model?
+    The box model contains the content,padding,border, and margin of an element. You could use botx-sizing:border-box, so that you do not have to worry about any padding or margins that was automatically added to the page.
