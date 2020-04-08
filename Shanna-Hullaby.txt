@@ -1,0 +1,33 @@
+ 1. Fork (make your own copy of the file)
+    2.  Add your TL as a collaborator on your forked Repo.
+    3. Clone your Repo using GitHub 'Clone or download' button
+    4. Back inside your CLI, use the cd command to go to the directory where you are going to want to clone your forked Repo (i.e. The location where the repo should be saved on your computer)
+    5. Use the **git clone <link-to-repo>** command to clone the repo to the directory you are currently in.
+    6. **cd** into the newly created repo using the **cd <repo-name>** command
+    7. Use the **git checkout -b 'first name-lastname'** command to create your own branch name for the repo (this is the branch that you will be doing your work on)
+    8. Now you can work on your repo and start getting the project assignment done.
+    9. To add and commit changes on your branch you can do the following
+    11. Push your changes back up to your Github repo
+    12. Now that the changes are on GitHub you can submit a PR (Pull Request)
+    13. Go back to your forked Project repo on GitHub (make sure you are on YOUR FORKED copy NOT the original Lambda one)
+    - Click your name-branch and then click the **New pull request** button to make a pull request on your name branch
+    - After you click new pull request it should redirect you to the pull request page
+    - IT IS IMPORTANT THAT YOU DO NOT CLICK THE **Create pull request** BUTTON UNTIL AFTER YOU'VE COMPLETED THE NEXT STEP
+    - When you get to the PR page, make sure to click the dropdown button that says **base repository** and CHANGE it to be your FORKED REPO instead of the original Lambda repo (when submitting PR it will default to the original Repo this is why it needs to be changed)
+    Make sure to change to the base repository before Creating the pull request
+    After changing the base repository it should look more like this
+30. How do I write a comment in CSS?
+    /*  */
+31. How do I find out what file I am in when I am using the command line? 
+    cd lets you know where you are in the command line
+32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls makes lists
+33. How do I remove a file via the command line? Why do I have to be careful with this?
+r   m you must be careful because there is no warning and the file is gone forever. 
+34. Why should I use version control?
+    version control is important because it allows for collaboration, comments, and it makes it easy for developers to track their progress.
+35. How often should I commit to Github?
+    Commit early, commit often like you would saving a document every 15 to 20 minutes
+36. What is the command we would use to push our repo up to GitHub? 
+    git push origin 'Firstname-LastName'
+37. Walk me through Lambda's git-flow. 
