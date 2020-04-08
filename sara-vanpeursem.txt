@@ -1,0 +1,53 @@
+    1. What is Semantic HTML? provide meaning to a group of code
+    2. What is HTML used for? used to build the structure of our website
+    3. What is an attribute and where do we put it?  HTML attributes are special words used inside the opening tag to control the element's behaviour. 
+    4. What is the h1 tag used for? How many times should I use it on a page? h1 was
+    5. Name two tags that have required attributes <a href> and <ol>
+    6. What do we put in the head of our HTML document? Usually in the header it provides specific info to the webpage that isn't displayed to the user.
+    7. What is an id? an unique name for an HTML element
+    8. What elements can I add an id to? It's normally used to point to a style in a style sheet and JavaScript
+    9. How many times can I use the same id on a page? once
+    10. What is a class? Class is an attribute which specifies one or more class names for an HTML element
+    11. What elements can I add a class to? any element
+    12. How many times can I use the same class on a page? as many as needed
+    13. How do I get my link to open in a new tab? add target="_blank"
+    14. What is the alt attribute in the image tag used for? accesibility issues with people who can't hear
+    15. How do I reference an id? #id
+    16. What is the difference between a section and a div? <section> gathers a specific and strong semantic purpose, where, div has only a generic, non-specific meaning and no semantic purpose
+    17. What is CSS used for? to style HTML
+    18. How to we select an element? Example - every h2 on the page; h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class can be used multiple times while id is only once. 
+    20. How do we select classes in CSS? .class
+    21. How do we select a p element with a single class of “human””? p .human {}
+    22. What is a parent child selector? When would this be useful? it selects all elements of those that are a direct child of the specified element. You can use this in lists, divs, or any type of selector. 
+    23. How do you select all links within a div with the class of sidebar? :link
+    24. What is a pseudo selector? They have a colon preceding them and it looks like: a:hover{}
+    25. What do we use the change the spacing between lines? line-height
+    26. What do we use to change the spacing between letters? letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? uppercase, lowercase, capitalize 
+    28. How do I add a 1px border around my div that is dotted and black? {border-style: dotted 1px;}
+    29. How do I select everything on the page? command A 
+    30. How do I write a comment in CSS? /* */
+    31. How do I find out what file I am in, when I am using the command line? pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm ; This is because it gives no warming and it cannot be undone.  
+    34. Why should I use version control? so that all changes are the same all around
+    35. How often should I commit to github? as often as you can
+    36. What is the command we would use to push our repo up to github? git push
+    37. Walk me through Lambda's git flow. 
+        1) Fork it so it's under your name. 
+        3)Add your TL
+        4) Push the clone download button, but copy the link instead of download or zip.
+        5) Go to command line and put git clone 'link' 
+        6) CD to the new repo. 
+        7) git checkout -b 'firstname-lastname' (Enter your own last name.)
+        8) You can work on the repo now and get things done. 
+        9) git add. will add the changes. git commit -m "any comment"
+        10) When that is done, you push your changes back to the Github repo. 
+        11) then type git push -u origin branch-name 
+        12. Do a pull request on the new branch, which is NOT the master. 
+        13. Then put in a new pull request on Github.
+        14) Add TM to Reviewers. 
+
+https://codepen.io/sara-van-peursem/pen/JjYPojZls
