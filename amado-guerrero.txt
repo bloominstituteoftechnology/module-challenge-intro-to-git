@@ -1,0 +1,102 @@
+https://codepen.io/amado-guerrero/pen/XWmWOww
+
+1. What is Semantic HTML?
+    HTML tags that are desriptive. Like nav and section.
+2. What is HTML used for? 
+    HTML is used for browsers to understand the structure of a page.
+3. What is an attribute and where do we put it? 
+    An attribute is a property of an html tag. For example in an a tag the "href" is an attribute.
+4. What is the h1 tag used for? How many times should I use it on a page?
+    Its used as a header tag and there should only ever be 1 of these on a page.
+5. Name two tags that have required attributes
+    The a (link) tag and the img tag (src).
+6. What do we put in the head of our HTML document? 
+    Things that usually need to load first, and metadata. If this question meant the header tag, then usually some sort of header but neither of these are techinically required.
+7. What is an id?
+    Its used to identify an element in CSS. It overrides any other attributes though, so it should be used wisely.
+8. What elements can I add an id to? 
+    Any element.
+9. How many times can I use the same id on a page? 
+    You should only use any one id once. They should be unique to the element.
+10. What is a class?
+    Similar to an id, it is used to identify and element in CSS, but these are usually reusable.
+11. What elements can I add a class to?
+    Any element.
+12. How many times can I use the same class on a page? 
+    As many times as necessary.
+13. How do I get my link to open in a new tab?
+    Use the target attribute in a link and set it to "_blank"
+14. What is the alt attribute in the image tag used for?
+    For when the browser can't load the image, for any reason, its used as an alternate text.
+
+15. How do I reference an id?
+    In css, you can reference an id in CSS by using # before the id.
+16. What is the difference between a section and a div
+    A section tag is usually used to divide sections, a div CAN be used to divide sections, but it can also be used for other things as well.
+    Also, a div tag is not semantic.
+17. What is CSS used for?
+    To style the page.
+18. How to we select an element? Example - every h2 on the page
+    By using the tag name, and then curly braces: h2 {...}
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    If you need to use a certain set of CSS properties more than once, use a class. If its unique, use an id.
+20. How do we select classes in CSS?
+    In css, you can reference a class in CSS by using . before the class name.
+21. How do we select a p element with a single class of “human””?
+    p.human {...}
+22. What is a parent child selector? When would this be useful? 
+    When you need to target only the direct child of a parent, not it's child's descendants.
+23. How do you select all links within a div with the class of sidebar?
+    div.sidebar a {...}
+24. What is a pseudo selector?
+    sometihng like a:hover {...}
+25. What do we use the change the spacing between lines?
+    The line-height property;
+26. What do we use to change the spacing between letters?
+    The letter-spacing: property.
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase;
+28. How do I add a 1px border around my div that is dotted and black?
+    Use the property --> border: dotted black 1px;
+29. How do I select everything on the page? 
+    Use --> * {...}
+30. How do I write a comment in CSS?
+    /* , and end it with */ 
+31. How do I find out what file I am in, when I am using the command line?
+    pwd
+32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls -la
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm -rf (because it doesn't ask twice)
+34. Why should I use version control? 
+    Many reasons, but one of them is to rollback to previous versions, or use the branch features.
+35. How often should I commit to github?
+    Often, but not on every save. Usually if you've finished a section or feature.
+36. What is the command we would use to push our repo up to github? 
+    git push -u origin (branch)
+37. Walk me through Lambda's git flow. 
+    Fork the repo.
+    Add TL as collaborator.
+    Clone the repo.
+    Make personal branch and switch to it.
+    Make changes, edit.
+    Add/Stage/Commit changes.
+    Push personal branch.
+    Create a pull request to submit work using the personal fork as base.
+
+Stretch Questions
+1. What is the difference between an inline element and a block element?
+    By default, an inline element does not force a new line if the content has reached its parents width. Block elements do.
+2. What happens when an element is positioned absolutely?
+    You can use absolute positioning to position elements where you want them, but this is usually not a good way to position elements.
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    I don't 100% understand the question. Modifying the margin and padding can acheive this.
+    For example, setting a width 100%, and then setting margin: 0 auto; would center the element within its allowed space (as long as its the only element)
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    div, section, img are block. text-area and input are inline. and button is inline-block.
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+    The box model is the way that the browser lays out each element.
+    The issue is that the browser adds the padding and border to its width.
+    This makes styling a page inconsitent.
+    The fix is to use box-sizing:border-box, which includes paddings and borders in an element's width.
+    That way, if you set the width, regardless of what any one browser's default settings for padding and borders are, it shouldn't break the layout.
