@@ -2,6 +2,9 @@ here bellow link for code pen completed asignment.
 
 https://codepen.io/Mirwes/pen/ZEGpNGy 
 
+added some more style to code pen in a separate link.
+
+https://codepen.io/Mirwes/pen/wvKBexE?editors=1100
 
 
 1.	What is Semantic HTML? Semanttic HTML gives meaning to our content.
