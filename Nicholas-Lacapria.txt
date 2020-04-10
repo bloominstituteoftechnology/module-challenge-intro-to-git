@@ -1,0 +1,16 @@
+Stretch Review questions: 
+1. What is the difference between an inline element and a block element? Inline elements are more flexible than block elements. 
+With block elements you are going to get a new line or another element next to eachother depending on the height and weight. With 
+inline elements you can place one within another or overlap them to your choosing depending on how you configure the display. Sometimes
+you will have to choose one or the other depending on the circumstances. However I think an inline-block element is the best to use because 
+of how easy the element is to move around or position with float.  
+2. What happens when an element is positioned absolutely? It will have a fixed position based on its computed values. Its harder for an ancestor
+element to affect it since its value will always corrispond to the same position.   
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? You should use relative positioning
+and then use top left bottom and right to position it. Next width or height can be added to allow it to take the full effect you wanted in the first place. 
+4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default?
+3 Display Block - div, h1 - h6, form, header or p Any elements that start with a new line are block display elemtns
+2 display inline - span a or img Any items that can be placed next toeachother are going to be inline display elements. I've found alot of libaries with nice 
+features seem to make use of this element. For example icons always seem to get displayed with inline elements such as i or span.
+1 inline-block - class id or element that is an inline element but also has padding and margins on all four sides.   
+5. In your own words, explain the box model. What is the fix for the box model? The box model is defined by padding, margin, border, width and height.   
