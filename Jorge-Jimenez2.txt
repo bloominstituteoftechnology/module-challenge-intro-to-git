@@ -1,0 +1,66 @@
+Research and understand what a merge conflict is and how to resolve it.
+Merge conflicts occur when competing changes are made to the same line of a file or when one person edits a file and nother person deletes the same file.  To resolve a merge conflict: we can :
+
+ Research the Git commands pull, rebase, merge. These commands will allow you to bring in changes that other developers push to the master branch. 
+ git pull is used to fetch and download content from a remote repository and inmediatly update the local repository to match that content.  Git Rebase command integrate changes from one branch to another. its and alternative to be better known 'merge' command, and Git Merge helps to put a forked history back togetther again.  It lets you take the independente lines of development created by git branch, and integrate them into a single branch.
+ Research the Git commands reset , revert, clean. These commands will allow you to go back and amends previous commits you have made. Git reset command undo local changesnto the state of a Git Repo.  Git revert command is a forward-moving undo operation that offersa safe method of undoing changes, and Git Clean Command is used to removed untracked files from the working tree.  its combined way to delete untracked dir/files and ignored files.
+ Research and set up a Graphical User Interface (GUI) Git console. 
+ Graphical Interfaces Git console is the same as Git but no at the terminal, but they are GUIs for Git (Graphic User Interface or software we can see things and click stuff)
+ The steps to setup a GUI Git console are:
+ - download https://desktop.github.com/
+ -after download, type credentilas from Github, and we can start using the GUI Git console.
+ Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push.
+ With setting SSH keys with Github. SSh protocol, we can connect and authenticate to remote serves and services, and with SSH keys, we can connect to Github without supplying our username, and password at each visit.
+ Steps to setup SSH keys with GitHub:
+Step 1: Create an SSH Key
+
+First, we need to see if you have an SSH key already installed. Type this into the terminal:
+
+ls ~/.ssh/id_rsa.pub
+If the message in the console contains No such file or directory, then you don’t have an SSH key, and you’ll need to create one. If you do not see No such file or directory in the output, you already have a key; proceed to step 2.4.
+
+To create a new SSH key, run the following command inside your terminal. The -C flag followed by your email address ensures that GitHub knows who you are.
+
+ssh-keygen -C <youremail>
+
+When it prompts you for a location to save the generated key, just push Enter.
+Next, it will ask you for a password; enter one if you wish, but it’s not required.
+Step 2: Link Your SSH Key with GitHub
+Now, you need to tell GitHub what your SSH key is so that you can push your code without typing in a password every time.
+
+First, you’ll navigate to where GitHub receives our SSH key. Log into GitHub and click on your profile picture in the top right corner. Then, click on Settings in the drop-down menu.
+
+Next, on the left-hand side, click SSH and GPG keys. Then, click the green button in the top right corner that says New SSH Key. Name your key something that is descriptive enough for you to remember where it came from. Leave this window open while you do the next steps.
+
+Now you need to copy your public SSH key. To do this, we’re going to use a command called cat to read the file to the console. (Note that the .pub file extension is important in this case.)
+
+cat ~/.ssh/id_rsa.pub
+
+Highlight and copy the output, which starts with ssh-rsa and ends with your email address.
+
+Now, go back to GitHub in your browser window and paste the key you copied into the key field. Then, click Add SSH key. You’re done! You’ve successfully added your SSH key!
+
+To verify if we were successful with the SSH key we can follow the next steps:
+
+Open Terminal.
+
+Enter the following:
+
+$ ssh -T git@github.com
+# Attempts to ssh to GitHub
+You may see a warning like this:
+
+> The authenticity of host 'github.com (IP ADDRESS)' can't be established.
+> RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+> Are you sure you want to continue connecting (yes/no)?
+or like this:
+
+> The authenticity of host 'github.com (IP ADDRESS)' can't be established.
+> RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+> Are you sure you want to continue connecting (yes/no)?
+Verify that the fingerprint in the message you see matches one of the messages in step 2, then type yes:
+
+> Hi username! You've successfully authenticated, but GitHub does not
+> provide shell access.
+Verify that the resulting message contains your username. If you receive a "permission denied" message, see "Error: Permission denied (publickey)".
+ 
