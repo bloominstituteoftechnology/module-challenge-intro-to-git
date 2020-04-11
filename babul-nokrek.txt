@@ -17,10 +17,20 @@ Today's assignment: https://codepen.io/wecodewetest/pen/KKdKYmV?editors=1100
     - img and a tag have required attributes.
 
     6. What do we put in the head of our HTML document? 
+    - We put meta-data
+
     7. What is an id? 
+    - id is unique attribute that can be used just once in a page.
+
     8. What elements can I add an id to? 
+    - We can add id to any element
+
     9. How many times can I use the same id on a page? 
+    - Just 1 time 
+
     10. What is a class? 
+    - Class is an attribute that can be used more than one time as per requirements. it is primarily used for styling.
+
     11. What elements can I add a class to? 
     12. How many times can I use the same class on a page? 
     13. How do I get my link to open in a new tab?
