@@ -1,0 +1,110 @@
+Codepen Assignment https://codepen.io/calenocam24/pen/jObEXeW?editors=1100
+1. What is Semantic HTML? 
+Semantic HTML is the proper way to write HTML elements giving meaning to them, and indicating what they actually are, and not only how they appear in the browser.
+    2. What is HTML used for? 
+    HTML is a standart markup language (computer language that has names, and tags that hepl format the view of a page) that describes the structures of a webpages. it helps to create the content of the page.
+    3. What is an attribute and where do we put it? 
+    Attributes are putted inside the start or opening tag, and they gives us additional information of the element. They consist of name/value.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    h1 is the first header tag visible in a page, and its often used as the title of the page. It should be use only once on a page.
+    5. Name two tags that have required attributes
+    <img> and <a>
+    6. What do we put in the head of our HTML document? 
+    Inside the <head> element of our document we can include the <title>, <style>, <link>, <meta>, <script>.
+    7. What is an id? 
+    An id is an attribute, and it is used to identify only one specific element in HTML.
+    8. What elements can I add an id to? 
+    id attribute is part of the Global attribute, and We can add id to all HTML elements
+    9. How many times can I use the same id on a page? 
+    we can use id only once on the same page.
+    10. What is a class? 
+    Class is an attribute as the id attribute, but with the class attribute, we can specific one or more class names for an HTML element. 
+    11. What elements can I add a class to? 
+    Class attribute is also part of the global attributes, and can be used on any HTML elements.
+    12. How many times can I use the same class on a page? 
+    Class attributes can be used multiple times on a page.
+    13. How do I get my link to open in a new tab?
+    To get my link to open an new tab, We add target="_blank" to the attribute we are using. ex, <a href="http//www.lambdaschool.com" target="_blank">click here</a>
+    14. What is the alt attribute in the image tag used for? 
+    alt attribute in a image is used for description the image.  If the image cannot be open, it will describe what the image is about.
+    15. How do I reference an id?
+    We reference an id by using the property and value inside the element in HTML. ex. <h1 id ="example">, and it will point to an style in CSS using #  (ex. for css # {color: black;})
+    16. What is the difference between a section and a div
+    The difference is that the section define section or groups in a document as headers, footers, or  any other sections of the document, and div defines a division in a HTML document, and it has not meaning.
+    17. What is CSS used for? 
+    Css is a Cascading Style Sheets that is used to add styles to web documents.
+    18. How to we select an element? Example - every h2 on the page
+    We select elements based on their tag names. Lets say, that we want to have blue font color for every h2, so we type in CSS h2 { color: blue;}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    the difference between a class, and an id is that we an id we can use it only one in the HTML page, and the class we can use it multiple times. Also, in the CSS sheet, an id is identified as #, and class as we write a . character followed by the name of the class.
+    20. How do we select classes in CSS?
+    We select classes in CSS writing a . character followed by the name of the class. ex. .example { color: black;}
+    21. How do we select a p element with a single class of “human””?
+    p.human {color: black;}
+    22. What is a parent child selector? When would this be useful? 
+    Parent child selectors select all elements that are the children of a specified element. ex. div > p { color: black;} . The left side of < is the parent, and the right size of > is the childThis is useful to match elements that are direct children of other specific elements.
+    23. How do you select all links within a div with the class of sidebar?
+    typing .sidebar a:visited { property: value; } for visited links, or .sidebar a:link {property: value;} for unvisited links.
+    24. What is a pseudo selector?
+    Pseudo element is used to define a special state of an specified element. ex. p::first-line { color: blue;} it means that ::first-line will change the font color to blue to the first line of the paragraph. 
+    25. What do we use the change the spacing between lines?
+    we use inside the selector element line-height and the value or how many spaces. ex. .contact-section address {
+     line-height: 2;
+    }
+    26. What do we use to change the spacing between letters?
+    we use inside the selector element letter-spacing, and the value. ex h1 { letter-spacing: 3px; }
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    we use inside the selector element text-transform for each. ex. p { text-transform: uppercase;}, p { text-transform: lowercase;}, p { text-transform: capitalize;}
+    28. How do I add a 1px border around my div that is dotted and black?
+    I use inside the selector element or div class border: 1px dotted black. ex .box { border: 1px dotted black; }
+    29. How do I select everything on the page? bv   
+    to select everything in a page, we use the universal selector or * selector. ex. * {color: black}                
+    30. How do I write a comment in CSS?
+    we write comment in css using /* */  . ex. /* comment */
+    31. How do I find out what file I am in, when I am using the command line? 
+    I  will use PWD (Print Working Directory) to show me what file or directory I am in.
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    We can use ls (List Files), to see a list of files or folders in our current folder.
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm file.txt   we must be careful using this command because we can erase a file and we cant recover it anymore.
+    34. Why should I use version control? 
+    I should use version control because it will make my life and my collaborator life easier. It helps me to keep track of changes made to my code, and it helps multiple people to collaborate in a project.
+    35. How often should I commit to github?
+    I should commit to github each time that I make a change to the project or file that I am working.
+    36. What is the command we would use to push our repo up to github? we use git push -u origin branch-name (Jorge-Jimenez)
+    37. Walk me through Lambda's git flow. 
+    - I created my own version of the repo(fork),
+    - I'll add My TL as collaborator using settings-manage access- invite collaborator, and type TL.
+    -Clone my repousing Clone or download button. Ill copy the URL.
+    -In the terminal type ls to list my files and cd to go and to locate the directory where Im going to clone my repo, and needs to be saves in my computer.
+    - type git clone url-of-the-repo
+    -cd to the new repo cloned. ex. cd repo-name
+    -inside the repo where we are going to work, type code .   (to open visual code)
+    -in the terminal of vscode type git checkout -b Jorge-Jimenez (to switch to my branch)
+    -type git branch (to make sure that we are in our branch)
+    -Type touch Jorge-Jimenez.txt to create the file where we are going to do our assignment.
+    -type git status (to check status)
+    -type git add Jorge-Jimenez.txt (to add file)
+    -type git status (to see status)
+    -type git commit -m "add comment" ( it will save changes adding a comment)
+    - every time that I made changes to the file we need to do git add . (to add all), git commit -m "comment" ( to save, and comment what we change)
+    - type git push -u origin Jorge-Jimenez ( this will send, and save file in git hub account)
+    -In git-hub, we will go back to our forked project repo, we will click in the master branch, and choose our name-branch.
+    - click on new pull request, and it will send me to a pull request page.
+    -click on the base repository, and change it to our forked repo, we can add comments for our TL.
+    - In the same PL page, we will add our TL to be reviewers by the review section right side bar, and then submit the pull request.
+    - When the repo is reviewed, we will accept changes, and we will know its complete it when says that pull request is sucessfully merge, and closed.
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    The difference is that inline-element is that they can begin within a new line, and they dont start in a new line.  The block element is in contrast. they start in a new line on a webpage, most elements are block elements
+    2. What happens when an element is positioned absolutely? 
+    It means that the value of the element is absolute or fixed.  its positioned relative to the closest positioned ancestors.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    we can use widths, and heights to control the space.
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    display block are address, div, article. for display inline: a, label, button.  Display Inline-block: input, button.
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    in my opinion, box models represent is what wraps around the element. I know that all HTML elements are boxes, so with the box model I can we can design and layout a element. to respect the width its give we must put box-sizing: border-box in the element.
