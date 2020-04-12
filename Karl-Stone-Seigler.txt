@@ -1,0 +1,44 @@
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? Semantic HTML are HTML tags that can be understood.
+
+    2. What is HTML used for? To build the structure of websites.
+
+    3. What is an attribute and where do we put it? An attribute is a description of what the particular code after it is.
+
+    4. What is the h1 tag used for? How many times should I use it on a page? The H1 tag is a tag that indicates the importance of a line of code. It should only be used once.
+
+    5. Name two tags that have required attributes. .DIV and .classes`
+    6. What do we put in the head of our HTML document? In the beginning.
+    7. What is an id? An id is an individual element.
+    8. What elements can I add an id to? 1
+    9. How many times can I use the same id on a page? Multiple
+    10. What is a class? A class is a group of elements.
+    11. What elements can I add a class to? Container, etc.
+    12. How many times can I use the same class on a page? Multiple
+    13. How do I get my link to open in a new tab? by using the target attribute with the value target="_blank"
+    14. What is the alt attribute in the image tag used for? uses text if an image cannot be shown.
+    15. How do I reference an id? #
+    16. What is the difference between a section and a div.  Semantics, otherwise they are the same.
+
+    17. What is CSS used for? To style the HTML
+    18. How to we select an element? Example - every h2 on the page .H2
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. An ID would be used when there is only one element in reference to it. When there are multiple elements in reference, you should use class.
+    20. How do we select classes in CSS? .
+    21. How do we select a p element with a single class of “human””? .human page
+    22. What is a parent child selector? When would this be useful?  a parent child selector is when there are elements within the parent. It would be useful when you are styling different elements with in the parent differently.
+    23. How do you select all links within a div with the class of sidebar?
+    24. What is a pseudo selector? selects the pseudoclass
+    25. What do we use the change the spacing between lines? line-height
+    26. What do we use to change the spacing between letters?letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?text-transform
+    28. How do I add a 1px border around my div that is dotted and black? .div{ border:  1px dotted black }
+    29. How do I select everything on the page? *
+    30. How do I write a comment in CSS? <!-->
+    31. How do I find out what file I am in, when I am using the command line? pwd 
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm file name; it will permanently delete it.
+    34. Why should I use version control? otherwise it would mess up the working version
+    35. How often should I commit to github? As often as you can.
+    36. What is the command we would use to push our repo up to github?git push <remote><branch>
+    37. Walk me through Lambda's git flow. First you find the repository, then fork it, then download it. then you open it with VS Code. Then create a branch.
