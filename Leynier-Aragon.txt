@@ -89,20 +89,30 @@
     
     
     29. How do I select everything on the page? 
-
+    You use a universal selector.
     
     30. How do I write a comment in CSS?
+    You start a comment with /* , and end it with */ .
     
-    31. How do I find out what file I am in, when I am using the command line? 
+    31. How do I find out what file I am in, when I am using the command line?
+    You can type in PWD in the command line. 
     
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    you use the ls command.
     
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    you use rm -rf, its dangerous because this will delete once you've submitted the request.
     
     34. Why should I use version control? 
+    it allows you to modify code safetly. You can roll back your changes in code to easily find errors and also this is good for team
+    work.
     
     35. How often should I commit to github?
+    whenever you take a break or finish a feature/section.
     
     36. What is the command we would use to push our repo up to github? 
+    you use git push -u origin firstname-lastname
     
     37. Walk me through Lambda's git flow. 
+    Fork the repo, add tl as collab, clone the repo, make a personal branch and switch to it, work on your project, commit all changes,
+    then push your personal branch, at the end you create a pull request.
