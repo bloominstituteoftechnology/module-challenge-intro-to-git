@@ -1,4 +1,4 @@
-Code pen - In progress
+Code pen - https://codepen.io/gamemeup8/pen/qBOdNNB
 
 Pen questions:
 1. What is Semantic HTML? Semantic HTML is an older style of HTML used before name clashes would start to occur. Its a markup language that let you custom name and style your HTML tags. Its helps to reinforce the meaning of information in web pages. 
