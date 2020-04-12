@@ -32,19 +32,63 @@ Today's assignment: https://codepen.io/wecodewetest/pen/KKdKYmV?editors=1100
     - Class is an attribute that can be used more than one time as per requirements. it is primarily used for styling.
 
     11. What elements can I add a class to? 
+    - We can add id to any element
+
     12. How many times can I use the same class on a page? 
+
+    - As many times as we need 
+
     13. How do I get my link to open in a new tab?
-    14. What is the alt attribute in the image tag used for? 
+    - target="_blank"
+
+    14. What is the alt attribute in the image tag used for?
+    - Alt attribute is used for writing info on photos in case they aren't available on the web page
+
     15. How do I reference an id?
+    - #id_name
     16. What is the difference between a section and a div
+    - Section deals with greater part and div deals with smaller part of the page.
+    
+
     17. What is CSS used for? 
+    - CSS used for styling of the web pages
     18. How to we select an element? Example - every h2 on the page
+    - We select element as the following: 
+    h2 {
+        color: red;
+    }
+    
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    - We primarily use class for styling and id for linking. However, id can also be used for style.
+
+    Example:
+   <div class="gallery">
+        <img href="#">
+
+   </div>
+
+   div .gallery{
+        display: inline;
+    }
+
+
+   <div id="about">
+     <a href="#about">About</a>
+
+   </div>
+
     20. How do we select classes in CSS?
+    .class-name{
+            text-align: center;
+        }
     21. How do we select a p element with a single class of “human””?
+    
     22. What is a parent child selector? When would this be useful? 
+    
     23. How do you select all links within a div with the class of sidebar?
+    
     24. What is a pseudo selector?
+    
     25. What do we use the change the spacing between lines?
     26. What do we use to change the spacing between letters?
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
