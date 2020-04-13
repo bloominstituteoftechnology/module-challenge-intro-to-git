@@ -1,5 +1,5 @@
 	https://codepen.io/hryman13/pen/NWGPaxR
-
+		no matter how much I worked on this one I did my best to keep to the assignment however, I by the time I thought to ask anyway questions it was already too late to ask them. I spent much of my time on just the website so I had to hurry and answer the questions. 
 	1. What is Semantic HTML? 
 		It is computer language that makes it possible for the website to be read by the computer so we can view it.
 	2. What is HTML used for? 
