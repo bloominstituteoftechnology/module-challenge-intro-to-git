@@ -1,4 +1,5 @@
 	https://codepen.io/hryman13/pen/NWGPaxR
+
 	1. What is Semantic HTML? 
 		It is computer language that makes it possible for the website to be read by the computer so we can view it.
 	2. What is HTML used for? 
@@ -107,4 +108,5 @@ Stretch Questions
    	4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
 		Block by default <div>, <section>  ----- Display inline by default <span>,<b>  ----- inline-block by default  Height or width
    	5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
-		
+		The box model is us usend talking about the design and layout of website. It is basically a box that wraps around every HTML element on the page. It consists of Margins, Borders, Padding, and of course the actual content of the page as well.
+		To fix the box model you would use what is called a 'box-sizing' by adding box-sizing: border-box to your code in order to make it mind its manners so to speak.
