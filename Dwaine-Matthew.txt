@@ -106,3 +106,5 @@ Stretch Questions
     - inline <span>, <img>
 5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
     - Every element is contained in a box. It also has padding and borders and margins around it which can all be defined.
+
+    change
