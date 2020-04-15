@@ -71,14 +71,19 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     30. How do I write a comment in CSS?
     /*'comment-here'  */
     31. How do I find out what file I am in, when I am using the command line? 
-    
+      We type ls command.
     32. Using the command line - how do I see a list of files/folders in my current folder?
+     ls command.
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+      rm <file-name>
     34. Why should I use version control? 
+    In order to distribute the work within the team in a way it doesn't affect the assigned work one person is doing so that all can collaborate on one project on their branches. 
     35. How often should I commit to github?
+      Every time we make changes, and work on the project.
     36. What is the command we would use to push our repo up to github? 
+       git push -u <branch-namee>
     37. Walk me through Lambda's git flow. 
-
+       Basically every time we make changes we have to: git add . , git commit -m"message", git push, to push back to our repository on our remote. Before we do this it's essential to fork the project we are working on, and then clone it to your local.
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
