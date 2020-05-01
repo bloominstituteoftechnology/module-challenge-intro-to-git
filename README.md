@@ -3,7 +3,7 @@ In this project you will be using the concepts learned in the Git for Web Develo
 
 This project consists of two parts:
 
-## Part One:
+## Task 1: Project Set Up
 You will need to follow the Lambda School Git Workflow to add a file to this project follow the steps below:
 
 - [ ] Create your own version of this repo - Fork
@@ -17,15 +17,20 @@ You will need to follow the Lambda School Git Workflow to add a file to this pro
   - [ ] Add your TL as a reviewer on the Pull-Request
 - [ ] TL then will count the Assignment as done by merging the HW back into master "STUDENT FORK".
 
-## Part Two:
+## Task 2a - MVP:
 1. fork this codepen https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
 2. You will be marking up all of the HTML and styling it to look like this: https://codepen.io/BritHemming/full/jONmxOm using CSS
 * this should be review from yesterday/ extra practice
 3. After you are finished please copy the review questions into your .txt file and answer them
 4. don't forget to add, commit and push your changes.
 
+## Task 2b - Exit Ticket: 
 
-## Stretch
+Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/hBr3njN3ELWe9xyR5/r7Qdx6FGvB2BtZ).
+
+The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability *without* using external references.
+
+## Task 3 - Stretch
 Stretch Review questions: 
     1. What is the difference between an inline element and a block element?
     2. What happens when an element is positioned absolutely? 
@@ -41,5 +46,6 @@ Stretch Git Tasks
 - [ ] Research and set up a Graphical User Interface (GUI) Git console. 
 
 - [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
+
 
 
