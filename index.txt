@@ -156,7 +156,7 @@ Once finish working on it
 SAVE your work
 do git add .
 then git status
-git commint - m 'helpful message'
+git commit - m 'helpful message'
 git push -u branch-name
 go to the github website
 to your forked project
