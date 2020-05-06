@@ -1,0 +1,178 @@
+               Here is the complete codepen link
+               https://codepen.io/ronyp/pen/XWboOrz
+                1. What is Semantic HTML? 
+		Semantic HTML is using tags in the HTML language to assign meaning to our code, allowing for easier and more meaningful reading.
+		
+
+		2. What is HTML used for?
+		HTML is used to the build structure of a website, including adding content.
+		
+
+		3. What is an attribute and where do we put it?
+		An attribute is used to define an element, and it is put inside the element's opening tag.
+		
+
+		4. What is the h1 tag used for? How many times should I use it on a page?
+		The h1 tag is used to highlight the most important information on the page, especially for SEO purposes. Once per page.
+		
+
+		5. Name two tags that have required attributes
+		<a> and <img>
+		
+
+		6. What do we put in the head of our HTML document? 
+		Important content, usually the h1.
+		
+
+		7. What is an id? 
+		An id is an attribute given to a specific element on our page to increase specificity. You can only use each id once.
+		
+
+		8. What elements can I add an id to? 
+		Every element.
+		
+
+		9. How many times can I use the same id on a page? 
+		Once. 
+		
+
+		10. What is a class? 
+		A class assigns an element to a larger class, allowing the coder to edit multiple elements at once.
+		
+
+		11. What elements can I add a class to? 
+		Every element.
+		
+
+		12. How many times can I use the same class on a page? 
+		As many times as you want.
+		
+
+		13. How do I get my link to open in a new tab?
+		Add a target="_blank" attribute to your link.
+		
+
+		14. What is the alt attribute in the image tag used for? 
+		Displays information in the case of the image not being found.
+		
+
+		15. How do I reference an id?
+		Using #id-name.
+		
+
+		16. What is the difference between a section and a div
+		A section groups content that is similar, while a div is just a generic container.
+		
+
+		17. What is CSS used for? 
+		CSS is used to style HTML.
+		
+
+		18. How to we select an element? Example - every h2 on the page
+		By typing the element alone (i.e., h2)
+		
+
+		19. What is the difference between a class and an id? - Give me an example of when I might use each one
+		A class is used to reference multiple elements that you might want to refer to at once, while an id is only for one specific element.
+		You might use a class to style all section headers to Arial font, while you might use an id to refer to a specific image.
+		
+
+		20. How do we select classes in CSS?
+		By typing a period then the class name (i.e., .section-one)
+		
+
+		21. How do we select a p element with a single class of “human””?
+		The most specific way would be to use "p.human"
+		
+
+		22. What is a parent child selector? When would this be useful? 
+		It selects all of the specified elements that are a child of a specific element. This would be useful to select all p elements that are within a nav bar.
+		
+
+		23. How do you select all links within a div with the class of sidebar?
+		By using "div a.sidebar" or "div.sidebar a", this question is worded unclear.
+		
+
+		24. What is a pseudo selector?
+		A pseudo selector allows you to style a specific part of the given element. 
+		
+
+		25. What do we use the change the spacing between lines?
+		"line-height: # px"
+		
+
+		26. What do we use to change the spacing between letters?
+		"letter-spacing: # px"
+		
+
+		27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+		text-transform: uppercase, text-transform: lowercase, text:transform: capitalize
+		
+
+		28. How do I add a 1px border around my div that is dotted and black?
+		div{
+                   border: 1px dotted black;
+                }
+		
+
+		29. How do I select everything on the page? 
+		By using the universal selector *
+		
+
+		30. How do I write a comment in CSS?
+		By surrounding it with /* and */
+		
+
+		31. How do I find out what file I am in, when I am using the command line? 
+		Using the PDW command prompt
+		
+
+		32. Using the command line - how do I see a list of files/folders in my current folder?
+		Using the LS command prompt
+		
+
+		33. How do I remove a file via the command line? Why do I have to be careful with this? 
+		Using the RM command prompt
+		
+
+		34. Why should I use version control? 
+		It allows you to create iterative back-ups, allowing you a safe place to return if something goes wrong. It also
+		allows you to experiment with code without ruining the base. 
+		
+
+		35. How often should I commit to github?
+		However often you feel is appropriate. Typically after a large section has been completed.
+		
+
+		36. What is the command we would use to push our repo up to github? 
+		git push -u origin firstname-lastname
+		
+
+		37. Walk me through Lambda's git flow. 
+		Find the github project to work on, fork it to your github, add your TLs to the collaborator list, clone the repo, open the repo in git bash, download 
+		the clone, complete the project, add/commit, push the repo back to github, create a pull-request with the student fork, then add TLs as reviewers.
+		
+
+		Stretch Questions
+		
+
+		1. What is the difference between an inline element and a block element?
+		Block elements take up the entire width of their parent container, while inline elements don't start on new lines. The easiest example is p vs span
+		
+
+		2. What happens when an element is positioned absolutely? 
+		The element will have a fixed position.
+		
+
+		3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+		
+
+		
+
+		4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+		Display block: h1, p, and div. Inline by default: span and img. Display inline-block: button and select.
+		
+
+		5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+		The box model is the collection of styling elements given to an element to fit the size we want, including width, height, padding, and margin. And I have no idea.
+
