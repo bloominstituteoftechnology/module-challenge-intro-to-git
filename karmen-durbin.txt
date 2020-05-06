@@ -1,50 +1,177 @@
-https://codepen.io/karmendurbin/pen/gOaYpag?editors=1100
 
-    1. What is Semantic HTML? it gives our HTML meaning
-    2. What is HTML used for? It means Hyper Text Markup Language. Its the foundation of our website
-    3. What is an attribute and where do we put it? special words used inside of of tags like src or alt
-    4. What is the h1 tag used for? How many times should I use it on a page? the h1 tag is the main heading of the website it shold only be used once
-    5. Name two tags that have required attributes: img and anchor tags
-    6. What do we put in the head of our HTML document? add head tags and place all info inside like nav or meta data
-    7. What is an id? A unique attribute that can only be used once for each unique id
-    8. What elements can I add an id to? it can be used for any element
-    9. How many times can I use the same id on a page? only once
-    10. What is a class? a class is a reusable attribute 
-    11. What elements can I add a class to? All elements can use classes
-    12. How many times can I use the same class on a page? over and over
-    13. How do I get my link to open in a new tab? target blank ex. target="_blank"
-    14. What is the alt attribute in the image tag used for? it is used to describe imgs for screen readers and seo purposes
-    15. How do I reference an id? in css? #idname 
-    16. What is the difference between a section and a div? a section is used for grouping purposes, grouping together like content. A div is used not for organization/separation, but for styling grouped items. 
-    17. What is CSS used for? Cascading Style sheets used to make web content beautiful
-    18. How to we select an element? Example - every h2 on the page h2 { 
+https://codepen.io/karmendurbin/pen/zYvpbPw?editors=1100
+    
 
-    }
-    19. What is the difference between a class and an id? - Give me an example of when I might use each one: .class can be used repetably used for styling #id used once used for anchoring 
-    20. How do we select classes in CSS? .class
-    21. How do we select a p element with a single class of “human””? .human p {
 
-    }
-    22. What is a parent child selector? When would this be useful? this is when you select the child of a parent item nested in CSS. Use it when you want to target a child item but require more specificity
-    23. How do you select all links within a div with the class of sidebar? .sidebar div {
+    1. What is Semantic HTML? 
 
-    }
-    24. What is a pseudo selector? The ability to create used to define the special state of an element. ex a:hover used to make links change on hover.
-    25. What do we use the change the spacing between lines? example line-height: 3px;
-    26. What do we use to change the spacing between letters? example letter-spacing: 1.5px;
-    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? lowercase and capitalize
-    28. How do I add a 1px border around my div that is dotted and black? div {
+	it gives our HTML meaning
+
+    2. What is HTML used for? 
+
+	It means Hyper Text Markup Language. Its the foundation of our website
+
+    3. What is an attribute and where do we put it? 
+
+	special words used inside of of tags like src or alt
+
+    4. What is the h1 tag used for? 
+
+	How many times should I use it on a page? the h1 tag is the main heading of the 	website it should only be used once
+
+    5. Name two tags that have required attributes: 
+
+	img and anchor tags
+
+    6. What do we put in the head of our HTML document? 
+
+	add head tags and place all info inside like nav or meta data
+
+    7. What is an id? 
+
+	A unique attribute that can only be used once for each unique id
+
+    8. What elements can I add an id to? 
+
+	it can be used for any element
+
+    9. How many times can I use the same id on a page? 
+
+	only once
+
+    10. What is a class? 
+
+	a class is a reusable attribute 
+
+    11. What elements can I add a class to? 
+
+	All elements can use classes
+
+    12. How many times can I use the same class on a page?
+
+ 	over and over
+
+    13. How do I get my link to open in a new tab? 
+
+	target blank ex. target="_blank"
+
+    14. What is the alt attribute in the image tag used for? 
+
+	it is used to describe imgs for screen readers and seo purposes
+
+    15. How do I reference an id? 
+
+	in css? #idname 
+
+    16. What is the difference between a section and a div?
+
+ 	a section is used for grouping purposes, grouping together like content. A div is 	used not for organization/separation, but for styling grouped items. 
+
+    17. What is CSS used for? 
+
+	Cascading Style sheets used to make web content beautiful
+
+    18. How to we select an element? 
+
+	Example - every h2 on the page h2 { 
+
+    	}
+
+    19. What is the difference between a class and an id? - Give me an example of when I 	might use each one: 
+
+	.class can be used repeatably used for styling #id used once used for anchoring 
+
+    20. How do we select classes in CSS? 
+
+	.class
+
+    21. How do we select a p element with a single class of “human””?
+
+	 .human p {
+
+    	}
+
+    22. What is a parent child selector? When would this be useful? 
+
+	this is when you select the child of a parent item nested in CSS. 
+
+	Use it when you want to target a child item but require more specificity
+
+    23. How do you select all links within a div with the class of sidebar?
+
+	.sidebar div {
+
+    	}
+
+    24. What is a pseudo selector? 
+	
+	The ability to create used to define the special state of an element. ex a:hover 	used to make links change on hover.
+
+    25. What do we use the change the spacing between lines? 
+
+	example line-height: 3px;
+
+    26. What do we use to change the spacing between letters? 
+
+	example letter-spacing: 1.5px;
+
+    27. What do we use to to change everything to CAPITALS? 
+
+	lowercase? Capitalize? lowercase and capitalize
+
+    28. How do I add a 1px border around my div that is dotted and black? 
+
+	div {
         border: 1px dotted black;
-    }
-    29. How do I select everything on the page? with a univeral selector *
-    30. How do I write a comment in CSS? /*my comment*/
-    31. How do I find out what file I am in, when I am using the command line? pwd
-    32. Using the command line - how do I see a list of files/folders in my current folder? ls
-    33. How do I remove a file via the command line? Why do I have to be careful with this? rm and you must be careful because this can not be undone
-    34. Why should I use version control? because it allows multiple people to work on a project at the same and beacause it allows you to go back to a former version of the project if you make a mistake. 
-    35. How often should I commit to github? after every major change or after every thirty mins or so. 
-    36. What is the command we would use to push our repo up to github? git push
-    37. Walk me through Lambda's git flow. I honestly am not sure what this question means?... 
+   	 }
+
+    29. How do I select everything on the page? 
+
+	with a universal selector *
+
+    30. How do I write a comment in CSS? 
+
+	/*my comment*/
+
+    31. How do I find out what file I am in, when I am using the command line? 
+	
+	pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current 		folder? 
+
+	ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with 		this? 
+
+	rm and you must be careful because this can not be undone
+
+    34. Why should I use version control? 
+
+	because it allows multiple people to work on a project at the same and because it 	allows you to go back to a former version of the project if you make a mistake. 
+
+    35. How often should I commit to github? 
+
+	after every major change or after every thirty mins or so. 
+
+    36. What is the command we would use to push our repo up to github? 
+
+	git push
+
+    37. Walk me through Lambda's git flow. 
+
+fork the repo 
+cd into the correct folder in the terminal
+clone the repo onto the computer
+open the files in VS code
+work on files
+commit work 
+push work when finished
+create pull request
+add TL
+submit pull request
+finished
+
+
 
 Stretch Questions
 
