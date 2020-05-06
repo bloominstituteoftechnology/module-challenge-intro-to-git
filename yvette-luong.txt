@@ -1,43 +1,108 @@
 https://codepen.io/yvetteLH/pen/abvEQzp?editors=1100
 
 1. What is Semantic HTML? 
+- the process that bring meaning to your content and help the website readable, also help the developer to keep the code readable and eaersier to maintain
     2. What is HTML used for? 
+    - to build a foundation for an application or a website that we want to grow.
     3. What is an attribute and where do we put it? 
+    - Attribute is an additional information that provide to an element.
+    - Attribute is located inside the defined tag.
     4. What is the h1 tag used for? How many times should I use it on a page?
+    - h1 tag is used for wrap around text and display the hearder of the page.
+    - only once on the main header
     5. Name two tags that have required attributes
+    - <img src="#">Hello</img>;
+    - <a href="#">Hello</a>;
     6. What do we put in the head of our HTML document? 
+    - <head><h1></h1></head>
     7. What is an id? 
+    - to display something more specific then using class. 
     8. What elements can I add an id to? 
-    9. How many times can I use the same id on a page? 
+    - a unique element which ONLY belong to that ID
+    9. How many times can I use the same id on a page?
+    - a specific ID once on a page
     10. What is a class? 
+    - a class is an atribution which can be used on any element.
     11. What elements can I add a class to? 
-    12. How many times can I use the same class on a page? 
+    - can be added to any HTML elements.
+    12. How many times can I use the same class on a page?
+    - there is no limit
     13. How do I get my link to open in a new tab?
-    14. What is the alt attribute in the image tag used for? 
+    - put the target attribute to the content. 
+    14. What is the alt attribute in the image tag used for?
+    -provie alternative information for an image that can not views for some eror issue or internet connection.
     15. How do I reference an id?
+    - #valueofid
     16. What is the difference between a section and a div
+    - section defines different main part of program which contian the strong and specific meaning or purpose
+    - div gather a genetic or non-specific purpose. div located inside section. 
     17. What is CSS used for? 
+    - to present specific layout, effect or visual details on our application or website. 
     18. How to we select an element? Example - every h2 on the page
+    - h2 {
+        color: red
+    }
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    - a class can be used to identify more than one element meanwhile an Id identify only one unique element 
+    - When you want to style information multiple time, then you use class
+    - When you want to style a single unique informaton or element, then you use Id
     20. How do we select classes in CSS?
+    - .valueofclasses
     21. How do we select a p element with a single class of “human””?
+    .human p 
     22. What is a parent child selector? When would this be useful? 
+    - a parent child selector are included both parent element and children element 
+    -  to use to select a specific information or element belong to a parent child selector
     23. How do you select all links within a div with the class of sidebar?
+  -  a:hover {
+      color:...
+  }
     24. What is a pseudo selector?
+    - to style elements individually without not having to set amount of elements.
     25. What do we use the change the spacing between lines?
+    - line-height: space
     26. What do we use to change the spacing between letters?
+    - letter-space: space
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    - text-transform: capitalize
     28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
-    30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
-    32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
-    35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+    - div {
+        border: solid black; 
+        outline-style: dotted;
+    }
+    29. How do I select everything on the page?
+    *{
 
+    } 
+    30. How do I write a comment in CSS?
+    - /*comment*/
+    31. How do I find out what file I am in, when I am using the command line? 
+    -pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    -ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    -rm nameofthefilewanttoremove
+    34. Why should I use version control? 
+    - save different places or changes in time and keep tracking everything
+    35. How often should I commit to github?
+    - commit everythime you changes information
+    36. What is the command we would use to push our repo up to github?
+     git push  <REMOTENAME> <BRANCHNAME> 
+    37. Walk me through Lambda's git flow. 
+- create a repo -> FORK 
+- add TL as collaborator:
+ Setting-> Collaboratiors-> Add collaborator
+- clone your repo: 
+git clone <yoour-repo-adress> (this step perform in your machine)
+- create a branch: 
+cd <repo directory> -> git checkout -b 'firstname-lastname'(in your machine)
+- push new branch up to Github & make a future push to that branch: 
+git push -u origin firstname-lastname (in your machine)
+Compare & Pull Request -> Base: YOUR MASTER (Not the Lambda masterL )(in your machine)
+compare fork: YOUR FORK
+-add TL as a reviewer on Pull Request:
+Open a pull request-> Reviewers (on Github) 
+* TL will merge the work into YOUR master for after reviewed and approved.
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
