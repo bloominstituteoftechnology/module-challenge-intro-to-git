@@ -111,7 +111,7 @@ Stretch Questions
 	Display inline: <a> <span> 
 	Display linline-block: <nav>
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
-	
+	The box model is the idea that you create padding and margins around a block of content on a page. The problem with the box model is that if you want your content to only be 400 pixels wide you now have to do the math and make sure your content is less than 400px because the padding and margin will add onto that number. However the "fix" is if you use the border-box element, your browser will now account for the padding and margin within the total width and your content will shrink to fit. 
 
 
 
