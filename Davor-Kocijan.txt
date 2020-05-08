@@ -10,7 +10,7 @@ https://codepen.io/Davor-K/pen/ZEbrxXQ?editors=1100
        Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.
 
     3. What is an attribute and where do we put it? 
-       Attributes define additional characteristics or properties of the element such as width and height of an image. Attributes are always        specified in the start tag (or opening tag) and usually consists of name/value pairs like name="value" . Attribute values should always be        enclosed in quotation marks.
+       Attributes define additional characteristics or properties of the element such as width and height of an image. Attributes are always specified in the start tag (or opening tag) and usually consists of name/value pairs like name="value". Attribute values should always be enclosed in quotation marks.
 
     4. What is the h1 tag used for? How many times should I use it on a page?
        The <H1> HTML tag is usually used for the title of a page or post and it is the first header visible on a page.
@@ -20,10 +20,11 @@ https://codepen.io/Davor-K/pen/ZEbrxXQ?editors=1100
        Image, Video
 
     6. What do we put in the head of our HTML document? 
-       HTML <head> Tag. The <head> tag contains metadata (document title, character set, styles, links, scripts), specific information about the        web page that is not displayed to the user. Metadata provides browsers and search engines with technical information about the web page.
+       HTML <head> Tag. The <head> tag contains metadata (document title, character set, styles, links, scripts), specific information about the web page that is not displayed to the user. Metadata provides browsers and search engines with technical information about the web page.
 
     7. What is an id? 
-
+       The id attribute specifies a unique id for an HTML element (the value must be unique within the HTML document). The id attribute is most used to point to a style in a style sheet
+	   
     8. What elements can I add an id to? 
 
     9. How many times can I use the same id on a page? 
