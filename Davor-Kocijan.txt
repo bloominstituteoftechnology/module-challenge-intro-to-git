@@ -26,42 +26,61 @@ https://codepen.io/Davor-K/pen/ZEbrxXQ?editors=1100
        The id attribute specifies a unique id for an HTML element (the value must be unique within the HTML document). The id attribute is most used to point to a style in a style sheet
 	   
     8. What elements can I add an id to? 
+	   <div> , <section> , <h1 - h6> , <p> , <a> , <footer>
 
     9. How many times can I use the same id on a page? 
        Only once
 
     10. What is a class? 
+	    Class in HTML is used to refer CSS (Cascading style sheet), to which we apply some style or property in CSS file. You can define a class that comprises of either a single or more than one (multiple) HTML elements that should have a particular style for property in common
 
     11. What elements can I add a class to? 
+	    <div> , <section> , <h1 - h6> , <p> , <a> , <footer>
 
     12. How many times can I use the same class on a page? 
         As many times as I want
 
     13. How do I get my link to open in a new tab?
+	    target="_blank"
 
     14. What is the alt attribute in the image tag used for? 
+	    The alt attribute provides alternative information for an image if a user for some reason cannot view it
 
     15. How do I reference an id?
+	    #id
 
     16. What is the difference between a section and a div
+	    The section tag defines sections in a document like chapters, headers, footers whereas div tag defines a division in an HTML document. Here we will discuss the difference between section and div in HTML.
+
+        In HTML, <section> means that the content inside is grouped and should appear as a entry in an outline of a page whereas <div> does not convey any meaning, aside from any found in its class, lang and title attributes.
 
     17. What is CSS used for? 
+	    CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. CSS is independent of HTML and can be used with any XML-based markup language.
 
     18. How to we select an element? Example - every h2 on the page
+	    h2 {}
 
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	    The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
+		
+		<div class="hello">
+		<h1 id="title">
 
     20. How do we select classes in CSS?
+	    .class
 
     21. How do we select a p element with a single class of “human””?
         .human p {}
 
     22. What is a parent child selector? When would this be useful? 
+	    Child Selector is used to match all the elements which are child of a specified element. ... The element > element selector selects those elements which are the children of specific parent.
+		This is used to match elements that are direct children of other elements, which is a little more precise than the traditional contextual selector.
 
     23. How do you select all links within a div with the class of sidebar?
         .sidebar a {}
 
     24. What is a pseudo selector?
+	    A pseudo-class is a selector that selects elements that are in a specific state, e.g. they are the first element of their type, or they are being hovered over by the mouse pointer
 
     25. What do we use the change the spacing between lines?
         line-height: 1.5;
@@ -70,8 +89,12 @@ https://codepen.io/Davor-K/pen/ZEbrxXQ?editors=1100
         letter-spacing: 2px;
 
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	    text-transform:
 
     28. How do I add a 1px border around my div that is dotted and black?
+	    border-style: dotted;
+        border-color: black;
+        border-width: 1px;
 
     29. How do I select everything on the page? 
         * {color: red;}
@@ -80,17 +103,29 @@ https://codepen.io/Davor-K/pen/ZEbrxXQ?editors=1100
         /* Comment */
 
     31. How do I find out what file I am in, when I am using the command line? 
+	    ls
 
     32. Using the command line - how do I see a list of files/folders in my current folder?
         ls
 
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+        rm
+        Because we will not be worned about deletion and also file or folder is deleted permanently 		
 
     34. Why should I use version control? 
 
     35. How often should I commit to github?
+	    You want to commit whenever you made any tangible progress you are not sure you would regret losing suddenly.
 
     36. What is the command we would use to push our repo up to github? 
         git push
 
     37. Walk me through Lambda's git flow.
+	    Create OWN version of Repo (Fork)
+        Add TL as a collaborator
+        Clone Repo
+        Create a branch (on which the student will implement the project) git checkout -b 'firstName-lastName'
+        Submit PR into the new branch.
+        Use own fork as the base (compare across forks).
+        Add their TL as a reviewer on the PR
+        TL then will count the HW as done by merging the HW back into master “STUDENT FORK”.
