@@ -1,0 +1,111 @@
+  1. What is Semantic HTML? 
+	Semantic HTMl gives meaning to the page for accessabilties reasons, and also allows coders you are
+working with to be able to understand the code.
+    2. What is HTML used for? 
+	Html is used for giving purpose to the page, also is a skeleton for the page and allows you to begin creating
+a website.
+    3. What is an attribute and where do we put it?
+ 	An attribute provides additonal information about an HTML element, such as a alt for an img or a src for a font
+or image. This goes inline with the element.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	An H1 tag is used for the most important header on the page, and should only be used once. It gives search
+engines a quick way to find out what your page is about.
+    5. Name two tags that have required attributes
+	Anchors and Imgs require attributes.
+    6. What do we put in the head of our HTML document? 
+	In the head of a document you would put information that is not shown on the page, such as scripts, style 
+sheet links or font HREFs.
+    7. What is an id? 
+	An ID is used to name an element so that it can be styled with CSS. It should only be used once per name.
+    8. What elements can I add an id to? 
+	You can add an ID to most elements.
+    9. How many times can I use the same id on a page? 
+	Once.
+    10. What is a class? 
+	A class is much like and ID but can be added to multiple, elements and allows CSS styling of the elements,
+by calling the class.
+    11. What elements can I add a class to? 
+	Most elements can add a class, Such as <p>, <div>, <h1-h6> and much more.
+    12. How many times can I use the same class on a page? 
+	A class can be used as many times as needed.
+    13. How do I get my link to open in a new tab?
+	If you add taget="_blank" to the end of an href on an anchor it will open in  a new tab.
+    14. What is the alt attribute in the image tag used for? 
+	The alt attribute is used to be shown if the img can not be shown, but describes what the image is, it 
+can be shown if an image doesn't load properly or if used on an assistant device.
+    15. How do I reference an id?
+	You can add an ID to html by adding id-"blank", or in CSS by using the # sign and then the name such as 
+#blank{ }.
+    16. What is the difference between a section and a div
+	A section is semenatic HTML while a div is just representational, and provides no meaning.
+    17. What is CSS used for? 
+	CSS is used to style HTML elements in a way that they look nicer on a webpage.
+    18. How to we select an element? Example - every h2 on the page
+	An element is selected just by typing the elements name, such as h2{ } or p{ }.
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	A class can be used multiple times on multiple elements such as .bluetext or .redbutton however
+an ID is to be used once, such as #login-button or #contentcard.
+    20. How do we select classes in CSS?
+	In CSS classes can be selected by .blank. Such as .bluetext .redbutton.
+    21. How do we select a p element with a single class of “human””?
+	First you selected the class and then the element so it would be .human p{ }
+    22. What is a parent child selector? When would this be useful? 
+	
+    23. How do you select all links within a div with the class of sidebar?
+	.sidebar a{ }
+    24. What is a pseudo selector?
+	A pseudo selector is used to selected a element meeting a certain requirement such as :hover.
+    25. What do we use the change the spacing between lines?
+	line-height: Xpx;
+    26. What do we use to change the spacing between letters?
+	letter-spacing: Xpx;
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	text-transform: ;
+    28. How do I add a 1px border around my div that is dotted and black?
+	border: 1px dotted black;
+    29. How do I select everything on the page? 
+	*{ }
+    30. How do I write a comment in CSS?
+	/* This is a comment */
+    31. How do I find out what file I am in, when I am using the command line? 
+	pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	rm and then then the path, using the console you have zero confirmation, so you just have to make sure it
+won't mess up a thing.
+    34. Why should I use version control? 
+	Version control allows you to keep track of all changes you make, and you can also rollback if your changes
+do not work.
+    35. How often should I commit to github?
+	Whenever our work is ready to be graded? Or you make big changes.
+    36. What is the command we would use to push our repo up to github? 
+	git push nicholas-wooden
+    37. Walk me through Lambda's git flow. 
+
+	First you are going to make your own fork of the repo on Lambda.
+	Then add your TL.
+	After you add your TL use the console to create a branch in your name.
+	Add your files to the branch and commit them and push them to github.
+	Add your TL as a reviewer and when he makes the pull, it is complete.
+	
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+	In line elements do not force a new line in HTML and can have multiple inline on one line. Block elements 
+require a new line. 
+    2. What happens when an element is positioned absolutely? 
+	An absolute elements is positioned off the body and moves with you even if you scroll the page.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+	Display in-line block? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+	Block:<header>
+	      <footer>
+	      <section>
+	Inline: body
+		head
+	inline-block: Img
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+	The box model always has an assigned box around an element, with a sized based on the content, margin and padding.
