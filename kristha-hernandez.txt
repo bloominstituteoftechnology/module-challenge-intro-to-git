@@ -1,0 +1,97 @@
+kristha-hernandez.txt
+https://codepen.io/zzeroyzz/full/dyYmaPE
+ 1. What is Semantic HTML? 
+    -Semantic are elements with a meaning. For example <header> <footer>
+   
+    2. What is HTML used for? 
+        -HTML is used to created web pages. HTML is used to format text and images for the web page.
+    
+    3. What is an attribute and where do we put it? 
+        - Attributes are used to provide information about an element. For example, href is an attribute that use the <a> tag. This attribute and tag are used to add a link to HTML. 
+    
+   
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        -h1 tags are used for the title. of the page. It is the biggest font, that should be used only once.
+    
+    5. Name two tags that have required attributes
+        -href, and src
+    
+    6. What do we put in the head of our HTML document? 
+        -title of the page
+    
+    7. What is an id? 
+        -ID is an attribute that is used with css to perform task with a specific element.
+    
+    8. What elements can I add an id to? 
+        -h1
+    
+    9. How many times can I use the same id on a page? 
+        -once
+    
+    10. What is a class? 
+        -Class is an attribute that is used to define equal styles for elements with the same class name.
+    
+    11. What elements can I add a class to? 
+        -<div>, <h1>, <p>
+    
+    12. How many times can I use the same class on a page? 
+        -You are limited to the amount of HTML attributes that you have.
+    
+    13. How do I get my link to open in a new tab?
+        -you would need to use the target attribute with the _blank value
+    
+    14. What is the alt attribute in the image tag used for? 
+        - The alt attribute is used to provide text for an image. This is used just in case the viewer of the image cannot see the image.
+    
+    15. How do I reference an id?
+        -#id
+    
+    16. What is the difference between a section and a div
+        -The section tag defines sections in a document, such as headers, and footers. The "div" tage defienes a devision in the HTML document, such as classes and titles.
+    
+    17. What is CSS used for? 
+        -CSS controls the layout of the page. CSS describes how the HTML will look like.
+    
+    18. How do we select an element? Example - every h2 on the page
+        - use a "." then the element. Or h2{}
+   
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        -A id can only be used once on a page. Example of being used:<h1 id="myPageheader">My hobbies</h1>. 
+        -A class can be used multiple times on elements. For example if you have a element about music you can have multiple classes:
+        <div class="music">
+            <h2>hip hop<
+                /h2>
+                <p>a style of popular music of US black and Hispanic origin, featuring rap with an electronic backing.</p>
+        </div>
+
+        <div class="music">
+            <h2>Jazz
+                </h2>
+            <p>a type of music of black American origin characterized by improvisation, syncopation, and usually a regular or forceful rhythm, emerging at the beginning of the 20th century.</p>
+        </div>
+    
+    20. How do we select classes in CSS?
+        -.class
+    
+    21. How do we select a p element with a single class of “human””?
+        - <p class="human">
+
+    22. What is a parent child selector? When would this be useful? 
+        -parent selector is any valid selector. Parent selectors also specifies the parent element to be selected. A child selector specifies the direct child element to be of the specified parent element to be selected. 
+    
+    23. How do you select all links within a div with the class of sidebar?
+        - <div class="sidebar">
+    
+    24. What is a pseudo selector?
+        - A pseudo selector is a selector that selects elements in a specific state. For example:  :hover
+    
+    25. What do we use the change the spacing between lines?
+        - line-height
+
+    26. What do we use to change the spacing between letters?
+        - align-content: space-between
+   
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        -p.uppercase
+        -p.lowercase
+        -p.capitalize
