@@ -1,50 +1,133 @@
+
+https://codepen.io/James2199/pen/yLYvEmW?editors=1100
+
 Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
 
     1. What is Semantic HTML? 
-    2. What is HTML used for? 
-    3. What is an attribute and where do we put it? 
-    4. What is the h1 tag used for? How many times should I use it on a page?
-    5. Name two tags that have required attributes
-    6. What do we put in the head of our HTML document? 
-    7. What is an id? 
-    8. What elements can I add an id to? 
-    9. How many times can I use the same id on a page? 
-    10. What is a class? 
-    11. What elements can I add a class to? 
-    12. How many times can I use the same class on a page? 
-    13. How do I get my link to open in a new tab?
-    14. What is the alt attribute in the image tag used for? 
-    15. How do I reference an id?
-    16. What is the difference between a section and a div
-    17. What is CSS used for? 
-    18. How to we select an element? Example - every h2 on the page
-    19. What is the difference between a class and an id? - Give me an example of when I might use each one
-    20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of “human””?
-    22. What is a parent child selector? When would this be useful? 
-    23. How do you select all links within a div with the class of sidebar?
-    24. What is a pseudo selector?
-    25. What do we use the change the spacing between lines?
-    26. What do we use to change the spacing between letters?
-    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-    28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
-    30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
-    32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
-    35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+html that has meaning and indented correctly to make it easily read.
+    
+2. What is HTML used for? 
+html is used as the foundation of web pages
+   
+ 3. What is an attribute and where do we put it? 
+the attribute provides additional information. it is placed inside the element tag.
+    
+4. What is the h1 tag used for? How many times should I use it on a page?
+h1 is used in the header to headline the page, it should be used once and is the largest font of h1-h6.
+   
+ 5. Name two tags that have required attributes
+the <img> tag has an src attribute, the <a> tag has an href attribute.
+    
+6. What do we put in the head of our HTML document?
+doctype, header tag, h1 tag? 
+    
+7. What is an id?
+an id is a type of attribute to specify the element 
+   
+ 8. What elements can I add an id to? 
+any elements can have an id attribute.
+    
+9. How many times can I use the same id on a page? 
+   once
+10. What is a class? 
+    a class is another attribute to specify an element or multiple elements
+11. What elements can I add a class to? 
+    inline elements
+12. How many times can I use the same class on a page? 
+    multiple times
+13. How do I get my link to open in a new tab?
+right click, open in new tab.
+    
+14. What is the alt attribute in the image tag used for? 
+    if the image fails to load, it will display the text in the alt attribute.
+15. How do I reference an id?
+with a #.
+    
+16. What is the difference between a section and a div
+    section is semantic, div is not.
+17. What is CSS used for? 
+    styling the html on the web page
+18. How to we select an element? Example - every h2 on the page
+h2 {
+
+}
+    
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    a class can be used to specify multiple elements, an Id can only be used once. Example I would use an id if i wanted to specify a single element, 
+and a class if i wanted to group a few different elements together as the same color or padding ect.
+
+20. How do we select classes in CSS?
+classes can be selected by the . and the name of the class.
+    
+21. How do we select a p element with a single class of “human””?
+
+.human {
+}
+    
+22. What is a parent child selector? When would this be useful? 
+a parent child selector is used to single out a specific element within the page. maybe you only want to color that specific element or give hover or another css to just the paragragh in a section.
+
+
+23. How do you select all links within a div with the class of sidebar?
+.div.sidebar {
+}
+
+24. What is a pseudo selector?
+    a selector class to select the element in a specific state, like hover.
+25. What do we use the change the spacing between lines?
+line-spacing:
+    
+26. What do we use to change the spacing between letters?
+letter-spacing:
+    
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: capitalize; , text-transform:lowercase;
+28. How do I add a 1px border around my div that is dotted and black?
+.div {
+border: 1px dotted black;
+}
+    
+29. How do I select everything on the page? 
+*{
+}
+   
+30. How do I write a comment in CSS?
+//* //
+    
+31. How do I find out what file I am in, when I am using the command line? 
+it tells you your directory path, you can also git status or ls and see some information
+    
+32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+    
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm followed by the file name, because there is no warning message when you remove files and you can not get it back.
+34. Why should I use version control? 
+its a good way to back up every version of your work.
+    
+35. How often should I commit to github?
+after you finish a step
+    
+36. What is the command we would use to push our repo up to github? 
+git push -u origin firstname -lastname
+    
+37. Walk me through Lambda's git flow. 
+you would first fork the repo, add your TL as collaborator on github, Clone the repo from github ( git clone and the https address), cd into the repo directory of where you want the clone to go,
+git checkout -b firstname- lastname, next you would do your changes go about your work. Add any changes or files , commit and comment a quick message of what you have done, then you would push to github.
+ to submit your work, you would create a pull request and add you TL as a reviewer, who will then go over the work and fork back into master student fork.
+
 
 Stretch Questions
 
-    1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+1. What is the difference between an inline element and a block element?
+    block elements start on a new line, inline elements do not
+2. What happens when an element is positioned absolutely? 
+   element is removed from document flow 
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
 
 
 
