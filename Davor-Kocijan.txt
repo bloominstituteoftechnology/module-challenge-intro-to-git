@@ -50,7 +50,7 @@ https://codepen.io/Davor-K/pen/ZEbrxXQ?editors=1100
 	    #id
 
     16. What is the difference between a section and a div
-	    The section tag defines sections in a document like chapters, headers, footers whereas div tag defines a division in an HTML document. Here we will discuss the difference between section and div in HTML.
+	    The section tag defines sections in a document like chapters, headers, footers whereas div tag defines a division in an HTML document. 
 
         In HTML, <section> means that the content inside is grouped and should appear as a entry in an outline of a page whereas <div> does not convey any meaning, aside from any found in its class, lang and title attributes.
 
@@ -112,7 +112,8 @@ https://codepen.io/Davor-K/pen/ZEbrxXQ?editors=1100
         rm
         Because we will not be worned about deletion and also file or folder is deleted permanently 		
 
-    34. Why should I use version control? 
+    34. Why should I use version control?
+        Version control is important for all code, files, and assets that multiple team members will collaborate on. Using version control software helps you keep track of changes — and keep every team member working off the latest version. It needs to do more than just manage and track files	
 
     35. How often should I commit to github?
 	    You want to commit whenever you made any tangible progress you are not sure you would regret losing suddenly.
