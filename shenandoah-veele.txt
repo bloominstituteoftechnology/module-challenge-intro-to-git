@@ -1,0 +1,90 @@
+https://codepen.io/Squishyisme/pen/jObzoLY?editors=1100
+
+
+    1. What is Semantic HTML? Sematic Html is a discriptive way of tagging code. Paragrah rather than wxyz for example.
+
+    2. What is HTML used for? Html is a a coding language for web pages it creates a basic structure for websites.
+
+    3. What is an attribute and where do we put it? an attrubute adds information to the element tag. It goes in the opening
+tag after the element. <a href=""> a being the element and href being the attribute.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?The H1 tag is the main headline. It is used once so
+would often be used for a name or a title on the page.
+
+    5. Name two tags that have required attributes? anchor tags and image tags
+
+    6. What do we put in the head of our HTML document? header tags
+
+    7. What is an id? an identifier for a very specific element
+
+    8. What elements can I add an id to? any element tag as long as it is unique
+
+    9. How many times can I use the same id on a page? only once
+
+    10. What is a class? a class is an identifer for modifying multilple elements
+    11. What elements can I add a class to? unlimited
+
+    12. How many times can I use the same class on a page? as many times as you need to
+
+    13. How do I get my link to open in a new tab? using the target="_blank" attribute
+
+    14. What is the alt attribute in the image tag used for? it is used for greater accessiblity
+by providing a text discription if a reader cannot support the image.
+
+    15. How do I reference an id? with a #
+
+    16. What is the difference between a section and a div a section splits a document into large sections like a header a footer,it is semantic.
+a div gives no meaning unles an attribute is attached.
+
+    17. What is CSS used for? o flesh out or decorate a page
+
+    18. How to we select an element? Example - every h2 on the page. With a class attribute
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+an id is used for one specific thing. So it would be good for an h1 or similar tage that is only used once.
+A class is for multiple so if you wanted every paragraph to be a specific font.
+    20. How do we select classes in CSS? with a period
+
+    21. How do we select a p element with a single class of “human””? .human
+
+    22. What is a parent child selector? When would this be useful? it is a sub section af a main section. it can be useful for stylist purposes
+
+    23. How do you select all links within a div with the class of sidebar? .sidebar
+
+    24. What is a pseudo selector? it is for an element that is not unique but may be the first or last of its type
+
+    25. What do we use the change the spacing between lines? in css with line-height
+
+    26. What do we use to change the spacing between letters? in css with letter-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? using text-transform
+
+    28. How do I add a 1px border around my div that is dotted and black? border-radius: 1px dashed black;
+
+    29. How do I select everything on the page? with the wildcard selector *
+
+    30. How do I write a comment in CSS? using /* comment here*/
+
+    31. How do I find out what file I am in, when I am using the command line?
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? using r file-name.
+You have to be carefull because there is no "are you sure" warnings like a visual interface
+   
+    34. Why should I use version control? helps for if there are problems with the code you can isolate when that occured and fix
+
+    35. How often should I commit to github? when you have made substantial changes.
+
+    36. What is the command we would use to push our repo up to github? git push file-name
+
+    37. Walk me through Lambda's git flow. The first step would be to fork it, the second is enter setting and mthen manage access to invite TL to collab. Then you kwould clone it and get the link. Open git bash and clone it in git using git clone https://theproject.notreal.com. After that you jwould branch it
+with git checkout -b branch-name-here. After that you could do your work. commit it and push it to git hub. then you would ask tl to pull it
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely?
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
