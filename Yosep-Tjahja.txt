@@ -52,32 +52,93 @@ https://codepen.io/tcf77/pen/MWaVJXw
 -) for html styling
 
 18. How to we select an element? Example - every h2 on the page
--) 
+-) by specifying the tag name, in this case, h2
 
 19. What is the difference between a class and an id? - Give me an example of when I might use each one
-    20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of “human””?
-    22. What is a parent child selector? When would this be useful? 
-    23. How do you select all links within a div with the class of sidebar?
-    24. What is a pseudo selector?
-    25. What do we use the change the spacing between lines?
-    26. What do we use to change the spacing between letters?
-    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-    28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
-    30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
-    32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
-    35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+-) a class can be used by more than one element where an id can only be used by one element
+   example of id: <section id='intro'>, this case, there is only one section with the id of 'intro'
+   example of class: <p class='content'>, this case, we can have more than one paragraph elements that share the same class
+
+20. How do we select classes in CSS?
+-) by using the dot (.) sign
+
+21. How do we select a p element with a single class of “human””?
+-) p.human
+
+22. What is a parent child selector? When would this be useful? 
+-) a selector that selects all elements that are a direct child of the parent element
+   it is useful when we need a css inheritance so that we can share the parent element's properties
+
+23. How do you select all links within a div with the class of sidebar?
+-) div.sidebar a
+
+24. What is a pseudo selector?
+-) pseudo selector is used when you may not have a set amount of elements, but you still want to style them individually
+
+25. What do we use the change the spacing between lines?
+-) line-height
+
+26. What do we use to change the spacing between letters?
+-) letter-spacing
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+-) text-transform
+
+28. How do I add a 1px border around my div that is dotted and black?
+-) border-style:dotted and border-color: black
+
+29. How do I select everything on the page? 
+-) with the '*' symbol
+
+30. How do I write a comment in CSS?
+-) with the '/*', and end it with '*/'
+
+31. How do I find out what file I am in, when I am using the command line? 
+-) pwd
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+-) ls
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+-) rm, because it does not require a prompt and it is not reversible
+
+34. Why should I use version control? 
+-) 1) to keep track of my works
+   2) back up certain stage of works (if done properly)
+   3) for collaboration
+
+35. How often should I commit to github?
+-) as often as needed (depending of how much work has been done)
+
+36. What is the command we would use to push our repo up to github? 
+-) git push
+
+37. Walk me through Lambda's git flow.
+-) Student will create OWN version of Repo (Fork)
+   Student will add TL as a collaborator
+   Student then will Clone Repo
+   Student will then create a branch (on which the student will implement the project) git checkout -b 'firstName-lastName'
+   Student will then submit their PR into the new branch.
+   Student will use their own student fork as the base (compare across forks).
+   Student will add their TL as a reviewer on the PR
+   TL then will count the HW as done by merging the HW back into master “STUDENT FORK”.
 
 Stretch Questions
 
-    1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+1. What is the difference between an inline element and a block element?
+-) by default, inline elements do not force a new line where a block element, on the other hand, typically cause a line break to occur
+
+2. What happens when an element is positioned absolutely? 
+-) it does not collide or gets affected by other elements' positions
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+-) using width property
+
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+-) display block: p, div, nav
+   inline: span, a
+   inline-block: button 
+
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+-)  a box model is essentially a box that wraps around every HTML elements.
+    by grouping them into a display block element
