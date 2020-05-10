@@ -1,2 +1,399 @@
-
 My name is Bill Xiong
+
+Questions to Submit in today's file first-lastname.txt
+
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your
+changes.
+
+<p>1. What is Semantic HTML?</p>
+<p><b>Providing meaning to your content so that it's easier for machines and for humans to reason about</b>
+
+    <p>2. What is HTML used for?</p>
+    <p><b>For creating pages that are displayed on the world wide web.</b>
+
+        <p>3. What is an attribute and where do we put it?</p>
+        <p><b>It provides additional information about an element, they are always specified in the start tag.</b></p>
+
+        <p>4. What is the h1 tag used for? How many times should I use it on a page?</p>
+        <p><b>They are used to define the HTML headings. Multiple tags can be used as long as they aren't being overused
+                to the point of spamming.</b></p>
+
+        <p>5. Name two tags that have required attributes</p>
+        <p><b>The Anchor tag and input.</b></p>
+
+        <p>6. What do we put in the head of our HTML document?</p>
+        <p><b> The title.</b></p>
+
+        <p>7. What is an id?</p>
+        <p><b>Is used to specify a unique id for an HTML element.</b></p>
+
+        <p>8. What elements can I add an id to?</p>
+        <p><b>It can be used on any element.</b></p>
+
+        <p>9. How many times can I use the same id on a page?</p>
+        <p><b>Only one time, multiple elements cannot have the same id value on the same page.</b></p>
+
+        <p>10. What is a class?</p>
+        <p><b>Used to define equal styles for elements with the same class name.</b></p>
+
+        <p>11. What elements can I add a class to?</p>
+        <p><b>Any element</b></p>
+
+        <p>12. How many times can I use the same class on a page?</p>
+        <p><b>You are only limited by the maximum length of an HTML value.</b></p>
+
+        <p>13. How do I get my link to open in a new tab?</p>
+        <p><b>copy the url link, open another tab and paste the link into that url box.</b></p>
+
+        <p>14. What is the alt attribute in the image tag used for?</p>
+        <p><b>It provides fallback text to display when the image specified by the img element is not loaded.</b></p>
+
+        <p>15. How do I reference an id?</p>
+        <p><b>The id selector uses the id attribute of an HTML element to select a specific element. The id of an
+                element is unique within a page, so the id selector is used to select one unique element.</b></p>
+
+        <p>16. What is the difference between a section and a div</p>
+        <p><b>A section defines a sections in a document, such as chapters, headers, footers, or any other sections of
+                the document. Where as a div
+                defines a division or a section in a HTML document.</b></p>
+
+        <p>17. What is CSS used for?</p>
+        <p><b>Cascading Style Sheet</b></p>
+
+        <p>18. How to we select an element? Example - every h2 on the page<p><b>
+                    <p><b>h2 {
+                            The element selector selects HTML elements based on the element name.</b></p>
+
+                    <p>19. What is the difference between a class and an id? - Give me an example of when I might use
+                        each one?</p>
+                    <p><b>An HTML element can only have one unique ID that belongs to that single element, while a class
+                            name can be used by multiple elements. An example of when using a class has a div elements
+                            is when all HTML elementswith the same class attribute will get the same style. An example
+                            of an id. All HTML elements with the same class attribute will get the same style.</b></p>
+
+                    <p>20. How do we select classes in CSS?</p>
+                    <p><b>Write a period character, followed by the name of the class.</b></p>
+
+                    <p>21. How do we select a p element with a single class of “human””?</p>
+                    <p><b>You would write the . character, followed by adding the human class in CSS</b></p>
+
+                    <p>22. What is a parent child selector? When would this be useful?</p>
+                    <p><b>It selects all elements that are a direct child of the specified element. It's useful when you
+                            need to match elements that are direct children of the other elements, which is a little
+                            more precise than the traditional contextual selector.</b></p>
+
+                    <p>23. How do you select all links within a div with the class of sidebar?</p>
+                    <p><b> add a anchor into css.
+
+                            example: a {
+                            }
+                        </b></p>
+
+                    <p>24. What is a pseudo selector?</p>
+                    <p><b> Is a selector that selects elements that are in a specific state.</b></p>
+
+                    <p>25. What do we use the change the spacing between lines?</p>
+                    <p><b>Use the line-height property in CSS to do so.</b></p>
+
+                    <p>26. What do we use to change the spacing between letters?</p>
+                    <p><b> Add the attribute then input the property with the value of px.</b></p>
+
+                    <p>27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?</p>
+                    <p><b>key text-transform in CSS.</b></p>
+
+                    <p>28. How do I add a 1px border around my div that is dotted and black?</p>
+                    <p><b>key in the selector(p.dotted) {
+                            property(border-style): value(dotted);
+                            }</b></p>
+
+                    <p>29. How do I select everything on the page?</p>
+                    <p><b> selector (*) {
+                            property(#####): value(####);
+                            }</b></p>
+
+                    <p>30. How do I write a comment in CSS?</p>
+                    <p><b> key in <! -- asfsaasfsfasf-->
+
+                                <p>31. How do I find out what file I am in, when I am using the command line?</p>
+                                <p><b>When you first launch terminal, you will likely have an empty window with not much
+                                        going on.</b></p>
+
+                                <p>32. Using the command line - how do I see a list of files/folders in my current
+                                    folder?</p>
+                                <p><b>key in cd ..</b></p>
+
+                                <p>33. How do I remove a file via the command line? Why do I have to be careful with
+                                    this?</p>
+                                <p><b> key rm sample.txt, because there is no safe guards in place, it will the delete
+                                        the file permanently</b></p>
+
+                                <p>34. Why should I use version control?</p>
+                                <p><b>Any mistakes made can turn back the clock and compare the earlier versions of the
+                                        code to help fix the mistake while minimizing disruption to all team
+                                        members.</b></p>
+
+                                <p>35. How often should I commit to github?</p>
+                                <p><b>Try to commit often</b></p>
+
+                                <p>36. What is the command we would use to push our repo up to github?</p>
+                                <p><b>git push commit -m (add comment here)</b></p>
+
+                                <ul>37. Walk me through Lambda's git flow.</ul>
+                                <ol>on github, you would create a new repo, make it public, add repo name, add
+                                    description, add a read me and add a license, then create the repo.</ol>
+                                <li>grab the repo, then fork it </li>
+                                <li>clone the repo(don't clone unless your profile name is on the left hand corner along
+                                    the file name</li>
+                                <li>click on clickboard icon</li>
+                                <li>open git bash, give new command: git clone "url" then press enter key</li>
+                                <li>key ls to make sure it's in the lis</li>
+                                <li>key in cd .. to go into that directory</li>
+                                <li>key git status</li>
+                                <li>key code ., which will open vs code to make changes</li>
+                                <li>git status to see any changes that you have made</li>
+                                <li>git add . to add everything</li>
+                                <li>git commit -m "added comment"</li>
+                                <li>git status</li>
+                                <li>git push, will asked for your passworf</li>
+                                <li>go back to github, all changes will be there</li>
+
+                                Stretch Questions
+
+                                <p>1. What is the difference between an inline element and a block element?</p>
+                                <p><b> Inline element does not start on a new line and only takes up as much width as
+                                        necessary where as a block element always starts on a new line and takes up the
+                                        full width available</b></p>
+                                <p>2. What happens when an element is positioned absolutely?</p>
+                                <p><b> It will be positioned relative to the nearest ancestor.</b></p>
+                                <p>3. How do I make an elemet take up only the amount of space it needs but also have
+                                    the ability to give it a width?</p>
+                                <p><b>flex-grow></p>
+                                <p>4. Name 3 elements that are display block by default, 2 elements that are display
+                                    inline by default and 1 element that is display inline-block by default</p>
+                                <p><b>Block: Adrress, section and footer. Inline: button, input. inline-block: img.</b>
+                                </p>
+                                <p>5. In your own words, explain the box model. What is the "fix" for the box model, in
+                                    other words, how do we make all elements respect the width we've given them?</p>
+                                <p><b> It is a box that wraps around every HTML element. The fix is the box-sizing:
+                                        border dox, by including padding and borders in an element's width. So the new
+                                        home CSS at the top of this post will will now generate a square element with
+                                        20px of padding, 5px borders and which all together is 100px by 100px.</b></p>
+                                Questions to Submit in today's file first-lastname.txt -->
+
+                                Copy the questions below into the first-lastname.txt file on your github repo - answer
+                                each question and then push your changes.
+
+                                <p>1. What is Semantic HTML?</p>
+                                <p><b>Providing meaning to your content so that it's easier for machines and for humans
+                                        to reason about</b>
+
+                                    <p>2. What is HTML used for?</p>
+                                    <p><b>For creating pages that are displayed on the world wide web.</b>
+
+                                        <p>3. What is an attribute and where do we put it?</p>
+                                        <p><b>It provides additional information about an element, they are always
+                                                specified in the start tag.</b></p>
+
+                                        <p>4. What is the h1 tag used for? How many times should I use it on a page?</p>
+                                        <p><b>They are used to define the HTML headings. Multiple tags can be used as
+                                                long as they aren't being overused to the point of spamming.</b></p>
+
+                                        <p>5. Name two tags that have required attributes</p>
+                                        <p><b>The Anchor tag and input.</b></p>
+
+                                        <p>6. What do we put in the head of our HTML document?</p>
+                                        <p><b> The title.</b></p>
+
+                                        <p>7. What is an id?</p>
+                                        <p><b>Is used to specify a unique id for an HTML element.</b></p>
+
+                                        <p>8. What elements can I add an id to?</p>
+                                        <p><b>It can be used on any element.</b></p>
+
+                                        <p>9. How many times can I use the same id on a page?</p>
+                                        <p><b>Only one time, multiple elements cannot have the same id value on the same
+                                                page.</b></p>
+
+                                        <p>10. What is a class?</p>
+                                        <p><b>Used to define equal styles for elements with the same class name.</b></p>
+
+                                        <p>11. What elements can I add a class to?</p>
+                                        <p><b>Any element</b></p>
+
+                                        <p>12. How many times can I use the same class on a page?</p>
+                                        <p><b>You are only limited by the maximum length of an HTML value.</b></p>
+
+                                        <p>13. How do I get my link to open in a new tab?</p>
+                                        <p><b>copy the url link, open another tab and paste the link into that url
+                                                box.</b></p>
+
+                                        <p>14. What is the alt attribute in the image tag used for?</p>
+                                        <p><b>It provides fallback text to display when the image specified by the img
+                                                element is not loaded.</b></p>
+
+                                        <p>15. How do I reference an id?</p>
+                                        <p><b>The id selector uses the id attribute of an HTML element to select a
+                                                specific element. The id of an element is unique within a page, so the
+                                                id selector is used to select one unique element.</b></p>
+
+                                        <p>16. What is the difference between a section and a div</p>
+                                        <p><b>A section defines a sections in a document, such as chapters, headers,
+                                                footers, or any other sections of the document. Where as a div
+                                                defines a division or a section in a HTML document.</b></p>
+
+                                        <p>17. What is CSS used for?</p>
+                                        <p><b>Cascading Style Sheet</b></p>
+
+                                        <p>18. How to we select an element? Example - every h2 on the page<p><b>
+                                                    <p><b>h2 {
+                                                            The element selector selects HTML elements based on the
+                                                            element name.</b></p>
+
+                                                    <p>19. What is the difference between a class and an id? - Give me
+                                                        an example of when I might use each one?</p>
+                                                    <p><b>An HTML element can only have one unique ID that belongs to
+                                                            that single element, while a class name can be used by
+                                                            multiple elements. An example of when using a class has a
+                                                            div elements is when all HTML elementswith the same class
+                                                            attribute will get the same style. An example of an id. All
+                                                            HTML elements with the same class attribute will get the
+                                                            same style.</b></p>
+
+                                                    <p>20. How do we select classes in CSS?</p>
+                                                    <p><b>Write a period character, followed by the name of the
+                                                            class.</b></p>
+
+                                                    <p>21. How do we select a p element with a single class of “human””?
+                                                    </p>
+                                                    <p><b>You would write the . character, followed by adding the human
+                                                            class in CSS</b></p>
+
+                                                    <p>22. What is a parent child selector? When would this be useful?
+                                                    </p>
+                                                    <p><b>It selects all elements that are a direct child of the
+                                                            specified element. It's useful when you need to match
+                                                            elements that are direct children of the other elements,
+                                                            which is a little more precise than the traditional
+                                                            contextual selector.</b></p>
+
+                                                    <p>23. How do you select all links within a div with the class of
+                                                        sidebar?</p>
+                                                    <p><b> add a anchor into css.
+
+                                                            example: a {
+                                                            }
+                                                        </b></p>
+
+                                                    <p>24. What is a pseudo selector?</p>
+                                                    <p><b> Is a selector that selects elements that are in a specific
+                                                            state.</b></p>
+
+                                                    <p>25. What do we use the change the spacing between lines?</p>
+                                                    <p><b>Use the line-height property in CSS to do so.</b></p>
+
+                                                    <p>26. What do we use to change the spacing between letters?</p>
+                                                    <p><b> Add the attribute then input the property with the value of
+                                                            px.</b></p>
+
+                                                    <p>27. What do we use to to change everything to CAPITALS?
+                                                        lowercase? Capitalize?</p>
+                                                    <p><b>key text-transform in CSS.</b></p>
+
+                                                    <p>28. How do I add a 1px border around my div that is dotted and
+                                                        black?</p>
+                                                    <p><b>key in the selector(p.dotted) {
+                                                            property(border-style): value(dotted);
+                                                            }</b></p>
+
+                                                    <p>29. How do I select everything on the page?</p>
+                                                    <p><b> selector (*) {
+                                                            property(#####): value(####);
+                                                            }</b></p>
+
+                                                    <p>30. How do I write a comment in CSS?</p>
+                                                    <p><b> key in <! -- asfsaasfsfasf-->
+
+                                                                <p>31. How do I find out what file I am in, when I am
+                                                                    using the command line?</p>
+                                                                <p><b>When you first launch terminal, you will likely
+                                                                        have an empty window with not much going on.</b>
+                                                                </p>
+
+                                                                <p>32. Using the command line - how do I see a list of
+                                                                    files/folders in my current folder?</p>
+                                                                <p><b>key in cd ..</b></p>
+
+                                                                <p>33. How do I remove a file via the command line? Why
+                                                                    do I have to be careful with this?</p>
+                                                                <p><b> key rm sample.txt, because there is no safe
+                                                                        guards in place, it will the delete the file
+                                                                        permanently</b></p>
+
+                                                                <p>34. Why should I use version control?</p>
+                                                                <p><b>Any mistakes made can turn back the clock and
+                                                                        compare the earlier versions of the code to help
+                                                                        fix the mistake while minimizing disruption to
+                                                                        all team members.</b></p>
+
+                                                                <p>35. How often should I commit to github?</p>
+                                                                <p><b>Try to commit often</b></p>
+
+                                                                <p>36. What is the command we would use to push our repo
+                                                                    up to github?</p>
+                                                                <p><b>git push commit -m (add comment here)</b></p>
+
+                                                                <ul>37. Walk me through Lambda's git flow.</ul>
+                                                                <ol>on github, you would create a new repo, make it
+                                                                    public, add repo name, add description, add a read
+                                                                    me and add a license, then create the repo.</ol>
+                                                                <li>grab the repo, then fork it </li>
+                                                                <li>clone the repo(don't clone unless your profile name
+                                                                    is on the left hand corner along the file name</li>
+                                                                <li>click on clickboard icon</li>
+                                                                <li>open git bash, give new command: git clone "url"
+                                                                    then press enter key</li>
+                                                                <li>key ls to make sure it's in the lis</li>
+                                                                <li>key in cd .. to go into that directory</li>
+                                                                <li>key git status</li>
+                                                                <li>key code ., which will open vs code to make changes
+                                                                </li>
+                                                                <li>git status to see any changes that you have made
+                                                                </li>
+                                                                <li>git add . to add everything</li>
+                                                                <li>git commit -m "added comment"</li>
+                                                                <li>git status</li>
+                                                                <li>git push, will asked for your passworf</li>
+                                                                <li>go back to github, all changes will be there</li>
+
+                                                                Stretch Questions
+
+                                                                <p>1. What is the difference between an inline element
+                                                                    and a block element?</p>
+                                                                <p><b> Inline element does not start on a new line and
+                                                                        only takes up as much width as necessary where
+                                                                        as a block element always starts on a new line
+                                                                        and takes up the full width available</b></p>
+                                                                <p>2. What happens when an element is positioned
+                                                                    absolutely?</p>
+                                                                <p><b> It will be positioned relative to the nearest
+                                                                        ancestor.</b></p>
+                                                                <p>3. How do I make an elemet take up only the amount of
+                                                                    space it needs but also have the ability to give it
+                                                                    a width?</p>
+                                                                <p><b>flex-grow></p>
+                                                                <p>4. Name 3 elements that are display block by default,
+                                                                    2 elements that are display inline by default and 1
+                                                                    element that is display inline-block by default</p>
+                                                                <p><b>Block: Adrress, section and footer. Inline:
+                                                                        button, input. inline-block: img.</b></p>
+                                                                <p>5. In your own words, explain the box model. What is
+                                                                    the "fix" for the box model, in other words, how do
+                                                                    we make all elements respect the width we've given
+                                                                    them?</p>
+                                                                <p><b> It is a box that wraps around every HTML element.
+                                                                        The fix is the box-sizing: border dox, by
+                                                                        including padding and borders in an element's
+                                                                        width. So the new home CSS at the top of this
+                                                                        post will will now generate a square element
+                                                                        with 20px of padding, 5px borders and which all
+                                                                        together is 100px by 100px.</b></p>
