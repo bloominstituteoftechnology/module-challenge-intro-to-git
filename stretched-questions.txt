@@ -1,0 +1,20 @@
+Stretch Questions
+
+<p>1. What is the difference between an inline element and a block element?</p>
+<p><b> Inline element does not start on a new line and only takes up as much width as necessary where as a block element
+        always starts on a new line and takes up the full width available</b></p>
+<p>2. What happens when an element is positioned absolutely?</p>
+<p><b> It will be positioned relative to the nearest ancestor.</b></p>
+<p>3. How do I make an elemet take up only the amount of space it needs but also have the ability to give it a width?
+</p>
+<p><b>flex-grow></p>
+<p>4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element
+    that is display inline-block by default</p>
+<p><b>Block: Adrress, section and footer. Inline: button, input. inline-block: img.</b></p>
+<p>5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all
+    elements respect the width we've given them?</p>
+<p><b> It is a box that wraps around every HTML element. The fix is the box-sizing: border dox, by including padding and
+        borders in an element's width. So the new home CSS at the top of this post will will now generate a square
+        element with 20px of padding, 5px borders and which all together is 100px by 100px.</b></p>
+
+        
