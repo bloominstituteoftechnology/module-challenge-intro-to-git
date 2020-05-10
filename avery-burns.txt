@@ -1,0 +1,134 @@
+//completed codepen found at https://codepen.io/aaron-thecreator/full/KKdoGjG //
+
+Q & A:
+1. What is Semantic HTML? 
+	Semantic HTML is HTML used to markup a page while denoting the meaning or purpose of the information.
+
+2. What is HTML used for?
+	HTML is used to “mark up” text for use in a web browser. HTML builds the structure and outlines the content of a webpage. 
+
+3. What is an attribute and where do we put it?
+	An HTML attribute is a keyword that is assigned a value in the opening tag for an HTML element, which changes the behavior of that element.
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+	The <h1></h1> tag is used to denote the Main headline on a webpage, it tells the browser what the most important info is, helps with search engine optimization.
+
+5. Name two tags that have required attributes
+	Two tags that require attributes are the anchor (<a href=“#”></a>) which creates a clickable link that redirects to the href attribute’s value, and the image tag (<img src=“#”></img>) which displays the image found at the url or local file name provided.
+
+6. What do we put in the head of our HTML document?
+	the head of our html document usually contains the <meta> tag with attributes about character encoding and layout, as well as a <title></title> tag that tell the browser the page title, and optional <link/> or <script></script> tags to connect a style.css or script.js file.
+ 
+7. What is an id? 
+	An id is a high specificity attribute that identifies an html element for further style or functional manipulation. IDs must be unique and can only be assigned to one element.
+
+8. What elements can I add an id to? 
+	ID can be added to any html element (HTML5)
+
+9. How many times can I use the same id on a page? 
+	You may only use an id on the same page once.
+
+10. What is a class? 
+	A class is a less specific element attribute used for creating a group of HTML elements to be further manipulated.
+
+11. What elements can I add a class to? 
+	A class may be added to any HTML element.
+
+12. How many times can I use the same class on a page? 
+	Class attribute may be used as many times as are necessary.
+ 
+13. How do I get my link to open in a new tab?
+	To open links in a new ab, add the target attribute to the anchor element and assign the value “_blank”. (<a href=“google.com” target=“_blank”>Google</a>)
+
+14. What is the alt attribute in the image tag used for? 
+	The alt attribute in an img tag is used for the vision impaired and any user who use screen reading applications, the alt attribute will be read outloud, and service as a description of the image displayed.
+
+15. How do I reference an id?
+	to reference an id in CSS; #idName {}, for JS; let htmlElement = document.getElementById(“idName”).
+
+16. What is the difference between a section and a div?
+	<section></section> and <div></div> has similar used, though section is a semantic HTML tag that denotes information all pertinent to each other. A div is mainly a tag used to group element to be style together.
+
+17. What is CSS used for? 
+	CSS is used to style HTML element, to add design and aesthetic value to web content.
+
+18. How to we select an element? Example - every h2 on the page
+	to select an element, we simply call the element types. (h1 h2 p {})
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	A class can be used multiple times on differing element types to create a group to be styled together.
+
+20. How do we select classes in CSS?
+    Classes are selected in CSS by calling the class name, preceded by a "." (.className {})
+    
+21. How do we select a p element with a single class of “human”?
+    First we call the specific element, then .className (p.human {})
+
+22. What is a parent child selector? When would this be useful? 
+    The parent child selector in CSS selects all elements of given type nested within element of given type (div > p {})
+    This can be useful when large blocks of code will be styles together or when all similar elements nested identically can be selected together.
+
+23. How do you select all links within a div with the class of sidebar?
+    to select all elements within a div with a class, you use the parent selector (div.sidebar > a {})
+
+24. What is a pseudo selector?
+    a pseudo selector is a CSS declaration used for controlling special states of an element, effected by user input.
+
+25. What do we use the change the spacing between lines?
+    to change spacing between lines we use CSS property line-height and assign numeric value (line-height:2;)
+
+26. What do we use to change the spacing between letters?
+    to change spacing in-between letter we use CSS property letter-spacing: and assign numeric value in pixels (letter-spacing: 3px;)
+    
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    To change everything to capitals, we use CSS property text-transform: and assign uppercase for all CAPS, assign lowercase for lowercase, and capitalize for first letter caps on every word in element
+
+28. How do I add a 1px border around my div that is dotted and black?
+    To add 1px border to div (div {
+        border: 1px dotted black;
+    })
+
+29. How do I select everything on the page?
+    to select everything on the page, we can use the wildcard (* {}) or (body {})
+
+30. How do I write a comment in CSS?
+    to write a comment in a CSS file we use an opening /* and closing */;
+    /*this text would not be ran as code in CSS file*/
+
+31. How do I find out what file I am in, when I am using the command line?
+        "git status"
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+    The command line command "ls" shows list of all files/folders in current directory
+
+33. How do I remove a file via the command line? Why do I have to be careful with this?
+    remove/deleting file with command lie, use the "rm" command.
+
+34. Why should I use version control?
+    Version control is integral anytime you are working with a team of collaborators, it allows all changes to a file to be saved separate frm the file itself to review, revert to or debug previous versions
+
+35. How often should I commit to github?
+    A commit should be made often, anytime a  significant code block has been added and run
+
+36. What is the command we would use to push our repo up to github?
+    "git commit"
+
+37. Walk me through Lambda's git flow. 
+     1>fork repo 2>clone repo to git 3>proceed with changes 4>commit repo 5> pull request to PL
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+        A block-level element starts on a new line and take up the maximum width. Inline elements do not start on a new line and occupy the lowest width possible.
+
+    2. What happens when an element is positioned absolutely?
+        When an element is positioned absolutely, it is positioned relative to the nearest positioned ancestor.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+        To make an element take up only the amount of space it needs to and also give it a width,
+        
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        <header></header> , <h1></h1> and <p></p> elements default to (display: block;), <span></span> and <button></button> default to (display: inline;), in HTML5, there are not technically any elements that default to (display:inline-block), however depending on which browser the page is displayed in Firefox defaults <button></button> & <select></select> to (display: inline-block) and Chrome defaults the same, as well as <input></input> & <textarea></textarea>
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        The "box model" describes a way of thinking about CSS design properties, where the innermost part of the box is the content (text,image,etc), then completely wrapping the content is the padding property, on the outside of that, the border property, then a margin surrounding them all. Padding and margin are transparent. Elements should be assigned attributes like #id or .class to be called with CSS and use declaration to specify width.
