@@ -17,40 +17,80 @@ Questions:
     7. What is an id? 
         - An id is a unique id used for a single HRML element and is then used by CSS and JavaScript
     8. What elements can I add an id to? 
-        - 
-    9. How many times can I use the same id on a page? 
+        - The id tag can be used on any HTML element
+    9. How many times can I use the same id on a page?
+        - They should be used only once on a page, avoid duplicates 
     10. What is a class? 
+        - Classes identify specific class names in HTML and are used to perform a variety of tasks in CSS and JavaScript. 
     11. What elements can I add a class to? 
+        - Like ids, classes can be used on any HTML element
     12. How many times can I use the same class on a page? 
+        - There is no technical limit, but they should not be overused as it may slow down the browser
     13. How do I get my link to open in a new tab?
+        - By using target ="_blank" within the anchor tag
     14. What is the alt attribute in the image tag used for? 
+        - It is used to specify alternate text for a picture if the picture cannot be displayed, such as a slow connection or the viewer is using a screen reader
     15. How do I reference an id?
+        - In HTML: <element id="">, in CSS: #idName
     16. What is the difference between a section and a div
+        - A section is like chapters in a book where as a div is a division that doesn't really convey any particular meaning
     17. What is CSS used for? 
+        - CSS is used to stle a webpage. It is similar to the paint, lighting, doors and windows on a house.
     18. How to we select an element? Example - every h2 on the page
+        - h2 {}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        - An id can be used to identify one specific element, whereas a class can be used to identify more than one. This means you would use an id to style one 
+          specific element, where with a class you could use it to style for instance all elements with a specific class name.
     20. How do we select classes in CSS?
+        - .className
     21. How do we select a p element with a single class of “human””?
+        - p .human
     22. What is a parent child selector? When would this be useful? 
+        - A parent child selector selcts all of the elements that are a direct child of the specific element. An example of this is the challenge we had with a list
+          of names and there was a parent, then multiple children, multiple grandchildren, and multiple greatgrandchildren. It was useful in order to give them
+          different colors.
     23. How do you select all links within a div with the class of sidebar?
+        - #sidebar a:link
     24. What is a pseudo selector?
+        - This selects elements which have a special state such as selecting the first or last element of a type or when they are being hovered over by the mouse.
     25. What do we use the change the spacing between lines?
+        - The line-height property (ex. {line-height: 2px;})
     26. What do we use to change the spacing between letters?
+        - The letter-spacing property (ex. {letter-spacing: 3px;})
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        - The text-transform property (ex. {text-transform: capitalize;})
     28. How do I add a 1px border around my div that is dotted and black?
+        - #myDiv {border: dotted 1px black;}
     29. How do I select everything on the page? 
+        - * (universal selector)
     30. How do I write a comment in CSS?
+        - /* comments */
     31. How do I find out what file I am in, when I am using the command line? 
+        - pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        - ls or ls -a
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        - rm fileName, have to be careful because it will not ask for a confirmation or if you are sure
     34. Why should I use version control? 
+        - In order to track when changes are made and by whom. It also allows people to work on the files at the same time and merge them later on
     35. How often should I commit to github?
+        - Either whenever you finish a step or whenever you finish a feature
     36. What is the command we would use to push our repo up to github? 
+        - git push
     37. Walk me through Lambda's git flow.
+        - We are to create our own version of the Repo by forking, we then add our TL as a collaborator, then we clone the Repo (copying a link to the Repo),
+          we then create a branch where we will place the project using git checkout -b 'jason-bokesch', we then submit our PR into the newly created branh, we then
+          add our TL as the reviewer on the PR, the TL will then count it as done and merge it into the master
 
 Stretch Questions:
 1. What is the difference between an inline element and a block element?
+    - Inline elements do not create a new line, while block elements usually force a line break to occur.
 2. What happens when an element is positioned absolutely?
+    - No space is created for the absolutely positioned element in the page layout.
 3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+    - 
 4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-5. In your own words, explain the box model. What is the fix for the box model? Stretch Git Tasks
+    - Block: <address>, <footer>, <header>  Inline: <a>, <button>  Display Inline-Block: <img>
+5. In your own words, explain the box model. What is the fix for the box model?
+    - Generally speaking, the box model means that a box is wrapped around each HTML element consisting of margins, padding, borders and content. By using the 
+      box-sizing property.
