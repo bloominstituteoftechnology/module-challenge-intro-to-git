@@ -1,48 +1,210 @@
-1. What is Semantic HTML? 
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+    
+            Structured fairly recommended standard 
+            mark up language
+
     2. What is HTML used for? 
 
-    Structural Markup
+            The building blocks or blueprints of web                  sites
 
     3. What is an attribute and where do we put it? 
+
+            An attribute is an attribute or detail of an            element and it goes within the opening tag.
+
     4. What is the h1 tag used for? How many times should I use it on a page?
+
+            h1 is main heading it should be used once               per page
+
     5. Name two tags that have required attributes
-    6. What do we put in the head of our HTML document? 
+
+                href and anchor
+
+    6. What do we put in the head of our HTML document?
+ 
+          inside the head tag can be things like styles                 scripts titles and meta
+
     7. What is an id? 
+
+            an id is a selector unique to the page
+
     8. What elements can I add an id to? 
+
+            id's can be added to any html tag
+    
+
     9. How many times can I use the same id on a page? 
+
+            one time
+
     10. What is a class? 
+
+        it is a selector that can be applied to multiple          elements
+
     11. What elements can I add a class to? 
+
+             any html tag
+
     12. How many times can I use the same class on a page? 
+
+            use them as often as you like
+
+
     13. How do I get my link to open in a new tab?
+
+              target="_blank" attribute 
+
     14. What is the alt attribute in the image tag used for? 
+
+          it is a textual description of an image
+
     15. How do I reference an id?
+
+              #
+
     16. What is the difference between a section and a div
+
+            section tag defines things like chapters and              footers and headers---div is for divided                  any part of the page
+
     17. What is CSS used for? 
+
+            To make html look good, like paint and                   finishes in a home
+
     18. How to we select an element? Example - every h2 on the page
+
+                h2 {  }
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+      a class is used for multiple elements when you want them to be uniform like h1s for example while an id will be unique to the page and could be used to differentiate a div for example
+
     20. How do we select classes in CSS?
+
+            we use a . to denote a class in css
+
     21. How do we select a p element with a single class of “human””?
+
+            <p class="human">
+
     22. What is a parent child selector? When would this be useful? 
+
+            A parent child is a selector that applies to everything that comes directly after a particular element for example you could style everything that comes immedietly after an h2  
+
     23. How do you select all links within a div with the class of sidebar?
+
+        <div class= "sidebar"            
+
     24. What is a pseudo selector?
+
+            a selector that selects elements in a specific state
+
     25. What do we use the change the spacing between lines?
+
+              line-height 
+
     26. What do we use to change the spacing between letters?
+
+            letter-spacing
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+            uppercase: lowercase: capitalize:
+
     28. How do I add a 1px border around my div that is dotted and black?
+
+            div {border: 1px dotted black}
+
     29. How do I select everything on the page? 
+
+*
+
     30. How do I write a comment in CSS?
+
+              /* comment */
+
     31. How do I find out what file I am in, when I am using the command line? 
+
+              do you mean directory? if so the command line displays the current directory
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+
+          ls
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+          rm -r directory-name be careful because it is "permanent"
+
     34. Why should I use version control? 
+
+            keep track of changes, make sure devs are working on correct code, make sure you are testing correct code, know who is working on what, maintain correct production code and updates, avoid conflicts
+
     35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
+
+            whenever you finish a significant portion of your work hopefully 1 to 4 times a day generally speaking
+
+    36. What is the command we would use to push our repo up to github?
+ 
+            git commit -m
+
     37. Walk me through Lambda's git flow. 
+
+          Create YOUR OWN version of Repo ---> (Fork)
+
+Add your TL as collaborator
+
+on GitHub:
+Settings -> Collaborators -> Add Collaborator (use your TL's handle)
+(I'd suggest grabbing the invite tag and DM it to your TL on Slack at this point)
+
+Clone YOUR Repo
+
+back on your machine:
+git clone <your-repo-address>
+
+Create a branch (the one you are going to be working on)
+
+cd <repo directory>
+git checkout -b 'firstname-lastname'
+
+Push your new branch up to GitHub and make all future pushes to that branch
+
+git push -u origin firstname-lastname
+
+on GitHub:
+Compare & Pull Request -> Base: YOUR MASTER (Not the Lambda Master)
+compare fork: YOUR FORK
+
+Add your TL as a reviewer on the Pull Request
+
+On the 'Open a Pull Request' page click on Reviewers. If your TL has accepted your invite, then you should be able to select them here. If not, then they haven't accepted the invite, and come back later...
+
+Your TL will merge the work into YOUR Master fork when they have reviewed and approved it.
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+  
+            inline does not force a new line, block element cause line break
+  
     2. What happens when an element is positioned absolutely? 
+  
+ element is removed from the normal document flow, and no space is created for the element in the page layout   
+  
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+  
+  
+  
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+  
+  
+  
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+  
+        max-width min-width
+
+
+
+   --> 
