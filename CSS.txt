@@ -1,0 +1,92 @@
+#main {
+  border: 20px solid #00ced1;
+  margin: 30px;
+  padding: 0;
+  padding-bottom: 100px;
+}
+
+#learning {
+  width: 1160px;
+  margin-left: 450px;
+  font-style: sans-serif;
+  font-size: 30px;
+  color: #778899;
+}
+
+p.para1 {
+  color: black;
+  font-size: 15px;
+  line-height: 1.5em;
+  background-color: cyan;
+  padding: 50px;
+  border-width: 20px;
+  margin: 0px;
+  width: 930px;
+  margin-left: 80px;
+}
+
+#title {
+  color: cyan;
+  font-size: 15px;
+  line-height: 1.1em;
+  background-color: #00334d;
+  padding: 150px;
+  border-color: #00334d;
+  border-width: 100px;
+  margin: 0px;
+  width: 730px;
+  margin-left: 80px;
+}
+
+h1 {
+  text-align: left;
+  margin-left: 80px;
+  text-transform: uppercase;
+  color: gray;
+  width: 730px;
+}
+
+.another-text {
+  text-align: left;
+  font-style: sans-serif;
+  color: gray;
+  font-style: Arial;
+}
+
+p.para3 {
+  width: 1035px;
+  margin-left: 80px;
+}
+
+#learning:hover {
+  color: #998066;
+}
+
+p.para1:hover {
+  background-color: #ff7d52;
+}
+
+#title:hover {
+  color: pink;
+  background-color: gray;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 80px;
+}
+
+h1:hover {
+  color: orange;
+  font-size: 20px;
+}
+
+.another-text:hover {
+  color: orange;
+}
+
+.image img:hover {
+  border: 20px dotted red;
+}
