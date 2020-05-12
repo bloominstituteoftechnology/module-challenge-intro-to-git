@@ -1,0 +1,155 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2512
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue233;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c93333;}
+\margl1440\margr1440\vieww28600\viewh18000\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Link to codepin: {\field{\*\fldinst{HYPERLINK "https://codepen.io/donavynhaley/pen/rNOKpye"}}{\fldrslt 
+\f1 \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 \outl0\strokewidth0 \strokec2 https://codepen.io/donavynhaley/pen/rNOKpye}}\
+\
+\
+\
+\
+    1. What is Semantic HTML? \
+Is the meaning for the elements of a webpage\
+\
+    2. What is HTML used for? \
+As the skeleton for creating webpages.\
+\
+    3. What is an attribute and where do we put it? \
+Gives you more information about an element. we put it in the tag e.g. "<a href=""> href is the attribute"\
+\
+    4. What is the h1 tag used for? How many times should I use it on a page?\
+The h1 tag is used as the main title of the webpage. You should only use it once.\
+\
+    5. Name two tags that have required attributes\
+    <a>, <img>\
+\
+    6. What do we put in the head of our HTML document? \
+<header>\
+\
+    7. What is an id? \
+An id is a attribute that we can use css to point to when making style changes. \
+\
+    8. What elements can I add an id to? \
+      Any of them\
+\
+    9. How many times can I use the same id on a page? \
+once\
+\
+    10. What is a class? \
+A class is a group of attributes that can be assigned\
+\
+    11. What elements can I add a class to? \
+Any\
+\
+    12. How many times can I use the same class on a page? \
+As many times as necessary\
+\
+    13. How do I get my link to open in a new tab?\
+Use the target attribute\
+\
+    14. What is the alt attribute in the image tag used for? \
+If the initial image does not load it will display the content in alt.\
+\
+    15. How do I reference an id?\
+using the hash #\
+\
+    16. What is the difference between a section and a div\
+A section is a semantic tag as it describes what it represents, however a div tag is a non-semantic.\
+\
+    17. What is CSS used for? \
+It is used to style a webpage\
+\
+    18. How to we select an element? Example - every h2 on the page\
+h2\{\}\
+\
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one\
+You would use a class if you are trying to style multiple tags at once as they can each be the same class. ID would be if your trying to change a specific tag once. \
+\
+    20. How do we select classes in CSS?\
+.aclass\
+\
+    21. How do we select a p element with a single class of \'93human\'94\'94?\
+.p human\
+\
+    22. What is a parent child selector? When would this be useful? \
+It allows you to select elements with a specific parent. If you wanted all of a divs p elements to have a diffrent color would be a good example.\
+\
+    23. How do you select all links within a div with the class of sidebar?\
+div.exampleclass a\{\}\
+\
+    24. What is a pseudo selector?\
+A keyword that allows you that adds a special state. Like hover.\
+\
+    25. What do we use the change the spacing between lines?\
+line-height\
+\
+    26. What do we use to change the spacing between letters?\
+letter-spacing\
+ \
+   27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?\
+text-transform:\
+\
+    28. How do I add a 1px border around my div that is dotted and black?\
+div\{\
+  border: 1px dotted black;\
+\}\
+\
+    29. How do I select everything on the page? \
+*\{\
+\
+\}\
+    \
+30. How do I write a comment in CSS?\
+/**/\
+\
+    31. How do I find out what file I am in, when I am using the command line? \
+it shows to the left of where you are typing\
+\
+    32. Using the command line - how do I see a list of files/folders in my current folder?\
+ls\
+\
+    33. How do I remove a file via the command line? Why do I have to be careful with this? \
+dek /f filename. It actually deletes it without asking again and does not send it to the recycle bin\
+\
+    34. Why should I use version control? \
+It allows you to revert back to a previous version if something goes horribly wrong. It is also a lot better for working with teams.\
+\
+    35. How often should I commit to github?\
+As many times as needed. Usually after you finish some code\
+\
+    36. What is the command we would use to push our repo up to github? \
+git push <remote> <branch>\
+\
+    37. Walk me through Lambda's git flow. \
+- Fork repo to your github\
+- Add TL\
+- Clone FORKED REPO to local machine\
+- create new branch\
+- code code code\
+- commit code/changes with detailed commit messages\
+- push changes to origin\
+- submit pull request\
+- add tl to pull request\
+-tl will merge pr after review\
+\
+Stretch Questions\
+\
+    1. What is the difference between an inline element and a block element?\
+A inline element does not start on a new line and only takes up as much space as needed. A block starts a new line and takes up the full page.\
+\
+    2. What happens when an element is positioned absolutely? \
+From what I understand if an element is positioned absolutely it takes its position information from is ancestor.\
+\
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? \
+You can either do the monster math to include the padding, border, and margin sizes or use flexbox. \
+\
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default\
+Display block: <h1>-><h6>, <p>, <section>, <div>| Inline: <a>, <b>| Inline-Block: <span>\
+\
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? \
+The box model is you have several elements that create a box. In order from inside out you have: the content, padding, border, margin. The problem that is if you set the width to 300px that only changes the content size. So now you have a problem because in order to get the width of the actual box to 300px you have to bust out the calculator and make it so (content width + (padding *2) + (border * 2)(margin * 2) = 300). Or you can just use flexbox.\
+}
