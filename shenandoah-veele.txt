@@ -11,6 +11,8 @@ tag after the element. <a href=""> a being the element and href being the attrib
     4. What is the h1 tag used for? How many times should I use it on a page?The H1 tag is the main headline. It is used once so
 would often be used for a name or a title on the page.
 
+
+
     5. Name two tags that have required attributes? anchor tags and image tags
 
     6. What do we put in the head of our HTML document? header tags
