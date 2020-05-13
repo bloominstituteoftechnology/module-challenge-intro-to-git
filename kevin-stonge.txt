@@ -97,3 +97,5 @@ Stretch Questions
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
     box model: every visual element is represented by a box with a border, margin, and padding
     the 'fix' is to perform a css reset by manually applying default margin/padding/border to all elements that you want to work with.
+    
+    edit: the box-model can be confusing when it comes to the size of the box versus the size of the container when editing border/margin/padding. fix is to use box-sizing: border-box
