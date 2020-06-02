@@ -119,8 +119,16 @@
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        Inline element like span does not create a new line of text on screen.
+        Block elements divide by blocks of things.
     2. What happens when an element is positioned absolutely? 
+        It will be immobile, unlike relative - where the element will
+        move with the page during resizing.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        element{
+            margin: auto;
+            width: 500px;
+        }
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
 
