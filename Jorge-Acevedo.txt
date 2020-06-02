@@ -62,20 +62,41 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
         CAPITALS: "uppercase:" - lowercase: "lowecase:" - Capitalize: "capitalize:"
     28. How do I add a 1px border around my div that is dotted and black?
-        
-    29. How do I select everything on the page? 
+        "border: 1px dotted; border-color: black;"
+    29. How do I select everything on the page?
+        "*"
     30. How do I write a comment in CSS?
+        /*....*/
     31. How do I find out what file I am in, when I am using the command line? 
+        pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        del fileName, have to be careful because it will permanently delete it without warning
     34. Why should I use version control? 
+        it tracks every individual change by each contributor and helping prevent concurrent work from conflicting
     35. How often should I commit to github?
+        about every 20 minutes
     36. What is the command we would use to push our repo up to github? 
+        git push
     37. Walk me through Lambda's git flow. 
+        Find source repository
+        Fork repository
+        add TL/collaborator
+        clone repo
+        cd into directory
+        clone repo into directory
+        cd into new repo
+        create your own branch
+        add/commit changes
+        push changes back into github
+        submit PR 
+         
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+
     2. What happens when an element is positioned absolutely? 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
