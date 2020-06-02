@@ -17,13 +17,13 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     6. What do we put in the head of our HTML document? 
 	A header
     7. What is an id?
-		An ID is a name for an html tag.
+	An ID is a name for an html tag.
     8. What elements can I add an id to?
-Any	
+	Any	
     9. How many times can I use the same id on a page? 
 	Once
     10. What is a class?
-A CSS identifier for a specific style for a tag	
+	A CSS identifier for a specific style for a tag	
     11. What elements can I add a class to? 
 	Any
     12. How many times can I use the same class on a page? 
@@ -48,8 +48,8 @@ A CSS identifier for a specific style for a tag
     21. How do we select a p element with a single class of “human”?
 	p.human {}
     22. What is a parent child selector? When would this be useful? 
-    If you only want to apply a style to tags that are children of other tags
-	23. How do you select all links within a div with the class of sidebar?
+    	If you only want to apply a style to tags that are children of other tags
+    23. How do you select all links within a div with the class of sidebar?
 	div.sidebar a {}
     24. What is a pseudo selector?
 	selectors that apply to events like hover
@@ -60,17 +60,17 @@ A CSS identifier for a specific style for a tag
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
 	text-transform: uppercase|lowercase|capitalize;
     28. How do I add a 1px border around my div that is dotted and black?
-    div {border: 1px dotted black;}
-	29. How do I select everything on the page? 
-    * {}
-	30. How do I write a comment in CSS?
-    /* Comment here */
-	31. How do I find out what file I am in, when I am using the command line? 
+    	div {border: 1px dotted black;}
+    29. How do I select everything on the page? 
+    	* {}
+    30. How do I write a comment in CSS?
+	    /* Comment here */
+    31. How do I find out what file I am in, when I am using the command line? 
 	pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
 	ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-	rm because there is no warning
+	rm because there is no warning and the file is gone permanently
     34. Why should I use version control? 
 	It helps to allow you to go back to an older version and keep backup of code
     35. How often should I commit to github?
@@ -78,7 +78,8 @@ A CSS identifier for a specific style for a tag
     36. What is the command we would use to push our repo up to github? 
 	git push
     37. Walk me through Lambda's git flow. 
-		Fork the lambda repo, add tl as collaborator, clone to your computer, branch -> firstName-lastName, pull-request
+	Fork the lambda repo, add tl as collaborator, clone to your computer, branch -> firstName-lastName, pull-request
+
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
