@@ -42,22 +42,55 @@ https://codepen.io/vPants/pen/bGEGEYa
     by placing a period before the class name
     21. How do we select a p element with a single class of “human””?
     .human or p .human
-    22. What is a parent child selector? When would this be useful? 
+    22. What is a parent child selector? When would this be useful?
+    It is a selector that specifies two layers. You might do this to select only the paragraphs within a class and ignore headers 
     23. How do you select all links within a div with the class of sidebar?
+    .sidebar a{}
     24. What is a pseudo selector?
+    A selector that effects elements in specific circumstances, like when it is being hovered over, or has already been clicked
     25. What do we use the change the spacing between lines?
+    line-height
     26. What do we use to change the spacing between letters?
+    letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform
     28. How do I add a 1px border around my div that is dotted and black?
+    div{
+        border-width: 1px;
+        border-style: dotted;
+        border-color: black;
+    }
     29. How do I select everything on the page? 
+    *{}
     30. How do I write a comment in CSS?
+    /*comment here*/
     31. How do I find out what file I am in, when I am using the command line? 
+    $ pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    $ ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    git rm, this removes the file immediately with no way to recover it
     34. Why should I use version control? 
+    In case there are bugs in the code, it is possible to roll back
     35. How often should I commit to github?
+    Often- after any major change or every 20 minutes
     36. What is the command we would use to push our repo up to github? 
+    git push -u origin "branchname" or just git push
     37. Walk me through Lambda's git flow. 
+Fork
+Add TL as collaborator
+Clone to my machine
+    Using bash, CD to the desired location
+    git clone [URL]
+CD into the repository
+Create a branch
+    git checkout -b "branchname"
+Work on the project
+Upload
+    git add (often)
+    git commit -m "comments" (often)
+    git push (at important sections)
+Create a pull request in github with TL as the reviewer
 
 Stretch Questions
 
