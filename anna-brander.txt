@@ -25,33 +25,75 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     10. What is a class? 
     a class is another type of selector that allows you to format particular elements in CSS
     11. What elements can I add a class to? 
-    any element
+    you can add a class to any element
     12. How many times can I use the same class on a page? 
+    you can use a class as many times as you want to add the same formatting to multiple sections
     13. How do I get my link to open in a new tab?
+    target_blank
     14. What is the alt attribute in the image tag used for? 
+    if the image is not able to be displayed the alt attribute will display on the website instead
     15. How do I reference an id?
+    #idname
     16. What is the difference between a section and a div
+    section is a semantic element and div is not
     17. What is CSS used for? 
+    CSS is used to add style and formatting to our webpage
     18. How to we select an element? Example - every h2 on the page
+    you can use the name of the element (h2) or it's specific class or id
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    HTML: <section class="example">       CSS: .example {formatting}
+    HTML: <section id="example">          CSS: #example {formatting}
+
     20. How do we select classes in CSS?
+    .classname
     21. How do we select a p element with a single class of “human””?
+    HTML:  <p class="human"></p>      CSS:  .human {}
     22. What is a parent child selector? When would this be useful? 
+    it selects all the elements that direct descendants of the top most element, we may use it to pass on formatting to the child elements
     23. How do you select all links within a div with the class of sidebar?
+    .sidebar {}
     24. What is a pseudo selector?
+    a selector used when an element does not have a specific selector but you want to style it individually
     25. What do we use the change the spacing between lines?
+       by changing the line height    
     26. What do we use to change the spacing between letters?
+    change the letter-spacing either by pixles or em
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
     28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        border: dotted, 1px, black;
+    }
     29. How do I select everything on the page? 
+    *{
+
+    }
     30. How do I write a comment in CSS?
+    /* comment */
     31. How do I find out what file I am in, when I am using the command line? 
+       pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm, you should be careful with this because there are no safety prompts and once you do it you can't get the file back
     34. Why should I use version control? 
+    it allows you to collaborate easily with others, it has a variety of stategies for us to uses, we can easily create branches and fork content, helps us keep our projects organized
     35. How often should I commit to github?
+    every 20 mins or everytime you make a significant change
     36. What is the command we would use to push our repo up to github? 
+    git push -u origin "username"
     37. Walk me through Lambda's git flow. 
+    -first you'll want to fork the project, you'll see the name change at the top from Lambda to your name, this is how you know you have the project in your system now
+    -next add your TL as a collaborator now by going to settings--options--collaborators, type in their name in the "add collaborator" box and send them an invite to your project
+    -next clone your repo by clicking the "clone or download" button, copy the url to your clipboard
+    -in your CLI you will type "git clone" then paste in your url, this will clone your url into the directory you were in already in your CLI
+    -create a branch to your repo by typing "git checkout -b 'firstname-lastname', this will create a branch for you to work in without changing the origional code, this is a safeguard to protect your origional code in case you need to revert back to it later
+    -to add your changes to your branch you'll do 3 steps: "git add ." "git commit -m "comments" & "git push -u origin "firstname-lastname"
+    git add . adds your changes, commit allows you to add comments for your future self or other people, push pushes your changes back to github
+    - now submit a pull by selecting new pull request to move your project back to github, this will direct you to the pull request page
+    -make sure your branch is selected and add your TL as a reviewer and submit your project
 
 Stretch Questions
 
