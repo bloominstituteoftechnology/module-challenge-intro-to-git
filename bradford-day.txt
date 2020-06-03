@@ -1,0 +1,86 @@
+url to forked codepen https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
+    1. What is Semantic HTML? 
+    it is html that gives meaning to our content
+    2. What is HTML used for? 
+    its used for the structure of our website
+    3. What is an attribute and where do we put it? 
+    Attributes go in opening tag like for images and links
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    it is the biggest header tag and should only be used once
+    5. Name two tags that have required attributes
+    images and links
+    6. What do we put in the head of our HTML document? 
+    the metadata which is the data about the data in the head
+    7. What is an id? 
+    gives a specific name to one element of your choosing
+    8. What elements can I add an id to? 
+    any single attribute
+    9. How many times can I use the same id on a page? 
+    once
+    10. What is a class? 
+    a name given to any group of attributes
+    11. What elements can I add a class to?
+    any html elements 
+    12. How many times can I use the same class on a page? 
+    as many times as it is chosen
+    13. How do I get my link to open in a new tab?
+    add a target="" attribute
+    14. What is the alt attribute in the image tag used for? 
+    provides alternative information for an image mostly used for screen readers
+    15. How do I reference an id?
+    by using this symbol #
+    16. What is the difference between a section and a div
+    section is for headers, footers, chapters and other sections of html. 
+    div is used to group block elements to be formatted with css
+    17. What is CSS used for? 
+    adds color, font size and color and font type and layouts
+    18. How to we select an element? Example - every h2 on the page
+    By calling the element name like <h2>{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    class can be applied to many elements. an id can only be applied to one.
+    If you wanted to have all your paragraphs<p> one color you would give them a calss name but if you wanted 
+    the last paragraph to be a different color you would give it a id so it would just affect that single <p>
+    20. How do we select classes in CSS?
+    .name{}
+    21. How do we select a p element with a single class of “human””?
+    .human {}
+    22. What is a parent child selector? When would this be useful?
+    it selects all elements that are a direct child of the specified element.
+    it helps with the styling of the page with multiple child selectors
+    23. How do you select all links within a div with the class of sidebar?
+    #sidebar {}
+    24. What is a pseudo selector?
+    is a keyword added to a selector that lets you style a specific part of the selected element
+    25. What do we use the change the spacing between lines?
+    line-height
+    26. What do we use to change the spacing between letters?
+    letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    test-transform: capitalize, lowercase, uppercase
+    28. How do I add a 1px border around my div that is dotted and black?
+     "
+    29. How do I select everything on the page? 
+    * {}
+    30. How do I write a comment in CSS?
+    */ and end with */
+    31. How do I find out what file I am in, when I am using the command line?
+    pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm. there is no warning or way to stop 
+    34. Why should I use version control? 
+    because if it is backed up and there is a crash you can restore to a previous version
+    35. How often should I commit to github?
+     about every 20 mins
+    36. What is the command we would use to push our repo up to github?
+    git push
+    37. Walk me through Lambda's git flow.
+    fork project
+    add tl as collaborator
+    clone repo
+    make a branch
+    push branch to github
+    pull request
+    add tl as a reviewer on pull request
+
