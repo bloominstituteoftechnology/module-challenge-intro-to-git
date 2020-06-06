@@ -106,7 +106,15 @@ https://codepen.io/Angie04/pen/QWyWPOa?editors=1100
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+       Block elements, ex. div, always begin on a new line where, inline elements, can be placed within a block element and does not start on its own line. 
     2. What happens when an element is positioned absolutely? 
+        That element is taken out of the regular document flow, making other elements act as if that element is not on the page.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        Use the margin, padding, height and width properties to adjust the amount of space the element takes up.
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        Block: div, p, ul.
+        Inline: span, img.
+        Inline Block: elemts like p can be set as inline-block and then used to position specifically on a page with other p elements for example.
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        The box model helps to show/allow us to position different elements on a page in a specific way like using width and height properties to fit an image to the page 
+        in a specific way.  Using the box model can also set a specific width to the overall page so that everything within it then keeps to the set properties. 
