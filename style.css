@@ -1,0 +1,56 @@
+body{
+    border: 20px solid teal;
+    font-size:20px;
+    color:#2F4F4F;
+  }  
+  div.container{
+    width:80%;
+    margin:0 auto;
+  }
+  h1{
+    color:#778899;
+    text-align:center;
+  }
+  h1:hover{
+    color:#BC8F8F;
+  }
+  header > div.info{
+    background-color:lightgreen;
+    padding:5%;
+  }
+  header > div.info:hover{
+    background-color:#DEB887;
+  }
+  section.first-section{
+    color:#00CED1;
+    background-color:#2F4F4F;
+    padding:10%;
+  }
+  .first-section:hover{
+    color:#FFA07A;
+    background-color:#696969;
+  }
+  section.second-section{
+    line-height:2.5;
+    letter-spacing:2px;
+  }
+  section.second-section:hover{
+    color:#FF8C00;
+  }
+  section.second-section > h2{
+    color:#778899;
+    text-transform:uppercase;
+  }
+  section.second-section > h2:hover{
+    color:blue;
+    text-transform:capitalize;
+  }
+  section.gallery{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:10% 0;
+  }
+  section.gallery img:hover{
+    border:10px dotted #DC143C;
+  }
