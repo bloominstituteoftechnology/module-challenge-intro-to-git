@@ -51,7 +51,7 @@ Displaying text if the image fails to load.
 section is semantic.
 
     17. What is CSS used for? 
-Styling html.
+Styling the html.
 
     18. How to we select an element? Example - every h2 on the page
 Using a selector. h2 {}
