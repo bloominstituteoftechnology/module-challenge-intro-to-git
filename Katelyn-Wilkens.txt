@@ -1,0 +1,49 @@
+ 1. What is Semantic HTML? A: html that is being output on the screen. 
+    2. What is HTML used for? A; It is the building blocks of a webpage.
+    3. What is an attribute and where do we put it? A; an attribute is a special flag with tags. 
+    4. What is the h1 tag used for? How many times should I use it on a page? A; it is used for a header, and yes you can, but you shouldn't. 
+    5. Name two tags that have required attributes. A; <a and div
+    6. What do we put in the head of our HTML document? <head>
+    7. What is an id? an id is an identification. 
+    8. What elements can I add an id to? attributes
+    9. How many times can I use the same id on a page? as many as you need 
+    10. What is a class? a class is a specific container
+    11. What elements can I add a class to? as many as needed. 
+    12. How many times can I use the same class on a page? as long as you identify it, as many as needed. 
+    13. How do I get my link to open in a new tab? <a href
+    14. What is the alt attribute in the image tag used for? provides alternate information on an image. 
+    15. How do I reference an id? #
+    16. What is the difference between a section and a div. A div divides and a section is used for sectioning off 
+    17. What is CSS used for? it is for making a webpage look pretty. 
+    18. How to we select an element? Example - every h2 on the page. .h2
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. A class is used to identify more than one element an ID can only select one.
+    20. How do we select classes in CSS? a period .
+    21. How do we select a p element with a single class of “human””? p.human
+    22. What is a parent child selector? When would this be useful? > it is used to connect to the main element< aka a parent to the child. 
+    23. How do you select all links within a div with the class of sidebar? div .sidebar
+    24. What is a pseudo selector? means that an element is an a specific state. 
+    25. What do we use the change the spacing between lines? by adding line height. 
+    26. What do we use to change the spacing between letters? by using letter spacing.
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text uppercase, or text lowercase. 
+    28. How do I add a 1px border around my div that is dotted and black? border: 1px dotted black;
+    29. How do I select everything on the page? !
+    30. How do I write a comment in CSS? /*
+    31. How do I find out what file I am in, when I am using the command line? ls
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm + name of file. 
+    34. Why should I use version control? it allows a deeper understanding of web dev. it also allows devlopers to move faster. 
+    35. How often should I commit to github? as much as you think is needed.
+    36. What is the command we would use to push our repo up to github? push -u "file name"
+    37. Walk me through Lambda's git flow. it is used to push up your work to your TL and it allows you to collaborat. and allows you to branch your work to Github.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? it is there absolutely it is very hard to change back
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? block?
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+
+
+   --> 
