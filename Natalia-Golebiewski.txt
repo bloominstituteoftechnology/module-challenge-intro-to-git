@@ -1,3 +1,193 @@
 https://codepen.io/natalia-golebiewski/pen/abdbPvP
-
 https://codepen.io/natalia-golebiewski/pen/zYrGxdL
+
+
+
+    1. What is Semantic HTML?
+- Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation.
+
+
+    2. What is HTML used for? 
+- HTML is one of the languages we use for web development. HTML is what we call a “markup language” (as opposed to a “programming” language like JavaScript or Python). This means that it is specifically designed to display data in a graphical form (rather than execute tasks).
+
+
+    3. What is an attribute and where do we put it? 
+- When we need to include information that we don’t want to render on the page (like the link to an image) we use special flags inside of our tags called attributes. Attributes are always specified in the start tag (or opening tag) and usually consists of name/value pairs like name="value" . Attribute values should always be enclosed in quotation marks.
+
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+- It is used to define HTML heading. h1 is the most important heading. Should be used just once on a page.
+
+
+    5. Name two tags that have required attributes
+- <a> and <img>
+
+
+    6. What do we put in the head of our HTML document? 
+- The HTML <head> element is a container for all the head elements: <title>, <style>, <meta>, <link>, <script>, and <base>.
+
+
+    7. What is an id? 
+- The id attribute specifies an unique id for an HTML element (the value must be unique within the HTML document). The id attribute is most used to point to a style in a style sheet to manipulate the element with the specific id.
+
+
+    8. What elements can I add an id to? 
+- The id attribute can be used on any HTML element.
+
+
+    9. How many times can I use the same id on a page? 
+- You can use many times but the convention is that element IDs should be unique within the entire document.
+
+
+    10. What is a class? 
+- The HTML class attribute is used to define equal styles for elements with the same class name. All HTML elements with the same class attribute will get the same style.
+
+
+    11. What elements can I add a class to? 
+- The class attribute can be used on any HTML element.
+
+
+    12. How many times can I use the same class on a page? 
+- The same class can be used many times on a page. 
+
+
+    13. How do I get my link to open in a new tab?
+- I put target="_blank" to an opening tag. 
+
+
+    14. What is the alt attribute in the image tag used for? 
+- The required alt attribute specifies an alternate text for an image, if the image cannot be displayed.
+syntax: <img alt="text">
+
+
+    15. How do I reference an id?
+- An id is referenced by #.
+
+
+    16. What is the difference between a section and a div
+- The SECTION element is defined as a semantic section of a web page or site that isn't another more specific type such as ARTICLE or ASIDE. Designers frequently use this element when marking up a distinct section of the page—an entire section that could be moved and used on other pages or parts of the site. It is a distinct piece of content.
+In contrast, the DIV element is appropriate for parts of the page that you want to divide up for purposes other than semantics. For example, you might wrap some content in a DIV to give it a "hook" to style with CSS. It might not be a distinct section of content semantically, but it's set apart so that you can achieve a desired layout or feel.
+
+
+    17. What is CSS used for? 
+- CSS stands for Cascading Style Sheets. It is a different language than HTML but it works with HTML. It allows us to add style and layout to our web pages. HTML and CSS work together to create the webpages we are used to seeing. Once the browser reads the HTML, it will then read the CSS and give different styling rules to different elements in our HTML based on how we select them.
+
+
+    18. How do we select an element? Example - every h2 on the page
+- h2 {}
+
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+- The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one. I would use the ID when I had a single element on the page that will take the style. I would use class when I had, or possibly will have in the future, more than one element that shares the same style.
+
+
+    20. How do we select classes in CSS?
+- .name_of_class {}
+
+
+    21. How do we select a p element with a single class of “human””?
+- p.human {}
+
+
+    22. What is a parent child selector? When would this be useful? 
+- Child Selector is used to match all the elements which are child of a specified element. The element > selector selects those elements which are the children of specific parent. The operand on the left side of > is the parent and the operand on the right is the children element. This is used to match elements that are direct children of other elements.
+
+
+
+    23. How do you select all links within a div with the class of sidebar?
+- div.sidebar a {}
+
+
+    24. What is a pseudo selector?
+- A pseudo-class is used to define a special state of an element.
+
+For example, it can be used to:
+
+Style an element when a user mouses over it
+Style visited and unvisited links differently
+Style an element when it gets focus
+
+A CSS pseudo-element is used to style specified parts of an element.
+
+For example, it can be used to:
+
+Style the first letter, or line, of an element
+Insert content before, or after, the content of an element
+
+
+
+    25. What do we use to change the spacing between lines?
+- We use property line-height.
+
+
+
+    26. What do we use to change the spacing between letters?
+- We use property letter-spacing. 
+
+
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+- property text-transform: uppercase
+           text-transform: lowercase
+           text-transform: capitalize.
+           
+    28. How do I add a 1px border around my div that is dotted and black?
+- div {
+       border-style: dotted;
+       border-width: 1px;
+       border-color: black;
+      }
+
+
+
+    29. How do I select everything on the page? 
+- body {}
+
+
+
+    30. How do I write a comment in CSS?
+- I start with /* and end with */
+
+
+
+    31. How do I find out what file I am in, when I am using the command line? 
+- pwd
+
+
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+- ls
+
+
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+- rm <path to file>,  I need to be careful with this because the removed file can not be got back.
+
+
+
+    34. Why should I use version control? 
+- Version control is important for documents that undergo a lot of revision and redrafting and is particularly important for electronic documents because they can easily be changed by a number of different users. Version control is also important if you are working on a collaborative document with a number of contributors and/or with frequent revisions.
+
+
+
+    35. How often should I commit to github?
+- every time after completing an unit of work.
+
+
+
+    36. What is the command we would use to push our repo up to github? 
+- git push
+
+
+
+    37. Walk me through Lambda's git flow. 
+- ~ fork
+  ~ add your Tl as a collabolator
+  ~ clone
+  ~ in Terminal make a new branch: git checkout -b firstname-lastname
+  ~ git add
+  ~ git commit -m "a message"
+  ~ git push
+  ~ on Github - Compare and pull request
+  ~ add reviewer
+  ~ Create pull request
