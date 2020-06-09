@@ -1,3 +1,5 @@
+https://codepen.io/kendra4227/pen/bGEGPOp
+
    1. What is Semantic HTML? A markup language that has meaning
     2. What is HTML used for? to define the structure and layout of a web page 
     3. What is an attribute and where do we put it? links one page to another
