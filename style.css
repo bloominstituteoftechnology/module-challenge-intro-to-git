@@ -54,3 +54,9 @@ body{
   section.gallery img:hover{
     border:10px dotted #DC143C;
   }
+
+h2{
+  color:green;
+  font-weight:bold;
+
+}

@@ -41,7 +41,7 @@ Pen questions:
 
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
 
-28. How do I add a 1px border around my div that is dotted and black? border: 1px dashed black;
+28. How do I add a 1px border around my div that is dotted and black? border: 1px dot black;
 
 29. How do I select everything on the page? *{ }
 
@@ -49,31 +49,47 @@ Pen questions:
 
 31. How do I find out what file I am in, when I am using the command line? pwd
 
-32. Using the command line - how do I see a list of files/folders in my current folder?ls -a -l or dir in windows
+32. Using the command line - how do I see a list of files/folders in my current folder?
+ls -a -l or dir in windows
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
-34. Why should I use version control? Version control is great because it will help debug your project, collaborate with team mates, and it provides extra up-to-date information on the project.
-35. How often should I commit to github? Anytime you feel like a good stopping point has been achieved, or if you feel like something in the project needs to be explained outside of comments. 
-36. What is the command we would use to push our repo up to github? Git push origin  branch-name
-37. Walk me through Lambda's git flow. First fork or own the repo to your username’s repo, Add the TL as a Collaborator, Clone the repo to own a local copy on your hard drive, create a branch to implement the project on with git checkout -b  first-name  so you have a branch to submit your private reserve to. Once complete make a pull request so the TL is added as a reviewer. Once TL has graded the assignment it will be merged to your fork onto the master branch.
+34. Why should I use version control?
+ Version control is great because it will help debug your project, collaborate with team mates, and it provides extra up-to-date information on the project.
+35. How often should I commit to github? 
+Anytime you feel like a good stopping point has been achieved, or if you feel like something in the project needs to be explained outside of comments. 
+36. What is the command we would use to push our repo up to github? 
+Git push origin  branch-name
+37. Walk me through Lambda's git flow. 
+First fork or own the repo to your username’s repo, Add the TL as a Collaborator, Clone the repo to own a local copy on your hard drive, create a branch to implement the project on with git checkout -b  first-name  so you have a branch to submit your private reserve to. Once complete make a pull request so the TL is added as a reviewer. Once TL has graded the assignment it will be merged to your fork onto the master branch.
 
 
 Stretch Questions
 
-1. What is the difference between an inline element and a block element?
-2. What happens when an element is positioned absolutely? 
-3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+1. What is the difference between an inline element and a block element? 
+Block elements do not get changed by the preceding element
+2. What happens when an element is positioned absolutely?  
+In addition to having default positioning it is only affected by other elements and it does not affect other elements. It is  placed in an absolute location relative to the parent element.
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+By box modeling it with width height margin and padding to make up its content. 
 4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+display block - div header p
+inline display - span button a
+inline-block display - li inside of nav
 5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+By giving the parent element a display of block or inline-block and adjusting the position of the child elements with positining that is relative or absolute
 
 
 
 Stretch Review questions: 
-1. What is the difference between an inline element and a block element? Inline elements are more flexible than block elements. 
+1. What is the difference between an inline element and a block element?
+ Inline elements are more flexible than block elements. 
 With block elements you are going to get a new line or another element next to each other depending on the height and weight. With inline elements you can place one within another or overlap them to your choosing depending on how you configure the display. Sometimes you will have to choose one or the other depending on the circumstances. However I think an inline-block element is the best to use because 
 of how easy the element is to move around or position with float.  
-2. What happens when an element is positioned absolutely? It will have a fixed position based on its computed values. Its harder for an ancestor element to affect it since its value will always correspond to the same position.   
-3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? You should use relative positioning and then use top left bottom and right to position it. Next width or height can be added to allow it to take the full effect you wanted in the first place. 
+2. What happens when an element is positioned absolutely? 
+It will have a fixed position based on its computed values. Its harder for an ancestor element to affect it since its value will always correspond to the same position.   
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+You should use relative positioning and then use top left bottom and right to position it. Next width or height can be added to allow it to take the full effect you wanted in the first place. 
 4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default?
 3 Display Block - div, h1 - h6, form, header or p Any elements that start with a new line are block display elements
 2 display inline - span a or img Any items that can be placed next to eachother are going to be inline display elements. I've found alot of libraries with nice features seem to make use of this element. For example icons always seem to get displayed with inline elements such as i or span. 1 inline-block - class id or element that is an inline element but also has padding and margins on all four sides.   
-5. In your own words, explain the box model. What is the fix for the box model? The box model is defined by padding, margin, border, width and height.   
+5. In your own words, explain the box model. What is the fix for the box model? 
+The box model is defined by padding, margin, border, and content.   
