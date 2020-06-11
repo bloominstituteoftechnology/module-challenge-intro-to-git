@@ -42,4 +42,16 @@ public class CustomerServiceimpl
 
         return custrepo.findByCustnameContainingIgnoreCase(thename);
     }
+
+    @Override
+    public void delete(long id)
+    {
+
+    }
+
+    @Override
+    public Customer save(Customer customer)
+    {
+        return null;
+    }
 }
