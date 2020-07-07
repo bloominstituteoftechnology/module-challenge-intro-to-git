@@ -1,0 +1,48 @@
+https://codepen.io/boahs-the-typescripter/pen/gOPezrM
+
+1. What is Semantic HTML? The best practice of using HTML. If HTML is semantically correct it'll help screenreaders, search engines, and just give a clear context overall.
+    2. What is HTML used for? create pages to display to users on WWW
+    3. What is an attribute and where do we put it? Specific words used inside a <tag> to give logic. They're inside a <tag = "HERE"></tag> 
+    4. What is the h1 tag used for? How many times should I use it on a page? The most important heading of a page. You should only use it ONCE.
+    5. Name two tags that have required attributes. <form action="/example_page.php"></form> <img src="example.jpg" alt="photo of nothing">
+    6. What do we put in the head of our HTML document? Metadata eg: styles, scripts, page title.
+    7. What is an id?  A selector used to specify a style for an element. 
+    8. What elements can I add an id to? Any unique HTML element...eg: #importantHead { color: red; } <h1 id="importantHead">...</h1>
+    9. How many times can I use the same id on a page? Once - IDs should remain unique. Each page should only have one element with that ID. 
+    10. What is a class? a selector starting with a '.' can be used as many times as you want.
+    11. What elements can I add a class to? Many - <h1> <h2> <div>... etc an exmaple would be .fruitFavorites{ background-color: red; color: white;} <div class ="fruitFavorites"><h2>hi i love these fruits</h2><p>...</p></div>
+    12. How many times can I use the same class on a page? as many times as you want
+    13. How do I get my link to open in a new tab? add 'target="_blank"' inside your anchor tag. 
+    14. What is the alt attribute in the image tag used for? used to describe an image to people who are seeing impared, screen readers etc. 
+    15. How do I reference an id? adding a '#' before the name of the ID in your css. #exampleID{ color : red; }
+    16. What is the difference between a section and a div - Sections will usually contain specific sections in your page. Like a footer, header, paragraphs. The <div> tag will define a division to group block-elements. 
+    17. What is CSS used for? to style a page 
+    18. How to we select an element? Example - every h2 on the page  h2 { color: orange } - You tell your CSS rule which HTML elements to style by using the element selector, which is just the name of the element.
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one - A class will be multiple elements, and an ID will be a specific element. Example for ID : #h2 { color : red; } Example for class : .berries { color : orange; } 
+    20. How do we select classes in CSS? by using a period '.' followed by the name of the class .cranberries{ font-size: 32px; }
+    21. How do we select a p element with a single class of “human””? p.human{...;};
+    22. What is a parent child selector? When would this be useful? The child selector will be used to match any elements which are the child of a specific element. The parent will be on the left side of a '>' and the child on the right side. Example div > p {font-size:32px;} this will change all <p> elements font size to 32pixels that reside under the <div> tag. It might be important to use this when trying to be very specific on what you want to style in your page.
+    23. How do you select all links within a div with the class of sidebar? We use a descendant selector EXAMPLE : #div links{...};
+    24. What is a pseudo selector? Changes the state of a selected element. Example :hover is what we've been using so far where we can change whatever we hover over with out mouse. 
+    25. What do we use the change the spacing between lines? line-height 
+    26. What do we use to change the spacing between letters? letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform
+    28. How do I add a 1px border around my div that is dotted and black? we use the :hover pseudo selector, and add the proper properties. In this case it would be border: - Example - .p2 fruits:hover{border: 1px dotted #FFFFFF} <- White Black -> .p2 fruits:hover{border: 1px dotted #000000}
+    29. How do I select everything on the page? we use the * selector * { background-color: blue; }
+    30. How do I write a comment in CSS? // or /* */
+    31. How do I find out what file I am in, when I am using the command line? pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this?  rm - it's usually instant, and permanent too.
+    34. Why should I use version control? so you aren't messing up someone elses code. When we're using a new branch we're only making changes locally to our branch, and we'll still need to merge it into the master branch.
+    35. How often should I commit to github? every 20 minutes 
+    36. What is the command we would use to push our repo up to github? push -u origin master (or what ever branch you're pushing to)
+    37. Walk me through Lambda's git flow. Okay first we'll need to fork the repository we're wanting to make changes to. After we've done that we'll need to add our team leader as the collaborator. Now we'll open up gitbash, and move into the directory we're wanting to save this locally to. cd... mkdir... Now back onto the github page, we'll have to hit "code" (which use to be "CLONE") and copy the URL. Back in the terminal we'll input the following : git clone <url>. Now we'll need to make a branch to start making our edits to. So we'll do that by inputting the following - git checkout -b 'Our-Name'. Once we've made our edits we'll need to commit by inputting the following - git commit -m 'message' then we'll have to push it. So we'll input the following - git push origin 'Our-Name'. Now we'll open the repository again and hit "Create pull request" while under our branch we made. Once we're there we'll hit "compare" if all commits that were pushed is OKAY the team leader will merge your changes, and it'll be live.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element? The line element won't start on a new line, and wil only occupy the width it requires. The block element will start on a new line, and occupy the FULL width available, and we can set the width and height values.
+    2. What happens when an element is positioned absolutely? A fixed positon. It'll be positioned relative to the nearest ancestor element. 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? We use a block element, and change the width accordingly 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default <li> , <ol>, <p> | <button> <img> | <width>  
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    It's like looking at a house. The box model will be all the HTML elements, and the CSS box model will be what wraps around that specific HTML. and to make all elements respect the width given to them we'll simply add the width: property. It'll be applied to all elements except the inline elements , and table rows. 
