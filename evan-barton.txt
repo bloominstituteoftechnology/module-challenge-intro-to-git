@@ -129,7 +129,7 @@ a few times an hour
 git push <remote> <branch>
 
     37. Walk me through Lambda's git flow.
-        1.fork a repo
+        1.fork a repo.
         2. double check it was correctly forked
         3. add your TL as a collaborator
         4. Clone your repo.
