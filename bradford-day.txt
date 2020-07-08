@@ -105,6 +105,5 @@ Stretch Questions
     display inline block = button
 
     
-    
-    
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
