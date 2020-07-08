@@ -57,7 +57,7 @@ Link to finished codepen https://codepen.io/landcourt1/pen/ZEQxVEx?editors=1100
     28. How do I add a 1px border around my div that is dotted and black?
         You would give your div a border and set the width to 1px, the style to dotted, and the color black.
     29. How do I select everything on the page? 
-        body.
+        * {}.
     30. How do I write a comment in CSS?
         /* whatever you want your comment to be */
     31. How do I find out what file I am in, when I am using the command line? 
@@ -71,12 +71,35 @@ Link to finished codepen https://codepen.io/landcourt1/pen/ZEQxVEx?editors=1100
     35. How often should I commit to github?
         You should commmit every 20 min or anytime you've fixed a bug or anything significant. 
     36. What is the command we would use to push our repo up to github? 
+        git push -u origin "your-name" for the first time and then just git push.
     37. Walk me through Lambda's git flow. 
+        1. fork 
+        2. make sure your name is in front of the repo 
+        3. add TL as collaborator 
+        4. clone your repo using githubs clone and download buttom 
+        5. go to the directory and clone the fork repo. 
+        6. use the git clone command to clone the repo to the directory you're currently in 
+        7. cd into the newly created repo using cd reponame command
+        8. use git checkout -b 'courtland-gardner' to create your own branch name for the repo (work branch)
+        9. work 
+        10. add the repo changes with git add .
+        11. commit the changes with your specified commit message using git commit -m "message"
+        12. push up changes to your github repo with git push -u origin branch-name (same name as git checkout -b)
+        13. after changes are on github sumbit a pull request
+        14. go back to project, click on branch botton, click on name branch and then make a new pull request on name branch
+        15. once on pull request page click the dropdown button that says base repository and change it to your repo 
+        16. add your TL as a reviewer and submit pull request
+
+
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        A block element always starts on a new line and takes up full width available, while an inline element does not start on a new line and it only takes up as much width as neccessary.
     2. What happens when an element is positioned absolutely? 
+        When an element is positioned absolutely the elements computed position value is absolute or fixed. 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        An inine element.
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
