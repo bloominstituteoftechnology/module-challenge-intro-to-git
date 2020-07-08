@@ -1,0 +1,192 @@
+link to finished codepen: https://codepen.io/egoode007-the-reactor/pen/MWKVBWj?editors=1100
+
+1. What is Semantic HTML?
+
+Semantic HTML is HTML that introduces meaning to the web page rather than just presentation.
+
+2. What is HTML used for?
+
+It allows the user to create and structure sections, paragraphs, headings, links, and blockquotes for web pages and applications.
+
+3. What is an attribute and where do we put it?
+
+HTML attributes provide additional information about HTML elements. Attributes are always specified in the start tag.
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+
+The H1 tag identifies a main title on a page and is the largest header style. You should only use it once.
+
+5. Name two tags that have required attributes
+
+<img> and <a>
+
+6. What do we put in the head of our HTML document?
+
+Metadata elements such as: <title> (required in every HTML document), <style>, <base>, <link>, <meta>, <script>, <noscript>.
+
+7. What is an id? 
+
+It specifies a unique id for an HTML element
+
+8. What elements can I add an id to? 
+
+All html elements
+
+9. How many times can I use the same id on a page?
+
+Only once
+
+10. What is a class?
+
+It specifies one or more classnames for an element particularly in a stylesheet.
+
+11. What elements can I add a class to?
+
+All html elements
+
+12. How many times can I use the same class on a page?
+
+Only once
+
+13. How do I get my link to open in a new tab?
+
+By adding the target="_blank" attribute in the anchor tag
+
+14. What is the alt attribute in the image tag used for? 
+
+It specifies alternative text (alt text) that is to be rendered when the element to which it is applied cannot be rendered
+
+15. How do I reference an id?
+
+#id
+
+16. What is the difference between a section and a div
+
+The <section> tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document. whereas: The <div> tag defines a division or a section in an HTML document.
+
+17. What is CSS used for?
+
+CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts.
+
+18. How to we select an element? Example - every h2 on the page
+
+By using selectors.
+
+h2{
+
+}
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one. You might use ID when you want to make changes to the main title of a page since there is this is only one element on the page and there should be no more like it. You will use class to identify multiple elements such as multiple paragraphs or sections in the page.
+
+20. How do we select classes in CSS?
+
+.classname
+
+21. How do we select a p element with a single class of “human””?
+p .human{
+
+}
+
+22. What is a parent child selector? When would this be useful? 
+
+Child Selector is used to match all the elements which are child of a specified element. It gives the relation between two elements. The element > element selector selects those elements which are the children of specific parent.
+
+23. How do you select all links within a div with the class of sidebar?
+
+div a.sidebar:link{
+
+}
+
+24. What is a pseudo selector?
+
+A selector that selects elements that are in a specific state, e.g. they are the first element of their type, or they are being hovered over by the mouse pointer.
+
+25. What do we use the change the spacing between lines?
+
+By setting line-height property for div elements in CSS
+
+26. What do we use to change the spacing between letters?
+
+By setting letter-spacing property for div elements in CSS
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+By setting the text-transform property for div elements. For CAPITALS: text-transform: uppercase. For lowercase: text-transform: lowercase. For Capitalize: text-transform: capitalize.
+
+28. How do I add a 1px border around my div that is dotted and black?
+div{
+    border-style: dotted;
+    border-color: black;
+}
+
+29. How do I select everything on the page?
+*{
+
+}
+
+30. How do I write a comment in CSS?
+
+/*This is your comment*/
+
+31. How do I find out what file I am in, when I am using the command line?
+
+By looking at the file path displayed on the command line screen.
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+
+By typing "ls"
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+rm filename. This cannot be undone and does not provide a warning before deletion.
+
+34. Why should I use version control?
+
+Version control is important to keep track of changes — and keep every team member working off the latest version
+
+35. How often should I commit to github?
+
+For every "unit" of work
+
+36. What is the command we would use to push our repo up to github? 
+
+git push
+
+37. Walk me through Lambda's git flow. 
+
+a. Create Your Own version of Repo --> (Fork)
+b. Add your TL as a collaborator on the forked repo
+c. Clone your repo
+d. Inside the CLI, use the cd command to go to directory where you want to store the repo
+e. Use the git clone repo url to clone the repo in the directory you selected
+f. cd in the repo by using the command cd repo-name.
+g. use the git checkout -b firstname-lastname command to create your own branch name for repo
+h. Work on repo
+i. git add and then git commit -m "Your commit message" when done working on repo
+j. git push -u origin branch-name to push commits to github
+k. Submit a pull request on github
+l. Click the branch drop down in Github and select the your name-branch, then new pull request, click the base repository dropdown, change to forked repo, add TL as reviewer, and submit pull request.
+
+Stretch Questions
+
+1. What is the difference between an inline element and a block element?
+
+By default, inline elements do not force a new line to begin in the document flow. Block elements, on the other hand, typically cause a line break to occur (although, as usual, this can be changed using CSS).
+
+2. What happens when an element is positioned absolutely? 
+
+An absolutely positioned element is an element whose computed position value is absolute or fixed.
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+
+By using the CSS box model. Margin property allows the element to take up the amount of space it needs and padding specifies its width.
+
+4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+Button , input , select , and textarea are display block by default. <span> , <strong>, and <img> tags are examples of inline by default elements. Navigational links are inline-block by default.
+
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+A box that wraps around every html element. The box model consist of layers where the outmost is called margin, then border, padding, and the innermost is content. In CSS, you can set width properties for specific content but for the elements to respect the width we specified then we must use a margin, border, and padding around the element.
