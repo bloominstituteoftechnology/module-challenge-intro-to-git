@@ -1,0 +1,80 @@
+body{
+    border: 15px solid black;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+div.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+h1{
+    text-align: center;
+    margin: 30 0;
+    color: #797979;
+}
+
+h1:hover{
+    color:darkcyan;
+}
+
+
+div.intro{
+background-color: grey;
+color:white;
+margin: 0 auto;
+padding: 10%;
+line-height:1;
+letter-spacing:0.5px;
+}
+
+div.intro:hover{
+    background-color: lightblue;
+    margin: 0 auto;
+    color: black;
+    }
+
+.section-one{
+    color:white;
+  background-color:black;
+  padding:10%;
+  line-height:1;
+  letter-spacing:0.5px;
+
+}
+
+.section-one:hover{
+    background-color: lightcyan;
+    color: black;
+}
+
+.section-two{
+    line-height:2;
+    letter-spacing:1px;
+  }
+
+  .section-two:hover{
+    color:lightseagreen;
+  }
+
+  .section-two h2{
+    text-transform: uppercase;
+  }
+
+  .section-two h2:hover{
+    color:lightseagreen;
+    text-transform:capitalize;
+  }
+
+  .gallery-section{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding: 10%;
+  }
+
+  .gallery-section img:hover{
+    border: cyan dotted 10px;
+  }
