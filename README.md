@@ -1,50 +1,132 @@
-# Git for Web Development Project
-In this project you will be using the concepts learned in the Git for Web Development lesson to fork/clone/push/and submit a PR for each project during this sprint.
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
 
-This project consists of two parts:
+   1. What is Semantic HTML? 
+Specific and individual elements for different content.
+    
+2. What is HTML used for? 
+       To create the foundation of a website
+    
+3. What is an attribute and where do we put it? 
+Gives extra info about a given element.
+    
+4. What is the h1 tag used for? How many times should I use it on a page? 
+To create a title. You can use it as much as you want.
+       
+5. Name two tags that have required attributes
+<a href   and   <img src
+    
+6. What do we put in the head of our HTML document? 
+meta data, title, links to .js .css and exd
+    
+7. What is an id? 
+to name an element unique
+    
+8. What elements can I add an id to? 
+a single header or h2
+    
+9. How many times can I use the same id on a page? 
+once
+    
+10. What is a class? 
+a class provides the same action to multiple things.
+    
+11. What elements can I add a class to? 
+div, section
+    
+12. How many times can I use the same class on a page? 
+A many as you need.
+    
+13. How do I get my link to open in a new tab?
+<a href="Link></a>
+   
+ 14. What is the alt attribute in the image tag used for? 
+  For accessibilty. Example, it would describe a photo for a blind person.
+   
+ 15. How do I reference an id?
+     by using the ID selector
+    
+16. What is the difference between a section and a div
+    a section is a section of contact. A div is for organization inside the section
+    
+17. What is CSS used for? 
+For styling a webpage
+   
+ 18. How to we select an element? Example - every h2 on the page
+h2 {
+  
+}
+    
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+A class could be used to change multiple things by selecting that class. The ID is for a unique element.
+    
+20. How do we select classes in CSS?
+    .classname {
 
-## Task 1: Set up Project
-You will need to follow the Lambda School Git Workflow to add a file to this project follow the steps below:
+}
+   
+ 21. How do we select a p element with a single class of “human””?
+.human p {
 
-- [ ] Create your own version of this repo - Fork
-- [ ] Add your TL as a collaborator
-- [ ] Clone this repo
-- [ ] Create a branch `git checkout -b 'firstName-lastName'`
-  - [ ] Add a file to the project called `yourFirstName-yourLastName`.txt. This should contain the link to your completed codepen from part 2 as well as the review questions/answers
-  - [ ] Run your usual git commands for adding/committing and pushing **Be sure to push to your branch!**
-- [ ] Create a Pull-Request to submit your work
-  - [ ] Use your own student fork as the base (compare across forks, base-fork -> main).
-  - [ ] Add your TL as a reviewer on the Pull-Request
-- [ ] TL then will count the Assignment as done by merging the HW back into main "STUDENT FORK".
+}
+   
+ 22. What is a parent child selector? When would this be useful? 
+     selects all elements that are a direct child. When you need change the child?
+   
+ 23. How do you select all links within a div with the class of sidebar?
+   .sidebar {}
+ 24. What is a pseudo selector?
+specifies a specific state
+   
+ 25. What do we use the change the spacing between lines?
+line height property
+   
+ 26. What do we use to change the spacing between letters?
+letter spacing property
+   
+ 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform
 
-## Task 2: MVP
-1. fork this codepen https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
-2. You will be marking up all of the HTML and styling it to look like this: https://codepen.io/BritHemming/full/jONmxOm using CSS
-* this should be review from yesterday/ extra practice
-3. After you are finished please copy the review questions into your .txt file and answer them
-4. don't forget to add, commit and push your changes.
+   
+ 28. How do I add a 1px border around my div that is dotted and black?
+by using outline properties
+   
+ 29. How do I select everything on the page? 
+by using the body selector 
+   
+ 30. How do I write a comment in CSS?
+/* This is a comment /*
+   
+ 31. How do I find out what file I am in, when I am using the command line? 
+pwd?
+   
+ 32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+   
+ 33. How do I remove a file via the command line? Why do I have to be careful with this? 
+   rm and because once it is deleted it is gone for good.
+ 
+34. Why should I use version control? 
+to keep organized
+   
+ 35. How often should I commit to github?
+everytime
+   
+ 36. What is the command we would use to push our repo up to github? 
+git push
+   
+ 37. Walk me through Lambda's git flow. 
+Fork, collaborate, clone, branch, submit
 
-## Task 2b: Exit Ticket
+Stretch Questions
 
-Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/M94mbzuHGQoMg6F3e/w9GqZYCQ2YoZZf).
-
-The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability without using external references.
-
-## Task 3: Stretch
-Stretch Review questions: 
     1. What is the difference between an inline element and a block element?
     2. What happens when an element is positioned absolutely? 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the fix for the box model? 
-Stretch Git Tasks
-- [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
-  - [ ] Research and understand what a `merge conflict` is and how to resolve it.
-  - [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the main branch.
-  - [ ] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
-
-- [ ] Research and set up a Graphical User Interface (GUI) Git console. 
-
-- [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
 
 
+
+   --> 
