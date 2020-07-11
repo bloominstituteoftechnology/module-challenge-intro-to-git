@@ -157,6 +157,9 @@ Stretch Questions
 The difference between an inline element and a block element is that the inline element doesn't need to start on a new line and will only occupy the width it requires (this, nor the height can be set); while the block element can be started on a new line and can occupy it's full width.
 
     2. What happens when an element is positioned absolutely? 
+When an element is positioned absolutely, it gets removed from normal doc flow and is positioned at the starting point of its parent element.
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+     
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
