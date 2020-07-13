@@ -1,7 +1,6 @@
 https://codepen.io/DonnieJewel/pen/NWxBjEz?editors=1100
 
 
-
 1. What is Semantic HTML? 
 Semantic HTML is the recommended standard for HTML markup.
 
