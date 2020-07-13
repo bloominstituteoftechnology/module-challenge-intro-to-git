@@ -1,0 +1,47 @@
+1. What is Semantic HTML? Defines its meaning to browser and devloper
+    2. What is HTML used for? Used to create pages design for the web
+    3. What is an attribute and where do we put it? attributes define characterristicsof the element and can be set to different values, attributes are listed at the start of a tag
+4. What is the h1 tag used for? header tag How many times should I use it on a page?once
+    5. Name two tags that have required attributes. <img> and <form>
+    6. What do we put in the head of our HTML document? metadata
+    7. What is an id? id is used to select and specifystyle one unique element
+    8. What elements can I add an id to? 
+    9. How many times can I use the same id on a page? once
+    10. What is a class? it specifies one or more classnames for an element 
+    11. What elements can I add a class to? <div>, <section>
+    12. How many times can I use the same class on a page? several
+    13. How do I get my link to open in a new tab? 
+    14. What is the alt attribute in the image tag used for? it gives a text description of your image for people using screeen readers
+    15. How do I reference an id? #
+    16. What is the difference between a section and a div
+    17. What is CSS used for? togove style to your HTML document
+    18. How to we select an element? Example - every h2 on the page
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    20. How do we select classes in CSS? .name of class
+    21. How do we select a p element with a single class of “human””? .human p
+    22. What is a parent child selector? When would this be useful? 
+    23. How do you select all links within a div with the class of sidebar?
+    24. What is a pseudo selector? defines the special state of an element, ex. mouse hovers over element
+    25. What do we use the change the spacing between lines?margin,padding, line-height
+    26. What do we use to change the spacing between letters?letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform: uppercase, lowercase or capitalize
+    28. How do I add a 1px border around my div that is dotted and black?
+    29. How do I select everything on the page? 
+    30. How do I write a comment in CSS?/*
+    31. How do I find out what file I am in, when I am using the command line? 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    33. How do I remove a file via the command line? Why do I have to be careful with this? once you remove a file it can never be recovered, it is removed permanently
+    34. Why should I use version control? to keep track of changes, and keep every team member working off the latest version
+    35. How often should I commit to github? as often as I like
+    36. What is the command we would use to push our repo up to github? push
+    37. Walk me through Lambda's git flow. fork, then clone, branch, add,commit, push, pullrequest
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?block element occupies the width of the screen
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+https://codepen.io/Shuna/pen/YzwjwJm?editors=1100&__cf_chl_jschl_tk__=2d09807c981de6874c4e547ce70dca0078fd4564-1594572627-0-AZxZmLqbrGDWcqElvs2SMU-3OVQ599YEnyKzczHL_xc9kWcHWOMTwd-xytHc9B-WCOP76NQcXo1DxmsiX4DVdgbJxDAnqNP-DBd8iObNyp_cvyDR2hKnD8JroviLDvnkO7nLAMRSatWEiEmU9aB-PLUSXG0rZQea_N9A1XSQfDFrFPRwY-3Bp87W2O-y5GW2xF1l4BK957SHNi6F6MpYsyO6fo95CBF7Gh-aHkiiicXANdfzUtOU5cdn2JCai9NKuW-_BOdGt0fM7q4S3zEgUxocR3pBmY_LgQhID6WZcZLyUqcLwIOeceZo-t_DFbTXPvn4nKF9D1CbKOzaBke8YnV7o3yQ_pUADc2z8u8KVfLuWF9rmoO99i2yfmFEnnGTPg
