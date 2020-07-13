@@ -1,0 +1,30 @@
+My codepin
+https://codepen.io/extrude575757/pen/bGEKbKx
+
+
+Pen questions:
+1. What is Semantic HTML? 
+Semantic HTML is an older style of HTML used before name clashes would start to occur. Its a markup language that let you custom name and style your HTML tags. Its helps to reinforce the meaning of information in web pages. 
+
+2. What is HTML used for? 
+HTML is a markup language document that allows the developer to execute css, javascript, python, perl, or php. 
+
+3. What is an attribute and where do we put it? 
+Attributes help define additional characteristics of an element. They can be found at the start of of the specified tag you consist of a name value pair which is enclosed in parenthesis. An example is the class or id attribute in a div <div class='classAttribtues' id='onlyId' > 
+
+4. What is the h1 tag used for? 
+How many times should I use it on a page? 
+It's the largest there is out of 6 different headings though other headings can be styled with larger fonts. You should typically want it to be the single most largest heading on the page. Any heading h1 - h6 used should only be a on a page one time. 
+
+5. Name two tags that have required attributes. 
+src in the <img> tag <img src='file.jpg' > or href in the <a> tag <a href='page.php'> 
+
+6. What do we put in the head of our HTML document? 
+<title>, <link>, <script>, <meta>, <style>, <base>, <!Doctype html> <html>
+
+7. What is an id? 
+An id names a element and can only be used one time or you would be better off naming it as a class. 
+
+8. What elements can I add an id to? 
+id is a global attribute and can be added to any HTML element though I recommend adding it to a div element that is unique and will only be used once. 
+
