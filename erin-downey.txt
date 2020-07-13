@@ -160,7 +160,7 @@ A more descriptive set of HTML tags for developers and browsers
     Anytime your changig a file 
 
     36. What is the command we would use to push our repo up to github? 
-    git. -u origin branch-name
+    git.push
 
     37. Walk me through Lambda's git flow. 
     Fork
@@ -172,7 +172,7 @@ A more descriptive set of HTML tags for developers and browsers
     Begin repo work
     Add git add filename
     Commit git commit -m explain changes that were made
-    Push changes back up to GitHub repo git.push -u origin branch-name
+    Push changes back up to GitHub repo git.push 
     Submit PR(Pull Request)
     Add TL to Reviewers & submit pull request
     Do Not Merge PR 
