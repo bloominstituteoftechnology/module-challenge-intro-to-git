@@ -1,0 +1,267 @@
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+
+    Semantic HTML is the correct use of HTML to reinforce the meaning of content on a web page, rather than merely define its appearance
+
+    2. What is HTML used for? 
+
+    HTML (Hypertext Markup Language) is use for web development. 
+    HTML is used to create electronic documents (called pages) that are displayed on the World Wide Web. 
+    They are rendered by the browser to display the documentation's content to the user.
+
+    3. What is an attribute and where do we put it? 
+
+    An attribute either modifies the default functionality of an element type or provides functionality to 
+    certain element types unable to function correctly without them. 
+    In HTML syntax, an attribute is added to an HTML start tag. 
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+
+    h1 tag also known as heading tag are use to represent the subject matter of a website page. 
+    h1 is the most important and h6 is the least important. By default, 1 will be the largest, 2 will be the next largest, and etc.
+    Use only one h1 tag per page. 
+
+    5. Name two tags that have required attributes
+
+    anchor tag (a tag) example -   <a href="http://www.lambdaschool.com">Here is a link!</a>
+    image tag (img tag) example -   <img src="https://picsum.photos/500/300" />
+    input tage example - <input type="text" value="John Doe">
+
+    6. What do we put in the head of our HTML document? 
+
+    The <head> tag is used to contain specific information about a web page, often referred to as metadata.
+    Metadata is not displayed. Metadata typically define the document title, character set, styles, scripts, and other meta information.
+
+    7. What is an id? 
+
+    The id selector is used to specify a style for a single, unique element.
+    In other words, id's  are titles that can only appear on a single element. 
+
+    8. What elements can I add an id to? 
+
+    The id selector uses the id attribute of the HTML element, and is defined with a "#". class
+
+
+    9. How many times can I use the same id on a page? 
+
+    Ids are titles that can only appear on a single element.
+    But it is possible to have more than one class in a single element.
+
+    10. What is a class? 
+
+    The class attribute specifies one or more classnames for an element.
+    
+    11. What elements can I add a class to? 
+
+    Any HTML element.
+
+    12. How many times can I use the same class on a page? 
+
+    There is no technical limit (barring the amount of memory the browser may be consuming), 
+    but one should heavily consider having loads of classes on any element as the browser will 
+    have to parse all the classes, apply those styles and render the page. 
+
+    13. How do I get my link to open in a new tab?
+
+    Using the anchor tag (a tag) and the target="_blank" attribute. This would allow the browser to
+    render a new document in a new tab. 
+
+    14. What is the alt attribute in the image tag used for? 
+
+    The required alt attribute specifies an alternate text for an image, if the image cannot be displayed. 
+    The alt attribute provides alternative information for an image if a user for some reason cannot view it
+    (because of slow connection, an error in the src attribute, or if the user uses a screen reader).
+
+    15. How do I reference an id?
+
+    The id attribute is used using # symbol followed by id.
+
+    16. What is the difference between a section and a div?
+
+    The <section> tag defines sections in a document, such as chapters, headers, footers,
+    or any other sections of the document.
+    The <div> tag defines a division in an HTML document. 
+    The <div> tag is used to group block-elements to format them with CSS.
+
+    17. What is CSS used for? 
+
+    Cascading Style Sheets (CSS) styles HTML elements with greater control than just using HTML. 
+    HTML is the structure of a website. CSS adds style or aesthetics to the website.  
+
+
+    18. How to we select an element? Example - every h2 on the page?
+
+    To select a specific element in html with CSS such as the h2 tag or element. The developer can
+    utilize the CSS h2 selector. Example;
+
+    h2 {
+        color: blue;
+    }
+
+    If, there is more than one h2 element that the developer would have add a specific class name to each h2 tag
+    as shown below. The changes will take in each h2 tag with the same class name.
+
+    .h2 {
+        color: blue;
+    }
+
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+    The difference between an ID and a class is that an ID can be used to identify one element,
+    whereas a class can be used to identify more than one. 
+    Class elemnets can be utilize to change for instance the height and width of multiple images in a website.
+    An id single element can be utilize to chnage a company's logo.  
+
+
+    20. How do we select classes in CSS?
+
+    . follow by the name of the class - exampple .images
+
+    21. How do we select a p element with a single class of “human””?
+
+    #human - for a single id element and .human for multiple class elements.
+
+    22. What is a parent child selector? When would this be useful? 
+
+    The ("parent > child") selector selects all elements that are a direct child of the specified element.
+    The contextual selectors allow the developer to define less class and id names in HTML.
+
+    23. How do you select all links within a div with the class of sidebar?
+
+    .sidebar {
+
+    }
+
+    24. What is a pseudo selector?
+
+    A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s).
+    For example, :hover can be used to change a button's color when the user's pointer hovers over it.
+
+    25. What do we use the change the spacing between lines?
+
+    Not sure if the question is worded correctly, but if I understand correctly this is done 
+    by looking at the line-height property. 
+
+    26. What do we use to change the spacing between letters?
+
+    By utilzing the letter-spacing property.
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+    By utilzing the text-transform property. Example;
+
+    .paragraph-multiple-sections {
+        text-transform: capitalize;  for all CAPITALS
+        text-transform: lowercase; for capitals 
+        text-transform: capitalize; for Capitals 
+    }     
+
+    28. How do I add a 1px border around my div that is dotted and black?
+
+    div {
+        border: 1px dotted black;
+    }
+
+    29. How do I select everything on the page? 
+
+    * {
+
+    }
+
+    30. How do I write a comment in CSS?
+
+    {% comment %} This is an example in windows {% endcomment %}
+    ctrl and /
+
+    31. How do I find out what file I am in, when I am using the command line? 
+
+    In bash, the pwd command
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+    ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+    rm "name of file or directory"
+    Must be cautious not to delete files or folders that would be needed in the future.
+    Any delete items will be permanetly delete and would be in the recycle bin.
+
+    34. Why should I use version control? 
+
+    It allows members of a team to work and contribute their portion of a specific project without the fear 
+    of making any unintentional changes to the main project. It allows the team to push their contributions into the version
+    control system and can also make any necessary changes to the project. 
+
+    35. How often should I commit to github?
+
+    Every time the developer makes any changes to the document. 
+
+    36. What is the command we would use to push our repo up to github? 
+
+    git push origin master
+
+    37. Walk me through Lambda's git flow. 
+
+    Create a directory and repository (name the repository in Github).
+    Create a file and add the content.(be sure to switch to new directory prior to pushing the content to Github).
+    git init 
+    git status 
+    git add . 
+    git status
+    git commit -m "first commit" 
+    git push origin master
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+
+    Block elements are those that take up the full width available on a web page, 
+    effectively blocking out any other elements from sitting next to it on the left or right. 
+    Inline elements are those who only take up as much width as is needed to display the contents of the element, 
+    thereby allowing other elements to be in line with the inline element.
+
+    2. What happens when an element is positioned absolutely? 
+
+    An absolutely positioned element is an element whose computed position value is absolute or fixed.
+    The top, right, bottom, and left properties specify offsets from the edges of the element's containing block. 
+    Absolutely positioned elements that have height and width set to auto are sized so as to fit their contents.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+    By utilizing the padding and margin properties in CSS.
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+        {% comment %} block-level elements  {% endcomment %}
+
+    p tag
+    header tag
+    div tag
+
+    {% comment %} inline elements {% endcomment %}
+
+    anchor tag
+    br tag
+
+    {% comment %} inline-block {% endcomment %}
+
+    buttom tag
+
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+    The box model is an concept and essentially a box that wrapy around the entire document page or website.
+    It entails the content, borders, margins, and padding.
+    Content - The content of the box, where text and images appear
+    Padding - Clears an area around the content. The padding is transparent
+    Border - A border that goes around the padding and content
+    Margin - Clears an area outside the border. The margin is transparent
+
+    Giving the website the same height and width. Filling up 100% of the website.  
+
+   --> 
