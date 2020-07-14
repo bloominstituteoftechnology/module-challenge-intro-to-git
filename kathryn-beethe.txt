@@ -1,7 +1,7 @@
 https://codepen.io/kbeethe/full/wvMXydp
 
     1. What is Semantic HTML? Semantic HTML is clearly defined HTML elements such as <header> <footer> or <section>
-    2. What is HTML used for? HTML is used to create pages on the web. It is the building blocks of the webpage.
+    2. What is HTML used for? HTML is used to create pages on the web. It is the considered the building blocks of the webpage.
     3. What is an attribute and where do we put it? Attributes are descriptive values.
     4. What is the h1 tag used for? How many times should I use it on a page? h1 is used for the largest size Header and should only be used once per webpage.
     5. Name two tags that have required attributes Anchor & Image (<a> & <img>)
@@ -34,7 +34,7 @@ https://codepen.io/kbeethe/full/wvMXydp
     29. How do I select everything on the page? html {}
     30. How do I write a comment in CSS? /*(comment)*/
     31. How do I find out what file I am in, when I am using the command line? 
-    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    32. Using the command line - how do I see a list of files/folders in my current folder? pwd
     33. How do I remove a file via the command line? Why do I have to be careful with this? rm (file name) You want to be careful as there is no getting it back and there are no "Are you sure?"s. 
     34. Why should I use version control? Because if you break something in an update, you can revert back to before the break. It's like fun time travel.
     35. How often should I commit to github? As often as you have fixed a flaw or feel comfortable.
