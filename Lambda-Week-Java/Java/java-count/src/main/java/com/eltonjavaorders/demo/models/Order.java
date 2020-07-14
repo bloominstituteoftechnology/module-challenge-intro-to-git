@@ -103,16 +103,22 @@ public class Order
         this.payments = payments;
     }
 
-    @Override
-    public String toString()
+    public void addPayments(Payment payment)
     {
-        return "Order{" +
-                "ordnum=" + ordnum +
-                ", advanceamount=" + advanceamount +
-                ", orderamount=" + ordamount +
-                ", orderdescription='" + orderdescription + '\'' +
-                ", customer=" + customer +
-                ", payments=" + payments +
-                '}';
+        payment.getOrders().add(this);
+        payments.add(payment);
     }
+
+//    @Override
+//    public String toString()
+//    {
+//        return "Order{" +
+//                "ordnum=" + ordnum +
+//                ", advanceamount=" + advanceamount +
+//                ", orderamount=" + ordamount +
+//                ", orderdescription='" + orderdescription + '\'' +
+//                ", customer=" + customer +
+//                ", payments=" + payments +
+//                '}';
+//    }
 }

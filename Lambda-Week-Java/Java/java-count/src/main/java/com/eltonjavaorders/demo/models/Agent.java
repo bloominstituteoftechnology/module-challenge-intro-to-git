@@ -1,6 +1,6 @@
 package com.eltonjavaorders.demo.models;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;
@@ -24,7 +24,7 @@ public class Agent
 
 
     @OneToMany(mappedBy = "agent", cascade = CascadeType.ALL, orphanRemoval = true)
-    @JsonIgnoreProperties(value = "agents")
+    @JsonIgnoreProperties(value = "agent")
     private List<Customer> customers = new ArrayList<>();
 
     public Agent()
@@ -110,17 +110,21 @@ public class Agent
         this.customers = customers;
     }
 
-    @Override
-    public String toString()
-    {
-        return "Agent{" +
-                "agentcode=" + agentcode +
-                ", agentname='" + agentname + '\'' +
-                ", workingarea='" + workingarea + '\'' +
-                ", commission=" + commission +
-                ", phone='" + phone + '\'' +
-                ", country='" + country + '\'' +
-                ", customers=" + customers +
-                '}';
-    }
+//    @Override
+//    public String toString()
+//    {
+//        return "Agent{" +
+//                "agentcode=" + agentcode +
+//                ", agentname='" + agentname + '\'' +
+//                ", workingarea='" + workingarea + '\'' +
+//                ", commission=" + commission +
+//                ", phone='" + phone + '\'' +
+//                ", country='" + country + '\'' +
+//                ", customers=" + customers +
+//                '}';
+//    }
 }
+
+
+// checjing to see if this really works
+

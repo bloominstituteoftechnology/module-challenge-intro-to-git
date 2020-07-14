@@ -59,14 +59,14 @@ public class Payment
     {
         this.orders = orders;
     }
-
-    @Override
-    public String toString()
-    {
-        return "Payment{" +
-                "paymentid=" + paymentid +
-                ", type='" + type + '\'' +
-                ", orders=" + orders +
-                '}';
-    }
+//
+//    @Override
+//    public String toString()
+//    {
+//        return "Payment{" +
+//                "paymentid=" + paymentid +
+//                ", type='" + type + '\'' +
+//                ", orders=" + orders +
+//                '}';
+//    }
 }

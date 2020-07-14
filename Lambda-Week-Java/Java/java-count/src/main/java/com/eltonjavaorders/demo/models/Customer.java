@@ -25,13 +25,27 @@ public class Customer
     private String phone;
     private double receiveamt;
     private String workingarea;
+
+    // do this for all the ints when making the patch request
+    @Transient
+    public boolean hasValueforOpening = false;
+
+    @Transient
+    public boolean hasValueforOut = false;
+
+    @Transient
+    public boolean hasValueforPay = false;
+
+    @Transient
+    public boolean hasValueforRec = false;
+
+
+
     // missing agent id? add in later - idk man
     // oh shit use @Joincolumn to pull in agent id
 
-
-
     @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL, orphanRemoval = true)
-    @JsonIgnoreProperties(value = "customers")
+    @JsonIgnoreProperties(value = "customer")
     private List<Order> orders = new ArrayList<>();
 
 
@@ -44,7 +58,7 @@ public class Customer
     {
     }
 
-    public Customer(String custcity, String custcountry, String custname, String grade, double openingamt, double outstandingamt, double paymentamt, String phone, double receiveamt, String workingarea)
+    public Customer(String custcity, String custcountry, String custname, String grade, double openingamt, double outstandingamt, double paymentamt, String phone, double receiveamt, String workingarea, Agent agent)
     {
         this.custcity = custcity;
         this.custcountry = custcountry;
@@ -56,6 +70,7 @@ public class Customer
         this.phone = phone;
         this.receiveamt = receiveamt;
         this.workingarea = workingarea;
+        this.agent = agent;
     }
 
     public long getCustcode()
@@ -115,16 +130,19 @@ public class Customer
 
     public void setOpeningamt(double openingamt)
     {
+        this.hasValueforOpening = true;
         this.openingamt = openingamt;
     }
 
     public double getOutstandingamt()
     {
+
         return outstandingamt;
     }
 
     public void setOutstandingamt(double outstandingamt)
     {
+        this.hasValueforOut = true;
         this.outstandingamt = outstandingamt;
     }
 
@@ -135,6 +153,7 @@ public class Customer
 
     public void setPaymentamt(double paymentamt)
     {
+        this.hasValueforPay = true;
         this.paymentamt = paymentamt;
     }
 
@@ -155,6 +174,7 @@ public class Customer
 
     public void setReceiveamt(double receiveamt)
     {
+        this.hasValueforRec = true;
         this.receiveamt = receiveamt;
     }
 
@@ -187,6 +207,8 @@ public class Customer
     {
         this.agent = agent;
     }
+
+
 
     @Override
     public String toString()

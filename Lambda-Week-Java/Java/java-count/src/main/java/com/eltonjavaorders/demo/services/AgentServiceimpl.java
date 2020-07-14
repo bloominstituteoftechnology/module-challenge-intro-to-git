@@ -5,7 +5,6 @@ import com.eltonjavaorders.demo.models.Agent;
 import com.eltonjavaorders.demo.repo.AgentRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import javax.persistence.EntityNotFoundException;
 import java.util.List;
 

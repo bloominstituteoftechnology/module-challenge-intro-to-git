@@ -27,6 +27,10 @@ public interface CustomerService
 
     Customer save(Customer customer);
 
+    // PATCH
+
+    Customer update(Customer customer, long id);
+
 
 
 
