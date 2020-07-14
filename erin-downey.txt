@@ -230,4 +230,3 @@ Stretch Questions
 
  Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push.
  I tried generating a key twice. Github threw this error Key is invalid. You must supply a key in OpenSSH public key format when I tried to add it. 
- 
