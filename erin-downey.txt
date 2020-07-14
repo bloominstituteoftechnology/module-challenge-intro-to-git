@@ -181,14 +181,53 @@ A more descriptive set of HTML tags for developers and browsers
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    Inline does not force a new line to begin 
+    Block causes a line break
 
- Research and understand what a merge conflict is and how to resolve it.
+    2. What happens when an element is positioned absolutely? 
+    The position is fixed and the element will not move when scrolling on the page 
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    Change it from block to inline 
+
+    4. Name 3 elements that are diplay block by default
+    1. p paragraph 
+    2. li list item
+    3. address contact info 
+
+    2 elements that are display inline by default 
+    1. a anchor 
+    2. span 
+
+    and 1 element that is display inline-block by default
+    Button
+
+    5. In your own words, explain the box model. 
+    How the margins, borders, padding and content are wrapped around elements 
+
+    What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    Responsive or fluid layout using the box-sizing property
+
+    Research and understand what a merge conflict is and how to resolve it.
+    Merge Conflict- when merged branches have competing commits 
+    Resolution
+    Competing Line Changes- GitHub conflict editor 
+    All Other Conflicts
+    Local clone of repo, a new commit and merging the branches
+
  Research the Git commands pull, rebase, merge. These commands will allow you to bring in changes that other developers push to the main branch.
+ Pull- fetch/download content from repo then updates the local repo so the content matches
+ Rebase- merge alternative integrates changes from one branch to another
+ Merge- reassembles forked history and integrates into a single branch
+
  Research the Git commands reset , revert, clean. These commands will allow you to go back and amends previous commits you have made.
+ Reset- used to undo local changes to a git repo 
+ Revert- inverses changes without deleting or abandoning commits 
+ Clean- deletes untracked files in a working directory of a repo 
+
  Research and set up a Graphical User Interface (GUI) Git console.
+ N/A
 
  Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push.
+ I tried generating a key twice. Github threw this error Key is invalid. You must supply a key in OpenSSH public key format when I tried to add it. 
+ 
