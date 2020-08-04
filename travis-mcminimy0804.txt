@@ -138,3 +138,4 @@ the clock ticking, it was the best I could do.
     git commit -m "Burble burble"
     git push (you will have to add branch name the first time)
     Confirm changes on github (may have to refresh)
+    .
