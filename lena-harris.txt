@@ -1,0 +1,170 @@
+https://codepen.io/LenaHarrisLambda/pen/gOrObaz
+
+1. What is Semantic HTML?
+ - Semantic HTML are tags that have meaning. Tags such a h1-h6, p, section, nav, header, and footer each have a specific meaning, which is clear when looking at the tag itself.
+
+2. What is HTML used for?
+ - HTML is used for simple markup of webpages, without styles.
+
+3. What is an attribute and where do we put it?
+ - An attribute is like additional information for the tag. Such as an alt attribute for an image. It allows screen readers to know what the image is supposed to be or depict.
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+ - The h1 tag is one of six heading tags. The h1 tag states the either the main title or main point of the page, and as such should only be used once per page.
+
+5. Name two tags that have required attributes
+ - a has a required href attribute to point to a specific url.
+ - img has a required src attribute to point to a specific image url.
+
+6. What do we put in the head of our HTML document?
+ - In the <head> </head> area of an HTML page, we put any information such as meta information, link CSS stylesheets, link JavaScript files, or link to outside recourses for our site, such as Google Fonts embed links, or even our own personal Font Awesome embed link to include their icons.
+
+7. What is an id?
+ - An id is used similar to classes but each id is to be used only once per page, where as a class can be applied to many elements. An id can be used for either styling a specific element on a page, or used as a navigation tool by by adding #id-name to an href attribute to an anchor tag within a navigation.
+
+8. What elements can I add an id to?
+ - You can add an id tag to any element, as long as it is only used or referenced once per page. Even an h2 or h3 tag can be given an id, and a nav link could be made to scroll to this specific heading when clicked.
+
+9. How many times can I use the same id on a page?
+ - Only once per page, per id.
+
+10. What is a class?
+ - A class is a styling tool used to style certain elements that are given the same class.
+
+11. What elements can I add a class to?
+ - Classes can be given to any kind of element.
+
+12. How many times can I use the same class on a page?
+ - Unlike ids, classes can be used as many times as you would like per page.
+
+13. How do I get my link to open in a new tab?
+ - In order to get a link to open into a new page an attribute of target must be added to the anchor tag, with a value set to "_blank".
+
+14. What is the alt attribute in the image tag used for?
+ - The alt attribute in a img tag is mainly used for screen readers for the visually impaired. In some browsers, an alt tag's value will be visible on hover. However this does not work in all browsers, and if this was the desired result, a title tag must also be used, with the same value.
+
+15. How do I reference an id?
+ - In order to reference an id, either in CSS or by a link with an anchor tag the # must be used. Such as #id-name.
+
+16. What is the difference between a section and a div
+ - A section tag is just used to group 
+
+17. What is CSS used for?
+ - CSS is used to style the page. Background colors, font colors, font sizes, and font type are just a few things which can be styled using CSS.
+
+18. How to we select an element? Example - every h2 on the page
+ -  Targeting an element is different than selecting an id or class. By just putting h2, you can target every h2 on the page.
+h2 {
+  background-color: red;
+}
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+ - As stated in 7:
+   - An id is used similar to classes but each id is to be used only once per page.
+ - As stated in 10:
+   - A class is a styling tool used to style certain elements that are given the same class.
+The main difference is the amount of times they can be used. Classes can be used multiple time, however an id can only be used once.
+
+Example:
+<div class="class-name">Image Here</div>
+<div class="class-name">Text Here</div>
+
+<div id="id-name">Contact Info Here</div>
+
+20. How do we select classes in CSS?
+ - In order to select a class, . must be used. Such as .class-name.
+
+21. How do we select a p element with a single class of “human””?
+ - Either of these options will work here.
+.human {
+  style here
+}
+
+p .human {
+  style here
+}
+
+22. What is a parent child selector? When would this be useful?
+ - A child selector is used to select a direct child of another class. It would be useful if you have the same class used often, but only one location where that class has a specific child.
+
+23. How do you select all links within a div with the class of sidebar?
+ - You select them by first specifying which class you are targeting, and then separated by a space specify which element you are targeting.
+.sidebar a {
+  Font-size: 20px;
+}
+
+24. What is a pseudo selector?
+ - a pseudo selector is a selector that targets a specific state or action of an element. Such a hover or visited.
+
+25. What do we use the change the spacing between lines?
+ - In order to change the spacing between each line, the line-height property can be used.
+
+26. What do we use to change the spacing between letters?
+ - In order to change the spacing between letters, letter-spacing can be used.
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+ - The text-transform property can be used to change the capitalization of text.
+   - text-transform: uppercase; Changes all text to capital letters.
+   - text-transform: lowercase; Changes all text to lowercase letters.
+   - text-transform: capitalize; Changes all text to have capital letters for the first letter, and everything else to lowercase letters.
+
+28. How do I add a 1px border around my div that is dotted and black?
+ - The border property can be used here, instead of border-width, border-style, and border-color it's all combined into one shorthand line.
+   - border: 1px dotted black;
+
+29. How do I select everything on the page?
+ - In order to select everything on the page * must be used. This is useful for setting all margin and padding on the page to 0, before working with margin and padding for every individual element.
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+30. How do I write a comment in CSS?
+ - Comments in CSS are written with * and /
+/* Comment goes here */
+
+31. How do I find out what file I am in, when I am using the command line?
+ - In the terminal you can type pwd to locate the directory you are currently in.
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+ - By typing ls in the terminal, it will show all folders and files within the current directory.
+
+33. How do I remove a file via the command line? Why do I have to be careful with this?
+ - Within the terminal you can delete a file in the directory you are currently in by typing rm 'file-name.ext'. You need to be careful with this because unlike deleting the file normally, the terminal will not send this file to the Trash, meaning it cannot be recovered in any way.
+
+34. Why should I use version control?
+ - Version control is useful for many reasons, including having a backup in case something   stops working, or gets deleted.
+
+35. How often should I commit to github?
+ - You should commit often, especially when making major changes.
+
+36. What is the command we would use to push our repo up to github?
+ - git push 'remote_name' 'branch_name'
+
+37. Walk me through Lambda's git flow.
+
+----- Stretch Questions -----
+1. What is the difference between an inline element and a block element?
+ - A block element takes up 100% of the width available to it, and always starts on a new line.
+ - An inline element does not start on a new line, and only takes up as much width as is necessary, based on its contents' width.
+
+2. What happens when an element is positioned absolutely?
+ - An element that is position absolutely ignores all other elements on a page, and positions itself based on the top left corner. Setting top to 100px and left to 250px would literally place the element exactly 100px from the top, and its left side 250px from the left of the page.
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+ - To do this, you could set the element to have a maximum width, and set its initial width to inherit. This will make the element size itself based on the width of its content, while also giving you an option to set a width you won't allow it to exceed.
+
+4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+ - Block: div, heading 1-6, and p.
+ - Inline: a, img.
+ - Inline Block: textarea.
+
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+ - The box model consists of the main content, the padding, margin, and the border of the box element.
+ - The content is where the element we put inside will be visible on the page, wether it is text, an image, links, or even a form.
+ - The padding is the area inside the box, but outside of the main content area.
+ - The margin is spacing outside of the box. This makes it space itself away from other elements by the amount you set.
+ - Border is the outside border of the box, outside of the padding, but inside the margin. This can be made to be any width.
+ - Setting a default width of the box sets its initial width, however adding padding or border size to it makes this width change by that amount on both sides. Such as adding a 10px border, and 50px padding to a box of 150px actually increases its width to a total of 270px.
+ - box-sizing was added to help with this. Setting its box-sizing property to border-box forces the box to include the border and padding in the overall width. Meaning a box 150px in width with a box-sizing property set to border-box, will remain 150px even if padding is made to be 50px, or it's given a border of 10px.
