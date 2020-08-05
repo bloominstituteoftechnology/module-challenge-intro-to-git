@@ -1,0 +1,10 @@
+What is Semantic HTML? HTML that defines what it is, i.e. header, section, pragraph, etc.
+What is HTML used for? To determine how the text on the webpage is is set up.
+What is an attribute and where do we put it? An attribute describes an element.  It is put inside the opening bracket of the element.
+What is the h1 tag used for? How many times should I use it on a page?  The main idea of the page.  Only 1.
+Name two tags that have required attributes; image, anchor.
+What do we put in the head of our HTML document? Metadata that will not show up on the page itself.
+What is an id?  An attribute.
+What elements can I add an id to? Any element, but it can only be used once.
+How many times can I use the same id on a page?  Only once.
+What is a class? 
