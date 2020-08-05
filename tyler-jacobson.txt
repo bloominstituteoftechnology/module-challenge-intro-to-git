@@ -1,4 +1,4 @@
-Link to finished Codepen https://codepen.io/TylerJacobson/pen/ZEWEExZ?editors=1100
+Link to finished Codepen https://codepen.io/TylerJacobson/pen/ZEWEExZ?editors=0100
 <!-- Questions to Submit in today's file first-lastname.txt --> 
 <!--
 Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
