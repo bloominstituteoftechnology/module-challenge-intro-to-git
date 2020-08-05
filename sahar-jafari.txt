@@ -15,6 +15,7 @@ https://codepen.io/saharj-the-lessful/pen/RwawPmW
 5. Name two tags that have required attributes
     <img/> and <a/>
 6. What do we put in the head of our HTML document? 
+    a link to css files, meta and title of the page.
 7. What is an id? 
     Id is a title that can only appear on a single element
 8. What elements can I add an id to?
@@ -34,6 +35,7 @@ https://codepen.io/saharj-the-lessful/pen/RwawPmW
 15. How do I reference an id?
     #<id>
 16. What is the difference between a section and a div
+    div creates a box-like element. Section creates a group of content (which can include div)
 17. What is CSS used for? 
     Cascading Styling Sheet is used to style the UI
 18. How to we select an element? Example - every h2 on the page
@@ -50,8 +52,9 @@ https://codepen.io/saharj-the-lessful/pen/RwawPmW
 23. How do you select all links within a div with the class of sidebar?
     div a.sidebar
 24. What is a pseudo selector?
+    it's a selector that allows developers to style an element based on an action on the UI (hover, click, etc)
 25. What do we use the change the spacing between lines?
-    line-heigh
+    line-height
 26. What do we use to change the spacing between letters?
     letter-spacing
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? 
@@ -61,23 +64,48 @@ https://codepen.io/saharj-the-lessful/pen/RwawPmW
         border: 1px dotted black;
     }
 29. How do I select everything on the page? 
+    *
 30. How do I write a comment in CSS?
+    /* */ or <!--  -->
 31. How do I find out what file I am in, when I am using the command line? 
+    pwd
 32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls / ll
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm -rf <filename> . It won't show a warning before removing the file
 34. Why should I use version control? 
+    to keep track of the work and to be able to to go to a prev. version if needed
 35. How often should I commit to github?
+    Regularly
 36. What is the command we would use to push our repo up to github? 
+    git push <remote> <branch>
 37. Walk me through Lambda's git flow. 
+    Fork the project repo. Add the TL as a collaborator. Clone the forked repo in our local machine (git clone <https>)
+    On the computer, direct into the project folder (cd <PATH>)
+    create a new branch (git checkout -b <new_branch>)
+    do the work.
+    git status to check the work
+    git add . or git add -Add
+    git commit -m "<message>"
+    git push -u origin <new_branch>
+    create a pull request on project's github page
+
+
 
 Stretch Questions
 
-    1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+1. What is the difference between an inline element and a block element?
+    Block elements behave as a block that take the whole space vertically. Blocked elements don't sit next to any other elements.
+    Inline elements take space as wide as they are, and they sit next to other inline elements.
+2. What happens when an element is positioned absolutely? 
+    Absolute positioned elements are positioned relative to their closest parent with position relative. If there is not such parent, the element is positioned relative to the body.
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    display: inline-block;
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    display block: div, h1-h6, p
+    inline: span, a
+    inline-block: input
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    Browsers render all elements of a document as boxes laying beside or on top of each other. And each element has a width and height and consists of margins and paddings and border. Paddings and border add to the measurement of the element, while margins just add space between elements.
+    `box-sizing: border-box` changes the behavior of elements so that a bigger box wraps the element and its paddings and border, yet margins stay out of the wrapper box. This way the outer width and height of an element is not affected when we change paddings, and it will not mess up the layout of our document.
 
-
-
-   --> 
