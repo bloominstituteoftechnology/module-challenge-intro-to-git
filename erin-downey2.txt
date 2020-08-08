@@ -1,0 +1,232 @@
+https://codepen.io/CelticWarriorGoddess/pen/BajVwwY?editors=1100
+
+1. What is Semantic HTML?  
+A more descriptive set of HTML tags for developers and browsers
+
+    2. What is HTML used for? 
+    Hyper Text Markup Language using tag commands to construct webpages
+
+    3. What is an attribute and where do we put it? 
+    Modifies an element i.e. id, src etc... 
+    Used in HTML start tags or CSS id and class tags
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    H1 tells browner that this is the most important heading on a web page
+    It should only be used once
+
+    5. Name two tags that have required attributes
+    1. anchor
+    2. img
+
+    6. What do we put in the head of our HTML document? 
+    Data that's not displayed on webpages document title, styles etc...
+
+    7. What is an id? 
+    Used to style a single HTML or CSS element 
+
+    8. What elements can I add an id to? 
+    Global can be used on any HTL elements
+
+    9. How many times can I use the same id on a page? 
+    Once 
+
+    10. What is a class? 
+    One or more classnames for an element 
+
+    11. What elements can I add a class to? 
+    Global can be used on any HTML elements
+
+    12. How many times can I use the same class on a page? 
+    Multiple times
+
+    13. How do I get my link to open in a new tab? 
+    Target attribute
+
+    14. What is the alt attribute in the image tag used for? 
+    Alternative img info when it can't be displayed or if user is blind and uses a screen reader
+
+    15. How do I reference an id?
+    Id selector with #, character then element inserted into the HTML tags
+
+    16. What is the difference between a section and a div
+    Div a contatiner used to group block elements formatted in CSS
+    Section separates data into groups headers, footers etc.. 
+
+    17. What is CSS used for? 
+    Cascade Styling Sheet in descending order, styles the webpage color, text, border, margin etc...
+    18. How to we select an element? Example - every h2 on the page
+    
+    h2 {
+        color: black;
+    }
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    Id modifies a single element
+    
+    <div id = "color">
+        <h1>This is h1> </h1>
+            </div>
+
+    #color {
+        color; black;
+    }
+    
+    Class modifies multople elements
+
+    <div class = "font1">
+
+    <h2>This is h2</h2>
+        <p>This is a paragraph</p>
+            </div>
+
+        .font1 {
+            font-size: 25px;
+        }
+    
+    20. How do we select classes in CSS?
+    . character then the class name 
+
+    21. How do we select a p element with a single class of “human””?
+
+    <p class = "human"> Selecting a single class></p>
+
+    .human (
+        text: Arial;
+    )
+    
+    22. What is a parent child selector? When would this be useful? 
+    Uses descedning order in CSS to match specific elements with a selector
+    More streamlined code/easier to read
+    
+    23. How do you select all links within a div with the class of sidebar?
+    <div>
+
+        <nav>
+        <a href = "(http://link1.com") class = "sidebar>Link1</a>
+        <a href = "(http://link2.com") class = "sidebar>Link2</a>
+        </nav>
+    
+    </div>
+
+    a.sidebar {
+        line-height: 1.5px;
+    }
+
+    24. What is a pseudo selector?
+    Keyword i.e. 'hover' to specify a special state of selected element or elements 
+
+    25. What do we use the change the spacing between lines?
+    br tag or line-height
+
+    26. What do we use to change the spacing between letters?
+    letter-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase;
+    text-transform: loqrcase;
+    text-transform: capitalize;
+
+    28. How do I add a 1px border around my div that is dotted and black?
+    
+    divb {
+        border: 2px dotted black;
+
+    }
+
+    29. How do I select everything on the page? 
+    * wildcard
+
+    30. How do I write a comment in CSS?
+    /* css comment */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    Mac UNIX on Linux
+    rm ~i filename
+
+    Windows
+    del filename 
+
+    34. Why should I use version control? 
+    Concise way for multiple users/teams to work on a project at the same time and keep track of all 
+    changes as they arise in one place 
+
+    35. How often should I commit to github?
+    Anytime your changig a file 
+
+    36. What is the command we would use to push our repo up to github? 
+    git.push
+
+    37. Walk me through Lambda's git flow. 
+    Fork
+    Add TL as collaborator
+    In CLI cd into directory to clone forked repo 
+    Clone
+    cd into new repo
+    Branch first and last name for the repo 
+    Begin repo work
+    Add git add filename
+    Commit git commit -m explain changes that were made
+    Push changes back up to GitHub repo git.push 
+    Submit PR(Pull Request)
+    Add TL to Reviewers & submit pull request
+    Do Not Merge PR 
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    Inline does not force a new line to begin 
+    Block causes a line break
+
+    2. What happens when an element is positioned absolutely? 
+    The position is fixed and the element will not move when scrolling on the page 
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    Change it from block to inline 
+
+    4. Name 3 elements that are diplay block by default
+    1. p paragraph 
+    2. li list item
+    3. address contact info 
+
+    2 elements that are display inline by default 
+    1. a anchor 
+    2. span 
+
+    and 1 element that is display inline-block by default
+    Button
+
+    5. In your own words, explain the box model. 
+    How the margins, borders, padding and content are wrapped around elements 
+
+    What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    Responsive or fluid layout using the box-sizing property
+
+    Research and understand what a merge conflict is and how to resolve it.
+    Merge Conflict- when merged branches have competing commits 
+    Resolution
+    Competing Line Changes- GitHub conflict editor 
+    All Other Conflicts
+    Local clone of repo, a new commit and merging the branches
+
+ Research the Git commands pull, rebase, merge. These commands will allow you to bring in changes that other developers push to the main branch.
+ Pull- fetch/download content from repo then updates the local repo so the content matches
+ Rebase- merge alternative integrates changes from one branch to another
+ Merge- reassembles forked history and integrates into a single branch
+
+ Research the Git commands reset , revert, clean. These commands will allow you to go back and amends previous commits you have made.
+ Reset- used to undo local changes to a git repo 
+ Revert- inverses changes without deleting or abandoning commits 
+ Clean- deletes untracked files in a working directory of a repo 
+
+ Research and set up a Graphical User Interface (GUI) Git console.
+ N/A
+
+ Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push.
+ I tried generating a key twice. Github threw this error Key is invalid. You must supply a key in OpenSSH public key format when I tried to add it. 
