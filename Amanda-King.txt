@@ -1,0 +1,166 @@
+Link for completed Code Pen: https://codepen.io/Aranayk/pen/YzqPyZX
+
+1. What is Semantic HTML?
+ Semantic HTML is the use of HTML to reinforce the meaning of the information on the web page.  
+    
+2. What is HTML used for?
+ HTML is used as a standard markup language for documents in a web browser.
+ It is used to describe the structure of the web page. It can also have other elements inclding CSS and Java Script.
+    
+ 3. What is an attribute and where do we put it?
+ Attributes modify or add meaning to an HTML element, they show different properties of the element (width, height of an image).
+ We put attributes at the opening tag.
+    
+ 4. What is the h1 tag used for? How many times should I use it on a page?
+ The H1 tag is used like the main heading of a webpage or document.
+ It should be used as the most important heading on the page. The H1 tag is only to be used once per page.
+    
+ 5. Name two tags that have required attributes:
+ The <a> tag requires the href attribute.
+ The img tag requires the src attribute. 
+    
+ 6. What do we put in the head of our HTML document?
+ The HTML <head> tag represents the head section of the HTML document.
+ The <head> element can contain othe HTL tags that contain metadata.
+ Metadata provides information about the document such as the title, keywords, descriptions, etc.
+    
+ 7. What is an id?
+ An id attribute specifies the unique id for an HTML element.
+ It is mostly used to point to a style in a style sheet.
+    
+ 8. What elements can I add an id to?
+ The id attribute is a unique id for an HTML element.
+ The id value can be used by CSS and JavaScript to perform certain tasks for the element with the specific id value.
+    
+ 9. How many times can I use the same id on a page?
+ An id has to be unique on a page. So, the same id should only be used once in a document.
+    
+10. What is a class?
+The class is an attribute that specifies one or more class names for an HTML element.
+The class name can be used by CSS and JavaScript to perform tasks for elements with that specific class name.
+    
+11. What elements can I add a class to?
+The class attribute can be used on any HTML element.
+    
+12. How many times can I use the same class on a page?
+The same class can be used as many times as needed within a document.
+    
+13. How do I get my link to open in a new tab?
+add a target="_blank" attribute to your links, ex: anchor tags.
+    
+14. What is the alt attribute in the image tag used for?
+The required alt attribute specifies an alternate text for an image, if the img cannot be displayed.
+It provieds alternative info for an img if a user can't view it.
+    
+15. How do I reference an id?
+ID selector is a name that comes before a has tag character. (#) The #ID selector styles the element with the specific id. 
+    
+16. What is the difference between a section and a div?
+The <section> tag defines sections in a document, such as headers, footers, or any other sections of the document.
+The <div> tage defines a section in an HTML document. The <div> tag is used to group block elements to format them with CSS>.
+    
+17. What is CSS used for? 
+CSS is used to define styles for your web pages, including the design, layout, and variations in display for different devices and screen sizes. 
+    
+18. How to we select an element? Example - every h2 on the page.
+The element selector selects HTML elements based on their tag names. 
+    ex: <h2> {
+        color: red;
+    }
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one.
+In the CSS, a class selector is a name precedded by a full stop (".") and an ID selector is a name preceeded by a hashtag (#).
+The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
+We should use IDs if only one element on the page should have the style applied, and/or you need a unique identifier for that specific element.
+For example, you might assign an ID to a <nav> tag which contains your left menu.  The styles for this ID could contain the position, background-color, float properties, size, etc.
+You probably wouldn't want any other element on the page to use this particular style. 
+We should use classes when your style needst o be applied mltiple times on the same page. 
+ex: you may have many <h2> elements that need the same style appied.
+
+20. How do we select classes in CSS?
+class selector selects elements with a specific class attribute.
+To select elements with a specific class, write a period (.) character followed by the name of the class.
+You can also specfy that only specific HTML elements should be affected by a class.
+
+21. How do we select a p element with a single class of “human””?
+    .human p {
+        Key: value;
+    }
+    
+22. What is a parent child selector? When would this be useful? 
+The "Parent/child" selector selects all of the elements that are a direct child of the specified element. 
+Elements that are not directly a child of the specified parent, are not selected.
+
+23. How do you select all links within a div with the class of sidebar?
+.sidebar a {
+    Property: value;
+}
+
+24. What is a pseudo selector?
+A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected elements.
+ex; :hover can be used to change a button's color when the user's pointer hovers over it.
+
+25. What do we use the change the spacing between lines?
+When changing the spacing between lines, use the line-height property in CSS.
+Browsers by default will create a certain amount of space between lines to ensure that the text is easily readable.
+ex: for 12 point type, a browser will place about 1 point of vertical space between lines.
+
+26. What do we use to change the spacing between letters?
+The letter-spacing property is used to specify the amount of space between letters.
+You can set the letter-spacing property value to increase or decrease the space betwen characters in a text.
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+The CSS text-transform property
+uppercase: makes all of the letters in the selected text uppercase or all caps.
+lowercase: makes all of the letters in the selected text lowercase
+capitalize: capitalizes the first letter of each word in the selected text.
+
+28. How do I add a 1px border around my div that is dotted and black?
+first, select the div and set border property value as the following to get the expected result:
+border: 1px dotted black;
+
+29. How do I select everything on the page? The * selector selets all elements on the page.
+ex: 
+* {
+    Property: value;
+}
+    
+30. How do I write a comment in CSS?
+The stuff inside the /* */ marks are CSS comments.
+This allows you to enter notes into CSS that will not be interpreted in the code.
+
+31. How do I find out what file I am in, when I am using the command line? 
+Always run ls to remind you of where you're currently at in the terminal.
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+Open the command line at the folder of interest. Enter "dir" (without quotes) to list the files and folders housed in the folder.
+If you want to list the files in all subfolders as well as the main folder, enter "dir /s" (without quotes).
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+To remove a file from the command line, use the rm command.
+You should be careful with the rm commad because it does not asks you for confirmation when deleting files.
+You cannot get them back.
+
+34. Why should I use version control? 
+Version control helps teams solve these kinds of problems, tracking every individual change by each contributer and helpng to prevent concurrent work from conflicting.
+
+35. How often should I commit to github?
+that would depend on your source code system and what you have in place.
+If you're using Git, then commit whenever you finish a step.
+Best practice is to commit when you finish a whole feature.
+
+36. What is the command we would use to push our repo up to github? 
+git push
+
+37. Walk me through Lambda's git flow. 
+Lambda's Git Flow:
+Student will create their own version of the repo by forking
+Student will add their TL as a collaborator
+Student will then clone the repo
+Student will then create a branch (where the student will do their work) using git checkout - 'firstname-lastname' 
+Student will submit their PR into the new branch; 
+Student will use their own student fork as the base (compare across forks).
+Student will add their TL as a reviewer on the PR.
+TL will then count the HW as done by merging the HW back into the master "STUDENT FORK"
+
+   --> 
