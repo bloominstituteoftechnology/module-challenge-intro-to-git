@@ -1,41 +1,26 @@
-    1. What is Semantic HTML? 
-        -> Semantic HTML refers to the way tags are utilized throughout a website for functionality, as well as accessibility.
+Devonte-Bearden
+
+CodePen: https://codepen.io/DBearden/pen/OJPybvp
+
+  1. What is Semantic HTML? 
     2. What is HTML used for? 
-        -> HTML is used to markup websites. It is what dictates the content present.
     3. What is an attribute and where do we put it? 
-        -> An attribute is a modifier for a given tag, and it goes directly after the tag name.
     4. What is the h1 tag used for? How many times should I use it on a page?
-        -> The <h1> tag is used to create the largest heading, by default, and should only be used once.
     5. Name two tags that have required attributes
-        -> <img> & <a>
-    6. What do we put in the head of our HTML document?
-        -> In the head of an HTML document, we include stylesheets, title and other metadata.
+    6. What do we put in the head of our HTML document? 
     7. What is an id? 
-        -> an ID is a CSS selector that targets an individual element using the '#' symbol.
     8. What elements can I add an id to? 
-        -> Any element created within the HTML.
-    9. How many times can I use the same id on a page?
-        -> Ideally, only once.  
+    9. How many times can I use the same id on a page? 
     10. What is a class? 
-        -> A Class is a CSS selector that targets a number of elements using the '.' symbol.
     11. What elements can I add a class to? 
-        -> Classes can be added to any HTML element.
     12. How many times can I use the same class on a page? 
-        -> As many times as you have elements present.
     13. How do I get my link to open in a new tab?
-        -> By referencing a link or file directory using href.
-    14. What is the alt attribute in the image tag used for? 
-        -> alt is used when an image is not displayed properly, and is text that is displayed in its place - or read using a screen reader.
+    14. What is the alt attribute used for? 
     15. How do I reference an id?
-        -> By using the '#' symbol.
     16. What is the difference between a section and a div
-        -> Section usually refers to a particular block of information, usually text, while a div is used to put generalized content into a container.
     17. What is CSS used for? 
-        -> CSS is used to style a webstie.
     18. How to we select an element? Example - every h2 on the page
-        -> by using h2 as the selector when writing CSS.
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
-        -> The difference between class and id, is that ID's are typically reserved for single use, while classes are ideal for styling multiple elements at once.
     20. How do we select classes in CSS?
     21. How do we select a p element with a single class of “human””?
     22. What is a parent child selector? When would this be useful? 
@@ -54,7 +39,7 @@
     35. How often should I commit to github?
     36. What is the command we would use to push our repo up to github? 
     37. Walk me through Lambda's git flow. 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
@@ -62,3 +47,45 @@ Stretch Questions
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+----------------------------------------------------------------------------------------------------------------------------------------------------    
+1. Semantic HTML is the understanding of tags and elements needed to create content for webpages.
+2. HTML is used for the creation of webpages, specifically the content of the page.
+3. An attribute is used to change or add and effect to a give tag/element, and goes inside of the tag.
+4. the h1 tag is used for emphasizing text on a given page, or creating a header-style effect/sizing for a given section of content, and typically should only be used once.
+5. Two tags that require attributes are the anchor tag <a> and the image tag <img>, otherwise they do not work.
+6. In the head of the HTML document, you would insert the <header> tag to create a seperation between the different sections of the page.
+7. An ID is an identifier used to add specification to a given element using the # symbol when writing CSS.
+8. ids can be added to every tag/element, however its usefulness varies between tags.
+9. A UNIQUE id can be used as many times as there tags/elements on a given page, but can only be used once per element.
+10. A class is also an attribute that is used add specificity to a given tag/element, and is identified with the . symbol in CSS.
+11. Like id, class can be added to as many tags/elements as are present on the page. Once again, though, its usefulness varies between elements.
+12. similar to an id, class can be added as many times as tags/elements are present on page.
+13. By adding the _blank attribute, it will open a new tab, versus simply redirecting.
+14. The alt attribute is used to give a new name to whatever it is applied to. e.g if I add the alt=Loki attribute to the <img src= ABCDEFG>, it will set the image's name to Loki when interacted with. 
+15. To refer to an id, you use the # and the name given in the attribute.
+16. A section applies to documentation, identifying various areas, while div applies to sections within HTML.
+17. CSS is used for styling HTML to make it look more appealing.
+18. In order to select every one of the same type of element, you would use that element's tag in the CSS without the < >. This creates a selector that targets all tags of that type.
+19. Class can be applied to multiple elements, while id can only be used once.
+20. To select classes in CSS, you would use . followed immediately by whatever name was given to the class. e.g <h2 class=woot> ~~ corresponding CSS ==> .woot {}
+21. To select a single element with the class human you would create a selector that combines the .human selector with the tag selector p. e.g .human p {}
+22. A parent child selector is used to identify an element that is located within another specified element, and is commonly used with div tags to apply different attributes to similar elements.
+23. To select all links within a <div> with the class sidebar, you would use the a selector with the .sidebar selector. e.g .sidebar a
+24. A psuedo selector is something that is applied to a selector, but only resolves when the selected elements enters a specified state, like with :hover 
+25. To change the spacing between lines, you would use the line-height property. 
+26. To change the spacing between letters, we use the letter-spacing property. 
+27. To change text to fully capital, lowercase and Capitalized, you would use the property text-transform with uppercase, lowercase and capitalized respectively.
+28. To add a 1px border, you would add the border property with the following: 1px black
+29. To select everything on a page, you would use the asterisk as a selector. *
+30. To write a comment in CSS, you would use /* to begin the comment, and use */ to end the comment.
+31. To find what directory you are currently working in with command line, you would the pwd - print working directory - command.
+32. To see a complete list of files and folders, you would use the ls command.
+33. In order to remove a file using command line, you would use the git rm command. You must be careful with this, because you could potentially romve important computer files, that could leave your machince useless.
+34. You should use version control so that you can refer back to previous builds in case of debugging issues.
+35. You should commit to github very often when collaborating, and when working on new builds for projects.
+36. To push our repo to github, we use the git push command.
+37. Lambda's git flow begins with forking the repo, next you create a clone of the repo and branch it, after making any changes to the repo you use git add to add the changes to repo and stage it, then you use git push to push the repo to github.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+    1. Inline elements sit in line with one another, while block elements sit inside of individual blocks.
+    2. If an element is positioned absolutely, then it will never move.
+    3. 
