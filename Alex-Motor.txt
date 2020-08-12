@@ -4,6 +4,8 @@ Sweet Eats Bakery: https://codepen.io/amotor/pen/jOqNKXa
 
 Sweet Eats Bakery Stretch: https://codepen.io/amotor/pen/YzqKjaZ
 
+CSS + HTML Practice: https://codepen.io/amotor/pen/abNzPqN
+
 
     1. What is Semantic HTML? 
 Semantic HTML means adding tags like <header></header> <footer></footer> etc. It does not nessasaraly change the look of the HTML code on the web page,
