@@ -24,11 +24,6 @@ You will need to follow the Lambda School Git Workflow to add a file to this pro
 3. After you are finished please copy the review questions into your .txt file and answer them
 4. don't forget to add, commit and push your changes.
 
-## Task 2b: Exit Ticket
-
-Once you begin, you will have 15 minutes to answer the questions [here](https://app.codesignal.com/public-test/M94mbzuHGQoMg6F3e/w9GqZYCQ2YoZZf).
-
-The completion of these questions is mandatory for MVP. However, passing the quiz doesn't affect your standing as a Lambda School student whatsoever. This is Lambda School testing itself! Please answer honestly and to the best of your ability without using external references.
 
 ## Task 3: Stretch
 Stretch Review questions: 
