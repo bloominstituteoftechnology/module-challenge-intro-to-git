@@ -5,18 +5,44 @@ link to finished codepen: https://codepen.io/April_D/pen/wvGqLLM?editors=1100
 Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
 
     1. What is Semantic HTML? 
+    Semantic elements in HTML clearly describe what they mean. This is important so that screen readers, browsers, developers, and web crawlers can understand your webpage.
+    
     2. What is HTML used for? 
+    HTML is used to display data, rather than execute tasks. It is a markup language.
+    
     3. What is an attribute and where do we put it? 
+    Attributes are placed inside the angle brackets of the starting tag in order to provide additional information about the element. It lets us add information we don't want displayed, like a link to an image when we only want to see the image, not the link itself.
+        
     4. What is the h1 tag used for? How many times should I use it on a page?
+    The h1 tag is used to indicate the most important heading on the page. It should only be used one time on a page.
+    
     5. Name two tags that have required attributes
+    <a> anchor, <img> image
+
     6. What do we put in the head of our HTML document? 
+    Metadata. It holds info we don't want displayed, links to style sheets, etc...
+    
     7. What is an id? 
+    An id is an attribute we add to elements in HTML which can be referenced as selectors in CSS which reference only one single element.
+
     8. What elements can I add an id to? 
+    You can add an id to elements found in the <body>, but not to the <base>, <head>, <html>, <meta>, <scripts>, <style>, and <title>.
+
     9. How many times can I use the same id on a page? 
+    You can only use the same id once on a page. They are unique and can not be used on multiple elements like class can.
+
     10. What is a class? 
+    A class is an attribute we can add to HTML elements. We can then use the class name to reference the element for use in CSS. Classes can reference multiple elements at once.
+
     11. What elements can I add a class to? 
+    Any
+
     12. How many times can I use the same class on a page? 
+    No limit.
+
     13. How do I get my link to open in a new tab?
+    The <a> tag with target='blank'
+
     14. What is the alt attribute in the image tag used for? 
     15. How do I reference an id?
     16. What is the difference between a section and a div
