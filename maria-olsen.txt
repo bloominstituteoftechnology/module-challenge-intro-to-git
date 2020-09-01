@@ -16,7 +16,8 @@ Questions
     5. Name two tags that have required attributes
         a, img
 
- **   6. What do we put in the head of our HTML document? 
+    6. What do we put in the head of our HTML document? 
+        The <html> element, along with relevant metadata (<head>, <title>, <body>)
 
     7. What is an id? 
         An attribute that can be used to reference a particular element in CSS 
