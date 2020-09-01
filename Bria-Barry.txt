@@ -90,7 +90,7 @@ rm. because there will not be a error prevention message
     34. Why should I use version control? 
 To save all changes to look back on
     35. How often should I commit to github?
-When I am finished with a portion or I want to save
+When I am finished with a significant portion of code
     36. What is the command we would use to push our repo up to github? 
 git push
     37. Walk me through Lambda's git flow. 
@@ -98,6 +98,7 @@ create OWN version of Repo (Fork)
 add TL as a collaborator
 Clone Repo
 create a branch
+commit changes and push into github
 submit their PR into the new branch
 TL then will count the HW as done by merging the HW back into master “STUDENT FORK”.
 
