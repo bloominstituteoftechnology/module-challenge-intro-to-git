@@ -47,4 +47,5 @@ Stretch Git Tasks
 
 - [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
 
+git add .
 
