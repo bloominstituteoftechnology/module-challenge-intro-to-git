@@ -1,0 +1,107 @@
+codepen https://codepen.io/bug8dev/pen/jOqGPRj?editors=1100
+
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+    Semantic HTML are tags used to tell you what is inside of the content.  <p> tells youo that it is a paragraph. <header> tells  you that its a header. etc.
+    2. What is HTML used for? 
+    HTML is a markup language used to create web pages.
+    3. What is an attribute and where do we put it? 
+    An attribute provides additional info to an element.  The src attribute provides a link to an image.  The href attribute provides a link destination for a clickable link. etc.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    The h1 tag is used for the most important title to a page and is used only once.
+    5. Name two tags that have required attributes
+    <img> and <a> require attributes.
+    6. What do we put in the head of our HTML document? 
+    Header.
+    7. What is an id? 
+    id is used to identify an element for css.
+    8. What elements can I add an id to? 
+    id's can be added to any element.
+    9. How many times can I use the same id on a page? 
+    only once per element.
+    10. What is a class? 
+    A class is an id that can be used for multiple elements.
+    11. What elements can I add a class to? 
+    A class can be added to any element.
+    12. How many times can I use the same class on a page? 
+    You can use a class as many times as  you like.
+    14. What is the alt attribute in the image tag used for? 
+    The alt atribute is used for readers for the visually impaired and for web pages that do not load images.
+    15. How do I reference an id?
+    You reference an id like this: h1 id="myId">This is how you reference an id!</h1>
+    16. What is the difference between a section and a div
+    A section is used for a section of a page that logically would be grouped together. The body of the page would be included in a section. A div divides the page to be used for css.
+    17. What is CSS used for? 
+    CSS is used to style a page.  Html is the building blocks of a house and css is the paint, the drapes, and everything that makes it aesthetically pleasing.
+    18. How to we select an element? Example - every h2 on the page
+    h2 {
+        color: red;
+    }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class can be assigned to to any element and an id can only be used once. you could use a class to change the text color in all paragraphs and use an id to change the color in one paragraph.
+    20. How do we select classes in CSS?
+    You select classes in CSS with "."
+    21. How do we select a p element with a single class of “human””?
+    p.human{
+        color:red;
+    }
+    22. What is a parent child selector? When would this be useful? 
+    I had to google this question because I do not recall going over this in class. This is what I found: body > p {color: green;} It is used to select all of the paragraphs within the parent: body.
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar a:link
+    24. What is a pseudo selector?
+    A pseudo selector is a keyword addded to an element that specifies a state, like hover.
+    25. What do we use the change the spacing between lines?
+    The line height property.
+    26. What do we use to change the spacing between letters?
+    The letter-spacing property.
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: lowercase  text-transform: capitalize I assume the third question is about uppercase: text-transform:uppercase
+    28. How do I add a 1px border around my div that is dotted and black?
+    div.dotted {outline-style: dotted; border-width: 1px}    
+    29. How do I select everything on the page? 
+    use the * in css  
+    * {
+        color:green;
+    }
+    30. How do I write a comment in CSS?
+    /* *\
+    31. How do I find out what file I am in, when I am using the command line? 
+    Use the pwd command.
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        Use the ls command.
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        Use the rm command. You have to be careful because once it is deleted, it is gone.
+    34. Why should I use version control? 
+    You should use version contol because it is a way to save your work and make changes and revert back to previous versions prior to changes made.
+    35. How often should I commit to github?
+    You should commit to github frequently as you make changes.
+    36. What is the command we would use to push our repo up to github? 
+    You use the git push origin master command.
+    37. Walk me through Lambda's git flow. 
+    1.fork
+    2.add TL as collaborator
+    3.clone
+    4. Back inside your CLI, use the cd command to go to the directory
+    5. use git clone command to repo to the directory
+    6. cd into new repo cd <repo-name>
+    7.git checkout -b 'firstname-lastname'to create  your own branch name for repo
+    8. git. add
+    9. git commit -m "then your comments"
+    10. git push -u origin branch name push commits from my computer to github
+    11.submit pull request
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+
+
+   --> 
