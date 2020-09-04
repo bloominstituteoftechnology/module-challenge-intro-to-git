@@ -1,17 +1,18 @@
 
 Finished codepen:
-https://codepen.io/tmcminimy/pen/mdPddzM
-I am pretty sure I got a few things wrong (I spent like an hour on the image borders), but with
-the clock ticking, it was the best I could do.
+https://codepen.io/tmcminimy/pen/abNVXgO?editors=1100
 
 
 
-1. What is Semantic HTML? 
+    1. What is Semantic HTML?
+    HTML organized in a way that makes it easier to understand and parse via screen readers, etc. Uses tags like <address> and <footer> instead of generic <div> <span> etc. 
+
     2. What is HTML used for?
     Displaying web pages. 
 
     3. What is an attribute and where do we put it?
-    Terms that define characteristics of a given element. Inside the first bracket (e.g. <a HREF) 
+    Terms that define characteristics of a given element. 
+    Inside the first bracket (e.g. <a HREF) 
 
     4. What is the h1 tag used for? How many times should I use it on a page?
     It's a page header, and should be used only once.
@@ -38,8 +39,7 @@ the clock ticking, it was the best I could do.
     Any
 
     12. How many times can I use the same class on a page? 
-    As many as your heart tells you is good. Or as many as you want to have the same settings
-    apply.
+    As many as your heart tells you is good.
 
     13. How do I get my link to open in a new tab?
     target=_blank
