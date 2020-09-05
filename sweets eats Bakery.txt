@@ -1,0 +1,123 @@
+<!-- 
+
+Step 1: Fork this pen so it's yours.
+
+Step 2: Practice marking up this content using semantic HTML tags. 
+
+Remember that semantic markup provides meaning.  Here are a few tags you could consider using:
+
+<h1> through <h6> 
+<p>
+<header>
+<footer>
+<nav>
+<a>
+<section>
+<address>
+
+Don't worry about CSS here, The goal is to markup the page in a semantic way.  
+
+Step 3: Once you're done marking the content up. Let your project manager know and send them a link to your codepen.
+
+-->
+
+<h1>Sweet Eats Bakery</h1>
+
+<body>
+ <div id="topcontainer">
+ <div id=left">
+  <nav>
+       <ul>
+              <li>
+   About
+              </li>
+ <li>  
+   Cookies
+              </li>             
+<li>
+  Cookies
+              </li>
+<li>
+    Weddings
+              </li>
+<li>
+   Weddings
+              </li>
+<li>
+  Catering>
+              </li>
+<li>
+   Contact
+              </li>
+              </ul>
+              </nav>
+              
+
+<br>
+              
+<h2>About Sweet Eats Bakery</h2>
+
+<p>
+Marzipan jelly-o macaroon I love macaroon jujubes. Candy candy canes jujubes I love ice cream croissant. Lollipop donut icing I love liquorice gummi bears marzipan. Dragée jelly beans apple pie cotton candy lemon drops pastry candy powder.
+              </p>
+              
+
+Cupcakes
+
+<p>
+    Candy apple pie lemon drops sweet roll danish. Tiramisu candy canes jelly-o jelly beans cotton candy pastry pudding tootsie roll carrot cake. Dessert sesame snaps brownie lemon drops cookie donut dragée. Toffee pie fruitcake powder gingerbread pudding.
+              </p>
+Cookies
+<p>
+Cookie soufflé dessert carrot cake fruitcake halvah pudding cake. Marzipan topping bear claw soufflé gingerbread biscuit. Tiramisu gummi bears chocolate bar sugar plum icing muffin cake jelly-o icing.
+              </p>
+Catering
+<p>
+Sweet jelly-o apple pie powder jelly beans. Pastry sweet roll cake jujubes halvah soufflé brownie. Toffee cookie lemon drops jelly beans chocolate bar. Wafer muffin jujubes danish tart danish chocolate wafer.
+              </p>
+<p>Contact</p>
+              <address>
+  <a href="yum@sweeteatsbakery.com">yum@sweeteatsbakery.com</a><br>
+  <a href="tel:+202-555-0144">202-555-0144</a>
+</address>
+
+<p>4209 Bobcat Drive
+Madison, WI, 48219
+              </p>
+              
+<br>
+              
+              </body>
+              
+<footer>Sweet Eats Bakery</footer>
+<nav><ol>
+               <li>  
+    About
+              </li>
+<li>
+    Cookies
+              </li>
+<Li>
+  Weddings
+              </Li>
+<li>
+Cookies
+              </li>          
+<li>
+  Catering
+              </li>
+<li>
+   Contact
+              </li>
+              </ol>
+             </nav>
+
+
+
+Copyright Sweet Eats 2018
+
+
+
+
+
+
