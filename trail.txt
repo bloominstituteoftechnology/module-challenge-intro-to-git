@@ -141,3 +141,5 @@ footer .footer-content .copyright {
   padding: 20px 0;
    /*======= center the text here */
 }
+/*this is the end.*/
+
