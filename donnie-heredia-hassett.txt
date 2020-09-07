@@ -2,13 +2,13 @@ https://codepen.io/DonnieJewel/pen/NWxBjEz?editors=1100
 
 
 1. What is Semantic HTML? 
-Semantic HTML is the recommended standard for HTML markup.
+Semantic HTML basically means a clean and meaningful way to write HTML.
 
 2. What is HTML used for? 
-HTML is used as a blueprint for displaying information on your screen.
+HTML is used as the foundation of information that will be later styled and utilized.
 
 3. What is an attribute and where do we put it?
-An attribute is used to include information that we don't want rendered on the page. An attribute is put within the opening tag of an element.
+An attribute is used to include added information. An attribute is put within the opening tag of an element.
 
 4. What is the h1 tag used for? How many times should I use it on a page?
 The h1 tag is used to locate the header of the page and should be used once. 
@@ -20,10 +20,10 @@ a & image
 <!DOCTYPE html>
 
 7. What is an id? 
-An id is a title that CSS can use to select an element accurately.
+An id is an attribute that is used in HTML to identify specific entities that can later be used in CSS and can be used to select an element accurately.
 
 8. What elements can I add an id to? 
-p,div,h1-6,body- a singl element
+All
 
 9. How many times can I use the same id on a page? 
 once
@@ -38,13 +38,13 @@ A class can be added to multiple elements at once.
 Once
 
 13. How do I get my link to open in a new tab?
-target="_blank"
+<a href= "wherever.com" target="_blank">
 
 14. What is the alt attribute in the image tag used for? 
-The alt attribute in the image tag is used to provide alternative information for a user under various different scenarios. 
+The alt attribute in the image tag is used to provide accessibility through alternative information for a user under various different scenarios. 
 
 15. How do I reference an id?
-#
+#whateverThatIdNameIs
 
 16. What is the difference between a section and a div
 The difference between div and section is that div does not define a section in html, but simply convey's meaning in it's further attributes; when section means that the content within a specific SECTION is grouped.
@@ -53,11 +53,13 @@ The difference between div and section is that div does not define a section in 
 CSS is used to add style and layout to web pages.
 
 18. How to we select an element? Example - every h2 on the page
+
 h2{
 be:selected;
 }
 
 19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
 <div id="top">
 <h1>The Bird</h1>
 <p class="truth">Is the word.</p>
@@ -70,39 +72,49 @@ Class can be used to identify more than one element, where as id can identify on
 .
 
 21. How do we select a p element with a single class of “human””?
+
 p .human{
 
 }
 
 22. What is a parent child selector? When would this be useful? 
-A parent child selector is used to reference a specific tag; this would be useful when applying styling rules to HTML
+A parent child selector is (>) placed between two CSS selectors and will match the elements to the second selector that are the decenents/direct children of the first matched element.
 
 23. How do you select all links within a div with the class of sidebar?
+
 .sidebar a{
 
 }
 
 24. What is a pseudo selector?
-Pseudo selector selects elements that are specific. i.e. :hover, :first-child, :invalid, etc.
+
+Pseudo selector selects elements that do something or select something specific and differing from the origional selector
+. i.e. :hover, :first-child, :invalid, etc.
+
 
 25. What do we use the change the spacing between lines?
+
 We use line-height to change the spacing between lines.
 
 26. What do we use to change the spacing between letters?
+
 We use letter-spacing to change the spacing between letters.
 
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
 text-transform:uppercase;
 text-transform:lowercase;
 text-transform:capitalize;
 
 28. How do I add a 1px border around my div that is dotted and black?
-body{
+
+div{
 border:1px dotted black;
 }
 
 29. How do I select everything on the page? 
-*{
+ 
+ *{
 
 }
 
@@ -110,19 +122,24 @@ border:1px dotted black;
 /* */
 
 31. How do I find out what file I am in, when I am using the command line? 
-To find out what file you're in when using the command line, I personally, 'cd ..', 'ls', and take a look at where I'm at. Otherwise I utilize the GUI and the line that comes on the prompt before you type.
+
+To find out what file you're in when using the command line, I personally, 'cd ..', 'ls', and take a look at where I'm at.
 
 32. Using the command line - how do I see a list of files/folders in my current folder?
+
 ls
 
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
-git-rm - Is used to remove files via the command line. You should be very caution using this because it cannot be undone.
+
+rm - Is used to remove files via the command line. You should be very caution using this because it cannot be undone.
 
 34. Why should I use version control? 
+
 You should use version control because it's the best practice to always have backups incase the unthinkable comes to pass. 
 
 35. How often should I commit to github?
-OFTEN!(thanks for the reminder...)
+
+ OFTEN!(thanks for the reminder...)
 
 36. What is the command we would use to push our repo up to github? 
 git push origin <firstname-lastname>
@@ -136,10 +153,10 @@ e. Find your project folder in the GUI
 f. Open a GitBash instance in the file that your new folder
 g. Once opened, clone the URL with the command 'git clone ....'
 h. Typing ls will allow you to check the files in this directory, where you should see the project you've just cloned. "cd (project name)" into the directory of this project
-i. Type 'git checkout -b (yourname) with a hypen and without spaces to make your own branch that will show within the prompt once completed.
-j. Use 'git status' to verify your branch location
+i. Type 'git checkout -b (your-name) with a hypen and without spaces to make your own branch that will show within the prompt once completed.
+j. Using 'cd' and (your-name), you can go into yoru branch. Use 'git status' to verify your branch location
 k. Type code . and do your work
-l. When you're done with your work, type 'git add .' into the terminal
+l. When you're done with your work(More importantly, along your coding journey as you start to build the structure of your project/work), type 'git add .' into the terminal
 m. Then use 'git commit -m (a message about what you changed and worked on)' to make an inlie message that will be attatched to the log
 n. Use 'git push origin (your name)' to submit the work
 o. Return to github repositry and refresh the page to see that you've pushed your branch
@@ -153,15 +170,21 @@ Q. DON'T CLICK MERGE PULL REQUEST
 Stretch Questions
 
 1. What is the difference between an inline element and a block element?
+
 The difference between an inline element and a block element is that the inline element doesn't need to start on a new line and will only occupy the width it requires (this, nor the height can be set); while the block element can be started on a new line and can occupy it's full width.
 
 2. What happens when an element is positioned absolutely? 
-When an element is positioned absolutely, it gets removed from normal doc flow and is positioned at the starting point of its parent element.
+
+It will move fixed like with the webpage as it is scrolled.
 
 3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+
+Give the elements' parent or the entire body a width and then allow it to take only the amount it needs.
+
     
 4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-Div, li, nav  -  span, strong, nav
+Div, li, nav  -  nav
 
 5. In your own words, explain the box model. /*What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? */
 The box model is the structure of these invisible/visible barriers around your content.
+you can fix the box model by using flexbox!
