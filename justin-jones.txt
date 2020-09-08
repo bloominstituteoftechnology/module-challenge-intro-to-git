@@ -84,7 +84,9 @@ https://codepen.io/justinjonespdx/pen/OJNQLNM
     This would be useful when you want the entire section to be styled the same way.
 
 23. How do you select all links within a div with the class of sidebar?
+    .sidebar a{
 
+    }
 
 24. What is a pseudo selector?
     A pseudo selector is a keyword added to a selector that specifies what happens to a selected element
@@ -138,9 +140,18 @@ div{
     You should commit after finishing a step
 
 36. What is the command we would use to push our repo up to github? 
-    
+    git push origin <your-branch-name>
+
 
 37. Walk me through Lambda's git flow. 
+    Lambda's git flow is as follows
+    start by forking a repo
+    make sure to add your TL as a collaberator
+    clone it to your computer
+    work on the project (vs code)
+    once finished, create a pull request for submission
+
+    On a side note, its important to comment on your code while you are going through, as well as deleting branches when youre done using them.
 
 Stretch Questions
 
