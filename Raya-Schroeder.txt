@@ -1,0 +1,290 @@
+My Code Pen
+
+https://codepen.io/raya-schroeder/pen/JjXMXgY
+
+
+
+Review Questions
+
+1. What is Semantic HTML? 
+
+Semantic HTML uses tags that are meaningful in English. You can understand what the tags do from their names. Some examples are <h1> (header), <p> (paragraph), <section> (section) and <nav> (navigation).
+
+
+2. What is HTML used for? 
+
+HTML simply puts text on a screen with no style. It is the "bare bones" of a website.
+
+
+3. What is an attribute and where do we put it? 
+
+An attribute supplies data to an element. It goes inside the first tag of the element we want it to supply data to. Some examples of attributes are "href" (makes a link work by telling the browser which web address to link to) and "src" (makes an image visible by telling the browser which web address the image comes from). Here is an example of how an attribute is formatted inside of an anchor element:
+
+<a href="http://www.google.com"Click Here</a>
+
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+
+The h1 tag is used to display the most important headline on the page. It should only be used once.
+
+
+5. Name two tags that have required attributes
+
+<a> and <img>
+
+
+6. What do we put in the head of our HTML document? 
+
+Metadata goes in the head of an HTML document. The metadata isn't displayed on the webpage. Some tags that would appear inside the head are <style> (contains CSS code) and <title> (the title of the webpage).
+
+
+7. What is an id? 
+
+An id is a CSS selector. You need to add it to the HTML opening tag of a specific element, and then refer to it in the CSS. Each id can only be used ONCE. It styles ONE element. 
+
+In the HTML, it could look like...
+
+<p id ="paragraph-one">Paragraph text goes here</p>
+
+In the CSS, it then looks like...
+
+#paragraph-one {
+   color: black;
+}
+
+Notice the "#" symbol is used before the id in the CSS.
+
+
+8. What elements can I add an id to? 
+
+You can add each id to ONE element only. If you want to add multiple ids, you need to give them separate names.
+
+
+9. How many times can I use the same id on a page? 
+
+Once.
+
+
+10. What is a class? 
+
+A class is a CSS selector that will style multiple elements in HTML in a specific way.
+
+In HTML, it could look like...
+
+<section class ="main-section">
+  <h2>Header here</h2>
+  <p>Paragraph content here</p>
+</section>
+
+Then in CSS it looks like...
+
+.main-section {
+  font-family: Times;
+  margin-top: 40px;
+}
+
+The "." symbol is used before the class in CSS. In the example above everything inside of the section element (the header AND paragraph elements) will be styled the same way because they are in the same class.
+
+
+11. What elements can I add a class to?
+
+You can add multiple elements to a class. All of the elements in a given class will be styled the same way.
+
+ 
+12. How many times can I use the same class on a page? 
+You can use the same class multiple times. 
+
+
+13. How do I get my link to open in a new tab?
+Use the anchor element <a> and the "href" attribute. For example:
+
+<a href="http://www.google.com"Click Here</a>
+
+
+14. What is the alt attribute in the image tag used for? 
+
+If the image can't be opened by the browser, the text inside of the alt attribute will be displayed. The text inside of the alt attribute should describe the image. 
+
+
+15. How do I reference an id?
+
+Use the "#" symbol in CSS before the id name. 
+
+
+16. What is the difference between a section and a div
+
+A section is a semantic HTML tag, so it carries meaning. It would group together elements you'd expect in a section, such as <h2>, <p> and <button>. A div is a generic container. It doesn't carry meaning. It can be a useful way to group multiple elements together when you are styling them in CSS.
+
+
+17. What is CSS used for? 
+
+It's used to style the elements in HTML.
+
+
+18. How to we select an element? Example - every h2 on the page
+
+Select it in CSS like this:
+
+h2 {
+  font-size: 14px;
+}
+
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+A class styles MULTIPLE elements the same way. An id styles ONE element in a specific way.  You might use a class if you want to style all of the elements in a specific section the same way. You might use an id if you want to style ONE header a specific way.
+
+20. How do we select classes in CSS?
+
+With a period (.)
+
+
+21. How do we select a p element with a single class of “human””?
+
+Like this...
+
+.human {
+  background-color: white
+}
+
+
+22. What is a parent child selector? When would this be useful? 
+
+A parent child selector is a CSS selector that styles ALL children of a specific parent element the same way. It would be useful if you wanted to style ALL of the paragraph elements in a section the same way, for example.
+
+You could use it like this in CSS...
+
+section > p {
+  color: red;
+}
+
+
+23. How do you select all links within a div with the class of sidebar?
+
+HTML like this...
+
+<div class = "sidebar">
+  <a href ="https://google.com"Click here to go to Google</a>
+  <a href ="https://yahoo.com"Click here to go to Yahoo</a>
+  <a href ="https://bing.com"Click here to go to Bing</a>
+</div>
+
+CSS like this...
+
+.sidebar }
+  text-color: blue;
+}
+
+
+24. What is a pseudo selector?
+
+In CSS it styles a particular element only when certain conditions are met. A common pseudo selector is "hover," which only styles the element when the mouse is hovering over it. 
+
+Use a pseudo selector like this in CSS...
+
+button:hover {
+  color: red; 
+}
+
+
+25. What do we use the change the spacing between lines?
+
+Use the CSS property "line-height," formatted like this:
+
+p {
+  line-height: 2.0;
+}
+
+
+26. What do we use to change the spacing between letters?
+
+Use the CSS property "letter-spacing," formatted like this:
+
+p {
+  letter-spacing: 1.4;
+} 
+
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+The CSS properties...
+
+text-transform: uppercase;
+text-transform: lowercase;
+text-transform: capitalize;
+
+
+28. How do I add a 1px border around my div that is dotted and black?
+
+In CSS...
+
+div }
+  border: 1px dotted black;
+} 
+
+
+29. How do I select everything on the page? 
+
+With the universal selector, *.
+
+
+30. How do I write a comment in CSS?
+
+/* Comment goes here */
+
+
+31. How do I find out what file I am in, when I am using the command line? 
+
+Use the command, "pwd." It will then show you the directory you are in.
+
+For example:
+
+$ pwd
+/Users/raya/Desktop/Lambda/Git
+
+In this example we are currently in the "Git" directory.
+
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+
+Use the command, "ls." It will show you the contents of the folder you're currently in.
+
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+Use the command, "rm [file name]." For example, "rm Raya-Schroeder.txt". You need to be careful with this command because you will NOT be prompted with a message to confirm that you really want to delete the file. So you could lose important data with this command if you're not careful.
+
+
+34. Why should I use version control? 
+
+It keeps track of the different changes you have made over time, almost like a time machine, so you can restore different versions you've made of a file in the past. It's very useful to be able to go back in time like this because if you make a mistake or a modification you don't like, you can restore a former version of your file.
+
+
+35. How often should I commit to github?
+
+Very often! Ideally, after each SINGLE change you have made. 
+
+
+36. What is the command we would use to push our repo up to github? 
+
+
+"git push origin -u [branch-name]", for example, "git push origin -u Raya-Schroeder".
+
+
+37. Walk me through Lambda's git flow. 
+
+1. Fork the repository so you have your own copy of it.
+2. Add your TL as a collaborator.
+3a. Clone the repo by copying the web URL in Github.
+3b. In your terminal application, navigate to the folder you want to put the repo into on your computer with the command "cd [directory name]", for example "cd Git".
+3c. Paste the Github URL with the command, "git clone https://github.com...."
+4. Checkout your own branch with the command "git checkout -b [your-name]" for example "git checkout -b Raya-Schroeder".
+5. Make a change to the file you copied into your folder from Github.
+6. Use the command "git add.".
+7. Use the command "git commit -m ["a message about the change you made"]", for example, "git commit -m "Fix typo in line 34"".
+8.Use the command "git push origin [branch-name]".
+9. Go back to your Github repository and refresh the page. You will see a message saying that you just pushed up to your branch. 
+10. Make a pull request. As you do this, make sure to use your own fork as the base. 
+11.Add your TL as a reviewer on the pull request.
+
+
