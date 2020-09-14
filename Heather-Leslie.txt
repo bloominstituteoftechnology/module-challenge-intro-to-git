@@ -1,0 +1,147 @@
+https://codepen.io/hleslie5/pen/JjXZKxg?editors=1100
+
+1. What is Semantic HTML? 
+Semantic HTML refers to hypertext markup language tags that have more than just language associated the tags--meaning also exists with the language.  For example, <h1> is a semantic tag and <div> is a non-semantic tag.  A tag in which the meaning can be easily ascertained indicates that it can be termed a semantic tag.  Computers which read the code can best use the code if the HTML is written semantically appropriately.
+
+    2. What is HTML used for? 
+Hypertext markup language is a markup language designed to display information in a graphical form on web pages.
+
+    3. What is an attribute and where do we put it? 
+Attributes are flags put inside symbols which are not specifically put into text form on the web page which are written into the computer code.  They are for hyperlinks and images.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+This is a heading tag and designed to represent the heading with the largest font or the most important heading on the page.
+
+    5. Name two tags that have required attributes.
+The anchor element will always have an href attribute and the image element will always have a source attribute.
+
+    6. What do we put in the head of our HTML document? 
+Header should be used first.
+
+    7. What is an id? 
+Id is a title for a selector which begins with the symbol #.
+
+    8. What elements can I add an id to? 
+An ID can only be added to a single element.
+
+    9. How many times can I use the same id on a page? 
+You can only use the same ID once.
+
+    10. What is a class? 
+Class is a term for a selector which begins with a "."
+
+    11. What elements can I add a class to? 
+Any elements from what I understand.
+
+    12. How many times can I use the same class on a page? 
+This can be used multiple times.
+
+    14. What is the alt attribute in the image tag used for? 
+The alt attribute offers some explanation if the image link does not lead to an image.  This is the link where I found this answer.   https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiknsDAnOfrAhXaZs0KHZCSD1UQFjABegQICxAD&url=https%3A%2F%2Fwww.w3schools.com%2Ftags%2Fatt_img_alt.asp%23%3A~%3Atext%3DThe%2520required%2520alt%2520attribute%2520specifies%2Cuser%2520uses%2520a%2520screen%2520reader).&usg=AOvVaw00J4ja1GqIqWEUfxoTMPgL
+
+    15. How do I reference an id?
+Id's are referenced with a # and then the text descriptor.
+
+    16. What is the difference between a section and a div?
+A section is really used to wrap an entire group of text while the div can be used inside the section block to divide small pieces of the section.
+
+    17. What is CSS used for? 
+CSS is used to style individual pieces of text and format web pages--really to make web pages have a more appealing or designed look while viewing the page.
+
+    18. How to we select an element? Example - every h2 on the page
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+An id selects one single element and a class selects multiple elements.
+
+    20. How do we select classes in CSS?
+Put a . in front of it.
+
+    21. How do we select a p element with a single class of “human””?
+<p class = "human">
+
+    22. What is a parent child selector? 
+When would this be useful? 
+This selects both the parent and child node elements.
+
+    23. How do you select all links within a div with the class of sidebar?
+<div class = "sidebar">
+
+    24. What is a pseudo selector?
+The document has already been highlight somehow by the user and so this is pseudo selected.
+
+    25. What do we use the change the spacing between lines?
+line-space (not sure)
+
+    26. What do we use to change the spacing between letters?
+letter-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform: lowercase
+text-transform: uppercase
+
+    28. How do I add a 1px border around my div that is dotted and black?
+div {
+border: 1px dotted black;
+}
+
+    29. How do I select everything on the page? 
+I am not certain.
+
+    30. How do I write a comment in CSS?
+You put a comment in quotation marks and put some contact information in the quotes.
+
+    31. How do I find out what file I am in, when I am using the command line? 
+Just push .
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rm -r 
+You just don't want to delete more than you intended to.
+
+    34. Why should I use version control? 
+Version control systems help developers try to keep the codes available to other developers so that other available developers can contribute into the hub and work on the code and the code can be deposited into the hub to be edited as a whole.
+
+    35. How often should I commit to github?
+Lambda's Canvas Git hub course page suggests to do that often.
+
+    36. What is the command we would use to push our repo up to github? 
+git push
+
+    37. Walk me through Lambda's git flow. 
+1.  Push the fork button to create a copy.
+2.  My name will be at the top of the page in front of the project name.
+3.  Add team leader as collaborator by going to settings and then manage access and following steps there.
+4.  Clone or copy the URL from the top right.
+5.  Go to command line and use CD to go to appropriate directory.
+6.  Use git clone to paste the URL to where you want it.
+7.  Use the cd command to go into the file.
+8.  Use the git checkout -b 'firstname-lastname’ command for making a branch.
+9.  Do the assignment.
+10. Use git push -u origin 'firstname-lastname'.
+11. Do a pull request.
+12. Go back to forked copy repository.
+13. Click on branch master on bottom left, click my name, click new pull request.
+When going to pull request page, do go to forked copy and not Lambda copy.
+14. Make sure to add Team Leader to reviewers.
+15. Do not merge my own pull request.
+
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+An inline element keeps all element information and text information on the same line in the text editor while a block element puts the element information on one line in the editor and then more information below it.
+
+    2. What happens when an element is positioned absolutely? 
+It is syntactically precise.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default.
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+
+   --> 
