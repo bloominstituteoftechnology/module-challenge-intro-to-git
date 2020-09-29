@@ -1,5 +1,33 @@
-https://codepen.io/crystalbrock619/pen/rNebqym
+Link to completed CodePen project:
+	
+	https://codepen.io/crystalbrock619/pen/rNebqym
+
+Review questions and answers:
 1. What is the difference between an inline element and a block element?
+	
+	An block element takes up the full line and width it is given, whereas an inline element will not force a 		new line and will display inline with the content around it.
+
 2. What happens when an element is positioned absolutely?
-3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default.
+	
+	The element will be positioned reletively to it's nearest parent unless it has no parents in which case it 		will use the document body.
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+	
+	Setting the element in a <div> will allow you to do this, or you could set the element to display: block;.
+
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element         that is display inline-block by default.
+	Default Block:
+		<div>
+		<p>
+		<ol>
+	Default inline:
+		<span>
+		<br>
+	Default inline-block:
+		<button>
+		
 5. In your own words, explain the box model. What is the fix for the box model?
+	
+	The box model is a way of remembering what properties change what parts of an element. It is 		represented as a layered series of "boxes" around an element. With padding the innermost, border the 		middle, and margin on the outside.
+
+	The fix for the box model is called box-sizing: border-box. It tells the browser to include padding and 		borders in an element's width. You use it by inserting the command in your linked stylesheet.
