@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgray;
+}
+
+main{
+    border: 20px solid blue;
+    margin: 10px;
+}
+
+.container{
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+/* top section*/
+.mainTitle{
+    text-align: center;
+    color: darkgreen;
+    font-size: 2.5rem;
+    padding: 20px 0;
+}
+.mainTitle:hover{
+    color: rgb(47, 13, 63);
+}
+.mainParagraph{
+    background-color: black;
+    color: green;
+    padding: 3rem;
+    font-size: 1.2em;
+}
+.mainParagraph:hover{
+    background-color:rgb(47, 13, 63);
+}
+
+/* Middle Sectoin */
+.middleSection{
+    background-color: rgb(77, 60, 17);
+    padding: 6rem;
+    color: #fff;
+}
+.middleSection:hover{
+    color: rgb(77, 60, 17);
+    background-color: rgb(191, 148, 41);
+}
+.middleSection-title{
+    font-size: 1.8rem;
+    /* padding-bottom: 1.2rem; */
+}
+.middleSection p{
+    font-size: 18px;
+    padding-top: 1.2rem;
+}
+
+/* Last Section */
+.lastSection{
+    padding: 1rem 0;
+}
+.lastSection-title{
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    color: lightgray;
+}
+.lastSection-title:hover{
+    text-transform: capitalize;
+    color: darkblue;
+}
+.lastSection p{
+    padding-top: 1.2rem;
+    font-size: 24px;
+    line-height: 1.1;
+}
+.lastSection:hover{
+    color: darkblue;
+}
+
+/* images */
+.images{
+    padding:8rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.images img:hover{
+    border: dotted pink 10px;
+}
