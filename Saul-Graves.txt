@@ -1,4 +1,6 @@
 CodePen: https://codepen.io/darthsaul/pen/ExKzWxB
+        > I know the image row does not stretch the width of the page! I couldn't figure out how to do this without copying code 1:1 off W3 / the internet, so I decided to leave as is. 
+        > I will learn how to do this!!!
 
 1. What is Semantic HTML? 
     Semantic HTML refers to semantically describing HTML elements. For example, <div> is very vague, but <section> is a semantic tag. 
@@ -82,9 +84,19 @@ CodePen: https://codepen.io/darthsaul/pen/ExKzWxB
     fork > clone > new branch > add > commit > push > pull
 
 Stretch Questions
-
-    1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+1. What is the difference between an inline element and a block element?
+    A block element will encapsulate all of the content of a certain div, and stylization will apply to all of the content within the block element. 
+    An inline element can be applied to a specific piece of content within a block element, and can be stylized differently from the rest of the block element. 
+    An example is making a single sentence bold/italicized within a larger paragraph that is not. 
+2. What happens when an element is positioned absolutely? 
+    The element is positioned to the closest ancestor element. The ancestor element needs to be positioned, otherwise the absolutely positioned element will use the document body. 
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    Use display: flex ?
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    3 elements that are display block by default are <h1> - <h6>, <p>, and <div>
+    2 elements that are display inline by default are <span> and <br>
+    1 element that is display inline-block by default is ______ ?
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    The box model is how HTML elements are separated from one another, and CSS is used to manipulate the spacing between blocks. 
+    CSS properties such as margin and padding are used with the box model to determine positioning / layour. 
+    The fix for the box model is by creating a parent container for multiple elements and using the property:value tool display:flex ...?
