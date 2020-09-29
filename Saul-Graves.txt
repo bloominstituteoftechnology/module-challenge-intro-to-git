@@ -11,37 +11,75 @@ CodePen: https://codepen.io/darthsaul/pen/ExKzWxB
 5. Name two tags that have required attributes
     <a> and <img> tags both require corresponding attributes. 
 6. What do we put in the head of our HTML document? 
-    7. What is an id? 
-    8. What elements can I add an id to? 
-    9. How many times can I use the same id on a page? 
-    10. What is a class? 
-    11. What elements can I add a class to? 
-    12. How many times can I use the same class on a page? 
-    13. How do I get my link to open in a new tab?
-    14. What is the alt attribute in the image tag used for? 
-    15. How do I reference an id?
-    16. What is the difference between a section and a div
-    17. What is CSS used for? 
-    18. How to we select an element? Example - every h2 on the page
-    19. What is the difference between a class and an id? - Give me an example of when I might use each one
-    20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of “human””?
-    22. What is a parent child selector? When would this be useful? 
-    23. How do you select all links within a div with the class of sidebar?
-    24. What is a pseudo selector?
-    25. What do we use the change the spacing between lines?
-    26. What do we use to change the spacing between letters?
-    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-    28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
-    30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
-    32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
-    35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow.
+    We put the stylesheet reference and and the <title>
+7. What is an id? 
+    An id is an HTML attribute that can be used as a CSS selector to style a single element. 
+8. What elements can I add an id to? 
+    You can add an id to any element you want, however you should only use an id once per HTML sheet. 
+9. How many times can I use the same id on a page? 
+    Once!
+10. What is a class? 
+    A class is an HTML attribute that can be used as a CSS selector to style multiple elements (or one).
+11. What elements can I add a class to? 
+    You can add a class to any element. 
+12. How many times can I use the same class on a page? 
+    You can use the same class multiple times on a page, however using it only once is also fine. 
+13. How do I get my link to open in a new tab?
+    target="_blank"
+14. What is the alt attribute in the image tag used for? 
+    It used to describe the image in words. This is useful for accessability purposes.
+15. How do I reference an id?
+    #
+16. What is the difference between a section and a div
+    There is no difference, but section is a semantic tag for a div 
+17. What is CSS used for? 
+    Styling a page
+18. How to we select an element? Example - every h2 on the page
+    h2 { }
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class would most commonly be used for multiple elements that you want to style the same way, while an id is used for a single element and should only be used once.
+    You could use a class for all images on a page if you want to add a shadow effect to every image. 
+    You could use a clas for a single image on a page if you want to add a border to only that one image. 
+20. How do we select classes in CSS?
+    . 
+21. How do we select a p element with a single class of “human””?
+    .human { }
+22. What is a parent child selector? When would this be useful? 
+    A parent child selector is used when selecting an element that is the child of a parent element.
+    The most common example is selecting <li> elements within an <ol> or <ul> element. 
+23. How do you select all links within a div with the class of sidebar?
+    .sidebar a { }
+24. What is a pseudo selector?
+    A psuedo selector is most commonly used to style an element when it's in a certain state, such as hovering over it with a cursor. 
+25. What do we use the change the spacing between lines?
+    line-height
+26. What do we use to change the spacing between letters?
+    letter-spacing 
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: Capitalize
+28. How do I add a 1px border around my div that is dotted and black?
+    border-style: dotted;
+    border-color: black;
+    border-width: 1px;
+29. How do I select everything on the page?
+    * { }
+30. How do I write a comment in CSS?
+    */ comment */ 
+31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls 
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm 
+    You have to be careful because there's no "are you sure?" response before the file is deleted!
+34. Why should I use version control? 
+    To be able to work on a project without making changes to the master code, to not have to save everything, to be collaborating with a team, to see the history of changes made,
+35. How often should I commit to github?
+    A lot! Very often. 
+36. What is the command we would use to push our repo up to github? 
+    git push 
+37. Walk me through Lambda's git flow.
+    fork > clone > new branch > add > commit > push > pull
 
 Stretch Questions
 
