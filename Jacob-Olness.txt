@@ -1,0 +1,141 @@
+Task 1: https://codepen.io/jolness1/pen/NWNVdYg
+    Questions:
+    1. What is Semantic HTML? 
+        Semantic HTML defines the content
+    2. What is HTML used for? 
+        Gives page general structure
+    3. What is an attribute and where do we put it? 
+        Something to provide additional info for elements. 
+        Opening tag.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        First Header/Title
+        Title and one time for SEO
+    5. Name two tags that have required attributes
+        <a> 
+        <img>
+    6. What do we put in the head of our HTML document? 
+        Metadata like char set, styles, links, doc title
+    7. What is an id? 
+        Used to specity a unique identifier for an element
+    8. What elements can I add an id to? 
+        Any
+    9. How many times can I use the same id on a page? 
+        One
+    10. What is a class?
+        Similar to an id but for multiple elements
+    11. What elements can I add a class to? 
+        All of them
+    12. How many times can I use the same class on a page? 
+        No limit
+    13. How do I get my link to open in a new tab?
+        use target="_blank"
+        ie- <a href="https://mksound.com" target="blank">
+    14. What is the alt attribute in the image tag used for? 
+        Alternative Text for screen readers or if the image fails to load
+    15. How do I reference an id?
+        #idnamegoes here { CSS Goes Here }
+    16. What is the difference between a section and a div
+
+    17. What is CSS used for? 
+        Styling the webpage with colors, animations, fonts, text size etc.
+    18. How to we select an element? Example - every h2 on the page
+        h2 { CSS Goes Here }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        ID is used for an individual element that only appears once like <header>, class could be used but isn't best practice.
+        Class is used to select many elements. For example if you want to give several images the same formatting you would make
+        a <img class="classgoeshere"> in HTML and then use .classgoeshere { CSS Goes Here } in CSS
+    20. How do we select classes in CSS?
+        With a period
+        ie .classname { CSS Goes Here }
+    21. How do we select a p element with a single class of “human””?
+        p.human {cssgoeshere}
+    22. What is a parent child selector? When would this be useful? 
+        Child Selector is a > symbol between the other two selectors 
+            ie body > [CSS:GoesHere,]
+        Selecting nested code like a list with a list
+            output: 1)list item
+                        a.) Sub list item
+                        b.) another sub item
+                    2) another list item.
+            CSS: ol > li {CSS:GoesHere;}
+    23. How do you select all links within a div with the class of sidebar?
+        div .sidebar {CSSgoes.here}
+    24. What is a pseudo selector?
+        Can be added to selector to set a certain parameter ie Class:Hover; {CSSgoes:here;}
+    25. What do we use the change the spacing between lines?
+        {line-height:X;}
+    26. What do we use to change the spacing between letters?
+        {letter-spacing:X;}
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+         {text-transform: uppercase;} (ALL CAPS)
+         {text-transform: lowercase ;} (all lowercase)
+         {text-transform: Capitalize} (First Letter Of Every Word)
+    28. How do I add a 1px border around my div that is dotted and black?
+        div {
+            border-style:dotted;
+            border-width:1px;
+            border-color:black;
+        }
+    29. How do I select everything on the page? 
+        * selector
+            *{
+                CSSgoes.here
+            }
+    30. How do I write a comment in CSS?
+        /* Comment Stuff Here */
+    31. How do I find out what file I am in, when I am using the command line? 
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm file.name
+        Not put in a recycle bin, deleted fully right away
+    34. Why should I use version control? 
+        Better management of changes and more clear.
+        Prevent work happening at the same time from conflicting through 
+        incompatibility so entire development doesn't have to stop
+    35. How often should I commit to github?
+        
+    36. What is the command we would use to push our repo up to github? 
+        git push -u origin repository-name 
+        (SSH doesn't work with quotes)
+    37. Walk me through Lambda's git flow. 
+        Fork
+        Add PM Collaborator
+        Clone 
+        Create branch
+        add
+            git. add
+        commit
+            git commit -m "commit comment goes here"
+        Push
+        git push -u origin branch-name
+        Create Pull Request
+            Select you-branch
+            Compare
+            Create pull request
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+        inline can be in the line (ie <span>)
+        block starts a new line
+    2. What happens when an element is positioned absolutely? 
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, 
+    in other words, how do we make all elements respect the width we've given them? 
+
+
+Stretch Git Tasks
+
+- [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
+  - [X] Research and understand what a `merge conflict` is and how to resolve it.
+  - [X] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the main branch.
+  - [X] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
+
+- [ ] Research and set up a Graphical User Interface (GUI) Git console. 
+
+- [X] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
