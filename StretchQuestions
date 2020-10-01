@@ -1,0 +1,16 @@
+ Research and understand what a merge conflict is and how to resolve it.
+
+**A merge conflict is when git encounters an error when merging updates or new files to your branches. It can be resolved quickly or it can take time but most of the time the clue to resolving it is in the error message. It will state what file the error is in and how to go about fixing it to proceed merging. 
+
+ Research the Git commands pull, rebase, merge. These commands will allow you to bring in changes that other developers push to the main branch.
+**Git command pull: is used to update the local version of a repository from the remote location. It does 2 things. It updates the current working local branch and updates the remote branch that is tracking branches for all the other. Git rebase adds changes from one branch to another. It rewrites the commit history in order to produce a linear succession of commits. Git merge: lets you take the individual lines of the created branches and add them into a single branch. 
+
+ Research the Git commands reset , revert, clean. These commands will allow you to go back and amends previous commits you have made.
+
+**Git Reset: it takes the current branch and resets it to a point somewhere else, it sometimes brings the work tree along with it. Git Revert: is a forward-moving undo operation, it allows you to undo changes safely instead of deleting commits in the history. Git Clean: removes untracked files from the working tree. 
+ 
+Research and set up a Graphical User Interface (GUI) Git console.
+**completed
+
+ Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push.
+**completed
