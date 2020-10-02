@@ -1,0 +1,171 @@
+
+
+
+Link to CodePen.io = https://codepen.io/noel-96/pen/RwazyLo
+
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+
+Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation.
+
+    2. What is HTML used for? 
+
+HTML is used to allows the user to create and structure sections, paragraphs, headings, links, and blockquotes for web pages and applications.
+
+    3. What is an attribute and where do we put it?
+ 
+HTML attributes are special words used inside the opening tag to control the element's behaviour.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+
+The h1 is an HTML tag that indicates a heading on a website and it should only be used once 
+
+    5. Name two tags that have required attributes
+
+The img element
+
+src: The source location (URL) of the image file. 
+This works the same way as the href attribute on links
+
+The <a> tag has a required attribute. The href attribute
+
+
+    6. What do we put in the head of our HTML document? 
+
+The HTML <head> element is a container for the following elements: <title>, <style>, <meta>, <link>, <script>, and <base>.
+
+    7. What is an id? 
+
+The id attribute specifies a unique id for an HTML element (the value must be unique within the HTML document). The id attribute is most used to point to a style in a style sheet, and by JavaScript (via the HTML DOM) to manipulate the element with the specific id.
+
+    8. What elements can I add an id to? 
+any html element 
+
+
+    9. How many times can I use the same id on a page? 
+
+once
+
+    10. What is a class? 
+The class is an attribute which specifies one or more class names for an HTML element.
+
+    11. What elements can I add a class to? 
+
+as many as needed
+
+    12. How many times can I use the same class on a page? 
+
+as many as needed
+
+    13. How do I get my link to open in a new tab?
+
+Set the 'target' attribute of the link to _blank:
+
+<a href="#" target="_blank" rel="noopener noreferrer">Link</a>
+
+    14. What is the alt attribute in the image tag used for? 
+
+The required alt attribute specifies an alternate text for an image, if the image cannot be displayed.
+
+    15. How do I reference an id?
+
+The id of an element is unique within a page, so the id selector is used to select one unique element! To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+
+    16. What is the difference between a section and a div
+
+The <section> tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document. whereas: The <div> tag defines a division or a section in an HTML document. 
+
+    17. What is CSS used for? 
+
+CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers.
+
+    18. How to we select an element? Example - every h2 on the page
+
+h2 { 
+  background-color: yellow;
+}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
+
+
+    20. How do we select classes in CSS?
+
+To select elements with a specific class, write a period (.) character, followed by the name of the class. 
+
+    21. How do we select a p element with a single class of “human””?
+
+.human{
+
+}
+    22. What is a parent child selector? When would this be useful? 
+
+The ("parent > child") selector selects all elements that are a direct child of the specified element.
+
+    23. How do you select all links within a div with the class of sidebar?
+
+
+    24. What is a pseudo selector?
+
+pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s).
+    25. What do we use the change the spacing between lines?
+
+Use the line-height property in CSS to do so.
+
+    26. What do we use to change the spacing between letters?
+
+The letter- spacing property increases or decreases the space between characters in a text.
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+uppercase
+
+    28. How do I add a 1px border around my div that is dotted and black?
+border: 1px solid black;
+
+    29. How do I select everything on the page? 
+
+*{}
+    
+30. How do I write a comment in CSS?
+
+CSS uses the same "block comment" syntax as the C-like languages - you start a comment with /* , and end it with */ .
+
+    31. How do I find out what file I am in, when I am using the command line? 
+
+pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+rmdir
+
+you won't be prompted before deleting the file. You could easily lose a lot of work!
+
+    34. Why should I use version control? 
+
+TO Enable you keep track for your file 
+
+    35. How often should I commit to github?
+
+to store your code file on the cloud in case of emergencies
+
+    36. What is the command we would use to push our repo up to github? 
+
+git push origin branchname 
+
+    37. Walk me through Lambda's git flow. 
+
+fork the repo 
+clone the repo 
+git checkout a new branch 
+make your changes on your new branch 
+commit and push your changes 
+make a pull request to the main branch 
