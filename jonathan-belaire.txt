@@ -119,6 +119,7 @@ Step 6: Change branch with "git checkout firstName-lastName"
 Step 7: Add all files in current directory to staging area with "git add ."
 Step 8: Commit all changes and attach a message with "git commit -m 'message'"
 Step 9: Push all files to GitHub with "git push origin firstName-lastName"
+Step 10: Submit a pull request to submit work.
 
 Stretch Questions
 
