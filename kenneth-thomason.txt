@@ -44,3 +44,6 @@ Stretch Questions
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? You would use margin and padding around your element.
     4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default: Block by default: <table> <nav> <li>; inline by default: <a> <span>;  inline-block by default: <button>
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? everything in html has a box around it like bricks on a wall and CSS is used to style those bricks. You could use the width property in CSS on the parent element in your html file. ig: body { widith: 80% }
+
+
+Codepen URL: https://codepen.io/hoboman88/pen/yLOdqzX
