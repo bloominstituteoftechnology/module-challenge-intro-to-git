@@ -1,0 +1,408 @@
+rhiannon-stanford.txt
+
+https://codepen.io/qirhi/pen/zYqgPKd?editors=1100
+
+STRETCH GOALS COMPLETED
+
+
+1. What is Semantic HTML? 
+
+Semantic HTML means elements that are used who have names that describe it’s meaning to both developers and the browser.  An example would be a <h1> element or a <p> element.  Form and element describe what the element contains.  An example of a non-semantic HTML element would be a <div> or <container>.  These element names, give no description of the content.
+
+
+
+2. What is HTML used for? 
+
+HTML is a markup language that tells the browser how to organize and display content on a webpage.  Content might be text or images.  
+
+
+
+3. What is an attribute and where do we put it? 
+
+An attribute refines the behavior and look of an HTML element.  We put it after the element name in the start tag.  An attribute is written in a name, value pair.  For eg. class=“name”
+
+
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+
+The h1 tag is used to specify the main title of the webpage.  There should only be one h1 tag per page.  The h1 tag is used for screen readers, enhancing SEO, and helps organize your webpage for readability.
+
+
+
+5. Name two tags that have required attributes
+
+The image element tag and the anchor element tag have required attributes:
+
+<img src=“sample.jpg” alt=”alternate photo name”/>  In this case, the src attribute is required.
+<a href=“https://www.lambda.com”>Check Out Lambda!</a> In this case, the href attribute is required.
+
+
+
+6. What do we put in the head of our HTML document? 
+
+We put metadata in the head section of the HTML document.  Metadata is information about the HTML document contents.  It includes the title of the document, and can include the author’s name, CSS files, script files, etc.
+
+
+
+7. What is an id? 
+
+An id is an HTML attribute that assigns a unique identifier to a specific element.  It is written in HTML like the following:  id=“special-title” and is included after the element name in the start tag.
+
+
+
+8. What elements can I add an id to? 
+
+You can add an id to any element in html.  The id itself is unique and can only used once.
+
+
+
+9. How many times can I use the same id on a page? 
+
+You can only use that specific id once on a page.
+
+
+
+10. What is a class? 
+
+A class is an HTML attribute that groups that element together with related elements that share the class.
+
+
+
+11. What elements can I add a class to? 
+
+You can add a class element to any html element.
+
+
+
+12. How many times can I use the same class on a page? 
+
+You can use the same class any number of times on a page.
+
+
+
+13. How do I get my link to open in a new tab?
+
+You will need to add the following attribute to your links or anchor tags:
+
+target=“_blank”
+
+
+
+14. What is the alt attribute in the image tag used for? 
+
+The alt attribute gives an alternate name or description for an image.  It is mainly used for screen readers and can also be useful if a webpage is unable to display the images properly.
+
+
+
+15. How do I reference an id?
+
+In CSS, an id would be referenced using the id style selector which begins with a # and then the id name.  For eg.  #id-attribute-name 
+
+
+
+16. What is the difference between a section and a div
+
+Section is semantic, div is presentational.
+
+
+
+17. What is CSS used for? 
+
+CSS stands for cascading style sheets and it is used to style html elements. It affects how content is presented on the webpage changing styles such as background color, font size, and padding.
+
+
+
+
+18. How to we select an element? Example - every h2 on the page
+
+You can select an element using an element selector, eg. h2 {  … }
+
+
+
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+A class is an attribute that can be applied to multiple HTML elements on a page.  A class might be used when you want to style various sections on a page in the same way.
+
+An id is an attribute that can be applied to a single HTML element on a page.  An id might be used when you want one specific element to behave differently that the others (eg. a unique animation) or when you want that one element to be uniquely styled (eg. Only that element in italics, and colored red).
+
+
+
+20. How do we select classes in CSS?
+
+Classes are selected in CSS using the class selector which begins with a .  For eg.
+
+.class-name { … }
+
+
+
+21. How do we select a p element with a single class of “human”?
+
+p.human { … }
+
+
+
+22. What is a parent child selector? When would this be useful? 
+ 
+A parent child selector selects all the elements are direct children of the parent element.  It is written like the following:
+
+parent > child { … }
+
+
+
+23. How do you select all links within a div with the class of sidebar?
+
+div.sidebar a { … }
+
+
+
+24. What is a pseudo selector?
+
+A pseudo selector selects elements based on element state, such as “visited”, “hovered”, etc.
+
+
+
+25. What do we use the change the spacing between lines?
+
+To change line spacing, you use the CSS property line-height.  It is written as follows:
+
+line-height: 1.5;
+
+
+
+26. What do we use to change the spacing between letters?
+
+To change character spacing, you use the CSS property letter-spacing.  It is written as follows:
+
+letter-spacing: 2px;
+
+The value can be written in pixels (px) or in em (so that it is responsive relative to font size).
+
+
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+To change everything to CAPITALS, lowercase, and capitalize, you would use the CSS property text-transform.  They are written as follows:
+
+text-transform: uppercase;
+text-transform: lowercase;
+text-transform: capitalize;
+
+
+
+28. How do I add a 1px border around my div that is dotted and black?
+
+The following CSS properties will add a div border that is 1 px, dotted, and black:
+
+div {
+	  border-style: dotted;
+	  border-width: 1px;
+	  border-color: black;
+}
+
+
+
+
+29. How do I select everything on the page? 
+
+You would use a CSS universal selector, which is written as follows:
+
+* { … }
+
+
+
+
+30. How do I write a comment in CSS?
+
+To comment in CSS, you begin with a /* and you end with a */
+
+
+
+31. How do I find out what file I am in, when I am using the command line? 
+
+You can determine your location by using the command line:   pwd
+
+
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+
+ls -l
+
+ls -la (will show the hidden files too)
+
+
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+You can remove a file via the command line, using the command:  rm filename
+
+You need to be careful with the rm command because it will permanently delete the file.  It does not move files to the trash.
+
+
+
+34. Why should I use version control? 
+
+Version control is useful for management of file changes which allow multiple users to work on a project, developers to identify changes that have caused problems in the code, and it makes it possible to easily undo changes.
+
+
+
+35. How often should I commit to github?
+
+As often as possible.  In small increments that make code sense.   The reason for this frequency is so that you have more options if you need to rewind.
+
+
+
+36. What is the command we would use to push our repo up to github? 
+
+git push
+
+git push branch-name
+
+git push -u remote-name branch-name 
+
+
+
+37. Walk me through Lambda's git flow. 
+
+1) Fork the repository you want so you have your own version to work on.
+
+2) Add collaborators so they can see and review your commits.
+
+3) Clone your repo by using terminal.  This brings the repo file to your local computer.  Copy the Github repo URL.  Use the terminal command: git clone url
+
+4) Create a branch using the terminal command:  git checkout -b ‘first name-lastname’
+
+5)  Make changes to your code in VSCode.  Save file.
+
+After changes are made, COMMIT often.  
+
+6) Use the terminal to stage your commits.  Use the terminal command:  git add
+
+7) Then use terminal to commit.  Include a descriptive commit message that describes the changes.  In the terminal type: git commit -m ‘descriptive commit message’
+
+8) When you are ready to push your local changes to the cloud and your remote repo branch, you will use the following terminal command:  git push
+
+9) In Github you will create a pull request.  This is made from your branch, against the fork you created.  
+
+
+
+STRETCH QUESTIONS
+
+1. What is the difference between an inline element and a block element?
+
+An inline element has a width of its content.  It only uses as much width as its content needs.
+A block element has a width of the parent element.  
+
+
+
+2. What happens when an element is positioned absolutely? 
+
+When an element is positioned absolutely, it is removed from the normal document flow and positioned relative to its first positioned parent or ancestor.
+
+
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+You would convert it to an inline element using the CSS property display: inline-block;
+
+The -block value allows you to apply height and width values.
+
+
+4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default.
+
+Default block display:  <div> <p> <h1>
+
+Default inline display:  <span> <img> <a>
+
+Default inline-block:  <button>
+
+
+
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+The box model is a way of thinking about how to apply CSS properties which breaks up areas in a rectangular area, including content, padding (the space between the content and the border), the border (the box itself and styling), the margin (the area outside of the box proper).  
+
+In the box model, fix means to use a CSS property called box-sizing: border-box; which includes padding a borders in an element’s width.
+
+This property is beneficial because it is more responsive, and it maintains width integrity.  
+
+
+
+STRETCH GIT TASKS:
+
+1)  Research and understand what a merge conflict is and how to resolve it.
+
+https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line
+
+Merge conflicts happen when two changes happen to the same area of code in a file, or when a change is made to a file which has been deleted.
+
+To resolve the merge conflict you would open the merge conflict file, locate the conflict markers, select what changes to keep or make, add or stage them, then commit them.
+
+If it is a merge conflict caused by a deleted file, open the file with the merge conflict, and decide if you want to keep or remove the deleted file.  Add or remove the file from the repo using:  git add filename or git rm filename. Finally commit the changes with a commit comment citing the merge conflict resolution.
+
+
+
+2)  Research the git commands:
+
+ pull
+
+https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests
+
+Pull requests let you tell others about changes that you have pushed to a branch GitHub repo.
+
+ rebase
+
+https://docs.github.com/en/free-pro-team@latest/github/using-git/about-git-rebase
+
+Rebase allows you to edit the commit history of your current branch.  You an edit, reorder, and combine commits.
+
+ merge
+
+https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/about-merge-methods-on-github
+
+A merge is when you combine one branch into another branch.  When you merge, you are bringing in changes to your main branch repo.  
+   
+
+
+3)  Research the git commands:
+ 
+ reset 
+
+https://git-scm.com/docs/git-reset
+
+GIt reset allows you to undo changes.  Reset is different than a git revert because you can accidentally lose changes.  So. You have to use this command with caution.  
+
+ revert
+
+https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/reverting-a-commit
+
+Reverting a commit allows you to go back and remove the changes that the commit made to your branch.  Using git revert, adds a new commit in your history.
+
+ clean
+  
+https://git-scm.com/docs/git-clean
+
+It removes untracked files from the working tree that you aren’t interested in.  These are files that have never been added to Git.
+
+
+
+4). Research and set up a Graphical User Interface (GUI) Git console.
+
+https://git-scm.com/docs/git-gui
+
+I chose to install GitKraken.   https://www.gitkraken.com/download/mac
+
+
+
+5)  Research and setup SSH keys in GitHub, so that you do not need to input your username / password each time you push.
+
+https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+I created an SSH key on my local machine.  I added to my local SSH agent.  Then I copied the public key to GitHub:
+
+MD5:71:17:11:8e:9f:15:3b:6b:3d:44:26:40:7a:51:1e:01 SHA256:RLy7zQLJSqehFGZBQFjpWt3Zby3UnHKA0pzYd8J3HP4
+
+
+
+
+   
