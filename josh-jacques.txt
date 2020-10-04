@@ -1,0 +1,142 @@
+link to codepen
+https://codepen.io/juush/pen/oNxrPMx
+
+1. What is Semantic HTML? 
+The foundation of a web page
+
+2. What is HTML used for? 
+Mark up web pages
+
+3. What is an attribute and where do we put it? 
+attributes expand on tags
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+Used for the first and most important heading, should only be used once!
+
+5. Name two tags that have required attributes
+<img>
+<input>
+
+6. What do we put in the head of our HTML document?
+<header>head</header>
+
+7. What is an id? 
+It's used as a class for a specific element
+
+8. What elements can I add an id to? 
+Any
+
+9. How many times can I use the same id on a page?
+Once
+
+10. What is a class? 
+It's used to classify several elements into a group, a label
+
+11. What elements can I add a class to? 
+Any
+
+12. How many times can I use the same class on a page? 
+as many times as needed
+
+13. How do I get my link to open in a new tab?
+<a href="#" target="_blank">
+
+14. What is the alt attribute in the image tag used for? 
+it's an alternative source if the src="#" isn't available
+
+15. How do I reference an id?
+by using the # 
+
+16. What is the difference between a section and a div
+<section> specifies a specific section of the web page
+<div> is much more generic 
+
+17. What is CSS used for? 
+CSS is used to stylize a web page and give it flair
+
+18. How to we select an element? Example - every h2 on the page
+h2 {
+    
+}
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+ID is for one element
+class is for multiple
+
+20. How do we select classes in CSS?
+.class {
+
+}
+
+21. How do we select a p element with a single class of “human””?
+.human p {
+
+}
+
+22. What is a parent child selector? When would this be useful? 
+parent child {
+
+}
+It selects all "child" elements only within that specific "parent" element
+
+23. How do you select all links within a div with the class of sidebar?
+div href {
+
+}
+
+24. What is a pseudo selector?
+changes how a class reacts when interacted with
+
+25. What do we use the change the spacing between lines?
+letter-spacing: 1px;
+
+26. What do we use to change the spacing between letters?
+letter-spacing: 1px;
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform: uppercase;
+
+28. How do I add a 1px border around my div that is dotted and black?
+div {
+    border: 1px black
+}
+
+29. How do I select everything on the page? 
+asterisk *
+
+30. How do I write a comment in CSS?
+/*put comment here*/
+
+31. How do I find out what file I am in, when I am using the command line? 
+$ pwd
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+$ ls
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+$ rm
+It doesn't ask "are you sure about that"
+
+34. Why should I use version control? 
+In case something stops working, you can go back to an earlier version
+
+35. How often should I commit to github?
+Often, whenever you complete something important in the file
+
+36. What is the command we would use to push our repo up to github? 
+$ git commit -m "detailed message"
+
+37. Walk me through Lambda's git flow. 
+Fork
+Clone
+Checkout (create a branch)
+Push
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
