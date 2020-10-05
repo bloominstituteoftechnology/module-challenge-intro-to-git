@@ -46,9 +46,17 @@
     In CSS, you would reference an id with a # at the beginning of the id value
 
     16. What is the difference between a section and a div
+    A section is a semantic HTML tag that defines the sections of a page (ex: header, footer, etc.). A div kind of defins sectoins within a section. Divs are mostly used to stylize a group of content in CSS.
+
     17. What is CSS used for? 
-    18. How to we select an element? Example - every h2 on the page
+    CSS is used for styling a web page. Specifically changing the way html tags look on a web page.
+
+    18. How do we select an element? Example - every h2 on the page
+    in CSS, you can call an element by simply stating it like so: h2 {}. You can style all h2 elements this way.
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    id's are used for elements that will only appear once on the page (ex: title of website, label for a comment section, etc.). Classes are used for elements that appear multiple times on a page (ex: images, paragraphs, etc.).
+
     20. How do we select classes in CSS?
     21. How do we select a p element with a single class of “human””?
     22. What is a parent child selector? When would this be useful? 
