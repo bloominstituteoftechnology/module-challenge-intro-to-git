@@ -58,16 +58,40 @@
     id's are used for elements that will only appear once on the page (ex: title of website, label for a comment section, etc.). Classes are used for elements that appear multiple times on a page (ex: images, paragraphs, etc.).
 
     20. How do we select classes in CSS?
+    Classes are called with a period preceding the class name (ex: .img-center).
+
     21. How do we select a p element with a single class of “human””?
+    In CSS, you would select this with this syntax: .human {}
+
     22. What is a parent child selector? When would this be useful? 
+    A parent child selector is when you select an element that is nested in a specific element. For example, if you only wanted to select the images in the footer section, you would use this syntax: footer img {}
+
     23. How do you select all links within a div with the class of sidebar?
+    .sidebar img {}
+
     24. What is a pseudo selector?
-    25. What do we use the change the spacing between lines?
+    Pseudo selectors give a selector a behavior (ex: .class:hover {} anything in these curly braces will take effect when the mouse cursor hover over the element with the called class.).
+
+    25. What do we use to change the spacing between lines?
+    The "line-height" property.
+
     26. What do we use to change the spacing between letters?
+    The "letter-spacing" property.
+    
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    The "text-transformation: uppercase;", "text-transformation: lowercase;", and "text-transformation: capitalize;" properties respectively.
+    
     28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
+    div {
+        border: 1px black dotted;
+    }
+
+    29. How do I select everything on the page?
+    * {}
+
     30. How do I write a comment in CSS?
+    
+    
     31. How do I find out what file I am in, when I am using the command line? 
     32. Using the command line - how do I see a list of files/folders in my current folder?
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
