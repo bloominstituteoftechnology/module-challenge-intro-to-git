@@ -90,12 +90,36 @@
     * {}
 
     30. How do I write a comment in CSS?
-    
+    // for single lines
+    /* for
+    multiple
+    lines */
     
     31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+    
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    git rm name-of-file. You want to be careful with this because this doesn't just delete your local file. It removes if from your repository as well.
+
     34. Why should I use version control? 
+    Versoin control systems keep work organized. When you're working with a team on the same project, it's essential for being able to merge the changes you've made with your teammates'.
+
     35. How often should I commit to github?
+    Very often because commiting acts as a checkpoint that you can go back to.
+
     36. What is the command we would use to push our repo up to github? 
+    git push
+
     37. Walk me through Lambda's git flow. 
+    * Fork to the repo.
+    * On the GitHub page for your forked repo, copy the git url from the code button.
+    * cd into new directory
+    * Create a new local branch: "git checkout -b 'branch-name'"
+    * Make changes
+    * Add your changes: "git add ."
+    * Commit your changes: "git commit -m 'Changed this and that...'"
+    * Push to GitHub: "git push origin -u branch-name"
+    * The second time you push, you can just type "git push" because git remembers the "origin -u" location.
