@@ -1,0 +1,50 @@
+https://codepen.io/joshsmith722/pen/VwaoNdL
+
+1. HTML that describes what it does. Self explanatory html.
+2. Organizing the layout of the page.
+3. Additional info about html element.
+4. The largest heading. Generally just once.
+5. <img> and <a href>
+6. Header
+7. More specific name for html element.
+8. Any element?
+9. Once
+10. Reference for CSS to identify and change elements within that class.
+11. Any element?
+12. Once
+13. <target="_blank">
+14. Alternate text image
+15. #id?
+16. Div is more general than section.
+17. Stylizing a webpage.
+18. .h2
+19. Class is a group of content. Id is a specific element.
+20. .class
+21. . {'human'}
+22. I do not know.
+23. .sidebar {
+24. Hover
+25. Line-height
+26. letter-spacing
+27. Text-transform
+28. border: 1px dotted #000000;
+29. Command - A?
+30. */ comment */
+31. pwd
+32. ls
+33. rm
+34. It tracks each change
+35. As often as possible? Whenever I make a change?
+36. Git push
+37. - Fork
+    - Add any collaborators
+    - Clone
+    - Branch using 'FirstName-LastName'
+    - Perform any modifications
+    - Pull
+	- Compare to base
+	- Add any reviewers
+
+
+ 
+ 
