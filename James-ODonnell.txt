@@ -5,16 +5,46 @@
  
 
  PART B
- 1. What is Semantic HTML? 
+    1. What is Semantic HTML? 
+
+    Semantic HTML is visible, structural elements. 
+
     2. What is HTML used for? 
+
+    Hyper text markup language is used for the structure of the web site, and also aids in accessability. 
+
     3. What is an attribute and where do we put it? 
+
+    An attribute is an outside source of information for an element. It goes in the opening tag. 
+
     4. What is the h1 tag used for? How many times should I use it on a page?
+    
+    The h1 tag is the main heading. It should be used only once and is important for SEO. 
+
     5. Name two tags that have required attributes
+
+    The image tag as well as the a tag both have required atrributes. They are src="", and ref="", respectively. 
+
     6. What do we put in the head of our HTML document? 
+    
+    We put information about how the computer sould read the page, including links to CSS style sheets and meta-viewpoint tags, font imports, ect.
+
     7. What is an id? 
+
+    An ID is a way to assign an element , specificaly a selector 
+
     8. What elements can I add an id to? 
+
+    Any that you need to 
+
     9. How many times can I use the same id on a page? 
+
+    You can use the ID only once
+    
     10. What is a class? 
+
+    A class is a similar selector the ID, only it can be used repeatedly 
+
     11. What elements can I add a class to? 
     12. How many times can I use the same class on a page? 
     13. How do I get my link to open in a new tab?
