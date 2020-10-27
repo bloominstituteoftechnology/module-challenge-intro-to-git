@@ -46,37 +46,144 @@
     A class is a similar selector the ID, only it can be used repeatedly 
 
     11. What elements can I add a class to? 
+
+    any 
+    
     12. How many times can I use the same class on a page? 
+
+    repeatedly
+
     13. How do I get my link to open in a new tab?
+
+    href"#_"
+
     14. What is the alt attribute in the image tag used for? 
+
+    This is used for accessability. 
+
     15. How do I reference an id?
+
+    #reference {}
+
     16. What is the difference between a section and a div
-    17. What is CSS used for? 
+
+    A div is non semantic and a section is semantic 
+
+    17. What is CSS used for?
+
+    For styling the structure created by HTML
+
     18. How to we select an element? Example - every h2 on the page
+
+    h2 {}
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    
+    A class would be used to border all images in a gallery, where as ID would only add a border to ONE image. 
+
     20. How do we select classes in CSS?
+
+    .class {}
+
     21. How do we select a p element with a single class of “human””?
+
+    .human {}
+    
     22. What is a parent child selector? When would this be useful? 
+
+    A parent child selector is when you are trying to select multiple items within a parent.
+
     23. How do you select all links within a div with the class of sidebar?
+
+    .sidebar div {}
+
     24. What is a pseudo selector?
+
+    A selector that applies to a special range of selected elements, but not others 
+
     25. What do we use the change the spacing between lines?
+
+    p { line-spacing:2;}
+
     26. What do we use to change the spacing between letters?
+
+    p {letter-spacing: 2;}
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+    p {text-transform: upppercase;}
+
     28. How do I add a 1px border around my div that is dotted and black?
+
+    div {border: 1px dotted black;}
+
     29. How do I select everything on the page? 
+
+    Universal selector *{}
+
     30. How do I write a comment in CSS?
+
+    // Single line //
+    /*multiple line*/
+
     31. How do I find out what file I am in, when I am using the command line? 
+
+    pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+
+    ls
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+    rm
+
     34. Why should I use version control? 
+
+    Version control allows multiple versions of the same code to be worked on simultaniously 
+
     35. How often should I commit to github?
+
+    Often, with meaningful messages. 
+
     36. What is the command we would use to push our repo up to github? 
+
+    git push -u origin Branch-Name 
+
     37. Walk me through Lambda's git flow. 
+
+    First we will view the assignment, and read the directions completely on GitHub. 
+    We then fork the project so that we have our own copy to view, edit, and change. 
+    After forking we clone into our terminal, using the copied http adress from OUR repo 
+    After cloning the material, we change directory to the project file 
+    We create a new branch, and after doing so open the project using VS. 
+    We work on our code, often 'adding' 'pushing' and 'commiting'
+    Afterinital push we will be linkeed to GitHub 
+    After completing the work and final commit, we merge branches and create pull request 
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+
+    An inline element does not break the flow of the other material around it, where as a block element will take up its own line and change the look of the HTML. 
+
     2. What happens when an element is positioned absolutely? 
+
+    It is positioned within its PARENT element and not positioned directy within the viewport. 
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+    Play around with the optimal spacing and sizing... or use Flex 
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+    3 Block Elements: <h1></h1>, <div></div> and <p></p>
+    3 Inline elements: <a></a> , <img> , <span></span>
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+    There are several different components to the Box model. 
+    The content is the inside. The meat. 
+    The padding is essentiall the space in between the 'meat' and the border. 
+    The border is pretty self explanitory 
+    The margin goes around the BORDER and can give extra spacee between other elements. 
