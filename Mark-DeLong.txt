@@ -165,7 +165,7 @@ git push origin master
 fork the repo, clone your fork, make a branch, add changes, commit, push, then pull request.
 
 
-Stretch Questions
+Stretch Questions:
 
 1. What is the difference between an inline element and a block element?
 2. What happens when an element is positioned absolutely? 
