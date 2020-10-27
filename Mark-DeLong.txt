@@ -74,28 +74,96 @@ Styling html
 18. How to we select an element? Example - every h2 on the page
 
 h2 {
-    code;
+    code: code;
 }
 
 19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+An id can be used for one element, a class can be used for many
+
+<section class="classOne"> <!--referencing classOne will affect both divs, referencing idOne or idTwo will effect each div respectively without effecting the other -->
+    <div id="idOne>
+    </div>
+    <div id=idTwo>
+    </div>
+</section>
+
 20. How do we select classes in CSS?
+
+.className
+
 21. How do we select a p element with a single class of “human””?
+
+.human p
+
 22. What is a parent child selector? When would this be useful? 
+
+Its a selector that selects a sub-element of an element. This would be usful when you want to modify a single element without effecting all other elements with the same tag that are child's of other elements
+
 23. How do you select all links within a div with the class of sidebar?
+
+.sidebar a
+
 24. What is a pseudo selector?
+
+It's a selector that lets to interact with elements that are in a specified state
+
 25. What do we use the change the spacing between lines?
+
+Use the line-height property in css
+
 26. What do we use to change the spacing between letters?
+
+Use the letter-spacing property in css
+
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+Use text-transform:uppercase, text-transform:lowercase, text:transform:uppercase
+
 28. How do I add a 1px border around my div that is dotted and black?
+
+div {
+    border-style: dotted 1px;
+}
+
 29. How do I select everything on the page? 
+
+* {
+    code: code;
+}
+
 30. How do I write a comment in CSS?
+
+/* comment goes here */
+
 31. How do I find out what file I am in, when I am using the command line? 
+
+pwd
+
 32. Using the command line - how do I see a list of files/folders in my current folder?
+
+ls
+
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+rm filename
+
 34. Why should I use version control? 
+
+It allows you to make changes and be able to roll back in case of error
+
 35. How often should I commit to github?
+
+After any significant change or every 20 minutes roughly.
+
 36. What is the command we would use to push our repo up to github? 
+
+git push origin master
+
 37. Walk me through Lambda's git flow. 
+
+fork the repo, clone your fork, make a branch, add changes, commit, push, then pull request.
+
 
 Stretch Questions
 
