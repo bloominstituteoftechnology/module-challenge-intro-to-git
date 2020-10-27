@@ -1,48 +1,97 @@
 <!-- Questions to Submit in today's file first-lastname.txt --> 
 <!--
 
-https://codepen.io/apfeif/pen/xxOdvjP?editors=1100
+https://codepen.io/apfeif/pen/WNxOyVE
 
 Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
 
     1. What is Semantic HTML? 
     its html that gives meaning to our content
     2. What is HTML used for? 
+    to markup website content, allowing for a more organized/readable website
     3. What is an attribute and where do we put it? 
+    in the start tag, with quotations
     4. What is the h1 tag used for? How many times should I use it on a page?
+    h1 should be used once, as it is the most important information on the webpage
     5. Name two tags that have required attributes
+    lang, img
     6. What do we put in the head of our HTML document? 
+    links to the js/css files
     7. What is an id? 
+    a unique variable that identifies a certain piece of content
     8. What elements can I add an id to? 
+    any
     9. How many times can I use the same id on a page? 
+    once
     10. What is a class? 
+    very similar to an id however it can apply to multiple items
     11. What elements can I add a class to? 
+    any
     12. How many times can I use the same class on a page? 
+    once?
     13. How do I get my link to open in a new tab?
+    add target="_blank" in the tag
     14. What is the alt attribute in the image tag used for? 
+    text to be displayed if the image cannot be shown
     15. How do I reference an id?
+    #id
     16. What is the difference between a section and a div
+    section represents a portion where content is grouped together. a div is more of a universal divider?
     17. What is CSS used for? 
+    styling a webpage
     18. How to we select an element? Example - every h2 on the page
+    h2 {
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    an id is unique and would be used for something like a single changing word in a paragraph. a class can be used multiple times. you could have multiple header classes
     20. How do we select classes in CSS?
+    .example
     21. How do we select a p element with a single class of “human””?
+    p.human
     22. What is a parent child selector? When would this be useful? 
+    it allows you to group things together to save on writing extra codepen
     23. How do you select all links within a div with the class of sidebar?
+    div > sidebar.links?
     24. What is a pseudo selector?
+    a selector to specify a special state, like hover
     25. What do we use the change the spacing between lines?
+    line-height
     26. What do we use to change the spacing between letters?
+    letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform
     28. How do I add a 1px border around my div that is dotted and black?
+    div{ 
+        border: 1px dotted black;
     29. How do I select everything on the page? 
+    *
     30. How do I write a comment in CSS?
+    /*content*/
     31. How do I find out what file I am in, when I am using the command line? 
+    pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm   it is gone forever. no recycle bin to recover it
     34. Why should I use version control? 
+    allows many developers to work together on one project
     35. How often should I commit to github?
+    every 20 mins
     36. What is the command we would use to push our repo up to github? 
+    git push -u origin alex-pfeifer
     37. Walk me through Lambda's git flow. 
+    -fork
+    -check for your Name
+    -copy https link from github
+    -use either cd to navigate to the proper directory or use mkdir to create one
+    -use git clone (link)
+    -change directory into the new folder with cd
+    -use git checkout -b alex-pfeifer
+    -do work
+    -git add . will add changes, git commit -m "message" will commit changes with a message
+    -git push -u origin alex-pfeifer to push the changes back to github
+    -once you see changes you can submit a pull request (MAKE SURE YOU CHANGE BRANCH DROPDOWN TO YOUR NAME)
+    -check again to make sure correct repo
+    -click create pull request to submit
 
 Stretch Questions
 
