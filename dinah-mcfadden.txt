@@ -1,0 +1,102 @@
+ https://codepen.io/Dinahm98/pen/BazZRQN
+  1. What is Semantic HTML? 
+
+Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in webpages and web applications rather than merely to define its presentation or look.
+
+    2. What is HTML used for? 
+HTML (Hypertext Markup Language) is the code that is used to structure a web page and its content.
+
+    3. What is an attribute and where do we put it? 
+HTML attributes are special words used inside the opening tag to control the element's behaviour
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    h1 tag is is used for the main heading title, h1-h6 can be used on a page.
+    5. Name two tags that have required attributes
+    the img eleement 
+    6. What do we put in the head of our HTML document? 
+    <header></header>
+    7. What is an id? 
+    
+    The id attribute specifies a unique id for an HTML element (the value must be unique within the HTML document). The id attribute is most used to point to a style in a style sheet, and by JavaScript (via the HTML DOM) to manipulate the element with the specific id.
+    8. What elements can I add an id to? 
+    
+    The HTML id attribute is used to specify a unique id for an HTML element. You cannot have more than one element with the same id in an HTML document.
+    9. How many times can I use the same id on a page? 
+
+     an id value can be given to only one HTML element, in other words, multiple elements cannot have the same id value on the same page.
+    10. What is a class? 
+
+    The class attribute specifies one or more classnames for an element. The class attribute is mostly used to point to a class in a style sheet
+    11. What elements can I add a class to? 
+HTML elements can belong to more than one class. To define multiple classes, separate the class names with a space, e.g. <div class="city main">. The element will be styled according to all the classes specified.
+
+    12. How many times can I use the same class on a page? 
+
+    There is no technical limit (barring the amount of memory the browser may be consuming)
+    13. How do I get my link to open in a new tab?
+
+    The short answer is: just add a target="_blank" attribute to your links (anchor tags).
+    14. What is the alt attribute in the image tag used for?
+
+     The required alt attribute specifies an alternate text for an image, if the image cannot be displayed.
+    15. How do I reference an id?
+
+    The syntax for id is: write a hash character (#), followed by an id name.
+    16. What is the difference between a section and a div
+
+    <section> tag defines sections in a document, such as chapters, headers, footers, or any other sections of the document. whereas: The <div> tag defines a division or a section in an HTML document. The <div> tag is used to group block-elements to format them with CSS.
+    17. What is CSS used for? 
+
+    CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts.
+    18. How to we select an element? Example - every h2 on the page
+
+     To select elements with a specific class, write a period (.) character, followed by the class name.
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+     To select elements with a specific class, write a period (.) character, followed by the class name.
+    20. How do we select classes in CSS?
+
+    To select elements with a specific class, write a period (.) character, followed by the name of the class
+    21. How do we select a p element with a single class of “human””?
+
+    .human
+    22. What is a parent child selector? When would this be useful? 
+
+    The ("parent > child") selector selects all elements that are a direct child of the specified element.
+    23. How do you select all links within a div with the class of sidebar?
+
+    #sidebar
+    24. What is a pseudo selector?
+
+    A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s).
+    25. What do we use the change the spacing between lines?
+
+    Use the line-height property in CSS to do so
+    26. What do we use to change the spacing between letters?
+
+    To adjust the letter spacing of your text, you need to use the CSS letter-spacing property.
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+    To use a keyboard shortcut to change between lowercase, UPPERCASE, and Capitalize Each Word, select the text and press SHIFT + F3 until the case you want is applied.
+    28. How do I add a 1px border around my div that is dotted and black?
+
+    p.dotted {outline-style: dotted;
+    border:1px; }
+    31. How do I find out what file I am in, when I am using the command line? 
+
+    cd command
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+    ls command
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm command
+    34. Why should I use version control? 
+
+    Version control helps teams solve these kinds of problems, tracking every individual change by each contributor and helping prevent concurrent work from conflicting.
+    35. How often should I commit to github?
+
+    everythime you make a new change
+    36. What is the command we would use to push our repo up to github? 
+    git push -u 
+    37. Walk me through Lambda's git flow. 
+    "acp"
