@@ -47,6 +47,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
 
     13. How do I get my link to open in a new tab?
         -> target="_blank"
+
     14. What is the alt attribute in the image tag used for? 
         -> Its used to give context about whats its the image about and make the web page more accesible.
 
@@ -74,7 +75,14 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
         -> I don't really understand the questions but i think you are asking for this .human p { all p tags into a tag with class .human } or p.human { that its a p tag with class .human }
 
     22. What is a parent child selector? When would this be useful?
-        ->  
+        ->  Its when we use a parent class to select all the items inside of that one. example:
+        <div class="iAmYourFather">
+            <span>Hey</span>
+            <span>Mom</span>
+            <span>Hey</span>
+        </div>
+
+        we can use the css .iAmYourFather span { ... } to select all the child base on the father class
 
     23. How do you select all links within a div with the class of sidebar?
         -> .sidebar a { ... }
@@ -150,11 +158,31 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        -> the diferent between display: inline and display: block its how we want to position or elements or list, example
+            if we have a UL and many Li inside and we apply 'inline' we are gonna have every item next to the other, like reading order
+            if we use for the same list 'block' every item its gonna turn into an individual line, one under the other.
 
+    2. What happens when an element is positioned absolutely? 
+        -> its gonna ignore where its located and place and place it self on top of all other elements
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        -> I struggle with this question, but i think that I get it:
+           when we want that an element use just the space it need we have to apply the property display:inline-block in that way will work,
+           take H1 as an example, by defuld its gonna be display: block; and width that we can apply the size that we want it.
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        -> block: <div> <section> <h1>
+           inline: <span> <i>
+           inline-block: <input>
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        -> when we talk about the box model it refer to how we can abstrac html elements and visuallice them as a box, we can apply properties like: margin, padding,
+        and border and its allways going to be a box, unless we use border-radius: 100%; but that a diferent story.
+        
+        display:fix; will mean that we wanna position that element on a fix/static posicion of a web page, example: { display: fix; top: 0; left: 0; }
+        will position or element on the left top of the windows on top of everything else.
+
+        
 
 
    --> 
