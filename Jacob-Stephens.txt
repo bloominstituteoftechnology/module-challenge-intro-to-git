@@ -48,41 +48,54 @@ https://codepen.io/jacobstephens17/pen/pobeXgq
     22. What is a parent child selector? When would this be useful? 
         Selects all elements that are direct children, if you need to select all of the children elements
     23. How do you select all links within a div with the class of sidebar?
-        
-    24. What is a pseudo selector?
-
+        .sidebar a:link{ }
+    24. What is a pseudo selector?  
+        A keyword added to a selector
     25. What do we use the change the spacing between lines?
-
+        <br>
     26. What do we use to change the spacing between letters?
-
+        letter-spacing: ;
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-
+        font-transform:capitals;
     28. How do I add a 1px border around my div that is dotted and black?
-
+        border-style:dotted;
+        border-color:black;
+        border-width:1px;
     29. How do I select everything on the page? 
-        
+        * {}
     30. How do I write a comment in CSS?
-
+        /* */
     31. How do I find out what file I am in, when I am using the command line? 
-
+        pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
-
+        ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-
+        rm -r ""
     34. Why should I use version control? 
-
+        To keep track of changes and having the ability to roll things back if there are bugs
     35. How often should I commit to github?
-
+        Every 20 min or so, or if you feel like you should
     36. What is the command we would use to push our repo up to github? 
-
+        git push
     37. Walk me through Lambda's git flow. 
+        fork 
+        git clone
+        cd repo
+        git checkout -b"First-Last"
+        git add .
+        git commit -m "about"
+        git push -u origin branchName
+       
 
 
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+       Inline doesn't cause a break, Block does
     2. What happens when an element is positioned absolutely? 
+       Element is positioned next to its nearest ancestor
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+       Box Model
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
