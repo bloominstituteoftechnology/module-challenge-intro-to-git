@@ -50,3 +50,7 @@ Stretch Questions
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? The box model gives us a way to position elements the fix for the box model to make it respect the box is box-sizing:border-box
 
 
+    Codepin exercise
+    https://codepen.io/vanessa-dixon/pen/abZwJBp?editors=1100
+
+
