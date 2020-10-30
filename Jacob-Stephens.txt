@@ -1,3 +1,4 @@
+
 Jacob Stephens
 
 IM NOT SURE WHY BUT ON CANVAS IT SAID THAT I NEVER SUBMITTED THIS ASSIGNMENT SO HERE IT IS
@@ -102,3 +103,29 @@ Stretch Questions
        Box Model
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+=======
+https://codepen.io/jacobstephens17/pen/bGegLxM
+Which of the following is not a semantic tag in HTML?
+<div>
+
+Which is the best way to include an image in HTML?
+<img src="image.png" />
+
+In the example below, which element(s) is considered the "parent"?
+<div>
+
+Which CSS syntax would change the font size of h1 elements to 24px?
+h1{
+font-size:24px;
+}
+
+Which is the most specific css that changes the size of this image?
+<img class="myimage" src="image.jpg"/>
+.myimage {
+   width:200px;
+}
+
+
+How many classes does the following element have?
+<h1 class="a b c d">
+4
