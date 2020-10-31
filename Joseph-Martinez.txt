@@ -37,3 +37,6 @@
     - 35. How often should I commit to github? As much as you can. 
     - 36. What is the command we would use to push our repo up to github?git push
     - 37. Walk me through Lambda's git-flow. Well, you are going to want to go to git hub then fork the file then download it to your personal computer.
+
+
+CodePen Assignment: https://codepen.io/JosephMartinez3005/pen/VwjXKoL
