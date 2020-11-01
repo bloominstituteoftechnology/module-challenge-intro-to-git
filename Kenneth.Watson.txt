@@ -55,25 +55,56 @@
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
        - A class refers to multiple elements but a id only refers to one. A class could be referred with 
     20. How do we select classes in CSS?
+       -Using a class selector with a full stop followed by a class name. (The class selector .h2 refers to all h2 elements) 
+
     21. How do we select a p element with a single class of “human””?
+       -  Give it a id in  html called human (<p id="human">) then refer to it in CSS as (.human)
+
     22. What is a parent child selector? When would this be useful? 
+       -  A element used to group multiple elements in a list. This allows you stylize a specific item in a list but not effect the rest of list.  
+
     23. How do you select all links within a div with the class of sidebar?
+       -I refer  using the selctor (.sidebar)  
+
     24. What is a pseudo selector?
+       - Used to select a element that is in an specifc state such as third in a list or when a element is being hovered over in a webpage.
+
     25. What do we use the change the spacing between lines?
+       - we use the style property line-height. 
+
     26. What do we use to change the spacing between letters?
+       -We  use the the style property  line-spacing. 
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+       -We can either type it out that way in the HTML code or use the style property text-transform. 
+
     28. How do I add a 1px border around my div that is dotted and black?
+       - We select the div  element or  its class seletor and then use the border style property. (Ex. .example open bracket border: 1px dotted  black; Close bracket)
+
     29. How do I select everything on the page? 
+       - use the html element in CSS 
+
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+       -We use  /* , */ symbols and leave the  message between the symbols. 
+
+    31. How do I find out what file I am in, when I am using the command line?
+       - you use the 'pwd' command. 
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+       - use the 'ls' command. 
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
        -  You can remove a file using the command using the rm action but you have to be careful as this is a permanant deletion that cant be retrieved after delete the file. 
 
     34. Why should I use version control? 
+       - It allows groups to work on projects and help each be accountable on current versions of projects.
+
     35. How often should I commit to github?
        -often
 
     36. What is the command we would use to push our repo up to github? 
-       -
+       - use the  command " git push"  and the reference a location to where you want to push.
+
     37. Walk me through Lambda's git flow. 
+       -Fork project, Clone project, create branch, Do work (Work on project, Add, commit, push), Commit change changes to branch, Push to branch, create pull request.
+       
