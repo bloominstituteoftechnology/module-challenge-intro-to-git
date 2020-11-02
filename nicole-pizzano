@@ -1,1 +1,36 @@
 nicole pizzano
+
+1. What is Semantic HTML? semantic elements clearly describe meaning to both the developer and browser.
+    2. What is HTML used for? creating sections, paragraphs, headings links and other structuring markup or webpages.
+    3. What is an attribute and where do we put it? additional information about the html element, used in css styling.
+    4. What is the h1 tag used for? How many times should I use it on a page? it is to designate the title of the page and should only be used once.
+    5. Name two tags that have required attributes:  h1 and h2
+    6. What do we put in the head of our HTML document? title, css link metadata.
+    7. What is an id? the thing that idenitifes an html element to link to css or javascript
+    8. What elements can I add an id to? any element needing to be styled.
+    9. How many times can I use the same id on a page? can be used to style one element
+    10. What is a class? class can be assigned to more than one element class can be applied to more than one element. class generally is used on groups of items. they are used to select and access specific elmements.
+    11. What elements can I add a class to? html elements
+    12. How many times can I use the same class on a page? multiple
+    13. How do I get my link to open in a new tab? set your link anchor tags to :   target =_"blank'
+    14. What is the alt attribute in the image tag used for? supplies alternate info about the image in case it doesnt load.
+    15. How do I reference an id?  #
+    16. What is the difference between a section and a div section: defines sections like footer and header or body. div references a division or section and is used with block level elements
+    17. What is CSS used for? styling.
+    18. How to we select an element? Example - every h2 on the page add a tag in html and then create a selector to style it.
+<h2></h2>   h2{
+
+}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one class: can id more thn one element. id id's only one. id might be used to style header footer. class woud be a group of items or muliptple items like paragraph or links
+    20. How do we select classes in CSS? .
+    21. How do we select a p element with a single class of “human””?.human {
+
+}
+    22. What is a parent child selector? When would this be useful? The CSS child selector has two selectors separated by a > symbol. The first selector indicates the parent element. The second selector indicates the child element CSS will style.
+    23. How do you select all links within a div with the class of sidebar? .sidebar
+    24. What is a pseudo selector?A pseudo-class is a selector that selects elements that are in a specific state, 
+    25. What do we use the change the spacing between lines? line-height: 
+    26. What do we use to change the spacing between letters? letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform / uppercase/ lowercase
+    28. How do I add a 1px border around my div that is dotted and black? border-style: 1px dotted black;
+    29. How do I select everything on the page?  *{
