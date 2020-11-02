@@ -1,3 +1,57 @@
+https://codepen.io/crash138/pen/YzWrKxJ?editors=1100
+Question 1
+1 / 1 pts
+Which of the following is not a semantic tag in HTML?
+Correct!
+
+<div>
+
+Question 2
+1 / 1 pts
+Which is the best way to include an image in HTML?
+
+Correct!
+
+<img src="image.png" />
+
+Question 3
+1 / 1 pts
+In the example below, which element(s) is considered the "parent"?
+
+Correct!
+
+<div>
+
+Question 4
+1 / 1 pts
+Which CSS syntax would change the font size of h1 elements to 24px?
+
+Correct!
+
+h1{
+font-size:24px;
+}
+
+Question 5
+1 / 1 pts
+Which is the most specific css that changes the size of this image?
+<img class="myimage" src="image.jpg"/>
+
+Correct!
+
+.myimage {
+   width:200px;
+}
+
+Question 6
+0 / 1 pts
+How many classes does the following element have?
+
+<h1 class="a b c d">
+You Answered
+
+1
+
 https://codepen.io/crash138/pen/zYBjRxJ
 
 1. What is Semantic HTML? 
@@ -77,5 +131,7 @@ the way you name the elements allows it easier to understand what that element i
     35. How often should I commit to github?
     as often as you need
     36. What is the command we would use to push our repo up to github? git push 
-    37. Walk me through Lambda's git flow. I can't get it to work as of now... still trying to figure it out.
+    37. Walk me through Lambda's git flow. 
+    edit file in vs, save, add > commit > push via terminal, start pull request in github
+
 
