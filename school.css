@@ -1,0 +1,56 @@
+body {
+background-color: ;
+
+}
+
+a {
+
+text-decoration: none;
+font-size: 18px;
+border: 3px solid red;
+height: 25px;
+width: 200px;
+text-align: center;
+}
+article{
+
+border: 1px solid black; 
+width: 30%;
+padding: 10px;
+border-radius: 5px;
+
+
+}
+nav{
+margin: 10px 0;
+display: flex;
+justify-content: space-around;
+
+
+
+
+}
+section{ 
+    
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+h2{ 
+text-align: center;
+
+}
+
+footer div
+
+{
+
+text-align: center;
+background-color: hotpink;
+
+
+
+
+}
