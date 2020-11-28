@@ -133,7 +133,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
                         Border: 1px dotted black;
                     }
     29. How do I select everything on the page? 
-        Body {}
+        use of the wildcard symbol *
     30. How do I write a comment in CSS?
             /* comment */
     31. How do I find out what file I am in, when I am using the command line0?
@@ -146,7 +146,9 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
                         "rm {filename}" 
     34. Why should I use version control? 
  
-           Version control is a way to keep a track of the changes in the code so that if something goes wrong, we can make comparisons in different code versions and revert to any previous version that we want. It is very much required where multiple developers are continuously working on /changing the source code.
+           Version control is a way to keep a track of the changes in the code so that if something goes
+            wrong, we can make comparisons in different code versions and revert to any previous version that we want. 
+            It is very much required where multiple developers are continuously working on /changing the source code.
  
     35. How often should I commit to github? 
 
