@@ -15,7 +15,7 @@ It is used for the header. Once.
 <input> <select>
 
     6. What do we put in the head of our HTML document? 
-<!DOCTYPE html> to definite that it's an HTML document
+<!DOCTYPE html> to define that it's an HTML document
 
     7. What is an id? 
 Something used to identify
