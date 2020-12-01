@@ -1,3 +1,7 @@
+Completed codepen:
+https://codepen.io/hans0/pen/xxEGoej?editors=1100
+
+
 1. What is Semantic HTML?
 Semantic HTML describes its meaning to both the browser and the developer, with no ambiguity or explanation required.
 
@@ -128,9 +132,18 @@ fork -> clone -> add -> commit with message -> add remote origin -> pull to avoi
 Stretch Questions
 
 1. What is the difference between an inline element and a block element?
+A block element will always include a new line. (div, p, ul)
+An inline element will not. (span, img, label)
+
 2. What happens when an element is positioned absolutely? 
+It stays in the same position, no matter what happens to the window containing it. Not recommended due to the different sizes through which people take in websites.
+
 3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+flex-basis has options for auto and to put in a width
+
 4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+
 5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
 
 
