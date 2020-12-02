@@ -87,7 +87,7 @@ Stretch Questions
     1. What is the difference between an inline element and a block element?
     Inline elements do not force a new line to begin in the document flow, and block elements cause a line break to occur
     2. What happens when an element is positioned absolutely?
-    It no longer exists in the normal document layout flow and sits on its own layer separate from everything else
+    It no longer exists in the normal document layout flow and sits on its own layer separate from everything else 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
