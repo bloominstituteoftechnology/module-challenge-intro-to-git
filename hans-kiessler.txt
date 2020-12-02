@@ -142,8 +142,14 @@ It stays in the same position, no matter what happens to the window containing i
 flex-basis has options for auto and to put in a width
 
 4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-
+p, ul, li
+a, img 
+button
 
 5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
-
+Every element in HTML follows the box model, which means, every element is content surrounded by a layer of padding, border, and margin.
+The "fix" is to use 
+* {
+[formatting goes here]
+}
 
