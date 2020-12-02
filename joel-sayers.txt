@@ -1,0 +1,50 @@
+1. What is Semantic HTML? Changes meaning of html, not just the appearance
+    2. What is HTML used for? The building blocks of making a website
+    3. What is an attribute and where do we put it? Modify an html element, inside of the opening tag
+    4. What is the h1 tag used for? How many times should I use it on a page? The largest header, once
+    5. Name two tags that have required attributes <input> <select>
+    6. What do we put in the head of our HTML document? <header>
+    7. What is an id? Used to identify a single element in the html doc
+    8. What elements can I add an id to? Text
+    9. How many times can I use the same id on a page? One
+    10. What is a class? Specifies one or more class names for an html element
+    11. What elements can I add a class to? Any
+    12. How many times can I use the same class on a page? Multiple
+    13. How do I get my link to open in a new tab? a href="url">link text</a>
+    14. What is the alt attribute in the image tag used for? Provide text for search engines to identify image
+    15. How do I reference an id? With the # character
+    16. What is the difference between a section and a div div is an invisible block which one can attribute id, section is used mainly to store a paragraph of text
+    17. What is CSS used for? Colors images fonts etc... accessorizing the aesthetic
+    18. How to we select an element? Example - every h2 on the page h2 { class:selector;}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one id is unique and can only be used to alter one element while a class is used to alter larger groups
+    20. How do we select classes in CSS? .nameofclass
+    21. How do we select a p element with a single class of “human””? E:lang(c)
+    22. What is a parent child selector? When would this be useful? two selectors separated by a > symbol to match/compare specific elements without affecting any others
+    23. How do you select all links within a div with the class of sidebar? $('#example').find('a').each(function() {
+    console.log($(this).attr('href'));
+});
+    24. What is a pseudo selector?CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element
+    25. What do we use the change the spacing between lines? <br>
+    26. What do we use to change the spacing between letters? Letter-spacing: 123px
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? Div.a{ Text-transform: uppercase/lowercase/capitalize; }
+    28. How do I add a 1px border around my div that is dotted and black? Div{border:1px dotted black;}
+    29. How do I select everything on the page? *
+    30. How do I write a comment in CSS? <!-- comment -->
+    31. How do I find out what file I am in, when I am using the command line? It will be next to the username
+    32. Using the command line - how do I see a list of files/folders in my current folder? Cd documents/git/
+    33. How do I remove a file via the command line? Why do I have to be careful with this? Git rm, there is no alert of confirmation, it just deletes with no hud
+    34. Why should I use version control? Allows cooperation on any file at anytime
+    35. How often should I commit to github? Whenever you write something that's time consuming and works
+    36. What is the command we would use to push our repo up to github? git push 'remote_name' 'branch_name'
+    37. Walk me through Lambda's git flow. Fork clone branch add file pull submit whilst adding alumni advisor
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element? Inline do not require a new line/ break while block does
+    2. What happens when an element is positioned absolutely? is positioned relative to the nearest positioned ancestor
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? Margin:auto width:x 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default dl ol li // a var // div
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? Each layer respects its distance in accordance to the layer prior
+
+
+
