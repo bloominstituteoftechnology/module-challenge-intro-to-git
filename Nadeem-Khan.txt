@@ -4,16 +4,30 @@ https://codepen.io/nadeem-khan-the-decoder/pen/WNGQeqm?editors=1100
 Stretch Review questions: 
     1. What is the difference between an inline element and a block element?
     Block elements will take over an entire block of line, while inline will only take up as much space as the content requires.
-    2. What happens when an element is positioned absolutely?  HERES AN UPDATE
+    2. What happens when an element is positioned absolutely? It does not adhere to the flow of the statements in code.. other elements may
+    disappear underneath it as it floats on top of a lot of elements (because other items act as if it is not there)
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        display: inline-block; and width: 10px; etc for size
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+      Display Block Defaults: nav, h1, div
+      Inline display: <span> <a>
+      Inline-Block: <img>
     5. In your own words, explain the box model. What is the fix for the box model? 
+    The box model is Margin > Border > Padding > content. 
+    Margin and padding are both white space - padding is inbetween the content and border while margin is outside of the border.
 Stretch Git Tasks
 - [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
   - [ ] Research and understand what a `merge conflict` is and how to resolve it.
+        A merge conflict occurs when Git has issues trying to merge 2 branches because there is different codes on the same lines of code
+        so git will ask for help or give an error because it does not know which version to go further with. To resolve it review the errors and work through them applicably choosing which code to go with.
   - [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the main branch.
+        pull-Take an online copy and bring it to your local machine
+        rebase - this is the process of combining/moving a sequence of commits to a new base commit
+        merge - taking a branch and combining it with the main repository
   - [ ] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
+        reset - take current branch and reset it to a different point in tree
+        revert - a forward moving undo operation that doesn't delete commits but will revert a new commit that is from before the changes
+        clean - deals with changes to undo in staging area before being added to repo
+- [x] Research and set up a Graphical User Interface (GUI) Git console. 
 
-- [ ] Research and set up a Graphical User Interface (GUI) Git console. 
-
-- [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
+- [x] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
