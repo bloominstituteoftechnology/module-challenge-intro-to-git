@@ -1,0 +1,74 @@
+
+    1. What is Semantic HTML? does what it sounds like
+    2. What is HTML used for? the stucture of webites
+    3. What is an attribute and where do we put it? a link or destination, in an anchor tag <a>, or button tag <button>
+    4. What is the h1 tag used for? How many times should I use it on a page? largest heading format, for headings/ titles
+    5. Name two tags that have required attributes <a> & <img>
+    6. What do we put in the head of our HTML document? <!DOCTYPE html> & <html>
+    7. What is an id? like a class identifier but only to be referened once
+    8. What elements can I add an id to? one
+    9. How many times can I use the same id on a page? once
+    10. What is a class? like an id identifier but for multiple instances of use
+    11. What elements can I add a class to? all of them
+    12. How many times can I use the same class on a page? infinite
+    13. How do I get my link to open in a new tab? 
+<a href= target="_blank"></a>
+    14.  specifies alt text to diuspolay if image is unavailible 
+    15. How do I reference an id? #id_name {}
+    16. What is the difference between a section and a div 
+sections are semantic, unlike divs
+    17. What is CSS used for? to style html pages
+    18. How to we select an element? Example - every h2 on the page 
+h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+class can be reused, unlike id, use id for a section header, but class for the sections
+    20. How do we select classes in CSS? 
+.class_name
+    21. How do we select a p element with a single class of “human””?
+.human p {}
+    22. What is a parent child selector? When would this be useful? selector to style specific elements within a parent element, to style all the <p> within a <div> parent
+    23. How do you select all links within a div with the class of sidebar?
+.sidebar > links {
+
+}
+    24. What is a pseudo selector? used to define an element in a specific state (hover)
+    25. What do we use the change the spacing between lines? 
+.class_name {
+line-height: 1.5;
+}
+    26. What do we use to change the spacing between letters?
+.class_name {
+letter-spacing: 2px;
+}
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform: uppercase;
+    28. How do I add a 1px border around my div that is dotted and black?
+div { 
+  border: 1px dotted black;
+}
+    29. How do I select everything on the page?
+ * {
+
+}
+    30. How do I write a comment in CSS?
+/* comment here */
+    31. How do I find out what file I am in, when I am using the command line? 
+pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rm, because you cant undo it :0
+    34. Why should I use version control? 
+to track changes 
+    35. How often should I commit to github?
+every 30 minutes
+    36. What is the command we would use to push our repo up to github? 
+git push -u origin firstname-Lastname
+
+    37. Walk me through Lambda's git flow. 
+fork
+add PM
+clone repo
+create branch
+pull request
+add PM as Collaborator
