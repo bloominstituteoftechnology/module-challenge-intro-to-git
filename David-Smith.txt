@@ -12,8 +12,10 @@
     
  5. Name two tags that have required attributes
     - img and anchor
+    
  6. What do we put in the head of our HTML document?
     - declare !DOCTYPE
+    
  7. What is an id?
     - an ID can be used to identify one element, whereas a class can be used to identify more than one.
     
