@@ -1,0 +1,44 @@
+https://codepen.io/Kirusu/pen/QWKjLEx
+ 1. What is Semantic HTML? The use of HTML markups to reinforce the meanings or semantics of information on a webpage.
+    2. What is HTML used for? HTML is used to create the structure.
+    3. What is an attribute and where do we put it? Words inside of an opening tag to control the element's behavior. It is inside of the opening tag.
+    4. What is the h1 tag used for? How many times should I use it on a page? It is used for the most important header and it should only be used once.
+    5. Name two tags that have required attributes An a or img tag
+    6. What do we put in the head of our HTML document? A header
+    7. What is an id? It specifies a specific id for an HTML element.
+    8. What elements can I add an id to? All elements
+    9. How many times can I use the same id on a page? Only once 
+    10. What is a class? It is used to specify a class for an HTML element
+    11. What elements can I add a class to? On any HTML element
+    12. How many times can I use the same class on a page? As many as you would like
+    13. How do I get my link to open in a new tab? by using the target"_blank" command
+    14. What is the alt attribute in the image tag used for? It it used to display a picture on your page
+    15. How do I reference an id? With a # in CSS
+    16. What is the difference between a section and a div. A section is used for sections in a document where as a div represents a divison and is used to group elements to format them in CSS
+    17. What is CSS used for? It is used to format a page
+    18. How to we select an element? Example - every h2 on the page. by using h2{} in CSS followed by whichever changes you wanted to make to it
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. The difference is an id can only be used once and a class can be used multiple times. You would use a class when you want to style multiple elements the same way where as you would use an id to style a single element.
+    20. How do we select classes in CSS? By using .classname{}
+    21. How do we select a p element with a single class of “human””?
+    22. What is a parent child selector? When would this be useful? A parent child selector selects all elements that are a direct child of the specified element. You can use it to highlight or change key information on a page.
+    23. How do you select all links within a div with the class of sidebar? a:link{}
+    24. What is a pseudo selector? It defines a special state of an element
+    25. What do we use the change the spacing between lines? line-height
+    26. What do we use to change the spacing between letters? letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform:uppercase; text-transform:lowercase; text-transform:capitalize;
+    28. How do I add a 1px border around my div that is dotted and black? border:1px dotted red;
+    29. How do I select everything on the page? with a * or a body tag
+    30. How do I write a comment in CSS? by hitting ctrl / or typing /* message here */
+    31. How do I find out what file I am in, when I am using the command line? $pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder? $ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? $rm filename.txt. There is no prompt asking if you are sure if you want to delete this.
+    34. Why should I use version control? You can track individual changes to see where conflicts occur.  
+    35. How often should I commit to github? When you are done with your feature.
+    36. What is the command we would use to push our repo up to github? git push -u origin branch-name
+    37. Walk me through Lambda's git flow. 1. Fork your own Repo. 2.Clone your Repo in gitbash. 3. Use cd in gitbash to navigate where you want to put your clone. 4. Use the git clone <link to repo> command to clone your repo. 5. cd into the new repo. 6. use git checkout -b firstname-lastname to create a new branch. 7. use code . to work on your repo. 8. Save changes and commit your repo by using command git commit -m "A helpful message". 9.Push your changes with git push -u origin branch-name. 10.Submit a pull request back on your github page.
+    Stretch Review questions: 
+    1. What is the difference between an inline element and a block element? inline elements do not cause a line break after the element where as block elements do.
+    2. What happens when an element is positioned absolutely? It no longer exists in the normal document layout flow and instead sits on its own layer separate from everything else.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? An inline-block
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default. Display block: <ul> <div> <p> Inline: <br> <button> Inline block: <span>
+    5. In your own words, explain the box model. What is the fix for the box model? The box model is the design and layout of HTML which includes margins, borders, padding, and context. The fix to the box model is the box-sizing property.
