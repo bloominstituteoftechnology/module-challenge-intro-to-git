@@ -1,0 +1,42 @@
+https://codepen.io/juush/pen/dypYwGQ
+
+
+
+    1. What is the difference between an inline element and a block element?
+    inline element takes up only the space it needs
+    block elements take up all the space across the screen
+
+
+    2. What happens when an element is positioned absolutely? 
+    I can explain it when I use google but I'm not sure when/how to use it.
+
+
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    selector {
+        display:inline;
+        width:value;
+    }
+
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        Block:
+            <div></div>
+            <header></header>
+            <footer></footer>
+        inline 
+            <a></a>
+            <br>
+            <span></span>
+        Inline-Block    
+            no idea :/
+            I know that you can change the display of an element to inline block using the display property
+
+
+
+    5. In your own words, explain the box model. What is the fix for the box model? 
+        From the inside out;
+        Content, Padding, Border, Margin
+
+        Border is not the same as Margin
+        i.e if you background-color:black and increase the padding, the backgroudn color will grow with the padding. The margin will always be the white space between 2 elements and will not increase the size of the background-color.
