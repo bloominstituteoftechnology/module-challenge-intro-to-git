@@ -22,6 +22,8 @@ You will need to follow the Lambda School Git Workflow to add a file to this pro
 3. After you are finished please copy the review questions into your .txt file and answer them
 4. don't forget to add, commit and push your changes.
 
+changes!
+
 
 ## Task 3: Stretch
 Stretch Review questions: 
