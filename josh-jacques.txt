@@ -2,6 +2,132 @@ https://codepen.io/juush/pen/dypYwGQ
 
 
 
+
+
+    1. What is Semantic HTML? 
+        a specific html tag
+
+    2. What is HTML used for? 
+        it's the foundation of the web page, it tells the web browser what to display
+
+    3. What is an attribute and where do we put it? 
+        attributes give tag meaning
+        inside the <> after the tag name
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        main heading tag, once
+
+    5. Name two tags that have required attributes
+        <a></a>
+        <i></i>
+
+    6. What do we put in the head of our HTML document? 
+        links to style sheets, imported fonts, anything that is needed to transfer information into the web page
+        the only exception to this rule would be the <script></script>
+
+    7. What is an id? 
+        gives a tag a unique identifier, mostly used with javascript I believe
+
+    8. What elements can I add an id to? 
+        anything
+
+    9. How many times can I use the same id on a page? 
+        once
+
+    10. What is a class? 
+        gives a tag a unique name, can be used on multiple tags
+
+    11. What elements can I add a class to? 
+        anything
+
+    12. How many times can I use the same class on a page? 
+        as many times as you want
+
+    13. How do I get my link to open in a new tab?
+        <a href="#" target="_blank">
+
+    14. What is the alt attribute in the image tag used for? 
+        gives the description of an image if it fails to load...accessibility
+
+    15. How do I reference an id?
+        #idName {}
+
+    16. What is the difference between a section and a div
+        section is semantic
+
+    17. What is CSS used for? 
+        styling
+
+    18. How to we select an element? Example - every h2 on the page
+        h2 {}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        <div class="className"></div>
+        <div id="idName"></div>
+
+    20. How do we select classes in CSS?
+     .className {}
+    
+    21. How do we select a p element with a single class of “human”?
+        .human {}
+    
+    22. What is a parent child selector? When would this be useful? 
+        .parent .child {}
+        it allows you to be super specific
+    
+    
+    23. How do you select all links within a div with the class of sidebar?
+        .sidebar a {}
+    
+    24. What is a pseudo selector?
+        selector:pseudoSelector {}
+        allows you to change the css based on an action
+
+    25. What do we use the change the spacing between lines?
+        line-height:value;
+    
+    26. What do we use to change the spacing between letters?
+        letter-spacing:value;
+    
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform:uppercase;  
+        text-transform:lowercase;
+        text-transform:Capitalize;
+    
+    28. How do I add a 1px border around my div that is dotted and black?
+        div {
+            border:dotted black 1px;
+        }
+    
+    29. How do I select everything on the page? 
+        * {}
+    
+    30. How do I write a comment in CSS?
+        /*comment here*/
+    
+    31. How do I find out what file I am in, when I am using the command line? 
+        pwd
+    
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
+    
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        git rm
+        deletes without prompting
+    
+    34. Why should I use version control? 
+        in case I need to go back to a previous version
+    
+    35. How often should I commit to github?
+        any time you get something to work
+    
+    36. What is the command we would use to push our repo up to github? 
+        git push origin -u ''
+    
+    37. Walk me through Lambda's git flow. 
+        fork, clone, add, commit, push
+
+
     1. What is the difference between an inline element and a block element?
     inline element takes up only the space it needs
     block elements take up all the space across the screen
