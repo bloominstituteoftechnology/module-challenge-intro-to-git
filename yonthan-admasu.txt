@@ -3,7 +3,7 @@ https://codepen.io/Thyonathan/pen/rNMeKVJ?editors=1100
     2. What is HTML used for? It allows the user to create and structure sections, paragraghs,headings,links for web pages.
     3. What is an attribute and where do we put it? It is special word used inside the openning tag to control the element's behavior.
     4. What is the h1 tag used for? How many times should I use it on a page? It is used for a title of a page or post. used only one time.
-    5. Name two tags that have required attributes. img and a.
+    5. Name two tags that have required attributes. img and a tags
     6. What do we put in the head of our HTML document? <!DOCTYPE html>
     7. What is an id? Its purpose is to identify the element when linking, scripting,or styling with css.
     8. What elements can I add an id to? any html tags.
