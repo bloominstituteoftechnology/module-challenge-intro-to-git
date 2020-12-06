@@ -194,19 +194,17 @@ Other benefits of using a VCS are even independent of working in a team or on yo
 
     37. Walk me through Lambda's git flow. 
 
-	This is what I am teaching myself to do:
-		1. Fork a copy of the repo which I must verify has my name and the for symbol on the top left corner of the GitHub page. I will also pick a 					collaborator( once I am assigned one)
-		2. Clone the repo using the appropriate button, copying the url, opening up my terminal, and toggling to the directory where I am holding this and 			future git repos on my local computer. Once in that directory, I will use the command :  git clone "<paste the copied link from gitHub> and hit 			enter. This will initiate and complete the clone process.
-		3. Now I would Cd to the newly acquired repo using the command  cd < name of the new file> and hit enter
-		4. Next I will create a Branch for this file for my work using the command :  git checkout -b 'firstname-lastname' 
-		5. Now I will access this new branch of the repo and complete the assigned tasks/assignments .
-		6. Once my assignment is completed in the branch file/s, I now have to submit those changes into the repo with the command   git add .
-		7. The next step is to commit my changes by using the command:  git commit -m "Your helpful commit message here" -the message briefly outlines 			the changes that I have made to the repo now being committed.
-		8. The next step is to push this committed version from my local computer to  my repo on gitHub. The command will be : git push -u origin branch-			name (where the branch name will be the same that I used   when creating the branch for myself.(as in step 4 above).
-		9. Now that my modified repo is available on GitHub, the next step is to submit a PULL REQUEST. Here I need to ensure the I am completing the 				PR(Pull Request) on my forked copy and not the Lambda School repo.  Next I  have to click on the BRANCH-MASTER button 				                   which will then offer a dropdown to pick my branch name in there.  I will then click on my branch-name, and click on NEW PULL REQUEST 		  		  button to  make a PR on my branch name . This will then redirect me to the PR page. Once the PR page loads up,  I will make sure to click the 			dropdown button that says base repository and CHANGE it to be my FORKED REPO instead of the original Lambda repo (when 				                    submitting PR it will default to the original Repo this is why it needs to be changed). At this point I will complete the details on the PR 			 		  message including adding the reviewer (when assigned).
-		10. The final step is to click on the button CREATE  PULL REQUEST.
-			This completes my part of pulling and submitting back my assignment which will then be handled by the collaborator/reviewer appropriately 			before being merged.
-			Once I find the merge is completed, I will delete the branch file on my local machine.
+This is what I am teaching myself to do:
+1. Fork a copy of the repo which I must verify has my name and the for symbol on the top left corner of the GitHub page. I will also pick a collaborator( once I am assigned one)
+2. Clone the repo using the appropriate button, copying the url, opening up my terminal, and toggling to the directory where I am holding this and 	future git repos on my local computer. Once in that directory, I will use the command :  git clone "<paste the copied link from gitHub> and hit 	enter. This will initiate and complete the clone process.
+3. Now I would Cd to the newly acquired repo using the command  cd < name of the new file> and hit enter
+4. Next I will create a Branch for this file for my work using the command :  git checkout -b 'firstname-lastname' 
+5. Now I will access this new branch of the repo and complete the assigned tasks/assignments .
+6. Once my assignment is completed in the branch file/s, I now have to submit those changes into the repo with the command   git add .
+7. The next step is to commit my changes by using the command:  git commit -m "Your helpful commit message here" -the message briefly outlines the changes that I have made to the repo now being committed.
+8. The next step is to push this committed version from my local computer to  my repo on gitHub. The command will be : git push -u origin branch-name (where the branch name will be the same that I used   when creating the branch for myself.(as in step 4 above).
+9. Now that my modified repo is available on GitHub, the next step is to submit a PULL REQUEST. Here I need to ensure the I am completing the PR(Pull Request) on my forked copy and not the Lambda School repo.  Next I  have to click on the BRANCH-MASTER button 				             which will then offer a dropdown to pick my branch name in there.  I will then click on my branch-name, and click on NEW PULL REQUEST 		   button to  make a PR on my branch name . This will then redirect me to the PR page. Once the PR page loads up,  I will make sure to click the 	dropdown button that says base repository and CHANGE it to be my FORKED REPO instead of the original Lambda repo (when 				          submitting PR it will default to the original Repo this is why it needs to be changed). At this point I will complete the details on the PR 	message including adding the reviewer (when assigned).
+10. The final step is to click on the button CREATE  PULL REQUEST.This completes my part of pulling and submitting back my assignment which will then be handled by the collaborator/reviewer appropriately before being merged.Once I find the merge is completed, I will delete the branch file on my local machine.
  
 Stretch Questions
 
