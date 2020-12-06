@@ -18,7 +18,7 @@ https://codepen.io/Thyonathan/pen/rNMeKVJ?editors=1100
     17. What is CSS used for? to style documents.
     18. How to we select an element? Example - every h2 on the page. h2 {....}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one. id can apply to one element and class to multiple.
-    example <div id = "..."> <div class = "d1">, <div class = "d2">
+    example <div id = "..."> <div class = "d1">, <div class = "d2">, <div class = "d3">
     20. How do we select classes in CSS? with a dot (.)
     21. How do we select a p element with a single class of “human””? p class = "human"
     22. What is a parent child selector? When would this be useful? selects all elements that are a direct child of the specified elemnt.it is used to identify each component uniquely.
