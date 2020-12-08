@@ -1,0 +1,85 @@
+
+CodePen: https://codepen.io/ARhodes09/pen/ZEpOZXQ?editors=1100
+
+
+1. What is Semantic HTML? 
+
+marking up of html in which all HTML elements are used according to their purpose and using HTML tags and elements and attributes to separate content and presentation. It makes content easier to read (formats content).
+
+2. What is HTML used for? 
+
+HTML is a markup language that lays the foundation of the web page (like foundation of a home). It paves the way for CSS and JavaScript
+
+3. What is an attribute and where do we put it? 
+
+HTML attributes are added to elements. They provide more info about the HTML elements. Always specified in the start tag. Every element can have an attribute, more than one sometimes. Comes in the form of name = "value". Goes towards the end of the element.
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+
+h1 is a heading element. h1 is the largest of 6 headlines. It generally goes at the top of the web page. It should only be used once on a page.
+
+5. Name two tags that have required attributes
+
+<a> and <link> and img
+
+6. What do we put in the head of our HTML document? 
+
+the title of the web page for search engines, the meta type, links to CSS, any links to favicon
+
+7. What is an id? 
+
+attribute used to specify a unique ID for an HTML element, can't have more than one element with the same ID in an HTML document
+
+8. What elements can I add an id to? 
+
+It can be added to just about any element. GeeksforGeeks says it can't be added to <base>, <html>, <head>, <meta>, <param>, <script>, <style>, and <title> tags
+
+9. How many times can I use the same id on a page? 
+
+only once
+
+10. What is a class? 
+
+a class refers to more than one element in a group. An attribute that specifies one or more class names for an HTML element
+
+11. What elements can I add a class to? 
+
+any element
+
+12. How many times can I use the same class on a page? 
+
+as many as necessary
+
+    13. How do I get my link to open in a new tab?
+    14. What is the alt attribute in the image tag used for? 
+    15. How do I reference an id?
+    16. What is the difference between a section and a div
+    17. What is CSS used for? 
+    18. How to we select an element? Example - every h2 on the page
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    20. How do we select classes in CSS?
+    21. How do we select a p element with a single class of “human””?
+    22. What is a parent child selector? When would this be useful? 
+    23. How do you select all links within a div with the class of sidebar?
+    24. What is a pseudo selector?
+    25. What do we use the change the spacing between lines?
+    26. What do we use to change the spacing between letters?
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    28. How do I add a 1px border around my div that is dotted and black?
+    29. How do I select everything on the page? 
+    30. How do I write a comment in CSS?
+    31. How do I find out what file I am in, when I am using the command line? 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    34. Why should I use version control? 
+    35. How often should I commit to github?
+    36. What is the command we would use to push our repo up to github? 
+    37. Walk me through Lambda's git flow. 
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
