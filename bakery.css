@@ -1,4 +1,4 @@
-ing styles:
+
 p {
   font-size: 16px;
   font-family: roboto;
@@ -6,6 +6,13 @@ p {
   line-height: 1.4;
 }
 
+h1{ 
+  font-family: 'Gaegu', cursive;
+  margin: 20px 0;
+  /*=======  Update the font size to 60px and center the text */
+  font-size: 30px;
+  text-align: center;
+}
 
 
 
