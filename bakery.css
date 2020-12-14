@@ -1,5 +1,5 @@
 
-p {
+p{
   font-size: 16px;
   font-family: roboto;
   padding: 10px;
@@ -15,6 +15,15 @@ h1{
 }
 
 
+h1, h3, h4, h5, h6{
+  font-family: 'Gaegu', cursive;
+  margin-bottom: 0;
+  padding: 0 10px;
+  /*=======  Update the font size to 30px */
+  font-size: 30px;
+  font-color: #3C73B
+}
+
 
 
 /*======= Create a selector for ALL images in the site to have the following styles: 
@@ -22,6 +31,9 @@ h1{
   border-radius: 10px;
 
 */
+img{
+  border-radius: 10px;
+}
 
 .content-row {
   display: flex;
@@ -34,7 +46,7 @@ h1{
 
 .container {
   /*======= create a width property. Set the value to 600px */
-  width: 600px
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -62,12 +74,13 @@ h1{
   margin-top: 20px;
 */
 
-.contact-section {
+.contact-section{
   border-top: 1px dashed black;
   padding: 20px 0;
+  margin-top: 20px;
 }
 
-.contact-section h2 {
+.contact-section h2{
   padding: 0;
   margin: 0 0 10px 0;
 }
@@ -76,24 +89,65 @@ h1{
    line-height: 2;
 */
 
-footer {
+footer{
   width: 100%;
   background: #F87B99;
   border-top: 1px dashed white;
 }
 
-footer .footer-content { 
-  margin: 0 auto; 
+footer .footer-content{ 
+  margin: 0 auto;  
+  width: 600px;
   /*======= create a width property. Set the value to 600px */
   
 }
 
-footer .footer-content h3 {
+footer .footer-content h3{
   padding: 0;
   margin: 20px 0;
 }
 
-footer nav {
+footer nav{
+  display: flex;
+}
+
+
+
+/*======= Create a selector for the anchor tag in the footer to have the following styles:
+  margin: 10px;
+  color: black;
+  text-decoration: underline;
+*/
+
+.
+footer nav a:first-child{
+  margin-left: 0;
+  margin: 10px;
+  color: black;
+  text-decoration: underline;
+}
+.footer:hover{
+  color: white;
+  
+}
+/*======= Create a hover state for the anchor tag in the footer nav to have the following styles:
+  color: white;
+*/
+
+footer .footer-content .copyright{
+  padding: 20px 0;
+  text-align: center;
+   /*======= center the text here */
+}
+  /*======= create a width property. Set the value to 600px */
+  
+
+footer .footer-content h3{
+  padding: 0;
+  margin: 20px 0;
+}
+
+footer nav{
   display: flex;
 }
 
@@ -104,13 +158,13 @@ footer nav {
 */
 
 
-footer nav a:first-child {
+footer nav a:first-child{
   margin-left: 0;
   margin: 10px;
   color: black;
   text-decoration: underline;
 }
-.footer:hover {
+.footer:hover{
   color: white;
   
 }
@@ -118,7 +172,7 @@ footer nav a:first-child {
   color: white;
 */
 
-footer .footer-content .copyright {
+footer .footer-content .copyright{
   padding: 20px 0;
   text-align: center;
    /*======= center the text here */
