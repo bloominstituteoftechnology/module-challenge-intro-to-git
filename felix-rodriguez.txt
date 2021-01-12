@@ -39,13 +39,13 @@ https://codepen.io/TrashPandaPrograms/pen/dypqwwL?editors=0100
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
         The main difference is that a class can be applied to multiple elements, while an id can usually only be applied to one element.
     20. How do we select classes in CSS?
-        To select a class in CSS, you must use the "." in front of the class name. For example, ".class{}".
+        To select a class in CSS, you must use the "." in front of the class name. For example, ".class{}"
     21. How do we select a p element with a single class of “human”?
         To select the p element named "human" (<class "human" = p></p>), all you have to do is write ".human" in CSS.
     22. What is a parent child selector? When would this be useful?
-
+        Parent child selector is when there is an element that has other elements inside. When you choose the parent you choose all the children inside. This is useful to save lines of code and time.
     23. How do you select all links within a div with the class of sidebar?
-
+        To select all the links inside a div with the class of sidebar, we must write ".sidebar{}"
     24. What is a pseudo selector?
         A pseudo-selector or a pseudo-class is used to define a special state of an element.
     25. What do we use the change the spacing between lines?
@@ -72,5 +72,13 @@ https://codepen.io/TrashPandaPrograms/pen/dypqwwL?editors=0100
     35. How often should I commit to github?
         I should commit to github as often as I can.
     36. What is the command we would use to push our repo up to github?
-
+        To push our repo up to github, we write " git push ".
     37. Walk me through Lambda's git flow.
+        Git flow:
+            1. Fork to your repo.
+            2. Clone to your local folder.
+            3. git push origin -u 'branchname'
+            4. git add .
+            5. git commit -m "message to coworkers or future self"
+            6. git push
+
