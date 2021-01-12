@@ -133,13 +133,13 @@ to help with debugging and sharing in a group setting.
     git push origin [branch-name]
 
     37. Walk me through Lambda's git flow. 
-        1. fork a repo
-        2. then clone. 
-        3. then crate branch locally of Your master
-        4.add
-        5.commit
-        6.push
-        7.request pull
+        1. fork a repo in github
+        2. then clone to your maching | git clone <repo address>
+        3. then crate branch to compair changes from the oriogional  |  git checkout -b 'fName-lName'
+        4.add  git add .
+        5.commit   git commit -m "Your helpful commit message here"
+        6.push git push -u origin firstname-lastname
+        7.request pull on github.
 
 
 
