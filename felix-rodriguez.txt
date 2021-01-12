@@ -1,9 +1,9 @@
 https://codepen.io/TrashPandaPrograms/pen/dypqwwL?editors=0100
 
     1. What is Semantic HTML? 
-
+        Semantic HTML are the elements that explicitly tell you what they do or what they are. For example, title, header, footer and article. 
     2. What is HTML used for? 
-    Hypertext 
+        HTML is used to structure the webpage 
     3. What is an attribute and where do we put it? 
     4. What is the h1 tag used for? How many times should I use it on a page?
     5. Name two tags that have required attributes
@@ -22,7 +22,7 @@ https://codepen.io/TrashPandaPrograms/pen/dypqwwL?editors=0100
     18. How to we select an element? Example - every h2 on the page
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
     20. How do we select classes in CSS?
-    21. How do we select a p element with a single class of “human””?
+    21. How do we select a p element with a single class of “human”?
     22. What is a parent child selector? When would this be useful? 
     23. How do you select all links within a div with the class of sidebar?
     24. What is a pseudo selector?
