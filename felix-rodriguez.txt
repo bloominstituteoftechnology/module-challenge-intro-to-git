@@ -45,18 +45,32 @@ https://codepen.io/TrashPandaPrograms/pen/dypqwwL?editors=0100
     22. What is a parent child selector? When would this be useful?
 
     23. How do you select all links within a div with the class of sidebar?
-        
+
     24. What is a pseudo selector?
+        A pseudo-selector or a pseudo-class is used to define a special state of an element.
     25. What do we use the change the spacing between lines?
+        To change the spacing between lines we use the "line-height" property.
     26. What do we use to change the spacing between letters?
-    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        To change the spacing between letters we use the "letter-spacing" property.
+    27. What do we use to change everything to CAPITALS? lowercase? Capitalize?
+        To change everything to capitals, lowercase or capitalize we use the "text-transform" property.
     28. How do I add a 1px border around my div that is dotted and black?
+        To add this we would use, "div {border-style:dotted; border-color: black;
+        border-width: 1px}".
     29. How do I select everything on the page?
+        To select everything on the page, we would use the universal selector "*".
     30. How do I write a comment in CSS?
+        To write a comment in CSS, we use /*comment here*/.
     31. How do I find out what file I am in, when I am using the command line?
+        To find out what file I'm in, you write "pwd" which means, print working directory.
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        To see a list of the folders inside my current one, you write "ls".
     33. How do I remove a file via the command line? Why do I have to be careful with this?
+        To remove a file via the command line you write "rm" and the targeted folder. We have to be careful with this because of two things, one, it doesn't give you a prompt to make sure that's the file you want to remove and two, because there is no recycle bin or any way to recover the data, once deleted.
     34. Why should I use version control?
+        We should use a version control so we don't overwrite our coworker's code.
     35. How often should I commit to github?
+        I should commit to github as often as I can.
     36. What is the command we would use to push our repo up to github?
+
     37. Walk me through Lambda's git flow.
