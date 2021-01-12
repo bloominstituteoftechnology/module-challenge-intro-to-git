@@ -1,7 +1,9 @@
 https://codepen.io/TrashPandaPrograms/pen/dypqwwL?editors=0100
 
-1. What is Semantic HTML? 
+    1. What is Semantic HTML? 
+
     2. What is HTML used for? 
+    Hypertext 
     3. What is an attribute and where do we put it? 
     4. What is the h1 tag used for? How many times should I use it on a page?
     5. Name two tags that have required attributes
