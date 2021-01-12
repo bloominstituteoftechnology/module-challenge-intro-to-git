@@ -1,0 +1,16 @@
+https://codepen.io/Craig-Gerhardstein/pen/jOMeabe?editors=1100
+ 
+1. What is the difference between an inline element and a block element?
+inline elements don't force a new line to begin. a bloack element normally causes a line break;
+
+2. What happens when an element is positioned absolutely? 
+An absolutely positioned element no longer exists in the normal document layout flow. Instead, it sits on its own layer separate from everything else
+
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+ the display property
+
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default 
+Display block elements<div>, <header>, <section> inline elements <a> <b>,  display inline-block element <select>
+
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+the box model is a way to control the spacing and layout between elements. we can use the fit content property to respect the width we give elements.
