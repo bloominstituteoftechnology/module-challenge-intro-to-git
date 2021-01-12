@@ -1,0 +1,173 @@
+
+https://codepen.io/luinza/pen/BaLqwwp?editors=1100
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+
+    1. What is Semantic HTML? 
+    It is the correct way to write a page."Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in webpages and web applications rather than merely to define its presentation or look. Semantic HTML is processed by traditional web browsers as well as by many other user agents. Wikipedia"
+
+    2. What is HTML used for? 
+    Html is the framework for a webpage.
+
+    3. What is an attribute and where do we put it? 
+    an attribute are words inside of an element such as href, id, class.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    It is the most "important" heading on a page. Usualy at the start and used only once.
+
+    5. Name two tags that have required attributes
+    img, a
+
+    6. What do we put in the head of our HTML document?
+    meta and title
+
+    7. What is an id? 
+    a specalized attribure only used once
+
+    8. What elements can I add an id to?
+    any element in the body.
+
+    9. How many times can I use the same id on a page?
+    once
+
+    10. What is a class? 
+    an attriburte that may be called more than once.
+
+    11. What elements can I add a class to? 
+    any element in the body
+
+    12. How many times can I use the same class on a page?
+    as many times as it makes sense, once to infanate
+
+    13. How do I get my link to open in a new tab?
+target="_blank"
+
+    14. What is the alt attribute in the image tag used for? 
+    blind readers of your page.
+
+    15. How do I reference an id?
+#likeThis
+
+    16. What is the difference between a section and a div
+    <section> means that the content inside is grouped (i.e. relates to a single theme), and should appear as an entry in an outline of the page.
+
+    <div>, on the other hand, does not convey any meaning, aside from any found in its class, lang and title attributes.
+
+    17. What is CSS used for? 
+its the pretty stuff in your webpage. Paint and trim.
+
+    18. How to we select an element? Example - every h2 on the page
+h2{
+
+}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+class is a broadly used attribute and id is specalized and used only once.
+<div id="title"><h1>Title</h1></div>
+<ul>
+<li class="dancer"></li>
+<li class="dancer"></li>
+
+
+    20. How do we select classes in CSS?
+    .class
+
+    21. How do we select a p element with a single class of “human””?
+    p .human{}
+
+    22. What is a parent child selector? When would this be useful? 
+The ("parent > child") selector selects all elements that are a direct child of the specified element. usefull for seledcting all list items in a list.
+
+    23. How do you select all links within a div with the class of sidebar?
+    div .sidebar a{}
+
+    
+    24. What is a pseudo selector?
+is a keyword added to a selector that specifies a special state of the selected element. :hover is one
+
+    25. What do we use the change the spacing between lines?
+line-height
+
+    26. What do we use to change the spacing between letters?
+letter-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+.class{ text-transform:uppercase;
+text-transform: lowercase;
+text-transform: capitalize;
+
+    28. How do I add a 1px border around my div that is dotted and black?
+    div{
+        border: 1px dotted black;
+    }
+
+    29. How do I select everything on the page? 
+*{
+
+}
+
+    30. How do I write a comment in CSS?
+    //
+     /* */ 
+     <!-- Bam! -->
+
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm  it doesn't ask permission and is perminant
+
+    34. Why should I use version control? 
+to help with debugging and sharing in a group setting.
+
+    35. How often should I commit to github?
+    as often as you'd like, every hour or so.
+
+    36. What is the command we would use to push our repo up to github? 
+    git push origin [branch-name]
+
+    37. Walk me through Lambda's git flow. 
+        1. fork a repo
+        2. then clone. 
+        3. then crate branch locally of Your master
+        4.add
+        5.commit
+        6.push
+        7.request pull
+
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+inline works inside of a block and will not force a new line and block will 
+
+    2. What happens when an element is positioned absolutely? 
+    An absolutely positioned element no longer exists in the normal document layout flow. Instead, it sits on its own layer separate from everything else.
+    to understand more read the fcc webapage like i am!
+https://www.freecodecamp.org/news/how-to-understand-css-position-absolute-once-and-for-all-b71ca10cd3fd/
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+display: flex
+width: ;
+flex-grow: ;
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+<article><div><h1>
+
+<span><a>
+
+<img> is inline-block
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+The box model is like stacking literal boxes. you put smaller boxes inside of bigger ones. big ones can sit side by side with smaller ones inside. realy big boxes
+will hold several smaller boxes side by side or in a column.  the width can only be as big as the box it itself is in. 
+
+
+   --> 
