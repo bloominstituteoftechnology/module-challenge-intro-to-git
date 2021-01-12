@@ -27,15 +27,25 @@ https://codepen.io/TrashPandaPrograms/pen/dypqwwL?editors=0100
     13. How do I get my link to open in a new tab?
         Right click on the link and choose "Open link in new tab".
     14. What is the alt attribute in the image tag used for?
+        The alt attribute it is used in case the image doesn't display, it will give information or a description of the image that is supposed to display.
     15. How do I reference an id?
+        To reference an id in CSS, you have to call it with the hash character in example "#id".
     16. What is the difference between a section and a div?
+        A section is used to tie a whole group of headings or titles together when they complement each other in similarities. For example, if 3 or 5 headings talk about car brands but the 6th heading talks about car paints then the 6th heading should be in another section.
     17. What is CSS used for?
+        Cascading Style Sheets is used to customize a whole webpage into whetever you desire for it to be pleasing to the eyes.
     18. How to we select an element? Example - every h2 on the page
+        To select an element on the webpage all you have to do is write: " h2{}".
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        The main difference is that a class can be applied to multiple elements, while an id can usually only be applied to one element.
     20. How do we select classes in CSS?
+        To select a class in CSS, you must use the "." in front of the class name. For example, ".class{}".
     21. How do we select a p element with a single class of “human”?
+        To select the p element named "human" (<class "human" = p></p>), all you have to do is write ".human" in CSS.
     22. What is a parent child selector? When would this be useful?
+
     23. How do you select all links within a div with the class of sidebar?
+        
     24. What is a pseudo selector?
     25. What do we use the change the spacing between lines?
     26. What do we use to change the spacing between letters?
