@@ -1,3 +1,114 @@
-https://codepen.io/AnushaZ/full/ZEpMgvy
+https://codepen.io/AnushaZ/pen/XWjxVRR?editors=1100
 
-test 123
+
+    1. What is Semantic HTML? 
+    Semantic HTML is a way of writing and structuring your HTML so that it reinforces the meaning of the content. 
+    It makes the information on the webpage clear and gives it importance.
+
+    2. What is HTML used for? 
+    It is is markup language used to create and structure sections, paragraphs, headings, links, for web pages.
+
+    3. What is an attribute and where do we put it? 
+    Attributes provide addtional information about elements. They are placed in the start tag and consist of pairs 
+    like name="value".
+    
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    h1 tag is used to define the most imporatnt heading. There should only be 1 h1 tag in your html page.
+
+    5. Name two tags that have required attributes
+    name="value" and a href
+
+    6. What do we put in the head of our HTML document? 
+    The Doctype and the metadata, title, links to CSS
+
+    7. What is an id? 
+    An id specifies a unique id for an HTML element
+
+    8. What elements can I add an id to? 
+    You can add any elements to an id tag
+
+    9. How many times can I use the same id on a page? 
+    once
+
+    10. What is a class? 
+    A class attribute is used to specify a class for an HTML element. Multiple elements can share the same class. 
+
+    11. What elements can I add a class to? 
+    Any element can be added to a class
+
+    12. How many times can I use the same class on a page? 
+    You can use it as many times as needed.
+
+    13. How do I get my link to open in a new tab?
+    You need <a href="https://www.yourwebsite.com/" target="_blank">YourWebsite</a> to open a link on another page.
+
+    14. What is the alt attribute in the image tag used for? 
+    The alt attribute is used to specify the alternative text for an image. In case the image cannot be displayed, it provides some information of what the image is about. Also used by screen reader.
+
+    15. How do I reference an id?
+    You reference the id with a hash #.
+
+    16. What is the difference between a section and a div
+    The section tag defines the sections in a document (chapters, headers, footers) and the div tag defines division or section in HTML page.
+
+    17. What is CSS used for? 
+    css is used to build the visual element of a webpage. it includes colors, layout, font. It will be used to make your webpage specific to your preference is style and design.
+
+    18. How to we select an element? Example - every h2 on the page
+    h2 {
+        color: blue;
+     }
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one?
+    Class used to denote Multiple elements that will recieve the same styling. Ex: 
+    .first section h2, p {
+        text-transform: uppercase;
+    }
+
+    id are unique and can only apply to one element on the page. example
+    #firstname {
+        background-color: blue;
+    }
+
+
+    20. How do we select classes in CSS?
+    .class {
+        color: blue;
+    }
+
+    21. How do we select a p element with a single class of “human””?
+    .human p {
+        color: blue;
+    }
+
+    22. What is a parent child selector? When would this be useful? 
+
+    23. How do you select all links within a div with the class of sidebar?
+
+    24. What is a pseudo selector?
+
+    25. What do we use the change the spacing between lines?
+
+    26. What do we use to change the spacing between letters?
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+    28. How do I add a 1px border around my div that is dotted and black?
+
+    29. How do I select everything on the page? 
+
+    30. How do I write a comment in CSS?
+    
+    31. How do I find out what file I am in, when I am using the command line? 
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+    34. Why should I use version control? 
+
+    35. How often should I commit to github?
+
+    36. What is the command we would use to push our repo up to github? 
+
+    37. Walk me through Lambda's git flow. 
