@@ -1,0 +1,114 @@
+My codepen link!
+    https://codepen.io/tdubs/full/ExgOBYr
+
+I feel like a dumb! But also happy it happened: I thought the example was locked in fullscreen mode so I just realized upon completion that I could have been grabbing sizes from the codepen. **face palming all day long lol
+   
+    1. What is Semantic HTML? 
+        Utilizes specific tags for element names (example: using "section" or "main" instead of "div"; using "em" or "blockquote" instead of "span")
+    2. What is HTML used for? 
+        Used to markup text in a way that creates a framework for the computer to use when loading the page. It is also used to anchor outside elements within a document (i.e. photos, videos, sounds, etc.)
+    3. What is an attribute and where do we put it? 
+        An attribute is like an accessory for the element. It goes within the opening tag after the initial element name. Common examples include the href, rel, type, class, and id attributes.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        The h1 tag denotes the MOST important title on the page, Generally this would be the business name on a website. It was explained "like the title of a book, and you don't have more than 1 title." You should only have 1 h1 element per HTML file.
+    5. Name two tags that have required attributes
+        <a ...> and <meta ...>
+    6. What do we put in the head of our HTML document? 
+        All of the meta data and supporting elements that give the information about the page to the browser, as well as linking stylesheets and while not best practice, is where inline style goes.
+    7. What is an id? 
+        An identifier that SHOULD be unique to 1 tag in the entire project. This becomes more important once we begin using JS, as JS utilizes the getElementById function.
+    8. What elements can I add an id to? 
+        All of them
+    9. How many times can I use the same id on a page? 
+        ONCE
+    10. What is a class? 
+        Also an identifier, but this can be used on MORE than 1 element and MORE than 1 time.
+    11. What elements can I add a class to? 
+        All of them
+    12. How many times can I use the same class on a page? 
+        As many times you please!
+    13. How do I get my link to open in a new tab?
+        target="_blank"
+        Best practice, as far as I can research, is not to use this just to ensure people don't leave your website. Don't assume everyone likes 50 open tabs at once.
+    14. What is the alt attribute in the image tag used for? 
+        It is the text that a screen reader or other assistive device can use to describe the photo to the user.
+    15. How do I reference an id?
+        #id
+    16. What is the difference between a section and a div
+        A section is a semantic tag which should be used when deviding sections of content that are logically connected (chapters, heading to heading, etc.) whereas div is an empty block element used purely for designing purposes. Check if <section> or <article> fit the parameters of the element in mind before slapping a <div> around it!
+    17. What is CSS used for? 
+        Cascading Stylesheets are used to add pizazz to your pages!
+    18. How to we select an element? Example - every h2 on the page
+        h2 {
+            property: value;      
+        }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        Class can be used multiple times on a page while id can only be used ONCE. You would use an id where you only have ONE instance of that element on a page (header, navigation menu, etc) whereas class is heavily utilized in flexbox for creating columns and rows.
+    20. How do we select classes in CSS?
+        .class
+    21. How do we select a p element with a single class of “human””?
+        p .human {
+            property: value;
+        }
+    22. What is a parent child selector? When would this be useful? 
+        NOTE!! It is called a "combinator" not selector. It "combines" selectors. You use a parent > child to denote that all child elements with that selector will also be changed. This is a great way to shorten code when designing things like tables with several <li> elements.
+    23. How do you select all links within a div with the class of sidebar?
+        .sidebar a {
+            property: value;
+        }
+    24. What is a pseudo selector?
+        Used to specify a certain state of the selector (example- a:hover). The :hover is the psuedo selector which will only change the link design upon hover.
+    25. What do we use the change the spacing between lines?
+        line-height: x;
+    26. What do we use to change the spacing between letters?
+        letter-spacing: x;
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: uppercase;
+    28. How do I add a 1px border around my div that is dotted and black?
+        div {
+            border: 1px dotted black;
+        }
+    29. How do I select everything on the page? 
+        * is the universal selector
+    30. How do I write a comment in CSS?
+        /* comment */
+    31. How do I find out what file I am in, when I am using the command line? 
+        Look at what's listed after the / in the path before your cursor
+            OR 
+        pwd [ENTER]
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls [ENTER]
+            OR 
+        dir [ENTER]
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm [FILE NAME] [ENTER]
+            BE CAREFUL 
+        Unlike when we delete things from the File Explorer and they go into a Recyle Bin, there is no way to retrieve a deleted file IF DELETED FROM THE TERMINAL!
+    34. Why should I use version control? 
+        Version control allows for collaboration, both remote and local, as well as offering a streamlined method for updating webpages without having to relaunch it. This also gives a clear history of all changes made to code, as well as expanding upon the Open Source netowrk.
+    35. How often should I commit to github?
+        Commit OFTEN, and do not keep a local clone for more than a couple days. Fork, clone, commit, push, pull AT LEAST once every other day for best practice.
+    36. What is the command we would use to push our repo up to github? 
+        git push origin -u [BRANCH-NAME]
+    37. Walk me through Lambda's git flow. 
+        Fork - Clone - Branch - Edit - Commit - Push - Pull
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+       Inline elements do not start a new line. Using a span element inside of a p element will not add a line break to the text. Block elements start a new line. 
+    2. What happens when an element is positioned absolutely? 
+       This removes an element from the normal document layout and it becomes its own layer. It is positioned relative to its parent's position. 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+       flexbox - more specifically the flex property [flex-grow | flex-shrink | flex-basis] 
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+       BLOCK | <body> <header> <p>
+       INLINE | <em> <span>
+       INLINE-BLOCK |  <button>
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+       The box model is the predecessor to flexbox. The box model views the content as a box: with padding, margin, border and outline able to be manipulated. In order to ensure the width we set is respected we have to add the universal selector
+       * {
+           box-sizing: border-box;
+       } 
+            Until this becomes integrated, it is best practice to put this in CSS files to ensure the dimensions you set are the dimensions honored by the browser. I did see a note that box-sizing will start to get finicky with margin, and using padding whenever possible will help alleveate bugs.
