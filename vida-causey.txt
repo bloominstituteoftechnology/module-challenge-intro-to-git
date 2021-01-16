@@ -176,9 +176,9 @@ https://codepen.io/nana-yaa-ankamah/pen/LYRgYdy
     37. Walk me through Lambda's git flow. 
                 FORK your copy
                 Add a Collaborator	
-                CLONE the repo	git clone <your-repo-address>
-                Create a branch 	cd <repo directory>
-                git checkout -b 'firstname-lastname'
+                CLONE the repo	    "git clone <your-repo-address>"
+                Create a branch     "cd <repo directory>"
+                                    "git checkout -b 'firstname-lastname"
                 Push branch up to GitHub 	git push -u origin firstname-lastname
 
 
