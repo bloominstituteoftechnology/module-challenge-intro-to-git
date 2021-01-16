@@ -187,10 +187,47 @@ Stretch Questions
     1. What is the difference between an inline element and 
     a block element?
     
+                The key difference between block and the inline
+                 element is that the block elements take up the 
+                 full width available while the inline elements 
+                 take the required width to display the contents 
+                 of the elements.
+
     2. What happens when an element is positioned absolutely? 
-    
+
+                   Absolute positioning allows you to place your
+                    element precisely where you want it 
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+                            Use {display: inline-block;}
+    4. Name 3 elements that are diplay block by default, 
+                
+                <header>, <footer>, <section>2 
+
+        elements that are display inline by default
+                
+                <span>, <a>, <img>
+
+        and 1 element that is display inline-block by default
+
+                <nav>
+
+    5. In your own words, explain the box model. What is the "fix"
+     for the box model, in other words, how do we make all elements 
+     respect the width we've given them? 
+
+                Every element on a web page (document tree) is a 
+                rectangular box, each one of these rectangular boxes 
+                has a height and a width.  Every box consists of four 
+                areas that layer on top one other. The content area, 
+                it being a text, an image or a child element within a 
+                parent element.  Padding area that surrounds the 
+                content area.  This is followed by border area which
+                 is like an outline that surrounds the box.   
+                 The Margin area is the transparent white space 
+                 outside the box that distances the box from its 
+                 neighboring elements. 
+	
+	            The use of inline-block
