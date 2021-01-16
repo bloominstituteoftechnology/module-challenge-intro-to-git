@@ -1,0 +1,96 @@
+1. What is Semantic HTML? 
+  Semantic HTML are tags that are used for better sectioning off of the webpages. More precise descriptors for each section in the HTML. They are also used to better the experience for screen readers and people with sight impairments.
+2. What is HTML used for? 
+  HTML is used to "markup" the website so that each element of the website is contained in tags. For easier reading when coding, for a much easier way to apply stylings to the page, and for screen readers and web crawlers to be able to know what is contained on the page.
+3. What is an attribute and where do we put it? 
+  An attribute is additional information about the HTML elements. It is contained inside of the opening tag of the element.
+4. What is the h1 tag used for? How many times should I use it on a page?
+  To define the most important heading, or the main heading. They should only be used once per page.
+5. Name two tags that have required attributes
+  The img, or image tag, and the a, or anchor tag.
+6. What do we put in the head of our HTML document? 
+  The metadata for the website. This includes the title for the website, the character set, the style or stylesheet link, as well as descriptors for the website.
+7. What is an id? 
+  An id is an attribute used to specify a unique HTML element on the page.
+8. What elements can I add an id to? 
+  All of them.
+9. How many times can I use the same id on a page? 
+  Once.
+10. What is a class? 
+  An attribute used to specify an HTML element on the page.
+11. What elements can I add a class to? 
+  All of them.
+12. How many times can I use the same class on a page? 
+  As many times as you want.
+13. How do I get my link to open in a new tab?
+  By using the "target" attribute and giving it the value of _blank.
+14. What is the alt attribute in the image tag used for? 
+  For describing the image, as well as a placeholder for the image in the case that the image does not load for some reason.
+15. How do I reference an id?
+  By using an octothorpe, #, followed by the name of the id. i.e. #element2 would reference an HTML element with the id of element2
+16. What is the difference between a section and a div
+  A div is a generic container that any elements, or the entire page, can be contained within. A section is a more defined actual section of the website that contains similar content.
+17. What is CSS used for? 
+  Styling the HTML elements.
+18. How to we select an element? Example - every h2 on the page
+  By using the class or id of the element, if there is not one, then using the HTML tag itself is used to reference the elements. In the example of the h2's the syntax would be: 
+  h2 {
+    CSS attributes here
+  }
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+  An id has more specificity over a class. Classes should be used on elements when there are sections that you want to style specifically, and there are other elements of the same type that you don't necessarily want to have the same styling. An id should be used when working on the same elements, but one of them needs to have some special styling to it. Since the id styling will "overwrite" the less specific class and element selector styling.
+20. How do we select classes in CSS?
+  By using a period followed by the class name. i.e.
+  .class2 {
+    CSS attributes here
+  }
+21. How do we select a p element with a single class of “human””?
+  p.human {
+    CSS attributes here
+  }
+22. What is a parent child selector? When would this be useful? 
+  A way of selecting and styling HTML elements that are nested inside of other elements. This would be useful if you want to style that tag type, without styling the other tags of the same type on the page.
+23. How do you select all links within a div with the class of sidebar?
+  div.sidebar a {
+    CSS attributes here
+  }
+24. What is a pseudo selector?
+  They are arguments added to a CSS selector that allows you to specify a certain part or state that you want to style of the selector, and not just the entire element.
+25. What do we use the change the spacing between lines?
+  line-height: value;
+26. What do we use to change the spacing between letters?
+  letter-spacing: value;
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+  text-transform: value;
+28. How do I add a 1px border around my div that is dotted and black?
+div {
+  border: 1px dotted black;
+}
+29. How do I select everything on the page? 
+  * {
+    CSS attributes
+  }
+30. How do I write a comment in CSS?
+  /* Comment here */
+31. How do I find out what file I am in, when I am using the command line? 
+  By using the "pwd" command.
+32. Using the command line - how do I see a list of files/folders in my current folder?
+  By using the "ls" command.
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+  rm path/to/file.txt. You have to be careful because there is no going back. It does not go to a recycle bin or anything like that. Once you hit enter to remove the file, it is gone forever.
+34. Why should I use version control? 
+  It allows numerous collaborators to work together and easily see who has worked on what and check the code and merge the file into the main branch. It also allows you to have a final product that the consumer has, while working on a branch of the same file to try to figure out how to add some functionality to the project without breaking the project should something occur. There is also a useful feature where you can go back to a previous commit in time if you do happen to have found an issue when working on the code.
+35. How often should I commit to github?
+  Every time you take a break, add a file, are done for the day, make a significant contribution to the project, etc. Basically, as often as you want/can.
+36. What is the command we would use to push our repo up to github? 
+  git push origin
+37. Walk me through Lambda's git flow. 
+  1. Fork the project repo - Creates a repo under your username where you can then start making changes to it. Click on the fork button on GitHub
+  2. Clone the repo - Pulls the files from GitHub onto your machine. cd into the folder that you want to pull the files down into and then git clone *url of the repo that you forked*
+  3. cd into the cloned repo that you just pulled down
+  4. Create a new branch of the repo - Creates a branch with a name that you specified that shows what you are doing or who is working on it, will allow the repo author to see what that changes or who is changing things later on when you are asking to do a merge later on. git checkout -b *name of the branch*
+  5. Add files, make change, etc.
+  6. Add the files to git so that it knows what you are adding to the repo. git add *. for all files or "specific file name to just add a certain file"*
+  7. Make a commit - Saves the "version" of what you are doing in Git. Has a message associated to it that tells what you worked on for the commit. git commit -m "message"
+  8. Push the files that you made changes to to GitHub - Actually uploads the files that you made to GitHub. Includes the commit message that you created during the commit. git push origin *branch name*
+  9. Make a pull request - Asks the author of the repo to check the code that you submitted to look at it and then merge it into the starting repo that you forked in the beginning. 
