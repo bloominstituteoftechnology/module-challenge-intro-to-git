@@ -1,0 +1,38 @@
+https://codepen.io/MitchGriff90/pen/ZEpmNgj?editors=1100
+1. What is Semantic HTML? Semantic HTML has content and meaning, it's not used for organization
+    2. What is HTML used for? Mainly to design websites
+    3. What is an attribute and where do we put it?  provides additional information. in the tag
+    4. What is the h1 tag used for? How many times should I use it on a page? the header. usually once, but you can technically use it as many times as you'd like
+    5. Name two tags that have required attributes. <a> <img>
+    6. What do we put in the head of our HTML document? document structure 
+    7. What is an id? attribute used to specify a unique id
+    8. What elements can I add an id to? any elements
+    9. How many times can I use the same id on a page? once
+    10. What is a class? attribute used to specify a class
+    11. What elements can I add a class to? any
+    12. How many times can I use the same class on a page? as many times as you'd like
+    13. How do I get my link to open in a new tab? adding the target=”_blank” attribute
+    14. What is the alt attribute in the image tag used for? text describing the image
+    15. How do I reference an id? with a unique identifier
+    16. What is the difference between a section and a div section means the content is grouped, div has no meaning
+    17. What is CSS used for? to give style to a web page
+    18. How to we select an element? Example - every h2 on the page. h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. ID you would use for one tag, class you could use for many. you could use class to style all <p>, and ID to style one specific tag
+    20. How do we select classes in CSS? .classnamehere
+    21. How do we select a p element with a single class of “human””? p.human
+    22. What is a parent child selector? When would this be useful?  used to select elements with a specific parent. you could select and style every <p> element where the parent is a <div> element
+    23. How do you select all links within a div with the class of sidebar? href.sidebar
+    24. What is a pseudo selector? A pseudo-class is used to define a special state of an element.
+    25. What do we use the change the spacing between lines? line-height
+    26. What do we use to change the spacing between letters? letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform
+    28. How do I add a 1px border around my div that is dotted and black? border: 1px dotted
+    29. How do I select everything on the page? *
+    30. How do I write a comment in CSS? /* */
+    31. How do I find out what file I am in, when I am using the command line? pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm
+    34. Why should I use version control? version control helps developers move faster and allows software teams to preserve efficiency and agility as the team scales to include more developers.
+    35. How often should I commit to github? When youre done
+    36. What is the command we would use to push our repo up to github? git init
+    37. Walk me through Lambda's git flow. fork, repo, clone, work on project, pull request for submission 
