@@ -1,0 +1,99 @@
+1. What is Semantic HTML?
+    The use of HtML markup to reinforce the semantics, or meaning of the information in webpages and web applications rather than mearly to defineit's presentation or look  
+    2. What is HTML used for?
+    It's a markup language that web browsers use to interpret and compose text,images and other material into visual or audible web pages. 
+    3. What is an attribute and where do we put it? 
+    Attributes provide additional information about elements, they are always specified in the start tag.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    H1 is a heading tag and it should only be used once.
+    5. Name two tags that have required attributes
+    <a> <img>
+    6. What do we put in the head of our HTML document? 
+    <head> <body>
+    7. What is an id? 
+    titles that can only appear on a single element 
+    8. What elements can I add an id to? 
+    <div>
+    9. How many times can I use the same id on a page?
+    once 
+    10. What is a class? 
+    classes can apply to multiple elements they are similar to Id but can be used on lots of elements
+    11. What elements can I add a class to?
+    <div> 
+    12. How many times can I use the same class on a page?
+    as many as are needed  
+    13. How do I get my link to open in a new tab?
+    by setting the target attribute to _blank
+    14. What is the alt attribute in the image tag used for?
+    Specifies  alternate text for an image if for some reason it can not be displayed 
+    15. How do I reference an id?
+    with a #
+    16. What is the difference between a section and a div
+    sections define a section in a document and div is a divider that can be used anywhere 
+    17. What is CSS used for? 
+    Describing the presentation of a document written in a markup language such as HTML.
+    18. How to we select an element? Example - every h2 on the page
+    h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one 
+    Each element can only have one ID Each page can only have one element with that ID. They are unique unlike classes which can be used on multiple elements. You can use multiple classes on the same element. We would use an Id to keep content separated in come way 
+    20. How do we select classes in CSS?
+    by using the .
+    21. How do we select a p element with a single class of “human””?
+    <p class="human">
+    22. What is a parent child selector? When would this be useful?
+    it is used to select all of the elements that are the child of the selector it would be used to combine two selectors such that elements matched by the second selector are selected if they have a matching ancestor .
+    23. How do you select all links within a div with the class of sidebar?
+    <div class="sidebar"> .sidebar{}
+    24. What is a pseudo selector?
+    It is used to define a special state of an element  
+    25. What do we use the change the spacing between lines?
+    <br>
+    26. What do we use to change the spacing between letters?
+    letter-spaciing in css
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    Css Text-transform Property 
+    28. How do I add a 1px border around my div that is dotted and black?
+  border-style: dashed; border-color:black; border-size:1px;
+    29. How do I select everything on the page? 
+    *{}
+    30. How do I write a comment in CSS?
+    /* -- comment -- *\
+    31. How do I find out what file I am in, when I am using the command line? 
+    $ls
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    $pwd $ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    $rm they are permanently deleted 
+    34. Why should I use version control? 
+    The content which is stored in Git keeps changing as more content is added. Also, many developers can add content in parallel. So having a Version Control System helps handle this by maintaining a history of what changes have happened.
+    35. How often should I commit to github?
+    anytime your project needs to be saved
+    36. What is the command we would use to push our repo up to github?
+    $push 
+    37. Walk me through Lambda's git flow. 
+    1. **FORK** the repo on Github
+2. **CLONE** in VS Code git-cmd use *`git clone url`*
+3. **BRANCH** in VS Code git-cmd use *`git checkout -b 'firstName-lastName'`  —* **-b means new branch**
+4. Make your changes and add your files
+5. **COMMIT** your changes in VS Code git-cmd use *`git add .`*
+    1. Confirm branch is ready to commit in VS Code git-cmd with *`git status`*
+    2. use *`git commit -m 'be specific'`  —-* **-m means message**
+    3. Confirm commit succeeded in VS Code git-cmd with *`git status`*
+6. **PUSH** your commit to Github in VS Code git-cmd use *`git push origin -u firstName-lastNam e`*
+7. **PULL** to the main branch in Github by clicking *Pull Request* tab and *Merge Pull Request*
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    A block-level element will always create a new line after a closing tag and an inline element 
+    will not 
+    2. What happens when an element is positioned absolutely? 
+    It is positioned relative to the nearest positioned ancestor.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+      Using the box model
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    <div> <address><article> inline: <span> <br> <button>
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+Box model is used to layout a web design. I don't understand this question.
+My Code Pen link 
+https://codepen.io/GretchenBower/pen/XWjoyeO?editors=1100
