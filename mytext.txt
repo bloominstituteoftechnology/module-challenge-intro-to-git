@@ -1,0 +1,231 @@
+Ignore this link if you are my mentor. :) This was just a thing we had to do, it was basically copying what someone else did.
+    https://codepen.io/AaronGabriel/pen/LYRqNZd?editors=0100
+    https://codepen.io/AaronGabriel/pen/gOwqroN?editors=0100
+    
+    Below are a bunch of question I had to answer to the best of my ability. 
+    
+    1. What is Semantic HTML? It gives meaning to the webpage that makes sense to humans and machines. 
+
+    2. What is HTML used for? The foundation of websites.
+
+    3. What is an attribute and where do we put it? An attribute gives additional info to HTML tags and are accompanied by ="value."
+
+    4. What is the h1 tag used for? How many times should I use it on a page? It tells the internet that it is a main header, and it should only be used once. 
+
+    5. Name two tags that have required attributes. "a" tags and "img" tags.
+
+    6. What do we put in the head of our HTML document? <title> tag.
+
+    7. What is an id? An id is a selector that can only be used once. id="hello"
+
+    8. What elements can I add an id to? Every element, I think. 
+
+    9. How many times can I use the same id on a page? 1 time, are you not listening? :)
+
+    10. What is a class? A selector that is to be used more than once. Like making all <p> tags a certain class.
+
+    11. What elements can I add a class to? All. I think. 
+ 
+    12. How many times can I use the same class on a page? However many you'd like. 
+
+    13. How do I get my link to open in a new tab? _target.
+
+    14. What is the alt attribute in the image tag used for? In case the image does not load, the alt attribute allows for some text to be displayed instead. Usually text describing the broken image. 
+
+    15. How do I reference an id? id="likeThis"
+
+    16. What is the difference between a section and a div a div can be used anywhere and does not provide much info. div soups for days when you inspect pages... A section gives information to humans, and I think it may provide info for search engines as well.  I can't remember everything!
+
+    17. What is CSS used for? Styling.
+
+    18. How do we select an element? Example - every h2 on the page
+
+h2 {
+color: red;
+}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one id you use one time. class you use multiple times. i want to make all h2 elements red, so they are all in a class, but there's one h2 that I want blue so I put an id on it.
+
+    20. How do we select classes in CSS?
+By specifying them. Not sure I understand the nuances of this question. 
+
+    21. How do we select a p element with a single class of “human””?
+
+HTML: <p class="human>
+CSS: .human
+
+    22. What is a parent child selector? When would this be useful? If I have an un-ordered list and I want the listed items to all be red I could simple select the un-ordered list in CSS and color them, instead of selecting each listed item in CSS. Selecting parents also selects their children unless their children are also selected, I think. 
+
+    23. How do you select all links within a div with the class of sidebar?
+
+sidebar {
+
+}
+
+    24. What is a pseudo selector? I copied and pasted this from w3schools.
+Style an element when a user mouses over it
+Style visited and unvisited links differently
+Style an element when it gets focus
+
+    25. What do we use the change the spacing between lines? CSS line-height Property
+
+    26. What do we use to change the spacing between letters? CSS letter-spacing Property
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? CSS text-transform Property
+
+    28. How do I add a 1px border around my div that is dotted and black? border: 10px dotted #00000;
+
+    29. How do I select everything on the page? "*"
+
+    30. How do I write a comment in CSS?
+/* Any text here */ 
+
+    31. How do I find out what file I am in, when I am using the command line? $ pwd (is that the same as file?)
+
+    32. Using the command line - how do I see a list of files/folders in my current folder? $ ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? $ rm  "name of thing to be removed." We must be careful because we can delete important stuff easily with this command. There is no warning prompt like there is with most GUI's.
+Also "rm -r" removes the file and all its children...
+
+    34. Why should I use version control? It's like a save point on a video game. And it saves every commit so if you need to go back to any commit you want.
+
+    35. How often should I commit to github? Often. I'll learn more when I learn how to code.
+
+    36. What is the command we would use to push our repo up to github? git push -u origin master
+  
+
+Walk me through Lambda's git flow. 
+
+
+
+
+
+On Github.com:
+ 
+
+"Fork" the repo.
+
+ "Clone" the repo. (copy the URL)
+
+
+______________________
+
+
+In VS Code Bash terminal:
+
+
+"Clone"
+
+Find whatever directory you want to save your "clone."
+
+$ cd Documents
+
+Use the git clone command to clone the repo. 
+
+$ git clone "paste your cloned URL" (no quote marks)
+
+Make sure you are in the directory, cd inside if necessary.
+
+
+______________________
+
+
+"Branch"
+
+Make a branch to create your own branch for the repo, this is the branch that you will be working on.
+
+$ git checkout -b "name-branch" (no quote marks)
+
+Now you can work on your branch.
+
+
+____________________
+
+
+"Add"
+
+"Add" will add the repo changes and make them ready for commiting.
+
+$ git add .
+
+
+____________________
+
+
+"Commit"
+
+"Commit" will save the changes.
+
+$ git commit -m "useful comment"
+
+
+_____________________
+
+
+"Push"
+
+
+"Push" your changes back to Github.com. Local --> Remote
+
+$ git push -origin "branch-name" (no quote marks)
+
+
+_____________________
+
+
+On Github.com:
+
+
+"Pull Request"
+
+Go to your forked project on Github.com. Make sure you are on the forked copy and not the original.
+
+*Click on the "Branch : master" button.
+
+*Click your project.
+
+*Click Compare & Pull Request
+
+Make sure you click forked repo and not the original. It selects original as default. 
+
+
+
+
+
+
+
+
+
+Stretch Questions (I have not done these yet)
+
+
+    1. What is the difference between an inline element and a block element?
+
+    2. What happens when an element is positioned absolutely? 
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+
+
+
+
+
+
+
+
+Stretch Questions (I have not done these yet)
+
+
+    1. What is the difference between an inline element and a block element?
+
+    2. What happens when an element is positioned absolutely? 
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
