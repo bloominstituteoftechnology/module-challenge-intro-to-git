@@ -144,17 +144,89 @@
     }
 
     26. What do we use to change the spacing between letters?
+
+    The letter-spacing attribute.
+
+    h1 {
+         letter-spacing: 3px;
+    }
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+    The text-transform attribute.
+
+    div.a {
+        text-transform: uppercase;
+    }
+
+    div.b {
+        text-transform: lowercase;
+    }
+
+    div.c {
+        text-transform: capitalize;
+    }
+
     28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
+
+    Border-color for black. Border-style for dotted. Border-width for 1px
+
+    div {
+        border-width: 1px;
+        border-color: black;
+        border-style: dotted;
+    }
+    29. How do I select everything on the page?
+
+    The * selects everything. Here's an example for the background for all elements:
+
+    * {
+        background-color: yellow;
+    }
+
     30. How do I write a comment in CSS?
+
+    /* This is a single line comment */
+
+    /* This is a
+    multi-line comment
+    in CSS comments. */
+
     31. How do I find out what file I am in, when I am using the command line? 
+
+    The pwd command.
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+
+    ls command
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+    The RM command. rm file.txt - Once you hit enter, the file is gone, non-recoverable, disappears.
+
     34. Why should I use version control? 
+
+    Version control keeps track of all the versions of code. If something happens, a developer can go back to the latest version. Also, all team members can have the latesst version of code.
+
     35. How often should I commit to github?
+
+    Commit often, whenever you make changes to a file. Commit to make sure work saves to your repo/branch.
+
     36. What is the command we would use to push our repo up to github? 
+
+    git push origin first name-last name
+
     37. Walk me through Lambda's git flow. 
+
+    1. Fork your own version of the repo.
+    2. Clone your repo by Github's "Clone" or "Download" button.
+    3. Take the link you copied when you clone and go to terminal and cd into the directory you wnt to clone your forked repo. git clone https://github.com/your_
+    git_user_name/name_of_project
+    4. CD into the newesst git project folder into the proper directory.
+    5, Branch you repo into your own branch so you don't change Lambda's code: git checkout -b first_name-last_name
+    6. Work on project to complete it.
+    7. Often commit your changes by git commit -m "A valuable comment on what has been done."
+    8. Create a pull request on Github's site on your branch.
 
 
 Project Code Pen Link
