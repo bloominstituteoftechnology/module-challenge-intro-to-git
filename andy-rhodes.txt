@@ -1,0 +1,234 @@
+    Review Questions for Project
+    
+    1. What is Semantic HTML? 
+
+    Semantic HTML is a portion that pretties up HTML and makes it more legible with a better design. 
+
+    2. What is HTML used for? 
+
+    HTML is like the foundation of a Web page, it is the framework.
+
+    3. What is an attribute and where do we put it? 
+
+    Attributes descriibe an element, gives it more. More information about an element, it's put at the beginning. It precedes a value of some kind.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+
+    H1 is the boldest, biggest main headline of a group off 6 headlines. It's used to title a page. It should only be used 1 time.
+
+    5. Name two tags that have required attributes
+
+    IMG and SRC tags require attributes
+
+    6. What do we put in the head of our HTML document? 
+
+    Links to CSS and Javascript pages, meta data, the title of the Web page.
+
+    7. What is an id? 
+
+    An ID is a element selector in CSS. It only describes/styles one particular element. Can only be used once on a page.
+
+    8. What elements can I add an id to? 
+
+    ID can be added to any one element.
+
+    9. How many times can I use the same id on a page? 
+
+    ID can only be used 1 time on a page.
+
+    10. What is a class? 
+
+    A class is another CSS selector that describes a group of elements together.
+
+    11. What elements can I add a class to? 
+
+    A class can be added to any and every element on a page.
+
+    12. How many times can I use the same class on a page? 
+
+    The same class can be used multiple times on a page.
+
+    13. How do I get my link to open in a new tab?
+
+    You use the A tag, the anchor tag. <a href="url">link text</a>
+
+    14. What is the alt attribute in the image tag used for? 
+
+    It places text where the image is in case a user can't load the image when viewing the Web site.
+
+    15. How do I reference an id?
+
+    Hashtag. #Element Name
+
+    16. What is the difference between a section and a div
+
+    A SECTION is a semantic HTML element where a DIV is not. SECTION creates independent section within a web page that has "logically connected" content. DIV is emplty container specifying a division or section (I got help from w3Docs page).
+
+    17. What is CSS used for? 
+
+    CSS styles the Web page. Like decorations and paint is to a house, CSS is the decoration or style of a house.
+
+    18. How to we select an element? Example - every h2 on the page
+
+    Select an element by using <> in front and behind - <DIV>
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+    A class styles more than one element on a page - a group of elements .p for all the paragraphs. An ID styles just 1 element and can only be used once on a page #DIV to select a partiuclar DIV to style
+
+    20. How do we select classes in CSS?
+
+    Select a class by using .Element
+    
+    21. How do we select a p element with a single class of “human””?
+
+    p.human {
+        Style;
+    }
+
+    22. What is a parent child selector? When would this be useful? 
+
+    The actual selector is > as in 
+
+    div (parent) > p (child) {
+        style;
+    }
+
+    These operators make it easier to find children elements to style in CSS.
+
+    23. How do you select all links within a div with the class of sidebar?
+
+    a:link { font-weight: bold; color: #F00 }
+    #sidebar a { color: #00F; font-style: italic;}
+    #sidebar a:visited { color: #003300; }
+    #sidebar a:hover { color: #006600 }
+    #sidebar a:active { color: #006600 }
+
+    This is an example of a single link styled. The next 4 links are links within a class of #sidebar. They're styled the same (a couple). 
+
+    24. What is a pseudo selector?
+
+    A pseudo class provides a state of an element - such as a hovered link. Syntax is the following:
+
+    selector:pseudo-class {
+        property: value;
+    }
+
+    An actual example is this:
+
+         /* unvisited link */
+        a:link {
+             color: #FF0000;
+        }
+
+        /* visited link */
+        a:visited {
+            color: #00FF00;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: #FF00FF;
+        }
+
+    25. What do we use the change the spacing between lines?
+
+    CSS line height style:
+
+    div.a {
+        line-height: normal;
+    }
+
+    div.b {
+        line-height: 1.6;
+    }
+
+    26. What do we use to change the spacing between letters?
+
+    The letter-spacing attribute.
+
+    h1 {
+         letter-spacing: 3px;
+    }
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+    The text-transform attribute.
+
+    div.a {
+        text-transform: uppercase;
+    }
+
+    div.b {
+        text-transform: lowercase;
+    }
+
+    div.c {
+        text-transform: capitalize;
+    }
+
+    28. How do I add a 1px border around my div that is dotted and black?
+
+    Border-color for black. Border-style for dotted. Border-width for 1px
+
+    div {
+        border-width: 1px;
+        border-color: black;
+        border-style: dotted;
+    }
+    29. How do I select everything on the page?
+
+    The * selects everything. Here's an example for the background for all elements:
+
+    * {
+        background-color: yellow;
+    }
+
+    30. How do I write a comment in CSS?
+
+    /* This is a single line comment */
+
+    /* This is a
+    multi-line comment
+    in CSS comments. */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+
+    The pwd command.
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+    ls command
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+    The RM command. rm file.txt - Once you hit enter, the file is gone, non-recoverable, disappears.
+
+    34. Why should I use version control? 
+
+    Version control keeps track of all the versions of code. If something happens, a developer can go back to the latest version. Also, all team members can have the latesst version of code.
+
+    35. How often should I commit to github?
+
+    Commit often, whenever you make changes to a file. Commit to make sure work saves to your repo/branch.
+
+    36. What is the command we would use to push our repo up to github? 
+
+    git push origin first name-last name
+
+    37. Walk me through Lambda's git flow. 
+
+    1. Fork your own version of the repo.
+    2. Clone your repo by Github's "Clone" or "Download" button.
+    3. Take the link you copied when you clone and go to terminal and cd into the directory you wnt to clone your forked repo. git clone https://github.com/your_
+    git_user_name/name_of_project
+    4. CD into the newesst git project folder into the proper directory.
+    5, Branch you repo into your own branch so you don't change Lambda's code: git checkout -b first_name-last_name
+    6. Work on project to complete it.
+    7. Often commit your changes by git commit -m "A valuable comment on what has been done."
+    8. Create a pull request on Github's site on your branch.
+
+
+Project Code Pen Link
+
+https://codepen.io/ARhodes09/pen/oNzmMyN?editors=1100
