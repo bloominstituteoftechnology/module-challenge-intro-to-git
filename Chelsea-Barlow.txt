@@ -1,0 +1,12 @@
+HTML that describes its meaning clearly to the developer and the browser.
+
+
+It is used for the main header and is to only be used once.
+
+
+
+
+
+
+
+
