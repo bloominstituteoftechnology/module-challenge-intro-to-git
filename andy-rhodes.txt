@@ -81,10 +81,68 @@
     Select a class by using .Element
     
     21. How do we select a p element with a single class of “human””?
+
+    p.human {
+        Style;
+    }
+
     22. What is a parent child selector? When would this be useful? 
+
+    The actual selector is > as in 
+
+    div (parent) > p (child) {
+        style;
+    }
+
+    These operators make it easier to find children elements to style in CSS.
+
     23. How do you select all links within a div with the class of sidebar?
+
+    a:link { font-weight: bold; color: #F00 }
+    #sidebar a { color: #00F; font-style: italic;}
+    #sidebar a:visited { color: #003300; }
+    #sidebar a:hover { color: #006600 }
+    #sidebar a:active { color: #006600 }
+
+    This is an example of a single link styled. The next 4 links are links within a class of #sidebar. They're styled the same (a couple). 
+
     24. What is a pseudo selector?
+
+    A pseudo class provides a state of an element - such as a hovered link. Syntax is the following:
+
+    selector:pseudo-class {
+        property: value;
+    }
+
+    An actual example is this:
+
+         /* unvisited link */
+        a:link {
+             color: #FF0000;
+        }
+
+        /* visited link */
+        a:visited {
+            color: #00FF00;
+        }
+
+        /* mouse over link */
+        a:hover {
+            color: #FF00FF;
+        }
+
     25. What do we use the change the spacing between lines?
+
+    CSS line height style:
+
+    div.a {
+        line-height: normal;
+    }
+
+    div.b {
+        line-height: 1.6;
+    }
+
     26. What do we use to change the spacing between letters?
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
     28. How do I add a 1px border around my div that is dotted and black?
