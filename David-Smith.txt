@@ -1,1 +1,142 @@
 https://codepen.io/Alex-Lambda/pen/oNzjgKg
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML?
+ Semantic markup is the use of a markup language such as HTML to convey information about the meaning of each element in a document through proper selection of markup elements, and to maintain complete separation between the markup and the visual presentation of the elements contained in the document. Such as an h1 tag compared to a div or span tag.
+
+    2. What is HTML used for?
+ HTML (Hypertext Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables.
+
+    3. What is an attribute and where do we put it?
+ Attributes define additional characteristics or properties of the element such as width and height of an image. Attributes are always specified in the start tag (or opening tag) and usually consists of name/value pairs like name="value" . Attribute values should always be enclosed in quotation marks.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+In summary – One H1 tag on the page keeps things simple. You can use as many as you like, though, if your audience demands it. As with any SEO element, avoid keyword stuffing your way to the top because you won't last long there.
+
+    5. Name two tags that have required attributes
+<img> & <a> tags
+
+    6. What do we put in the head of our HTML document?
+ The HTML document type declaration, also known as DOCTYPE , is the first line of code required in every HTML or XHTML document. The DOCTYPE declaration is an instruction to the web browser about what version of HTML the page is written in. ... A DTD defines the structure and the legal elements of an XML document.
+
+    7. What is an id?
+ The id attribute specifies a unique id for an HTML element (the value must be unique within the HTML document). The id attribute is most used to point to a style in a style sheet, and by JavaScript (via the HTML DOM) to manipulate the element with the specific id.
+
+    8. What elements can I add an id to?
+ The HTML 4.01 spec states that ID tokens must begin with a letter ([A-Za-z]) and may be followed by any number of letters, digits ([0-9]), hyphens (-), underscores (_), colons (:), and periods (.). For the class attribute, there is no such limitation. Classnames can contain any character, and they don’t have to start with a letter to be valid. HTML5 gets rid of the additional restrictions on the id attribute. The only requirements left — apart from being unique in the document — are that the value must contain at least one character (can’t be empty), and that it can’t contain any space characters. This means the rules that apply to values of class and id attributes are now very similar in HTML5.
+
+    9. How many times can I use the same id on a page?
+ The HTML id attribute is used to specify a unique id for an HTML element. You cannot have more than one element with the same id in an HTML document.
+
+    10. What is a class?
+ The class is an attribute which specifies one or more class names for an HTML element. The class attribute can be used on any HTML element. The class name can be used by CSS and JavaScript to perform certain tasks for elements with the specified class name.
+
+    11. What elements can I add a class to?
+ The class attribute can be used on any HTML element.
+
+    12. How many times can I use the same class on a page?
+ There is no technical limit (barring the amount of memory the browser may be consuming), but one should heavily consider having loads of classes on any element as the browser will have to parse all the classes, apply those styles and render the page.
+
+    13. How do I get my link to open in a new tab?
+You can make a HTML link open in a new tab by adding the target=”_blank” attribute. You should insert this after the link address
+
+    14. What is the alt attribute in the image tag used for?
+ The required alt attribute specifies an alternate text for an image, if the image cannot be displayed. The alt attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).
+
+    15. How do I reference an id?
+The value of the id attribute must be unique within the HTML document. The id attribute is used to point to a specific style declaration in a style sheet. It is also used by JavaScript to access and manipulate the element with the specific id. The syntax for id is: write a hash character (#), followed by an id name.
+
+    16. What is the difference between a section and a div?
+The section tag defines sections in a document like chapters, headers, footers whereas div tag defines a division in an HTML document.
+
+    17. What is CSS used for?
+ CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. CSS is independent of HTML and can be used with any XML-based markup language. It adds the aesthetic elements to an html document.
+
+    18. How to we select an element? Example - every h2 on the page
+element selector.
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+The class attribute can be used with multiple HTML elements/tags and all will take the effect. Where as the id is meant for a single element/tag and is considered unique. This isn't necessarly an example of each one but its a simple example that works everytime in keeping the two concepts seperated. Barcodes in a store are VERY much like ID’s and Classes. Information that is reusable should be kept in a class and information that is totally unique should be kept in an ID. Meaning the id has a higher specificity value than the class.
+
+    20. How do we select classes in CSS?
+To select elements with a specific class, write a period (.) character, followed by the name of the class. You can also specify that only specific HTML elements should be affected by a class. To do this, start with the element name, then write the period (.)
+
+    21. How do we select a p element with a single class of “human””?
+p.human
+
+    22. What is a parent child selector? When would this be useful?
+ a selector which selects all elements that are a direct child of the specified element. A useful example would be hiding/overiding overflow.
+
+    23. How do you select all links within a div with the class of sidebar?
+div.sidebar
+
+    24. What is a pseudo selector?
+A pseudo-class is used to define a special state of an element.
+
+For example, it can be used to:
+Style an element when a user mouses over it
+Style visited and unvisited links differently
+Style an element when it gets focus
+
+    25. What do we use the change the spacing between lines?
+Use the line-height property in CSS to do so. Browsers by default will create a certain amount of space between lines to ensure that the text is easily readable.
+
+    26. What do we use to change the spacing between letters?
+px or em
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform CSS property
+
+    28. How do I add a 1px border around my div that is dotted and black?
+outline-style property
+
+    29. How do I select everything on the page?
+ The * selector selects all elements. The * selector can also select all elements inside another element (See "More Examples").
+
+    30. How do I write a comment in CSS?
+Comments are used to explain the code, and may help when you edit the source code at a later date.
+
+Comments are ignored by browsers.
+
+A CSS comment is placed inside the <style> element, and starts with /* and ends with */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+ rmdir - Most graphical desktops these days provide a safety net when deleting files or folders, such as the Trash or Recycle Bin. These safety nets are usually bypassed when removing files using the command line. In many cases the file is immediately and irretrievably deleted. In others the file can possibly be retrieved, but only with great difficulty and special tools.
+
+    34. Why should I use version control?
+ Version control is important to keep track of changes — and keep every team member working off the latest version. You should use version control software for all code, files, and assets that multiple team members will collaborate on. ... Helps teams collaborate around the world.
+
+    35. How often should I commit to github?
+Me personally since i'm terribale at it I set an alarm and commit every 30m-1h. In general, after major changes/edits.
+
+    36. What is the command we would use to push our repo up to github? 
+git push
+    37. Walk me through Lambda's git flow. 
+First create repo (fork), clone, creat branch, add text file with completed info., run commands to push the branch, finally create a pull request.
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+A block-level HTML element will always create a new line after the closing tag, whereas an inline HTML element will not. ... So, no matter how you organize your HTML, block-level elements always create a new line. With an inline element, there is never a new line.
+
+    2. What happens when an element is positioned absolutely?
+ An absolutely positioned element is an element whose computed position value is absolute or fixed . The top , right , bottom , and left properties specify offsets from the edges of the element's containing block. (The containing block is the ancestor relative to which the element is positioned.)
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+ An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element. A fixed element does not leave a gap in the page where it would normally have been located.
+
+    4. Name 3 elements that are diplay block by default (address, article, aside), 2 elements that are display inline by default (button, taxtarea) and 1 element that is display inline-block by default (select)
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+With the Box Model I use a House/property analogy. Their are 4 components to the box model layout. Content (house), Padding (lawn), Border (fence), & Margin (just the space between - margin collapse means that whenever two margins are touching the bigger value one of them has, the more likely it's the one that will be displayed.)
+
+   -->
