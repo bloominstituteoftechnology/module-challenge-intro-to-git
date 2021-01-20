@@ -27,7 +27,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     1. What is Semantic HTML? Semantic are tags that self defines/describe itself
     2. What is HTML used for? HTML are use to build webpages
     3. What is an attribute and where do we put it? attribute are insert inside a tag"<>" 
-    4. What is the h1 tag used for? How many times should I use it on a page?
+    4. What is the h1 tag used for? How many times should I use it on a page? use for a heading. recommended once
     5. Name two tags that have required attributes. <a> <img>
     6. What do we put in the head of our HTML document? nothing
     7. What is an id? specify a selector or identify a tag 
