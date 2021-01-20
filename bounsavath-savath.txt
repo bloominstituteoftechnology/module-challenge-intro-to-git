@@ -1,0 +1,83 @@
+<!--1. fork this codepen so that you have a copy on your account -->
+<!--2. Add HTML and CSS to make the codepen look like the example: https://codepen.io/BritHemming/full/jONmxOm  - note that you can change the colours but everything else must look the same -->
+<!-- 3. include the link to this completed codepen at the top of today's file first-lastname.txt --> 
+<!-- 4. when you are finished - answer the questions at the bottom of this file -->
+Learning How to Code
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aperiam earum mollitia enim pariatur atque asperiores, deserunt fuga iure distinctio! Amet iste facilis odio rerum maiores neque laboriosam non aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eius officia reprehenderit dicta molestiae, excepturi inventore aut officiis! Perspiciatis, molestias tempora et nesciunt amet sint blanditiis eos voluptatibus ut facilis!
+
+I'm a title
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus minima porro, aspernatur esse iure quas vero totam ea cupiditate numquam accusamus enim, eius neque molestiae minus. Aliquam non repudiandae, sunt!
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto illo expedita ducimus incidunt similique voluptatum, error minus tenetur accusamus modi perferendis libero inventore quo, tempora. Repellendus quam eligendi, aliquid nobis.
+
+This is another section
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto possimus, reiciendis consequatur inventore mollitia ipsa sed quibusdam! Aut nemo voluptatibus modi iste repudiandae ea beatae suscipit. Officia omnis laudantium quasi.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, ratione doloribus nam officia reiciendis eligendi architecto maxime quisquam unde non, illo libero iure aut ad consequuntur animi modi, recusandae voluptatum!
+
+<img src="https://unsplash.it/200/200">
+<img src="https://unsplash.it/200/200">
+<img src="https://unsplash.it/200/200"> 
+<img src="https://unsplash.it/200/200">
+
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? Semantic are tags that self defines/describe itself
+    2. What is HTML used for? HTML are use to build webpages
+    3. What is an attribute and where do we put it? attribute are insert inside a tag"<>" 
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    5. Name two tags that have required attributes. <a> <img>
+    6. What do we put in the head of our HTML document? nothing
+    7. What is an id? specify a selector or identify a tag 
+    8. What elements can I add an id to? any elements
+    9. How many times can I use the same id on a page? only once
+    10. What is a class? class are use to style grouping of elements
+    11. What elements can I add a class to? all elements
+    12. How many times can I use the same class on a page? more than once
+    13. How do I get my link to open in a new tab? target= "_blank"
+    14. What is the alt attribute in the image tag used for? alt is an alternate way if your image links are not availble it will describe your image
+    15. How do I reference an id? using #
+    16. What is the difference between a section and a div. section is semantic and div is not
+    17. What is CSS used for? CSS is use to style your webpage
+    18. How do we select an element? Example - every h2 on the page h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. class is use to style or reference
+    20. How do we select classes in CSS? using "."
+    21. How do we select a p element with a single class of “human””? p.human
+    22. What is a parent child selector? When would this be useful? parent child selector are 
+    23. How do you select all links within a div with the class of sidebar? div.sidebar a{}
+    24. What is a pseudo selector? pseudo selector 
+    25. What do we use the change the spacing between lines? line-height:
+    26. What do we use to change the spacing between letters? letter-spacing:
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?text-transform:
+    28. How do I add a 1px border around my div that is dotted and black? border 1lpx dotted black;
+    29. How do I select everything on the page? *
+    30. How do I write a comment in CSS? /* */
+    31. How do I find out what file I am in, when I am using the command line? pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm 
+    34. Why should I use version control? keeping it clean and organize to track change by contribute
+    35. How often should I commit to github? every 20 min or anytime you make a significant change
+    36. What is the command we would use to push our repo up to github? git push origin 'branchname'
+    37. Walk me through Lambda's git flow. 
+
+fork
+clone
+branch
+add
+commit
+push
+pull
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element? block element take a whole space and inline only take the amount it needs
+    2. What happens when an element is positioned absolutely? float on a designated spot where its define.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? max-width
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default . header footer div, span br button
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+the box is a container that hold the width margin and content 
+
+
+   --> 
