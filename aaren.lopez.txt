@@ -1,0 +1,47 @@
+ttps://codepen.io/a_lopez/pen/BaLvdOb?editors=1100
+
+1. What is Semantic HTML? Semantic HTML is used to explain the meaning of certain HTML.
+    2. What is HTML used for? Its used as a mark-up language to create a website.
+    3. What is an attribute and where do we put it? Attributes are used to modify an elemant.
+    4. What is the h1 tag used for? How many times should I use it on a page? The h1 tag is used as the main header and should only be used once.
+    5. Name two tags that have required attributes. Images and websites.
+    6. What do we put in the head of our HTML document? <head>.
+    7. What is an id? An id is used to specify an element.
+    8. What elements can I add an id to? h1, p, and div.
+    9. How many times can I use the same id on a page? Only once
+    10. What is a class? A class is used to specify a name in a style sheet.
+    11. What elements can I add a class to?  
+    12. How many times can I use the same class on a page? as many times as needed.
+    13. How do I get my link to open in a new tab? By adding a target.
+    14. What is the alt attribute in the image tag used for? The alt attribute is used to describe the img or when the img can not be viewed.
+    15. How do I reference an id? By placing a period in front of it.
+    16. What is the difference between a section and a div? A section is used to form a group where as a div does not have any meaning and is simply a divider.
+    17. What is CSS used for? CSS is used to style the HTML.
+    18. How to we select an element? Example - every h2 on the page. By placing a period before the given element.
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. The difference between the two is that an id should be used specifically and only once where as a class can be used more than once.
+    20. How do we select classes in CSS? By placing a period in front of the class name.
+    21. How do we select a p element with a single class of “human””? .p .human
+    22. What is a parent child selector? When would this be useful? 
+    23. How do you select all links within a div with the class of sidebar? .sidebar
+    24. What is a pseudo selector? pseudo selectors are used to specify a special element.
+    25. What do we use the change the spacing between lines? line-spacing.
+    26. What do we use to change the spacing between letters? letter-spacing.
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform.
+    28. How do I add a 1px border around my div that is dotted and black? border: 10px dotted #000000
+    29. How do I select everything on the page? With *.
+    30. How do I write a comment in CSS? */ /*
+    31. How do I find out what file I am in, when I am using the command line? ls
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? To remove a file we use rm filename. We should be careful because one we remove the file it can not be undone.
+    34. Why should I use version control? 
+    35. How often should I commit to github? We should commit often, about twice in an hour.
+    36. What is the command we would use to push our repo up to github? git push.
+    37. Walk me through Lambda's git flow. git clone, cd, git checkout -b, git status, git add, git commit, git push.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
