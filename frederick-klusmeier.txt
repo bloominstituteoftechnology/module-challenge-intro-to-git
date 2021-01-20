@@ -75,6 +75,13 @@ Border: 1 px dotted black;
     36. What is the command we would use to push our repo up to github? Git push
 
     37. Walk me through Lambda's git flow. 
+    Fork repo
+    git clone repo
+    git checkout - b yourbranch
+    touch yourfile
+    git add .
+    git commit -m 'description of what was changed'
+    git push origin -u frederick-klusmeier
 
 Stretch Questions
 
