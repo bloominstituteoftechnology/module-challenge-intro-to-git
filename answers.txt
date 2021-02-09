@@ -1,0 +1,80 @@
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+Semantic HTML means meaningful code 
+
+    2. What is HTML used for? 
+HTML is used as a hyper text markup layout so more presentational than functional
+
+    3. What is an attribute and where do we put it? 
+attributes are inside of our tags and they are hidden from the eyes but can be used for images and and hyper references..etc
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+An h1 tag should be used once, it is like a title you would have on an essay. You can have subtitles but one main title only
+
+    5. Name two tags that have required attributes
+images and anchor tags
+
+    6. What do we put in the head of our HTML document? 
+all of the needed information to make it work
+
+    7. What is an id? 
+an id is literally like a drivers liscense your id. You only have one and its used once in html as well
+
+    8. What elements can I add an id to? 
+You can add an ID to anything
+
+    9. How many times can I use the same id on a page? 
+once
+
+    10. What is a class? 
+used many times for selectors. Like a classroom with students think of elements inside of a class and you can assign many students to one class.
+
+    11. What elements can I add a class to? 
+As many as you like
+
+    12. How many times can I use the same class on a page? 
+As many as your heart desires
+
+    13. How do I get my link to open in a new tab?
+you can add a hyper reference tag that has blank in it to open to new page when people click on it
+
+    14. What is the alt attribute in the image tag used for? 
+Its used for people that cant see or have other disablities and is an alternate way to "see" an image
+
+    15. How do I reference an id?
+#
+
+    16. What is the difference between a section and a div
+divs are like boxes of legos you want to carry all at once and move around so its less work than taking each piece by piece out. Sections are like sections of things like magazines where it is just a seperate part of the same thing
+
+    17. What is CSS used for? 
+used to make things pretty and livable without it everything would be bare with html
+
+    18. How to we select an element? Example - every h2 on the page
+h2{}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+I gave examples previously already whoops lol
+
+    20. How do we select classes in CSS?
+.
+    21. How do we select a p element with a single class of “human””?
+p .human{}
+
+    22. What is a parent child selector? When would this be useful? 
+it is the top element that other elements are nested in, comes in handy when you want to mess with all of nested elements quick
+
+    23. How do you select all links within a div with the class of sidebar?
+div .sidebar a{}
+
+    24. What is a pseudo selector?
+defines state of a selector
+
+    25. What do we use the change the spacing between lines?
+space between, space around, etc
+
+  
+
