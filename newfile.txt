@@ -17,19 +17,32 @@ HTML with meaning that computers and people can quickly understand
     9. How many times can I use the same id on a page?
     Only once
     10. What is a class?
-
+    They are attributes used to select specific elements
     11. What elements can I add a class to?
+    Any kind
     12. How many times can I use the same class on a page?
+    As many as youd like
     13. How do I get my link to open in a new tab?
+    _blank
     14. What is the alt attribute in the image tag used for?
+    src or source points to the address of the image
     15. How do I reference an id?
+    With a # {}. So if the id was called james #james {}
     16. What is the difference between a section and a div
+    section is semantic and div is stylistic
     17. What is CSS used for?
+    To style a webpage
     18. How to we select an element? Example - every h2 on the page
+    h2 {}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    There are a couple of differences. Id is more specific so it should be used once. I would use an id if I wanted to allow my user to navigate through a page by clicking bottons.
+    Class is more stylistic and can be used on multiple things. If i wanted to edit a couple sections of text that belong together I could put them in a class to group them together.
     20. How do we select classes in CSS?
+    With a . {} So if the class was called james .james {}
     21. How do we select a p element with a single class of “human””?
+    .human p {}
     22. What is a parent child selector? When would this be useful?
+
     23. How do you select all links within a div with the class of sidebar?
     24. What is a pseudo selector?
     25. What do we use the change the spacing between lines?
