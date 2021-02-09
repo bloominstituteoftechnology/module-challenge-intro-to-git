@@ -1,0 +1,12 @@
+Dont forget to fork the codepen first!!!!!
+
+
+After you finsih the codepen project, copy and paste the link into here:
+(link to finsihed project from codepen)
+
+
+After you paste that link, copy and paste the answered questions from codepen. here:
+(questions/answers)
+
+
+When you finish with all of this^^^^^^ you have to create a pull request. if u need help with this text me.
