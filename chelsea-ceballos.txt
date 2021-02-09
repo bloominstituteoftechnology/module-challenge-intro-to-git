@@ -2,41 +2,151 @@ https://codepen.io/chelseaceballos/pen/qBqadQZ?editors=1100
 link to finished project^
 
 1. What is Semantic HTML? 
+semantic HtTML are the tags that are used to describe something specefic. so 
+example of this is <header> <footer> <p> <h1-h6>
+
     2. What is HTML used for? 
+    HTML is a basic framework used to create web pages.
+
     3. What is an attribute and where do we put it? 
+    an attribute adds more speceficity to an element 
+    example would be a (is an element) href (attribute)
+
     4. What is the h1 tag used for? How many times should I use it on a page?
+    h1 is the largest header, ussually used for a title.
+    it should only be used once.
+
     5. Name two tags that have required attributes
+    <a href=""> <img src="">
+
     6. What do we put in the head of our HTML document? 
+    <header> tag or the DOC TYPE
+
     7. What is an id? 
+    An ID is an attribute that will be used to give a specific identification
+    to an element. It is mainly used to refrence an element in CSS for styling
+    or JavaScript
+
     8. What elements can I add an id to? 
+    ID can be added to elements such as div, section, header
+
     9. How many times can I use the same id on a page? 
+    It can only be used once per element, if you want something less broad
+    and specefic, you would use class.
+
     10. What is a class? 
+    Its an attribute that specifies one or more elements.
+
     11. What elements can I add a class to? 
+    div, spans, section
+
     12. How many times can I use the same class on a page? 
+    Multiple times unlike ID that is only used once
+
     13. How do I get my link to open in a new tab?
-    14. What is the alt attribute in the image tag used for? 
+    target=_"blank"
+
+    14. What is the alt attribute in the image tag used for?
+    if the linked image does not load the alt attribute will
+    load an alternate text or icon 
+
     15. How do I reference an id?
-    16. What is the difference between a section and a div
+    id's are refrenced with a # in CSS
+
+    16. What is the difference between a section and a div?
+    A section defines a section in html such as the header,
+    footer, or a list. The content inside a section will between
+    grouped together. A div is used for division on a docu.
+
     17. What is CSS used for? 
+    CSS is used to add styling and more structure to a document.
+
     18. How to we select an element? Example - every h2 on the page
+    h2 {
+        add css;
+    }
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+  id is used for a specific div block such as trying to add an image-container
+  id to add an image to the header section of a docuement. A class is used for
+  a set of div/section blocks. Example, you give a div class= "ingredient-list" 
+  than all items within that div would be selected and effected
+
     20. How do we select classes in CSS?
+    .class-name {
+        add css;
+    }
+
     21. How do we select a p element with a single class of “human””?
+    p.human {
+        add css;
+    }
+
     22. What is a parent child selector? When would this be useful? 
+   The parent child selector selects all elements that are directly the child.
+   Im terrible at explaining, but basically what <li> is to <ol> and/or <ul>
+
     23. How do you select all links within a div with the class of sidebar?
+.sidebar a:link {
+    add css;
+}
+
     24. What is a pseudo selector?
+    It is a class that will only be activated in a special state.
+    Example a:hover
+
     25. What do we use the change the spacing between lines?
+    p {
+        line-height: 20px;
+    }
+
     26. What do we use to change the spacing between letters?
+  p {
+        letter-spacing: 3px;
+    }
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+  p {
+        text-transform: uppercase;
+        text-transform: lowercase;
+        text-transform: Capitalize;
+    }
+
     28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        border: 1px solid black;
+    }
+
     29. How do I select everything on the page? 
+    Universal selector
+    *{
+        color: black;
+    }
+
     30. How do I write a comment in CSS?
+    /* my comment in css *\  
+
     31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm -r directory-name
+    It will not send file to "my trash" it will be permanently delete file.
+
     34. Why should I use version control? 
+    It helps keep track of changes and the progress of a project.
+    Gives access to newest version to rest of team
+
     35. How often should I commit to github?
+    It depends, although every 30-60 min is a good practice.
+    it wouldnt be reasonable to not commit more frequently if you are 
+    adding something of importance.
+
     36. What is the command we would use to push our repo up to github? 
+
     37. Walk me through Lambda's git flow. 
 
 Stretch Questions
