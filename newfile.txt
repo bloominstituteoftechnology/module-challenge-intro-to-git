@@ -59,6 +59,9 @@ HTML with meaning that computers and people can quickly understand
     36. What is the command we would use to push our repo up to github?
     37. Walk me through Lambda's git flow.
 
+I didn't see where to turn in the codepen so I put it here. I read everywhere. That being said I could've missed it.
+https://codepen.io/btaboomer/pen/xxREVgv
+
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
