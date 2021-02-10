@@ -24,42 +24,82 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     10. What is a class? 
     The class is an attribute which specifies one or more class names for an HTML element.
     11. What elements can I add a class to? 
-    
+    div,h1 to h5,p
     12. How many times can I use the same class on a page? 
+    1
     13. How do I get my link to open in a new tab?
+    add anchor tags?
     14. What is the alt attribute in the image tag used for? 
+    for alternative info
     15. How do I reference an id?
+    write the id name followed by curly braces
     16. What is the difference between a section and a div
+    o section is a bigger space and a div is a smaller space in that bigger section.
     17. What is CSS used for? 
+    to decorate the presentation of web pages.
     18. How to we select an element? Example - every h2 on the page
+    h2{}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    an id can be used to identify one element and a class can be used to identify more than one idh1a, class=h1.
     20. How do we select classes in CSS?
+    .name of class
+
     21. How do we select a p element with a single class of “human””?
+    i do not know yet.
     22. What is a parent child selector? When would this be useful? 
+    a parent child selector is used to select one thing in a class and it would be useful if you have more than one img
+    in the same class.
     23. How do you select all links within a div with the class of sidebar?
+    .a link sidebar{}
     24. What is a pseudo selector?
+    a pseudo selector select elements in a specific place
     25. What do we use the change the spacing between lines?
+    br or line-height
     26. What do we use to change the spacing between letters?
+    letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: and then specify which you want to do.
     28. How do I add a 1px border around my div that is dotted and black?
+    border-height: 1px;
     29. How do I select everything on the page? 
+    entire.page{}
     30. How do I write a comment in CSS?
+    /*comment here*/
     31. How do I find out what file I am in, when I am using the command line? 
+pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    git rm you have to be careful becasue it wont ask if youre sure about the command.
     34. Why should I use version control? 
+    to keep track of changes
     35. How often should I commit to github?
+    very often or atleast every 20 minutes
     36. What is the command we would use to push our repo up to github? 
+    git push -b origin first time and only git push -b after that 
     37. Walk me through Lambda's git flow. 
+     fork my own version of repo
+     clone repo
+     git clone repo 
+     create branch 
+     git check out 
+     git push 
+     compare pull request 
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    block element will chosee the whole block an inline will not
     2. What happens when an element is positioned absolutely? 
+    its a fixed position
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    use the percent sign?
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    button, input,select,
+     idk what 2 elemnts are display inline by default yet.
+     textauria?
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
-
-
+box model is basically a box that wraps around all html elements 
+ and i dont know yet.
 
    --> 
