@@ -6,16 +6,25 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     1. What is Semantic HTML? 
     html that gives meaning or context to code we use it for excexibilty purposes 
     2. What is HTML used for? 
-    
+    html is used to structure a webpage.
     3. What is an attribute and where do we put it? 
+    an attributes define characteristics or properties of an element and we put it in the start tag or opening tag.
     4. What is the h1 tag used for? How many times should I use it on a page?
+       h1 tag is used for a header and we should only use it once
     5. Name two tags that have required attributes
+    img and a.
     6. What do we put in the head of our HTML document? 
+    title
     7. What is an id? 
+    an identifier.
     8. What elements can I add an id to? 
+    html element.
     9. How many times can I use the same id on a page? 
+    1
     10. What is a class? 
+    The class is an attribute which specifies one or more class names for an HTML element.
     11. What elements can I add a class to? 
+    
     12. How many times can I use the same class on a page? 
     13. How do I get my link to open in a new tab?
     14. What is the alt attribute in the image tag used for? 
