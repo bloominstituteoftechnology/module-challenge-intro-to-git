@@ -35,50 +35,73 @@ https://github.com/LambdaSchool/Git-for-Web-Development-Project/pull/1258
 17. What is CSS used for? 
     Styling a web page/site, making it pretty!
 18. How to we select an element? Example - every h2 on the page
+    h2 {
 
-19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    }
+19. What is the difference between a class and an id? - Give me an example of when I might use each one.
+    The difference of an id and a class is an id selects just 1 element and can only be used once on a page, whereas a class can be used multiple times to group elements I want to use the same styling on. Example: <h1 id="mainHeader"> I want to style this h1 by itself. Example: <p class="sameFonts">so I can use this class on all the paragraphs on my page to selct them in css and style the same.
 
 20. How do we select classes in CSS?
+    .sameFonts {
 
+    }
 21. How do we select a p element with a single class of “human””?
+    p.human {
 
+    }
 22. What is a parent child selector? When would this be useful? 
-
+    The parent child selector parent>child  element>element , it would be used when wanting to select & style every child element with a specific parent.
 23. How do you select all links within a div with the class of sidebar?
-
+    .sidebar a
 24. What is a pseudo selector?
-
+    A keyword added to a selector that allows a specific state of the element to be styled.
 25. What do we use the change the spacing between lines?
-
+    The line-height property
 26. What do we use to change the spacing between letters?
-
+    letter-spacing: property
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-
+    Capitals-  text-transform: uppercase;
+    lowercase-  text-transform: lowercase;
+    Capitalize- text-transfor: capitalize;
 28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        border: 1px dotted black;
+    }
+29. How do I select everything on the page? 
+    * {
 
-    29. How do I select everything on the page? 
-
-    30. How do I write a comment in CSS?
-
-    31. How do I find out what file I am in, when I am using the command line? 
-
-    32. Using the command line - how do I see a list of files/folders in my current folder?
-
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-
-    34. Why should I use version control? 
-
-    35. How often should I commit to github?
-
-    36. What is the command we would use to push our repo up to github? 
-
-    37. Walk me through Lambda's git flow. 
-
+    }
+30. How do I write a comment in CSS?
+    /* message */
+31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls -la
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm path/to/file.ext  you want to be careful because you can not bring the file back and you could be in the wrong file either way it's gone forever.
+34. Why should I use version control? 
+    To be able to give a description of what was changed and what exactly was changed. To compare versions.
+35. How often should I commit to github?
+    After you get a section/area working or every 20 minutes or so.
+36. What is the command we would use to push our repo up to github? 
+    git push -u origin branch-name
+37. Walk me through Lambda's git flow. 
+    1. Fork so i have my own version of the repository.
+    2. Clone the repository, to the location where I want it saved on my computer.
+    3. cd into the new repo.
+    4. git checkout -b 'firstname-lastname' to create a new branch to do my work on. 
+    5. git add . command to add the changes made and make them ready to be commited.
+    6. git commit -m "message as to what changes were made".
+    7. git push -u origin branch-name  this pushes all of the commits made from local machine back to github. 
+    8. go back to the forked repo on github and double check I am in my forked repo/project, click on Branch:master to bring drop down menu. Click on my name-branch.
+    Click on New pull request button to make a pull request on my name branch. I will be redirected to the pull request page.
+    9. on the pull request page click on the drop down button that says base repository and CHANGE it to the forked repo and NOT the Lambda repo. 
+    10. Open the pull request and click PULL request
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-
+    
     2. What happens when an element is positioned absolutely? 
 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a 
