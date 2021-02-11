@@ -1,4 +1,4 @@
-https://codepen.io/MariMore1/pen/VwmmmOK?editors=1100
+https://github.com/LambdaSchool/Git-for-Web-Development-Project/pull/1258
 
 1. What is Semantic HTML?
     to make the code easier to read and understand.
