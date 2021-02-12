@@ -1,2 +1,181 @@
-Zack-Ballenger
-blah blah blah (use ctrl-s)
+codepen url: https://codepen.io/zacharyballenger/pen/RwooqPp?editors=1100
+
+
+Questions:
+
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+
+    ---It's meaningful so that users who navigate the web via html for whatever reason can understand what's going on.
+
+    2. What is HTML used for?
+
+    ---I'm not even gonna google. Hyper-text-modified-language. Nope. I was wrong. "Markup", not modified.
+
+    3. What is an attribute and where do we put it? 
+
+    --- They're little things you use to be more specific about an element. They go in the starting tag.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+
+    --- It's for the first header. Just use it once.
+
+    5. Name two tags that have required attributes
+
+    --- Oh man I'm not sure. Like setting a language in the HTML start tag? If so then another would be img tags and their source attribute.
+
+    6. What do we put in the head of our HTML document? 
+
+    --- Is there a hard and fast rule? You put header stuff in the header, like the page's title, a nav bar.
+
+    7. What is an id? 
+
+    ---A super specific way to name an element, but not nearly as specific as #baobob 
+
+    8. What elements can I add an id to? 
+
+    ---Any of them?
+
+    9. How many times can I use the same id on a page? 
+
+    ---Only once 
+
+    10. What is a class? 
+
+    ---It's an identifier that points to a specific named section so CSS or JavaScript know where to go.
+
+    11. What elements can I add a class to? 
+
+    ---All the elements that your heart desires.
+
+    12. How many times can I use the same class on a page? 
+
+    --- I don't think there's any limit
+
+    13. How do I get my link to open in a new tab?
+
+    ---I'd use the good ol' blank target doodad
+
+    14. What is the alt attribute in the image tag used for? 
+
+    --- They're mostly used for storing a description of a pic on your page, so blind folks can click and hear the description.
+
+    15. How do I reference an id?
+
+    --- #name
+
+    16. What is the difference between a section and a div
+
+    --- Well now we're just getting into semantics
+
+    17. What is CSS used for? 
+
+    --- Styling and what not
+
+    18. How to we select an element? Example - every h2 on the page
+
+    --- h2{stuff}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+    --- Specificity
+
+    20. How do we select classes in CSS?
+
+    --- .whatever
+
+    21. How do we select a p element with a single class of “human””?
+
+    .human{stuff}
+
+    22. What is a parent child selector? When would this be useful? 
+
+    ---It's a way to be more specific, and it's useful if you're going to reference stuff inside of other stuff
+
+    23. How do you select all links within a div with the class of sidebar?
+
+    --- .sidebar > a {}
+
+    24. What is a pseudo selector? 
+
+    --- Grandpa event listeners
+
+    25. What do we use the change the spacing between lines?
+
+    --- I'm not sure what's being asked tbh. line-height? line-space?
+
+    26. What do we use to change the spacing between letters?
+
+    --- letter-spacing
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+    --- uppercase via text-transform
+
+    28. How do I add a 1px border around my div that is dotted and black?
+
+    .classname{
+        border: 1px dotted black;
+    }
+
+    29. How do I select everything on the page? 
+
+    --- *
+
+    30. How do I write a comment in CSS?
+
+    // comment 
+
+    31. How do I find out what file I am in, when I am using the command line? 
+
+    --- ls 
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+    --- Oh wait I thought that's what 31 was asking. You use ls. To see the file you're in, it just says it 
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+    --- gitrm, and you should be careful because it takes the training wheels that we are accustomed to when managing files via explorer. 
+
+    34. Why should I use version control? 
+
+    --- If you mess up and break something, there is hope
+
+    35. How often should I commit to github?
+
+    --- Pretty regularly. 
+
+    36. What is the command we would use to push our repo up to github? 
+
+    --- git push origin first-last
+
+    37. Walk me through Lambda's git flow. 
+
+    Attend lecture; get assignment via github; fork it; clone it; do the things; add the things; commit the things; push the things; pull the things; send TL a collaborator link; and el fin
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+
+    --- Inline elements' dimensions are relative to each other, so if you want to change only one inline element's spacing, it won't work. Block elements aren't absolutely relative so you can change individual elements spacing
+
+    2. What happens when an element is positioned absolutely? 
+
+    --- You'd think it would be absolutely positioned but it's relative to the last element 
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+    --- Margin 0 auto? Not sure. 
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+    --- Block = p, h1, h2 --- inline = br, a
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+    --- It's just like organizing your stuff before you move houses: If you throw everything into the back of a truck unboxed, it's gonna be a bad time once you get ready to do stuff with it all.
+    --- To make all elements reflect changes with widths, you gotta pack it up nice and neat first, and to do that it helps to think of boxes that you pack stuff into. 
+
+    
