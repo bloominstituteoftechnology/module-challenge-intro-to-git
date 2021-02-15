@@ -1,2 +1,151 @@
 https://codepen.io/mataspigaga/pen/dyOvYPP
 
+    
+1. What is Semantic HTML? 
+	- a form of HTML that gives the page meaning
+    
+2. What is HTML used for? 
+	- to markup a page with structure and content
+    
+3. What is an attribute and where do we put it? 
+	- define a characteristic of the element; inside the opening tag
+   
+4. What is the h1 tag used for? How many times should I use it on a page?
+	- main heading; once
+    
+5. Name two tags that have required attributes
+	- <img> <a>
+    
+6. What do we put in the head of our HTML document? 
+	- !DOCTYPE html; link to CSS
+    
+7. What is an id? 
+	- a defined unique attribute
+    
+8. What elements can I add an id to? 
+	- any element
+    
+9. How many times can I use the same id on a page? 
+	- infinite amount
+    
+10. What is a class? 
+	- an attribute that can be used to define multiple elements
+    
+11. What elements can I add a class to? 
+	- any element
+    
+12. How many times can I use the same class on a page? 
+	- infinite amount
+    
+13. How do I get my link to open in a new tab?
+	- <a target="_blank">
+    
+14. What is the alt attribute in the image tag used for? 
+	- to help the visually impaired navigate a page; to show what the image contents are if it doesn't load
+    
+15. How do I reference an id?
+	- add a '#' in front of the name
+    
+16. What is the difference between a section and a div
+	- sections are semantic, while divs just split the page up for organization
+    
+17. What is CSS used for? 
+	- to style a page
+    
+18. How to we select an element? Example - every h2 on the page
+	- h2 {}
+    
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	- an ID is more specific than a class, i.e.
+		- to change a specific heading within a class containing multiple heading: the class could contain the first two sections of the page, while the ID would just be assigned to the second heading which would make the ID supersede the class when it comes to styling.
+    
+20. How do we select classes in CSS?
+	- add a '.' in front of the name
+    
+21. How do we select a p element with a single class of “human””?
+	- .human p {}
+    
+22. What is a parent child selector? When would this be useful? 
+	- it selects the elements within the parent element; to be more specific in the selection process
+    
+23. How do you select all links within a div with the class of sidebar?
+	- div.sidebar a {}
+    
+24. What is a pseudo selector?
+	- a selector for an element in a specific state
+    
+25. What do we use the change the spacing between lines?
+	- line-height: ;
+    
+26. What do we use to change the spacing between letters?
+	- letter-spacing: ;
+    
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	- text-transform: capitalize
+	- text-transform: lowercase
+	- text-transform: uppercase
+    
+28. How do I add a 1px border around my div that is dotted and black?
+	- div {
+	-   border: 1px dotted #000000;
+	- }
+    
+29. How do I select everything on the page? 
+	- body {}
+
+30. How do I write a comment in CSS?
+	- nested in between /* */
+
+31. How do I find out what file I am in, when I am using the command line? 
+	- pwd
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+	- ls
+    
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	- rm filename ; there's no confirmation prompt so it's an easy way to delete something important
+    
+34. Why should I use version control? 
+	- to be able to access previous versions of a project; organization
+    
+35. How often should I commit to github?
+	- often, prevents data loss
+    
+36. What is the command we would use to push our repo up to github? 
+	- git push -u origin branch-name
+    
+37. Walk me through Lambda's git flow. 
+	- fork the repository on GitHub
+	- grab the link of the forked repo
+	- clone the repo into your desired directory on your computer by first using the 'cd' command to change your directory
+	- then use the command 'git clone link' to clone the repo
+	- use 'cd' again to go inside the cloned repo
+	- create a branch with the command 'git checkout -b branch-name'
+		- add changes using the command 'git add .'
+		- commit changes using the command 'git commit -m "meaningful message here"'
+	- push changes to GitHub repo using the command 'git push -u origin branch-name'
+	- submit a pull request
+		- select your forked copy of the repo
+		- choose your own branch
+		- change the base repo to your forked repo
+		- press 'create pull request'
+
+Stretch Questions
+
+    
+1. What is the difference between an inline element and a block element?
+	- inline elements will not create a new line, whereas, block elements will
+    
+2. What happens when an element is positioned absolutely? 
+	- it will not move with everything else during editing
+    
+3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+	- width: auto
+    
+4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+	- display block: p h1 ol
+	- display inline: span a
+	- display inline-block: imp
+    
+5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+	- Everything within a webpage is grouped into boxes, with all HTML elements being considered 'boxes'. While working in CSS, you can use these boxes to easier style a page, making sure that things display properly and the rules have a specific order to follow. The fix would be making sure that all of the boxes are properly defined in the HTML file. 
