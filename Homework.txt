@@ -1,0 +1,198 @@
+
+    1. What is Semantic HTML? 
+
+1.A: The organization and reinforcment of the information on a web page.
+
+    2. What is HTML used for? 
+
+2.A: To organize the content on a web page.
+
+    3. What is an attribute and where do we put it?
+ 
+3.A: Attributes provide additional information about a particular element. Attributes are placed in the opening tag.  
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+
+4.A: The H1 tag specifies the most important title on a web page and should noly be used once per page. 
+
+    5. Name two tags that have required attributes
+
+5.A: The anchor (a) tag and Image (img) tag.
+
+    6. What do we put in the head of our HTML document? 
+
+6.A: Content that is relevant to the structure of the webpage but shuold not be displayed.
+
+    7. What is an id? 
+
+7.A: An attribute that sepcifes an HTML element so that it may be styled using css.
+
+    8. What elements can I add an id to? 
+
+8.A: Any elementthat needs to be specifically targetd by the attached css. 
+
+    9. How many times can I use the same id on a page? 
+
+9.A: Best practice is using an ID once on a page.
+
+    10. What is a class? 
+
+10.A: A class is a template for objects, discribing the objects it belongs to.
+
+    11. What elements can I add a class to? 
+
+11.A: Any element that can and should be targetd by the CSS.
+
+    12. How many times can I use the same class on a page? 
+
+12.A: No limit but best practice is to minimize the ammpount used. 
+
+    13. How do I get my link to open in a new tab?
+
+13.A: By inserting the target="_blank" atibute after the link.
+
+    14. What is the alt attribute in the image tag used for? 
+
+14.A: Specifies an alternate text for an Image. Primarily used for screen readers. 
+
+    15. How do I reference an id?
+
+15.A: by using a pound symbol (#) and targeting the particular ID.
+
+    16. What is the difference between a section and a div
+
+16.A: "Section" implies that the content inside is grouped and div is  more generic and non specific which doesn't define a section of HTML. 
+
+    17. What is CSS used for? 
+
+17.A: CSS styles the HTML of a webpage.
+
+    18. How to we select an element? Example - every h2 on the page
+
+18.A: By typing the element followed by currly brackets. H2 { }
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+19.A: An ID is used to identify one element and a class is used to target groups. 
+     ID: #H2
+    Class: .p
+
+    20. How do we select classes in CSS?
+
+20.A: Classes are selected by a period immediately preceding the class name. 
+    Ex. .p
+
+    21. How do we select a p element with a single class of “human””?
+
+21.A:  .human {
+
+}
+
+    22. What is a parent child selector? When would this be useful? 
+
+22.A: A parent child selector allows all subsequent elements under a parent to be dicated by said parent element. It's useful when large groups of content such as paragraphs all have the same styling or needs to be styled by a parent. 
+
+    23. How do you select all links within a div with the class of sidebar?
+
+23.A: #div.sidebar
+
+    24. What is a pseudo selector?
+
+24.A: Selects elements in a specific state. 
+
+    25. What do we use the change the spacing between lines?
+
+25. Using a "break" in HTML or line-height property in CSS.
+
+    26. What do we use to change the spacing between letters?
+
+26.A: By using the letter-spcaing property. 
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+27.A: test-transform: 
+  uppercase
+  lowercase
+  capitalize
+
+    28. How do I add a 1px border around my div that is dotted and black?
+
+28.A: #div {
+    border: 1px dotted black
+}
+
+    29. How do I select everything on the page? 
+
+29.A: A universal selector *
+
+    30. How do I write a comment in CSS?
+
+30.A: /* Like this  */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+
+31.A: The "whereami" command
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+32.A: By using the "dir" command.
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+33.A: the "rm -i 'filename'" command.
+  You could inadvertantly permanently delete important documents, content, or the operation system.
+
+    34. Why should I use version control? 
+
+34.A: Itm keeps track of changes.
+
+    35. How often should I commit to github?
+
+35.A: Whenever substantial progress is made that doesn't negatively alter the work of others. 
+
+    36. What is the command we would use to push our repo up to github? 
+
+36.A: $~ git push
+
+    37. Walk me through Lambda's git flow. 
+  - Go to the project on github.
+  - Fork the project.
+  - Copy the URL.
+  - Open the terminal.
+  - CD into the directory.
+  - Git Clone (Use the copied URL)
+  - CD into your project.
+  - Git checkout -b "firstname-lastname".
+  - Git code (This opens VS code).
+  - Do the work.
+  - Make sure to save your work.
+  - Git add
+  - Git commit -m "Add comment message"
+  - Git push -u origin "firstname-lastname".
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+
+1.A: A block element creates a new line after the cl;osing tag and an inline element doesn't.
+
+    2. What happens when an element is positioned absolutely? 
+
+2.A: It ceases to exist in the normal document layout flow and sits on its own layer. 
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+3.A: Set the padding to zero bout set a margin to change the width horizontally. 
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+4.A: 
+    Display Block: Article, Caption, Canvas.
+    Inline: acronym, button, cite.
+    Inline-block: Span, Text-area, Time.
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+5.A: The box model displays how a webpage consistingn of HTMl is composed. We use margin properties to make the elements respect the boundries of the box model and create a seamless presentation. 
+
+
