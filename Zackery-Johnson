@@ -1,2 +1,52 @@
 Codepen project
 https://codepen.io/zackjwork/pen/VwmVmOr?editors=1100
+
+1. What is Semantic HTML? It reinforces the content of a web page
+2. What is HTML used for? Its used as a Mark up language, basically its the foundation of your website.
+3. What is an attribute and where do we put it? Attributes provide additional information about elements. We use attributes after tags
+4. What is the h1 tag used for? How many times should I use it on a page? h1 is a header tag going form h1-h6. We should only use H1 one time as it is considered the 'title' of a page
+5. Name two tags that have required attributes? <a> <img>
+6. What do we put in the head of our HTML document? title
+7. What is an id? an id is a very specific and unique identifier 
+8. What elements can I add an id to? any
+9. How many times can I use the same id on a page? only 1 time
+10. What is a class? specifies one or more classnames for an element
+11. What elements can I add a class to? any
+12. How many times can I use the same class on a page? any number of times as needed
+13. How do I get my link to open in a new tab? target="_blank"
+14. What is the alt attribute in the image tag used for? it is a alternative text for the visual impaired who use screen readers describing the image
+15. How do I reference an id? #
+16. What is the difference between a section and a div? <Section> means that the content inside is grouped. <div> tags define a division in an HTML.
+The <section> element represents a generic section of a document or application. <div> tag has no special meaning.
+By default <div> is block level element.
+17. What is CSS used for? styling and designing. it is the paint and walls of a home
+18. How do we select an element? Example - every h2 on the page? h2{}
+19. What is the difference between a class and an id? - Give me an example of when I might use each one. ID would be for a specific identifier, such as for your h1... Class is more versitile and is usually but not limited to when using <p>
+20. How do we select classes in CSS? .
+21. How do we select a p element with a single class of “human””? .human
+22. What is a parent child selector? When would this be useful?  it selecets the children of the parent such as selecting all of the p in div. div > p {}. it would be useful when wanting to use css to edit the children an element
+23. How do you select all links within a div with the class of sidebar? div .sidebar{}
+24. What is a pseudo selector? A pseudo-class is used to define a special state of an element.
+25. What do we use the change the spacing between lines? line-height property
+26. What do we use to change the spacing between letters? line-spacing property
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform Property
+28. How do I add a 1px border around my div that is dotted and black? div{border:dotted black;}
+29. How do I select everything on the page? *{}
+30. How do I write a comment in CSS? /* */
+31. How do I find out what file I am in, when I am using the command line? 
+32. Using the command line - how do I see a list of files/folders in my current folder? ls
+33. How do I remove a file via the command line? Why do I have to be careful with this? rm because you may get rid of something you unintentionally didnt want to get rid of
+34. Why should I use version control? allows you to manage and track diffrent vesions fo software code
+35. How often should I commit to github? every 30-60min
+36. What is the command we would use to push our repo up to github? git push
+37. Walk me through Lambda's git flow. Fork, make sure you forked it by checking name, you will then clone repo, you will then use you command line and find the directory of where you want to 
+clone the forked repo, git clone <link-to-repo>, then cd into it with cd <repo-name>, then git checkout -b 'firstname-lastname' to make your own branch. After working on the repo you will want
+to add and commit your changes. you will use git add . to add the changes you made to the repo and prep it for committing, to commit you will use git commit -m "Your helpful commit message here"
+to push you commit for the first time you will use git push -u origin branch-name, afterwards you can simply use git push. After this you will head to github for the final steps by making a new pull request
+
+
+
+
+
+
+
