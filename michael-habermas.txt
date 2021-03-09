@@ -1,0 +1,109 @@
+
+michael habermas codepen
+day 2 project
+https://codepen.io/habermoose/pen/LYbgmqV?editors=1100
+
+
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+        Semantic HTML is specific language for markups in HTML to give clearer meaning to the structure of our HTML page/code
+    2. What is HTML used for? 
+        creating the structure or bones of a webpage
+    3. What is an attribute and where do we put it? 
+        it goes in the tag, they are special words used inside the opening tag to control the element's behaviour.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        the page title. Once
+    5. Name two tags that have required attributes
+        anchor, img
+    6. What do we put in the head of our HTML document? 
+        metadata
+    7. What is an id? 
+        its a unique identifier for html
+    8. What elements can I add an id to? 
+        any in the body
+    9. How many times can I use the same id on a page? 
+        once
+    10. What is a class? 
+        an attribute use for repeatable styling
+    11. What elements can I add a class to? 
+        any in the body
+    12. How many times can I use the same class on a page? 
+        unlimited
+    13. How do I get my link to open in a new tab?
+        target="_blank"
+    14. What is the alt attribute in the image tag used for? 
+        screen readers and to solve accessablility issues
+    15. How do I reference an id?
+        #
+    16. What is the difference between a section and a div
+        not a lot
+    17. What is CSS used for? 
+        page styling
+    18. How to we select an element? Example - every h2 on the page
+        h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        id is unique, and should really only be used for self-referentialness on its own page
+    20. How do we select classes in CSS?
+        .
+    21. How do we select a p element with a single class of “human””?
+        .human P{}
+    22. What is a parent child selector? When would this be useful? 
+        > selects all elements that are a direct child of the specified element.
+    23. How do you select all links within a div with the class of sidebar?
+        .sidebar a {}
+    24. What is a pseudo selector?
+        :
+    25. What do we use the change the spacing between lines?
+        line-spacing:
+    26. What do we use to change the spacing between letters?
+        letter-spacing:
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transformation:
+    28. How do I add a 1px border around my div that is dotted and black?
+        border: 1px dotted black;
+    29. How do I select everything on the page? 
+        *{}
+    30. How do I write a comment in CSS?
+        /*  */
+    31. How do I find out what file I am in, when I am using the command line? 
+        pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rm, can delete more than u hoped for
+    34. Why should I use version control? 
+        prevents unfixable mistakes by saving previously working versions
+    35. How often should I commit to github?
+        after every completed feature or 20-30min
+    36. What is the command we would use to push our repo up to github? 
+        git push
+    37. Walk me through Lambda's git flow. 
+        Add changes to repo
+          git status				 // check if there’s any differences or changes in dir from the repo
+          git add <filename> OR git add --all OR git add . // doesn’t actually add, just brings to git’s attention
+          git commit - m  “<notes on the commit>“  // still not to remote repo, but saves changes to the HEAD
+          git push					 // send from local (or the HEAD) to git repository 
+        Create new branch and send to repo
+          git checkout -b <branch_name>	 // create a new branch from terminal (no quotes)
+          git status				 // check if there’s any differences or changes in dir from the repo
+          git add <filename> OR git add --all OR git add . // doesn’t actually add, just brings to git’s attention
+          git commit -m  “<notes on the commit>“  // still not to remote repo, but saves changes to the HEAD
+          git push --set-upstream origin <branch_name> // creates new upstream path so that you can push your changes to new branch in repo
+	// branch created. So far, I’m merging in the website, not terminal. Have not exp conflicts yet
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+
+
+   --> 
