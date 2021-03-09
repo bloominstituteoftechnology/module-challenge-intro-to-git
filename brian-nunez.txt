@@ -21,29 +21,57 @@ https://codepen.io/Nunez27/pen/RwoqGpw?editors=1100
     10. What is a class? 
     class is like an id, it can be given a name in HTML to be used in CSS to style that certain part of the website.
     11. What elements can I add a class to? 
+    div sections, img
     12. How many times can I use the same class on a page? 
+    As many as you want
     13. How do I get my link to open in a new tab?
+    target="_blank"
     14. What is the alt attribute in the image tag used for? 
+    To describe the image in text
     15. How do I reference an id?
+    # in css
     16. What is the difference between a section and a div
+    Sections are big chunks in a website as a block element, and div are smaller block elements used to hold things together in a group within a section
     17. What is CSS used for? 
+    CSS is used to make the website "pretty"
     18. How to we select an element? Example - every h2 on the page
+    h2 {} and a class is with a . and id is with a #
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    Class can be used to style multiple things that are the alike at the same time. and id would be used to style one thing at a time.
     20. How do we select classes in CSS?
+    With a .
     21. How do we select a p element with a single class of “human””?
-    22. What is a parent child selector? When would this be useful? 
+    .human{}
+    22. What is a parent child selector? When would this be useful?
+     Selects all elements that are a direct child of the element on top (aka the parent element)
     23. How do you select all links within a div with the class of sidebar?
+    .sidebar{}
     24. What is a pseudo selector?
+    It is an atribute to CSS that gives cool affects to a website. For Example when hovering over a link it can print a different color etc.
     25. What do we use the change the spacing between lines?
+    Line-height property
     26. What do we use to change the spacing between letters?
+    letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform
     28. How do I add a 1px border around my div that is dotted and black?
+    border: 1px dotted black;
     29. How do I select everything on the page? 
+    CMD + a
     30. How do I write a comment in CSS?
+    /**/
     31. How do I find out what file I am in, when I am using the command line? 
+    pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
+    rmdir once you remove it can never be recovered
+    34. Why should I use version control?
+    is important when documents are being created, and for any records that undergo a lot of revision and redrafting.
     35. How often should I commit to github?
+    Every 20 minutes
     36. What is the command we would use to push our repo up to github? 
+    git push -u origin branch-name
     37. Walk me through Lambda's git flow. 
+    fork repo, open terminal, clone it into a folder, cd into the repo, open it in VScode with code . Then make some changes. Then git add .
+    git commit -m "message explaining what you added". Git push -u origin branch-name. only do this once then after all you need to do is git push.
