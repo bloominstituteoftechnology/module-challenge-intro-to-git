@@ -74,4 +74,4 @@ https://codepen.io/Nunez27/pen/RwoqGpw?editors=1100
     git push -u origin branch-name
     37. Walk me through Lambda's git flow. 
     fork repo, open terminal, clone it into a folder, cd into the repo, open it in VScode with code . Then make some changes. Then git add .
-    git commit -m "message explaining what you added". Git push -u origin branch-name. only do this once then after all you need to do is git push.
+    git commit -m "message explaining what you added". Git push -u origin branch-name. only do this once then after all you need to do is git push. This is all that is needed to for the Lambda git flow.
