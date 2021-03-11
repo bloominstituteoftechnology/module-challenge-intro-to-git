@@ -1,0 +1,9 @@
+1. Block elements create a new line where, inline elements do not. 
+2. Position: absolute; This element is no longer in the normal flow of the layout, it is on its own layer.
+3. 
+4.
+5[A[A[C [B<Div> <footer>[D[D[D[D[D[D[D[D<>[DHeader> <footer> display block/ <img> <a> inline / button inline-block[B[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D. Box model, is when your content [C[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dis a focuses on your layout design, a box that wraps around your content. Box-sizing fixes [D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[DCSS Box-sizing fixes some of the known layout issues with the box model. [A[A[D[A[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[Dby adding multiple classes to an element. [B[B[B[B
+
+
+My project codpin  
+https://www.codepen.io/ganktank/pen/vYyVawq 
