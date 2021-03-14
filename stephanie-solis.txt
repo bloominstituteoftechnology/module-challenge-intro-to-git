@@ -136,9 +136,10 @@ Questions:
 
     31. How do I find out what file I am in, when I am using the command line? 
         A: I believe you could use the git status command to see which file or files you are in.
+           (After some digging) I think you could use the ls -al command.
         
     32. Using the command line - how do I see a list of files/folders in my current folder?
-        A: git ls-files
+        A: git ls-files (I honestly am not sure...)
 
     33. How do I remove a file via the command line? Why do I have to be careful with this?
         A: git rm -r , You should be careful because this does not go to a recycle bin and is
@@ -152,16 +153,52 @@ Questions:
         A: You should commit often. 
 
     36. What is the command we would use to push our repo up to github? 
-        A: git push
+        A: git push origin firstName-lastName
+
     37. Walk me through Lambda's git flow. 
+        A:  1. Fork the repo from GitHub
+            2. Clone the repo from GitHub
+            3. Create a branch in VS code
+            4. Make changes in working directory
+            5. Use add command in terminal
+            6. Commit changes with a comment
+            7. Push the commit to GitHub
+            8. Pull the repo to your main branch
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        A: An inline element does not start its own line while a block element
+           will be positioned in its own section of a page.
+
+    2. What happens when an element is positioned absolutely?
+        A: If a relative element is positioned, the absolute element will be positioned near
+           that element. If there is not relative element, then the absolute element will
+           move with the page in its position.
+
+    3. How do I make an element take up only the amount of space it 
+       needs but also have the ability to give it a width?
+        A: If you set the width of an element, you could set the
+           margins of the top and bottom at auto. (I think this is what is being asked)
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are
+       display inline by default and 1 element that is display inline-block by default
+        A: Block: 1.p   2.h1-6   3.ul/ol
+           Inline: 1.a   2.span
+           Inline-Block: img?
+
+    5. In your own words, explain the box model. What is the "fix" for
+       the box model, in other words, how do we make all elements respect the width we've given them?
+        A: From center to outside
+           1. content - the text or image that we see
+           2. padding - the amount of space that the content takes up as well as empty background space
+           3. border - the line that shows where the padding ends, can be changed to different styles
+           4. margin - the space between other boxes or elements, can be changed from all 4 sides.
+
+           In CSS, we can set the width of the box model by creating an div or section. We can give the div
+           or section a class or id we would like to set in the opening tag. We can set the width property in 
+           the class or id. We can also set the padding and margin size. We would then put our elements 
+           we would like as the content.
 
 
 
