@@ -200,6 +200,9 @@ Stretch Questions
            the class or id. We can also set the padding and margin size. We would then put our elements 
            we would like as the content.
 
+           The above answer for fix was before my research. I did some digging and found that there is
+           something called box-sizing:border-box. It is truly beyond my understanding...
+
 
 
    --> 
