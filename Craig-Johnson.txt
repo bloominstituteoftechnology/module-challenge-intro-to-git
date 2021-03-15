@@ -1,23 +1,61 @@
-1. What is Semantic HTML? 
+https://codepen.io/L1tCraig/pen/WNoPeEd
+    1. What is Semantic HTML?
+        Tags that do what they indicate. a nav is a navigation menu or a table will have information in a table. 
     2. What is HTML used for? 
-    3. What is an attribute and where do we put it? 
+        html is for creating web sites. it houses the blueprint for the site.
+        the basic layout for what is to be in a page can be modified by other
+        programming languages like css and js.
+    3. What is an attribute and where do we put it?
+        an attribute is a command value and it goes after the target object.
+        an img tag is dull if the computer doesnt know the src attribute.
+        If you dont follow an object or concept with an attribute how would 
+        the computer know what to do there?
     4. What is the h1 tag used for? How many times should I use it on a page?
-    5. Name two tags that have required attributes
-    6. What do we put in the head of our HTML document? 
+        h1 tags are usually for the title of a page. The tag isnt required because
+        its the 1 and doesn't mean that it has to be first rather that it is the 
+        heaviest font size of the h tags. It does tend to make a page look bulky.
+        there are better ways to adjust sizing of font through css. 
+    5. Name two tags that have required attributes.
+        an img and an a (anchor) tag both are pretty harmless without
+        an attribute.
+    6. What do we put in the head of our HTML document?
+        information for the computer such as browser tab
+        name, attatchments like a css or js file. Things the browser needs to
+        know before rendering the page.
     7. What is an id? 
+        an id is a lable for a tag in html that can be used to target a single element
+        for modification. an id can only be used in one place in one tag.
     8. What elements can I add an id to? 
+        elements that are represented on the page. so a meta or a head or script wouldnt be able to take an id or class because you cant point to them in the browser. 
     9. How many times can I use the same id on a page? 
+        One. one time. not two nor three... one. tyvm.
     10. What is a class? 
+        a lable for an element within the html page that allows
+        further manipulation.
     11. What elements can I add a class to? 
+        same as id 
     12. How many times can I use the same class on a page? 
+        as many as needed (evil_laugh)
     13. How do I get my link to open in a new tab?
+        after the url input target="_blank"
     14. What is the alt attribute in the image tag used for? 
+        it lets the browser know what to render if the src fails to load.
     15. How do I reference an id?
+        by using a #idname 
     16. What is the difference between a section and a div
+        a section will show data entry like a topic with a title and maybe pics. were a div is defined by its class/id. very handy for flexbox containers.
     17. What is CSS used for? 
+        cascading style sheets are for reorganizing and styling elements in html.
     18. How to we select an element? Example - every h2 on the page
+        through css you can directly call the h2 {'code'}
+        or using .classname #id name 
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        class is used for general styling where you want to
+        use simmilar themes for different elements of your
+        html. Id, however, is for unique stylings and events
+        such as a line of javascript.
     20. How do we select classes in CSS?
+        .className {'code'}
     21. How do we select a p element with a single class of “human””?
     22. What is a parent child selector? When would this be useful? 
     23. How do you select all links within a div with the class of sidebar?
