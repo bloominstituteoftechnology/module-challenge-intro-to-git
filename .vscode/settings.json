@@ -1,0 +1,7 @@
+{
+    "terminal.explorerKind": "external"
+    // Git Bash
+    "terminal.integrated.shell.windows": "E:\\programs\\git\\git-bash.exe",
+
+
+}
