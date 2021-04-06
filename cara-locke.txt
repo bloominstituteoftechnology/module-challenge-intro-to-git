@@ -1,0 +1,167 @@
+link to finished codepen: https://codepen.io/cara-locke/pen/poRrZRZ?editors=1100
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+        It is HTML that gives meaning to our markup.
+
+    2. What is HTML used for? 
+        It's used for building the structure of a website.
+
+    3. What is an attribute and where do we put it? 
+         An attribute is an extra piece of information that you can add to a tag to tell the browser more information about the tag. We put an attribute inside the tag.
+
+    4. What is the h1 tag used for? How many times should I use it on a page? 
+        The h1 tag is used for the most important heading on the page. It should only be used once per page.
+
+    5. Name two tags that have required attributes
+        A class and an id.
+
+    6. What do we put in the head of our HTML document? 
+        The link to our CSS goes in the head of our HTML document.
+
+    7. What is an id? 
+        An id is an attribute that is used to target a specific tag so that you can anchor or link to it later. An id can only be used once.
+
+    8. What elements can I add an id to? 
+        You can add an id to any element.
+
+    9. How many times can I use the same id on a page? 
+        You can only use the same id on a page one time.
+
+    10. What is a class? 
+        A class is used to identify a tag with a more specific name so that you can target it later when you want to style it.
+
+    11. What elements can I add a class to? 
+        You can add a class to any element you want to style.
+
+    12. How many times can I use the same class on a page? 
+        You can have multiple instances of the same class on a page.
+
+    13. How do I get my link to open in a new tab?
+        You do this by adding the "_blank" attribute into the tag after the link address.
+
+    14. What is the alt attribute in the image tag used for? 
+        It gives a description of the image in words.
+
+    15. How do I reference an id?
+        To reference an id, you call it by putting "#idname"
+
+    16. What is the difference between a section and a div
+        The section tag creates separate sections in a page having connected content. The div tag only represents its child elements and doesn't have a special meaning.
+
+    17. What is CSS used for? 
+        CSS is used for styling of a webpage.
+
+    18. How to we select an element? Example - every h2 on the page
+        We type h2 followed by the { then everything encased will happen within the brackets.
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        An id can only be used once per page where a class can be used multiple times. If I want to anchor something to the page, I can use an id. If I have multiple paragraphs and I want to change one of them a different color, I would use a class. 
+
+    20. How do we select classes in CSS?
+        To call a class in CSS, we use ".classname" 
+
+    21. How do we select a p element with a single class of “human””?
+        We would select that by using ".human"
+
+    22. What is a parent child selector? When would this be useful? 
+        A parent child selector is when an element is nestled inside of another element. A child refers to the inside element, the parent refers to the element it's nestled inside of.
+        This would be useful for when you only want to change parts of a page instead of all of it. (We used it during a project changing the colors of lists yesterday.)
+
+    23. How do you select all links within a div with the class of sidebar?
+        We would use ".sidebar a:link {"
+
+    24. What is a pseudo selector?
+        A pseudo selector is are selectors like "Hover, visited, active, and focus." They are put right after the main selector with a colon.
+
+    25. What do we use the change the spacing between lines?
+        We use line height to change the spacing between lines. (Written "line-height:x;")
+
+    26. What do we use to change the spacing between letters?
+        We use letter spacing to change the spacing between letters. (Written "letter-spacing:x;")
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        We use text transform in these situations. (For instance, "text-transform:lowercase;")
+
+    28. How do I add a 1px border around my div that is dotted and black?
+        If this div was the only div on the page, it would be written like this:
+        div{
+            border:1px dashed black;
+        }
+
+    29. How do I select everything on the page? 
+        To select everything on a page, use the universal selector of "*"
+
+    30. How do I write a comment in CSS?
+        We have been writing comments inside of brackets /*like this*/
+
+    31. How do I find out what file I am in, when I am using the command line? 
+        We would type the pwd (print working directory) command.
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        We would type the li (list) command.
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        We would use the "rm -r" command. We have to be careful using that command because it's recursive and deletes all the files inside and then the parent directory itself.
+
+    34. Why should I use version control? 
+        We use version control to keep track of changes that have been made. We also use it to keep every team member working off of the most recent version.
+
+    35. How often should I commit to github?
+        We should commit to github often.
+
+    36. What is the command we would use to push our repo up to github? 
+        We would use "$ git push -u origin repo-name"
+
+    37. Walk me through Lambda's git flow. 
+        1.) The first thing to do is to create your own version of the repository by forking it. 
+        
+        2.) Always make sure you're on the forked version by making sure you see your name next to the before the slash "/" if the forking was successful.
+
+        3.) The next thing we do is clone the repository. We do this by clicking the green "clone" button and copy the url so our clipboard. 
+        
+        4.) Back inside of our terminal (in my case, Gitbash), use the "cd" command to go to the directory where we are going to want to clone our forked repo to.
+
+        5.) We then use that url into our terminal (Gitbash) by using the command "git clone linktorepo(the url)"
+
+        6.) We then want to first cd into our new project (I would type "cd url" for this example). 
+        
+        7.) Then we would use the git command of "git checkout -b 'firstname-lastname'" to create our own branch name for this repo
+
+        8.) Now is the time to work on our repo and work on getting our project assignment done. (use the "code ." command to get it to open in VSS)
+
+        9.) To add and commit changes on your branch, we do the commands "git add ." (this will add the repo changes and make them ready for committing) We also can add a message to our changes with the "git commit -m 'commit message here'"
+
+        10.) Push our changes back up to our Github repo. We do this by using "git push -u origin branch-name" (whatever name we chose when we did "git checkout -b")
+
+        11.) Now that the changes are on Github, you can submit a pull request.
+
+        12.) Go back to our forked project repo on Github (always make sure we're on our own forked copy and NOT the original Lambda one). 
+            During this step we click on the Branch:master button on the left side and select our name-branch from the drop down menu then click the "new pull request" button to make a pull request on your branch name.
+            
+            After we click new pull request, it should redirect us to the pull request page. ***Do NOT click the "create pull request" button after you've completed the next step***
+
+            When you get to the pull request page, make sure to click the dropdown button that says "base repository" and change it to be your forked repo instead of the original lambda repository. (When submitting a pull request it will default to the original repo, this is why it needs to be changed.)
+
+        13.) Once both of these are set to the correct items, click "create pull request"     
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+
+        A block element will always create a new line after the closing tag, an inline element will not. (Inline elements can sit next to each other)
+
+    2. What happens when an element is positioned absolutely? 
+
+        When an element is positioned "absolutely," it is separated from its own layer separate from everything else.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+
+
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
