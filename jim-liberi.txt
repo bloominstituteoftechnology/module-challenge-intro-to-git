@@ -15,16 +15,16 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     Additional information about HTML elements
 
     4. What is the h1 tag used for? How many times should I use it on a page?
-
+    The main and most important header of the page
 
     5. Name two tags that have required attributes
-
+form email phone #
 
     6. What do we put in the head of our HTML document? 
-
+<nav
 
     7. What is an id? 
-
+A unuique id for an html element
 
     8. What elements can I add an id to? 
 
