@@ -3,7 +3,6 @@ https://codepen.io/bgoonz/pen/wvgqmMe
 
 
 
-
 --------------------------------------------------------------------------------------
 
 <!-- Questions to Submit in today's file first-lastname.txt --> 
