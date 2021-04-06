@@ -1,5 +1,5 @@
  CODEPEN EXERCISE:
- 
+
  https://codepen.io/everybodyneedsis/pen/LYxjeom?editors=1100
  
  
@@ -150,7 +150,7 @@ Inline elements do not start on new line
 It is positioned relative to the nearest positioned ancestor
 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-I actually can't figure this one out!!!! :(
+inline block
 
     4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
 Display:block -- <div> <h1 - h6> <p>
