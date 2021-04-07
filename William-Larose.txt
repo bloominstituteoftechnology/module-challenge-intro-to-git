@@ -1,73 +1,88 @@
-<!--1. fork this codepen so that you have a copy on your account -->
-<!--2. Add HTML and CSS to make the codepen look like the example: https://codepen.io/BritHemming/full/jONmxOm  - note that you can change the colours but everything else must look the same -->
-<!-- 3. include the link to this completed codepen at the top of today's file first-lastname.txt --> 
-<!-- 4. when you are finished - answer the questions at the bottom of this file -->
-Learning How to Code
- Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aperiam earum mollitia enim pariatur atque asperiores, deserunt fuga iure distinctio! Amet iste facilis odio rerum maiores neque laboriosam non aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eius officia reprehenderit dicta molestiae, excepturi inventore aut officiis! Perspiciatis, molestias tempora et nesciunt amet sint blanditiis eos voluptatibus ut facilis!
 
-I'm a title
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus minima porro, aspernatur esse iure quas vero totam ea cupiditate numquam accusamus enim, eius neque molestiae minus. Aliquam non repudiandae, sunt!
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto illo expedita ducimus incidunt similique voluptatum, error minus tenetur accusamus modi perferendis libero inventore quo, tempora. Repellendus quam eligendi, aliquid nobis.
-
-This is another section
- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto possimus, reiciendis consequatur inventore mollitia ipsa sed quibusdam! Aut nemo voluptatibus modi iste repudiandae ea beatae suscipit. Officia omnis laudantium quasi.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, ratione doloribus nam officia reiciendis eligendi architecto maxime quisquam unde non, illo libero iure aut ad consequuntur animi modi, recusandae voluptatum!
-
-<img src="https://unsplash.it/200/200">
-<img src="https://unsplash.it/200/200">
-<img src="https://unsplash.it/200/200"> 
-<img src="https://unsplash.it/200/200">
-
-
-<!-- Questions to Submit in today's file first-lastname.txt --> 
-<!--
-Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
-
-    1. What is Semantic HTML? 
+https://codepen.io/williamlarose/pen/YzNxdZY?editors=1100
+    1. What is Semantic HTML?
+     Gives are code meaning
     2. What is HTML used for? 
+    Its to make the sturcture of a website
     3. What is an attribute and where do we put it? 
+    extra info about a element in the start tag
     4. What is the h1 tag used for? How many times should I use it on a page?
+    Title Only once
     5. Name two tags that have required attributes
+    img and anchor
     6. What do we put in the head of our HTML document? 
+    title,links to css,meta
     7. What is an id? 
+    A attribute
     8. What elements can I add an id to? 
+    Pretty much anything
     9. How many times can I use the same id on a page? 
+    once
     10. What is a class? 
+    attribute
     11. What elements can I add a class to? 
+    Pretty much anything
     12. How many times can I use the same class on a page? 
-    13. How do I get my link to open in a new tab?
+    infinte
+    13. How do I get my link to open in a new tab? 
+    target
     14. What is the alt attribute in the image tag used for? 
+    to provide info when the img can not be seen
     15. How do I reference an id?
+    #id
     16. What is the difference between a section and a div
+    section is Semantic
     17. What is CSS used for? 
+    Styling
     18. How to we select an element? Example - every h2 on the page
+    h2
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    id can be only used once while classes can be reused id should be used for just selecting classes use for styling
     20. How do we select classes in CSS?
+    .class
     21. How do we select a p element with a single class of “human””?
+    .human
     22. What is a parent child selector? When would this be useful? 
+    when a selector nest another selector within itself . styling
     23. How do you select all links within a div with the class of sidebar?
+    .sidebar
     24. What is a pseudo selector?
+    a selector only in a certain state
     25. What do we use the change the spacing between lines?
+    line-height
     26. What do we use to change the spacing between letters?
+    letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform
     28. How do I add a 1px border around my div that is dotted and black?
+    border:dotted 1px color black
     29. How do I select everything on the page? 
-    30. How do I write a comment in CSS?
+    body
+    30./**\?
+    --hey
     31. How do I find out what file I am in, when I am using the command line? 
+    pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm theres ways to delete everything
     34. Why should I use version control? 
     35. How often should I commit to github?
+    as much as possible
     36. What is the command we would use to push our repo up to github? 
+    git push -u origin branch
     37. Walk me through Lambda's git flow. 
-
+    Fork,cd to your file ,git clone, make a branch git checkout -b, do your work ,git add ,git commit
+git push
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    inline stays within block takes up its own area
     2. What happens when an element is positioned absolutely? 
+    it becomes separte from the layout
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    div img h1 are blocks span and br inline
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
 
 
