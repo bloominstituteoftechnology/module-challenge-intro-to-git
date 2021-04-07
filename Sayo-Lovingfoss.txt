@@ -2,43 +2,85 @@ Link to finished codepen: https://codepen.io/stepbystepdayo/pen/VwPzBeL?editors=
 
 
 
-   1. What is Semantic HTML? 
+    1. What is Semantic HTML? 
+    Semantic HTML gives meaning to the elements in HTML. It is important for developers looking at code they have not written, so they can understand it better. It also helps blind people with screen readers.
     2. What is HTML used for? 
+    HTML is the structure of the website. It is like the skeleton in an animal.
     3. What is an attribute and where do we put it? 
+
     4. What is the h1 tag used for? How many times should I use it on a page?
+    This is used for the header. I think you're supposed to use it just once.
     5. Name two tags that have required attributes
     6. What do we put in the head of our HTML document? 
+    Header. Inside the header, we put the nav and some other information.
     7. What is an id? 
+    An ID is like a really strong class (very specific), and we should only use it for one time usage. 
     8. What elements can I add an id to? 
+    All elements, as it is global.
     9. How many times can I use the same id on a page? 
+    One time.
     10. What is a class? 
+    It is one of the ways we can organize elements in an HTML page.
     11. What elements can I add a class to? 
+    Any HTML element.
     12. How many times can I use the same class on a page? 
+    As many times as you want.
     13. How do I get my link to open in a new tab?
+    Link attribute! or hyperlink.
     14. What is the alt attribute in the image tag used for? 
+    For hoverover text on an image, and also used for screen readers.
     15. How do I reference an id?
+    # (hashtag)
     16. What is the difference between a section and a div
+    A section has many divs, and a div is a self contained element. 
     17. What is CSS used for? 
+    For styling.
     18. How to we select an element? Example - every h2 on the page
+    h2 {}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    I would use an ID for a special, one time element, like a navbar. I would use a class for my collection of paragraphs. 
     20. How do we select classes in CSS?
+    ., or a period.
     21. How do we select a p element with a single class of “human””?
+    .human p {} 
     22. What is a parent child selector? When would this be useful? 
+    parent child {} This allows us to select the child element in the parent.
     23. How do you select all links within a div with the class of sidebar?
+    .sidebar div a
     24. What is a pseudo selector?
+    A psuedo selector "defines a special state of an element." One famous one is :hover
     25. What do we use the change the spacing between lines?
+    line-height
     26. What do we use to change the spacing between letters?
+    letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform:capitalize;
     28. How do I add a 1px border around my div that is dotted and black?
+    border: 1px dotted black
     29. How do I select everything on the page? 
+    *
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+    /*  */
+    31. How do I find out what file I am in, when I am using the command line?
+    pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm. rm is super powerful, and will remove the file without stopping me.
     34. Why should I use version control? 
+    Git gives you the power of history for your code. You can see your changes over time, and revert back to old versions. You can also organize work with other people.
     35. How often should I commit to github?
+    All the time. You should commit everytime you make a substantial change to your code. 
     36. What is the command we would use to push our repo up to github? 
+    git push
     37. Walk me through Lambda's git flow. 
+    1) Fork from guided project repo
+    2) Copy/clone to my machine by terminal.
+    3) cd Desktop => cd code => git checkout -b "Sayo-Lovingfoss"
+    4) code a lot yayyy (git commit)
+    5) git status
+    6) git add . (this adds all files that are not updated yet)
+    7) git push -u
 
 Stretch Questions
 
