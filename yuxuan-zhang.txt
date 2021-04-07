@@ -1,4 +1,4 @@
-link to finished codepen: https://codepen.io/Torry97/pen/ExZvpgJ?editors=1100
+link to finished codepen: https://codepen.io/Torry97/pen/ExZvpgJ
     1. What is Semantic HTML? 
     Semantic HTML is tag with meanings;
     2. What is HTML used for? 
@@ -43,7 +43,8 @@ link to finished codepen: https://codepen.io/Torry97/pen/ExZvpgJ?editors=1100
     21. How do we select a p element with a single class of “human””?
     p.human
     22. What is a parent child selector? When would this be useful? 
-
+    the child element is inside the parent element. such as nav a {}. 
+    this is useful because it is more specific;
     23. How do you select all links within a div with the class of sidebar?
 
     24. What is a pseudo selector?
@@ -66,7 +67,7 @@ link to finished codepen: https://codepen.io/Torry97/pen/ExZvpgJ?editors=1100
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
     
     34. Why should I use version control? 
-    12345
+    I can apply changes to the code and other people can also see what changes I made;
     35. How often should I commit to github?
     when you finish a part or 20 minutes.
     36. What is the command we would use to push our repo up to github? 
