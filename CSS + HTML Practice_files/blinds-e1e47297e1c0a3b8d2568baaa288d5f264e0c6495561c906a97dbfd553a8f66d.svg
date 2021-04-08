@@ -1,0 +1,20 @@
+<svg width="243" height="157" viewBox="0 0 243 157" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="5" width="243" height="5" fill="#363840"/>
+<rect y="15" width="243" height="5" fill="#363840"/>
+<rect y="25" width="243" height="5" fill="#363840"/>
+<rect y="35" width="243" height="5" fill="#363840"/>
+<rect y="45" width="243" height="5" fill="#363840"/>
+<rect y="55" width="243" height="5" fill="#363840"/>
+<rect y="65" width="243" height="5" fill="#363840"/>
+<rect y="75" width="243" height="5" fill="#363840"/>
+<rect y="85" width="243" height="5" fill="#363840"/>
+<rect y="95" width="243" height="5" fill="#363840"/>
+<rect y="105" width="243" height="5" fill="#363840"/>
+<rect y="115" width="243" height="5" fill="#363840"/>
+<rect y="125" width="243" height="5" fill="#363840"/>
+<rect y="135" width="243" height="5" fill="#363840"/>
+<line x1="30.5" x2="30.5" y2="135" stroke="#363840"/>
+<line x1="214.5" x2="214.5" y2="135" stroke="#363840"/>
+<line x1="123" y1="140" x2="123" y2="147" stroke="#444857" stroke-width="2"/>
+<circle cx="123" cy="152" r="4" stroke="#444857" stroke-width="2"/>
+</svg>

@@ -1,0 +1,1606 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://codepen.io/debrafontenot/pen/mdOWdOO -->
+<html lang="en" class="mac chrome89 js"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>CSS + HTML Practice</title>
+<link rel="dns-prefetch" href="https://fast.appcues.com/">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@CodePen">
+<meta name="twitter:title" content="CSS + HTML Practice">
+<meta name="twitter:description" content="...">
+<meta name="twitter:image" content="https://assets.codepen.io/5206172/internal/screenshots/pens/mdOWdOO.default.png?fit=cover&amp;format=auto&amp;ha=true&amp;height=540&amp;quality=75&amp;v=2&amp;version=1613358582&amp;width=960">
+<meta property="og:image" content="https://assets.codepen.io/5206172/internal/screenshots/pens/mdOWdOO.default.png?fit=cover&amp;format=auto&amp;ha=true&amp;height=540&amp;quality=75&amp;v=2&amp;version=1613358582&amp;width=960" itemprop="thumbnailUrl">
+<meta property="og:title" content="CSS + HTML Practice">
+<meta property="og:url" content="https://codepen.io/debrafontenot/details/mdOWdOO">
+<meta property="og:site_name" content="CodePen">
+<meta property="og:description" content="...">
+<link rel="alternate" type="application/json+oembed" href="https://codepen.io/api/oembed?url=https%3A%2F%2Fcodepen.io%2Fdebrafontenot%2Fpen%2FmdOWdOO&amp;format=json" title="CSS + HTML Practice">
+<link rel="stylesheet" media="all" href="./CSS + HTML Practice_files/global-73bf1bb02f2283aeed556a48a7396d5c4af8bfd1a1b4fb377d6822aa5ec0a11e.css">
+<link rel="stylesheet" media="screen" href="./CSS + HTML Practice_files/everypage-1ba27d6f.css">
+<link rel="stylesheet" media="all" href="./CSS + HTML Practice_files/editor-fad66c7142a9f5107a188b4671150b0a51fdc4095afaa7a35862841ccaf2c1d3.css">
+<meta name="description" content="...">
+<link rel="stylesheet" media="screen" href="./CSS + HTML Practice_files/twilight-a5a757de70a8d57373f9bc7c87208806adaa2b69d0f2c3e9fcce79a6f9babd65.css" id="cm-theme">
+<style id="cm-font-family" class="cm-font-family" nonce="">
+  
+  .CodeMirror,
+  .console-logs .console-line,
+  .console-command-line-input,
+  .console-message,
+  .CodeMirror-hint {
+    font-family: Monaco, MonoSpace;
+  }
+</style>
+<style id="cm-font-size" nonce="">
+  .CodeMirror,
+  .console-logs .console-line,
+  .console-command-line-input,
+  .console-message,
+  .CodeMirror-hint {
+    font-size: 15px;
+  }
+</style>
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="FCfEX9CbV2MUWaGp6R8+EWl6lrhzRz5MxYHa0x5SVUgZuIT59FpbgmneGcxCfF4v0esVPrptHbJsR+eCAsu0mg==">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="monetization" content="$ilp.uphold.com/biyqg2MkQKbe">
+<script crossorigin="anonymous" integrity="sha256-w/e7TN11AbHY6vtAS72WtsZ75e1ASHNZ0XAtwnxlGtk=" type="text/javascript" src="./CSS + HTML Practice_files/appcues.main.a02e56175273310f404b4b3e24b25c09db6b2696.js" async=""></script><script nonce="">
+  /* Firefox needs this to prevent FOUT */
+</script>
+<script src="./CSS + HTML Practice_files/CKYDVK7U.json"></script><iframe src="./CSS + HTML Practice_files/saved_resource.html"></iframe><iframe src="./CSS + HTML Practice_files/saved_resource(1).html"></iframe><iframe src="./CSS + HTML Practice_files/saved_resource(2).html"></iframe><link rel="stylesheet" type="text/css" integrity="sha256-q9sKb2HpA5fJjN1cK9LjLaEXff5ix81Rv1Y3xJFptPE=" crossorigin="anonymous" href="./CSS + HTML Practice_files/container.a02e56175273310f404b4b3e24b25c09db6b2696.css"><iframe src="./CSS + HTML Practice_files/saved_resource(3).html"></iframe></head>
+<body class="room-editor editor state-htmlOn-cssOn-jsOn twilight sidebar-false   layout-left     layout-side    logged-in">
+<header class="main-header" id="main-header"><div class="header-wrap HeaderWrap_root-mMpND"><h1 class="Logo_root-3zk-k" data-test-id="logo"><a href="https://codepen.io/" class="Logo_small-2B4GZ"><svg viewBox="0 0 100 100"><path d="M100 34.2c-.4-2.6-3.3-4-5.3-5.3-3.6-2.4-7.1-4.7-10.7-7.1-8.5-5.7-17.1-11.4-25.6-17.1-2-1.3-4-2.7-6-4-1.4-1-3.3-1-4.8 0-5.7 3.8-11.5 7.7-17.2 11.5L5.2 29C3 30.4.1 31.8 0 34.8c-.1 3.3 0 6.7 0 10v16c0 2.9-.6 6.3 2.1 8.1 6.4 4.4 12.9 8.6 19.4 12.9 8 5.3 16 10.7 24 16 2.2 1.5 4.4 3.1 7.1 1.3 2.3-1.5 4.5-3 6.8-4.5 8.9-5.9 17.8-11.9 26.7-17.8l9.9-6.6c.6-.4 1.3-.8 1.9-1.3 1.4-1 2-2.4 2-4.1V37.3c.1-1.1.2-2.1.1-3.1 0-.1 0 .2 0 0zM54.3 12.3L88 34.8 73 44.9 54.3 32.4V12.3zm-8.6 0v20L27.1 44.8 12 34.8l33.7-22.5zM8.6 42.8L19.3 50 8.6 57.2V42.8zm37.1 44.9L12 65.2l15-10.1 18.6 12.5v20.1zM50 60.2L34.8 50 50 39.8 65.2 50 50 60.2zm4.3 27.5v-20l18.6-12.5 15 10.1-33.6 22.4zm37.1-30.5L80.7 50l10.8-7.2-.1 14.4z"></path></svg><span class="screen-reader-text">CodePen Home</span></a><a href="https://codepen.io/" class="Logo_large-D-UjR"><svg viewBox="0 0 138 26" fill="none" stroke="#fff" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" title="CodePen"><path d="M15 8a7 7 0 100 10m7-8.7L33 2l11 7.3v7.4L33 24l-11-7.3zm0 0l11 7.4 11-7.4m0 7.4L33 9.3l-11 7.4M33 2v7.3m0 7.4V24M52 6h5a7 7 0 010 14h-5zm28 0h-9v14h9m-9-7h6m11 1h6a4 4 0 000-8h-6v14m26-14h-9v14h9m-9-7h6m11 7V6l11 14V6"></path></svg><span class="screen-reader-text">CodePen Home</span></a></h1><div class="ItemTitle_root-168Uu" data-test-id="item-title-area"><div class="ItemTitle_text-3FRJS"><h1 class="ItemTitle_title-V4Dqn" id="item-title"><a href="https://codepen.io/debrafontenot/pen/mdOWdOO" class="ItemTitle_titleLink-1vxX8" id="editable-title-span" title="CSS + HTML Practice">CSS + HTML Practice</a><svg viewBox="0 0 100 100" class="ItemTitle_iconEdit-3kpAL" refLink="edit"><path d="M24.56 92.536L0 100l7.453-24.583c6.356-.244 17.322 10.792 17.107 17.119zM96.617 32.082l-.475.471L67.383 3.766l.472-.472c12.927-12.94 42.016 15.517 28.762 28.788zM61.64 9.516l28.758 28.785-46.303 46.345c-1.222 1.221-2.234.884-2.234.884l2.314-15.356-14.454.074.072-14.468-15.342 2.312s-.34-1.011.883-2.234L61.64 9.516z"></path></svg></h1><div class="ItemTitle_by-FGw-M" data-test="AnItemBy"><a class="ItemTitle_ownerLink-3bz0p" href="https://codepen.io/debrafontenot">Debra Fontenot </a></div></div></div><div class="navigation-wrap editor-actions-menu"><button aria-expanded="false" data-open="false" class="Button-module_root-2XLnp toggle-actions-button MobileNavButton-module_root-1VZSN" data-size="mini"><div class="MobileNavButton-module_icon-BG7_f" aria-hidden="true"><span></span><svg viewBox="-122.9 121.1 105.9 61.9"><path d="M-63.2 180.3l43.5-43.5c1.7-1.7 2.7-4 2.7-6.5s-1-4.8-2.7-6.5c-1.7-1.7-4-2.7-6.5-2.7s-4.8 1-6.5 2.7L-69.9 161l-37.2-37.2c-1.7-1.7-4-2.7-6.5-2.7s-4.8 1-6.5 2.6c-1.9 1.8-2.8 4.2-2.8 6.6 0 2.3.9 4.6 2.6 6.5 11.4 11.5 41 41.2 43 43.3l.2.2c3.6 3.6 10.3 3.6 13.9 0z"></path></svg></div><span class="screen-reader-text">Pen Editor Menu</span></button><div aria-hidden="false" class="editor-actions" data-expanded="false"><button title="Love" data-love-level="0" data-item="PEN" data-hashid="mdOWdOO" class="Button-module_root-2XLnp LoveButton-module_root-1AsF8 loves heart-button" data-variant="outline"><svg viewBox="0 0 100 92" class="LoveButton-module_icon-cTXGq"><path d="M85.24 2.67C72.29-3.08 55.75 2.67 50 14.9 44.25 2 27-3.8 14.76 2.67 1.1 9.14-5.37 25 5.42 44.38 13.33 58 27 68.11 50 86.81 73.73 68.11 87.39 58 94.58 44.38c10.79-18.7 4.32-35.24-9.34-41.71z"></path></svg><span class="screen-reader-text">Love</span></button><button id="run" title="Com/Ctrl - Shift - 7 to Run" class="Button-module_root-2XLnp run undefined" data-has-icon="true"><svg viewBox="0 0 100 100"><path d="M55.702 50.002L77.85 72.324 100 50.002l-9.173-9.249-6.611 6.668C82.878 25.187 64.56 7.5 42.169 7.5 18.916 7.5 0 26.567 0 50.002 0 73.436 18.917 92.5 42.169 92.5h16.218V79.424H42.169c-16.102 0-29.193-13.197-29.193-29.421 0-16.229 13.092-29.426 29.193-29.426 15.08 0 27.37 11.615 28.892 26.41l-6.184-6.233-9.175 9.248z"></path></svg>Run</button><button data-test-id="save-button" id="update" class="Button-module_root-2XLnp" data-has-icon="true" data-variant="outline"><svg viewBox="0 0 100 100"><path d="M84.187 44.046c.084-.753.114-1.52.114-2.289 0-13.402-10.814-24.257-24.154-24.257-10.354 0-19.161 6.551-22.599 15.754-2.274-2.508-5.521-4.111-9.166-4.111-6.872 0-12.439 5.59-12.439 12.493 0 .816.084 1.606.239 2.38C7.014 45.534 0 53.472 0 63.095 0 73.824 8.648 82.5 19.323 82.5h61.354C91.351 82.5 100 73.824 100 63.095c0-9.505-6.823-17.38-15.813-19.049z"></path></svg>Save</button><button data-test-id="edit-settings" id="edit-settings" title="Pen Settings" class="Button-module_root-2XLnp" data-has-icon="true"><svg viewBox="0 0 100 100"><path d="M87.687 45.077c-.313-2.433-.816-4.807-1.542-7.079l8.145-11.73-5.827-7.515-.094-.123-5.824-7.514-12.955 5.577c-2.041-1.265-4.192-2.362-6.459-3.219L59.42 0H40.586l-3.709 13.474c-2.27.857-4.421 1.955-6.463 3.222l-12.957-5.577-5.825 7.514-.097.124-5.822 7.517 8.146 11.731a39.832 39.832 0 00-1.544 7.079L0 52.032l2.08 9.375.033.15 2.08 9.375 14.001.761a39.157 39.157 0 004.4 5.668l-2.396 14.227 8.416 4.173.138.067L37.169 100l9.309-10.796c1.161.109 2.335.173 3.524.173s2.358-.074 3.52-.184l9.317 10.804 8.415-4.173.141-.066 8.413-4.172-2.396-14.228a39.06 39.06 0 004.4-5.672l14-.759 2.078-9.375.035-.154L100 52.025l-12.313-6.948zM50.003 34.51c8.435 0 15.272 7.035 15.272 15.719 0 8.679-6.839 15.717-15.272 15.717-8.436 0-15.272-7.038-15.272-15.717 0-8.684 6.838-15.719 15.272-15.719z"></path></svg>Settings</button><div class="EditorHeaderViewSwitcher_root-n_zvz"><button id="view-switcher-button" data-test-id="view-switcher-button" class="Button-module_root-2XLnp view-switcher-button" data-has-icon="true"><svg viewBox="-703.9 491.1 31.7 25.3"><path d="M-688.1 499.6c-4.3 0-8.1 2.2-10.4 5.6 2.2 3.4 6 5.6 10.4 5.6 4.3 0 8.1-2.2 10.4-5.6-2.2-3.3-6-5.6-10.4-5.6zm0 9.9c-2.3 0-4.2-1.9-4.2-4.2-.1-2.4 1.8-4.3 4.2-4.3 2.3 0 4.2 1.9 4.2 4.2 0 2.4-1.9 4.3-4.2 4.3z"></path><path d="M-673.4 491.1h-29.3c-.7 0-1.2.5-1.2 1.2v22.9c0 .7.5 1.2 1.2 1.2h29.3c.7 0 1.2-.5 1.2-1.2v-22.9c0-.6-.6-1.2-1.2-1.2zm-28.1 22.9v-17.1h26.8V514h-26.8z"></path></svg>Change View</button><div class="view-switcher"><div class="EditorHeaderViewSwitcher_switch-2lMOR"><h3>Open this Pen in:</h3><nav class="link-list"><a id="pen-link" href="https://codepen.io/debrafontenot/pen/mdOWdOO" class="view-switcher-row editor-link pen-link active">Editor View<span class="view-meta">/pen/<span data-href="https://blog.codepen.io/documentation/views/editor-view/" class="learn-more inline-q"><svg viewBox="0 0 100 100" width="13" height="13"><path d="M75 0H25C11.19 0 0 11.193 0 25v50c0 13.802 11.19 25 25 25h50c13.811 0 25-11.198 25-25V25c0-13.807-11.189-25-25-25zM57.203 85.067H41.504V72.542h15.699v12.525zm16.154-43.026c-.84 2.066-1.873 3.834-3.102 5.298a20.59 20.59 0 01-4.101 3.751 91.479 91.479 0 00-4.249 3.101c-1.333 1.034-1.553 2.214-2.596 3.547-1.025 1.335-.977 3.004-.977 5.006v3.924H41.668v-4.623c0-2.864 1.366-5.265 2.27-7.202.896-1.935 2.255-3.581 3.459-4.947 1.196-1.367 2.62-2.556 3.955-3.557 1.327-.993 2.637-1.993 3.776-2.995 1.123-1.001 2.083-2.1 2.783-3.304.7-1.197 1.043-2.694.977-4.5 0-3.06-.74-5.33-2.245-6.795-1.498-1.465-3.582-2.206-6.25-2.206-1.8 0-3.337.351-4.639 1.05a9.172 9.172 0 00-3.199 2.808c-.837 1.163-1.448 3.593-1.847 5.156-.407 1.57-.602 6.115-.602 6.115H25.399c.073-8.333.684-7.963 1.855-10.965 1.164-2.995 2.8-6.132 4.899-8.33 2.099-2.197 4.63-4.179 7.601-5.417a25.782 25.782 0 019.945-1.977c4.736 0 8.683.581 11.856 1.876 3.167 1.302 5.713 2.889 7.65 4.817 1.929 1.937 3.312 4.004 4.149 6.234.831 2.237 1.245 4.313 1.245 6.242.002 3.206-.412 5.827-1.242 7.893z"></path></svg></span></span></a><a id="details-link" href="https://codepen.io/debrafontenot/details/mdOWdOO" class="view-switcher-row editor-link details-link">Details View<span class="view-meta">/details/<span data-href="https://blog.codepen.io/documentation/views/details-view/" class="learn-more inline-q"><svg viewBox="0 0 100 100" width="13" height="13"><path d="M75 0H25C11.19 0 0 11.193 0 25v50c0 13.802 11.19 25 25 25h50c13.811 0 25-11.198 25-25V25c0-13.807-11.189-25-25-25zM57.203 85.067H41.504V72.542h15.699v12.525zm16.154-43.026c-.84 2.066-1.873 3.834-3.102 5.298a20.59 20.59 0 01-4.101 3.751 91.479 91.479 0 00-4.249 3.101c-1.333 1.034-1.553 2.214-2.596 3.547-1.025 1.335-.977 3.004-.977 5.006v3.924H41.668v-4.623c0-2.864 1.366-5.265 2.27-7.202.896-1.935 2.255-3.581 3.459-4.947 1.196-1.367 2.62-2.556 3.955-3.557 1.327-.993 2.637-1.993 3.776-2.995 1.123-1.001 2.083-2.1 2.783-3.304.7-1.197 1.043-2.694.977-4.5 0-3.06-.74-5.33-2.245-6.795-1.498-1.465-3.582-2.206-6.25-2.206-1.8 0-3.337.351-4.639 1.05a9.172 9.172 0 00-3.199 2.808c-.837 1.163-1.448 3.593-1.847 5.156-.407 1.57-.602 6.115-.602 6.115H25.399c.073-8.333.684-7.963 1.855-10.965 1.164-2.995 2.8-6.132 4.899-8.33 2.099-2.197 4.63-4.179 7.601-5.417a25.782 25.782 0 019.945-1.977c4.736 0 8.683.581 11.856 1.876 3.167 1.302 5.713 2.889 7.65 4.817 1.929 1.937 3.312 4.004 4.149 6.234.831 2.237 1.245 4.313 1.245 6.242.002 3.206-.412 5.827-1.242 7.893z"></path></svg></span></span></a><a id="full-link" href="https://codepen.io/debrafontenot/full/mdOWdOO" class="view-switcher-row editor-link full-link">Full Page View<span class="view-meta">/full/<span data-href="https://blog.codepen.io/documentation/views/full-page-view/" class="learn-more inline-q"><svg viewBox="0 0 100 100" width="13" height="13"><path d="M75 0H25C11.19 0 0 11.193 0 25v50c0 13.802 11.19 25 25 25h50c13.811 0 25-11.198 25-25V25c0-13.807-11.189-25-25-25zM57.203 85.067H41.504V72.542h15.699v12.525zm16.154-43.026c-.84 2.066-1.873 3.834-3.102 5.298a20.59 20.59 0 01-4.101 3.751 91.479 91.479 0 00-4.249 3.101c-1.333 1.034-1.553 2.214-2.596 3.547-1.025 1.335-.977 3.004-.977 5.006v3.924H41.668v-4.623c0-2.864 1.366-5.265 2.27-7.202.896-1.935 2.255-3.581 3.459-4.947 1.196-1.367 2.62-2.556 3.955-3.557 1.327-.993 2.637-1.993 3.776-2.995 1.123-1.001 2.083-2.1 2.783-3.304.7-1.197 1.043-2.694.977-4.5 0-3.06-.74-5.33-2.245-6.795-1.498-1.465-3.582-2.206-6.25-2.206-1.8 0-3.337.351-4.639 1.05a9.172 9.172 0 00-3.199 2.808c-.837 1.163-1.448 3.593-1.847 5.156-.407 1.57-.602 6.115-.602 6.115H25.399c.073-8.333.684-7.963 1.855-10.965 1.164-2.995 2.8-6.132 4.899-8.33 2.099-2.197 4.63-4.179 7.601-5.417a25.782 25.782 0 019.945-1.977c4.736 0 8.683.581 11.856 1.876 3.167 1.302 5.713 2.889 7.65 4.817 1.929 1.937 3.312 4.004 4.149 6.234.831 2.237 1.245 4.313 1.245 6.242.002 3.206-.412 5.827-1.242 7.893z"></path></svg></span></span></a><a id="debug-link" href="https://codepen.io/debrafontenot/debug/mdOWdOO" class="view-switcher-row editor-link debug-link" target="_blank" rel="noopener">Debug mode<span class="view-meta">/debug/<span data-href="https://blog.codepen.io/documentation/views/debug-view/" class="learn-more inline-q"><svg viewBox="0 0 100 100" width="13" height="13"><path d="M75 0H25C11.19 0 0 11.193 0 25v50c0 13.802 11.19 25 25 25h50c13.811 0 25-11.198 25-25V25c0-13.807-11.189-25-25-25zM57.203 85.067H41.504V72.542h15.699v12.525zm16.154-43.026c-.84 2.066-1.873 3.834-3.102 5.298a20.59 20.59 0 01-4.101 3.751 91.479 91.479 0 00-4.249 3.101c-1.333 1.034-1.553 2.214-2.596 3.547-1.025 1.335-.977 3.004-.977 5.006v3.924H41.668v-4.623c0-2.864 1.366-5.265 2.27-7.202.896-1.935 2.255-3.581 3.459-4.947 1.196-1.367 2.62-2.556 3.955-3.557 1.327-.993 2.637-1.993 3.776-2.995 1.123-1.001 2.083-2.1 2.783-3.304.7-1.197 1.043-2.694.977-4.5 0-3.06-.74-5.33-2.245-6.795-1.498-1.465-3.582-2.206-6.25-2.206-1.8 0-3.337.351-4.639 1.05a9.172 9.172 0 00-3.199 2.808c-.837 1.163-1.448 3.593-1.847 5.156-.407 1.57-.602 6.115-.602 6.115H25.399c.073-8.333.684-7.963 1.855-10.965 1.164-2.995 2.8-6.132 4.899-8.33 2.099-2.197 4.63-4.179 7.601-5.417a25.782 25.782 0 019.945-1.977c4.736 0 8.683.581 11.856 1.876 3.167 1.302 5.713 2.889 7.65 4.817 1.929 1.937 3.312 4.004 4.149 6.234.831 2.237 1.245 4.313 1.245 6.242.002 3.206-.412 5.827-1.242 7.893z"></path></svg></span></span></a><a id="live-link" href="https://codepen.io/debrafontenot/live/mdOWdOO" class="view-switcher-row editor-link live-link" target="_blank" rel="noopener"><span class="badge-pro text badge" data-test-id="pro-badge">PRO</span> Live View<span class="view-meta">/live/<span data-href="http://blog.codepen.io/documentation/pro-features/live-view/" class="learn-more inline-q"><svg viewBox="0 0 100 100" width="13" height="13"><path d="M75 0H25C11.19 0 0 11.193 0 25v50c0 13.802 11.19 25 25 25h50c13.811 0 25-11.198 25-25V25c0-13.807-11.189-25-25-25zM57.203 85.067H41.504V72.542h15.699v12.525zm16.154-43.026c-.84 2.066-1.873 3.834-3.102 5.298a20.59 20.59 0 01-4.101 3.751 91.479 91.479 0 00-4.249 3.101c-1.333 1.034-1.553 2.214-2.596 3.547-1.025 1.335-.977 3.004-.977 5.006v3.924H41.668v-4.623c0-2.864 1.366-5.265 2.27-7.202.896-1.935 2.255-3.581 3.459-4.947 1.196-1.367 2.62-2.556 3.955-3.557 1.327-.993 2.637-1.993 3.776-2.995 1.123-1.001 2.083-2.1 2.783-3.304.7-1.197 1.043-2.694.977-4.5 0-3.06-.74-5.33-2.245-6.795-1.498-1.465-3.582-2.206-6.25-2.206-1.8 0-3.337.351-4.639 1.05a9.172 9.172 0 00-3.199 2.808c-.837 1.163-1.448 3.593-1.847 5.156-.407 1.57-.602 6.115-.602 6.115H25.399c.073-8.333.684-7.963 1.855-10.965 1.164-2.995 2.8-6.132 4.899-8.33 2.099-2.197 4.63-4.179 7.601-5.417a25.782 25.782 0 019.945-1.977c4.736 0 8.683.581 11.856 1.876 3.167 1.302 5.713 2.889 7.65 4.817 1.929 1.937 3.312 4.004 4.149 6.234.831 2.237 1.245 4.313 1.245 6.242.002 3.206-.412 5.827-1.242 7.893z"></path></svg></span></span></a><a id="collab-link" href="https://codepen.io/debrafontenot/collab/mdOWdOO" class="view-switcher-row editor-link collab-link"><span class="badge-pro text badge" data-test-id="pro-badge">PRO</span> Collab Mode<span class="view-meta">/collab/<span data-href="https://blog.codepen.io/documentation/pro-features/collab-mode/" class="learn-more inline-q"><svg viewBox="0 0 100 100" width="13" height="13"><path d="M75 0H25C11.19 0 0 11.193 0 25v50c0 13.802 11.19 25 25 25h50c13.811 0 25-11.198 25-25V25c0-13.807-11.189-25-25-25zM57.203 85.067H41.504V72.542h15.699v12.525zm16.154-43.026c-.84 2.066-1.873 3.834-3.102 5.298a20.59 20.59 0 01-4.101 3.751 91.479 91.479 0 00-4.249 3.101c-1.333 1.034-1.553 2.214-2.596 3.547-1.025 1.335-.977 3.004-.977 5.006v3.924H41.668v-4.623c0-2.864 1.366-5.265 2.27-7.202.896-1.935 2.255-3.581 3.459-4.947 1.196-1.367 2.62-2.556 3.955-3.557 1.327-.993 2.637-1.993 3.776-2.995 1.123-1.001 2.083-2.1 2.783-3.304.7-1.197 1.043-2.694.977-4.5 0-3.06-.74-5.33-2.245-6.795-1.498-1.465-3.582-2.206-6.25-2.206-1.8 0-3.337.351-4.639 1.05a9.172 9.172 0 00-3.199 2.808c-.837 1.163-1.448 3.593-1.847 5.156-.407 1.57-.602 6.115-.602 6.115H25.399c.073-8.333.684-7.963 1.855-10.965 1.164-2.995 2.8-6.132 4.899-8.33 2.099-2.197 4.63-4.179 7.601-5.417a25.782 25.782 0 019.945-1.977c4.736 0 8.683.581 11.856 1.876 3.167 1.302 5.713 2.889 7.65 4.817 1.929 1.937 3.312 4.004 4.149 6.234.831 2.237 1.245 4.313 1.245 6.242.002 3.206-.412 5.827-1.242 7.893z"></path></svg></span></span></a><a id="professor-link" href="https://codepen.io/debrafontenot/professor/mdOWdOO" class="view-switcher-row editor-link professor-link"><span class="badge-pro text badge" data-test-id="pro-badge">PRO</span> Professor Mode<span class="view-meta">/professor/<span data-href="http://blog.codepen.io/documentation/pro-features/professor-mode/" class="learn-more inline-q"><svg viewBox="0 0 100 100" width="13" height="13"><path d="M75 0H25C11.19 0 0 11.193 0 25v50c0 13.802 11.19 25 25 25h50c13.811 0 25-11.198 25-25V25c0-13.807-11.189-25-25-25zM57.203 85.067H41.504V72.542h15.699v12.525zm16.154-43.026c-.84 2.066-1.873 3.834-3.102 5.298a20.59 20.59 0 01-4.101 3.751 91.479 91.479 0 00-4.249 3.101c-1.333 1.034-1.553 2.214-2.596 3.547-1.025 1.335-.977 3.004-.977 5.006v3.924H41.668v-4.623c0-2.864 1.366-5.265 2.27-7.202.896-1.935 2.255-3.581 3.459-4.947 1.196-1.367 2.62-2.556 3.955-3.557 1.327-.993 2.637-1.993 3.776-2.995 1.123-1.001 2.083-2.1 2.783-3.304.7-1.197 1.043-2.694.977-4.5 0-3.06-.74-5.33-2.245-6.795-1.498-1.465-3.582-2.206-6.25-2.206-1.8 0-3.337.351-4.639 1.05a9.172 9.172 0 00-3.199 2.808c-.837 1.163-1.448 3.593-1.847 5.156-.407 1.57-.602 6.115-.602 6.115H25.399c.073-8.333.684-7.963 1.855-10.965 1.164-2.995 2.8-6.132 4.899-8.33 2.099-2.197 4.63-4.179 7.601-5.417a25.782 25.782 0 019.945-1.977c4.736 0 8.683.581 11.856 1.876 3.167 1.302 5.713 2.889 7.65 4.817 1.929 1.937 3.312 4.004 4.149 6.234.831 2.237 1.245 4.313 1.245 6.242.002 3.206-.412 5.827-1.242 7.893z"></path></svg></span></span></a><a id="pres-link" href="https://codepen.io/debrafontenot/pres/mdOWdOO" class="view-switcher-row editor-link pres-link"><span class="badge-pro text badge" data-test-id="pro-badge">PRO</span> Presentation Mode<span class="view-meta">/pres/<span data-href="http://blog.codepen.io/documentation/pro-features/presentation-mode/" class="learn-more inline-q"><svg viewBox="0 0 100 100" width="13" height="13"><path d="M75 0H25C11.19 0 0 11.193 0 25v50c0 13.802 11.19 25 25 25h50c13.811 0 25-11.198 25-25V25c0-13.807-11.189-25-25-25zM57.203 85.067H41.504V72.542h15.699v12.525zm16.154-43.026c-.84 2.066-1.873 3.834-3.102 5.298a20.59 20.59 0 01-4.101 3.751 91.479 91.479 0 00-4.249 3.101c-1.333 1.034-1.553 2.214-2.596 3.547-1.025 1.335-.977 3.004-.977 5.006v3.924H41.668v-4.623c0-2.864 1.366-5.265 2.27-7.202.896-1.935 2.255-3.581 3.459-4.947 1.196-1.367 2.62-2.556 3.955-3.557 1.327-.993 2.637-1.993 3.776-2.995 1.123-1.001 2.083-2.1 2.783-3.304.7-1.197 1.043-2.694.977-4.5 0-3.06-.74-5.33-2.245-6.795-1.498-1.465-3.582-2.206-6.25-2.206-1.8 0-3.337.351-4.639 1.05a9.172 9.172 0 00-3.199 2.808c-.837 1.163-1.448 3.593-1.847 5.156-.407 1.57-.602 6.115-.602 6.115H25.399c.073-8.333.684-7.963 1.855-10.965 1.164-2.995 2.8-6.132 4.899-8.33 2.099-2.197 4.63-4.179 7.601-5.417a25.782 25.782 0 019.945-1.977c4.736 0 8.683.581 11.856 1.876 3.167 1.302 5.713 2.889 7.65 4.817 1.929 1.937 3.312 4.004 4.149 6.234.831 2.237 1.245 4.313 1.245 6.242.002 3.206-.412 5.827-1.242 7.893z"></path></svg></span></span></a></nav></div><div class="EditorHeaderViewSwitcher_switch-2lMOR editor-layout-section"><h3>Editor Layout:</h3><div class="editor-layout-buttons"><a id="left-layout" href="https://codepen.io/debrafontenot/pen/mdOWdOO/left/" class="layout-change-icon" data-layout-type="left"><span class="screen-reader-text">Use Left Layout</span><svg viewBox="0 0 20 20" class="editor-left rotate-cc90" width="20" height="20"><path d="M0 9.002C0 8.45.455 8 .992 8h18.016c.548 0 .992.456.992 1.002v9.996c0 .553-.455 1.002-.992 1.002H.992C.444 20 0 19.544 0 18.998V9.002zm0-8C0 .45.451 0 .99 0h4.02A.99.99 0 016 1.003v4.994C6 6.551 5.549 7 5.01 7H.99A.99.99 0 010 5.997V1.003zm7 0C7 .45 7.451 0 7.99 0h4.02A.99.99 0 0113 1.003v4.994C13 6.551 12.549 7 12.01 7H7.99A.99.99 0 017 5.997V1.003zm7 0C14 .45 14.451 0 14.99 0h4.02A.99.99 0 0120 1.003v4.994C20 6.551 19.549 7 19.01 7h-4.02A.99.99 0 0114 5.997V1.003z"></path></svg></a><a id="top-layout" href="https://codepen.io/debrafontenot/pen/mdOWdOO/top/" class="layout-change-icon" data-layout-type="top"><span class="screen-reader-text">Use Top Layout</span><svg viewBox="0 0 20 20" class="new-pen" width="20" height="20"><path d="M0 9.002C0 8.45.455 8 .992 8h18.016c.548 0 .992.456.992 1.002v9.996c0 .553-.455 1.002-.992 1.002H.992C.444 20 0 19.544 0 18.998V9.002zm0-8C0 .45.451 0 .99 0h4.02A.99.99 0 016 1.003v4.994C6 6.551 5.549 7 5.01 7H.99A.99.99 0 010 5.997V1.003zm7 0C7 .45 7.451 0 7.99 0h4.02A.99.99 0 0113 1.003v4.994C13 6.551 12.549 7 12.01 7H7.99A.99.99 0 017 5.997V1.003zm7 0C14 .45 14.451 0 14.99 0h4.02A.99.99 0 0120 1.003v4.994C20 6.551 19.549 7 19.01 7h-4.02A.99.99 0 0114 5.997V1.003z"></path></svg></a><a id="right-layout" href="https://codepen.io/debrafontenot/pen/mdOWdOO/right/" class="layout-change-icon" data-layout-type="right"><span class="screen-reader-text">Use Right Layout</span><svg viewBox="0 0 20 20" class="editor-right rotate-c90" width="20" height="20"><path d="M0 9.002C0 8.45.455 8 .992 8h18.016c.548 0 .992.456.992 1.002v9.996c0 .553-.455 1.002-.992 1.002H.992C.444 20 0 19.544 0 18.998V9.002zm0-8C0 .45.451 0 .99 0h4.02A.99.99 0 016 1.003v4.994C6 6.551 5.549 7 5.01 7H.99A.99.99 0 010 5.997V1.003zm7 0C7 .45 7.451 0 7.99 0h4.02A.99.99 0 0113 1.003v4.994C13 6.551 12.549 7 12.01 7H7.99A.99.99 0 017 5.997V1.003zm7 0C14 .45 14.451 0 14.99 0h4.02A.99.99 0 0120 1.003v4.994C20 6.551 19.549 7 19.01 7h-4.02A.99.99 0 0114 5.997V1.003z"></path></svg></a></div></div></div></div><span class="ButtonGroup-module_root-1QJQV pin-button-group ButtonGroup-module_noMargin-1R-xG"><button title="Pin Item" class="Button-module_root-2XLnp button button-editor-outline pin-button" data-variant="outline"><svg viewBox="0 0 69 94"><path d="M52.574 70.837c2.547-7.953 1.484-16.383-2.442-23.31l10.066-21.632 4.344 2.02L69 18.34 29.581 0l-4.457 9.578 4.344 2.02L19.402 33.23C11.578 34.695 4.445 39.309 0 46.383l23.504 10.934L9.387 87.653c-1.188 2.546-.898 5.21.629 5.921 1.531.715 3.754-.789 4.937-3.331l14.113-30.336 23.508 10.93z"></path></svg></button><button title="View Pins" class="Button-module_root-2XLnp" style="padding-left: 5px; padding-right: 5px;"><svg viewBox="-122.9 121.1 105.9 61.9" style="width: 10px;"><path d="M-63.2 180.3l43.5-43.5c1.7-1.7 2.7-4 2.7-6.5s-1-4.8-2.7-6.5c-1.7-1.7-4-2.7-6.5-2.7s-4.8 1-6.5 2.7L-69.9 161l-37.2-37.2c-1.7-1.7-4-2.7-6.5-2.7s-4.8 1-6.5 2.6c-1.9 1.8-2.8 4.2-2.8 6.6 0 2.3.9 4.6 2.6 6.5 11.4 11.5 41 41.2 43 43.3l.2.2c3.6 3.6 10.3 3.6 13.9 0z"></path></svg></button></span><div class="drawer PinsDrawer_drawer-1b66O PinsDrawer_headerDrawer-349KS Drawer_root-2lj8D"><h3>Pinned Items</h3><p class="no-pins-yet">You don't have any <a class="docs-link" href="https://blog.codepen.io/documentation/features/pinned-items/" rel="noopener noreferrer" target="_blank">pinned items</a> yet. You can pin any Pen, Post, or Collection (from their respective pages) for easy access here.</p></div></div></div><div class="UserMenu_userMenuDropdownParent-1D74o"><nav title="User Menu"><button class="UserMenu_userMenuButton-2YSFL invisible-button" aria-haspopup="true" aria-expanded="false" data-test-id="user-menu-button"><img src="./CSS + HTML Practice_files/default.png" width="44" height="44" class="user-avatar" alt="User Avatar" data-test-id="user-avatar"><span class="screen-reader-text">User Menu</span></button><ul class="UserMenu_userMenu-31Xx8" data-open="false" data-test-id="user-menu"></ul></nav></div></div></header>
+<div class="item-settings-modal tab-layout tab-layout-modal pen " id="item-settings-modal">
+<header class="item-settings-modal-header tab-layout-header">
+<h2 class="item-settings-modal-header-title tab-layout-header-title">Pen Settings</h2>
+<div class="save-and-close-wrap">
+<button type="button" class="button mini-button button-no-right-margin close" id="top-close-settings">
+<svg class="icon-x" viewBox="0 0 100 100">
+<path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+</svg>
+</button>
+</div>
+</header>
+<div class="tabs tab-layout-wrapper settings-tabs-wrapper">
+<nav id="settings-tabs" class="no-mobile-nav tab-layout-tabs item-settings-tabs  notranslate" translate="no">
+<div class="tab-layout-tab-group">
+<a id="settings-html-tab" href="https://codepen.io/debrafontenot/pen/mdOWdOO#settings-html" class="settings-tab-html" data-type="html">
+HTML
+</a>
+<a id="settings-css-tab" href="https://codepen.io/debrafontenot/pen/mdOWdOO#settings-css" class="settings-tab-css" data-type="css">
+CSS
+</a>
+<a id="settings-js-tab" href="https://codepen.io/debrafontenot/pen/mdOWdOO#settings-js" class="settings-tab-js" data-type="js">
+JS
+</a>
+</div>
+<div class="tab-layout-tab-group">
+<a id="settings-details-tab" href="https://codepen.io/debrafontenot/pen/mdOWdOO#settings-details" class="settings-tab-details active" data-type="details">
+Pen Details
+</a>
+<a id="settings-privacy-tab" href="https://codepen.io/debrafontenot/pen/mdOWdOO#settings-privacy" class="settings-tab-privacy" data-type="privacy">
+Privacy
+<span class="badge badge-pro text">PRO</span>
+</a>
+<a id="settings-behavior-tab" href="https://codepen.io/debrafontenot/pen/mdOWdOO#settings-behavior" class="settings-tab-behavior" data-type="behavior">
+Behavior
+</a>
+<a id="settings-editor-tab" href="https://codepen.io/debrafontenot/pen/mdOWdOO#settings-editor" class="settings-tab-editor" data-type="editor">
+Editor
+</a>
+<a id="settings-template-tab" href="https://codepen.io/debrafontenot/pen/mdOWdOO#settings-template" class="settings-tab-template" data-type="template">
+Template
+</a>
+<a id="settings-screenshot-tab" href="https://codepen.io/debrafontenot/pen/mdOWdOO#settings-screenshot" class="settings-tab-screenshot" data-type="screenshot">
+Screenshot
+<span class="badge badge-pro text">PRO</span>
+</a>
+</div>
+</nav>
+<div class="settings tab-page" id="settings-html">
+<h3 aria-label="HTML">HTML</h3>
+<div class="settings-row top-label-form normal-labels item-settings-row-odd">
+<h4>
+<label for="html-preprocessor">
+HTML Preprocessor
+</label>
+</h4>
+<div class="help-flyout-link">
+<svg class="icon-help" viewBox="0 0 100 100">
+<path d="M75,0H25C11.19,0,0,11.193,0,25v50c0,13.802,11.19,25,25,25h50c13.811,0,25-11.198,25-25V25C100,11.193,88.811,0,75,0z
+   M57.203,85.067H41.504V72.542h15.699V85.067L57.203,85.067z M73.357,42.041c-0.84,2.066-1.873,3.834-3.102,5.298
+  c-1.235,1.474-2.604,2.718-4.101,3.751c-1.498,1.035-2.922,2.066-4.249,3.101c-1.333,1.034-1.553,2.214-2.596,3.547
+  c-1.025,1.335-0.977,3.004-0.977,5.006v3.924H41.668v-4.623c0-2.864,1.366-5.265,2.27-7.202c0.896-1.935,2.255-3.581,3.459-4.947
+  c1.196-1.367,2.62-2.556,3.955-3.557c1.327-0.993,2.637-1.993,3.776-2.995c1.123-1.001,2.083-2.1,2.783-3.304
+  c0.7-1.197,1.043-2.694,0.977-4.5c0-3.06-0.74-5.33-2.245-6.795c-1.498-1.465-3.582-2.206-6.25-2.206c-1.8,0-3.337,0.351-4.639,1.05
+  c-1.303,0.7-2.369,1.635-3.199,2.808c-0.837,1.163-1.448,3.593-1.847,5.156c-0.407,1.57-0.602,6.115-0.602,6.115H25.399
+  c0.073-8.333,0.684-7.963,1.855-10.965c1.164-2.995,2.8-6.132,4.899-8.33c2.099-2.197,4.63-4.179,7.601-5.417
+  c2.962-1.228,6.283-1.977,9.945-1.977c4.736,0,8.683,0.581,11.856,1.876c3.167,1.302,5.713,2.889,7.65,4.817
+  c1.929,1.937,3.312,4.004,4.149,6.234c0.831,2.237,1.245,4.313,1.245,6.242C74.601,37.354,74.187,39.975,73.357,42.041z"></path>
+</svg>
+<div class="help-flyout help-flyout-reverse">
+<h5>About HTML Preprocessors</h5>
+<svg class="icon-x" viewBox="0 0 100 100">
+<path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+</svg>
+<p>HTML preprocessors can make writing HTML more powerful or convenient. For instance, Markdown is designed to be easier to write and read for text documents and you could write a loop in Pug.</p>
+<p><a href="https://blog.codepen.io/documentation/editor/using-html-preprocessors/" target="_blank" rel="noopener">Learn more</a> · <a href="https://codepen.io/versions/" target="_blank" rel="noopener">Versions</a></p>
+</div>
+</div>
+<div class="custom-select-wrap">
+<select name="html-preprocessor" id="html-preprocessor" class="fullwidth">
+<option value="none">None</option>
+<option value="haml">Haml</option>
+<option value="markdown">Markdown</option>
+<option value="slim">Slim</option>
+<option value="pug">Pug</option>
+</select>
+<div class="select-icon">
+<svg viewBox="-122.9 121.1 105.9 61.9" class="icon-arrow-down-mini">
+<path d="M-63.2,180.3l43.5-43.5c1.7-1.7,2.7-4,2.7-6.5s-1-4.8-2.7-6.5c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.7l-37.2,37.2l-37.2-37.2
+        c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.6c-1.9,1.8-2.8,4.2-2.8,6.6c0,2.3,0.9,4.6,2.6,6.5l0,0c11.4,11.5,41,41.2,43,43.3l0.2,0.2
+        C-73.5,183.9-66.8,183.9-63.2,180.3z"></path>
+</svg>
+<svg viewBox="-122.9 121.1 105.9 61.9" class="icon-arrow-down-mini">
+<path d="M-63.2,180.3l43.5-43.5c1.7-1.7,2.7-4,2.7-6.5s-1-4.8-2.7-6.5c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.7l-37.2,37.2l-37.2-37.2
+        c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.6c-1.9,1.8-2.8,4.2-2.8,6.6c0,2.3,0.9,4.6,2.6,6.5l0,0c11.4,11.5,41,41.2,43,43.3l0.2,0.2
+        C-73.5,183.9-66.8,183.9-63.2,180.3z"></path>
+</svg>
+</div>
+</div>
+</div>
+<div class="settings-row top-label-form normal-labels item-settings-row-even">
+<h4>
+<label for="html-classes">Add Class(es) to &lt;html&gt;</label>
+</h4>
+<div class="help-flyout-link">
+<svg class="icon-help" viewBox="0 0 100 100">
+<path d="M75,0H25C11.19,0,0,11.193,0,25v50c0,13.802,11.19,25,25,25h50c13.811,0,25-11.198,25-25V25C100,11.193,88.811,0,75,0z
+   M57.203,85.067H41.504V72.542h15.699V85.067L57.203,85.067z M73.357,42.041c-0.84,2.066-1.873,3.834-3.102,5.298
+  c-1.235,1.474-2.604,2.718-4.101,3.751c-1.498,1.035-2.922,2.066-4.249,3.101c-1.333,1.034-1.553,2.214-2.596,3.547
+  c-1.025,1.335-0.977,3.004-0.977,5.006v3.924H41.668v-4.623c0-2.864,1.366-5.265,2.27-7.202c0.896-1.935,2.255-3.581,3.459-4.947
+  c1.196-1.367,2.62-2.556,3.955-3.557c1.327-0.993,2.637-1.993,3.776-2.995c1.123-1.001,2.083-2.1,2.783-3.304
+  c0.7-1.197,1.043-2.694,0.977-4.5c0-3.06-0.74-5.33-2.245-6.795c-1.498-1.465-3.582-2.206-6.25-2.206c-1.8,0-3.337,0.351-4.639,1.05
+  c-1.303,0.7-2.369,1.635-3.199,2.808c-0.837,1.163-1.448,3.593-1.847,5.156c-0.407,1.57-0.602,6.115-0.602,6.115H25.399
+  c0.073-8.333,0.684-7.963,1.855-10.965c1.164-2.995,2.8-6.132,4.899-8.33c2.099-2.197,4.63-4.179,7.601-5.417
+  c2.962-1.228,6.283-1.977,9.945-1.977c4.736,0,8.683,0.581,11.856,1.876c3.167,1.302,5.713,2.889,7.65,4.817
+  c1.929,1.937,3.312,4.004,4.149,6.234c0.831,2.237,1.245,4.313,1.245,6.242C74.601,37.354,74.187,39.975,73.357,42.041z"></path>
+</svg>
+<div class="help-flyout help-flyout-reverse">
+<h5>Adding Classes</h5>
+<svg class="icon-x" viewBox="0 0 100 100">
+<path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+</svg>
+<p>In CodePen, whatever you write in the HTML editor is what goes within the <code>&lt;body&gt;</code> tags in <a target="_blank" rel="noopener" href="https://blog.codepen.io/documentation/features/preview-template/">a basic HTML5 template</a>. So you don't have access to higher-up elements like the <code>&lt;html&gt;</code> tag. If you want to add classes there that can affect the whole document, this is the place to do it.</p>
+</div>
+</div>
+<input type="text" id="html-classes" name="html-classes" class="fullwidth" placeholder="e.g. single post post-1234" maxlength="250">
+</div>
+<div class="settings-row top-label-form normal-labels item-settings-row-odd">
+<h4>
+<label for="head-content">Stuff for &lt;head&gt;</label>
+</h4>
+<div class="help-flyout-link">
+<svg class="icon-help" viewBox="0 0 100 100">
+<path d="M75,0H25C11.19,0,0,11.193,0,25v50c0,13.802,11.19,25,25,25h50c13.811,0,25-11.198,25-25V25C100,11.193,88.811,0,75,0z
+   M57.203,85.067H41.504V72.542h15.699V85.067L57.203,85.067z M73.357,42.041c-0.84,2.066-1.873,3.834-3.102,5.298
+  c-1.235,1.474-2.604,2.718-4.101,3.751c-1.498,1.035-2.922,2.066-4.249,3.101c-1.333,1.034-1.553,2.214-2.596,3.547
+  c-1.025,1.335-0.977,3.004-0.977,5.006v3.924H41.668v-4.623c0-2.864,1.366-5.265,2.27-7.202c0.896-1.935,2.255-3.581,3.459-4.947
+  c1.196-1.367,2.62-2.556,3.955-3.557c1.327-0.993,2.637-1.993,3.776-2.995c1.123-1.001,2.083-2.1,2.783-3.304
+  c0.7-1.197,1.043-2.694,0.977-4.5c0-3.06-0.74-5.33-2.245-6.795c-1.498-1.465-3.582-2.206-6.25-2.206c-1.8,0-3.337,0.351-4.639,1.05
+  c-1.303,0.7-2.369,1.635-3.199,2.808c-0.837,1.163-1.448,3.593-1.847,5.156c-0.407,1.57-0.602,6.115-0.602,6.115H25.399
+  c0.073-8.333,0.684-7.963,1.855-10.965c1.164-2.995,2.8-6.132,4.899-8.33c2.099-2.197,4.63-4.179,7.601-5.417
+  c2.962-1.228,6.283-1.977,9.945-1.977c4.736,0,8.683,0.581,11.856,1.876c3.167,1.302,5.713,2.889,7.65,4.817
+  c1.929,1.937,3.312,4.004,4.149,6.234c0.831,2.237,1.245,4.313,1.245,6.242C74.601,37.354,74.187,39.975,73.357,42.041z"></path>
+</svg>
+<div class="help-flyout help-flyout-reverse">
+<h5>About the &lt;head&gt;</h5>
+<svg class="icon-x" viewBox="0 0 100 100">
+<path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+</svg>
+<p>In CodePen, whatever you write in the HTML editor is what goes within the <code>&lt;body&gt;</code> tags in <a target="_blank" rel="noopener" href="https://blog.codepen.io/documentation/features/preview-template/">a basic HTML5 template</a>. If you need things in the <code>&lt;head&gt;</code> of the document, put that code here.</p>
+</div>
+</div>
+<div class="head-content-wrapper">
+<textarea id="head-content" name="head-content" class="fullwidth is-code head-content notranslate" translate="no" placeholder="e.g. &lt;meta&gt;, &lt;link&gt;, &lt;script&gt;"></textarea>
+<span class="insecure-resource-tooltip">
+<div class="help-flyout-link">
+<span class="icon-help">!</span>
+<div class="help-flyout help-flyout-reverse">
+<svg class="icon-x" viewBox="0 0 100 100">
+<path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+</svg>
+<h5>Insecure Resource</h5>
+<p>The resource you are linking to is using the 'http' protocol, which may not work when the browser is using https.</p>
+</div>
+</div>
+</span>
+</div>
+<button class="button mini-button button-medium" id="meta-tag-insert">↑ Insert the most common viewport meta tag</button>
+</div>
+</div>
+<div class="settings tab-page" id="settings-css">
+<h3 aria-label="CSS">CSS</h3>
+<div class="settings-row top-label-form normal-labels item-settings-row-odd">
+<h4>
+<label for="css-preprocessor">
+CSS Preprocessor
+</label>
+</h4>
+<div class="help-flyout-link">
+<svg class="icon-help" viewBox="0 0 100 100">
+<path d="M75,0H25C11.19,0,0,11.193,0,25v50c0,13.802,11.19,25,25,25h50c13.811,0,25-11.198,25-25V25C100,11.193,88.811,0,75,0z
+   M57.203,85.067H41.504V72.542h15.699V85.067L57.203,85.067z M73.357,42.041c-0.84,2.066-1.873,3.834-3.102,5.298
+  c-1.235,1.474-2.604,2.718-4.101,3.751c-1.498,1.035-2.922,2.066-4.249,3.101c-1.333,1.034-1.553,2.214-2.596,3.547
+  c-1.025,1.335-0.977,3.004-0.977,5.006v3.924H41.668v-4.623c0-2.864,1.366-5.265,2.27-7.202c0.896-1.935,2.255-3.581,3.459-4.947
+  c1.196-1.367,2.62-2.556,3.955-3.557c1.327-0.993,2.637-1.993,3.776-2.995c1.123-1.001,2.083-2.1,2.783-3.304
+  c0.7-1.197,1.043-2.694,0.977-4.5c0-3.06-0.74-5.33-2.245-6.795c-1.498-1.465-3.582-2.206-6.25-2.206c-1.8,0-3.337,0.351-4.639,1.05
+  c-1.303,0.7-2.369,1.635-3.199,2.808c-0.837,1.163-1.448,3.593-1.847,5.156c-0.407,1.57-0.602,6.115-0.602,6.115H25.399
+  c0.073-8.333,0.684-7.963,1.855-10.965c1.164-2.995,2.8-6.132,4.899-8.33c2.099-2.197,4.63-4.179,7.601-5.417
+  c2.962-1.228,6.283-1.977,9.945-1.977c4.736,0,8.683,0.581,11.856,1.876c3.167,1.302,5.713,2.889,7.65,4.817
+  c1.929,1.937,3.312,4.004,4.149,6.234c0.831,2.237,1.245,4.313,1.245,6.242C74.601,37.354,74.187,39.975,73.357,42.041z"></path>
+</svg>
+<div class="help-flyout help-flyout-reverse">
+<h5>About CSS Preprocessors</h5>
+<svg class="icon-x" viewBox="0 0 100 100">
+<path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+</svg>
+<p>CSS preprocessors help make authoring CSS easier. All of them offer things like variables and mixins to provide convenient abstractions.</p>
+<p><a href="https://blog.codepen.io/documentation/editor/using-css-preprocessors/" target="_blank">Learn more</a> · <a href="https://codepen.io/versions/" target="_blank">Versions</a></p>
+</div>
+</div>
+<div class="custom-select-wrap">
+<select name="css-preprocessor" id="css-preprocessor" class="fullwidth css-preprocessor">
+<option value="none">None</option>
+<option value="less">Less</option>
+<option value="scss">SCSS</option>
+<option value="sass">Sass</option>
+<option value="stylus">Stylus</option>
+<option value="postcss">PostCSS</option>
+</select>
+<div class="select-icon">
+<svg viewBox="-122.9 121.1 105.9 61.9" class="icon-arrow-down-mini">
+<path d="M-63.2,180.3l43.5-43.5c1.7-1.7,2.7-4,2.7-6.5s-1-4.8-2.7-6.5c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.7l-37.2,37.2l-37.2-37.2
+        c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.6c-1.9,1.8-2.8,4.2-2.8,6.6c0,2.3,0.9,4.6,2.6,6.5l0,0c11.4,11.5,41,41.2,43,43.3l0.2,0.2
+        C-73.5,183.9-66.8,183.9-63.2,180.3z"></path>
+</svg>
+<svg viewBox="-122.9 121.1 105.9 61.9" class="icon-arrow-down-mini">
+<path d="M-63.2,180.3l43.5-43.5c1.7-1.7,2.7-4,2.7-6.5s-1-4.8-2.7-6.5c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.7l-37.2,37.2l-37.2-37.2
+        c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.6c-1.9,1.8-2.8,4.2-2.8,6.6c0,2.3,0.9,4.6,2.6,6.5l0,0c11.4,11.5,41,41.2,43,43.3l0.2,0.2
+        C-73.5,183.9-66.8,183.9-63.2,180.3z"></path>
+</svg>
+</div>
+</div>
+<div id="need-an-addon" class="align-right hide">
+<a id="css-need-an-addon-button" href="https://codepen.io/debrafontenot/pen/mdOWdOO#0" class="button button-medium mini-button need-an-addon-button">
+Need an add-on?
+</a>
+</div>
+<div class="add-ons add-ons-scss hide" id="add-ons"></div>
+</div>
+<div id="startercss-options-form" class="settings-row top-label-form item-settings-row-even">
+<h4>
+CSS Base
+</h4>
+<div class="help-flyout-link">
+<svg class="icon-help" viewBox="0 0 100 100">
+<path d="M75,0H25C11.19,0,0,11.193,0,25v50c0,13.802,11.19,25,25,25h50c13.811,0,25-11.198,25-25V25C100,11.193,88.811,0,75,0z
+   M57.203,85.067H41.504V72.542h15.699V85.067L57.203,85.067z M73.357,42.041c-0.84,2.066-1.873,3.834-3.102,5.298
+  c-1.235,1.474-2.604,2.718-4.101,3.751c-1.498,1.035-2.922,2.066-4.249,3.101c-1.333,1.034-1.553,2.214-2.596,3.547
+  c-1.025,1.335-0.977,3.004-0.977,5.006v3.924H41.668v-4.623c0-2.864,1.366-5.265,2.27-7.202c0.896-1.935,2.255-3.581,3.459-4.947
+  c1.196-1.367,2.62-2.556,3.955-3.557c1.327-0.993,2.637-1.993,3.776-2.995c1.123-1.001,2.083-2.1,2.783-3.304
+  c0.7-1.197,1.043-2.694,0.977-4.5c0-3.06-0.74-5.33-2.245-6.795c-1.498-1.465-3.582-2.206-6.25-2.206c-1.8,0-3.337,0.351-4.639,1.05
+  c-1.303,0.7-2.369,1.635-3.199,2.808c-0.837,1.163-1.448,3.593-1.847,5.156c-0.407,1.57-0.602,6.115-0.602,6.115H25.399
+  c0.073-8.333,0.684-7.963,1.855-10.965c1.164-2.995,2.8-6.132,4.899-8.33c2.099-2.197,4.63-4.179,7.601-5.417
+  c2.962-1.228,6.283-1.977,9.945-1.977c4.736,0,8.683,0.581,11.856,1.876c3.167,1.302,5.713,2.889,7.65,4.817
+  c1.929,1.937,3.312,4.004,4.149,6.234c0.831,2.237,1.245,4.313,1.245,6.242C74.601,37.354,74.187,39.975,73.357,42.041z"></path>
+</svg>
+<div class="help-flyout help-flyout-reverse">
+<h5>About CSS Base</h5>
+<svg class="icon-x" viewBox="0 0 100 100">
+<path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+</svg>
+<p>It's a common practice to apply CSS to a page that styles elements such that they are consistent across all browsers. We offer two of the most popular choices: <a href="https://necolas.github.io/normalize.css/" target="_blank" rel="noopener">normalize.css</a> and a <a href="http://meyerweb.com/eric/tools/css/reset/" target="_blank" rel="noopener">reset</a>. Or, choose <b>Neither</b> and nothing will be applied.</p>
+</div>
+</div>
+<ul class="radio-list">
+<li>
+<input type="radio" id="startercss-normalize" name="startercss" checked="" value="normalize">
+<label for="startercss-normalize" class="small-inline">Normalize</label>
+</li>
+<li>
+<input type="radio" id="startercss-reset" name="startercss" checked="" value="reset">
+<label for="startercss-reset" class="small-inline">Reset</label>
+</li>
+<li>
+<input type="radio" id="startercss-neither" name="startercss" checked="" value="neither">
+<label for="startercss-neither" class="small-inline">Neither</label>
+</li>
+</ul>
+</div>
+<div id="prefix-options-form" class="settings-row top-label-form item-settings-row-odd">
+<h4>
+Vendor Prefixing
+</h4>
+<div class="help-flyout-link">
+<svg class="icon-help" viewBox="0 0 100 100">
+<path d="M75,0H25C11.19,0,0,11.193,0,25v50c0,13.802,11.19,25,25,25h50c13.811,0,25-11.198,25-25V25C100,11.193,88.811,0,75,0z
+   M57.203,85.067H41.504V72.542h15.699V85.067L57.203,85.067z M73.357,42.041c-0.84,2.066-1.873,3.834-3.102,5.298
+  c-1.235,1.474-2.604,2.718-4.101,3.751c-1.498,1.035-2.922,2.066-4.249,3.101c-1.333,1.034-1.553,2.214-2.596,3.547
+  c-1.025,1.335-0.977,3.004-0.977,5.006v3.924H41.668v-4.623c0-2.864,1.366-5.265,2.27-7.202c0.896-1.935,2.255-3.581,3.459-4.947
+  c1.196-1.367,2.62-2.556,3.955-3.557c1.327-0.993,2.637-1.993,3.776-2.995c1.123-1.001,2.083-2.1,2.783-3.304
+  c0.7-1.197,1.043-2.694,0.977-4.5c0-3.06-0.74-5.33-2.245-6.795c-1.498-1.465-3.582-2.206-6.25-2.206c-1.8,0-3.337,0.351-4.639,1.05
+  c-1.303,0.7-2.369,1.635-3.199,2.808c-0.837,1.163-1.448,3.593-1.847,5.156c-0.407,1.57-0.602,6.115-0.602,6.115H25.399
+  c0.073-8.333,0.684-7.963,1.855-10.965c1.164-2.995,2.8-6.132,4.899-8.33c2.099-2.197,4.63-4.179,7.601-5.417
+  c2.962-1.228,6.283-1.977,9.945-1.977c4.736,0,8.683,0.581,11.856,1.876c3.167,1.302,5.713,2.889,7.65,4.817
+  c1.929,1.937,3.312,4.004,4.149,6.234c0.831,2.237,1.245,4.313,1.245,6.242C74.601,37.354,74.187,39.975,73.357,42.041z"></path>
+</svg>
+<div class="help-flyout help-flyout-reverse">
+<h5>About Vendor Prefixing</h5>
+<svg class="icon-x" viewBox="0 0 100 100">
+<path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+</svg>
+<p>To get the best cross-browser support, it is a common practice to apply vendor prefixes to CSS properties and values that require them to work. For instance <code>-webkit-</code> or <code>-moz-</code>.</p>
+<p>We offer two popular choices: <a href="https://github.com/postcss/autoprefixer" target="blank" rel="noopener">Autoprefixer</a> (which processes your CSS server-side) and <a href="https://leaverou.github.io/prefixfree/" target="_blank" rel="noopener">-prefix-free</a> (which applies prefixes via a script, client-side).</p>
+</div>
+</div>
+<ul class="radio-list">
+<li>
+<input type="radio" id="prefix-autoprefixer" name="prefix" value="autoprefixer">
+<label for="prefix-autoprefixer" class="small-inline">Autoprefixer</label>
+</li>
+<li>
+<input type="radio" id="prefix-prefixfree" name="prefix" value="prefixfree">
+<label for="prefix-prefixfree" class="small-inline">Prefixfree</label>
+</li>
+<li>
+<input type="radio" id="prefix-neither" name="prefix" value="neither">
+<label for="prefix-neither" class="small-inline">Neither</label>
+</li>
+</ul>
+</div>
+<div id="external-css-resources" class="settings-row item-settings-row-even">
+<h4>
+Add External Stylesheets/Pens
+</h4>
+<p>Any URL's added here will be added as <code>&lt;link&gt;</code>s in order, and before the CSS in the editor. If you link to another Pen, it will include the CSS from that Pen. If the preprocessor matches, it will attempt to combine them before processing.</p>
+<div class="resource-search-bar">
+<svg class="icon icon-mag" viewBox="0 0 56.7 56.7">
+<path d="M42.8,7.3C33-2.4,17.1-2.4,7.3,7.3c-9.8,9.8-9.8,25.7,0,35.5c8.7,8.7,22.2,9.7,32,2.9l9.6,9.6c1.8,1.8,4.7,1.8,6.4,0
+	c1.8-1.8,1.8-4.7,0-6.4l-9.6-9.6C52.5,29.5,51.5,16,42.8,7.3z M36.6,36.6c-6.4,6.4-16.7,6.4-23.1,0s-6.4-16.7,0-23.1
+	c6.4-6.4,16.7-6.4,23.1,0C43,19.9,43,30.3,36.6,36.6z"></path>
+</svg>
+<span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;"><input id="external-css-search" type="text" value="" placeholder="Search for resources (Bootstrap, Foundation, Animate.css...)" class="aa-input" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="both" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Lato, &quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Tahoma, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><span class="aa-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-0" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none; right: auto;"><div class="aa-dataset-1"></div><div class="aa-dataset-2"></div></span></span>
+</div>
+<div class="algolia-shoutout">
+<a href="https://www.algolia.com/?utm_source=react-instantsearch&amp;utm_medium=website&amp;utm_content=codepen.io&amp;utm_campaign=poweredby" target="_blank">
+Powered by <img alt="Algolia" src="./CSS + HTML Practice_files/algolia-9e1c0c887f4db420704b2a79926864019ef156bcecc9d5774a7e4eaa731fc5b5.svg">
+</a>
+</div>
+<div class="help-flyout-link">
+<svg class="icon-help" viewBox="0 0 100 100">
+<path d="M75,0H25C11.19,0,0,11.193,0,25v50c0,13.802,11.19,25,25,25h50c13.811,0,25-11.198,25-25V25C100,11.193,88.811,0,75,0z
+   M57.203,85.067H41.504V72.542h15.699V85.067L57.203,85.067z M73.357,42.041c-0.84,2.066-1.873,3.834-3.102,5.298
+  c-1.235,1.474-2.604,2.718-4.101,3.751c-1.498,1.035-2.922,2.066-4.249,3.101c-1.333,1.034-1.553,2.214-2.596,3.547
+  c-1.025,1.335-0.977,3.004-0.977,5.006v3.924H41.668v-4.623c0-2.864,1.366-5.265,2.27-7.202c0.896-1.935,2.255-3.581,3.459-4.947
+  c1.196-1.367,2.62-2.556,3.955-3.557c1.327-0.993,2.637-1.993,3.776-2.995c1.123-1.001,2.083-2.1,2.783-3.304
+  c0.7-1.197,1.043-2.694,0.977-4.5c0-3.06-0.74-5.33-2.245-6.795c-1.498-1.465-3.582-2.206-6.25-2.206c-1.8,0-3.337,0.351-4.639,1.05
+  c-1.303,0.7-2.369,1.635-3.199,2.808c-0.837,1.163-1.448,3.593-1.847,5.156c-0.407,1.57-0.602,6.115-0.602,6.115H25.399
+  c0.073-8.333,0.684-7.963,1.855-10.965c1.164-2.995,2.8-6.132,4.899-8.33c2.099-2.197,4.63-4.179,7.601-5.417
+  c2.962-1.228,6.283-1.977,9.945-1.977c4.736,0,8.683,0.581,11.856,1.876c3.167,1.302,5.713,2.889,7.65,4.817
+  c1.929,1.937,3.312,4.004,4.149,6.234c0.831,2.237,1.245,4.313,1.245,6.242C74.601,37.354,74.187,39.975,73.357,42.041z"></path>
+</svg>
+<div class="help-flyout help-flyout-reverse">
+<h5>About External Resources</h5>
+<svg class="icon-x" viewBox="0 0 100 100">
+<path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+</svg>
+<p>You can apply CSS to your Pen from any stylesheet on the web. Just put a URL to it here and we'll apply it, in the order you have them, before the CSS in the Pen itself.</p>
+<p>If the stylesheet you link to has the file extension of a preprocessor, we'll attempt to process it before applying.</p>
+<p>You can also link to another Pen here, and we'll pull the CSS from that Pen and include it. If it's using a matching preprocessor, we'll combine the code before preprocessing, so you can use the linked Pen as a true dependency.</p>
+<p><a href="https://blog.codepen.io/documentation/editor/adding-external-resources/" target="_blank" rel="noopener">Learn more</a></p>
+</div>
+</div>
+<div id="css-external-resources" class="external-resource-wrapper ui-sortable">
+<div data-view-id="11861798" class="external-resource-url-row ">
+
+    <span class="move-external-url">
+      <svg viewBox="0 0 17 20" class="icon-drag-handle" width="20" height="17">
+        <path d="m1.5 3a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 0 3zm0 7a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 0 3zm0 7a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 0 3z"></path>
+      </svg>
+    </span>
+
+    <input id="external-resource-input-11861798" class="fullwidth css-resource external-resource" type="text" pattern="^((ftp|http|https):)?\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&amp;%@!\-\/]))?$" name="external-css" placeholder="https://yourwebsite.com/style.css" value="" data-view-id="11861798">
+
+    <span class="insecure-resource-tooltip">
+      <div class="help-flyout-link">
+        <span class="icon-help">!</span>
+        <div class="help-flyout help-flyout-reverse">
+          <svg class="icon-x" viewBox="0 0 100 100">
+            <path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+          </svg>
+          <h5>Insecure Resource</h5>
+          <p>You are linking to a resource using the non-secure http:// protocol, which may not work when the browser is using https:// like CodePen enforces.</p>
+        </div>
+      </div>
+    </span>
+
+    <div class="resource-actions">
+      <span class="remove-external-url external-url-option" data-view-id="11861798">
+        <svg class="icon-x" viewBox="0 0 100 100" width="12" height="12">
+          <path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+        </svg>
+      </span>
+
+      <a id="external-resource-input-view-link-11861798" class="open-external-url external-url-option" target="_blank" rel="noopener" data-view-id="11861798" href="https://codepen.io/debrafontenot/pen/mdOWdOO">
+        <svg viewBox="0 0 30.5 16.5" id="icon-eye" width="14" height="14">
+          <path d="M15.3,0C8.9,0,3.3,3.3,0,8.3c3.3,5,8.9,8.3,15.3,8.3c6.4,0,12-3.3,15.3-8.3C27.3,3.3,21.7,0,15.3,0z M15.3,14.5 c-3.4,0-6.2-2.8-6.2-6.2C9,4.8,11.8,2,15.3,2c3.4,0,6.2,2.8,6.2,6.2C21.5,11.7,18.7,14.5,15.3,14.5z"></path>
+        </svg>
+      </a>
+    </div>
+
+  </div><div data-view-id="95717851" class="external-resource-url-row ">
+
+    <span class="move-external-url">
+      <svg viewBox="0 0 17 20" class="icon-drag-handle" width="20" height="17">
+        <path d="m1.5 3a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 0 3zm0 7a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 0 3zm0 7a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 0 3z"></path>
+      </svg>
+    </span>
+
+    <input id="external-resource-input-95717851" class="fullwidth css-resource external-resource" type="text" pattern="^((ftp|http|https):)?\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&amp;%@!\-\/]))?$" name="external-css" placeholder="https://codepen.io/username/pen/aBcDef" value="" data-view-id="95717851">
+
+    <span class="insecure-resource-tooltip">
+      <div class="help-flyout-link">
+        <span class="icon-help">!</span>
+        <div class="help-flyout help-flyout-reverse">
+          <svg class="icon-x" viewBox="0 0 100 100">
+            <path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+          </svg>
+          <h5>Insecure Resource</h5>
+          <p>You are linking to a resource using the non-secure http:// protocol, which may not work when the browser is using https:// like CodePen enforces.</p>
+        </div>
+      </div>
+    </span>
+
+    <div class="resource-actions">
+      <span class="remove-external-url external-url-option" data-view-id="95717851">
+        <svg class="icon-x" viewBox="0 0 100 100" width="12" height="12">
+          <path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+        </svg>
+      </span>
+
+      <a id="external-resource-input-view-link-95717851" class="open-external-url external-url-option" target="_blank" rel="noopener" data-view-id="95717851" href="https://codepen.io/debrafontenot/pen/mdOWdOO">
+        <svg viewBox="0 0 30.5 16.5" id="icon-eye" width="14" height="14">
+          <path d="M15.3,0C8.9,0,3.3,3.3,0,8.3c3.3,5,8.9,8.3,15.3,8.3c6.4,0,12-3.3,15.3-8.3C27.3,3.3,21.7,0,15.3,0z M15.3,14.5 c-3.4,0-6.2-2.8-6.2-6.2C9,4.8,11.8,2,15.3,2c3.4,0,6.2,2.8,6.2,6.2C21.5,11.7,18.7,14.5,15.3,14.5z"></path>
+        </svg>
+      </a>
+    </div>
+
+  </div></div>
+<script id="css-external-resources-template" nonce="" type="text/template">
+  <div data-view-id="<%= view_id %>" class="external-resource-url-row <%= insecure_resource %>">
+
+    <span class="move-external-url">
+      <svg viewBox="0 0 17 20" class="icon-drag-handle" width="20" height="17">
+        <path d="m1.5 3a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 0 3zm0 7a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 0 3zm0 7a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 0 3z"/>
+      </svg>
+    </span>
+
+    <input
+      id="external-resource-input-<%= view_id %>"
+      class="fullwidth css-resource external-resource"
+      type="text"
+      pattern="^((ftp|http|https):)?\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?$"
+      name="external-css"
+      placeholder="<%= placeholder %>"
+      value="<%= url %>"
+      data-view-id="<%= view_id %>">
+
+    <span class="insecure-resource-tooltip">
+      <div class="help-flyout-link">
+        <span class="icon-help">!</span>
+        <div class="help-flyout help-flyout-reverse">
+          <svg class="icon-x" viewBox="0 0 100 100">
+            <path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"/>
+          </svg>
+          <h5>Insecure Resource</h5>
+          <p>You are linking to a resource using the non-secure http:// protocol, which may not work when the browser is using https:// like CodePen enforces.</p>
+        </div>
+      </div>
+    </span>
+
+    <div class="resource-actions">
+      <span class="remove-external-url external-url-option" data-view-id="<%= view_id %>">
+        <svg class="icon-x" viewBox="0 0 100 100" width="12" height="12">
+          <path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"/>
+        </svg>
+      </span>
+
+      <a id="external-resource-input-view-link-<%= view_id %>" class="open-external-url external-url-option" target="_blank" rel="noopener" data-view-id="<%= view_id %>" href="<%= url %>">
+        <svg viewBox="0 0 30.5 16.5" id="icon-eye" width="14" height="14">
+          <path d="M15.3,0C8.9,0,3.3,3.3,0,8.3c3.3,5,8.9,8.3,15.3,8.3c6.4,0,12-3.3,15.3-8.3C27.3,3.3,21.7,0,15.3,0z M15.3,14.5 c-3.4,0-6.2-2.8-6.2-6.2C9,4.8,11.8,2,15.3,2c3.4,0,6.2,2.8,6.2,6.2C21.5,11.7,18.7,14.5,15.3,14.5z"/>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+</script>
+<div class="external-resource-actions group">
+<span id="add-css-resource" class="button mini-button button-medium add-resource" data-type="css">
+<span data-type="css">+ add another resource</span>
+</span>
+</div>
+</div>
+</div>
+<div class="settings tab-page" id="settings-js">
+<div class="item-settings-javascript normal-labels">
+<h3>
+JavaScript
+</h3>
+<div class="item-settings-javascript-preprocessor item-settings-row-odd settings-row">
+<h4>
+<label for="js-preprocessor">
+JavaScript Preprocessor
+</label>
+</h4>
+<div class="help-flyout-link">
+<svg class="icon-help" viewBox="0 0 100 100" width="14" height="14">
+<path d="M75,0H25C11.19,0,0,11.193,0,25v50c0,13.802,11.19,25,25,25h50c13.811,0,25-11.198,25-25V25C100,11.193,88.811,0,75,0z
+   M57.203,85.067H41.504V72.542h15.699V85.067L57.203,85.067z M73.357,42.041c-0.84,2.066-1.873,3.834-3.102,5.298
+  c-1.235,1.474-2.604,2.718-4.101,3.751c-1.498,1.035-2.922,2.066-4.249,3.101c-1.333,1.034-1.553,2.214-2.596,3.547
+  c-1.025,1.335-0.977,3.004-0.977,5.006v3.924H41.668v-4.623c0-2.864,1.366-5.265,2.27-7.202c0.896-1.935,2.255-3.581,3.459-4.947
+  c1.196-1.367,2.62-2.556,3.955-3.557c1.327-0.993,2.637-1.993,3.776-2.995c1.123-1.001,2.083-2.1,2.783-3.304
+  c0.7-1.197,1.043-2.694,0.977-4.5c0-3.06-0.74-5.33-2.245-6.795c-1.498-1.465-3.582-2.206-6.25-2.206c-1.8,0-3.337,0.351-4.639,1.05
+  c-1.303,0.7-2.369,1.635-3.199,2.808c-0.837,1.163-1.448,3.593-1.847,5.156c-0.407,1.57-0.602,6.115-0.602,6.115H25.399
+  c0.073-8.333,0.684-7.963,1.855-10.965c1.164-2.995,2.8-6.132,4.899-8.33c2.099-2.197,4.63-4.179,7.601-5.417
+  c2.962-1.228,6.283-1.977,9.945-1.977c4.736,0,8.683,0.581,11.856,1.876c3.167,1.302,5.713,2.889,7.65,4.817
+  c1.929,1.937,3.312,4.004,4.149,6.234c0.831,2.237,1.245,4.313,1.245,6.242C74.601,37.354,74.187,39.975,73.357,42.041z"></path>
+</svg>
+<div class="help-flyout help-flyout-reverse">
+<h5>About JavaScript Preprocessors</h5>
+<svg class="icon-x" viewBox="0 0 100 100" width="12" height="12">
+<path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+</svg>
+<p>JavaScript preprocessors can help make authoring JavaScript easier and more convenient.</p>
+<p><a href="https://blog.codepen.io/documentation/editor/using-js-preprocessors/" target="_blank" rel="noopener">Learn more</a> · <a href="https://codepen.io/versions/" target="_blank">Versions</a></p>
+</div>
+</div>
+<div class="custom-select-wrap">
+<select name="js-preprocessor" id="js-preprocessor" class="fullwidth">
+<option value="none">None</option>
+<option value="babel">Babel</option>
+<option value="typescript">TypeScript</option>
+<option value="coffeescript">CoffeeScript</option>
+<option value="livescript">LiveScript</option>
+</select>
+<div class="select-icon">
+<svg viewBox="-122.9 121.1 105.9 61.9" class="icon-arrow-down-mini">
+<path d="M-63.2,180.3l43.5-43.5c1.7-1.7,2.7-4,2.7-6.5s-1-4.8-2.7-6.5c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.7l-37.2,37.2l-37.2-37.2
+        c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.6c-1.9,1.8-2.8,4.2-2.8,6.6c0,2.3,0.9,4.6,2.6,6.5l0,0c11.4,11.5,41,41.2,43,43.3l0.2,0.2
+        C-73.5,183.9-66.8,183.9-63.2,180.3z"></path>
+</svg>
+<svg viewBox="-122.9 121.1 105.9 61.9" class="icon-arrow-down-mini">
+<path d="M-63.2,180.3l43.5-43.5c1.7-1.7,2.7-4,2.7-6.5s-1-4.8-2.7-6.5c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.7l-37.2,37.2l-37.2-37.2
+        c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.6c-1.9,1.8-2.8,4.2-2.8,6.6c0,2.3,0.9,4.6,2.6,6.5l0,0c11.4,11.5,41,41.2,43,43.3l0.2,0.2
+        C-73.5,183.9-66.8,183.9-63.2,180.3z"></path>
+</svg>
+</div>
+</div>
+<p><small>Babel includes JSX processing.</small></p>
+</div>
+<div id="external-js-resources" class="item-settings-javascript-external settings-row external-js-resources top-label-form item-settings-row-even">
+<h4>
+Add External Scripts/Pens
+</h4>
+<p>Any URL's added here will be added as <code>&lt;script&gt;</code>s in order, and run <em>before</em> the JavaScript in the editor. You can use the URL of any other Pen and it will include the JavaScript from that Pen.</p>
+<div class="resource-search-bar">
+<svg viewBox="0 0 56.7 56.7" class="icon icon-mag" width="18" height="18">
+<path d="M42.8,7.3C33-2.4,17.1-2.4,7.3,7.3c-9.8,9.8-9.8,25.7,0,35.5c8.7,8.7,22.2,9.7,32,2.9l9.6,9.6c1.8,1.8,4.7,1.8,6.4,0
+	c1.8-1.8,1.8-4.7,0-6.4l-9.6-9.6C52.5,29.5,51.5,16,42.8,7.3z M36.6,36.6c-6.4,6.4-16.7,6.4-23.1,0s-6.4-16.7,0-23.1
+	c6.4-6.4,16.7-6.4,23.1,0C43,19.9,43,30.3,36.6,36.6z"></path>
+</svg>
+<span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;"><input id="external-js-search" type="text" value="" placeholder="Search CDNjs (jQuery, Lodash, React, Angular, Vue.js, Ember...)" class="aa-input" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="both" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-3" dir="auto" style="position: relative; vertical-align: top;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Lato, &quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Tahoma, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><span class="aa-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-3" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none; right: auto;"><div class="aa-dataset-4"></div><div class="aa-dataset-5"></div></span></span>
+</div>
+<div class="algolia-shoutout">
+<a href="https://www.algolia.com/?utm_source=react-instantsearch&amp;utm_medium=website&amp;utm_content=codepen.io&amp;utm_campaign=poweredby" target="_blank">
+Powered by <img alt="Algolia" src="./CSS + HTML Practice_files/algolia-9e1c0c887f4db420704b2a79926864019ef156bcecc9d5774a7e4eaa731fc5b5.svg">
+</a>
+</div>
+<div class="help-flyout-link">
+<svg class="icon-help" viewBox="0 0 100 100" width="14" height="14">
+<path d="M75,0H25C11.19,0,0,11.193,0,25v50c0,13.802,11.19,25,25,25h50c13.811,0,25-11.198,25-25V25C100,11.193,88.811,0,75,0z
+   M57.203,85.067H41.504V72.542h15.699V85.067L57.203,85.067z M73.357,42.041c-0.84,2.066-1.873,3.834-3.102,5.298
+  c-1.235,1.474-2.604,2.718-4.101,3.751c-1.498,1.035-2.922,2.066-4.249,3.101c-1.333,1.034-1.553,2.214-2.596,3.547
+  c-1.025,1.335-0.977,3.004-0.977,5.006v3.924H41.668v-4.623c0-2.864,1.366-5.265,2.27-7.202c0.896-1.935,2.255-3.581,3.459-4.947
+  c1.196-1.367,2.62-2.556,3.955-3.557c1.327-0.993,2.637-1.993,3.776-2.995c1.123-1.001,2.083-2.1,2.783-3.304
+  c0.7-1.197,1.043-2.694,0.977-4.5c0-3.06-0.74-5.33-2.245-6.795c-1.498-1.465-3.582-2.206-6.25-2.206c-1.8,0-3.337,0.351-4.639,1.05
+  c-1.303,0.7-2.369,1.635-3.199,2.808c-0.837,1.163-1.448,3.593-1.847,5.156c-0.407,1.57-0.602,6.115-0.602,6.115H25.399
+  c0.073-8.333,0.684-7.963,1.855-10.965c1.164-2.995,2.8-6.132,4.899-8.33c2.099-2.197,4.63-4.179,7.601-5.417
+  c2.962-1.228,6.283-1.977,9.945-1.977c4.736,0,8.683,0.581,11.856,1.876c3.167,1.302,5.713,2.889,7.65,4.817
+  c1.929,1.937,3.312,4.004,4.149,6.234c0.831,2.237,1.245,4.313,1.245,6.242C74.601,37.354,74.187,39.975,73.357,42.041z"></path>
+</svg>
+<div class="help-flyout help-flyout-reverse">
+<h5>About External Resources</h5>
+<svg class="icon-x" viewBox="0 0 100 100" height="12" width="12">
+<path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+</svg>
+<p>You can apply a script from anywhere on the web to your Pen. Just put a URL to it here and we'll add it, in the order you have them, before the JavaScript in the Pen itself.</p>
+<p>If the script you link to has the file extension of a preprocessor, we'll attempt to process it before applying.</p>
+<p>You can also link to another Pen here, and we'll pull the JavaScript from that Pen and include it. If it's using a matching preprocessor, we'll combine the code before preprocessing, so you can use the linked Pen as a true dependency.</p>
+<p><a href="https://blog.codepen.io/documentation/adding-external-resources/" rel="noopener" target="_blank">Learn more</a></p>
+</div>
+</div>
+<div id="js-external-resources" class="external-resource-wrapper ui-sortable">
+<div data-view-id="77656068" class="external-resource-url-row ">
+
+    <span class="move-external-url">
+      <svg viewBox="0 0 17 20" class="icon-drag-handle" width="20" height="17">
+        <path d="m1.5 3a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 0 3zm0 7a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 0 3zm0 7a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 0 3z"></path>
+      </svg>
+    </span>
+
+    <input id="external-resource-input-77656068" class="fullwidth js-resource external-resource" type="text" pattern="^((ftp|http|https):)?\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&amp;%@!\-\/]))?$" name="external-js" placeholder="https://yourwebsite.com/script.js" value="" data-view-id="77656068">
+
+    <span class="insecure-resource-tooltip">
+      <div class="help-flyout-link">
+        <span class="icon-help">!</span>
+        <div class="help-flyout help-flyout-reverse">
+          <svg class="icon-x" viewBox="0 0 100 100">
+            <path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+          </svg>
+          <h5>Insecure Resource</h5>
+          <p>You are linking to a resource using the non-secure http:// protocol, which may not work when the browser is using https:// like CodePen enforces.</p>
+        </div>
+      </div>
+    </span>
+
+    <div class="resource-actions">
+      <span class="remove-external-url external-url-option" data-view-id="77656068">
+        <svg class="icon-x" viewBox="0 0 100 100" width="12" height="12">
+          <path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+        </svg>
+      </span>
+
+      <a id="external-resource-input-view-link-77656068" class="open-external-url external-url-option" target="_blank" rel="noopener" data-view-id="77656068" href="https://codepen.io/debrafontenot/pen/mdOWdOO">
+        <svg viewBox="0 0 30.5 16.5" id="icon-eye" width="14" height="14">
+          <path d="M15.3,0C8.9,0,3.3,3.3,0,8.3c3.3,5,8.9,8.3,15.3,8.3c6.4,0,12-3.3,15.3-8.3C27.3,3.3,21.7,0,15.3,0z M15.3,14.5 c-3.4,0-6.2-2.8-6.2-6.2C9,4.8,11.8,2,15.3,2c3.4,0,6.2,2.8,6.2,6.2C21.5,11.7,18.7,14.5,15.3,14.5z"></path>
+        </svg>
+      </a>
+    </div>
+
+  </div><div data-view-id="17716611" class="external-resource-url-row ">
+
+    <span class="move-external-url">
+      <svg viewBox="0 0 17 20" class="icon-drag-handle" width="20" height="17">
+        <path d="m1.5 3a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 0 3zm0 7a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 0 3zm0 7a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 0 3z"></path>
+      </svg>
+    </span>
+
+    <input id="external-resource-input-17716611" class="fullwidth js-resource external-resource" type="text" pattern="^((ftp|http|https):)?\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&amp;%@!\-\/]))?$" name="external-js" placeholder="https://codepen.io/username/pen/aBcDef" value="" data-view-id="17716611">
+
+    <span class="insecure-resource-tooltip">
+      <div class="help-flyout-link">
+        <span class="icon-help">!</span>
+        <div class="help-flyout help-flyout-reverse">
+          <svg class="icon-x" viewBox="0 0 100 100">
+            <path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+          </svg>
+          <h5>Insecure Resource</h5>
+          <p>You are linking to a resource using the non-secure http:// protocol, which may not work when the browser is using https:// like CodePen enforces.</p>
+        </div>
+      </div>
+    </span>
+
+    <div class="resource-actions">
+      <span class="remove-external-url external-url-option" data-view-id="17716611">
+        <svg class="icon-x" viewBox="0 0 100 100" width="12" height="12">
+          <path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+        </svg>
+      </span>
+
+      <a id="external-resource-input-view-link-17716611" class="open-external-url external-url-option" target="_blank" rel="noopener" data-view-id="17716611" href="https://codepen.io/debrafontenot/pen/mdOWdOO">
+        <svg viewBox="0 0 30.5 16.5" id="icon-eye" width="14" height="14">
+          <path d="M15.3,0C8.9,0,3.3,3.3,0,8.3c3.3,5,8.9,8.3,15.3,8.3c6.4,0,12-3.3,15.3-8.3C27.3,3.3,21.7,0,15.3,0z M15.3,14.5 c-3.4,0-6.2-2.8-6.2-6.2C9,4.8,11.8,2,15.3,2c3.4,0,6.2,2.8,6.2,6.2C21.5,11.7,18.7,14.5,15.3,14.5z"></path>
+        </svg>
+      </a>
+    </div>
+
+  </div></div>
+<script id="js-external-resources-template" nonce="" type="text/template">
+  <div data-view-id="<%= view_id %>" class="external-resource-url-row <%= insecure_resource %>">
+
+    <span class="move-external-url">
+      <svg viewBox="0 0 17 20" class="icon-drag-handle" width="20" height="17">
+        <path d="m1.5 3a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 0 3zm0 7a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 0 3zm0 7a1.5 1.5 0 0 1 0-3h17a1.5 1.5 0 0 1 0 3z"/>
+      </svg>
+    </span>
+
+    <input
+      id="external-resource-input-<%= view_id %>"
+      class="fullwidth js-resource external-resource"
+      type="text"
+      pattern="^((ftp|http|https):)?\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?$"
+      name="external-js"
+      placeholder="<%= placeholder %>"
+      value="<%= url %>"
+      data-view-id="<%= view_id %>">
+
+    <span class="insecure-resource-tooltip">
+      <div class="help-flyout-link">
+        <span class="icon-help">!</span>
+        <div class="help-flyout help-flyout-reverse">
+          <svg class="icon-x" viewBox="0 0 100 100">
+            <path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"/>
+          </svg>
+          <h5>Insecure Resource</h5>
+          <p>You are linking to a resource using the non-secure http:// protocol, which may not work when the browser is using https:// like CodePen enforces.</p>
+        </div>
+      </div>
+    </span>
+
+    <div class="resource-actions">
+      <span class="remove-external-url external-url-option" data-view-id="<%= view_id %>">
+        <svg class="icon-x" viewBox="0 0 100 100" width="12" height="12">
+          <path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"/>
+        </svg>
+      </span>
+
+      <a id="external-resource-input-view-link-<%= view_id %>" class="open-external-url external-url-option" target="_blank" rel="noopener" data-view-id="<%= view_id %>" href="<%= url %>">
+        <svg viewBox="0 0 30.5 16.5" id="icon-eye" width="14" height="14">
+          <path d="M15.3,0C8.9,0,3.3,3.3,0,8.3c3.3,5,8.9,8.3,15.3,8.3c6.4,0,12-3.3,15.3-8.3C27.3,3.3,21.7,0,15.3,0z M15.3,14.5 c-3.4,0-6.2-2.8-6.2-6.2C9,4.8,11.8,2,15.3,2c3.4,0,6.2,2.8,6.2,6.2C21.5,11.7,18.7,14.5,15.3,14.5z"/>
+        </svg>
+      </a>
+    </div>
+
+  </div>
+</script>
+<div class="external-resource-actions group">
+<span id="add-js-resource" class="button button-medium mini-button add-resource" data-type="js">
+<span data-type="js">+ add another resource</span>
+</span>
+</div>
+</div>
+<h3 aria-label="Packages">Packages</h3>
+<div class="item-settings-packages settings-row item-settings-row-odd" id="item-settings-packages">
+<h4>Add Packages</h4>
+<p>Search for and use JavaScript packages from <a href="https://www.npmjs.com/" target="blank" rel="noopener">npm</a> here. By selecting a package, an <code>import</code> statement will be added to the top of the JavaScript editor for this package.</p>
+<div class="resource-search-bar">
+<svg viewBox="0 0 56.7 56.7" class="icon icon-mag" width="18" height="18">
+<path d="M42.8,7.3C33-2.4,17.1-2.4,7.3,7.3c-9.8,9.8-9.8,25.7,0,35.5c8.7,8.7,22.2,9.7,32,2.9l9.6,9.6c1.8,1.8,4.7,1.8,6.4,0
+c1.8-1.8,1.8-4.7,0-6.4l-9.6-9.6C52.5,29.5,51.5,16,42.8,7.3z M36.6,36.6c-6.4,6.4-16.7,6.4-23.1,0s-6.4-16.7,0-23.1
+c6.4-6.4,16.7-6.4,23.1,0C43,19.9,43,30.3,36.6,36.6z"></path>
+</svg>
+<span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;"><input id="packages-search" type="text" value="" placeholder="Search npm and add a package..." class="aa-input" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="both" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-6" dir="auto" style="position: relative; vertical-align: top;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: Lato, &quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Tahoma, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><span class="aa-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-6" style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none; right: auto;"><div class="aa-dataset-7"></div></span></span>
+</div>
+<div class="algolia-shoutout">
+<a href="https://www.algolia.com/?utm_source=react-instantsearch&amp;utm_medium=website&amp;utm_content=codepen.io&amp;utm_campaign=poweredby" target="_blank">
+Powered by <img alt="Algolia" src="./CSS + HTML Practice_files/algolia-9e1c0c887f4db420704b2a79926864019ef156bcecc9d5774a7e4eaa731fc5b5.svg">
+</a>
+</div>
+<div class="help-flyout-link">
+<svg class="icon-help" viewBox="0 0 100 100" width="14" height="14">
+<path d="M75,0H25C11.19,0,0,11.193,0,25v50c0,13.802,11.19,25,25,25h50c13.811,0,25-11.198,25-25V25C100,11.193,88.811,0,75,0z
+   M57.203,85.067H41.504V72.542h15.699V85.067L57.203,85.067z M73.357,42.041c-0.84,2.066-1.873,3.834-3.102,5.298
+  c-1.235,1.474-2.604,2.718-4.101,3.751c-1.498,1.035-2.922,2.066-4.249,3.101c-1.333,1.034-1.553,2.214-2.596,3.547
+  c-1.025,1.335-0.977,3.004-0.977,5.006v3.924H41.668v-4.623c0-2.864,1.366-5.265,2.27-7.202c0.896-1.935,2.255-3.581,3.459-4.947
+  c1.196-1.367,2.62-2.556,3.955-3.557c1.327-0.993,2.637-1.993,3.776-2.995c1.123-1.001,2.083-2.1,2.783-3.304
+  c0.7-1.197,1.043-2.694,0.977-4.5c0-3.06-0.74-5.33-2.245-6.795c-1.498-1.465-3.582-2.206-6.25-2.206c-1.8,0-3.337,0.351-4.639,1.05
+  c-1.303,0.7-2.369,1.635-3.199,2.808c-0.837,1.163-1.448,3.593-1.847,5.156c-0.407,1.57-0.602,6.115-0.602,6.115H25.399
+  c0.073-8.333,0.684-7.963,1.855-10.965c1.164-2.995,2.8-6.132,4.899-8.33c2.099-2.197,4.63-4.179,7.601-5.417
+  c2.962-1.228,6.283-1.977,9.945-1.977c4.736,0,8.683,0.581,11.856,1.876c3.167,1.302,5.713,2.889,7.65,4.817
+  c1.929,1.937,3.312,4.004,4.149,6.234c0.831,2.237,1.245,4.313,1.245,6.242C74.601,37.354,74.187,39.975,73.357,42.041z"></path>
+</svg>
+<div class="help-flyout help-flyout-reverse">
+<h5>About Packages</h5>
+<svg class="icon-x" viewBox="0 0 100 100" width="12" height="12">
+<path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+</svg>
+<p>Using packages here is powered by <a href="https://www.skypack.dev/">Skypack</a>, which makes packages from npm not only available on a CDN, but prepares them for native JavaScript ES6 <code>import</code> usage.</p>
+<p>All packages are different, so refer to their docs for how they work.</p>
+<p>If you're using React / ReactDOM, make sure to turn on Babel for the JSX processing.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="settings tab-page active" id="settings-details">
+<div id="pen-details" class="pen-details">
+<div id="pen-details-form" class="pen-details-form">
+<h3 aria-label="Pen Details">
+Details
+</h3>
+<div class="settings-row top-label-form normal-labels item-settings-row-odd">
+<h4>
+<label for="item-details-title">
+Pen Title
+</label>
+</h4>
+<input type="text" id="item-details-title" class="item-details-title" name="item-details-title" value="CSS + HTML Practice" maxlength="255" placeholder="Untitled">
+</div>
+<div class="settings-row top-label-form normal-labels item-settings-row-even">
+<h4>
+<label for="item-details-description">
+Pen Description
+</label>
+</h4>
+<textarea class="item-details-description" id="item-details-description" placeholder="Explain what’s going on in your Pen here. This text is searchable, so it can also help others find your work. Remember to credit others where credit is due. Markdown supported."></textarea>
+</div>
+<div class="tags settings-row top-label-form normal-labels item-settings-row-odd">
+<h4>
+<label for="pen-tags" class="tags-label">
+Tags <em>comma separated, <span id="max-tags-label">max of five</span></em>
+</label>
+</h4>
+<input type="text" id="pen-tags" class="pen-tags">
+<div class="active-tags" id="active-tags"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="settings tab-page" id="settings-privacy">
+<div id="pen-privacy" class="pen-details">
+<div id="pen-privacy-form" class="pen-details-form top-label-form ">
+<h3>
+Privacy
+</h3>
+<div class="settings-row item-settings-row-odd public-private-checkbox-row">
+<div class="public-private-wrap">
+<div class="pro-upsell">
+<div class="illustration-pro">
+<input type="checkbox" name="illustration-pro" id="illustration-pro">
+<img alt="Go PRO" class="blind-top" src="./CSS + HTML Practice_files/blind-top-f2681f21fdd4abda7aac4277b7be978237e2c48832b45e6a8959dd9dcb0f8e64.svg">
+<img alt="Window blinds lowered to protect code." class="blinds" src="./CSS + HTML Practice_files/blinds-e1e47297e1c0a3b8d2568baaa288d5f264e0c6495561c906a97dbfd553a8f66d.svg">
+<img alt="Code Editor with window blinds (raised) and a light blub turned on." class="code" src="./CSS + HTML Practice_files/privacy-048c44f7b51ade74eef277e8027a41fe1a8651c393278b25a807ad7ea79f8418.svg">
+<div class="illustration-bg"></div>
+</div>
+<h4>Keep it secret; keep it safe.</h4>
+<p>Private Pens are hidden everywhere on CodePen, except to you. You can still share them and other people can see them, they just can't find them through searching or browsing.</p>
+<a href="https://codepen.io/pro" class="button yellow">Upgrade to PRO</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="settings tab-page" id="settings-behavior">
+<h3 aria-label="Pen Behavior">Behavior</h3>
+<div class="settings-row item-settings-row-odd">
+<h4>Save Automatically?</h4>
+<div>
+<p class="hint">If active, Pens will autosave every 30 seconds after being saved once.</p>
+<div class="ios-toggle-mega-label-wrap">
+<span class="ios-toggle ios-toggle-reverse">
+<input type="checkbox" id="auto-save" name="auto-save" checked="">
+<label for="auto-save"></label>
+<label for="auto-save" class="ios-toggle-mega-label"></label>
+</span>
+</div>
+</div>
+</div>
+<div class="settings-row item-settings-row-even">
+<h4>Auto-Updating Preview</h4>
+<p class="hint">If enabled, the preview panel updates automatically as you code. If disabled, use the "Run" button to update.</p>
+<div class="ios-toggle-mega-label-wrap">
+<span class="ios-toggle ios-toggle-reverse">
+<input type="checkbox" id="auto-run" name="auto-run" checked="">
+<label for="auto-run"></label>
+<label for="auto-run" class="ios-toggle-mega-label"></label>
+</span>
+</div>
+</div>
+<div class="settings-row item-settings-row-odd">
+<h4>Format on Save</h4>
+<p class="hint">If enabled, your code will be formatted when you actively save your Pen. <strong><span class="inline-note">Note:</span> your code becomes un-folded during formatting.</strong></p>
+<div class="ios-toggle-mega-label-wrap">
+<span class="ios-toggle ios-toggle-reverse">
+<input type="checkbox" id="format_on_save" name="format_on_save">
+<label for="format_on_save"></label>
+<label for="format_on_save" class="ios-toggle-mega-label"></label>
+</span>
+</div>
+</div>
+</div>
+<div class="settings tab-page" id="settings-editor">
+<h3 aria-label="Editor Settings">Editor Settings</h3>
+<div id="editor-settings-form" class="settings-row item-settings-row-odd top-label-form">
+<h4>
+Code Indentation
+</h4>
+<ul class="radio-list">
+<li>
+<input type="radio" id="indent-with-spaces" name="indent-with" value="spaces" checked="">
+<label for="indent-with-spaces" class="small-inline">Spaces</label>
+</li>
+<li>
+<input type="radio" id="indent-with-tabs" name="indent-with" value="tabs">
+<label for="indent-with-tabs" class="small-inline">Tabs</label>
+</li>
+</ul>
+</div>
+<div class="settings-row item-settings-row-even top-label-form normal-labels">
+<h4>
+<label for="tab-size">
+Code Indent width
+</label>
+</h4>
+<div class="custom-select-wrap">
+<select id="tab-size" class="fullwidth" name="tab-size">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+</select>
+<div class="select-icon">
+<svg viewBox="-122.9 121.1 105.9 61.9" class="icon-arrow-down-mini">
+<path d="M-63.2,180.3l43.5-43.5c1.7-1.7,2.7-4,2.7-6.5s-1-4.8-2.7-6.5c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.7l-37.2,37.2l-37.2-37.2
+        c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.6c-1.9,1.8-2.8,4.2-2.8,6.6c0,2.3,0.9,4.6,2.6,6.5l0,0c11.4,11.5,41,41.2,43,43.3l0.2,0.2
+        C-73.5,183.9-66.8,183.9-63.2,180.3z"></path>
+</svg>
+<svg viewBox="-122.9 121.1 105.9 61.9" class="icon-arrow-down-mini">
+<path d="M-63.2,180.3l43.5-43.5c1.7-1.7,2.7-4,2.7-6.5s-1-4.8-2.7-6.5c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.7l-37.2,37.2l-37.2-37.2
+        c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.6c-1.9,1.8-2.8,4.2-2.8,6.6c0,2.3,0.9,4.6,2.6,6.5l0,0c11.4,11.5,41,41.2,43,43.3l0.2,0.2
+        C-73.5,183.9-66.8,183.9-63.2,180.3z"></path>
+</svg>
+</div>
+</div>
+</div>
+<div class="settings-row item-settings-row-odd">
+<h4>Want to change your Syntax Highlighting theme, Fonts and more?</h4>
+<p>Visit <a href="https://codepen.io/settings/editor" target="_blank">your global Editor Settings</a>.</p>
+<h4 class="inline-tour">Need a tour of this editor?</h4>
+<p>No problem, here's an <a target="_blank" rel="noreferrer noopener" href="https://codepen.io/pen/tour/welcome/start">intro tour</a> and a more <a target="_blank" rel="noreferrer noopener" href="https://codepen.io/pen/tour/advanced/start">advanced tour</a>.</p>
+</div>
+</div>
+<div class="settings tab-page" id="settings-template">
+<div id="pen-template" class="pen-details">
+<div class="top-label-form">
+<h3>Template</h3>
+<div class="settings-row item-settings-row-odd">
+<h4>Make Template?</h4>
+<p>Templates are Pens that can be used to start other Pens quickly from the create menu. The new Pen will copy all the code and settings from the template and make a new Pen (that is not a fork). You can <a target="_blank" rel="noopener" href="https://codepen.io/you/pens/templates">view all of your templates</a>, or <a target="_blank" rel="noopener" href="https://blog.codepen.io/documentation/api/templates/">learn more in the documentation</a>.</p>
+<div class="ios-toggle-mega-label-wrap" id="item-details-template-wrap">
+<span class="ios-toggle ios-toggle-reverse">
+<input type="checkbox" name="item-details-template" id="item-details-template">
+<label for="item-details-template"></label>
+<label for="item-details-template" class="ios-toggle-mega-label"><span>On</span></label>
+</span>
+</div>
+</div>
+<div class="settings-row item-settings-row-even">
+<h4>Template URL</h4>
+<p>Any Pen can act as a template (even if you don't flip the toggle above) with a special URL you can use yourself or share with others. Here's this Pen's template URL:</p>
+<div class="inline-display-flex">
+<input type="url" id="template-url-input" value="https://codepen.io/pen/?template=mdOWdOO">
+<button id="template-url-input-btn" class="button medium inline-template">Copy URL</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="settings tab-page" id="settings-screenshot">
+<div id="pen-screenshot" class="pen-details">
+<h3>Screenshot</h3>
+<div id="pen-screenshot-form" class="pen-details-form">
+<div class="thumbnail-upload-section settings-row item-settings-row-odd">
+<h4>
+Screenshot or Custom Thumbnail
+</h4>
+<p>Screenshots of Pens are shown in mobile browsers, RSS feeds, to users who chose images instead of iframes, and in social media sharing.</p>
+<div id="settings-screenshot-wrap" class="settings-screenshot-wrap">
+<div id="screenshot-type" class="screenshot-description">
+<div class="screenshot-area-screenshot screenshot-image" id="custom-screenshot" style="background-image: url(https://assets.codepen.io/5206172/internal/screenshots/pens/mdOWdOO.default.png?fit=cover&amp;format=auto&amp;ha=true&amp;height=540&amp;quality=75&amp;v=2&amp;version=1613358582&amp;width=960);">
+<a id="delete-screenshot" class="button mini-button button-dark delete-screenshot inline-display-none">× Delete</a>
+</div>
+<div class="screenshot-description-container">
+<p>This Pen is using the default Screenshot, generated by CodePen. Upgrade to <span class="badge badge-pro text">PRO</span> to upload your own thumbnail that will be displayed on previews of this pen throughout the site and when sharing to social media.</p>
+<a href="https://codepen.io/pro" class="button yellow">Upgrade to PRO</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="save-and-close-wrap">
+<a href="https://codepen.io/pro" class="button button-small button-outline button-upsell" target="_blank"> Upgrade to <span class="badge badge-pro text">PRO</span> and unlock Privacy, Custom Thumbnails, Asset Hosting, and more.</a>
+<input type="submit" class="button button-small green button-no-right-margin save-and-close" value="Save &amp; Close" id="save-details">
+</div>
+</footer>
+</div>
+<div class="page-wrap">
+<div class="boxes">
+<div class="mobile-editor-nav">
+<button id="html-toggle" class="selected"><span>HTML</span></button>
+<button id="css-toggle"><span>CSS</span></button>
+<button id="js-toggle"><span>JS</span></button>
+<button id="result-toggle" class="selected"><span>Result</span></button>
+</div>
+<div class="top-boxes editor-parent" data-number-of-editors="3" elementtiming="pen-editors">
+<div class="editor-resizer html-editor-resizer" title="Double-click to expand."><h2 class="box-title html-editor-title box-title--resizer" id="html-editor-title">
+<span class="box-title-name">
+HTML
+</span>
+<span class="box-title-preprocessor-name "></span>
+</h2></div>
+<div id="box-html" class="box box-html" data-type="html" style="height: calc((100% - 117px) * 0.777184 + 36px);">
+<div class="powers">
+<div class="powers-drag-handle" title="Double-click to expand."></div>
+<div class="editor-actions-left">
+<button id="settings-pane-html" class="button button-medium mini-button settings-nub" data-type="html" title="Open HTML Settings">
+<svg viewBox="0 0 100 100" id="icon-gear" width="10" height="10">
+<path d="M87.687,45.077c-0.313-2.433-0.816-4.807-1.542-7.079l8.145-11.73l-5.827-7.515l-0.094-0.123l-5.824-7.514
+                    l-12.955,5.577c-2.041-1.265-4.192-2.362-6.459-3.219L59.42,0h-9.34h-0.153h-9.341l-3.709,13.474
+                    c-2.27,0.857-4.421,1.955-6.463,3.222l-12.957-5.577l-5.825,7.514l-0.097,0.124l-5.822,7.517l8.146,11.731
+                    c-0.726,2.271-1.233,4.645-1.544,7.079L0,52.032l2.08,9.375l0.033,0.15l2.08,9.375l14.001,0.761c1.295,2.028,2.771,3.926,4.4,5.668
+                    l-2.396,14.227l8.416,4.173l0.138,0.067L37.169,100l9.309-10.796c1.161,0.109,2.335,0.173,3.524,0.173s2.358-0.074,3.52-0.184
+                    l9.317,10.804l8.415-4.173l0.141-0.066l8.413-4.172l-2.396-14.228c1.628-1.741,3.104-3.64,4.4-5.672l14-0.759l2.078-9.375
+                    l0.035-0.154L100,52.025L87.687,45.077z M50.003,34.51c8.435,0,15.272,7.035,15.272,15.719c0,8.679-6.839,15.717-15.272,15.717
+                    c-8.436,0-15.272-7.038-15.272-15.717C34.731,41.545,41.569,34.51,50.003,34.51z"></path>
+</svg>
+</button>
+<h2 class="box-title html-editor-title" id="html-editor-title">
+<span class="box-title-name">
+HTML
+</span>
+<span class="box-title-preprocessor-name "></span>
+</h2>
+<div class="unsaved-editor-message"><b>0</b> unsaved changes <span class="dismiss"><svg class="icon-x" viewBox="0 0 100 100"><path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path></svg></span></div></div>
+<div class="editor-actions-right">
+<div class="collaborators-indicators"></div>
+<button class="button mini-button button-medium editor-dropdown-button editor-dropdown-button-html" data-dropdown="#editor-dropdown-html" aria-haspopup="true" aria-expanded="false">
+<span class="visually-hidden">
+HTML Options
+</span>
+<svg viewBox="-122.9 121.1 105.9 61.9" class="icon-arrow-down-mini" width="10" height="10">
+<path d="M-63.2,180.3l43.5-43.5c1.7-1.7,2.7-4,2.7-6.5s-1-4.8-2.7-6.5c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.7l-37.2,37.2l-37.2-37.2
+    c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.6c-1.9,1.8-2.8,4.2-2.8,6.6c0,2.3,0.9,4.6,2.6,6.5l0,0c11.4,11.5,41,41.2,43,43.3l0.2,0.2
+    C-73.5,183.9-66.8,183.9-63.2,180.3z"></path>
+</svg>
+</button>
+<ul id="editor-dropdown-html" class="link-list is-dropdown editor-dropdown editor-dropdown-html" data-dropdown-position="css" data-dropdown-type="html">
+<li class="editor-dropdown-list-item">
+<button id="tidy-html" class="invisible-button tidy-code-button" data-editor-type="html">
+Format HTML
+</button>
+</li>
+<li class="editor-dropdown-list-item">
+<button id="view-compiled-html" class="invisible-button view-compiled-button hide" data-editor-type="html">
+View Compiled HTML
+</button>
+</li>
+<li class="editor-dropdown-list-item">
+<button id="analyze-html" class="invisible-button analyze-button" data-editor-type="html">
+Analyze HTML
+</button>
+</li>
+<li class="editor-dropdown-list-item">
+<button id="maximize-html-editor" class="invisible-button maximize-button" data-editor-type="html">
+Maximize HTML Editor
+</button>
+</li>
+<li class="editor-dropdown-list-item">
+<button id="minimize-html-editor" class="invisible-button minimize-button" data-editor-type="html">
+Minimize HTML Editor
+</button>
+</li>
+<li class="editor-dropdown-list-item">
+<button id="fold-all-html" class="invisible-button fold-all-button" data-editor-type="html">
+Fold All
+</button>
+</li>
+<li class="editor-dropdown-list-item">
+<button id="unfold-all-html" class="invisible-button unfold-all-button" data-editor-type="html">
+Unfold All
+</button>
+</li>
+</ul>
+</div>
+</div>
+<div class="code-wrap notranslate" translate="no">
+<div class="CodeMirror cm-s-default CodeMirror-wrap CodeMirror-simplescroll CodeMirror-focused"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 113.5px; left: 53.0156px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-simplescroll-horizontal" cm-not-content="true" style="display: none;"><div></div></div><div class="CodeMirror-simplescroll-vertical" cm-not-content="true" style="display: block; bottom: 0px;"><div style="height: 28.4615px; top: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 40px; margin-bottom: 0px; border-right-width: 50px; min-height: 4370px; padding-right: 9px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation" style="padding-bottom: 318px;"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>99</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style=""><div class="CodeMirror-cursor" style="left: 13.0156px; top: 109.5px; height: 22px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div><div class="CodeMirror-gutter-elt" style="left: 29px; width: 11px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">&lt;!--1. fork this codepen so that you have a copy on your account --&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div><div class="CodeMirror-gutter-elt" style="left: 29px; width: 11px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">&lt;!--2. Add HTML and CSS to make the codepen look like the example: https://codepen.io/BritHemming/full/jONmxOm  - note that you can change the colours but everything else must look the same --&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">3</div><div class="CodeMirror-gutter-elt" style="left: 29px; width: 11px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">&lt;!-- 3. include the link to this completed codepen at the top of today's file first-lastname.txt --&gt;</span> </span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">4</div><div class="CodeMirror-gutter-elt" style="left: 29px; width: 11px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">&lt;!-- 4. when you are finished - answer the questions at the bottom of this file --&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">5</div><div class="CodeMirror-gutter-elt" style="left: 29px; width: 11px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">main</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">6</div><div class="CodeMirror-gutter-elt" style="left: 29px; width: 11px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">header</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">7</div><div class="CodeMirror-gutter-elt" style="left: 29px; width: 11px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">h1</span><span class="cm-tag cm-bracket">&gt;</span>Learning How to Code<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">h1</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">8</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">header</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">9</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">10</div><div class="CodeMirror-gutter-elt" style="left: 29px; width: 11px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">11</div><div class="CodeMirror-gutter-elt" style="left: 29px; width: 11px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">section</span> <span class="cm-attribute">id</span> =<span class="cm-string">"lightGreen"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">12</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aperiam earum mollitia enim pariatur atque asperiores, deserunt fuga iure distinctio! Amet iste facilis odio rerum maiores neque laboriosam non aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eius officia reprehenderit dicta molestiae, excepturi inventore aut officiis! Perspiciatis, molestias tempora et nesciunt amet sint blanditiis eos voluptatibus ut facilis!</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">13</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">section</span><span class="cm-tag cm-bracket">&gt;</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">14</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">15</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">16</div><div class="CodeMirror-gutter-elt" style="left: 29px; width: 11px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">div</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">17</div><div class="CodeMirror-gutter-elt" style="left: 29px; width: 11px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">section</span> <span class="cm-attribute">id</span>=<span class="cm-string">"darkGreen"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">18</div><div class="CodeMirror-gutter-elt" style="left: 29px; width: 11px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">h4</span><span class="cm-tag cm-bracket">&gt;</span>I'm a title<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">h4</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">19</div><div class="CodeMirror-gutter-elt" style="left: 29px; width: 11px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp;<span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus minima porro, aspernatur esse iure quas vero totam ea cupiditate numquam accusamus enim, eius neque molestiae minus. Aliquam non repudiandae, sunt!<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">p</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 50px; width: 1px; border-bottom: 0px solid transparent; top: 4370px;"></div><div class="CodeMirror-gutters" style="height: 4420px; left: 0px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div><div class="CodeMirror-gutter CodeMirror-foldgutter"></div></div></div></div>
+<div class="error-bar" id="error-bar-html">
+<span class="error-icon" data-type="html">
+!
+</span>
+</div>
+</div>
+</div>
+<div class="editor-resizer css-editor-resizer" title="Double-click to expand."><h2 class="box-title css-editor-title box-title--resizer" id="css-editor-title">
+<span class="box-title-name">
+CSS
+</span>
+<span class="box-title-preprocessor-name "></span>
+</h2></div>
+<div id="box-css" class="box box-css" data-type="css" style="height: calc((100% - 117px) * 0.222816 + 36px);">
+<div class="powers">
+<div class="powers-drag-handle" title="Double-click to expand."></div>
+<div class="editor-actions-left">
+<button id="settings-pane-css" class="button button-medium mini-button settings-nub" data-type="css" title="Open CSS Settings">
+<svg viewBox="0 0 100 100" id="icon-gear" width="10" height="10">
+<path d="M87.687,45.077c-0.313-2.433-0.816-4.807-1.542-7.079l8.145-11.73l-5.827-7.515l-0.094-0.123l-5.824-7.514
+                    l-12.955,5.577c-2.041-1.265-4.192-2.362-6.459-3.219L59.42,0h-9.34h-0.153h-9.341l-3.709,13.474
+                    c-2.27,0.857-4.421,1.955-6.463,3.222l-12.957-5.577l-5.825,7.514l-0.097,0.124l-5.822,7.517l8.146,11.731
+                    c-0.726,2.271-1.233,4.645-1.544,7.079L0,52.032l2.08,9.375l0.033,0.15l2.08,9.375l14.001,0.761c1.295,2.028,2.771,3.926,4.4,5.668
+                    l-2.396,14.227l8.416,4.173l0.138,0.067L37.169,100l9.309-10.796c1.161,0.109,2.335,0.173,3.524,0.173s2.358-0.074,3.52-0.184
+                    l9.317,10.804l8.415-4.173l0.141-0.066l8.413-4.172l-2.396-14.228c1.628-1.741,3.104-3.64,4.4-5.672l14-0.759l2.078-9.375
+                    l0.035-0.154L100,52.025L87.687,45.077z M50.003,34.51c8.435,0,15.272,7.035,15.272,15.719c0,8.679-6.839,15.717-15.272,15.717
+                    c-8.436,0-15.272-7.038-15.272-15.717C34.731,41.545,41.569,34.51,50.003,34.51z"></path>
+</svg>
+</button>
+<h2 class="box-title css-editor-title" id="css-editor-title">
+<span class="box-title-name">
+CSS
+</span>
+<span class="box-title-preprocessor-name "></span>
+</h2>
+</div>
+<div class="editor-actions-right">
+<div class="collaborators-indicators"></div>
+<button class="button mini-button button-medium editor-dropdown-button editor-dropdown-button-css" data-dropdown="#editor-dropdown-css" aria-haspopup="true" aria-expanded="false">
+<span class="visually-hidden">
+CSS Options
+</span>
+<svg viewBox="-122.9 121.1 105.9 61.9" class="icon-arrow-down-mini" width="10" height="10">
+<path d="M-63.2,180.3l43.5-43.5c1.7-1.7,2.7-4,2.7-6.5s-1-4.8-2.7-6.5c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.7l-37.2,37.2l-37.2-37.2
+    c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.6c-1.9,1.8-2.8,4.2-2.8,6.6c0,2.3,0.9,4.6,2.6,6.5l0,0c11.4,11.5,41,41.2,43,43.3l0.2,0.2
+    C-73.5,183.9-66.8,183.9-63.2,180.3z"></path>
+</svg>
+</button>
+<ul id="editor-dropdown-css" class="link-list is-dropdown editor-dropdown editor-dropdown-css" data-dropdown-position="css" data-dropdown-type="css">
+<li class="editor-dropdown-list-item">
+<button id="tidy-css" class="invisible-button tidy-code-button" data-editor-type="css">
+Format CSS
+</button>
+</li>
+<li class="editor-dropdown-list-item">
+<button id="view-compiled-css" class="invisible-button view-compiled-button hide" data-editor-type="css">
+View Compiled CSS
+</button>
+</li>
+<li class="editor-dropdown-list-item">
+<button id="analyze-css" class="invisible-button analyze-button" data-editor-type="css">
+Analyze CSS
+</button>
+</li>
+<li class="editor-dropdown-list-item">
+<button id="maximize-css-editor" class="invisible-button maximize-button" data-editor-type="css">
+Maximize CSS Editor
+</button>
+</li>
+<li class="editor-dropdown-list-item">
+<button id="minimize-css-editor" class="invisible-button minimize-button" data-editor-type="css">
+Minimize CSS Editor
+</button>
+</li>
+<li class="editor-dropdown-list-item">
+<button id="fold-all-css" class="invisible-button fold-all-button" data-editor-type="css">
+Fold All
+</button>
+</li>
+<li class="editor-dropdown-list-item">
+<button id="unfold-all-css" class="invisible-button unfold-all-button" data-editor-type="css">
+Unfold All
+</button>
+</li>
+</ul>
+</div>
+</div>
+<div class="code-wrap notranslate" translate="no">
+<div class="CodeMirror cm-s-default CodeMirror-wrap CodeMirror-simplescroll"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 4px; left: 44px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-simplescroll-horizontal" cm-not-content="true" style="display: none;"><div></div></div><div class="CodeMirror-simplescroll-vertical" cm-not-content="true" style="display: block; bottom: 0px;"><div style="height: 10px; top: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 40px; margin-bottom: 0px; border-right-width: 50px; min-height: 2147px; padding-right: 9px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation" style="padding-bottom: 75px;"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><span><span>​</span>x</span></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 22px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div><div class="CodeMirror-gutter-elt" style="left: 29px; width: 11px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tag">main</span> {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">border</span>: <span class="cm-number">20px</span> <span class="cm-atom">solid</span> <span class="cm-keyword">green</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">3</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">padding</span>: <span class="cm-number">100px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">4</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">padding-top</span>: <span class="cm-number">15px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">5</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">margin</span>: <span class="cm-number">10px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">6</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">7</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">8</div><div class="CodeMirror-gutter-elt" style="left: 29px; width: 11px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tag">h4</span> {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">9</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">font-size</span>: <span class="cm-number">30px</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">10</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">11</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">12</div><div class="CodeMirror-gutter-elt" style="left: 29px; width: 11px;"><div class="CodeMirror-foldgutter-open CodeMirror-guttermarker-subtle"></div></div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tag">header</span> {</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">13</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">color</span>: <span class="cm-keyword">grey</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">14</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">text-align</span>: <span class="cm-atom">center</span>;</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">15</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp;<span class="cm-property">font-size</span>: <span class="cm-number">20px</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">16</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">17</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 50px; width: 1px; border-bottom: 0px solid transparent; top: 2147px;"></div><div class="CodeMirror-gutters" style="height: 2197px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div><div class="CodeMirror-gutter CodeMirror-foldgutter"></div></div></div></div>
+<div class="error-bar" id="error-bar-css">
+<span class="error-icon" data-type="css">
+!
+</span>
+</div>
+</div>
+</div>
+<div class="editor-resizer js-editor-resizer" title="Double-click to expand."><h2 class="box-title js-editor-title box-title--resizer" id="js-editor-title">
+<span class="box-title-name">
+JS
+</span>
+<span class="box-title-preprocessor-name "></span>
+</h2></div>
+<div id="box-js" class="box box-js" data-type="js" style="height: calc((100% - 117px) * 0 + 36px);">
+<div class="powers">
+<div class="powers-drag-handle" title="Double-click to expand."></div>
+<div class="editor-actions-left">
+<button id="settings-pane-js" class="button button-medium mini-button settings-nub" data-type="js" title="Open JS Settings">
+<svg viewBox="0 0 100 100" id="icon-gear" width="10" height="10">
+<path d="M87.687,45.077c-0.313-2.433-0.816-4.807-1.542-7.079l8.145-11.73l-5.827-7.515l-0.094-0.123l-5.824-7.514
+                    l-12.955,5.577c-2.041-1.265-4.192-2.362-6.459-3.219L59.42,0h-9.34h-0.153h-9.341l-3.709,13.474
+                    c-2.27,0.857-4.421,1.955-6.463,3.222l-12.957-5.577l-5.825,7.514l-0.097,0.124l-5.822,7.517l8.146,11.731
+                    c-0.726,2.271-1.233,4.645-1.544,7.079L0,52.032l2.08,9.375l0.033,0.15l2.08,9.375l14.001,0.761c1.295,2.028,2.771,3.926,4.4,5.668
+                    l-2.396,14.227l8.416,4.173l0.138,0.067L37.169,100l9.309-10.796c1.161,0.109,2.335,0.173,3.524,0.173s2.358-0.074,3.52-0.184
+                    l9.317,10.804l8.415-4.173l0.141-0.066l8.413-4.172l-2.396-14.228c1.628-1.741,3.104-3.64,4.4-5.672l14-0.759l2.078-9.375
+                    l0.035-0.154L100,52.025L87.687,45.077z M50.003,34.51c8.435,0,15.272,7.035,15.272,15.719c0,8.679-6.839,15.717-15.272,15.717
+                    c-8.436,0-15.272-7.038-15.272-15.717C34.731,41.545,41.569,34.51,50.003,34.51z"></path>
+</svg>
+</button>
+<h2 class="box-title js-editor-title" id="js-editor-title">
+<span class="box-title-name">
+JS
+</span>
+<span class="box-title-preprocessor-name "></span>
+</h2>
+</div>
+<div class="editor-actions-right">
+<div class="collaborators-indicators"></div>
+<button class="button mini-button button-medium editor-dropdown-button editor-dropdown-button-js" data-dropdown="#editor-dropdown-js" aria-haspopup="true" aria-expanded="false">
+<span class="visually-hidden">
+JS Options
+</span>
+<svg viewBox="-122.9 121.1 105.9 61.9" class="icon-arrow-down-mini" width="10" height="10">
+<path d="M-63.2,180.3l43.5-43.5c1.7-1.7,2.7-4,2.7-6.5s-1-4.8-2.7-6.5c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.7l-37.2,37.2l-37.2-37.2
+    c-1.7-1.7-4-2.7-6.5-2.7s-4.8,1-6.5,2.6c-1.9,1.8-2.8,4.2-2.8,6.6c0,2.3,0.9,4.6,2.6,6.5l0,0c11.4,11.5,41,41.2,43,43.3l0.2,0.2
+    C-73.5,183.9-66.8,183.9-63.2,180.3z"></path>
+</svg>
+</button>
+<ul id="editor-dropdown-js" class="link-list is-dropdown editor-dropdown editor-dropdown-js" data-dropdown-position="css" data-dropdown-type="js">
+<li class="editor-dropdown-list-item">
+<button id="tidy-js" class="invisible-button tidy-code-button" data-editor-type="js">
+Format JavaScript
+</button>
+</li>
+<li class="editor-dropdown-list-item">
+<button id="view-compiled-js" class="invisible-button view-compiled-button hide" data-editor-type="js">
+View Compiled JavaScript
+</button>
+</li>
+<li class="editor-dropdown-list-item">
+<button id="analyze-js" class="invisible-button analyze-button" data-editor-type="js">
+Analyze JavaScript
+</button>
+</li>
+<li class="editor-dropdown-list-item">
+<button id="maximize-js-editor" class="invisible-button maximize-button" data-editor-type="js">
+Maximize JavaScript Editor
+</button>
+</li>
+<li class="editor-dropdown-list-item">
+<button id="minimize-js-editor" class="invisible-button minimize-button" data-editor-type="js">
+Minimize JavaScript Editor
+</button>
+</li>
+<li class="editor-dropdown-list-item">
+<button id="fold-all-js" class="invisible-button fold-all-button" data-editor-type="js">
+Fold All
+</button>
+</li>
+<li class="editor-dropdown-list-item">
+<button id="unfold-all-js" class="invisible-button unfold-all-button" data-editor-type="js">
+Unfold All
+</button>
+</li>
+</ul>
+</div>
+</div>
+<div class="code-wrap notranslate" translate="no">
+<div class="CodeMirror cm-s-default CodeMirror-wrap CodeMirror-simplescroll"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 44px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-simplescroll-horizontal" cm-not-content="true" style="display: none;"><div></div></div><div class="CodeMirror-simplescroll-vertical" cm-not-content="true" style="display: block; bottom: 0px;"><div style="height: 10px; top: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 40px; margin-bottom: 0px; border-right-width: 50px; min-height: 30px; padding-right: 9px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre class="CodeMirror-line-like"><span>xxxxxxxxxx</span></pre><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>1</div></div></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 4px; top: 0px; height: 22px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation"><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" style="left: -40px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 50px; width: 1px; border-bottom: 0px solid transparent; top: 30px;"></div><div class="CodeMirror-gutters" style="height: 80px; left: 0px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div><div class="CodeMirror-gutter CodeMirror-foldgutter"></div></div></div></div>
+<div class="error-bar" id="error-bar-js">
+<span class="error-icon" data-type="js">
+!
+</span>
+</div>
+</div>
+<div class="react-pen-editor-imports" data-props-type="js"></div>
+</div>
+</div>
+<div id="resizer" class="resizer"><span></span><div id="width-readout" class="width-readout">1460px</div></div>
+<section id="drawer" class="drawer comments">
+</section>
+<div class="output-container">
+<div class="output-sizer">
+<div id="result_div" class="result">
+<iframe id="result" name="CodePen" title="CodePen Preview" src="./CSS + HTML Practice_files/mdOWdOO.html" sandbox="allow-downloads allow-forms allow-modals allow-pointer-lock allow-popups allow-presentation allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="accelerometer; camera; encrypted-media; geolocation; gyroscope; microphone; midi" scrolling="auto" allowtransparency="true" allowpaymentrequest="true" allowfullscreen="true" class="result-iframe ">
+          </iframe>
+<div id="editor-drag-cover" class="drag-cover"></div>
+</div>
+<div id="box-console" class="box box-console notranslate" translate="no">
+<div class="editor-resizer editor-resizer-console" title="Drag to resize. Double-click to expand."></div>
+<div class="powers">
+<div class="powers-drag-handle" title="Drag to resize. Double-click to expand."></div>
+<div class="editor-actions-left">
+<h2 class="box-title"><span class="box-title-name">Console</span></h2>
+</div>
+<div class="editor-actions-right">
+<button class="button button-medium mini-button console-clear-button" title="Clear">
+Clear
+</button>
+<button class="button button-medium mini-button close-editor-button" data-type="console" title="Close">
+<svg class="icon-x" viewBox="0 0 100 100">
+<path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path>
+</svg>
+</button>
+</div>
+</div>
+<div class="console-wrap">
+<div class="console-entries short-no-scroll"></div>
+<div class="console-command-line">
+<span class="console-arrow forwards"></span>
+<textarea class="console-command-line-input auto-expand" rows="1" data-min-rows="1"></textarea>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="asset-bin-goes-here"></div>
+<footer id="react-pen-footer" class="site-footer editor-footer"><div class="footer-left"><div class="footer-actions-menu"><button id="footer-button" aria-expanded="false" class="Button-module_root-2XLnp toggle-footer-menu-button
+              
+            "><svg viewBox="-122.9 121.1 105.9 61.9"><path d="M-63.2 180.3l43.5-43.5c1.7-1.7 2.7-4 2.7-6.5s-1-4.8-2.7-6.5c-1.7-1.7-4-2.7-6.5-2.7s-4.8 1-6.5 2.7L-69.9 161l-37.2-37.2c-1.7-1.7-4-2.7-6.5-2.7s-4.8 1-6.5 2.6c-1.9 1.8-2.8 4.2-2.8 6.6 0 2.3.9 4.6 2.6 6.5 11.4 11.5 41 41.2 43 43.3l.2.2c3.6 3.6 10.3 3.6 13.9 0z"></path></svg></button><div class="footer-actions" data-expanded="false"><button class="Button-module_root-2XLnp console-toggle-button" data-size="mini">Console</button><button class="Button-module_root-2XLnp" data-size="mini">Assets</button><button data-id="editor-comments-button" class="Button-module_root-2XLnp" data-size="mini">Comments</button><button title="Keyboard Shortcuts" class="Button-module_root-2XLnp keyboard-commands-button" data-size="mini"><span>⌘</span></button></div><select name="zoom-choice" data-placeholder="Zoom Scale..." class="footer-button button mini-button zoom-select"><option value="1.0" class="option-green" selected="">1.0×</option><option value="0.5" class="option-green">0.5×</option><option value="0.25" class="option-green">0.25×</option></select></div></div><div id="bsa-footer" class="PenEditorFooterAd_root-30hLP" data-test-id="bsa-footer"><div class="PenEditorFooterAd_adWrapper-5vYSf"><a href="https://srv.buysellads.com/ads/click/x/GTND42JJCAAI42QECVALYKQNC6SIPKJECASDKZ3JCYYI523ICYBIL23KCABIC5QUC67IC27ECEYI52QWCWYDE2JKC6SD427YF6BDTK3EHJNCLSIZ" class="PenEditorFooterAd_searchAd-1J8Q8" title="Jira Service Management: ITSM built for remote teams"><div class="PenEditorFooterAd_image-1eqS9" style="background-color: rgb(255, 255, 255);"><img src="./CSS + HTML Practice_files/1613601458-80x80-closer.png" alt=""></div><div class="PenEditorFooterAd_text-2mho2"><div class="PenEditorFooterAd_company-2bAwg">Jira Service Management: ITSM built for remote teams</div></div></a><button class="PenEditorFooterAd_closeButton-3LA4G" aria-label="Close Ad"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M96.8 83.7L63.1 50l33.7-33.7c3.6-3.6 3.6-9.4 0-13.1s-9.5-3.6-13.1 0L50 36.9 16.3 3.2C12.7-.4 6.9-.4 3.2 3.2s-3.6 9.5 0 13.1L36.9 50 3.2 83.7c-3.6 3.6-3.6 9.4 0 13.1s9.5 3.6 13.1 0L50 63.1l33.7 33.7c3.6 3.6 9.4 3.6 13.1 0s3.6-9.5 0-13.1z"></path></svg></button></div><img src="./CSS + HTML Practice_files/B24968490.296164892" alt="" class="PenEditorFooterAd_pixel-2S4eI"></div><div class="footer-right"><span class="PenEditorFooterStatus_editorState-2OL9y" data-state="EMPTY"><span class="PenEditorFooterStatus_text-3YcGG"><span>Last saved <time id="last-saved-time-ago" datetime="2021-02-15 03:09:42 UTC" title="2021-02-15 03:09:42 UTC">2/14/2021 10:09:42 PM</time></span></span><svg></svg></span><button id="live-view-popout-button" title="Open Live View in a New Window" class="Button-module_root-2XLnp live-view-popout-button" data-size="mini" data-has-icon="true"><svg viewBox="0 0 95.74 91.69"><path d="M46.591 35.398l26.7-26.7 12.523 12.523-26.7 26.7z"></path><path d="M93.03 37L58.35 1.5l35.08.41-.4 35.09zM95.73 91.69H0V0h47.87v13H13v65.69h69.74V45.85h12.99v45.84z"></path></svg></button><button class="Button-module_root-2XLnp delete-button" data-size="mini" data-roll="red">Delete</button><button data-id="collection-item-add-button" class="Button-module_root-2XLnp" data-size="mini">Add to Collection</button><button data-test-id="fork-button" title="Fork this Pen" class="Button-module_root-2XLnp" data-size="mini" data-has-icon="true"><svg viewBox="0 0 100 100"><path d="M84.339 62.504a15.805 15.805 0 00-11.313 4.721 40.187 40.187 0 01-1.578-1.572c-6.965-7.211-14.451-19.189-22.311-29.678-7.977-10.209-16.196-20.413-29.012-20.906H0v14.37h20.126c2.555-.111 6.556 1.993 11.208 6.914 6.961 7.197 14.454 19.171 22.315 29.662 4.822 6.164 9.759 12.293 15.741 16.289 1.99 6.191 7.93 10.688 14.949 10.688 8.648 0 15.661-6.824 15.661-15.244s-7.013-15.244-15.661-15.244zM51.541 29.438h18.986c2.637 4.795 7.831 8.059 13.811 8.059 8.648 0 15.661-6.824 15.661-15.243S92.986 7.01 84.338 7.01c-5.979 0-11.174 3.264-13.811 8.058H36.3c6.007 3.551 10.861 8.924 15.241 14.37z"></path></svg>Fork</button><button class="Button-module_root-2XLnp embed-modal-button" data-size="mini">Embed</button><button data-test-id="export-panel-button" class="Button-module_root-2XLnp export-button" data-size="mini">Export</button><div class="export-panel PenEditorFooterExportMenu_root-11cO7" data-test-id="export-panel" id="export-panel"><section class="share-actions share-section"><h4>Export<a class="inline-q" href="https://blog.codepen.io/documentation/features/exporting-pens/" rel="noopener noreferrer" target="_blank"><svg viewBox="0 0 100 100"><path d="M75 0H25C11.19 0 0 11.193 0 25v50c0 13.802 11.19 25 25 25h50c13.811 0 25-11.198 25-25V25c0-13.807-11.189-25-25-25zM57.203 85.067H41.504V72.542h15.699v12.525zm16.154-43.026c-.84 2.066-1.873 3.834-3.102 5.298a20.59 20.59 0 01-4.101 3.751 91.479 91.479 0 00-4.249 3.101c-1.333 1.034-1.553 2.214-2.596 3.547-1.025 1.335-.977 3.004-.977 5.006v3.924H41.668v-4.623c0-2.864 1.366-5.265 2.27-7.202.896-1.935 2.255-3.581 3.459-4.947 1.196-1.367 2.62-2.556 3.955-3.557 1.327-.993 2.637-1.993 3.776-2.995 1.123-1.001 2.083-2.1 2.783-3.304.7-1.197 1.043-2.694.977-4.5 0-3.06-.74-5.33-2.245-6.795-1.498-1.465-3.582-2.206-6.25-2.206-1.8 0-3.337.351-4.639 1.05a9.172 9.172 0 00-3.199 2.808c-.837 1.163-1.448 3.593-1.847 5.156-.407 1.57-.602 6.115-.602 6.115H25.399c.073-8.333.684-7.963 1.855-10.965 1.164-2.995 2.8-6.132 4.899-8.33 2.099-2.197 4.63-4.179 7.601-5.417a25.782 25.782 0 019.945-1.977c4.736 0 8.683.581 11.856 1.876 3.167 1.302 5.713 2.889 7.65 4.817 1.929 1.937 3.312 4.004 4.149 6.234.831 2.237 1.245 4.313 1.245 6.242.002 3.206-.412 5.827-1.242 7.893z"></path></svg></a></h4><button data-test-id="export-gist" id="share-gist" class="Button-module_root-2XLnp" data-size="small" data-has-icon="true" data-color="light" data-variant="outline" data-full-width="true"><svg viewBox="-561 347 100 100"><path d="M-561 401.337c0 4.531.424 8.631 1.272 12.298.847 3.667 2.021 6.854 3.521 9.56s3.407 5.086 5.721 7.139a32.693 32.693 0 007.53 5.037c2.706 1.304 5.795 2.363 9.266 3.178a76.523 76.523 0 0010.636 1.712c3.619.326 7.596.489 11.931.489 4.368 0 8.362-.163 11.98-.489 3.619-.326 7.172-.897 10.66-1.712s6.593-1.874 9.315-3.178 5.249-2.983 7.58-5.037a27.121 27.121 0 005.77-7.139c1.516-2.705 2.697-5.892 3.545-9.56.848-3.668 1.271-7.767 1.271-12.298 0-8.085-2.706-15.078-8.117-20.978.293-.782.562-1.671.807-2.665s.473-2.412.685-4.254c.212-1.842.13-3.969-.245-6.381-.375-2.413-1.068-4.874-2.079-7.384l-.733-.147c-.522-.098-1.378-.073-2.567.073-1.189.146-2.575.44-4.156.88-1.581.44-3.619 1.288-6.112 2.543-2.494 1.255-5.126 2.828-7.897 4.719-4.759-1.304-11.296-1.956-19.609-1.956-8.28 0-14.8.652-19.56 1.956-2.771-1.891-5.42-3.464-7.946-4.719-2.526-1.255-4.539-2.103-6.039-2.543-1.499-.44-2.901-.725-4.205-.856-1.304-.13-2.127-.171-2.47-.122a4.87 4.87 0 00-.807.171c-1.011 2.51-1.703 4.971-2.078 7.384-.375 2.412-.456 4.54-.245 6.381.212 1.842.44 3.26.685 4.254.245.994.513 1.883.807 2.665-5.412 5.901-8.117 12.893-8.117 20.978v.001zm12.274 12.274c0-4.694 2.135-8.998 6.406-12.91 1.271-1.174 2.755-2.062 4.45-2.665 1.695-.603 3.61-.945 5.746-1.027a63.936 63.936 0 016.137.049c1.956.114 4.368.269 7.237.464 2.869.196 5.346.293 7.433.293 2.087 0 4.564-.098 7.433-.293a742.02 742.02 0 017.237-.464 63.932 63.932 0 016.137-.049c2.135.082 4.05.424 5.746 1.027 1.695.603 3.178 1.491 4.45 2.665 4.271 3.847 6.406 8.15 6.406 12.91 0 2.804-.351 5.289-1.052 7.457-.701 2.168-1.597 3.985-2.69 5.452-1.092 1.467-2.608 2.714-4.548 3.741-1.94 1.027-3.83 1.817-5.672 2.372-1.842.554-4.206.986-7.091 1.296s-5.461.497-7.726.562c-2.266.065-5.143.098-8.631.098-3.488 0-6.365-.033-8.631-.098s-4.841-.253-7.726-.562c-2.885-.31-5.248-.742-7.09-1.296-1.842-.554-3.733-1.345-5.672-2.372-1.94-1.027-3.456-2.274-4.548-3.741s-1.989-3.284-2.689-5.452c-.701-2.168-1.051-4.654-1.051-7.457h-.001zm50.226-.986c0-5.178 2.798-9.375 6.25-9.375s6.25 4.197 6.25 9.375-2.798 9.375-6.25 9.375-6.25-4.197-6.25-9.375zm-37.5 0c0-5.178 2.798-9.375 6.25-9.375s6.25 4.197 6.25 9.375-2.798 9.375-6.25 9.375-6.25-4.197-6.25-9.375z"></path></svg>Save as GitHub Gist</button><button data-test-id="export-zip" class="Button-module_root-2XLnp" data-size="small" data-has-icon="true" data-color="light" data-variant="outline" data-full-width="true"><svg viewBox="0 0 23 17"><path d="M18.18 5.76a1.221 1.221 0 00-.461-.273 2.044 2.044 0 00-.663-.096H16v2.772h1.056c.528 0 .908-.126 1.14-.378.232-.252.348-.604.348-1.056 0-.2-.03-.382-.09-.546a1.118 1.118 0 00-.273-.423zM21 0H2C.9 0 0 .9 0 2v13c0 1.1.9 2 2 2h19c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM9.208 4.605a.936.936 0 01-.051.306c-.034.1-.081.194-.141.282l-4.104 5.862h4.164v1.56H2.332v-.78c0-.093.016-.184.048-.273a.951.951 0 01.132-.25l4.116-5.88h-3.96v-1.56h6.54v.733zm3.145 8.01h-2.041V3.872h2.04v8.741zm8.01-4.686c-.141.364-.355.676-.643.936-.288.26-.654.462-1.095.609-.442.145-.965.218-1.57.218H16v2.922h-2.028V3.873h3.084c.616 0 1.145.073 1.587.219.442.146.806.347 1.092.603.286.256.496.558.633.906.136.348.204.724.204 1.128 0 .436-.07.836-.21 1.2z"></path></svg>Export .zip</button><div class="PenEditorFooterExportMenu_fancyProArea-2IcHx"><a class="badge-pro svg BadgePro_svg-3Hmbx badge" data-test-id="pro-badge" href="https://codepen.io/pro"><img src="./CSS + HTML Practice_files/badge-pro-4d863f9a634627f269bdc611cb477b9f.svg" alt="PRO"></a><button data-test-id="export-zip" class="Button-module_root-2XLnp" data-size="small" data-has-icon="true" data-color="light" data-variant="outline" data-full-width="true"><svg viewBox="0 0 23 17"><path d="M18.18 5.76a1.221 1.221 0 00-.461-.273 2.044 2.044 0 00-.663-.096H16v2.772h1.056c.528 0 .908-.126 1.14-.378.232-.252.348-.604.348-1.056 0-.2-.03-.382-.09-.546a1.118 1.118 0 00-.273-.423zM21 0H2C.9 0 0 .9 0 2v13c0 1.1.9 2 2 2h19c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zM9.208 4.605a.936.936 0 01-.051.306c-.034.1-.081.194-.141.282l-4.104 5.862h4.164v1.56H2.332v-.78c0-.093.016-.184.048-.273a.951.951 0 01.132-.25l4.116-5.88h-3.96v-1.56h6.54v.733zm3.145 8.01h-2.041V3.872h2.04v8.741zm8.01-4.686c-.141.364-.355.676-.643.936-.288.26-.654.462-1.095.609-.442.145-.965.218-1.57.218H16v2.922h-2.028V3.873h3.084c.616 0 1.145.073 1.587.219.442.146.806.347 1.092.603.286.256.496.558.633.906.136.348.204.724.204 1.128 0 .436-.07.836-.21 1.2z"></path></svg>Export .zip</button></div></section></div><button class="Button-module_root-2XLnp sharing-button" data-size="mini">Share</button><div class="sharing-panel" id="sharing-panel"><form id="send-to-phone-form" name="send-to-phone-form" action="https://codepen.io/debrafontenot/pen/mdOWdOO#0" class="send-to-phone share-section" style="margin-top: 0px; margin-bottom: 20px;"><h4>Text Message</h4><h5>Send Full Page URL to your phone<a href="http://blog.codepen.io/documentation/features/sms/" class="inline-q" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 100 100"><path d="M75 0H25C11.19 0 0 11.193 0 25v50c0 13.802 11.19 25 25 25h50c13.811 0 25-11.198 25-25V25c0-13.807-11.189-25-25-25zM57.203 85.067H41.504V72.542h15.699v12.525zm16.154-43.026c-.84 2.066-1.873 3.834-3.102 5.298a20.59 20.59 0 01-4.101 3.751 91.479 91.479 0 00-4.249 3.101c-1.333 1.034-1.553 2.214-2.596 3.547-1.025 1.335-.977 3.004-.977 5.006v3.924H41.668v-4.623c0-2.864 1.366-5.265 2.27-7.202.896-1.935 2.255-3.581 3.459-4.947 1.196-1.367 2.62-2.556 3.955-3.557 1.327-.993 2.637-1.993 3.776-2.995 1.123-1.001 2.083-2.1 2.783-3.304.7-1.197 1.043-2.694.977-4.5 0-3.06-.74-5.33-2.245-6.795-1.498-1.465-3.582-2.206-6.25-2.206-1.8 0-3.337.351-4.639 1.05a9.172 9.172 0 00-3.199 2.808c-.837 1.163-1.448 3.593-1.847 5.156-.407 1.57-.602 6.115-.602 6.115H25.399c.073-8.333.684-7.963 1.855-10.965 1.164-2.995 2.8-6.132 4.899-8.33 2.099-2.197 4.63-4.179 7.601-5.417a25.782 25.782 0 019.945-1.977c4.736 0 8.683.581 11.856 1.876 3.167 1.302 5.713 2.889 7.65 4.817 1.929 1.937 3.312 4.004 4.149 6.234.831 2.237 1.245 4.313 1.245 6.242.002 3.206-.412 5.827-1.242 7.893z"></path></svg></a></h5><div id="sms-phone"><input type="tel" id="send-to-phone" placeholder="1-555-555-5555" name="send-to-phone" required="" title="Phone number in international format" class="send-to-phone-input fullwidth"><button id="sms-send-button" type="submit" class="Button-module_root-2XLnp" data-size="small" data-color="green">Send</button><span class="mobile-sms-left"><strong id="texts-left" class="texts-left">10</strong> left this month</span></div></form><h4>Share</h4><ul id="share-buttons" class="share-buttons share-section"><li><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/intent/tweet?text=CSS%20%2B%20HTML%20Practice&amp;url=https://codepen.io/debrafontenot/pen/mdOWdOO&amp;via=CodePen" class="Button-module_root-2XLnp" data-size="small" data-has-icon="true" data-color="light" data-variant="outline" data-full-width="true"><svg viewBox="0 0 100 100"><path d="M100.001 17.942a39.965 39.965 0 01-11.783 3.339c4.236-2.624 7.49-6.779 9.021-11.73a40.289 40.289 0 01-13.026 5.146C80.47 10.575 75.138 8 69.234 8c-11.33 0-20.518 9.494-20.518 21.205 0 1.662.183 3.281.533 4.833-17.052-.884-32.168-9.326-42.288-22.155a21.637 21.637 0 00-2.778 10.659c0 7.357 3.622 13.849 9.127 17.65a19.94 19.94 0 01-9.293-2.651c-.002.089-.002.178-.002.268 0 10.272 7.072 18.845 16.458 20.793a19.939 19.939 0 01-9.264.365c2.609 8.424 10.187 14.555 19.166 14.726-7.021 5.688-15.867 9.077-25.48 9.077A40.59 40.59 0 010 82.473C9.08 88.491 19.865 92 31.449 92c37.737 0 58.374-32.312 58.374-60.336 0-.92-.02-1.834-.059-2.743a42.547 42.547 0 0010.237-10.979z"></path></svg>Share on Twitter</a></li><li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/sharer/sharer.php?u=https://codepen.io/debrafontenot/pen/mdOWdOO" class="Button-module_root-2XLnp" data-size="small" data-has-icon="true" data-color="light" data-variant="outline" data-full-width="true"><svg viewBox="-574 359 75 75"><path d="M-511.499 359h-50c-6.875 0-12.501 5.626-12.501 12.502v49.997c0 6.88 5.626 12.501 12.501 12.501h50c6.876 0 12.499-5.621 12.499-12.502v-49.996c0-6.876-5.624-12.502-12.499-12.502zm1.263 37.5h-12.201v32.813H-536.5V396.5h-6.777v-10.735h6.777v-6.972c0-9.473 4.086-15.105 15.225-15.105h12.835v11.614h-10.483c-3.111-.005-3.497 1.622-3.497 4.652l-.017 5.811h14.063l-1.862 10.735z"></path></svg>Share on Facebook</a></li><li><a target="_blank" rel="noopener noreferrer" href="https://dev.to/new?prefill=---%0Atitle%3A%20CSS%20%2B%20HTML%20Practice%0Apublished%3A%20true%0Atags%3A%20codepen%0A---%0A%0A%0A%0A%7B%25%20codepen%20https%3A%2F%2Fcodepen.io%2Fdebrafontenot%2Fpen%2FmdOWdOO%20%25%7D" class="Button-module_root-2XLnp" data-size="small" data-has-icon="true" data-color="light" data-variant="outline" data-full-width="true"><svg viewBox="0 0 200 200"><path d="M188 0H12A12 12 0 000 12v176a12 12 0 0012 12h176a12 12 0 0012-12V12a12 12 0 00-12-12zM57.64 134.55C52.72 140.9 46 143 29.79 143H15.15V60.06h15.54C49 60.06 54.4 62 59.32 70c2.85 4.67 3.11 6.48 3.5 28.25.52 24.64-.26 30.08-5.18 36.3zm56-60.24H86.4v19.43h16.84v14.12l-8 .39-8.16.39v19.43l13.34.39 13.21.39V143H96.11c-17 0-17.74-.13-20.72-3.24l-3.24-3.11v-34.88c0-33.29.13-35 2.72-38.34s2.72-3.37 20.73-3.37h18zm51.56 60c-1.81 4.66-7 8.68-11 8.68-1.94 0-4.92-1.69-7.38-4.28-3.5-3.49-4.93-7-9.07-22.93-2.72-10.36-7.13-27.07-9.85-37.3l-4.92-18.4h8.29c4.53 0 8.29.26 8.29.52 0 .65 12.83 50 13.86 53.24.52 1.69 3.5-7.64 8-25.26l7.26-27.85 8.16-.39c4.4-.26 8 0 8 .39.01 1.53-18.38 70.19-19.68 73.56z"></path><path d="M45.07 76.77c-2.07-1.68-5-2.46-9.32-2.46H29.4l.26 26.82.39 26.94 6.21-.13c4.54 0 6.87-.78 9.07-2.85 2.72-2.72 2.85-4 2.85-24.35 0-20.99-.13-21.51-3.11-23.97z"></path></svg>Share on DEV</a></li><li><a target="_blank" rel="noopener noreferrer" href="https://codepen.io/debrafontenot/pen/mdOWdOO" class="Button-module_root-2XLnp" data-size="small" data-has-icon="true" data-color="light" data-variant="outline" data-full-width="true"><svg viewBox="0 0 8 8"><path d="M5.88.03a1.9 1.9 0 00-.53.09c-.27.1-.53.25-.75.47a.5.5 0 10.69.69c.11-.11.24-.17.38-.22.35-.12.78-.07 1.06.22.39.39.39 1.04 0 1.44l-1.5 1.5c-.44.44-.8.48-1.06.47-.26-.01-.41-.13-.41-.13a.5.5 0 10-.5.88s.34.22.84.25c.5.03 1.2-.16 1.81-.78l1.5-1.5A1.98 1.98 0 006.44.07C6.26.03 6.06.03 5.88.04zm-2 2.31c-.5-.02-1.19.15-1.78.75L.6 4.59a1.98 1.98 0 000 2.81c.56.56 1.36.72 2.06.47.27-.1.53-.25.75-.47a.5.5 0 10-.69-.69c-.11.11-.24.17-.38.22-.35.12-.78.07-1.06-.22-.39-.39-.39-1.04 0-1.44l1.5-1.5c.4-.4.75-.45 1.03-.44.28.01.47.09.47.09a.5.5 0 10.44-.88s-.34-.2-.84-.22z"></path></svg>Copy Link</a></li></ul></div></div></footer>
+<div id="keycommands" class="modal modal-neutral">
+<div class="keycommands-container">
+<section class="editor-commands inline-editor-commands">
+<h2>Editor Commands</h2>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key pc_only">Ctrl</span>
+<span class="key mac_only">Ctrl</span>
+<span class="key">Space</span>
+</kbd>
+Autocomplete
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key">F</span>
+</kbd>
+Find
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key">G</span>
+</kbd>
+Find Next
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key" title="Shift">⇧</span>
+<span class="key">G</span>
+</kbd>
+Find Previous
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key pc_only" title="Shift">⇧</span>
+<span class="key mac_only">Opt</span>
+<span class="key">F</span>
+</kbd>
+Find &amp; Replace
+</div>
+<div class="key-group mac_only">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key" title="Shift">⇧</span>
+<span class="key">F</span>
+</kbd>
+Format Code
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key">[</span>
+</kbd>
+Indent Code Right
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key">]</span>
+</kbd>
+Indent Code Left
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key" title="Shift">⇧</span>
+<span class="key">Tab</span>
+</kbd>
+Auto Indent Code
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key">/</span>
+</kbd>
+Line Comment
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key pc_only" title="Shift">⇧</span>
+<span class="key mac_only">Opt</span>
+<span class="key">/</span>
+</kbd>
+Block Comment
+</div>
+<p class="inline-tab-triggers">Also see: <a href="https://blog.codepen.io/documentation/features/tab-triggers/" target="_blank" rel="noopener">Tab Triggers</a></p>
+</section>
+<section class="editor-commands">
+<h2>Editor Focus</h2>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key pc_only">Alt</span>
+<span class="key mac_only">Opt</span>
+<span class="key">1</span>
+</kbd>
+HTML Editor
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key pc_only">Alt</span>
+<span class="key mac_only">Opt</span>
+<span class="key">2</span>
+</kbd>
+CSS Editor
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key pc_only">Alt</span>
+<span class="key mac_only">Opt</span>
+<span class="key">3</span>
+</kbd>
+JS Editor
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key pc_only">Alt</span>
+<span class="key mac_only">Opt</span>
+<span class="key">4</span>
+</kbd>
+Toggle Console
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key pc_only">Alt</span>
+<span class="key mac_only">Opt</span>
+<span class="key">0</span>
+</kbd>
+Preview
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key">Esc</span>
+</kbd>
+Exit currently focused editor
+</div>
+</section>
+<section class="editor-commands">
+<h2>Misc</h2>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key" title="Shift">⇧</span>
+<span class="key">7</span>
+</kbd>
+Re-run Preview
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key" title="Shift">⇧</span>
+<span class="key">8</span>
+</kbd>
+Clear All Analyze Errors
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key" title="Shift">⇧</span>
+<span class="key">9</span>
+</kbd>
+Open This Dialog
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key" title="Shift">⇧</span>
+<span class="key">0</span>
+</kbd>
+Open Debug View
+</div>
+<h2>HTML Specific</h2>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key" title="Shift">⇧</span>
+<span class="key">A</span>
+</kbd>
+Wrap With...
+</div>
+<h2>Pen Actions</h2>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key">P</span>
+</kbd>
+Create New Pen
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key">S</span>
+</kbd>
+Save
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key" title="Shift">⇧</span>
+<span class="key">S</span>
+</kbd>
+Save As Private <span class="badge badge-pro text">PRO</span>
+</div>
+<div class="key-group">
+<kbd class="keycommand">
+<span class="key -command"></span>
+<span class="key">I</span>
+</kbd>
+Info Panel (if owned)
+</div>
+</section>
+</div>
+</div>
+<div id="popup-overlay" class="overlay popup-overlay"></div>
+<div id="modal-overlay" class="overlay modal-overlay"></div>
+<noscript>
+
+  <input type="checkbox" class="modal-closing-trick" id="modal-closing-trick">
+
+  <div class="overlay noscript-overlay" style="display: block;"></div>
+
+  <div class="modal modal-message group modal-warning">
+
+    <div class="modal-title">CodePen requires JavaScript to render the code and preview areas in this view.</div>
+
+    <p>Trying <a href="https://codepen.io/debrafontenot/debug/mdOWdOO">viewing this Pen in Debug Mode</a>, which is the preview area without any iframe and does not require JavaScript. Although what the preview is of might!</p>
+
+    <p>Need to know how to enable JavaScript? <a href="http://enable-javascript.com/" target="_blank" rel="noopener">Go here.</a></p>
+
+    <label class="button button-medium" for="modal-closing-trick">Close this, use anyway.</label>
+
+  </div>
+
+</noscript>
+<input type="hidden" id="init-data" value="{&quot;__browser&quot;:{&quot;device&quot;:&quot;unknown_device&quot;,&quot;mobile&quot;:false,&quot;name&quot;:&quot;chrome&quot;,&quot;platform&quot;:&quot;mac&quot;,&quot;version&quot;:&quot;89&quot;},&quot;__constants&quot;:{&quot;gridIframeSandboxAttributes&quot;:&quot;allow-forms allow-modals allow-pointer-lock allow-presentation allow-same-origin allow-scripts&quot;},&quot;__CPDATA&quot;:{&quot;domain_iframe&quot;:&quot;https://cdpn.io&quot;,&quot;environment&quot;:&quot;production&quot;,&quot;host&quot;:&quot;codepen.io&quot;,&quot;iframe_allow&quot;:&quot;accelerometer; camera; encrypted-media; geolocation; gyroscope; microphone; midi&quot;,&quot;iframe_sandbox&quot;:&quot;allow-downloads allow-forms allow-modals allow-pointer-lock allow-popups allow-presentation allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot;},&quot;__user&quot;:{&quot;anon&quot;:false,&quot;base_url&quot;:&quot;/debrafontenot/&quot;,&quot;current_team_id&quot;:0,&quot;current_team_hashid&quot;:&quot;YdEzGn&quot;,&quot;hashid&quot;:&quot;ExmzpG&quot;,&quot;id&quot;:5206172,&quot;itemType&quot;:&quot;user&quot;,&quot;name&quot;:&quot;Debra Fontenot&quot;,&quot;owner_id&quot;:&quot;ExmzpGYdEzGn&quot;,&quot;paid&quot;:false,&quot;tier&quot;:0,&quot;username&quot;:&quot;debrafontenot&quot;,&quot;created_at&quot;:&quot;2020-10-19T17:35:43.000Z&quot;,&quot;email_verified&quot;:false,&quot;collections_count&quot;:1,&quot;collections_private_count&quot;:1,&quot;followers_count&quot;:0,&quot;followings_count&quot;:1,&quot;pens_count&quot;:36,&quot;pens_private_count&quot;:0,&quot;projects_count&quot;:0,&quot;projects_private_count&quot;:0},&quot;__firebase&quot;:{&quot;config&quot;:{&quot;apiKey&quot;:&quot;AIzaSyBgLAe7N_MdFpuVofMkcQLGwwhUu5tuxls&quot;,&quot;authDomain&quot;:&quot;codepen-store-production.firebaseapp.com&quot;,&quot;databaseURL&quot;:&quot;https://codepen-store-production.firebaseio.com&quot;,&quot;disabled&quot;:false,&quot;projectId&quot;:&quot;codepen-store-production&quot;},&quot;token&quot;:&quot;eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImNsYWltcyI6eyJvd25lcklkIjoiRXhtenBHWWRFekduIiwiYWRtaW4iOmZhbHNlfSwiZXhwIjoxNjE3OTAwMzE4LCJpYXQiOjE2MTc4OTY3MTgsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLThva3lsQGNvZGVwZW4tc3RvcmUtcHJvZHVjdGlvbi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLThva3lsQGNvZGVwZW4tc3RvcmUtcHJvZHVjdGlvbi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInVpZCI6IkV4bXpwRyJ9.XxJmyikrjTZg_ClDlCzzr_hUm8p-7HMdfMrJ8wFHdwfyfkN5cKAM_dYWaSpvLtZDxqUhs2r0Uc_x5sxqD1zgfRdzZq5zBoiX3O_r49Y8y4IMApg8rUnj9cZrmDBkrGM6cSTfJdarx4Kf8nOCCXxgdndyolyv8LwCnIBPlEGMFx4qcDh5Uo12AjH7fRxXcRVRsEaavWOvnCa38AAJA9Li3S50hss3tT_909WJuvghuVrgkk-lHJb16ahSReJQDASGCSD_ENGuQThw5p7t3j2PIVayr-NDLu37PA1PYVQs4n9WSrezHEZFTvFSuz5JqGn9lehKLP9vb1vhxB_LNS2MBw&quot;},&quot;__graphql&quot;:{&quot;data&quot;:{&quot;sessionUser&quot;:{&quot;id&quot;:&quot;ExmzpG&quot;,&quot;name&quot;:&quot;Debra Fontenot&quot;,&quot;avatar80&quot;:&quot;https://assets.codepen.io/5206172/internal/avatars/users/default.png?fit=crop&amp;format=auto&amp;height=80&amp;version=1603899039&amp;width=80&quot;,&quot;avatar512&quot;:&quot;https://assets.codepen.io/5206172/internal/avatars/users/default.png?fit=crop&amp;format=auto&amp;height=512&amp;version=1603899039&amp;width=512&quot;,&quot;currentContext&quot;:{&quot;id&quot;:&quot;ExmzpG&quot;,&quot;baseUrl&quot;:&quot;/debrafontenot&quot;,&quot;title&quot;:&quot;Debra Fontenot&quot;,&quot;name&quot;:&quot;Debra Fontenot&quot;,&quot;avatar80&quot;:&quot;https://assets.codepen.io/5206172/internal/avatars/users/default.png?fit=crop&amp;format=auto&amp;height=80&amp;version=1603899039&amp;width=80&quot;,&quot;avatar512&quot;:&quot;https://assets.codepen.io/5206172/internal/avatars/users/default.png?fit=crop&amp;format=auto&amp;height=512&amp;version=1603899039&amp;width=512&quot;,&quot;username&quot;:&quot;debrafontenot&quot;,&quot;contextType&quot;:&quot;USER&quot;,&quot;teamAdmin&quot;:false,&quot;projectLimitations&quot;:{&quot;id&quot;:&quot;ExmzpG&quot;,&quot;projects&quot;:1,&quot;usedProjects&quot;:0,&quot;__typename&quot;:&quot;ProjectLimitations&quot;},&quot;privateByDefault&quot;:false,&quot;__typename&quot;:&quot;User&quot;},&quot;currentTeamId&quot;:null,&quot;baseUrl&quot;:&quot;/debrafontenot&quot;,&quot;username&quot;:&quot;debrafontenot&quot;,&quot;admin&quot;:false,&quot;anon&quot;:false,&quot;pro&quot;:false,&quot;verified&quot;:false,&quot;teams&quot;:[],&quot;permissions&quot;:{&quot;id&quot;:&quot;5206172&quot;,&quot;canCreatePrivate&quot;:false,&quot;canUploadAssets&quot;:false,&quot;__typename&quot;:&quot;UserPermissions&quot;},&quot;__typename&quot;:&quot;User&quot;}}},&quot;__boomboom&quot;:{&quot;serve_url&quot;:&quot;https://cdpn.io/cp/internal/boomboom&quot;,&quot;store_url&quot;:&quot;https://codepen.io/cp/internal/boomboom/store&quot;},&quot;__editor_config&quot;:{&quot;id&quot;:&quot;classic&quot;,&quot;editors&quot;:[{&quot;id&quot;:&quot;html&quot;,&quot;type&quot;:&quot;html&quot;,&quot;name&quot;:&quot;HTML&quot;,&quot;showEditor&quot;:true,&quot;showSettings&quot;:true,&quot;showProcessors&quot;:true,&quot;embeds&quot;:{&quot;showViewCompiled&quot;:true},&quot;settings&quot;:[{&quot;id&quot;:&quot;processor&quot;,&quot;name&quot;:&quot;HTML Preprocessor&quot;,&quot;type&quot;:&quot;select&quot;,&quot;visible&quot;:true,&quot;values&quot;:[{&quot;id&quot;:&quot;none&quot;,&quot;name&quot;:&quot;None&quot;,&quot;value&quot;:&quot;none&quot;,&quot;default&quot;:true},{&quot;id&quot;:&quot;haml&quot;,&quot;name&quot;:&quot;Haml&quot;,&quot;value&quot;:&quot;haml&quot;},{&quot;id&quot;:&quot;markdown&quot;,&quot;name&quot;:&quot;Markdown&quot;,&quot;value&quot;:&quot;markdown&quot;},{&quot;id&quot;:&quot;slim&quot;,&quot;name&quot;:&quot;Slim&quot;,&quot;value&quot;:&quot;slim&quot;},{&quot;id&quot;:&quot;pug&quot;,&quot;name&quot;:&quot;Pug&quot;,&quot;value&quot;:&quot;pug&quot;}]},{&quot;id&quot;:&quot;html_classes&quot;,&quot;name&quot;:&quot;Add Class(es) to &lt;html&gt;&quot;,&quot;type&quot;:&quot;input&quot;,&quot;placeholder&quot;:&quot;e.g. single post post-1234&quot;,&quot;visible&quot;:true},{&quot;id&quot;:&quot;head&quot;,&quot;name&quot;:&quot;Stuff for &lt;head&gt;&quot;,&quot;type&quot;:&quot;textarea&quot;,&quot;placeholder&quot;:&quot;e.g. &lt;meta&gt;, &lt;link&gt;, &lt;script&gt;&quot;,&quot;visible&quot;:true}],&quot;actions&quot;:[{&quot;id&quot;:&quot;tidy_html&quot;,&quot;type&quot;:&quot;tidy_code&quot;,&quot;name&quot;:&quot;Format HTML&quot;,&quot;disabled_processors&quot;:[&quot;haml&quot;,&quot;slim&quot;]},{&quot;id&quot;:&quot;view_compiled_html&quot;,&quot;type&quot;:&quot;view_compiled&quot;,&quot;name&quot;:&quot;View Compiled HTML&quot;,&quot;disabled_processors&quot;:[&quot;none&quot;],&quot;showInEmbeds&quot;:true},{&quot;id&quot;:&quot;analyze_html&quot;,&quot;type&quot;:&quot;analyze&quot;,&quot;name&quot;:&quot;Analyze HTML&quot;},{&quot;id&quot;:&quot;maximize_html_editor&quot;,&quot;type&quot;:&quot;maximize&quot;,&quot;name&quot;:&quot;Maximize HTML Editor&quot;},{&quot;id&quot;:&quot;minimize_html_editor&quot;,&quot;type&quot;:&quot;minimize&quot;,&quot;name&quot;:&quot;Minimize HTML Editor&quot;},{&quot;id&quot;:&quot;fold_all_html&quot;,&quot;type&quot;:&quot;fold_all&quot;,&quot;name&quot;:&quot;Fold All&quot;},{&quot;id&quot;:&quot;unfold_all_html&quot;,&quot;type&quot;:&quot;unfold_all&quot;,&quot;name&quot;:&quot;Unfold All&quot;}],&quot;processors&quot;:[{&quot;id&quot;:&quot;none&quot;,&quot;name&quot;:&quot;None&quot;},{&quot;id&quot;:&quot;haml&quot;,&quot;name&quot;:&quot;Haml&quot;},{&quot;id&quot;:&quot;markdown&quot;,&quot;name&quot;:&quot;Markdown&quot;},{&quot;id&quot;:&quot;slim&quot;,&quot;name&quot;:&quot;Slim&quot;},{&quot;id&quot;:&quot;pug&quot;,&quot;name&quot;:&quot;Pug&quot;}]},{&quot;id&quot;:&quot;css&quot;,&quot;type&quot;:&quot;css&quot;,&quot;name&quot;:&quot;CSS&quot;,&quot;showEditor&quot;:true,&quot;showSettings&quot;:true,&quot;showProcessors&quot;:true,&quot;showVendorPrefixing&quot;:true,&quot;embeds&quot;:{&quot;showViewCompiled&quot;:true},&quot;actions&quot;:[{&quot;id&quot;:&quot;tidy_css&quot;,&quot;type&quot;:&quot;tidy_code&quot;,&quot;name&quot;:&quot;Format CSS&quot;,&quot;disabled_processors&quot;:[&quot;sass&quot;,&quot;stylus&quot;]},{&quot;id&quot;:&quot;view_compiled_css&quot;,&quot;type&quot;:&quot;view_compiled&quot;,&quot;name&quot;:&quot;View Compiled CSS&quot;,&quot;disabled_processors&quot;:[&quot;none&quot;],&quot;disabled_prefixes&quot;:[&quot;neither&quot;,&quot;prefixfree&quot;]},{&quot;id&quot;:&quot;analyze_css&quot;,&quot;type&quot;:&quot;analyze&quot;,&quot;name&quot;:&quot;Analyze CSS&quot;},{&quot;id&quot;:&quot;maximize_css_editor&quot;,&quot;type&quot;:&quot;maximize&quot;,&quot;name&quot;:&quot;Maximize CSS Editor&quot;},{&quot;id&quot;:&quot;minimize_css_editor&quot;,&quot;type&quot;:&quot;minimize&quot;,&quot;name&quot;:&quot;Minimize CSS Editor&quot;},{&quot;id&quot;:&quot;fold_all_css&quot;,&quot;type&quot;:&quot;fold_all&quot;,&quot;name&quot;:&quot;Fold All&quot;,&quot;disabled_processors&quot;:[&quot;sass&quot;]},{&quot;id&quot;:&quot;unfold_all_css&quot;,&quot;type&quot;:&quot;unfold_all&quot;,&quot;name&quot;:&quot;Unfold All&quot;,&quot;disabled_processors&quot;:[&quot;sass&quot;]}],&quot;processors&quot;:[{&quot;id&quot;:&quot;none&quot;,&quot;name&quot;:&quot;None&quot;},{&quot;id&quot;:&quot;less&quot;,&quot;name&quot;:&quot;Less&quot;},{&quot;id&quot;:&quot;scss&quot;,&quot;name&quot;:&quot;SCSS&quot;},{&quot;id&quot;:&quot;sass&quot;,&quot;name&quot;:&quot;Sass&quot;},{&quot;id&quot;:&quot;stylus&quot;,&quot;name&quot;:&quot;Stylus&quot;},{&quot;id&quot;:&quot;postcss&quot;,&quot;name&quot;:&quot;PostCSS&quot;}],&quot;parSuffixes&quot;:[&quot;less&quot;,&quot;scss&quot;,&quot;sass&quot;,&quot;styl&quot;]},{&quot;id&quot;:&quot;js&quot;,&quot;type&quot;:&quot;js&quot;,&quot;name&quot;:&quot;JS&quot;,&quot;showEditor&quot;:true,&quot;showSettings&quot;:true,&quot;showProcessors&quot;:true,&quot;detectImports&quot;:true,&quot;externalResourcesHidden&quot;:false,&quot;embeds&quot;:{&quot;showViewCompiled&quot;:true},&quot;actions&quot;:[{&quot;id&quot;:&quot;tidy_js&quot;,&quot;type&quot;:&quot;tidy_code&quot;,&quot;name&quot;:&quot;Format JavaScript&quot;,&quot;disabled_processors&quot;:[&quot;coffeescript, livescript&quot;]},{&quot;id&quot;:&quot;view_compiled_js&quot;,&quot;type&quot;:&quot;view_compiled&quot;,&quot;name&quot;:&quot;View Compiled JavaScript&quot;,&quot;disabled_processors&quot;:[&quot;none&quot;]},{&quot;id&quot;:&quot;analyze_js&quot;,&quot;type&quot;:&quot;analyze&quot;,&quot;name&quot;:&quot;Analyze JavaScript&quot;},{&quot;id&quot;:&quot;maximize_js_editor&quot;,&quot;type&quot;:&quot;maximize&quot;,&quot;name&quot;:&quot;Maximize JavaScript Editor&quot;},{&quot;id&quot;:&quot;minimize_js_editor&quot;,&quot;type&quot;:&quot;minimize&quot;,&quot;name&quot;:&quot;Minimize JavaScript Editor&quot;},{&quot;id&quot;:&quot;fold_all_js&quot;,&quot;type&quot;:&quot;fold_all&quot;,&quot;name&quot;:&quot;Fold All&quot;},{&quot;id&quot;:&quot;unfold_all_js&quot;,&quot;type&quot;:&quot;unfold_all&quot;,&quot;name&quot;:&quot;Unfold All&quot;}],&quot;processors&quot;:[{&quot;id&quot;:&quot;none&quot;,&quot;name&quot;:&quot;None&quot;},{&quot;id&quot;:&quot;babel&quot;,&quot;name&quot;:&quot;Babel&quot;},{&quot;id&quot;:&quot;typescript&quot;,&quot;name&quot;:&quot;TypeScript&quot;},{&quot;id&quot;:&quot;coffeescript&quot;,&quot;name&quot;:&quot;CoffeeScript&quot;},{&quot;id&quot;:&quot;livescript&quot;,&quot;name&quot;:&quot;LiveScript&quot;}]}],&quot;formatters&quot;:[{&quot;id&quot;:&quot;classic&quot;,&quot;name&quot;:&quot;Classic&quot;,&quot;runOn&quot;:[{&quot;eventType&quot;:&quot;demand&quot;}],&quot;url&quot;:&quot;https://fi593g2v2a.execute-api.us-west-2.amazonaws.com/production/format&quot;}],&quot;layout&quot;:{&quot;default&quot;:&quot;top&quot;},&quot;linters&quot;:[{&quot;id&quot;:&quot;classic&quot;,&quot;name&quot;:&quot;Classic&quot;,&quot;runOn&quot;:[{&quot;eventType&quot;:&quot;demand&quot;}],&quot;url&quot;:&quot;https://fi593g2v2a.execute-api.us-west-2.amazonaws.com/production/lint&quot;}],&quot;preview&quot;:{&quot;intervalMaxWaitMS&quot;:3500,&quot;intervalMS&quot;:1200},&quot;settings&quot;:[{&quot;id&quot;:&quot;details&quot;,&quot;name&quot;:&quot;Pen Details&quot;,&quot;type&quot;:&quot;setting&quot;},{&quot;id&quot;:&quot;privacy&quot;,&quot;name&quot;:&quot;Privacy&quot;,&quot;pro&quot;:true,&quot;type&quot;:&quot;setting&quot;},{&quot;id&quot;:&quot;behavior&quot;,&quot;name&quot;:&quot;Behavior&quot;,&quot;type&quot;:&quot;setting&quot;},{&quot;id&quot;:&quot;editor&quot;,&quot;name&quot;:&quot;Editor&quot;,&quot;type&quot;:&quot;setting&quot;},{&quot;id&quot;:&quot;template&quot;,&quot;name&quot;:&quot;Template&quot;,&quot;type&quot;:&quot;setting&quot;},{&quot;id&quot;:&quot;screenshot&quot;,&quot;name&quot;:&quot;Screenshot&quot;,&quot;pro&quot;:true,&quot;type&quot;:&quot;setting&quot;}]},&quot;__item&quot;:&quot;{\&quot;editor_settings\&quot;:{\&quot;auto_run\&quot;:true,\&quot;autocomplete\&quot;:false,\&quot;code_folding\&quot;:true,\&quot;css_pre_processor\&quot;:\&quot;none\&quot;,\&quot;css_prefix\&quot;:\&quot;neither\&quot;,\&quot;css_starter\&quot;:\&quot;neither\&quot;,\&quot;emmet_active\&quot;:true,\&quot;font_size\&quot;:\&quot;15\&quot;,\&quot;font_type\&quot;:\&quot;monaco\&quot;,\&quot;format_on_save\&quot;:false,\&quot;html_pre_processor\&quot;:\&quot;none\&quot;,\&quot;indent_with\&quot;:\&quot;spaces\&quot;,\&quot;js_pre_processor\&quot;:\&quot;none\&quot;,\&quot;key_bindings\&quot;:\&quot;normal\&quot;,\&quot;line_numbers\&quot;:true,\&quot;line_wrapping\&quot;:true,\&quot;match_brackets\&quot;:true,\&quot;snippets\&quot;:{\&quot;markupSnippets\&quot;:{},\&quot;stylesheetSnippets\&quot;:{}},\&quot;tab_size\&quot;:\&quot;2\&quot;,\&quot;theme\&quot;:\&quot;twilight\&quot;,\&quot;id\&quot;:\&quot;mdOWdOO\&quot;,\&quot;auto_save\&quot;:true},\&quot;hashid\&quot;:\&quot;mdOWdOO\&quot;,\&quot;itemType\&quot;:\&quot;pen\&quot;,\&quot;owner_id\&quot;:\&quot;ExmzpGYdEzGn\&quot;,\&quot;resources\&quot;:[],\&quot;tags\&quot;:[],\&quot;id\&quot;:50205384,\&quot;user_id\&quot;:5206172,\&quot;html\&quot;:\&quot;&lt;!--1. fork this codepen so that you have a copy on your account --&gt;\\n&lt;!--2. Add HTML and CSS to make the codepen look like the example: https://codepen.io/BritHemming/full/jONmxOm  - note that you can change the colours but everything else must look the same --&gt;\\n&lt;!-- 3. include the link to this completed codepen at the top of today&#39;s file first-lastname.txt --&gt; \\n&lt;!-- 4. when you are finished - answer the questions at the bottom of this file --&gt;\\n&lt;main&gt;\\n&lt;header&gt;\\n  &lt;h1&gt;Learning How to Code&lt;/h1&gt;\\n&lt;/header&gt;\\n  \\n&lt;div&gt;\\n    &lt;section id =\\\&quot;lightGreen\\\&quot;&gt;\\n     Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident aperiam earum mollitia enim pariatur atque asperiores, deserunt fuga iure distinctio! Amet iste facilis odio rerum maiores neque laboriosam non aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit eius officia reprehenderit dicta molestiae, excepturi inventore aut officiis! Perspiciatis, molestias tempora et nesciunt amet sint blanditiis eos voluptatibus ut facilis!\\n    &lt;/section&gt;           \\n&lt;/div&gt;\\n\\n&lt;div&gt;\\n  &lt;section id=\\\&quot;darkGreen\\\&quot;&gt;\\n    &lt;h4&gt;I&#39;m a title&lt;/h4&gt;\\n    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus minima porro, aspernatur esse iure quas vero totam ea cupiditate numquam accusamus enim, eius neque molestiae minus. Aliquam non repudiandae, sunt!&lt;/p&gt;\\n  \\n\\n\\n    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto illo expedita ducimus incidunt similique voluptatum, error minus tenetur accusamus modi perferendis libero inventore quo, tempora. Repellendus quam eligendi, aliquid nobis.&lt;/p&gt;\\n  &lt;/section&gt;\\n&lt;/div&gt;\\n\\n\\n&lt;div&gt;\\n  &lt;section id=\\\&quot;noColor\\\&quot;&gt;\\n    &lt;h2&gt;This is another section&lt;/h2&gt;\\n    &lt;h3&gt;\\n      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto possimus, reiciendis consequatur inventore mollitia ipsa sed quibusdam! Aut nemo voluptatibus modi iste repudiandae ea beatae suscipit. Officia omnis laudantium quasi.&lt;/p&gt;\\n      &lt;/p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, ratione doloribus nam officia reiciendis eligendi architecto maxime quisquam unde non, illo libero iure aut ad consequuntur animi modi, recusandae voluptatum!&lt;p&gt;\\n    &lt;/h3&gt;\\n  &lt;/section&gt;\\n&lt;/div&gt;\\n\\n&lt;section id=\\\&quot;photos\\\&quot;&gt;\\n&lt;img src=\\\&quot;https://unsplash.it/200/200\\\&quot;&gt;\\n&lt;img src=\\\&quot;https://unsplash.it/200/200\\\&quot;&gt;\\n&lt;img src=\\\&quot;https://unsplash.it/200/200\\\&quot;&gt; \\n&lt;img src=\\\&quot;https://unsplash.it/200/200\\\&quot;&gt;\\n&lt;/section&gt; \\n&lt;/main&gt;\\n \\n\\n&lt;!-- Questions to Submit in today&#39;s file first-lastname.txt --&gt; \\n&lt;!--\\nCopy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. \\n\\n    1. What is Semantic HTML? \\n    2. What is HTML used for? \\n    3. What is an attribute and where do we put it? \\n    4. What is the h1 tag used for? How many times should I use it on a page?\\n    5. Name two tags that have required attributes\\n    6. What do we put in the head of our HTML document? \\n    7. What is an id? \\n    8. What elements can I add an id to? \\n    9. How many times can I use the same id on a page? \\n    10. What is a class? \\n    11. What elements can I add a class to? \\n    12. How many times can I use the same class on a page? \\n    13. How do I get my link to open in a new tab?\\n    14. What is the alt attribute in the image tag used for? \\n    15. How do I reference an id?\\n    16. What is the difference between a section and a div\\n    17. What is CSS used for? \\n    18. How to we select an element? Example - every h2 on the page\\n    19. What is the difference between a class and an id? - Give me an example of when I might use each one\\n    20. How do we select classes in CSS?\\n    21. How do we select a p element with a single class of “human””?\\n    22. What is a parent child selector? When would this be useful? \\n    23. How do you select all links within a div with the class of sidebar?\\n    24. What is a pseudo selector?\\n    25. What do we use the change the spacing between lines?\\n    26. What do we use to change the spacing between letters?\\n    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?\\n    28. How do I add a 1px border around my div that is dotted and black?\\n    29. How do I select everything on the page? \\n    30. How do I write a comment in CSS?\\n    31. How do I find out what file I am in, when I am using the command line? \\n    32. Using the command line - how do I see a list of files/folders in my current folder?\\n    33. How do I remove a file via the command line? Why do I have to be careful with this? \\n    34. Why should I use version control? \\n    35. How often should I commit to github?\\n    36. What is the command we would use to push our repo up to github? \\n    37. Walk me through Lambda&#39;s git flow. \\n\\nStretch Questions\\n\\n    1. What is the difference between an inline element and a block element?\\n    2. What happens when an element is positioned absolutely? \\n    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? \\n    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default\\n    5. In your own words, explain the box model. What is the \\\&quot;fix\\\&quot; for the box model, in other words, how do we make all elements respect the width we&#39;ve given them? \\n\\n\\n\\n   --&gt; \&quot;,\&quot;css\&quot;:\&quot;main {\\n  border: 20px solid green;\\n  padding: 100px;\\n  padding-top: 15px;\\n  margin: 10px;\\n}\\n\\nh4 {\\n  font-size: 30px;\\n}\\n\\nheader {\\n  color: grey;\\n  text-align: center;\\n  font-size: 20px\\n}\\n\\nheader:hover {\\n  color:green;\\n}\\n\\n#lightGreen {\\n  background-color: aqua;\\n  text-align: center;\\n  font-size: 20px; \\n  box-sizing: border-box;\\n  padding: 50px;\\n}\\n\\n#lightGreen:hover {\\n  background: #ac5353;\\n  color: #1a0000\\n}\\n#darkGreen:hover {\\n  background: brown;\\n  color: orange;\\n}\\n\\n#darkGreen {\\n  background-color: forestgreen;\\n  font-size: 20px; \\n  box-sizing: border-box;\\n  padding: 80px;\\n  color: blue;\\n}\\n\\nh2 {\\n  text-transform: uppercase;\\n  color: grey;\\n  padding-top: 5px;\\n}\\n\\nh2:hover {\\n  text-transform: capitalize;\\n  color: orange;\\n}\\n\\n#photos {\\n  padding: 10px;\\n}\\n\\nimg {\\n  align: center;\\n  padding:10px;\\n}\\n\\nimg:hover {\\n  border-style: dotted;\\n  border-color: red;\\n  margin: 10px;\\n  border-radius: 50%;\\n}\\n\\n#noColor {\\n  font-size: 20px; \\n  padding-bottom: 80px;\\n  padding-top: 10px;\\n \\n  \\n}\\nh3 {\\n  font-family : \\\&quot;New Times Roman\\\&quot;, \\\&quot;Courier New\\\&quot;, monospace;\\n  color: grey;\\n  font-size: 15px;\\n  letter-spacing: 2px;\\n  line-height: 30px;\\n  font-stretch: semi-expanded;\\n}\\n\\nh3:hover {\\n  color: orange;\\n}\\n\&quot;,\&quot;parent\&quot;:40856835,\&quot;js\&quot;:\&quot;\&quot;,\&quot;html_pre_processor\&quot;:\&quot;none\&quot;,\&quot;css_pre_processor\&quot;:\&quot;none\&quot;,\&quot;js_pre_processor\&quot;:\&quot;none\&quot;,\&quot;html_classes\&quot;:\&quot;\&quot;,\&quot;css_starter\&quot;:\&quot;neither\&quot;,\&quot;css_prefix_free\&quot;:null,\&quot;css_external\&quot;:null,\&quot;js_library\&quot;:null,\&quot;js_modernizr\&quot;:null,\&quot;js_external\&quot;:null,\&quot;created_at\&quot;:\&quot;2021-02-14T22:33:21.000Z\&quot;,\&quot;updated_at\&quot;:\&quot;2021-02-15T03:09:42.000Z\&quot;,\&quot;session_hash\&quot;:null,\&quot;title\&quot;:\&quot;CSS + HTML Practice\&quot;,\&quot;description\&quot;:\&quot;\&quot;,\&quot;slug_hash\&quot;:\&quot;mdOWdOO\&quot;,\&quot;head\&quot;:\&quot;\&quot;,\&quot;private\&quot;:false,\&quot;slug_hash_private\&quot;:\&quot;de66e7dd5c90e34ee23b15c666d3215f\&quot;,\&quot;has_animation\&quot;:true,\&quot;css_pre_processor_lib\&quot;:\&quot;\&quot;,\&quot;checksum\&quot;:0,\&quot;screenshot_uuid\&quot;:null,\&quot;team_id\&quot;:0,\&quot;css_prefix\&quot;:\&quot;neither\&quot;,\&quot;template\&quot;:false,\&quot;js_module\&quot;:null,\&quot;pen_hash\&quot;:null}&quot;,&quot;__jwt&quot;:&quot;eyJhbGciOiJIUzI1NiJ9.eyJjbGFpbXMiOnsidXNlcl9pZCI6NTIwNjE3Mn0sImV4cCI6MTYxNzkwMDMxOH0.zAPaZB5AAXcU1Y5P7mAtE_EYqxhWbpJk2nCZWgiSD9A&quot;,&quot;__layoutType&quot;:&quot;left&quot;,&quot;__pageType&quot;:&quot;pen&quot;,&quot;__pen_export_url&quot;:&quot;https://bphy80o6m7.execute-api.us-west-2.amazonaws.com&quot;,&quot;__profiled&quot;:{&quot;base_url&quot;:&quot;/debrafontenot&quot;,&quot;hashid&quot;:&quot;ExmzpG&quot;,&quot;id&quot;:5206172,&quot;name&quot;:&quot;Debra Fontenot&quot;,&quot;type&quot;:&quot;user&quot;,&quot;username&quot;:&quot;debrafontenot&quot;},&quot;__processorsMap&quot;:{&quot;autoprefixer&quot;:&quot;autoprefixer-9&quot;,&quot;babel&quot;:&quot;babel-7&quot;,&quot;coffeescript&quot;:&quot;coffeescript-2&quot;,&quot;format-1&quot;:&quot;format-1&quot;,&quot;flutter&quot;:&quot;flutter-1&quot;,&quot;haml&quot;:&quot;haml-4&quot;,&quot;less&quot;:&quot;less-3&quot;,&quot;lint-1&quot;:&quot;lint-1&quot;,&quot;livescript&quot;:&quot;livescript-1&quot;,&quot;markdown&quot;:&quot;markdown-11&quot;,&quot;postcss&quot;:&quot;postcss-7&quot;,&quot;pug&quot;:&quot;pug-2&quot;,&quot;sass&quot;:&quot;sass-1&quot;,&quot;scss&quot;:&quot;sass-1&quot;,&quot;sass-ruby-3&quot;:&quot;sass-ruby-3&quot;,&quot;sass-ruby-compass-3&quot;:&quot;sass-ruby-compass-3&quot;,&quot;slim&quot;:&quot;slim-3&quot;,&quot;stylus&quot;:&quot;stylus-0&quot;,&quot;typescript&quot;:&quot;typescript-4&quot;,&quot;vue&quot;:&quot;vue-2&quot;,&quot;vue3&quot;:&quot;vue-3&quot;},&quot;__rtData&quot;:&quot;{\&quot;maxMembers\&quot;:0,\&quot;roomID\&quot;:\&quot;mdOWdOO/live\&quot;,\&quot;roomType\&quot;:\&quot;live\&quot;,\&quot;updatedAt\&quot;:1613358582,\&quot;user\&quot;:{\&quot;id\&quot;:\&quot;ExmzpG\&quot;,\&quot;hashid\&quot;:\&quot;ExmzpG\&quot;,\&quot;name\&quot;:\&quot;Debra Fontenot\&quot;,\&quot;username\&quot;:\&quot;debrafontenot\&quot;,\&quot;role\&quot;:\&quot;editor\&quot;}}&quot;,&quot;__embed_modal_script&quot;:&quot;https://cpwebassets.codepen.io/assets/embed/modal/embed_modal-d2adbc6d1a5197761de0867ed895cd465cd85ca007a32453ae7d938e9382104d.js&quot;,&quot;__eijs&quot;:&quot;https://cpwebassets.codepen.io/assets/embed/ei.js&quot;,&quot;__favicon_mask_icon&quot;:&quot;https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg&quot;,&quot;__favicon_shortcut_icon&quot;:&quot;https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico&quot;,&quot;__path_to_iframe_console_runner&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-d8236034cc3508e70b0763f2575a8bb5850f9aea541206ce56704c013047d712.js&quot;,&quot;__path_to_iframe_refresh_css&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c52d7af6376f3d1c625d7e.js&quot;,&quot;__path_to_iframe_runtime_errors&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js&quot;,&quot;__path_to_processor_worker&quot;:&quot;https://cpwebassets.codepen.io/assets/packs/router.js&quot;,&quot;__path_to_stop_execution_on_timeout&quot;:&quot;https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js&quot;,&quot;__pen_normalize_css_url&quot;:&quot;https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css&quot;,&quot;__pen_prefix_free_url&quot;:&quot;https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js&quot;,&quot;__pen_reset_css_url&quot;:&quot;https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css&quot;,&quot;__theme_url_twilight&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/twilight-a5a757de70a8d57373f9bc7c87208806adaa2b69d0f2c3e9fcce79a6f9babd65.css&quot;,&quot;__theme_url_solarized_dark&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/solarized-dark-686d6c4121445b369fdb9c5a0347bbb1f1f742142e6bc7fa5bc87f31c49dad27.css&quot;,&quot;__theme_url_tomorrow_night&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/tomorrow-night-180bfc84346dd501bd16f7606d0747d2dd6fd37ae22b56176805ddc3b4e18720.css&quot;,&quot;__theme_url_oceanic_dark&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/oceanic-dark-4c1226337ae141517297d345d2871e72dada5d842b162d875f04aad91b9389e8.css&quot;,&quot;__theme_url_panda&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/panda-11b7d8b7eec14932e9ab6b940aa136f5273a51c3985398f0c19752bc97cb290f.css&quot;,&quot;__theme_url_duotone_dark&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/duotone-dark-68ae2a4adef8d72c3b2c64dd45b2b13e9877beec64dab460520ef4f8ba014c64.css&quot;,&quot;__theme_url_highcontrast_dark&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/highcontrast-dark-ebf64e2dd95a914790e5558297a4fdda15d615c4cc27415ac7624e16f66439b2.css&quot;,&quot;__theme_url_classic&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/classic-3e5d988580ba796a3621ed3cfaa2646c8ac90b00bf2efefd4e31f45df3775f4b.css&quot;,&quot;__theme_url_solarized_light&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/solarized-light-e4990fd5ed6dc362549ff49b271699d9053670acd53af054b33b3e7f892905fe.css&quot;,&quot;__theme_url_xq_light&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/xq-light-84145e7dfa5d88c3fd42007cd51482699b25d9a66797e3ebae54c1de5037dab0.css&quot;,&quot;__theme_url_oceanic_light&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/oceanic-light-dd939384abae4540443e96beacb5003f62956cc990580ad15f9c342c158ae1fe.css&quot;,&quot;__theme_url_mdn_like&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/mdn-like-409d5a5066b89402b968bbc1a31e6154d0d77c133c2dfe0d2c48f24d873d8a05.css&quot;,&quot;__theme_url_duotone_light&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/duotone-light-3a92beb2aeebc28d7404df431129fc772c50487186cc65349425af215c3f0c77.css&quot;,&quot;__theme_url_highcontrast_light&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/highcontrast-light-84d87461e5a11cecf53c0233e05520de16b9fa2897a2dfe17c4729e779f9b9a2.css&quot;,&quot;__theme_url_scoped_twilight&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/scoped/twilight-3d9d2977caf1d9c2bd688c32fcb92ad55d6c928ce365e4573b867d902c5a9cc1.css&quot;,&quot;__theme_url_scoped_solarized_dark&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/scoped/solarized-dark-d38c0ff12f0e33e7c25cdd35f96561b063e718151361bafa9f335713efd33cb2.css&quot;,&quot;__theme_url_scoped_tomorrow_night&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/scoped/tomorrow-night-2d64e55679888cb2622899e818a0b16f0160e78a8dcccd64c0780a9b18e9f73f.css&quot;,&quot;__theme_url_scoped_oceanic_dark&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/scoped/oceanic-dark-9afd7f261b8072ee3f93f1289f42c07d1bacbb1980b2850de360f9210a8a9f05.css&quot;,&quot;__theme_url_scoped_panda&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/scoped/panda-4b196c933090e654ff5a2d2c91829670afefc999201da1e79e04c40ee162ed52.css&quot;,&quot;__theme_url_scoped_duotone_dark&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/scoped/duotone-dark-77af81e75c219456ecbba1cc949b7a586cb135de802945a3ca42a862e6e5e4a7.css&quot;,&quot;__theme_url_scoped_highcontrast_dark&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/scoped/highcontrast-dark-3e7bab1c8391b11d5cf199b40b8eee3c4329e06c9d7d446bb100e8c2ce964654.css&quot;,&quot;__theme_url_scoped_classic&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/scoped/classic-c4f23f2d5e692e8ee47e58e863ba5ce660748d2d57b7a5dbbd8db630ad1291e7.css&quot;,&quot;__theme_url_scoped_solarized_light&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/scoped/solarized-light-86f429d2e0f97d4f3d2437d922bb90476b4d51c5b8e1ccced36f395d66aae09b.css&quot;,&quot;__theme_url_scoped_xq_light&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/scoped/xq-light-0b92cf667f09cf2aca69f5f73a72a09ed0665447ee4048d937240a4ca235ecfd.css&quot;,&quot;__theme_url_scoped_oceanic_light&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/scoped/oceanic-light-b1180574a14909f53c788b59bca48dab5fd9158b5867d7a969257b657a57d6b8.css&quot;,&quot;__theme_url_scoped_mdn_like&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/scoped/mdn-like-f10a0c7002e8a67de2f61ec90d407a4823e4d52bdd30eb04c5481d1471302a5b.css&quot;,&quot;__theme_url_scoped_duotone_light&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/scoped/duotone-light-884f88e72b9aa31d030fb1c01dad6845f8b5652244ba189e6ff061919f52cd3f.css&quot;,&quot;__theme_url_scoped_highcontrast_light&quot;:&quot;https://cpwebassets.codepen.io/assets/editor/themes/scoped/highcontrast-light-9d244b47ab950ebd853065c18c3f50a730833d33060dc25cfbbc81588d4c650e.css&quot;}">
+<script src="./CSS + HTML Practice_files/browser_support-1963aa6406ae47d3176af996336c5d219acd8913c5af309e72f18933e95201cc.js"></script>
+<script src="./CSS + HTML Practice_files/everypage-db77ca8454a2eb83659918e08a9e53e3df938ae9e000bd413c19ebd2e27fbd2b.js"></script>
+<script src="./CSS + HTML Practice_files/69186.js"></script>
+<script src="./CSS + HTML Practice_files/analytics_and_notifications-afa6925cbcff840929f2b7c543587d5f9d7a461af81ee7ca80631c8e37ac42f2.js"></script>
+<script nonce="">
+LUX=(function(){var a=("undefined"!==typeof(LUX)&&"undefined"!==typeof(LUX.gaMarks)?LUX.gaMarks:[]);var d=("undefined"!==typeof(LUX)&&"undefined"!==typeof(LUX.gaMeasures)?LUX.gaMeasures:[]);var j="LUX_start";var k=window.performance;var l=("undefined"!==typeof(LUX)&&LUX.ns?LUX.ns:(Date.now?Date.now():+(new Date())));if(k&&k.timing&&k.timing.navigationStart){l=k.timing.navigationStart}function f(){if(k&&k.now){return k.now()}var o=Date.now?Date.now():+(new Date());return o-l}function b(n){if(k){if(k.mark){return k.mark(n)}else{if(k.webkitMark){return k.webkitMark(n)}}}a.push({name:n,entryType:"mark",startTime:f(),duration:0});return}function m(p,t,n){if("undefined"===typeof(t)&&h(j)){t=j}if(k){if(k.measure){if(t){if(n){return k.measure(p,t,n)}else{return k.measure(p,t)}}else{return k.measure(p)}}else{if(k.webkitMeasure){return k.webkitMeasure(p,t,n)}}}var r=0,o=f();if(t){var s=h(t);if(s){r=s.startTime}else{if(k&&k.timing&&k.timing[t]){r=k.timing[t]-k.timing.navigationStart}else{return}}}if(n){var q=h(n);if(q){o=q.startTime}else{if(k&&k.timing&&k.timing[n]){o=k.timing[n]-k.timing.navigationStart}else{return}}}d.push({name:p,entryType:"measure",startTime:r,duration:(o-r)});return}function h(n){return c(n,g())}function c(p,o){for(i=o.length-1;i>=0;i--){var n=o[i];if(p===n.name){return n}}return undefined}function g(){if(k){if(k.getEntriesByType){return k.getEntriesByType("mark")}else{if(k.webkitGetEntriesByType){return k.webkitGetEntriesByType("mark")}}}return a}return{mark:b,measure:m,gaMarks:a,gaMeasures:d}})();LUX.ns=(Date.now?Date.now():+(new Date()));LUX.ac=[];LUX.cmd=function(a){LUX.ac.push(a)};LUX.init=function(){LUX.cmd(["init"])};LUX.send=function(){LUX.cmd(["send"])};LUX.addData=function(a,b){LUX.cmd(["addData",a,b])};LUX_ae=[];window.addEventListener("error",function(a){LUX_ae.push(a)});LUX_al=[];if("function"===typeof(PerformanceObserver)&&"function"===typeof(PerformanceLongTaskTiming)){var LongTaskObserver=new PerformanceObserver(function(c){var b=c.getEntries();for(var a=0;a<b.length;a++){var d=b[a];LUX_al.push(d)}});try{LongTaskObserver.observe({type:["longtask"]})}catch(e){}};
+</script>
+<script src="./CSS + HTML Practice_files/lux.js" async="" defer="" crossorigin="anonymous"></script>
+<script src="./CSS + HTML Practice_files/vendor-9fb28be00c241bf20eff.chunk.js"></script>
+<script src="./CSS + HTML Practice_files/4-9292e056f2e32a088876.chunk.js"></script>
+<script src="./CSS + HTML Practice_files/everypage-7e116d980ec1fe0632f6.js"></script><div id="react-popups"></div><div id="react-popups"></div>
+<script src="./CSS + HTML Practice_files/vendor-9fb28be00c241bf20eff.chunk.js"></script>
+<script src="./CSS + HTML Practice_files/firebaseConnectLibs-b6c30b2c3e4754dc12e3.js"></script>
+<script src="./CSS + HTML Practice_files/vendor-9fb28be00c241bf20eff.chunk.js"></script>
+<script src="./CSS + HTML Practice_files/4-9292e056f2e32a088876.chunk.js"></script>
+<script src="./CSS + HTML Practice_files/processorRouter-48d830df87cb22b579dc.js"></script>
+<script src="./CSS + HTML Practice_files/filestack.min.js"></script>
+<script src="./CSS + HTML Practice_files/commonLibs-9baf61da2f0b1adbfdbda1a98aa009379eddc23641e45edf6d5c41f98fe361d0.js"></script>
+<script src="./CSS + HTML Practice_files/codemirror-1192be8e54ff63e3fb38f71eb325fcd7c34ed2694d671f761ae18a9ed23b9437.js"></script>
+<script src="./CSS + HTML Practice_files/emmet-codemirror-plugin-d52a9896e5f03371a6952975f3e92e5812c54903ca27e36f9c7b707444dc1e88.js"></script>
+<script src="./CSS + HTML Practice_files/index-19ede8a07813dcbe49cf017c9d20244a521bf9983016a1cf7c990a4135c606eb.js"></script>
+
+
+<div></div><div></div></body></html>
