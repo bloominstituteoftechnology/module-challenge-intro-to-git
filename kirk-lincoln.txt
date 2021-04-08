@@ -43,13 +43,13 @@ https://codepen.io/cohomology/pen/JjEywGb?editors=1100
     20. How do we select classes in CSS?
 	Select classes using a .
     21. How do we select a p element with a single class of “human””?
-	.human p {
+	pf.human {
 
 	}
     22. What is a parent child selector? When would this be useful? 
 	A parent child selector looks like .classA > .classB where classA is the parent structure to classB; whereas, classB indicates the child of the relationship.
     23. How do you select all links within a div with the class of sidebar?
-	.sidebar a {
+	div.sidebar a {
 
 	}
     24. What is a pseudo selector?
@@ -65,7 +65,7 @@ https://codepen.io/cohomology/pen/JjEywGb?editors=1100
 		border: 1px dotted black;
 	}
     29. How do I select everything on the page? 
-	html, body {
+	* {
 
 	}
     30. How do I write a comment in CSS?
