@@ -15,7 +15,7 @@ You will need to follow the Lambda School Git Workflow to add a file to this pro
   - [ ] Use your own student fork as the base (compare across forks, base-fork -> main).
 
 
-## Task 2: MVP
+## Task 2: MVP -DONE
 1. fork this codepen https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
 2. You will be marking up all of the HTML and styling it to look like this: https://codepen.io/BritHemming/full/jONmxOm using CSS
 * this should be review from yesterday/ extra practice
