@@ -1,1 +1,94 @@
-Hi my name is Mykael
+https://codepen.io/Myke-B/pen/abpEmav?editors=1000
+
+1.) What is Semantic HTML? It is HTML that describes meaning.
+
+2.) What is HTML used for? It is used to structure a webpage foundation so that it can later be styled using CSS.
+
+3.) What is an attribute and where do we put it? An attribute is an additional part of a tag. It provides more 
+information about an element. It goes inside of an element after its main tag.
+
+4.) What is the h1 tag used for? It is essentially a title (the most important heading). It should be 
+used once per page.
+
+5.) Name two tags that have required attributes. Images, and Anchors (links).
+
+6.) What do we put in the head of our HTML document? Assuming this means <header> ~ It is like the banner of the page
+so it should include any important information/image/and almost always a navigation bar.
+
+7.) What is an id? an ID is a one time use identifier for a portion of some amount of content. Usually with
+a section or div.
+
+8.) What elements can I add an id to? Most if not all html elements? I'm not exactly sure to be honest.
+
+9.) How many times can I use the same id on a page? You can only use an ID once. I asssume you would get
+errors if you tried to have multiple things with the same ID.
+
+10.) What is a class? A class is an identifer for elements like ID is, however; a class can be used on multiple
+different HTML elements.
+
+11.) What elements can I add a class to? Again, I assume most if not all HMTL elements but I'm not entirely sure.
+
+12.) How many times can I use the same class on a page? As many as you want? I question mark because there might be some
+extremely high limit that I'm not aware of?
+
+13.) How do I get my link to open in a new tab? You must apply the target attribute to the anchor element and set
+it to "target="_blank".
+
+14.) What is the alt attribute in the image tag used for? If a browser cannot load the image, it will display
+this text to usually describe the image as an alternative.
+
+15.) How do I reference an ID? I assume this means how do you select it in css? This would be done with the # symbol.
+
+16.) What is the difference between a section and a div? Content within a section is implied to be realted to eachother. Div however
+does not necessarily mean the content is related to one another.
+
+17.) What is CSS used for? It is used to style elements visually from an HTML file.
+
+18.) How do we select an element? By using its element name followed by curly braces of course.
+
+19.) What is the difference between a class and an id? - Give an example. A class can be used multiple times for multiple different
+html elements. An ID is much more specific and only used once for an html element. An example might be for someone's name. Since it is
+a unique "thing" it would be fitting to use an ID for that persons name anytime you want to style it the same way. An example of using classes
+would be maybe for styling multiple blocks of paragraphs the same way.
+
+20.) How do we select classes in CSS? using the "." selector.
+
+21.) How do we select a "p" element with a single class of human? .human p {}
+
+22.) What is a parent child selector? When would this be useful? div > p {}. This would select all "p" elements of the div element. This would
+be useful when you want to easily select lots of elements the same way within a certain chunk of CSS like inside a div for example.
+
+23.) How do you select all links within a div with the class of sidebar. .sidebar a {}
+
+24.) What is a pseudo selector? It is a selector that selects elements in a specific state. For example we have been using :hover.
+
+25.) What do we use to change the spacing between lines? The line-height property.
+
+26.) What do we use to change the spacing between letters? The letter-spacing property.
+
+27.) What do we use to change everything to captials? lowercase? The text-transform property.
+
+28.) How do I add a 1px border around my that is dotted and black? border: 1px dotted black;
+
+29.) How do I select everything on the page? The universal selector "*".
+
+30.) How do I write a comment in css? /* */
+
+31.) How do I find out what file I am in, when I am using the command line? pwd
+
+32.) Using the command line - How do I see a list of files/folders in my current folder? ls
+
+33.) How do I remove a file via the command line? Why do I have to be careful with this? rm. You can delete very important files/folders that your computer needs to run.
+
+34.) What should I use version control? So that you are able to revert back to older versions if new content breaks or changes the content as a whole in a way that was
+unintended.
+
+35.) How often should I commit to github? There is no one correct answer. You should commit when you're ready to apply the changes necessary.
+
+36.) What is the command we would use to push our repo up to the github? git push
+
+37.) Walk me through Lambda's git flow. First fork so that you have your own copy on github that can later be pushed to. Then proceed to clone so that you have a phsyical copy on
+your hard drive. This will allow you to add/remove or change files. Create a new branch so that you're no longer affecting the main branch. Now you can make changes/edit and add files.
+if you create a text document for example, then you would want to use the "git add" command to add it to the index. If you are satisfied with the changes then you would then want to commit these
+changes to finalize it. Then to get them repo on your computer to match the one on github you would then need to push your repo and new branch to github. At this point your forked version of the repo
+should have the new branch with the updated changes and new files. To apply these changes to the main repo that lambda originally had you then need to submit a pull request.
