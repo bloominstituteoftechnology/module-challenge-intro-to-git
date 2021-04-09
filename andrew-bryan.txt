@@ -1,0 +1,82 @@
+    1. What is Semantic HTML? 
+    describes its meaning to both the browser and the developer
+    2. What is HTML used for? 
+    the building blocks of the website
+    3. What is an attribute and where do we put it? 
+    special words used inside the opening tag to control the element's behaviour
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    heading on a website. and it can only be used once.
+    5. Name two tags that have required attributes
+    <a> , <img> 
+    6. What do we put in the head of our HTML document? 
+    <head>
+    7. What is an id? 
+    a unique id for an HTML element 
+    8. What elements can I add an id to? 
+    h1, h2, h3, h4, h5, h6
+    9. How many times can I use the same id on a page? 
+    1 time
+    10. What is a class? 
+    an attribute which specifies one or more class names
+    11. What elements can I add a class to? 
+    Any HTML element
+    12. How many times can I use the same class on a page? 
+    no limit
+    13. How do I get my link to open in a new tab?
+    target=”_blank”
+    14. What is the alt attribute in the image tag used for?
+    adds a text description to an image on a Web page
+    15. How do I reference an id?
+    # plus the id of the element
+    16. What is the difference between a section and a div
+    <section> means that the content inside is grouped and should appear as a entry in an outline of a page,
+     whereas <div> does not convey any meaning, aside from any found in its class, lang and title attributes.
+    17. What is CSS used for? 
+    the styling of the webpage
+    18. How to we select an element? Example - every h2 on the page
+    div, h2
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    The difference between an ID and a class is that an ID is only used to identify one single element in our HTML. IDs are only used when one element on the page should have a particular style applied to it. However,
+     a class can be used to identify more than one HTML element.
+     .class-name {
+     /* Define properties here */
+           }
+            #idname {
+        /* Define properties here */
+            }      
+    20. How do we select classes in CSS?
+        . 
+    21. How do we select a p element with a single class of “human””?
+    <p id="human">
+    22. What is a parent child selector? When would this be useful? 
+    A parent selector selects all of the other elements within it ie the child selectors. <div> <p> </p> </div>
+    23. How do you select all links within a div with the class of sidebar?
+    -
+    24. What is a pseudo selector?
+    Defines the special state of an element, example to style with mouseover
+    25. What do we use the change the spacing between lines?
+    div.a { line-height: (whatever spacing); }
+    26. What do we use to change the spacing between letters?
+    h1 {letter-spacing: 4px; }
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform
+    28. How do I add a 1px border around my div that is dotted and black?
+    p.dotted {Border-style: dotted;} / border
+    29. How do I select everything on the page? 
+    To select everyting you add the * element
+    30. How do I write a comment in CSS?
+    When writing a comment in CSS you want to enclose your text in /* and */
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd command allows you to see where you are currently working
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls is the command to see the list of files
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm command. You have to be careful with it because if typed incorrectly you can wipe your whole computer.
+    34. Why should I use version control? 
+    To keep track of changes and keep everyone up to date on the latest version.
+    35. How often should I commit to github?
+    All of the time if possible.
+    36. What is the command we would use to push our repo up to github? 
+    git push --set-upstream 'FirstName-LastName'
+    37. Walk me through Lambda's git flow. 
+    
