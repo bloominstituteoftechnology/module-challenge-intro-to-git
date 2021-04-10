@@ -18,33 +18,95 @@ https://codepen.io/v1rt1g0/pen/jOyazMm
        We often put a <header> tag on the head of our HTML document
 
     7. What is an id? 
+      IDs are away of assigning a tag with a name, one that should only be used once
+
     8. What elements can I add an id to? 
+      You can add IDs to virtually any tag, but can perhaps be most effectively used on divs
+
     9. How many times can I use the same id on a page? 
+      You should only use and ID once
+
     10. What is a class? 
+      A class, much like an ID, can be used to name a tag to later be used in CSS, but can be used on several different ones that will share identical stylistic properties
+
     11. What elements can I add a class to? 
+      Virtually any element, ideally on divs
+
     12. How many times can I use the same class on a page? 
+      As much as your heart desires homie
+
     13. How do I get my link to open in a new tab?
+         While using an anchor tag assigned with a link, you can additionally add the "target= '_blank' " attribute like so: <a href = '#' target = '_blank'>
+
     14. What is the alt attribute in the image tag used for? 
+         It is used for a better screen reader experience for those who need to utilize them
+
     15. How do I reference an id?
+         IDs can be refrence with a '#' in CSS
+
     16. What is the difference between a section and a div
+         Sections are used more for semantics; better organization in the HTML code. Divs are used purely for seperating content on a page, and is to generally be be considered semantic.
+
     17. What is CSS used for? 
+         CSS is used to grab and stylize the contents built with HTML
+
     18. How to we select an element? Example - every h2 on the page
+         Elements are selected by refrencing tags from the HTML code into the CSS code.
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+         Classes can be used as often as necesary, while IDs should only be used on one specific element 
+
     20. How do we select classes in CSS?
+         Classes are selected using  '.' such as: .classThing {#;}
+
     21. How do we select a p element with a single class of “human””?
+         You assign the p tag with the class 'human', then you refrence it like so: .human{ #; }
+
     22. What is a parent child selector? When would this be useful? 
+         A parent-child selector is selecting multiple tags in a linear fashion from your HTML code. This allows room for more specific stylictic options
+
     23. How do you select all links within a div with the class of sidebar?
+         You speiciy the class "sidebar", and then sequentially refrence your anchor tags: .sidebar a { #; }
+
     24. What is a pseudo selector?
+         A pseudo selector allows for styling in CSS under certain conditions, such as hovering your mouse over a specific element will stylictically change it
+
     25. What do we use the change the spacing between lines?
+         You can use the 'line-height' property
+
     26. What do we use to change the spacing between letters?
+         You can use the 'letter-spacing' property
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+         Use the 'text-transform' property, then apply 'uppercase', 'lowecase', or 'capitalize'
+
     28. How do I add a 1px border around my div that is dotted and black?
+         Use the 'border' property like so: .example {border: 1px solid black}
+
     29. How do I select everything on the page? 
+         You can refrence '*' in your css
+
     30. How do I write a comment in CSS?
+         /* Like so *\
+
+
     31. How do I find out what file I am in, when I am using the command line? 
+         Your comand line will tell you what location you're in
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+         You can type the letters 'ls' into your command line
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+         you can use 'rm [filename]' to remove files in your command line
+
     34. Why should I use version control? 
+         Version control allows for efficient workflow between other developers; for refrence of where you started or having a backup in case something goes wrong;
+
     35. How often should I commit to github?
+         One should commit to github as often as necessary when making relevant changes to a code project
+
     36. What is the command we would use to push our repo up to github? 
+         You would use 'git push'
+
     37. Walk me through Lambda's git flow. 
+         First, you fork the project from GitHub for your personal GitHub. Then, you clone the forked project into a desired folder. Thereafter you create a new branch using your name, and make your innitial commit; continue commiting your project as you make relevant changes. Finally, when finished, push your commited work to GitHub and do a 'Pull Request'
