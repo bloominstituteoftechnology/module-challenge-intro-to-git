@@ -4,42 +4,139 @@ https://codepen.io/alieze-ali/pen/ExZomoW?editors=1100
 Review Questions:
     1. What is Semantic HTML? 
     Semantic code is naming HTML tags in a way that is clear to the coder and the user. It uses element names that are descriptive and intuitive so there is no guess work. Examples would be <form> <table> <section> <header>.
-    
+
     2. What is HTML used for? 
     HTML stands for Hyper Text Mark-up Language and is used to build the structure of any webpage and its content.
 
     3. What is an attribute and where do we put it? 
+    Attributes add another layer of descriptive information to HTML tags. We put it right next to the element in the tag. For example <img></img> is a basic image tag, <img src="aPicOfMe.jpg"></img> adds a path to a jpg photo in your HTML page.
+
     4. What is the h1 tag used for? How many times should I use it on a page?
-    5. Name two tags that have required attributes
+    The h1 tag is used to identify the title of page and set order to the page. H1 is given priority in the HTML hierarchy and can only be used once on a page.
+
+    5. Name two tags that have required attributes.
+    2 tags that have required attributes are:
+    <img src="example.jpg"></a>
+    <a href = "example.com"/>
+    all image tags need an image attribute to display the image, all hyperlink tags need a hyperlink attribute to link to.
+
     6. What do we put in the head of our HTML document? 
+    Meta tags & links to other source sheets.
+
     7. What is an id? 
+    An id is an HTML attribute used to style and set hierarchy to the page. Unlike a class, an id can only be declared once. 
+
     8. What elements can I add an id to? 
+    An id can be used on any HTML element.
+
     9. How many times can I use the same id on a page? 
+    Only once.
+
     10. What is a class? 
+    A class is an HTML attribute which can be assigned to any element in order to use in CSS to add style on top of order.
+
     11. What elements can I add a class to? 
+    Any HTML element.
+
     12. How many times can I use the same class on a page? 
+    As many as needed.
+
     13. How do I get my link to open in a new tab?
+    Add a target="_blank" attribute in the tag element and it will open up in a new tab.
+
     14. What is the alt attribute in the image tag used for? 
+    It is used to name what the image is in case the image cannot be seen or displayed.
+
     15. How do I reference an id?
-    16. What is the difference between a section and a div
+    In HTML it is referenced as such:
+    <h1 id="myHeader">My Header</h1>
+    In CSS it is called out by a #:
+    #myHeader {
+
+    }
+
+    16. What is the difference between a section and a div.
+    A section is used for semantics, div is used for style. 
+
     17. What is CSS used for? 
+    CSS or Cascading Style Sheets are used to add style to an HTML page.
+
     18. How to we select an element? Example - every h2 on the page
-    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    h2 {}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one.
+    Class is a way to style any css element. A class can be used more than once - or as many times as needed. an ID is also used to style, but can only be used once on a page.
+    ...More to add
+
     20. How do we select classes in CSS?
+    with dot. If your class name is top-section, you call it in CSS by .top-section{}.
+
     21. How do we select a p element with a single class of “human””?
+    .human p {}
+
     22. What is a parent child selector? When would this be useful? 
+    Parent is the top selector in css hierarchy. Children are affected by all properties put on the parent - they in a sense inheret their properties.
+    They are useful when aiming to select a specific element.
+
     23. How do you select all links within a div with the class of sidebar?
+    .sidebar div a {
+
+    }
+    
     24. What is a pseudo selector?
+    A pseudo-class is a selector that selects elements that are in a specific state - they are the first element of their type, or they are being hovered over by the mouse pointer.
+
     25. What do we use the change the spacing between lines?
+    Use and change the line-height property in css.
+
     26. What do we use to change the spacing between letters?
+    Use the letter-spacing property in CSS.
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    uppercase property
+    lowercase property
+    capitalize property
+
     28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        border: 1px dotted black;
+    }
+
     29. How do I select everything on the page? 
+    *{} - for css.
+
     30. How do I write a comment in CSS?
+    /* CSS comments go here */
+
     31. How do I find out what file I am in, when I am using the command line? 
+    cd 
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm filename
+    Care must be taken because once a file is removed it cannot be recovered.
+
     34. Why should I use version control? 
+    Mainly because it's the industry standard of web dev and you will be expected to know it.
+
     35. How often should I commit to github?
+    Often - I'd say whenever you finish a major section of a project. 
+
     36. What is the command we would use to push our repo up to github? 
+    git push
+    git push origin -u alieze-ali
+
     37. Walk me through Lambda's git flow. 
+    1. Fork repo 
+    2. Add Collaborator
+    3. Clone - git clone "url"
+    4. Branch - git checkout -b alieze-ali
+    5. Work & Commit work regularly.
+    6. Push- Push your local changes to your remote repo branch. git push origi -u alieze-ali.
+    7. Create a Pull Request.
+
+
+There are too many questions.
+I've done this before, twice -didn't have to think too hard and it still took way more than 3 hours. I can't imagine how long it would have taken if I wasn't familiar with half of the CSS that wasn't covered in class.
