@@ -61,8 +61,8 @@ https://codepen.io/crimsoncodex2195/pen/NWdwYQX?editors=1100
 	When selecting a class in CSS you wold have to preface the class name with a ' . '. An example would be .className{attribute: descriptor;}
 
     21. How do we select a p element with a single class of “human””?
-	You would do ".human{attribute:descriptor;}
-"
+	You would do ".human{attribute:descriptor;}"
+	
     22. What is a parent child selector? When would this be useful?
 	A parent child selector is multiple css elements listed sepearated by a ">" symbol. The element to the left of the > is the parent while the element to the right of the > is the child. 
 
@@ -106,7 +106,7 @@ https://codepen.io/crimsoncodex2195/pen/NWdwYQX?editors=1100
 	You should commit to github everytime you update a file to make sure that there are records of it.
 
     36. What is the command we would use to push our repo up to github? 
-	git push filename.
+	git push
 
     37. Walk me through Lambda's git flow. 
 	Launch your command line. Get to the main folder location you desire.
