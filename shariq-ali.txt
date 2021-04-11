@@ -1,9 +1,5 @@
 https://codepen.io/crimsoncodex2195/pen/NWdwYQX?editors=1100
 
-<!-- Questions to Submit in today's file first-lastname.txt --> 
-<!--
-Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
-
     01. What is Semantic HTML? 
 	Semantic hteml is descriptive html marking up the 'template' of a website. This includes things like h1 and p that focus on the content and not the style.
 
@@ -41,55 +37,83 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
 	On a given page, you can use a tag however many times you want.
 
     13. How do I get my link to open in a new tab?
-
+	To get a link to open in a new tab you have to use the anchor tag (<a>). Using this tag you can attribute a source file to open when clicked on.
 
     14. What is the alt attribute in the image tag used for? 
+	If the link/file location in the href="" is not accessable, then the alt attribute can be used to describe what is attempting to be shown.
 
     15. How do I reference an id?
+	To reference an id you must use the # before the id name in css.
 
-    16. What is the difference between a section and a div
+    16. What is the difference between a section and a div?
+	A div can be made out to anything you want it to be. On the other hand, section has some pre-definition to it meaning that there will be a section of content within.
 
     17. What is CSS used for? 
+	CSS is used to styling HTML elements. These work hand in hand as the HTML provides structure while the css provides the looks.
 
     18. How to we select an element? Example - every h2 on the page
+ 	When styling, to select an element you would put the elementName{attribute:relevantAttributeDescriptor;}. h2{color:orange;}
 
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	A class can be used on multiple html elements while an id can only be used on one element. For instance, an h1 header might have an id description while paragraphes within a section may have a class description.
 
     20. How do we select classes in CSS?
+	When selecting a class in CSS you wold have to preface the class name with a ' . '. An example would be .className{attribute: descriptor;}
 
     21. How do we select a p element with a single class of “human””?
-
-    22. What is a parent child selector? When would this be useful? 
+	You would do ".human{attribute:descriptor;}
+"
+    22. What is a parent child selector? When would this be useful?
+	A parent child selector is multiple css elements listed sepearated by a ">" symbol. The element to the left of the > is the parent while the element to the right of the > is the child. 
 
     23. How do you select all links within a div with the class of sidebar?
+	You could do .divClassName > a {attribute:descriptor;}
 
     24. What is a pseudo selector?
+	A psuedo selector is a keyword that specifies a special state of the elements. Examples of these would be :link, :visited, :hover, and many more.
 
     25. What do we use the change the spacing between lines?
+	We must use the attribute "line-spacing".
 
     26. What do we use to change the spacing between letters?
+	We would need to use the letter-spacing property and set it using pixels.
 
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	To change everything to capitals, lowercalse, and capitaize using the property text-transform. We can then set it to captitalize, uppercase, or lowercase.
 
     28. How do I add a 1px border around my div that is dotted and black?
+	div {border: dotted 1px black;}
 
     29. How do I select everything on the page? 
+	You can use the universal selector *.
 
     30. How do I write a comment in CSS?
+	You start your comment with /* and end it with */.	
 
     31. How do I find out what file I am in, when I am using the command line? 
+	You can enter "pwd" in the command line.
 
     32. Using the command line - how do I see a list of files/folders in my current folder?
+	You can use "ls".
 
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	To remove a file you can do "rm" followed by the file's name. You must be careful with this because the command line doesn't ask if you're sure. It does so immediatly.
 
     34. Why should I use version control? 
+	Version control is important because you have a record of what you are done. Data is easy to lose, and sometimes you may make change you dislike. Version control allows you to undo this.
 
     35. How often should I commit to github?
+	You should commit to github everytime you update a file to make sure that there are records of it.
 
     36. What is the command we would use to push our repo up to github? 
+	git push filename.
 
     37. Walk me through Lambda's git flow. 
+	Launch your command line. Get to the main folder location you desire.
+	Create a branch of it using git checkout -b branchname.
+	You can then make the changes you want. Do git add filename.
+	Then git commit -m "comment you want to put (a description of what you did)"
+	FInally, you can do git push to upload it to github.
 
 Stretch Questions
 
@@ -101,4 +125,3 @@ Stretch Questions
 
 
 
-   --> 
