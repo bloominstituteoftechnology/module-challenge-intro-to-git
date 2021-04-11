@@ -1,1 +1,88 @@
-Hello World!
+https://codepen.io/jackramos021495/pen/zYNpbbJ?editors=1100
+
+    1. What is Semantic HTML? 
+    HTML is the code that is used to structure a web page and its content.
+    2. What is HTML used for? 
+    To build the foundation of a web page.
+    3. What is an attribute and where do we put it? 
+    An attribute provides addition information about a tag, Should be put in the start of the tag.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    To indicate level of importance. one time.
+    5. Name two tags that have required attributes
+    The a tag and img tag.
+    6. What do we put in the head of our HTML document? 
+    Page title, links to CSS and other meta data.
+    7. What is an id? 
+    The id attribute specifies a unique id for an HTML element.
+    8. What elements can I add an id to? 
+    Any elements.
+    9. How many times can I use the same id on a page? 
+    As many times as possible.
+    10. What is a class? 
+    Just like ID, it works in a similar way for CSS to select.
+    11. What elements can I add a class to? 
+    Any element.
+    12. How many times can I use the same class on a page? 
+    As many times as possible.
+    13. How do I get my link to open in a new tab?
+    setting the attribute target="_blank" on our anchor tag
+    14. What is the alt attribute in the image tag used for? 
+    In case image doesn't display a message should incur.
+    15. How do I reference an id?
+    With the hash symbol.
+    16. What is the difference between a section and a div
+    Section is semantic div isnt.
+    17. What is CSS used for? 
+    To style HTML
+    18. How to we select an element? Example - every h2 on the page
+    h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    Class can be used to select multiple elements while ID a unique one. You can use class to select multiple images or ID to select something once.
+    20. How do we select classes in CSS?
+    With a Dot .
+    21. How do we select a p element with a single class of “human””?
+    .human p{}
+    22. What is a parent child selector? When would this be useful?The CSS was of ordering things. When trying to select a specific element. 
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar div a{}
+    24. What is a pseudo selector?
+    Selector that selects elements in a specific state
+    25. What do we use the change the spacing between lines?
+    line-height property
+    26. What do we use to change the spacing between letters?
+    letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    The properties uppercase,lowercase and capitalize.
+    28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        border: 1px dotted black;
+    }
+    29. How do I select everything on the page? 
+    *{}
+    30. How do I write a comment in CSS?
+    /* */
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+    git rm. It permanently.
+    34. Why should I use version control? 
+    It is faster and better to use than a GUI.
+    35. How often should I commit to github?
+    Once or twice an hour.
+    36. What is the command we would use to push our repo up to github? 
+    git push
+    git push origin -u Jackson-Ramos
+    37. Walk me through Lambda's git flow. 
+    1. Fork so i have my own version of the repository.
+    2. Clone the repository, to the location where I want it saved on my computer.
+    3. cd into the new repo.
+    4. git checkout -b 'firstname-lastname' to create a new branch to do my work on. 
+    5. git add . command to add the changes made and make them ready to be commited.
+    6. git commit -m "message as to what changes were made".
+    7. git push -u origin branch-name  this pushes all of the commits made from local machine back to github. 
+    8. go back to the forked repo on github and double check I am in my forked repo/project, click on Branch:master to bring drop down menu. Click on my name-branch.
+    Click on New pull request button to make a pull request on my name branch. I will be redirected to the pull request page.
+    9. on the pull request page click on the drop down button that says base repository and CHANGE it to the forked repo and NOT the Lambda repo. 
+    10. Open the pull request and click PULL request
