@@ -1,4 +1,4 @@
-link to finished codepen https://codepen.io/Hbrooks87/pen/dyvJrLv?editors=1100
+link to finished codepen https://codepen.io/Hbrooks87/pen/dyvJEBb
 
     1. What is Semantic HTML?
         Html that gives meaning or context to our code. We use it for accessability purposes.
