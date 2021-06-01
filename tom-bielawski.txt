@@ -1,4 +1,4 @@
-Codepen link https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
+Codepen link: https://codepen.io/tomski999/pen/QWpaRjN
 1. What is Semantic HTML? Semantic tags are used to provide meaning about content
     2. What is HTML used for? HTML is a markup language used for building web pages
     3. What is an attribute and where do we put it? Attributes are used for adding meaning to tags. 
