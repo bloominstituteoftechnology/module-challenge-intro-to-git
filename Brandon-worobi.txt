@@ -1,0 +1,14 @@
+https://codepen.io/Bworobi/pen/qBrpGYg
+
+    1. What is the difference between an inline element and a block element?
+    An inline element has no line break before or after it, and it tolerates HTML elements next to it. A block element has some whitespace above and below it and does not tolerate any HTML elements next to it.
+    2. What happens when an element is positioned absolutely? 
+    An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    With Flex
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default, and 1 element that is display inline-block by default
+    address, div, h1.
+    anchors, buttons.
+    span 
+    5. In your own words, explain the box model. What is the fix for the box model? 
+    Everything can be adjusted as if everything was in a box, you can adjust the margin, border, padding, content. Fix everything with box sizing. 
