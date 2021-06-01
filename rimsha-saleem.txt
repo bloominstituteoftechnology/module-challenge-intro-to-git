@@ -1,27 +1,69 @@
 codepen url:https://codepen.io/RimshaSaleem/pen/bGqaJqZ?editors=1100
-
+https://codepen.io/RimshaSaleem/pen/bGqaJqZ
 
 1. What is Semantic HTML? 
-    2. What is HTML used for? 
-    3. What is an attribute and where do we put it? 
+    2. What is HTML used for?
+    Ans:Html is used to build structure of website.
+
+    3. What is an attribute and where do we put it?
+    Ans: Attribute are modifier of an HTML element.Attribute are always specified in the opening tag.
+
     4. What is the h1 tag used for? How many times should I use it on a page?
+    Ans:h1 is used for title of page.It depends on developer how many times he wanna use it,but commonly its used for page title.
+
     5. Name two tags that have required attributes
+    Ans: 1: href   2: class.
+
     6. What do we put in the head of our HTML document? 
+    Ans <head>
+         <title>My Website</title>
+        </head>
+
     7. What is an id? 
+    Ans:Id define identifier,which must be unique in whole page.
+
     8. What elements can I add an id to? 
+    Ans: # along with id name.
+
     9. How many times can I use the same id on a page? 
-    10. What is a class? 
+    Ans: You cannot use more than one element id on a html.
+
+    10. What is a class?
+    Ans:A class specifies more than one class names for an html element.Different html element can point to the same class name.
+
     11. What elements can I add a class to? 
+
     12. How many times can I use the same class on a page? 
+    Ans:Multiple times
+
     13. How do I get my link to open in a new tab?
+    Ans:<a href="Mypage.html">My Page</a>
+
     14. What is the alt attribute in the image tag used for? 
+    Ans:It is used to specify text area of a image or it provide alternative information of image.
+
     15. How do I reference an id?
+    Ans:By using #.For example #gallery.
+
     16. What is the difference between a section and a div
+    Ans:<section> means content inside is placed.<div> tag define a division of html.
+
     17. What is CSS used for? 
+    Ans:for changing layout of website or For making website look attractive or beautiful.
+
     18. How to we select an element? Example - every h2 on the page
+    Ans:h2{
+        text-align:center;
+    }
+    All h2 element text will be centered.
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
     20. How do we select classes in CSS?
     21. How do we select a p element with a single class of “human””?
+    .human p{
+       ///changing code inside///
+    }
+
     22. What is a parent child selector? When would this be useful? 
     23. How do you select all links within a div with the class of sidebar?
     24. What is a pseudo selector?
@@ -31,6 +73,7 @@ codepen url:https://codepen.io/RimshaSaleem/pen/bGqaJqZ?editors=1100
     28. How do I add a 1px border around my div that is dotted and black?
     29. How do I select everything on the page? 
     30. How do I write a comment in CSS?
+    Ans: /*  */
     31. How do I find out what file I am in, when I am using the command line? 
     32. Using the command line - how do I see a list of files/folders in my current folder?
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
@@ -46,3 +89,6 @@ Stretch Questions
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+    
+    
