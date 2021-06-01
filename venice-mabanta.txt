@@ -1,42 +1,91 @@
 Codepen URL:https://codepen.io/venicchi/pen/MWprxJP
 
- 1. What is Semantic HTML? 
-    2. What is HTML used for? 
+    1. What is Semantic HTML? 
+    Coding language that makes the structure of a webpage
+    2. What is HTML used for?
+    Building the structure of a webpage 
     3. What is an attribute and where do we put it? 
+    Attributes are the modifiers of html codes
     4. What is the h1 tag used for? How many times should I use it on a page?
+    H1 tags are used for headers or the title of a webpage. It's preferably used only once in a webpage
     5. Name two tags that have required attributes
+    The header attributes (H1-H6) and hyperlink attributes (a and href)
     6. What do we put in the head of our HTML document? 
+    Meta and the style of the webpage
     7. What is an id? 
+    ID is a style tag for an html element
     8. What elements can I add an id to? 
+    All the elements in a webpage
     9. How many times can I use the same id on a page? 
+    Only once
     10. What is a class? 
+    Used to specify CSS and Javascript in an html element
     11. What elements can I add a class to? 
+    Any html element
     12. How many times can I use the same class on a page? 
+    Infinite number of times
     13. How do I get my link to open in a new tab?
+    Add the attribute to the href tag "target=_blank"
     14. What is the alt attribute in the image tag used for? 
+    Describing the image
     15. How do I reference an id?
+    Hashtags
     16. What is the difference between a section and a div
+    They are similar but div is used for a separated part of the webpage
     17. What is CSS used for? 
-    18. How to we select an element? Example - every h2 on the page
+    Stylizing the the webpage, colors, text sizes, borders, etc.
+    18. How do we select an element? Example - every h2 on the page
+    h2 {styles etc;
+    }
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    They are used in the same way but an id is used only once. 
     20. How do we select classes in CSS?
+    Putting the class of the specific part of the html before the bracket
     21. How do we select a p element with a single class of “human””?
+    <p class="human"> <p>
     22. What is a parent child selector? When would this be useful? 
+    Parent child selector is when a style is within the same category. It would be useful with grouping certain styles of css codes.
     23. How do you select all links within a div with the class of sidebar?
+    nav .sidebar
     24. What is a pseudo selector?
+    Affects elements that are in a certain state
     25. What do we use the change the spacing between lines?
+    line-height property
     26. What do we use to change the spacing between letters?
+    letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform
     28. How do I add a 1px border around my div that is dotted and black?
+    border : 1px dotted #000000;
     29. How do I select everything on the page? 
+    *
     30. How do I write a comment in CSS?
+    /* TEXT */
     31. How do I find out what file I am in, when I am using the command line? 
+    pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm , once the command is executed, there will be no prompts
     34. Why should I use version control? 
+    Keeping the history of changes in files is important, and going back to a backup is crucial if you encounter a problem with the current version
     35. How often should I commit to github?
+    Every time you make changes to the file
     36. What is the command we would use to push our repo up to github? 
+    git add .
+    git commit -m "Message"
+    git push -u origin branch-name
     37. Walk me through Lambda's git flow. 
+    Fork the file you want to repo
+    Clone the repo to local
+    Go to the directory you want to clone the repo
+    Clone the repo
+    Change directory to the new repo
+    Create your own branch
+    After making changes to the files on the repo, commit and then push
+    If you want to pull your repo, go to New pull request on github
+    Use the dropdown list to switch it to your repo so you can compare the main and your branched repo
+    Create pull request after confirming the differences
 
 Stretch Questions
 
