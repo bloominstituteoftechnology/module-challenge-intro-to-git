@@ -1,4 +1,8 @@
 
+
+Link for CodePen: https://codepen.io/widespreadOS/pen/OJpzYeb
+
+
     1. What is Semantic HTML?
 Gives built-in information about elements 
     2. What is HTML used for? 
