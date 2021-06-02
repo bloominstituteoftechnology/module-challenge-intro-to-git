@@ -65,22 +65,55 @@ https://codepen.io/RimshaSaleem/pen/bGqaJqZ
     }
 
     22. What is a parent child selector? When would this be useful? 
+    Ans:Parent child selector element selects all element that they are directected to child of the specified element
+
     23. How do you select all links within a div with the class of sidebar?
+    Ans: .slidebar a{
+        //code here//
+    }
     24. What is a pseudo selector?
+    Ans:Psuedo selector is a keyword added to selector that specifies  a special state of selected element example: Hover can use to change background color when user pointer hover it.
+
     25. What do we use the change the spacing between lines?
+    Ans:By using line-height property.
+
     26. What do we use to change the spacing between letters?
+    Ans:By using letter-spacing in css.
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    Ans:By using text-transform property.EXAMPLE text-transform: uppercase;
+
     28. How do I add a 1px border around my div that is dotted and black?
+    Ans:div{
+        border: 1px dotted black;
+    }
     29. How do I select everything on the page? 
+
     30. How do I write a comment in CSS?
     Ans: /*  */
-    31. How do I find out what file I am in, when I am using the command line? 
+    31. How do I find out what file I am in, when I am using the command line?
+    Ans :By typing pwd.
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    Ans:By using ls command.
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    Ans:By using git rm filename.
+
     34. Why should I use version control? 
+    Ans:Its important to keep tractof changes .It help teams to collaborate around world.
+
     35. How often should I commit to github?
+    Ans:Whenever you make changes on your code or file.
+    We use 3 command to update 1: git add . 
+    2:git commit -m "made changes"
+    3:git push -u origin branch-name.
+
     36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+    Ans:git push -u origin branch-name.
+
+    37. Walk me through Lambda's git flow.
+     
 
 Stretch Questions
 
