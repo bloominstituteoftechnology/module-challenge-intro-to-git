@@ -113,7 +113,8 @@ https://codepen.io/RimshaSaleem/pen/bGqaJqZ
     Ans:git push -u origin branch-name.
 
     37. Walk me through Lambda's git flow.
-     
+     Ans:git push -u origin branch-name
+     eg: rimsha-saleem
 
 Stretch Questions
 
