@@ -1,0 +1,119 @@
+https://codepen.io/rodbat/pen/mdWxVjL
+
+1. What is Semantic HTML? 
+tags  1. What is Semantic HTML? 
+HTML tags that by their label have meaning and relevance to the content theirin. They are read by and are relevant to both human and machine readers.
+    
+    2. What is HTML used for?
+HTML is used to create the structure of web pages. Its tags allow the items within the tags to be exhibited as directed.	
+   
+   3. What is an attribute and where do we put it?
+selector that along with its values modifies the behavior of an html tag.   
+it includes the description or value or address of an element, ie a url of an anchor tag href or the location or address of an imag
+
+    4. What is the h1 tag used for? How many times should I
+	use it on a page?
+h1 is used to label a title within a page. It is large type.
+It should be used only once on a page.
+
+    5. Name two tags that have required attributes
+	<a> and <img> tags have href and source attributes respectiely. They are required.
+	
+    6. What do we put in the head of our HTML document? 
+    Meta data, reference to Stylesheet, links to JS. Title
+	
+	7. What is an id?
+	Identifier of a tag, which makes it unique. Identified by # in CSS.
+    
+	8. What elements can I add an id to? 
+	Any
+	
+    9. How many times can I use the same id on a page? 
+	Once. It is unique.
+    10. What is a class?
+	A class is a label placed upon an element so that that element and its characteristics as modified in CSS can be used multiple times.
+	
+    11. What elements can I add a class to?
+Any	
+    12. How many times can I use the same class on a page? 
+	No limit.
+    13. How do I get my link to open in a new tab?
+    Insert "_blank" after the link address.
+	
+	14. What is the alt attribute in the image tag used for?
+       It identifies what the image would be when the image isn't rendered on the page.
+	   
+    15. How do I reference an id?
+	By a hashtag: #
+	
+    16. What is the difference between a section and a div
+    A section is semantic. It can be read by a search engine. It has meaning by virtue of its name; it means that content therin is grouped whereas a div per se has not defined meaning.
+	
+	17. What is CSS used for?
+CSS is used to give style to a page already structured by HTML.
+	
+    18. How to we select an element? Example - every h2 on the page
+	By enclosing descriptors within braces following the element in the CSS script of stylesheet.
+	For example, we would select every h2 on a page by writing h2 in front of the braces that contain the attributes desired for that descriptor.
+    
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one 
+        A class identifies an element that we might want to have a certain characteristic wherever it appears. For example, all h2 elements are red, all h3 elements are blue.
+	An  id identifies one specific element. For example, we want the 2nd section to have a pink background color.
+	A class might be more complex than one element though. The class might be the 1st and 3rd div in each section.
+	
+	20. How do we select classes in CSS?
+	A dot . preceeds the class name. Example: .Myclass.
+	
+    21. How do we select a p element with a single class of “human””?
+	.human.
+	p.human {}
+    22. What is a parent child selector? When would this be useful?
+This is a greater than angle bracket > between the parent tag and the immediately nested child tag.
+This is great for selecting an element immediately nested within the parent tag.
+	
+    23. How do you select all links within a div with the class of sidebar?
+	div .sidebar a {}
+	
+    24. What is a pseudo selector?
+	Usually a class that selects elements that are in a specific state ie a:hover wherein some property is invoked upon hover.
+    
+	25. What do we use the change the spacing between lines?
+		Use the line-height property.
+	
+   	26. What do we use to change the spacing between letters?
+letter-spacing property.
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform: uppercase; text-transform: lowercase; text-transform:capitalize;
+
+    28. How do I add a 1px border around my div that is dotted and black?
+	div {
+			border:1px dotted black;
+		}	
+    29. How do I select everything on the page? 
+	*
+	
+    30. How do I write a comment in CSS?
+	/* My comment*/
+	
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+	
+	32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+	
+	33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm There is no 2nd chance. The file is not put into a trash bin. It is gone.
+	
+	34. Why should I use version control? 
+    To keep track of your versions.
+	
+	35. How often should I commit to github?
+    Very often. As much as necessary so as not to lose too much of your work.
+	
+	36. What is the command we would use to push our repo up to github? 
+    git push, or push -u origin branchname.
+	
+	37. Walk me through Lambda's git flow. 
+Fork, Add collaborator, Clone branch, Add, Commit, Push,  Request Pull.
+
