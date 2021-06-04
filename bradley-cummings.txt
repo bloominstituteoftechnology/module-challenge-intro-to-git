@@ -1,1 +1,226 @@
-link to codepen: https://codepen.io/bwcummings1/pen/LYWmYbq?editors=1100
+link to codepen: https://codepen.io/bwcummings1/pen/LYWmYbq
+
+
+    1. What is Semantic HTML? 
+
+HTML that has meaning.
+
+    2. What is HTML used for? 
+
+Building the structure of a website.
+
+    3. What is an attribute and   where do we put it? 
+
+Attributes are modifiers of HTML type.  They are added to the start tags for example: <a href =# </a>.  Href is the attribute.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+
+The h1 tag is used to define the title of the page.  It is the most important header from 1-6.  It should only be used once. 
+
+    5. Name two tags that have required attributes
+
+<input>
+<select>
+<textarea>
+
+    6. What do we put in the head of our HTML document? 
+
+<!DOCTYPE html>
+<html>
+<head>
+etc...
+</head>
+</html>
+
+    7. What is an id? 
+
+It is used to identify a unique "id" for an HTML element.
+
+    8. What elements can I add an id to? 
+
+Unlike "class", "id" can only be applied to one element.
+
+    9. How many times can I use the same id on a page? 
+
+Once.
+
+    10. What is a class? 
+
+A class is a unique identifier that can be used for multiple elements.
+
+    11. What elements can I add a class to? 
+
+Any HTML element can have class applied to it.
+
+    12. How many times can I use the same class on a page? 
+
+Any amount
+
+    13. How do I get my link to open in a new tab?
+
+Set the target attribute to "_blank"
+
+    14. What is the alt attribute in the image tag used for? 
+
+It applies alternative text to an image if the image cannot be displayed.
+
+    15. How do I reference an id?
+
+Write a hash character (#) followed by an id name.
+
+    16. What is the difference between a section and a div
+
+Seciton provides more semantic syntax for the HTML which is beneficial to search engine optimization. Anything contained within a div has no inherent meaning.
+
+    17. What is CSS used for? 
+
+CSS is used to style the HTML.
+
+    18. How to we select an element? Example - every h2 on the page
+
+By using the <select> element.
+Example:
+<select name="h2">
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+The main difference is specificity and how many elements each styling can be applied.  Class can be applied to multiple elements while id can only be applied to one on a page.  
+
+Example: class
+<div class="city">
+  <h2>London</h2>
+    <p>London is a great city to visit</p>
+</div>
+
+<div class="city">
+  <h2>New York</h2>
+    <p>New York is a great city to visit.</p>
+</div>
+
+Example: id
+<h1 id="myHeader">My Header</h1>
+
+    20. How do we select classes in CSS?
+
+If you wanted to style "p" elements with a class it would go something like:
+
+p.first-section{
+  background-color:blue;
+}
+
+    21. How do we select a p element with a single class of “human””?
+
+p.human{
+  background-color:blue;
+}
+    22. What is a parent child selector? When would this be useful? 
+
+The parent child selector selects all elements that are a direct child of a specified element.  This is useful in that it allows us to style multiple elements related to the parent in the same fashion.
+
+    23. How do you select all links within a div with the class of sidebar?
+
+#sidbar a:link{
+color:blue;
+}
+
+    24. What is a pseudo selector?
+
+These are CSS selectors with a colon preceding them.  They are used to show elements in a specific state.  Example:  element that has been clicked/hovered upon.
+
+    25. What do we use the change the spacing between lines?
+
+The CSS styling, "line-height".
+
+    26. What do we use to change the spacing between letters?
+
+The CSS style, "letter-spacing".
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+Example:
+h2.uppercase{
+text-transform: uppercase;
+}
+
+h2.lowercase{
+text-transform: lowercase;
+}
+
+    28. How do I add a 1px border around my div that is dotted and black?
+
+div{
+border: 1px dotted black;
+}
+
+    29. How do I select everything on the page? 
+
+Example:
+*{
+background-color:white;
+}
+
+    30. How do I write a comment in CSS?
+
+Bookend the comment like so: /* and */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+
+command pwd 
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+mkdir "project folder name"
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+When you’re in the same directory as the file you want to delete, type rm [filename.extension]
+
+    34. Why should I use version control? 
+
+It is used to make sure that versions can be reverted back to and so that multiple people aren't making changes on the same file at the same time.
+
+    35. How often should I commit to github?
+
+Whenever somewhat signficant changes are made to the code that wouldn't want to lose.
+
+    36. What is the command we would use to push our repo up to github? 
+
+(make sure you're in the right file in the terminal)
+git add
+git commit -m "fill in message with details of changes"
+
+    37. Walk me through Lambda's git flow. 
+
+1. Fork the project in GitHub by clicking “Fork”
+* file name should have your username in it
+
+2. Clone the project onto your computer
+* Press green “Code” button
+* HTTPS
+* *Copy the URL*
+* Go to terminal
+*  cd Desktop
+* [Desktop] mkdir lambdaProjects
+* [Desktop] cd lambdaProjects
+* [lambdaProjects] git clone *paste URL*
+
+3. Make a branch
+* [lambdaProjects] cd “file name"
+* [“file name”] git checkout -b user-name
+
+4. Open in VSCode
+* “file name” git:  code .
+* if that command doesn’t work, just open your project in VS Code
+
+5. While coding commands to enter into Terminal (source)
+* git status (shows you what has been modified)
+* git add . (adds all of the changes that you’ve made in any file)
+* git commit -m “message” 
+* git push -u origin “user-name"
+
+6. How to commit changes:
+* Save the document
+* Go to the terminal 
+* git add .
+* git commit -m “message"
+* git push -u origin “user-name"
