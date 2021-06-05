@@ -1,6 +1,7 @@
 codepen url:https://codepen.io/RimshaSaleem/pen/bGqaJqZ?editors=1100
 https://codepen.io/RimshaSaleem/pen/bGqaJqZ
 
+
 1. What is Semantic HTML? 
 Ans:Sementic tag are those who describe meaning of browser and developer eg :<div>
 <form> <article>
@@ -85,7 +86,7 @@ Ans:Sementic tag are those who describe meaning of browser and developer eg :<di
 
     }
     21. How do we select a p element with a single class of “human””?
-    .human p{
+     p.human{
        ///changing code inside///
     }
 
@@ -131,10 +132,13 @@ Ans:Sementic tag are those who describe meaning of browser and developer eg :<di
     Ans:Its important to keep tract of changes .It help teams to collaborate around world.
 
     35. How often should I commit to github?
-    Ans:Whenever you make changes on your code or file.
+
+    Ans:after every 20 minutes
+    Whenever you make changes on your code or file.
     We use 3 command to update 1: git add . 
     2:git commit -m "made changes"
     3:git push -u origin branch-name.
+
 
     36. What is the command we would use to push our repo up to github? 
     Ans:git push -u origin branch-name.
