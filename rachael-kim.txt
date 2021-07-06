@@ -1,0 +1,14 @@
+https://codepen.io/rachaelkim831/pen/oNWxXqp?editors=1100
+
+Stretch Review questions: 
+    1. What is the difference between an inline element and a block element?
+        -block element takes full width available and inline element only takes up only the width needed.
+    2. What happens when an element is positioned absolutely? 
+        -element sits on its own layer separate from all other elements on the page.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        -use inline-block
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default, and 1 element that is display inline-block by default
+        {block: <div>, <h1 - h6>, <header & footer>} {inline: <span>, <a>} {inline-block: <button>}
+    5. In your own words, explain the box model. What is the fix for the box model? 
+        Box model is padding, border, and margin wrapping around html elements(actual content). Fix for the box model is box-sizing which allows us to include padding and border
+        in the width and height. 
