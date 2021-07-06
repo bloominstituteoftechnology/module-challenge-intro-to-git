@@ -69,6 +69,8 @@ https://codepen.io/mattstack/pen/poPyJaJ
     34. Why should I use version control? 
     It helps keep track of changes and helps with collaboration.  It is also useful for troubleshooting.
     35. How often should I commit to github?
+    A few times per hour.
     36. What is the command we would use to push our repo up to github? 
     git push origin firstName-lastName
     37. Walk me through Lambda's git flow. 
+    First you fork the repo.  Next you clone the repo to your computer.  Next you make a branch with your name. Following that is doing commits frequently. After that you push the local changes to Github. Lastly you create a pull request.
