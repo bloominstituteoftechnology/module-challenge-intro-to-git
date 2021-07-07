@@ -1,5 +1,95 @@
 https://codepen.io/rachaelkim831/pen/oNWxXqp?editors=1100
 
+    1. What is Semantic HTML? 
+        - descriptive tags. elements with meaning. 
+    2. What is HTML used for? 
+        - hypertext markup language. describes structure of web page. 
+    3. What is an attribute and where do we put it? 
+        - attibute provides additional info on html elements. Inside the opening tag, after element. 
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        - heading 1. once. 
+    5. Name two tags that have required attributes
+        - <select>, <input>
+    6. What do we put in the head of our HTML document? 
+        -<title>
+    7. What is an id? 
+        - used to specify (single) unique element for html
+    8. What elements can I add an id to? 
+        - any html elements
+    9. How many times can I use the same id on a page? 
+        - once
+    10. What is a class? 
+        - Specifies class for html element; used when there are multiple elements that serve same purpose. 
+    11. What elements can I add a class to? 
+        - any html elements
+    12. How many times can I use the same class on a page? 
+        - as many times as you want.
+    13. How do I get my link to open in a new tab?
+        - use anchor tag with href and target attribute. 
+    14. What is the alt attribute in the image tag used for? 
+        - gives alternate name to the image.
+    15. How do I reference an id?
+        - syntax for id = #
+    16. What is the difference between a section and a div
+        - section tags group content inside. div has no special meaning. 
+    17. What is CSS used for? 
+        - CSS is used to style HTML document. 
+    18. How to we select an element? Example - every h2 on the page
+        - h2{
+            color: blue;
+        }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        - class applies style to multiple elements. ID selector only lets you style single element on webpage. 
+        class selector can be used to style multple paragraphs; id = menu, header
+    20. How do we select classes in CSS?
+        -with a .
+    21. How do we select a p element with a single class of “human””?
+        - .human p
+    22. What is a parent child selector? When would this be useful? 
+        -  child selector selects all elements that are children of specified element. parent nests the child. used when specific child element needs to be edited. 
+    23. How do you select all links within a div with the class of sidebar?
+        - .sidebar a
+    24. What is a pseudo selector?
+        - keyword added to selector that lets you style a specific part of selected elements. ex(:hover)
+    25. What do we use the change the spacing between lines?
+        - line-height
+    26. What do we use to change the spacing between letters?
+        - letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        - text-transform
+    28. How do I add a 1px border around my div that is dotted and black?
+        - border: 1px dotted black;
+    29. How do I select everything on the page? 
+        - *{
+
+        }
+    30. How do I write a comment in CSS?
+        -/* */
+    31. How do I find out what file I am in, when I am using the command line? 
+        - pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        - ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        - git rm filename. You cannot get the file back once it's been removed. 
+    34. Why should I use version control? 
+        - version control keep track of changes made, allows us to test/experiment, and generate backups. especially important when multiple developers are collectively 
+            working together. 
+    35. How often should I commit to github?
+        -whenever you finish a step
+    36. What is the command we would use to push our repo up to github? 
+        - git push -u origin 
+    37. Walk me through Lambda's git flow. 
+        1. Fork
+        2. Clone
+        3. use CD command to go into folder where I will be working on my forked repo
+        4. use git clone command 
+        5. cd into newly created repo
+        6. git checkout -b "rachael-kim" to create my own branch. 
+        7. work on the file/ save on vs code
+        8. git add . to add the changes made
+        9. git commit -m"my message" to commit the changes with msg that explains what changes were made. 
+        10.git push -u origin branch-name to push changes. 
+        11. go back to github.com to submit pull request. (pull request from my branch)
 Stretch Review questions: 
     1. What is the difference between an inline element and a block element?
         -block element takes full width available and inline element only takes up only the width needed.
