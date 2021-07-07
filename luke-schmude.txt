@@ -35,3 +35,6 @@
     35. How often should I commit to github? every 20 minutes
     36. What is the command we would use to push our repo up to github? git push -u origin firstname-lastname
     37. Walk me through Lambda's git flow. 1. Fork Repo. 2 git clone url. 3. cd into folder 4. code. 5. git checkout -b first-last. 6. git add . .7. git commit -m "message". 8. git push -u origin first-last. 9. Create pull request
+
+
+codepn link: https://codepen.io/Remish/pen/eYWZzNR?editors=1100
