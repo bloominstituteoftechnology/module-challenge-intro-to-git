@@ -1,0 +1,171 @@
+1. What is Semantic HTML? 
+     Semantic HTML is more clear/recognizable/informative for browser/search engines/developer.
+    2. What is HTML used for? 
+        - HTML used for front end (Web development, internet navigation, web documentation).
+
+    3. What is an attribute and where do we put it?
+        - HTML attributes are opening tags, it consists of name/value.    
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	- H1 most important header.  It used only one per page.
+        
+    5. Name two tags that have required attributes?
+        -  <input>; <select>
+
+
+    6. What do we put in the head of our HTML document? 
+        - <h1> / <head>
+
+    7. What is an id? 
+        - id identifies one element
+
+    8. What elements can I add an id to?
+        - any
+
+    9. How many times can I use the same id on a page? 
+        - only one per page
+
+    10. What is a class? 
+	- It used to point to a class name
+
+    11. What elements can I add a class to? 
+	- Any.
+
+    12. How many times can I use the same class on a page? 
+	- Many time.
+
+    13. How do I get my link to open in a new tab?
+	- add "_blank" attribute.
+
+    14. What is the alt attribute in the image tag used for? 
+	- if image is not available to open, text describes this image.
+
+    15. How do I reference an id?
+ 	- hash character (#) + id name.
+
+    16. What is the difference between a section and a div
+	- <section> means that the content inside is grouped and provides more semantic syntax vs <div> has no special meaning and 
+	used as a block of children elements. 
+
+    17. What is CSS used for? 
+	- Cascading Style Sheet, used to style and layout to web page with HTML.
+
+    18. How to we select an element? Example - every h2 on the page
+	- h2{
+	}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	- ID selector used to define one HTML element, extremely powerful and unique. class can contain more than one type of HTML element and reusable.
+	- #idname{
+	style properties
+	}
+	- <div class = "foo"> This is one element in a class </div>
+	  <div class = "foo"> This is another element in the same class! </div>
+
+    20. How do we select classes in CSS?
+	- .class{
+	}
+
+    21. How do we select a p element with a single class of “human””?
+	- p.human{
+	}
+
+    22. What is a parent child selector? When would this be useful?
+ 	- The parent > child selector is used to select all elements that are a direct child (nested elements) of the specified element.
+
+    23. How do you select all links within a div with the class of sidebar?
+	- .sidebar{
+	}
+
+    24. What is a pseudo selector?
+	-keyword added to a selector that specifies a special state of the selected element(s). For example: ':hover {}' - Selects any element that the mouse
+	 is hovering over.
+
+    25. What do we use the change the spacing between lines?
+	- line-height property increases or decreases the spacing between lines.
+
+    26. What do we use to change the spacing between letters?
+	- letter-spacing property increases or decreases the space between characters in a text.
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	- text-transform: uppercase/lowercase/capitalized. 
+
+    28. How do I add a 1px border around my div that is dotted and black?
+	- border-width:1px;
+	- border-style: dotted;
+	- border color: black;
+	or border: 1px black dotted;
+	 
+    29. How do I select everything on the page?
+	-  * {
+	  }
+
+    30. How do I write a comment in CSS?
+	- /* comment */
+    
+    31. How do I find out what file I am in, when I am using the command line? 
+	- $ pwd (print working directory)
+	
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	- $ ls (list)
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	- $ rm (remove) filename.ext      
+	- rm VS ~r(recursive) can remove ALL files without prompt 
+
+    34. Why should I use version control? 
+	- Version control is important to keep track of changes — and keep every team member working off the latest version.
+	give an option to go back and restore working code.
+
+    35. How often should I commit to github?
+ 	- whenever a step is finished.
+
+    36. What is the command we would use to push our repo up to github? 
+	- $ git push
+
+    37. Walk me through Lambda's git flow. 
+	- (1) Create your own version of a Repo (fork).
+	- (2) check name is in front of the repository name before the '/' if forking is successful in GitHub.
+        - (3) Clone your Repo using the 'Clone or download' button in GitHub. Clone with HTTPS.
+        - (4) Inside CLI, use the cd command to go to the directory where you are going to want to clone your forked Repo.
+        - (5) Use the git clone command to clone the repo to the directory you are currently in.
+        - (6) use cd command to navigate into your newly created repo.
+        - (7) Use the git checkout -b 'firstname-lastname' command to create your own branch name for the repo.
+        - (8) work on your repo and start getting the project assignment done.
+        - (9) git add . command will add the repo changes and make them ready for committing
+	      git commit -m "Your helpful commit message here" will commit the changes with your specified commit message.
+        - (10) git push -u origin branch-name will push all of your commits from your local machine up onto github.
+	       Remember that branch-name here will be whatever name you specified when you did git checkout -b.
+        - (11) Submit a pull request (PR).
+	- (12) Go back to your forked Project repo on github:
+			(a) Click on the Branch:master button on the left side;
+			(b) Click your name-branch and then click the New pull request button to make a pull request on your name branch;
+			(c) After you click new pull request it should redirect you to the pull request page;
+			(d) When you get to the PR page, make sure to click the dropdown button that says base repository and CHANGE it to 
+			be your FORKED REPO instead of the original Lambda repo (when submitting PR it will default to the original Repo 
+			this is why it needs to be changed.
+			(e) Click Create Pull Request.
+
+						~Stretch~
+
+       1. What is the difference between an inline element and a block element?
+	- A block-level element always starts on a new line, always takes up the full width available, has a top and a bottom margin, 
+	whereas an inline element does not. An inline element does not start on a new line, only takes up as much width as necessary.
+        
+       2. What happens when an element is positioned absolutely?
+	- An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative 
+	to the viewport, like fixed). However; if an absolute positioned element has no positioned ancestors, it uses the document body, 
+	and moves along with page scrolling.
+       
+       3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+	- set an element to "inline-block" it will allows to set a width and height which will be respected.
+
+       4. Name 3 elements that are display block by default, 2 elements that are display inline by default, and 1 element that is display inline-block by default
+	-  elements that are display block by default:  <h1-h6>, <adress>, <div>;  inline by default <span>, <img> ; inline-block by default: <button>
+
+       5. In your own words, explain the box model. What is the fix for the box model? 
+	- I understand it as exactly mailbox: mailbox cover: Margine, cardboard mailbox (itself): Border; bubble wrap: padding; iteam (shipped): content.
+	- fix for the box model: current versions of all browsers use the original “width or height + padding + border = actual width or height” box model.
+
+
+
