@@ -1,0 +1,243 @@
+COMPLETED CODEPEN LINK: 
+
+https://codepen.io/anastasia-lapteva/pen/PomNPvG?editors=1100
+
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+
+        Semantics is defined as the study of meanings. 
+        It makes sense then that semantic HTML is code that introduces meaning to the web page, rather than just presentation. 
+        During lecture, Dave mentioned that semantic HTML is useful for bots to categorize data from your webpage. 
+        If you utilize more semantic HTML, search engine bots will better understand your website. 
+        Search engines' algorithms prioritize displaying webpages with more semantic HTML because the bots are able to categorize more information. 
+        A semantic element clearly describes its meaning to both the browser and the developer.
+
+    2. What is HTML used for?
+
+        HTML is the language for describing the structure of web pages.
+
+    3. What is an attribute and where do we put it?
+        
+        An HTML attribute provides additional information about elements. 
+        Attributes are always specified in the start tag. 
+        Attributes usually come in name/ value pairs like name="value".
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+
+        The h1 tag indicates a heading on a website. The h1 tag is considered the most important, essentially the page title. 
+        It is an important ranking factor and is referred to by search engine bots to figure out what the page is about. 
+        The h1 tag usually displays larger on screens (but this is not a requirement).
+
+    5. Name two tags that have required attributes.
+
+        The following are tags that require attributes: <input>, <select>, and <textarea>.
+
+    6. What do we put in the head of our HTML document?
+
+        The <head> element is a container for metadata (data about data). 
+        Metadata typically define the document title, character set, styles, scripts, and other meta information. 
+        The following are examples of elements that can go inside of the <head> element: <title>, <style>, <base>, <link>, <meta>, <script>, <noscript>.
+
+    7. What is an id?
+
+        An id is a global attribute that specifies a unique id for an element. 
+        (Global attributes are attributes that can be used with all HTML elements.) 
+        The id value must be unique within the HTML document. 
+        The id must contain at least one character. 
+        The id must not contain any space characters. 
+        The id cannot start with a number. 
+        The id attribute is most used to point to a style in a sheet style and by JavaScript to manipulate the element with the specific id.
+
+    8. What elements can I add an id to?
+
+        You can add an id to any HTML element, as long as the id meets all requirements: 
+        the id value must be unique within the HTML document, 
+        the id must contain at least one character, 
+        the id must not contain any space characters, 
+        and the id cannot start with a number.
+
+    9. How many times can I use the same id on a page?
+
+        An id name must only be used by one HTML element within the page.
+
+    10. What is a class?
+
+        The HTML class attrinute is used to specify a class for an HTML element. The class name is case sensitive. A class name can be used by multiple HTML elements.
+
+    11. What elements can I add a class to?
+
+        You can add a class to any HTML element. 
+
+    12. How many times can I use the same class on a page?
+
+        Multiple HTML elements can share the same class.
+
+    13. How do I get my link to open in a new tab?
+
+        To open a link in a new tab, you should set the <target> attribute to "_blank>. Example of syntax: <a href="#" target="_blank"></a>
+
+    14. What is the alt attribute in the image tag used for?
+    
+        The alt attribute is required for the <img> tag. 
+        The alt attribute specifies an alternate text for an image, if for some reason the image cannot be displayed (or if the user uses a screen reader).
+
+    15. How do I reference an id?
+
+        You reference an id in CSS by: writing a hash character (#) followed by an id name. Then you define the CSS properties within curly braces {}. 
+        JavaScript can also access an element with a specific id with the getElementByID() method.
+
+    16. What is the difference between a section and a div?
+
+        The <section> element defines a section in a document.
+        The <div> tag defines a division or section in an HTML document. 
+        The <div> tag is used as a container for HTML elements. This container can then be styled with CSS or manipulated by JavaScript.
+
+    17. What is CSS used for?
+
+        CSS is the language used to style an HTML document. CSS describes how HTML elements should be displayed.
+
+    18. How to we select an element? Example - every h2 on the page
+
+        CSS selectors are used to "find" (or select) the HTML elements you want to style. 
+        CSS selectors are divided into 5 categories: (1) simple selectors, (2) combinator selectors, (3) pseudo-class selectors, (4) pseudo-element selectors, and (5) attribute selectors.
+        To select every h2 on the page, you would use a simple selector. Syntax for selecting every <h2> element is h2{}. The CSS properties should be defined within the curly braces.
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+        The difference between an id and class attribute is that "id" is unique in a page and can only apply to at most one element. 
+        On the other hand, a class selector can apply to multiple elements.
+        id example: <h1 id="greeting">Hello World!</h1>
+        class example: <h2 class="daysOfTheWeek">Monday</h2>,<h2 class="daysOfTheWeek">Tuesday</h2>, <h2 class="daysOfTheWeek">Wednesday</h2>, etc.
+
+    20. How do we select classes in CSS?
+
+        To select elements with a specific class, write a period (.) character, followed by the class name, followed by curly braces {}. 
+        The CSS properties should be defined within the curly braces.
+
+    21. How do we select a p element with a single class of “human”?
+
+        To select a p element with a single class of human you would write: p.human{}
+
+    22. What is a parent child selector? When would this be useful?
+
+        The parent child selector selects all elements that are a direct child of the specified element. 
+        This would be useful if you want to apply the same property to all nested elements (children) of the same specified element (parent).
+
+    23. How do you select all links within a div with the class of sidebar?
+
+        To select all links within a div with the class of sidebar you would write: .sidebar {}
+
+    24. What is a pseudo selector?
+
+        A pseudo-class is a selector that selects elements that are in a specific state. For example, they are being hovered over by the mouse pointer.
+
+    25. What do we use the change the spacing between lines?
+
+        You should use the line-height property to specify the height of a line. Negative values are not allowed.
+
+    26. What do we use to change the spacing between letters?
+
+        You should use the letter-spacing property to increase or decrease the space between characters in a text.
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+        You may use CSS text-transform propery to control the capitalization of text. Examples of text-transform values include: uppercase, lowercase, and capitalize.
+
+    28. How do I add a 1px border around my div that is dotted and black?
+
+        border: dotted black 1px;
+
+    29. How do I select everything on the page?
+
+        The universal selector (*) selects all HTML elements on the page. Syntax: * {}
+
+    30. How do I write a comment in CSS?
+
+        A CSS comment is placed inside the <style> element and starts with /* and ends with */
+        Example: /* This is a single-line comment */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+
+        To list the directory you are in, you may use the pwd (print working directory) command.
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+        To see a list of files/ folders in your current folder, you may use the ls (list) command.
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+
+        To remove a file via the command line, you may use the rm (remove) command. 
+        You should be careful when using rm, rmdir (remove directory), and rm -r (recursive) commands because you won't be prompted before deleting the file. 
+        You could easily lose important work.
+
+    34. Why should I use version control?
+
+        A version control system has several benefits. 
+        VCS allos many developers to add content in parallel. 
+        VCS systems maintain a history of what changes have happened. 
+        This is important because if someone messes up the code, it can be restored to a previous point through the maintained history.
+
+    35. How often should I commit to github?
+
+        You should commit your work regularly. 
+        The commit command is used to save your changes to the local repository. 
+        Each commit will store the changes that have occured since the last commit. 
+        This allows us to save our repository often so we don't lose work. 
+        It also allows us to go see the old versions of files in our project and be able to restore back to a specific commit.
+
+    36. What is the command we would use to push our repo up to github?
+
+        The git push command is used to upload to a remote repository. Syntax: git push -u origin branch-name
+
+    37. Walk me through Lambda's git flow.
+        (1) Create your own version of a repository (fork)
+        (2) Double check that your name is in front of the repository name before the '/' if forking is successful in GitHub
+        (3) Clone your repository by using the 'Clone or download' button in GitHub. Make sure to copy HTTPS.
+        (4) Inside of the command-line interface (CLI) Git Bash, navigate to the directory where you want to clone your forked repository
+        (5) Use the git clone command to save your forked repository on your computer
+        (6) Use the change directory command (cd) to navigate into your newly created repository
+        (7) Use the git checkout -b branch-name command to create your own branch name for the repository
+        (8) Work inside of your newly created repository branch
+        (9) Use git add . command to add changes on your branch. Use git comment -m "message" to commit the changes with your specified message
+        (10) Use git push -u origin branch-name to push all of your commits from your local machine up into GitHub
+        (11) Submit a pull request (PR)
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+
+        Block and inline are two display values for HTML elements. 
+        A block-level element always starts on a new line. An inline element does not start on a new line.
+        A block-level element always takes up the full width available (stretches out to the left and right as far as it can). An inline element only takes up as much width as necessary.
+        A block level element has a top and a bottom margin, whereas an inline element does not. 
+
+    2. What happens when an element is positioned absolutely? 
+
+        An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport**).
+        **Being positioned relative to the viewport would mean that the element always stays int eh same place even if the page is scrolled.
+        However, if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+
+        You make an element take up only the amount of space it needs but also have the ability to give it a width by utilizing the box model and assigning a width.
+
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default.
+
+        Examples of default block-level elements: <address>, <div>, and <footer>.
+        Examples of default inline elements: <a> and <img>.
+
+        Inline-block elelments are similar to inline elements, except they can have padding and margins added on all four sides.
+        An example of a default inline-block element: <button>.
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+
+        I understood the box model to be a comparison of any HTML element to a literal box.
+        When you receive a package (cardboard box) in the main, it comes with lots of stuff inside (your purchase and the packing material).
+        The box model compares you code to this literal box to help visualize how the different parts of your code relate to one another.
+
+        There is a formula to calculate the total width of the box/ element. 
+        Formula: Total element width = width + left padding + right padding + left border + right border + left margin + right margin
