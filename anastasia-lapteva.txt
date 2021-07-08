@@ -66,7 +66,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
 
     10. What is a class?
 
-        The HTML class attrinute is used to specify a class for an HTML element. The class name is case sensitive. A class name can be used by multiple HTML elements.
+        The HTML class attribute is used to specify a class for an HTML element. The class name is case sensitive. A class name can be used by multiple HTML elements.
 
     11. What elements can I add a class to?
 
@@ -78,7 +78,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
 
     13. How do I get my link to open in a new tab?
 
-        To open a link in a new tab, you should set the <target> attribute to "_blank>. Example of syntax: <a href="#" target="_blank"></a>
+        To open a link in a new tab, you should set the <target> attribute to "_blank". Example of syntax: <a href="#" target="_blank"></a>
 
     14. What is the alt attribute in the image tag used for?
     
@@ -218,7 +218,7 @@ Stretch Questions
     2. What happens when an element is positioned absolutely? 
 
         An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport**).
-        **Being positioned relative to the viewport would mean that the element always stays int eh same place even if the page is scrolled.
+        **Being positioned relative to the viewport would mean that the element always stays in the same place even if the page is scrolled.
         However, if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
@@ -236,8 +236,8 @@ Stretch Questions
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
 
         I understood the box model to be a comparison of any HTML element to a literal box.
-        When you receive a package (cardboard box) in the main, it comes with lots of stuff inside (your purchase and the packing material).
-        The box model compares you code to this literal box to help visualize how the different parts of your code relate to one another.
+        When you receive a package (cardboard box) in the mail, it comes with lots of stuff inside (your purchase and the packing material).
+        The box model compares your code to this literal box to help visualize how the different parts of your code relate to one another.
 
         There is a formula to calculate the total width of the box/ element. 
         Formula: Total element width = width + left padding + right padding + left border + right border + left margin + right margin
