@@ -1,3 +1,13 @@
 .btn {
     font-variant-caps: all-small-caps;
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    font: 1.2em "Fira Sans", sans-serif;
+}
+
+h1 {
+    color: darkblue;
 }
