@@ -1,5 +1,6 @@
 Link to finish codepen: https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
 
+https://codepen.io/aceydoppa/pen/oNWMVdN?editors=1100
 
   1. What is Semantic HTML? 
   Correct and consice HTML for proper orginization of our webpage
