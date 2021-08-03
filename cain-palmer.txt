@@ -116,4 +116,3 @@ An ID is a unique identifier that identifies an element when linking, scripting,
     37. Walk me through Lambda's git flow. 
     First, fork the code. Second, clone the code. Third, use 'cd' to find the directory you want to fork to. Forth, use 'git clone ___link___' to clone into the directory. Fifth, use 'cd' to enter the new directory. Sixth, use 'git checkout -b __first-last__' to create a branch. Seventh, work on your branch. Eighth, save changes with 'git add .' and remember to save often. Ninth, push the code back to GitHub using 'git push -u origin __branch-name__' and you are done.
 
-    done.
