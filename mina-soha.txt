@@ -77,7 +77,7 @@ Semantic HTML is used to reinforce the information in webpages.
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
     git rm
     34. Why should I use version control? 
-
+    Because it is important to keep track of changes while working with others on the same project. 
     35. How often should I commit to github?
     every 20 minutes
     36. What is the command we would use to push our repo up to github? 
@@ -87,7 +87,12 @@ Semantic HTML is used to reinforce the information in webpages.
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    A block element starts on a new line and takes the full width available. An inline element only display in a line.
     2. What happens when an element is positioned absolutely? 
+    it sits on its own layer separate from everything else.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    by default: <address><article><div> || inline: <button><input> || <ul>
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+    A series of boxes surrounds each HTML element such as the border, padding, margin, etc... , then you place HTML elements inside other HTML elements like a grid to build up a webpage. This is the box model. The fix is box-sizing:border-box.
