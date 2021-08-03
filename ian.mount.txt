@@ -1,6 +1,4 @@
-- Questions to Submit in today's file first-lastname.txt --> 
-<!--
-Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+   --> https://codepen.io/iansogotthis/pen/PomBxgj
 
     1. What is Semantic HTML? 
     HTML code that has a function that can be understood by anyone reading it, simply by reading it.
@@ -47,7 +45,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
 
     15. How do I reference an id?
     #NameofId
-    
+
     16. What is the difference between a section and a div
     section thematically applies any modifications to everything within itself
     class only calls on the specific elements outlined within the class itself
@@ -164,4 +162,3 @@ Stretch Questions
     compatability with backend needs or the capabilities of the browser itself
 
 
-   --> https://codepen.io/iansogotthis/pen/PomBxgj
