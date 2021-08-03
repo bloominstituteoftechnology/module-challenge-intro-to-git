@@ -62,11 +62,12 @@ Link to finish codepen: https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
      "." followed by the name of the class
 
     21. How do we select a p element with a single class of “human””?
-      .p 
+      .human p{
+
+      }
 
     22. What is a parent child selector? When would this be useful?
-      <main>
-          <section>
+      selects all elements that are direct childs of a specific element 
 
     23. How do you select all links within a div with the class of sidebar?
         Descendant selector
@@ -82,7 +83,9 @@ Link to finish codepen: https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
          letter-spacing property
 
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
-         all-uppercase 
+         all-uppercase:
+         text-transform:capitalize;
+
 
     28. How do I add a 1px border around my div that is dotted and black?
           .div{
