@@ -82,7 +82,20 @@ Semantic HTML is used to reinforce the information in webpages.
     every 20 minutes
     36. What is the command we would use to push our repo up to github? 
     git push -u origin firstname-lastname
-    37. Walk me through Lambda's git flow. 
+    37. Walk me through Lambda's git flow.
+    Create YOUR OWN version of Repo(fork)
+    Your name should now be in front of the repo name before the slash '/' if forking is successful
+    Clone your Repo using githubs 'Clone or download' button
+    Back inside your CLI, use the cd command to go to the directory where you are going to want to clone your forked Repo (i.e. The location where the repo should be saved on your computer)
+    Use the git clone <link-to-repo> command to clone the repo to the directory you are currently in.
+    cd into the newly created repo using the cd <repo-name> command
+    Use the git checkout -b 'firstname-lastname' command to create your own branch name for the repo (this is the branch that you will be doing your work on)
+    Now you can work on your repo and start getting the project assignment done.
+    add, commit, push 
+    Now that the changes are on github you can submit a PR (Pull Request)
+    Go back to your forked Project repo on github (make sure you are on YOUR FORKED copy NOT the original Lambda one)
+    Click Create Pull Request
+   
 
 Stretch Questions
 
@@ -91,7 +104,7 @@ Stretch Questions
     2. What happens when an element is positioned absolutely? 
     it sits on its own layer separate from everything else.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-
+    give it display:flex;
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     by default: <address><article><div> || inline: <button><input> || <ul>
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
