@@ -1,4 +1,4 @@
-linked to finished codepen: https://codepen.io/minasoha/pen/LYyBXME?editors=1000
+linked to finished codepen: https://codepen.io/minasoha/pen/LYyBXME?editors=1100
 
 1. What is Semantic HTML? 
     2. What is HTML used for? 
