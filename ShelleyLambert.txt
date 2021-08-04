@@ -1,0 +1,96 @@
+ 1. What is Semantic HTML?
+      A form of HTML formating that is universally understood
+    2. What is HTML used for? 
+      To format the webpage
+    3. What is an attribute and where do we put it? 
+        an attribute usually turns into a clickable link or its a picture or little ascent to the page
+    4. What is the h1 tag used for? How many times should I use it on a page? 
+         h1 tag is the first header on the page, it should only be used once 
+    5. Name two tags that have required attributes
+         scr and href
+    6. What do we put in the head of our HTML document? 
+            <!DOCTYPE html>
+                   <html>
+    7. What is an id? 
+        a specific element of the HTML code
+    8. What elements can I add an id to? 
+       specific ones 
+    9. How many times can I use the same id on a page? 
+         once
+    10. What is a class? 
+       a group of elements like every <p></p>
+    11. What elements can I add a class to? 
+       things like body, paragraph, section, etc tags
+    12. How many times can I use the same class on a page? 
+       multiple
+    13. How do I get my link to open in a new tab?
+             adding the target="_blank"
+    14. What is the alt attribute in the image tag used for? 
+          incase the first attribute fails
+    15. How do I reference an id?
+      .id
+    16. What is the difference between a section and a div?
+             a section usually has a specific name, div is used to divide sections
+    17. What is CSS used for? 
+       to decorate the page, if you will
+    18. How to we select an element? Example - every h2 on the page
+      h2
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+      if i needed every <p> to be blue I would use #p if I needed a specific class to be blue I would use .class
+    20. How do we select classes in CSS?
+       with a dot
+    21. How do we select a p element with a single class of “human””?
+            .human
+    22. What is a parent child selector? When would this be useful? 
+       parent>child selects all elemenets that are a direct child of the specified element. it would be useful if you need to put a font or design on the entire child element
+            
+    23. How do you select all links within a div with the class of sidebar?
+            :link
+    24. What is a pseudo selector?
+           a selector that selects elemenets that are in a specific state
+    25. What do we use the change the spacing between lines?
+              the line hieght property
+    26. What do we use to change the spacing between letters?
+           letter-spacing:
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+            text-transform property
+    28. How do I add a 1px border around my div that is dotted and black?
+          p{
+                width: 300px;
+                 height: 100px;
+                 border-style: dotted;
+                 border-color: black;
+                         }
+    29. How do I select everything on the page? 
+       *
+    30. How do I write a comment in CSS?
+      /* */
+    31. How do I find out what file I am in, when I am using the command line? 
+          press the arrow up key
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        dir list
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+             CMD Del its permenant 
+    34. Why should I use version control? 
+           better control
+    35. How often should I commit to github?
+        whenever you finish a step
+    36. What is the command we would use to push our repo up to github? 
+         the git push command
+    37. Walk me through Lambda's git flow. 
+       I still dont undertand at the moment
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+       block elements adhere to all spaces where inline only acknowledge left and right
+    2. What happens when an element is positioned absolutely? 
+        It is stuck. When you scroll it is still where it was stuck
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+         make it a flex box
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default?
+      height width and space
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+       the box model allows you to design chunks of your html. The flex box can fix some of the box model henderances.
+
+https://codepen.io/Marswill1/pen/MWmqpQM
