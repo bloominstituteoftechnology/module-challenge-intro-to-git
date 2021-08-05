@@ -1,0 +1,220 @@
+finished codepen: https://codepen.io/Michael-Kidby/pen/zYwLXPG
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+ 1. What is Semantic HTML? 
+
+    Semantic HTML is used to give a page's structure    another layer of meaning
+
+ 2. What is HTML used for? 
+
+  HTML gives a webpage structure
+
+ 3. What is an attribute and where do we put it? 
+
+  attributes give style, links, text and more to an     element
+  <img class="attribute_class" src="#"                alt="attribute">
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+
+    its is the title tag that should only be used once
+
+5. Name two tags that have required attributes
+
+  img and input
+  
+6. What do we put in the head of our HTML document? 
+
+  We put our meta data in the head.
+
+7. What is an id? 
+
+   identifier, an attribute that allows styling and      scripting for    a unique element on the page.
+
+8. What elements can I add an id to? 
+
+  All elements.
+
+9. How many times can I use the same id on a page? 
+
+  One, each id is unique.
+
+10. What is a class? 
+
+  A class is an attribute that identifies and           seperates an element so it can be selected for       styling.
+
+11. What elements can I add a class to? 
+
+  All elements.
+
+12. How many times can I use the same class on a page? 
+
+  No limit
+
+13. How do I get my link to open in a new tab?
+
+  <a href="#" target="_blank">Link</a>
+
+14. What is the alt attribute in the image tag used for? 
+
+  alternative text is used for accesibility so that     when the image does not load text will take it's       place
+
+15. How do I reference an id?
+
+  #id {
+    color: blue;
+  }  
+    
+16. What is the difference between a section and a div
+
+  section semantically seperates items while a div is   just a seperation
+
+ 17. What is CSS used for? 
+      
+    Styling the page.
+
+18. How to we select an element? Example - every h2 on the page
+
+  h2{
+
+    }
+
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+An id is a more specific attribute that is used 
+
+  The only difference in html and css is that you can   only use unique ids on every element but can use      the same class on every element. Browsers will        idnetify the ID with https://lambdaschool.com#id.    JS can select elements by ID.
+
+20. How do we select classes in CSS?
+
+  #class{
+
+  }
+
+21. How do we select a p element with a single class of “human””?
+
+  .human p{
+
+  }
+
+22. What is a parent child selector? When would this be useful? 
+
+  It is how we select a child element inside another element, the parent.
+
+  parent child {
+
+  }
+23. How do you select all links within a div with the class of sidebar?
+
+  .sidebar div{
+
+  }
+
+24. What is a pseudo selector?
+
+  It targets an element in a specific state.
+
+25. What do we use the change the spacing between lines?
+
+  element{
+    line-spacing:2;
+  }
+
+26. What do we use to change the spacing between letters?
+
+  element{
+      leter-spacing:2;
+    }
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+  element p{
+      text-transform: lowercase;
+    }
+
+  element h1{
+      text-transform: uppercase;
+    }
+
+  element{
+        text-transform: capitalize;
+     }
+
+
+28. How do I add a 1px border around my div that is dotted and black?
+
+   div{
+   border: 1px dotted black;
+    }
+
+ 29. How do I select everything on the page? 
+  
+  The global selector
+  
+  *{
+  
+  }
+
+ 30. How do I write a comment in CSS?
+
+  /* */ 
+
+31. How do I find out what file I am in, when I am using the command line? 
+
+  pwd
+  
+32. Using the command line - how do I see a list of files/folders in my current folder?
+
+  ls
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+  There is no trash or recycle bin when we use          command line. When he hit delete it deletes.
+
+  rm -i filename
+
+ 34. Why should I use version control? 
+
+  To be able to track how a team works on a project      and to provide back up on every version of code
+
+ 35. How often should I commit to github?
+
+  A good rule of thumb is about every 20 minutes
+
+36. What is the command we would use to push our repo up to github? 
+
+  git push -i origin michael-kidby
+
+37. Walk me through Lambda's git flow. 
+
+
+  first commit and pull
+  
+  fork the repo
+  git clone <link to repo>
+  cd reponame
+  git checkout -b 'firstname-lastname'
+  git add .
+  git commit -m 'message specific'
+  git push -u origin branch-name
+  Pull request 
+
+  normal commit
+  
+  git add .
+  git commit -m 'message specific'
+  git push -u origin branch-name
+
+Stretch Questions
+
+1. What is the difference between an inline element and a block element?
+
+  inline elements do not break the line where as a      block element would such as <a></a> being inline      and <div></div> is block
+
+ 2. What happens when an element is positioned absolutely? 
+  
+  seperates it from everything else and is positon on   its own
+
+  -->
