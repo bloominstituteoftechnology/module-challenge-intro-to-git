@@ -2,6 +2,7 @@ https://codepen.io/grichards/pen/jOwORGa?editors=1100
 
 Questions & Answers
 
+.........................................
 1. What is Semantic HTML? 
 Answer: elements with a meaning.
 
