@@ -1,0 +1,98 @@
+https://codepen.io/andrejohnson513/pen/oNWyXEO?editors=1100
+
+    1. What is Semantic HTML?
+	semantic html are tags with no meaning
+    2. What is HTML used for?
+	it is used to build web pages
+    3. What is an attribute and where do we put it?
+	an attribute adds functionality to a element
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	h1 sets the font weight of text automatedly
+    5. Name two tags that have required attributes
+	a tag and the img tag
+    6. What do we put in the head of our HTML document?
+	all the tags the we don't want the user to see
+    7. What is an id?
+	it is a unique reference attribute
+    8. What elements can I add an id to?
+	any
+    9. How many times can I use the same id on a page?
+	is many as you need to but you try for just once
+    10. What is a class?
+	it is a group reference attribute
+    11. What elements can I add a class to?
+	all
+    12. How many times can I use the same class on a page?
+	unlimited
+    13. How do I get my link to open in a new tab?
+	use target="_blank"
+    14. What is the alt attribute in the image tag used for?
+	for when the image cant be displayed
+    15. How do I reference an id?
+	use the #
+    16. What is the difference between a section and a div
+	section is just more descriptive
+    17. What is CSS used for?
+	to style the webpage
+    18. How to we select an element? Example - every h2 on the page
+	h2{
+	}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	use id for one thing and class for multiple things
+    20. How do we select classes in CSS?
+	use the dot operator
+    21. How do we select a p element with a single class of “human””?
+	.human
+    22. What is a parent child selector? When would this be useful?
+	parent{
+	child
+	}
+    23. How do you select all links within a div with the class of sidebar?
+	.sidebar a{
+	}
+    24. What is a pseudo selector?
+	it is this symbol :
+    25. What do we use the change the spacing between lines?
+	line-height
+    26. What do we use to change the spacing between letters?
+	letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	text-transform /capitalize and lowercase
+    28. How do I add a 1px border around my div that is dotted and black?
+	div{border:dotted 1px black;}
+    29. How do I select everything on the page?
+	*
+    30. How do I write a comment in CSS?
+	/**/
+    31. How do I find out what file I am in, when I am using the command line?
+	pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+	del filename because it wont ask for confirmation
+    34. Why should I use version control?
+	so you don't lose any of your work do to mishaps
+    35. How often should I commit to github?
+	after you test your code
+    36. What is the command we would use to push our repo up to github?
+	git push -u origin "commint"
+    37. Walk me through Lambda's git flow.
+
+
+
+Create a new repository on GitHub.
+Open Git Bash.
+Change the current working directory to your local project.
+Initialize the local directory as a Git repository.
+Add the files in your new local repository.
+Commit the files that you've staged in your local repository.
+8:29
+  7.Push the changes in your local repository to GitHub.
+Stretch Questions
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely?
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+Jot something down
+Profile
