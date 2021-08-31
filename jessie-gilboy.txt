@@ -1,4 +1,4 @@
-Link to finished codepen: https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
+Link to finished codepen:https://codepen.io/jessiegilboy/pen/jOwqbEz?editors=1100 
 
     1. What is Semantic HTML? 
         an element that clearly describes it's meaning
