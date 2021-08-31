@@ -123,10 +123,22 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        A block-level element always starts on a new line, inline doesn't,
+        A block-level element always takes up the full width available, inlin element takes only width necessary, A block level element has a top and a bottom margin, whereas an inline element does not.
+
     2. What happens when an element is positioned absolutely? 
+        it sits on ti's own layer.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    {
+        width: max-content;
+
+    }
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        block: <address>, <header>,<div>
+        inline: <span>, <a>
+        inline-block: button , input , select , and textarea
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        box model is a container which contains multiple properties including borders, margin, padding and the content itself.
 
 
 
