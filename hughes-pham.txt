@@ -67,7 +67,7 @@ Link to finished codepen: https://codepen.io/Aeliarz/pen/WNOwvdp?editors=1100
     32. Using the command line - how do I see a list of files/folders in my current folder?
   ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
-  git rn
+  git rm
     34. Why should I use version control? 
   To revert or use as reference an earlier version of a file 
     35. How often should I commit to github?
