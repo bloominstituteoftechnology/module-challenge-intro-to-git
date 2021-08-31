@@ -1,0 +1,105 @@
+
+    1. What is Semantic HTML?
+    It is HTML that gives meaning to our markup.
+    2. What is HTML used for? 
+    HTML is the skeleton of the website. It's where we tell the browser what text to display.
+    3. What is an attribute and where do we put it? 
+    Attributes are used to include information we don't want to render on the page. And we put it inside of the element.
+    4. What is the h1 tag used for? How many times should I use it on a page? 
+    h1 denotes the most important information on a web page. It should only be used ONCE.
+    5. Name two tags that have required attributes. 
+    <img> and <a>
+    6. What do we put in the head of our HTML document? 
+    It's a container for your meta data. As well as the link to your style sheet.
+    7. What is an id? 
+    id is an attribute selector that only appears once on the webpage
+    8. What elements can I add an id to? 
+    Any element will take an id
+    9. How many times can I use the same id on a page? 
+    Once. id's must be unique
+    10. What is a class? 
+    Class is an identifier that identifies single or multiple elements that appear more than once on the web page.
+    11. What elements can I add a class to? 
+    All HTML element can have a class
+    12. How many times can I use the same class on a page? 
+    As many times as you want.
+    13. How do I get my link to open in a new tab? 
+    target="_blank"
+    14. What is the alt attribute in the image tag used for? 
+    To describe the image in the event that the image does not load
+    15. How do I reference an id? 
+    You would use the "#" 
+    16. What is the difference between a section and a div 
+    A section is more of container of content while a div is used for styling. Section is semantic, div is not.
+    17. What is CSS used for? 
+    CSS is used for styling HTML
+    18. How do we select an element? Example - every h2 on the page 
+    h2 { 
+        property: value; 
+    }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one - 
+    An id is only used once to identify and HTML element, while classes can be used multiple times.
+    20. How do we select classes in CSS? 
+    You would use the "." 
+    21. How do we select a p element with a single class of "human"?
+    p .human {
+        property: value;
+    } 
+    22. What is a parent child selector? When would this be useful? 
+    This selector selects all elements that are a child of a specified element. It's useful when you want to edit multiple child elements at once.
+    23. How do you select all links within a div with the class of sidebar? 
+    div .sidebar { 
+        property: value; 
+    }
+    24. What is a pseudo selector? 
+    A keyword added to selectors for additional functionality (a:hover)
+    25. What do we use the change the spacing between lines?
+    line-height: 10px;
+    26. What do we use to change the spacing between letters?
+    letter-spacing: 10px;
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? 
+    text-transform: capitals, text-transform: lowercase; text-transform: capiltalize;
+    28. How do I add a 1px border around my div that is dotted and black? 
+    div {
+      border: 1px dotted black;
+    }
+    29. How do I select everything on the page?
+    "*" 
+    30. How do I write a comment in CSS? 
+    /*   */
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    git rm. You should be careful because this cannot be undone.
+    34. Why should I use version control? 
+    Version control maintains a history of changes made to the file. It also ensures that all team members are using the most up to date version.
+    35. How often should I commit to github?
+    Every 20 minutes
+    36. What is the command we would use to push our repo up to github?
+    git push -u branch-name 
+    37. Walk me through Lambda's git flow. 
+        1. Create your own version of the repo AKA "Fork"
+        2. Ensure that your own username appears in the title
+        3. Clone the repo
+        4. Inside the terminal or Gitbash, use the "cd" command to go to the folder where you want to clone to be
+        5. Use the "git-clone" command to clone the repo to the file you are now in
+        6. "cd" into the new repo using "cd repo-name"
+        7. Use "git-checkout -b 'branch-name'" to create your own branch name for the repo
+        8. Make your changes and do whatever work you need to
+        9. Use "git add ." when you're ready to commit the changes you've made
+        10. Use "git commit -m "Your changes described here" when you commit
+        11. You are now ready to push your changes back to your repo
+        12. Use "git push -u origin branch-name" to push all of the commits from your computer to github.
+        13. Go back to the forked project on github to submit your pull request
+        14. Click on the "Branch:master" button in github and select "New Pull Request"
+        15. Submit your pull request.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
