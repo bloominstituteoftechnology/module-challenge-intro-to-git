@@ -1,5 +1,5 @@
 
-    Codepen URL: 
+    Codepen URL: https://codepen.io/ryanghoward/pen/bGRpdOW?editors=1100
     
     1. What is Semantic HTML?
     It is HTML that gives meaning to our markup.
