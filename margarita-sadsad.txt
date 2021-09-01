@@ -43,7 +43,7 @@ Link to finished code pen: https://codepen.io/yoitszelle/pen/jOwqbgR?editors=110
     21. How do we select a p element with a single class of "human""?
         p.human
     22. What is a parent child selector? When would this be useful? 
-        A parent child selector selects all elements that are a direct child of the specified element. this would be useful when 
+        A parent child selector selects all elements that are a direct child of the specified element. 
     23. How do you select all links within a div with the class of sidebar?
         .sidebar div a
     24. What is a pseudo selector?
