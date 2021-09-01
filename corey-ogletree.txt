@@ -27,31 +27,64 @@ link to finished codepen https://codepen.io/cbogletree/pen/OJgNyym
     13. How do I get my link to open in a new tab?
         _blank
     14. What is the alt attribute in the image tag used for? 
-        
+        if the image broken  alt is a way to show in text and explain what it suppose to be.
     15. How do I reference an id?
+        #header{}
     16. What is the difference between a section and a div
+        The <section> tag creates independent sections within a webpage having logically connected content. And the <div> tag is an empty container specifying a division or a section.
     17. What is CSS used for? 
+        CSS affects processing priorities within the style sheet
     18. How to we select an element? Example - every h2 on the page
+        h2 {}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        id used only when a single HTML element on the web page must have a specific style. and class used when the same style must be applied to multiple HTML elements on the same web page.
+        id: <p id="blue">The second paragraph.</p>
+        class:  <h2 class="blue">This is some heading.</h2>
+                 <p>The second paragraph.</p>
+                <p class="blue">The third paragraph.</p>
     20. How do we select classes in CSS?
+        .class
     21. How do we select a p element with a single class of “human””?
+        .human p{}
     22. What is a parent child selector? When would this be useful? 
+        It would be useful for hover elements
     23. How do you select all links within a div with the class of sidebar?
+        <div>
+           <a href="#"> house </a>
+            apartments
+            mobile home
+         </div>
+        
     24. What is a pseudo selector?
+    define a special state of an element.
     25. What do we use the change the spacing between lines?
+        line-height
     26. What do we use to change the spacing between letters?
+        letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform
     28. How do I add a 1px border around my div that is dotted and black?
+        border: 1px dotted black;
     29. How do I select everything on the page? 
+        body
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+    /* comment */
+    31. How do I find out what file I am in, when I am using the command line?
+         see it on the command line directories
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        dir
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rmdir because it will be deleted 
     34. Why should I use version control? 
+        helps you keep track of code changes
     35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
-
+        Everytime you need to save and push codes
+    36. What is the command we would use to push our repo up to github?
+         git push
+    37. Walk me through Lambda's git flow.
+        Fork, clone, go to git bash, command where you want to put the clone   
+        make a new repo name as a command, use git checkout to branch it by using your full name, start assignment , add and commit changes
+        push your changes to github repo, fork the project, change your branch to your name,and pull request.
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
