@@ -1,4 +1,4 @@
-Link to finished codepen: https://codepen.io/BritHemming/full/jONmxOm 
+https://codepen.io/kplatona/pen/MWoywoE?editors=1100
 
 <!--1. fork this codepen so that you have a copy on your account -->
 <!--2. Add HTML and CSS to make the codepen look like the example: https://codepen.io/BritHemming/full/jONmxOm  - note that you can change the colours but everything else must look the same -->
