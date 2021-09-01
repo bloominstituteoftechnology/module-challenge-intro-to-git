@@ -15,7 +15,7 @@ Link to finished code pen: https://codepen.io/yoitszelle/pen/jOwqbgR?editors=110
     7. What is an id? 
         An id is an attribute that is unique to the whole document
     8. What elements can I add an id to? 
-        
+        It can be used on any element
     9. How many times can I use the same id on a page? 
         once
     10. What is a class? 
@@ -31,19 +31,19 @@ Link to finished code pen: https://codepen.io/yoitszelle/pen/jOwqbgR?editors=110
     15. How do I reference an id?
         #
     16. What is the difference between a section and a div
-        Section is 
+        Section puts all the content in a group together. Div is also grouping contents together but can be done in a section.
     17. What is CSS used for? 
-        CSS is used for styling a website
+        CSS is used for styling a website.
     18. How to we select an element? Example - every h2 on the page
         h2 {}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
-
+        id is used for single elements and can only be used once per page, example is <header>. a class can be used for multiple elements that appear on a page once or more <p>.
     20. How do we select classes in CSS?
         .
     21. How do we select a p element with a single class of "human""?
         p.human
     22. What is a parent child selector? When would this be useful? 
-
+        A parent child selector selects all elements that are a direct child of the specified element. this would be useful when 
     23. How do you select all links within a div with the class of sidebar?
         .sidebar div a
     24. What is a pseudo selector?
@@ -55,15 +55,27 @@ Link to finished code pen: https://codepen.io/yoitszelle/pen/jOwqbgR?editors=110
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
         text-transform: capitalize, text-transform: lowercase, text-transform: uppercase;
     28. How do I add a 1px border around my div that is dotted and black?
+        div{
+            border: 1px dotted black;
+        }
     29. How do I select everything on the page? 
+        *
     30. How do I write a comment in CSS?
+        /* */
     31. How do I find out what file I am in, when I am using the command line? 
+        cd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+        ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        rmdir It's important to be careful because once it is done, you cannot undo it.
     34. Why should I use version control? 
+        to keep track of changes
     35. How often should I commit to github?
+        every 20 minutes
     36. What is the command we would use to push our repo up to github? 
+        git push -u origin branch-name
     37. Walk me through Lambda's git flow. 
+        Fork the repo, clone the repo, cd command to the directory you want to clone your forked repo in, git clone in that directory and paste the link, cd into the new directory, git checkout -b branch-name, work on your project, git add . to add repo changes and will prepare for commit, git commit -m 'comment' to commit your change with a comment on it to be easier for other viewers what you change, git push -u origin branch-name to push all the commit change onto GitHub, change the branch from main/master to your branch-name, click new pull request to create a pull request on your branch-name, make sure to change the base repo to your forked repo, then click 'Create Pull request'.
 
     Stretch Questions
 
