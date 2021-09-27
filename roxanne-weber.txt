@@ -1,0 +1,53 @@
+link for my codepen project: 
+https://codepen.io/RoxWeber/pen/WNOYZPR?editors=1100
+
+Stretch Review questions: 
+    1. What is the difference between an inline element and a block element?
+        block elements always take up the fill width available
+        An inline element does not start on a new line
+
+    2. What happens when an element is positioned absolutely? 
+        Its reference is not relative to a position, but static to it
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        you can use a <div> and allow it to be reflexive of the space available without going over
+
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default, and 1 element that is display inline-block by default
+    BLOCK:
+        <div>
+        <footer>
+        <h1>
+
+    INLINE:
+        <span>
+        <em>
+        <a>
+
+    INLINE-BLOCK:
+        <img>
+
+    5. In your own words, explain the box model. What is the fix for the box model? 
+        The box model tells a site how to display boxes on the page with margins, width, height, etc. The problem is that the borders and padding are often added to the display and are not responsive making areas overlap. The first is to use "box-sizing: border-box" which collates the box size, margins and padding together so that there is no confusion on its size and intention.
+
+
+Stretch Git Tasks
+- [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
+  - [ ] Research and understand what a `merge conflict` is and how to resolve it.
+    Examples of Git merge conflicts
+    // Changing the same lines of code in a file.
+    // Removal of files while changes happen in another place.
+
+
+  - [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the main branch.
+
+
+  - [ ] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
+
+- [ ] Research and set up a Graphical User Interface (GUI) Git console. 
+    GitHub Desktop installed. So much easier to use :)
+
+- [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
+    This is now set up correctly so I only need add git push to push all my changes
+
+
+    ANOTHER change
