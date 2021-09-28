@@ -1,0 +1,51 @@
+Link to codepen: https://codepen.io/Tuan850/pen/XWgoQYJ?editors=1100
+  1. What is Semantic HTML? Semantic HTML describes elements that have meaning in the code.
+    2. What is HTML used for? HTML is similar to the basis of a house. They're the raw building materials for a website.
+    3. What is an attribute and where do we put it? Attributes are special words used inside of a tag i.e. <> to control the elements behavior.
+    4. What is the h1 tag used for? How many times should I use it on a page? h1 tag is the title tag and there should only be 1 h1 tag at all times.
+    5. Name two tags that have required attributes: the src and the href attributes.
+    6. What do we put in the head of our HTML document? The <head> tag
+    7. What is an id? An identifier used for the whole document
+    8. What elements can I add an id to? You can add an ID to a new JavaScript Element or a pre-existing HTML Element.
+    9. How many times can I use the same id on a page? Only one time.
+    10. What is a class? A selector for your HTML code for you to recall later.
+    11. What elements can I add a class to? Any element can be added to a class as long as they're all separated by a space.
+    12. How many times can I use the same class on a page? As many times as you want.
+    13. How do I get my link to open in a new tab? use the anchor or <a> tag.
+    14. What is the alt attribute in the image tag used for? Adds a description of an image.
+    15. How do I reference an id? using a #
+    16. What is the difference between a section and a div: sections groups together entries while divs have no meaning.
+    17. What is CSS used for? Styling the website and designs
+    18. How do we select an element? Example - every h2 on the page h2{add in properties here
+    }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. Class is used for styling a specific section of the webpage while an ID is used for all entries associated with id.
+    20. How do we select classes in CSS? usinga .
+    21. How do we select a p element with a single class of “human””? .human p{}
+    22. What is a parent child selector? When would this be useful? Parent child selector selects all elements that are direct child of a specific element. It's useful when calling multiple html tags of the same type i.e. <p> tags
+    23. How do you select all links within a div with the class of sidebar? a:link{}
+    24. What is a pseudo selector? A selector that selects elements in a specific state
+    25. What do we use the change the spacing between lines? line-height
+    26. What do we use to change the spacing between letters? letter-spacing 
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? text-transform: (any of the listed in the question)
+    28. How do I add a 1px border around my div that is dotted and black? div {
+        border: 1px dotted black
+    }
+    29. How do I select everything on the page? using the *
+    30. How do I write a comment in CSS? /* write comment here*/
+    31. How do I find out what file I am in, when I am using the command line? $ pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder? $ ls -al
+    33. How do I remove a file via the command line? Why do I have to be careful with this? $ rm <file> you should be careful since it could delete more than just the file you want
+    34. Why should I use version control? To keep track of changes.
+    35. How often should I commit to github? commit whenever you finish a step
+    36. What is the command we would use to push our repo up to github? $ git push -u origin master
+    37. Walk me through Lambda's git flow. 
+        1. Fork the repository
+        2. Clone the repo
+        3. Go to gitbash and git clone the repo
+        4. cd into your new repo
+        5. create a branch by typing git checkout -b firstname-lastname
+        6. open code with code . command and work in VS code
+        7. Work on your project
+        8. Add, commit, and push your repo
+        9. Compare and pull request on github
+        10. 
