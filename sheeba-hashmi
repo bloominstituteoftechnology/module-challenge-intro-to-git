@@ -1,0 +1,129 @@
+link to codepen: https://codepen.io/sheebahashmi/pen/abwPgmj
+
+1. What is Semantic HTML? 
+Ans: HTML that defines the web page well.
+
+2. What is HTML used for? 
+Ans: HTML is used to create responsive web pages.
+
+3. What is an attribute and where do we put it? 
+Ans: An attribute provides extra information about an element. We declare attributes inside an HTML tag.
+
+4. What is the h1 tag used for? How many times should I use it on a page?
+Ans: h1 tag is used for the main heading. It should be used only once.
+
+5. Name two tags that have required attributes
+Ans: <link> and <img>
+
+6. What do we put in the head of our HTML document?
+Ans: <header> tag
+
+7. What is an id? 
+Ans: A unique identifier for an element.
+
+8. What elements can I add an id to? 
+Ans: Any element that I want to reference later on.
+
+9. How many times can I use the same id on a page? 
+Ans: You can only use an id once.
+
+10. What is a class? 
+Ans: A class is an identifier which is used to group together multiple elements for a particular purpose.
+
+11. What elements can I add a class to? 
+Ans: Any element that I want to group with other element.
+
+12. How many times can I use the same class on a page? 
+Ans: As many times as needed, there is no limit to it.
+    
+13. How do I get my link to open in a new tab?
+Ans: target = "_blank"
+
+14. What is the alt attribute in the image tag used for? 
+Ans: Alt attributes are used to provide a description of the image which can be used a screen reader.
+
+15. How do I reference an id?
+Ans: With a '#'
+
+16. What is the difference between a section and a div
+Ans: div is non semantic and section is semantic.
+
+17. What is CSS used for? 
+Ans: For styling a web page.
+
+18. How to we select an element? Example - every h2 on the page
+Ans: By element name. for example: h2 {  color: red; } would make every h2 element have red text.
+
+19. What is the difference between a class and an id? - Give me an example of when I might use each one
+Ans: An id should be unique but a class can be used for multiple elements. For example: id for a particular button and class for multiple heading elements (for example: h1, h2, h3).
+
+20. How do we select classes in CSS?
+Ans: With a '.'
+
+21. How do we select a p element with a single class of “human””?
+Ans: .human p
+
+22. What is a parent child selector? When would this be useful? 
+Ans: A parent child selector is when you have two selectors such that second selector occurs inside the first selector. They are useful when you want to be really specific about adding style to an element/s.
+
+23. How do you select all links within a div with the class of sidebar?
+Ans: div .sidebar a 
+
+24. What is a pseudo selector?
+Ans: It allows you to modify the behaviour of an element in a particular state.
+
+
+25. What do we use the change the spacing between lines?
+Ans: line-height
+
+26. What do we use to change the spacing between letters?
+Ans: letter-spacing
+
+27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+Ans: text-transform: uppercase;
+        text-transform: lowercase;
+        text-transform: capatalize;
+
+28. How do I add a 1px border around my div that is dotted and black?
+Ans: div {
+            border: 1px dotted black;
+            }
+
+29. How do I select everything on the page? 
+Ans: * { 
+
+        }
+
+30. How do I write a comment in CSS?
+Ans: /* this is a comment */
+
+31. How do I find out what file I am in, when I am using the command line?
+Ans: pwd 
+
+32. Using the command line - how do I see a list of files/folders in my current folder?
+Ans: ls -la
+
+33. How do I remove a file via the command line? Why do I have to be careful with this? 
+Ans: 'rm' is used to remove a file. It is recommended to be careful while using this command because the file will be removed permanently without any warning.
+
+34. Why should I use version control? 
+Ans: To keep track of any changes to the code and to organize code.
+
+35. How often should I commit to github?
+Ans: Commit early and often.
+
+36. What is the command we would use to push our repo up to github?
+Ans: git push  
+
+37. Walk me through Lambda's git flow. 
+Ans:  
+
+1: Fork the repo you want to work on.
+2: Ensure you forked correctly by checking your name on the top left corner.
+3: Open git bash and cd into the folder you want the repo in.
+4: Clone the repo by using the command "git clone" followed by the ssh url found on the repo page.
+5: cd into the directory which you just cloned.
+6: create a new branch in the directory using "git checkout -b" followed by branch name of your choice.
+7: to open the directory in code editor use the command 'code .'
+8: when you're done working on your project, commit the changes using the command 'git commit -m" followed by a short message describing the changes you made in double quotes.
+9: push the changes to the remote repository using the command "git push" 
