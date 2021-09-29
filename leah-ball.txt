@@ -1,0 +1,81 @@
+https://codepen.io/leah-ball/pen/xxrMwGz?editors=1100
+
+1. What is Semantic HTML? 
+        - Semantic HTML tells developers and browsers exactly what it does
+    2. What is HTML used for? 
+        - hypertext mark-up language that we use for web development.
+    3. What is an attribute and where do we put it? 
+        - flags inside of our tags that supply data to an element.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        - should be used for the title or most important information on the page like a title
+    5. Name two tags that have required attributes
+        - <a> and <img>
+    6. What do we put in the head of our HTML document? 
+        - metadata for the page
+    7. What is an id? 
+        - A singular identifer that applies to exactly one html tag. Can only have one on a page. You use ID when you want one thing to have unique styling.
+    8. What elements can I add an id to? 
+        - any elements 
+    9. How many times can I use the same id on a page? 
+        - once
+    10. What is a class? 
+        - classes are types of elements that you can group in order to style the same.
+    11. What elements can I add a class to? 
+        - as many elements as you want
+    12. How many times can I use the same class on a page? 
+        - as many as you want
+    13. How do I get my link to open in a new tab?
+        - target="_blank"
+    14. What is the alt attribute in the image tag used for? 
+        - accessibilty attribute that describes the images for screen readers
+    15. How do I reference an id?
+        - within the css = #id, within html = <div id="id">
+    16. What is the difference between a section and a div
+        - they are essentially both divisional blocks so they do similar things but "section" is semantic while "div" is structural or presentational. You would use div when you don't need to describe the meaning.
+    17. What is CSS used for? 
+        - cascading style sheets used to add design to the html.
+    18. How to we select an element? Example - every h2 on the page
+        - in the css we would call the h2 and then bookend the styles in curly brackets
+        eg. h2 {
+            color: red;
+            font-size: 45px;
+            }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        Id is more specific and can only be used once, elements can have as many classes as you want. So you could be styling a bunch of elements similarly but need to call out one element and design that specifically. 
+    20. How do we select classes in CSS?
+    .class
+    21. How do we select a p element with a single class of “human””?
+    - .human p {}
+    22. What is a parent child selector? When would this be useful? 
+        - Nested elements are referred to as children and the top-level elements as parents.
+        - the child element inherits the styles of its parent which can help keep our code "dry"
+    23. How do you select all links within a div with the class of sidebar?
+        - .sidebar a {}
+    24. What is a pseudo selector?
+        - selects elements in a specific state
+    25. What do we use the change the spacing between lines?
+        - line-height
+    26. What do we use to change the spacing between letters?
+        - letter-spacing 
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        - text-transform
+    28. How do I add a 1px border around my div that is dotted and black?
+        - border: 1px dotted black;
+    29. How do I select everything on the page? 
+        - using the html or body element
+    30. How do I write a comment in CSS?
+        - /* and ends with */
+    31. How do I find out what file I am in, when I am using the command line? 
+        - pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        - ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        - rm 
+        - because it doesn't give a warning and actually erases it
+    34. Why should I use version control? 
+        - keeps tracks of changes and allows you to go back to changes to work with others easily
+    35. How often should I commit to github?
+        - every significant change
+    36. What is the command we would use to push our repo up to github? 
+        - 
+    37. Walk me through Lambda's git flow.
