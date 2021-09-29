@@ -87,6 +87,7 @@ https://codepen.io/MichealNoble2014/pen/eYRxpoP?editors=0100
             git commit -m "Your commit message"
           Push changes to github repo 
             git push -u origin branch-name 
+              Do this frequently
 
 Stretch Questions
 
