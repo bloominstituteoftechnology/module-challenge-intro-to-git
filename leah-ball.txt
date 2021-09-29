@@ -11,7 +11,7 @@ https://codepen.io/leah-ball/pen/xxrMwGz?editors=1100
     5. Name two tags that have required attributes
         - <a> and <img>
     6. What do we put in the head of our HTML document? 
-        - metadata for the page
+        - metadata for the page, link tags, and your title
     7. What is an id? 
         - A singular identifer that applies to exactly one html tag. Can only have one on a page. You use ID when you want one thing to have unique styling.
     8. What elements can I add an id to? 
@@ -19,7 +19,7 @@ https://codepen.io/leah-ball/pen/xxrMwGz?editors=1100
     9. How many times can I use the same id on a page? 
         - once
     10. What is a class? 
-        - classes are types of elements that you can group in order to style the same.
+        - classes are attributes/property of elements that you can group in order to style the same.
     11. What elements can I add a class to? 
         - as many elements as you want
     12. How many times can I use the same class on a page? 
@@ -41,7 +41,7 @@ https://codepen.io/leah-ball/pen/xxrMwGz?editors=1100
             font-size: 45px;
             }
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
-        Id is more specific and can only be used once, elements can have as many classes as you want. So you could be styling a bunch of elements similarly but need to call out one element and design that specifically. 
+        Id is more specific and can only be used once, use IDs for navigation anchors. Elements can have as many classes as you want. So you could be styling a bunch of elements similarly but need to call out one element and design that specifically. 
     20. How do we select classes in CSS?
     .class
     21. How do we select a p element with a single class of “human””?
@@ -77,5 +77,6 @@ https://codepen.io/leah-ball/pen/xxrMwGz?editors=1100
     35. How often should I commit to github?
         - every significant change
     36. What is the command we would use to push our repo up to github? 
-        - 
+        - git push -u origin branch-name
     37. Walk me through Lambda's git flow.
+        - add, commit, push, pull-request
