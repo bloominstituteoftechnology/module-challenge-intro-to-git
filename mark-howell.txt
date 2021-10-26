@@ -61,13 +61,21 @@
     29. How do I select everything on the page? 
     * {}
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+    /* COMMENT*/
+    31. How do I find out what file I am in, when I am using the command line?
+    pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm <file> rm -r <directory> rm -f <file> and if you mistype you can remove the directory instead of file
     34. Why should I use version control? 
+    It keeps track of all people working on a project and can show when a bug was introduced.
     35. How often should I commit to github?
+    Every 20 minutes
     36. What is the command we would use to push our repo up to github? 
+    git push -u branch-name
     37. Walk me through Lambda's git flow. 
+    Fork, clone, in terminal get clone, cd, git checkout -b branch-name, code ., do project while updating, final get push, submit pull request, submit url in canvas
 
 Stretch Questions
 
