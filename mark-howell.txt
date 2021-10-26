@@ -53,7 +53,13 @@
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
     text-transform:(capitalize,lowercase)
     28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        outline-style:dotted;
+        outline-color:black;
+        outline-width:1px;
+    }
     29. How do I select everything on the page? 
+    * {}
     30. How do I write a comment in CSS?
     31. How do I find out what file I am in, when I am using the command line? 
     32. Using the command line - how do I see a list of files/folders in my current folder?
