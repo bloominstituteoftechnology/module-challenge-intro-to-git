@@ -102,12 +102,33 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     you would use slash star. example /* This is a comment */
 
     31. How do I find out what file I am in, when I am using the command line? 
+    you would use pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    you would use the rm command. because it doesn't give you any warnings it will just delete the file.
+
     34. Why should I use version control? 
+    version control is an easy way to collaborate with other programmers and be up to date or in sync with any changes that either person makes.
+
     35. How often should I commit to github?
+    ideally every 20 minutes or every time you complete a feature.
+
     36. What is the command we would use to push our repo up to github? 
+    if it's the initial push you would use: git push -u origin Branch-Name
+    if it's already been pushed before you would use: git push
+
     37. Walk me through Lambda's git flow. 
+    first you would fork the project on github.
+    then you would clone it using the ssh link inside of your selected folder in your terminal: git clone <SSH LINK>
+    then you would move into the cloned repo by doing: "cd <reponame>"
+    then you would create a new branch by doing: "git checkout -b Branch-Name"
+    then you would open it in your editor by doing: "code ."
+    after you are done edeting you would first save it in your edit then add the changes, commit those changes, and push it up to the cloud
+    once you are ready to merge with your peers you would submit a pull request for review. You should not be merging repos yourself someone else should review your code and do it for you. 
+
 
 Stretch Questions
 
