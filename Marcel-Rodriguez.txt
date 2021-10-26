@@ -70,15 +70,37 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     you would select classes in css by using dot notation like .awesomeClass{} would let you style the class of awesomeClass
 
     21. How do we select a p element with a single class of “human””?
+    if the p tag has the class of human and it's the only thing with the class of human you can just select it by writing .human{}
+    if the p tag has a class of human and other elements do have that same class but you only want to modify specifically p tags with that class you would write: p.human{}
+
+
     22. What is a parent child selector? When would this be useful? 
+    parent child would be for example a paragraph is a child of the parent which is a div.  div > p
+
     23. How do you select all links within a div with the class of sidebar?
+    .sidebar a{}
+
     24. What is a pseudo selector?
+    a psudo selector would be if you want to add any styling after the fact like a hover. example  .nav a:hover{cursor:pointer;}
+
     25. What do we use the change the spacing between lines?
+    line-height:10px;
+
     26. What do we use to change the spacing between letters?
+    letter-spacing: 5px;
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase; text-transform: lowercase; text-transform: capitalize;
+
     28. How do I add a 1px border around my div that is dotted and black?
+    border: 1px dotted black;
+
     29. How do I select everything on the page? 
+    you would use a * selector. Example *{}
+
     30. How do I write a comment in CSS?
+    you would use slash star. example /* This is a comment */
+
     31. How do I find out what file I am in, when I am using the command line? 
     32. Using the command line - how do I see a list of files/folders in my current folder?
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
