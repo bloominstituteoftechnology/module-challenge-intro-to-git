@@ -7,25 +7,68 @@ https://codepen.io/marcel-rodriguez/pen/ZEJKpMg?editors=1100
 Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
 
     1. What is Semantic HTML? 
+    semantic html gives meaning to our markup and screen readers.
+
     2. What is HTML used for? 
+    html is to structure the website. like the actual concrete building with no paint just bland.
+
     3. What is an attribute and where do we put it? 
+    Attributes in html gives the browser more information about that specific tag. for example an href on a link it gives it the functionality to visit the specific url.
+
     4. What is the h1 tag used for? How many times should I use it on a page?
+    h1 tags are mainly for the main title. You can use it more than once but you should really use it for your main title.
+
     5. Name two tags that have required attributes
+    <a></a>  <link>
+
     6. What do we put in the head of our HTML document? 
+    <footer></footer>
+
     7. What is an id? 
+    id is a selector used for tags that you want to have the highest specificity while styling
+
     8. What elements can I add an id to? 
+    you can add id's to many things but you can't use the same id twice
+
     9. How many times can I use the same id on a page? 
+    only once.
+
     10. What is a class? 
+    a class is a specific selector for a chunk of code which you can use later for styling the same way
+
     11. What elements can I add a class to? 
+    any element you want to style for example a div or a nav
+
+
     12. How many times can I use the same class on a page? 
+    Multiple times as long as you want to style everything you put the same class on the same way.
+
     13. How do I get my link to open in a new tab?
+    <a target="_blank" href="#">click me!</a> you would use a target="_blank"
+
     14. What is the alt attribute in the image tag used for? 
+    the alt attribute is usually used for screenReaders or defaulting an image if it breaks
+
     15. How do I reference an id?
+    you would reference an id in css by adding a # sign. example #reallySpecificTarget{}
+
     16. What is the difference between a section and a div
+    you don't really style sections you would style a div. a section is to group more like the top middle and bottom of a page. a div is more like to group clusters of items inside of those sections.
+
+
     17. What is CSS used for? 
+    css is used for styling it's like the paint for the building to make it pretty
+
     18. How to we select an element? Example - every h2 on the page
+    in css you would type h2{}  if you want to get more specific thats when you would start adding classes or id's
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    they are both used for styling however an id is used for more specific styling of individual items and can't be re-used whereas class can be used over and over on different items.
+
+
     20. How do we select classes in CSS?
+    you would select classes in css by using dot notation like .awesomeClass{} would let you style the class of awesomeClass
+
     21. How do we select a p element with a single class of “human””?
     22. What is a parent child selector? When would this be useful? 
     23. How do you select all links within a div with the class of sidebar?
