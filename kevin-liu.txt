@@ -29,20 +29,34 @@ an attribute that specifies one or more names for an element.
     to describe the picture when they can't see the picture.
     15. How do I reference an id?
     # followed by an id name.
-    16. What is the difference between a section and a 
+    16. What is the difference between a section and a div
     section means that the content inside is grouped thematically while div marks up a generic block with no associated meaning.
     17. What is CSS used for? 
     is to make the design and display of the web page.
     18. How to we select an element? Example - every h2 on the page
+    h2 {
+
+    }
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    class can be used multiple times while a id is only used once per page. you could use a class to use css on a bunch of paragraphs and id can be used for something like header/footer
     20. How do we select classes in CSS?
+    .classname
     21. How do we select a p element with a single class of “human””?
+    .human p
     22. What is a parent child selector? When would this be useful? 
+    selects all elements that are a directly under one selector ie parent
     23. How do you select all links within a div with the class of sidebar?
+    .sidebar div
     24. What is a pseudo selector?
+    selects elements that are in a specific state like hovering.
     25. What do we use the change the spacing between lines?
+    line-height
     26. What do we use to change the spacing between letters?
+    letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: capitalize; /* to cap the first letter */
+    text-transform: lowercase; /* to make everything lowercase */
+    text-transform: uppercase; /* to make everything uppercase */
     28. How do I add a 1px border around my div that is dotted and black?
 border-style: dotted;
 border-width: 1px;
