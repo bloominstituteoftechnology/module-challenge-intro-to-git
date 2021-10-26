@@ -69,8 +69,10 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
         A parent child selector  
 
     23. How do you select all links within a div with the class of sidebar?
+        
 
     24. What is a pseudo selector?
+        A pseudo selector selects and styles elements based on a certain state.
 
     25. What do we use the change the spacing between lines?
         line-height:
