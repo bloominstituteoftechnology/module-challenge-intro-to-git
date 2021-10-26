@@ -1,49 +1,131 @@
-https://codepen.io/magoha01/pen/PoKmpbK?editors=1100
+link to finished codepen: https://codepen.io/magoha01/pen/PoKmpbK?editors=1100
 
 Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
 
     1. What is Semantic HTML? 
-    2. What is HTML used for? 
-    3. What is an attribute and where do we put it? 
-    4. What is the h1 tag used for? How many times should I use it on a page?
+    Semantic HTML are elements that define their content.
+
+    2. What is HTML used for?
+        HTML provides web pages with structure.
+
+    3. What is an attribute and where do we put it?
+        An attribute provides additional info/modifications to an element. They go in the start tag.
+
+    4. What is the h1 tag used for? How many times should I use it on a page? 
+         An h1 tag is the most important header on the page, usually reserved for business name. They should only be used once.
+
     5. Name two tags that have required attributes
+        An image tag and a url.
+
+
     6. What do we put in the head of our HTML document? 
+        The head is where you put the title/other non-visual items.
+
     7. What is an id? 
+    An id is an html element that provides a unique id for an element.
+
     8. What elements can I add an id to? 
-    9. How many times can I use the same id on a page? 
-    10. What is a class? 
+        any
+
+    9. How many times can I use the same id on a page? one
+
+    10. What is a class? a class is an attribute created so you can style all elements within a page at once.
+
     11. What elements can I add a class to? 
+        Any.
+
     12. How many times can I use the same class on a page? 
-    13. How do I get my link to open in a new tab?
+        As many as you want.
+
+    13. How do I get my link to open in a new tab? 
+        target =_blank
+
     14. What is the alt attribute in the image tag used for? 
-    15. How do I reference an id?
+        Accessibility/descriptive text if image link fails.
+
+    15. How do I reference an id? 
+        With a hastag(#)
+
     16. What is the difference between a section and a div
+        A section is semantic, a div is for styling.
+
     17. What is CSS used for? 
-    18. How to we select an element? Example - every h2 on the page
+        Styling
+
+    18. How to we select an element? Example - every h2 on the page 
+        h2 {}
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        A class can be used to style multiple elements, whereas an id is unique for one element. 
+        An example of when you would use an id for your h1 header(as you only use it once per page), whereas you would use class to style all your paragraphs.
+
     20. How do we select classes in CSS?
+        .class {}
+
     21. How do we select a p element with a single class of “human””?
-    22. What is a parent child selector? When would this be useful? 
+        p.human {}
+
+    22. What is a parent child selector? When would this be useful?
+        A parent child selector  
+
     23. How do you select all links within a div with the class of sidebar?
+
     24. What is a pseudo selector?
+
     25. What do we use the change the spacing between lines?
+        line-height:
+
     26. What do we use to change the spacing between letters?
+        letter-spacing:
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: uppercase, lowercase, capitals
+
+
     28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
-    30. How do I write a comment in CSS?
+       div {
+           border: 1px, dotted, black;}
+    29. How do I select everything on the page?
+         *{}
+    30. How do I write a comment in CSS? 
+        /* comment */
+
+
     31. How do I find out what file I am in, when I am using the command line? 
+        pwd
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
+        ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+        rm filename. You need to be careful because it is permanent!
+
+    34. Why should I use version control?
+        You should use version control as a safetyguard from bugs if there are any new changes to the file.
+
     35. How often should I commit to github?
+        Every 20 minutes or when a major, or when you complete a major feature.
+
     36. What is the command we would use to push our repo up to github? 
+        git push -u origin branch name
+
     37. Walk me through Lambda's git flow. 
+        git add ., git commit -m 'comment', git push, git push.
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+        A block level element always starts a new line, an inline element doesnot.
+
     2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        An element that is positioned absolutely is immovable from where it is placed.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+        margin: auto;
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    Display block: p, h(1-), div, article
+    display inline: span, anchor
+    display inline-block: img
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        A box model refers to a box that surrounds every HTML element. The box model includes borders, margins, content, and padding.
