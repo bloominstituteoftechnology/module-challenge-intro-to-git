@@ -1,7 +1,11 @@
-1. What is Semantic HTML? 
+1. What is Semantic HTML?  
+    Gives meaning to the tags in a way that is machine readable
     2. What is HTML used for? 
+    Creating structure of websites
     3. What is an attribute and where do we put it? 
+    its a keyword that controls the element its attached to 
     4. What is the h1 tag used for? How many times should I use it on a page?
+    It is the most important/ biggest text on screen.once
     5. Name two tags that have required attributes
     6. What do we put in the head of our HTML document? 
     7. What is an id? 
@@ -37,3 +41,4 @@
     36. What is the command we would use to push our repo up to github? 
     37. Walk me through Lambda's git flow. 
 
+https://codepen.io/amiyahxo/pen/porPpLq
