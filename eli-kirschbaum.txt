@@ -9,9 +9,9 @@ link to finished codepen: https://codepen.io/eli-kirschbaum/pen/eYEWvdX?editors=
 4. What is the h1 tag used for? How many times should I use it on a page?
     - h1 tag is used for the most important/most visible phrase/word/title on your web page, it is only used once.
 5. Name two tags that have required attributes
-    -  
+    -  <img>  <link>
 6. What do we put in the head of our HTML document? 
-    - 
+    - info about your web page that isnt displayed on the page
 7. What is an id? 
     - an attribute to label an element with a unique ID that can only be used once.
 8. What elements can I add an id to? 
@@ -43,7 +43,7 @@ link to finished codepen: https://codepen.io/eli-kirschbaum/pen/eYEWvdX?editors=
 21. How do we select a p element with a single class of “human””?
     - p .human {...}
 22. What is a parent child selector? When would this be useful? 
-    - 
+    - a selector for elements within other elements, as in paragraphs inside of sections. Useful for editing only select parts of your page.
 23. How do you select all links within a div with the class of sidebar?
     - .sidebar div {...}
 24. What is a pseudo selector?
@@ -87,7 +87,19 @@ link to finished codepen: https://codepen.io/eli-kirschbaum/pen/eYEWvdX?editors=
 36. What is the command we would use to push our repo up to github? 
     - git push -u origin branch-name
 37. Walk me through Lambda's git flow.
-    - 
+    1) Fork the repo on github
+    2) clone the repo by copying the the code link on github then using git clone in the terminal
+    3) change the directory to that repo by using cd repo name
+    4) create a branch by typing git checkout -b firstname-lastname in the terminal
+    5) open the code in VS code with code . 
+    6) when you have changes made (every 20 mins) push the code to github 
+        a) first use git add . which puts the changes in a staging area
+        b) commit the changes with a clear message describing the changes with git commit -m 'message'
+        c) push the changes to your created branch with git push -u origin branch-name
+    7) create a pull request by clicking Compare & Pull Request in github
+    8) choose your repo as the base
+    9) choose the main repo as the comparison
+    10) copy the url for the pull request and post it in canvas
 
 Stretch Questions
 
