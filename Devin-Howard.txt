@@ -26,7 +26,7 @@ link to finished codepen https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
     22. What is a parent child selector? When would this be useful? > , when you need to match all the elements from the parent to the child element
 
     23. How do you select all links within a div with the class of sidebar?
-    
+
     24. What is a pseudo selector? 
     a selctor that selects elements that are in a specific state.
 
@@ -34,15 +34,36 @@ link to finished codepen https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
     26. What do we use to change the spacing between letters? spacebar
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?span style "text-transform:uppercase;"
     28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
-    30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+    border:15px dotted black
+
+    29. How do I select everything on the page? * selector
+
+    30. How do I write a comment in CSS? 
+    //insert comment.
+    31. How do I find out what file I am in, when I am using the command line?  
+    pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    git rm.... be careful not to remove everything
     34. Why should I use version control? 
+    to keep track of changes
     35. How often should I commit to github?
+    every 20 mins.
     36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+       git push
+    37. Walk me through Lambda's git flow.
+    1.fork
+    2.clone
+    3.git clone
+    4.`cd` into your new repository by typing `cd` and then the repo name 
+    5. Create a branch by typing `git checkout -b branch-name`
+    6.git add
+    7. git commit
+    8. git push
+
+
+ 
 
 Stretch Questions
 
