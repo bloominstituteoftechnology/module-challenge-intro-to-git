@@ -1,6 +1,6 @@
-link to finished code pen: https://codepen.io/addmasterflash/pen/OJjmpMg?editors=1000
+link to finished code pen: https://codepen.io/addmasterflash/pen/OJjmpMg?editors=1100
 
-
+//hopefully this is saved correctly, so dont mind me its just to check if it's been committed correctly.
 
     1. What is Semantic HTML? gives meaning to markup for machines and screen readers
     2. What is HTML used for? making foundation of website
