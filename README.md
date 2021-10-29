@@ -36,8 +36,3 @@ Stretch Git Tasks
   - [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the main branch.
   - [ ] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
 
-- [ ] Research and set up a Graphical User Interface (GUI) Git console. 
-
-- [ ] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
-
-
