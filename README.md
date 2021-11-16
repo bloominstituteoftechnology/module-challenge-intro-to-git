@@ -4,7 +4,7 @@ In this project you will be using the concepts learned in the Git for Web Develo
 This project consists of two parts:
 
 ## Task 1: Set up Project
-You will need to follow the Lambda School Git Workflow to add a file to this project follow the steps below:
+You will need to follow the BloomTech Git Workflow to add a file to this project follow the steps below:
 
 - [ ] Create your own version of this repo - Fork
 - [ ] Clone this repo
