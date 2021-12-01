@@ -135,10 +135,38 @@
     31. How do I find out what file I am in, when I am using the command line?
 
         command pwd
-        
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
+
+        command ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+
+        command del and you have to careful because once you delete you cannot recover the files.
+
+    34. Why should I use version control?
+
+        to control records and changes you make to your project's files.
+        for collobaration with collegues. 
+
     35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
+
+        when ever l feel l have something going and working on my project
+        
+    36. What is the command we would use to push our repo up to github?
+
+        git push -u origin branch-name
+        
     37. Walk me through Lambda's git flow. 
+
+    Fork the repo to create a copy of it on your own account.
+    clone your repo 
+    git clone and paste the url and then press enter
+    cd into your new repository
+    git checkout -b branch-name
+    git add .
+    git commit -m 'message'
+    git push -u origin branch-name.
+    
+    
+    
