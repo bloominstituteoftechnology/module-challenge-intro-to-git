@@ -17,10 +17,26 @@
     
     4. What is the h1 tag used for? How many times should I use it on a page?
 
+       Provide a clear topic for the page and its content, you can use as many as you want.
+
     5. Name two tags that have required attributes
-    6. What do we put in the head of our HTML document? 
-    7. What is an id? 
-    8. What elements can I add an id to? 
+
+       Input and select
+
+    6. What do we put in the head of our HTML document?
+
+       The <head> element is a container for the following elements <title>, <style>, <meta>, <link>, <script>, and <base>.
+
+    7. What is an id?
+
+       The id attribute specifies a unique id for an HTML element.
+
+        
+    8. What elements can I add an id to?
+
+    Elements which are pointing to specific unique attribute in a HTML document.
+
+       
     9. How many times can I use the same id on a page? 
     10. What is a class? 
     11. What elements can I add a class to? 
