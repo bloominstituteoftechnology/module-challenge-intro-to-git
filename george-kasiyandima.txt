@@ -31,12 +31,10 @@
 
        The id attribute specifies a unique id for an HTML element.
 
-        
     8. What elements can I add an id to?
 
     Elements which are pointing to specific unique attribute in a HTML document.
-
-       
+ 
     9. How many times can I use the same id on a page?
 
         You can only use it once.
@@ -45,11 +43,9 @@
 
         The HTML class attribute is used to specify a class for an HTML element. 
 
-        
     11. What elements can I add a class to?
 
         The class attribute can be added to any HTML element.
-
 
     12. How many times can I use the same class on a page?
 
@@ -59,33 +55,87 @@
 
         To create a link to open in a new tab, you need to wrap an element in a anchor <a> element and set its href attribute to the URL.
 
-
     14. What is the alt attribute in the image tag used for?
 
         The required alt attribute specifies an alternate text for an image, if the image cannot be displayed.
-
-         
+ 
     15. How do I reference an id?
 
         The #id selector styles the element with the specified id.
 
-
     16. What is the difference between a section and a div
-    17. What is CSS used for? 
+
+        section is semantic and div is non-semantic.
+
+    17. What is CSS used for?
+
+        To style the webpage.
+
     18. How to we select an element? Example - every h2 on the page
+
+        You use select the element(s) you want to style.
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+        In HTML for an element ID name starts with "#" symbol followed by a unique name assigned to it.
+        On the other hand class assigned to an element has its name with "" followed by class name.
+        Example of id use:<style>
+        /*Style the element with the id "myHeader" */
+        #myHeader {
+        background-color: lightblue;
+        color: black;
+        padding: 40px;
+        text-align: center;
+        }
+
+
     20. How do we select classes in CSS?
+
+        The .class selector selects elements with a specific class attribute.
+
     21. How do we select a p element with a single class of “human””?
+
+        .human
+
     22. What is a parent child selector? When would this be useful? 
+
+        When you have a specific child you want to selector and style.
+
     23. How do you select all links within a div with the class of sidebar?
+
+        div.sidebar a
+
     24. What is a pseudo selector?
+    
+        A pseudo-class is used to define a special state of an element.
+
     25. What do we use the change the spacing between lines?
+
+        Line-height property
+
     26. What do we use to change the spacing between letters?
+
+        letter-spacing property
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+        We use the text transform property.
+
     28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
+
+        1px dotted black 
+
+    29. How do I select everything on the page?
+
+
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+
+        Comments are used to explain the code, and may help when you edit the source code at a later date.
+
+    31. How do I find out what file I am in, when I am using the command line?
+
+        command pwd
+        
     32. Using the command line - how do I see a list of files/folders in my current folder?
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
     34. Why should I use version control? 
