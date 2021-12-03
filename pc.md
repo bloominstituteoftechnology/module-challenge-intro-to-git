@@ -18,5 +18,11 @@ Welcome to day 1 at BloomTech, today we are going to spend time setting up your 
 
 ## Research Questions 
 
-Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You can type your answer below the questions. 
+Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You can type your answer below the questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en) doc short for documentation are the instructions on how to use a languge, or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your google skills. 
 
+1. What is git? What is the difference between git and GitHub?
+2. Why do we create a branch? 
+3. What is the purpose of a pull request? 
+4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
+5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
+6. What is a merge conflict? How do you resolve a merge conflict? 

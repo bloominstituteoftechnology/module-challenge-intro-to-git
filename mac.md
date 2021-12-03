@@ -15,18 +15,15 @@ Welcome to day 1 at BloomTech, today we are going to spend time setting up your 
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 7. [ ] [Download Node.JS](https://nodejs.org/en/) - Please download the latest stable version. We will be using Node.JS to run the tests in all of our javaScript assignments. Test driven development is a common practice in the world of web dev. You can read more about it [here](https://www.freecodecamp.org/news/test-driven-development-what-it-is-and-what-it-is-not-41fa6bca02a2/) 
 8. [ ] Sign up for a free [codepen account](https://codepen.io/accounts/signup/user/free)
+9. [ ] Sign up for a free account on [Lucid Chart](https://www.lucidchart.com/pages/landing?utm_source=google&utm_medium=cpc&utm_campaign[…]tTwOoXp_lCeLTC97pikTFa5cE58FWHwjjpTSGsGPRqR2AAaAh-MEALw_wcB)
 
 ## Research Questions 
 
-Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You can type your answer below the questions. 
+Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You can type your answer below the questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en) doc short for documentation are the instructions on how to use a languge, or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your google skills. 
 
-1. 
-2. 
-3.
-4. 
-5. 
-6. 
-7. 
-8. 
-9. 
-10. 
+1. What is git? What is the difference between git and GitHub?
+2. Why do we create a branch? 
+3. What is the purpose of a pull request? 
+4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
+5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
+6. What is a merge conflict? How do you resolve a merge conflict? 
