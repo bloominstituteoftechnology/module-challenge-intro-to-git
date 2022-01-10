@@ -6,13 +6,13 @@ This project consists of two parts:
 ## Task 1: Set up Project
 You will need to follow the BloomTech Git Workflow to add a file to this project follow the steps below:
 
-- [ ] Create your own version of this repo - Fork
-- [ ] Clone this repo
-- [ ] Create a branch `git checkout -b 'firstName-lastName'`
-- [ ] Complete your set up tasks ans answer the questions in the `mac.md` or `pc.md` file, depending on which operating system you are using. Please not that if you are on a linux machine, you should be completing the `mac.md` file.
-- [ ] Run your usual git commands for adding/committing and pushing **Be sure to push to your branch!**
-- [ ] Create a Pull-Request to submit your work
-- [ ] Use your own student fork as the base (compare across forks, base-fork -> main).
+- [ x ] Create your own version of this repo - Fork
+- [ x ] Clone this repo
+- [ x ] Create a branch `git checkout -b 'firstName-lastName'`
+- [ x ] Complete your set up tasks ans answer the questions in the `mac.md` or `pc.md` file, depending on which operating system you are using. Please not that if you are on a linux machine, you should be completing the `mac.md` file.
+- [ x ] Run your usual git commands for adding/committing and pushing **Be sure to push to your branch!**
+- [ x ] Create a Pull-Request to submit your work
+- [ x ] Use your own student fork as the base (compare across forks, base-fork -> main).
 
 
 ## Task 2: MVP
