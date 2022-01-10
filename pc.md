@@ -28,5 +28,12 @@ Now that you are all set up, it's time to learn a little more about the tools of
 6. What is a merge conflict? How do you resolve a merge conflict?
 
 
-
-test
+1.Git is a version control system that allows one to manage and monitor ones source code. GitHub is a hosting service that allows one to manage git repositories (GitHub resides in the cloud).
+2.We use branches to develop new code without affecting other parts of the project(i.e. other branches, older versions, etc.)
+3.The purpose of a pull request is to leat any collaborators know a branch has been pushed to a repository on GitHub.
+4.git checkout -b branch-name creates a new branch while git checkout branch-name will switch to the branch-name.
+5.git fetch will check for changes in a remote repository, but will not make changes;git merge will combine 2 branches into 1, while git pull checks for changes and copies from the repository. So, git pull pretty much combines what git fetch and git merge do.
+6.Merge conflict: Git cannot resolve discrepancies between the code of 2 commits. A).Open gitBash and cd to directory with the conflict; B).git status for list of conflicted files;C).(competing line change) use VScode to open file containing conflict marker (<<<<<<<,=======,>>>>>>>), decide which changes to keep or rewrite and delete conflict markers. 
+D).git add to stage changes.  
+(removed file) use VScode to check the removed file for changes; git add file.md adds the file back to the repository while git rm file.md removes it from the repository
+ E). commit with helpful note (git commit -m " ")
