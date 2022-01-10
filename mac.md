@@ -48,5 +48,3 @@ Now that you are all set up, it's time to learn a little more about the tools of
 6. What is a merge conflict? How do you resolve a merge conflict?
 
    When different people make different changes to the same file. To resolve: 1) under Pull Requests, choose the request with the conflict 2) click Resolve Conflicts 3) mark as resolved 4) click Commit Merge
-
-   TEST
