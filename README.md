@@ -6,7 +6,7 @@ This project consists of two parts:
 ## Task 1: Set up Project
 You will need to follow the BloomTech Git Workflow to add a file to this project follow the steps below:
 
-- [ ] Create your own version of this repo - Fork
+- [yes] Create your own version of this repo - Fork
 - [ ] Clone this repo
 - [ ] Create a branch `git checkout -b 'firstName-lastName'`
 - [ ] Complete your set up tasks ans answer the questions in the `mac.md` or `pc.md` file, depending on which operating system you are using. Please not that if you are on a linux machine, you should be completing the `mac.md` file.
