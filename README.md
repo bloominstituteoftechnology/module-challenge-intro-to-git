@@ -15,24 +15,30 @@ You will need to follow the BloomTech Git Workflow to add a file to this project
   - [ ] Use your own student fork as the base (compare across forks, base-fork -> main).
 
 
-## Task 2: MVP
-1. fork this codepen https://codepen.io/BritHemming/pen/eYYEoPa?editors=1100
-2. You will be marking up all of the HTML and styling it to look like this: https://codepen.io/BritHemming/full/jONmxOm using CSS
-* this should be review from yesterday/ extra practice
-3. After you are finished please copy the review questions into your .txt file and answer them
-4. don't forget to add, commit and push your changes.
+1. What is git? What is the difference between git and GitHub?
+
+Git is a distrubuted version control system.  Git hub is web based repository system.
+
+2. Why do we create a branch? 
+
+To write code seperate from the main.
+
+3. What is the purpose of a pull request? 
+
+To show the differences of the master version and your version.
+
+4. What is the command you can use to switch between branches?
+For example you are working on a feature branch and you want to switch back to main. 
+
+git checkout -b
+
+5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
+
+Git fetch downloads the commits,files, etc from the remote repository (github).  Git pull takes the information from the remote repository and immidiately updates the local repository with that information.  Git merge will merge branches together.
+
+6. What is a merge conflict? How do you resolve a merge conflict? 
+
+A merge conflict is when 2 or more people are editing the same line of code, or if someone deletes the line someone else is working on.  To see if there's an issue you can use Git status.  
 
 
-## Task 3: Stretch
-Stretch Review questions: 
-    1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are display block by default, 2 elements that are display inline by default, and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the fix for the box model? 
-Stretch Git Tasks
-- [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
-  - [ ] Research and understand what a `merge conflict` is and how to resolve it.
-  - [ ] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the main branch.
-  - [ ] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
 
