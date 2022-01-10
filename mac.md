@@ -22,9 +22,18 @@ Welcome to day 1 at BloomTech, today we are going to spend time setting up your 
 Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You can type your answer below the questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en) doc short for documentation are the instructions on how to use a languge, or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your google skills. 
 
 1. What is git? What is the difference between git and GitHub?
-   
+   Git is an Open Source Distributed Version Control System. The difference between git and GitHub is that git allows me to manage and keep track of my source code. GitHub is the cloud hosting service that stores and lets me manage repositories. 
 2. Why do we create a branch? 
+    We create a branch to be able to work on code in our local machine without editing the whole source code. Branches can be merged into any one branch as long as they belong to the same repository. 
 3. What is the purpose of a pull request? 
+    The purpose of the pull request is to tell others about changes I have pushed to a branch in a repository on GitHub. 
 4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
+    git switch and specifing what branch we want to switch to. Example: git switch <existing_branch>
 5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
+    `git fetch` - command downloads commits, files, and refs from a remote repository into my local repository. 
+    `git merge` - command puts together the fork history
+    `git pull` - command  is used to fetch and download content from a remote repository and immediately update the local repository to match that content thats been updated by teammates. 
+
 6. What is a merge conflict? How do you resolve a merge conflict? 
+     Merge conflict is an event that occurs when Git is unable to automatically resolve differences in code between two commits. To resolve a merge conflict we can do it on github see https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github, or for sake of simplicity we can just open the conflicted file and make the necessary changes to the file. 
+     We can also use the  `git reset` command  at the time of merge conflict to reset the conflicted files to their original state. 
