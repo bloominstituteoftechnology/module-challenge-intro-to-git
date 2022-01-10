@@ -13,20 +13,41 @@ Welcome to day 1 at BloomTech, today we are going to spend time setting up your 
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-7. [ ] [Download Node.JS](https://nodejs.org/en/) - Please download the latest stable version. We will be using Node.JS to run the tests in all of our javaScript assignments. Test driven development is a common practice in the world of web dev. You can read more about it [here](https://www.freecodecamp.org/news/test-driven-development-what-it-is-and-what-it-is-not-41fa6bca02a2/) 
-8. [ ] Sign up for a free [codepen account](https://codepen.io/accounts/signup/user/free)
+7. [X] [Download Node.JS](https://nodejs.org/en/) - Please download the latest stable version. We will be using Node.JS to run the tests in all of our javaScript assignments. Test driven development is a common practice in the world of web dev. You can read more about it [here](https://www.freecodecamp.org/news/test-driven-development-what-it-is-and-what-it-is-not-41fa6bca02a2/) 
+8. [X] Sign up for a free [codepen account](https://codepen.io/accounts/signup/user/free)
 
 ## Research Questions 
 
-Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You can type your answer below the questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en) doc short for documentation are the instructions on how to use a languge, or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your google skills. 
+Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You can type your answer below the questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en) doc short for documentation are the instructions on how to use a language, or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your google skills. 
 
 1. What is git? What is the difference between git and GitHub?
-2. Why do we create a branch? 
+
+Git is a VCS(Version Control System) where your source code history is managed, it is software. GitHub is a GUI, cloud-based host that allows for 
+Git repo management.
+
+2. Why do we create a branch?
+
+Creating a branch allows us to make our own isolated changes from the master branch. 
+
 3. What is the purpose of a pull request? 
+
+A pull request is used to propose a change to the master branch through an isolated branch.
+
 4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
-5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
+
+ 'git checkout' is the switch command followed by '-u branch-name' you wish to switch to.
+
+5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do?
+
+`git fetch` can be used to fetch from a single named repo, or multiple repos at once.
+
+`git merge` incorporates the changes from named commits and unifies them in a single history while resolving any conflicts.
+
+`git pull` basically syncs the local and remote repos.
+
 6. What is a merge conflict? How do you resolve a merge conflict? 
 
-test 2
+A merge conflict arises when two developers attempt to edit the same line of code in a file in some way. `git merge` does its best to resolve any conflicts, but in the event it cannot, git will mark the file as conflicted and the developer attempting to merge will have to correct the conflict.
 
-test
+
+
