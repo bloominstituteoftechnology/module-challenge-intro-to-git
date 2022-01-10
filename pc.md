@@ -21,8 +21,15 @@ Welcome to day 1 at BloomTech, today we are going to spend time setting up your 
 Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You can type your answer below the questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en) doc short for documentation are the instructions on how to use a languge, or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your google skills. 
 
 1. What is git? What is the difference between git and GitHub?
+// Git is an Open Source Distributed Version Control System. GitHub is a for-profit company that offers a cloud-based git hosting service. Git is the system while Github essentially is the host for it.
 2. Why do we create a branch? 
+// A Git branch is essentially an independent line of development. You can take advantage of branching when working on new features or bug fixes because it isolates your work from other team members.
 3. What is the purpose of a pull request? 
+// Lets you tell others about changes you've pushed to a branch in a repository.
 4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
+// Git Checkout
 5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
-6. What is a merge conflict? How do you resolve a merge conflict? 
+// The git pull is a git command used to update the local version of a repository from a remote. By default, git pull updates the current local working branch (currently checked out branch) and updates the remote-tracking branches for all other branches. || The git merge command lets you take the independent lines of development created by the git branch and integrate them into a single branch. || Git Fetch comman is used to download the contents from a remote repository.
+
+6. What is a merge conflict? How do you resolve a merge conflict?
+//When two seperate branches have made edits to the same line in a file or when a file has been deleted in one branch but edited in the other. Git log,reset,status,checkout.
