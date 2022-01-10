@@ -4,9 +4,9 @@ Welcome to day 1 at BloomTech, today we are going to spend time setting up your 
 
 ## Set Up Tasks 
 1. [x ] [Download xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) - these are your developer tools for mac 
-2. [ ] sign up for a [GitHub account](https://github.com/join) - please use a professional username. We recommending using your `firstname` `lastname`
-3. [ ] [Set up your SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) - GitHub uses SSH to keep their files secure. You will need to set up one SSH key for every computer that you want to access your GitHub account on. Please ensure you go through all of the steps to generate a new key, add a new key and test your connection.
-4. [ ] [Download Zoom](https://zoom.us/download) - make sure your zoom display name is your `first name` `last name`
+2. [ x] sign up for a [GitHub account](https://github.com/join) - please use a professional username. We recommending using your `firstname` `lastname`
+3. [ x] [Set up your SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) - GitHub uses SSH to keep their files secure. You will need to set up one SSH key for every computer that you want to access your GitHub account on. Please ensure you go through all of the steps to generate a new key, add a new key and test your connection.
+4. [ x] [Download Zoom](https://zoom.us/download) - make sure your zoom display name is your `first name` `last name`
 5. [ ] [Download Slack](https://slack.com/help/articles/207677868-Download-Slack-for-Mac) - make sure your slack display name is your `first name` `last name` 
 6. [ ] [Download VS code](https://code.visualstudio.com/download) - this will be the tool you use to write all of your code. We recommend installing the following extensions: 
 - [ES Lint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
@@ -21,9 +21,18 @@ Welcome to day 1 at BloomTech, today we are going to spend time setting up your 
 
 Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You can type your answer below the questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en) doc short for documentation are the instructions on how to use a languge, or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your google skills. 
 
-1. What is git? What is the difference between git and GitHub?
+1. What is git? What is the difference between git and GitHub? 
+    git is a tool for source code management. It is an open source version control system used for small or large projects. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere
 2. Why do we create a branch? 
+    Branches are important for creating a timeline of versions of a project. Branches isolate development work without affecting other branches in the repo.
 3. What is the purpose of a pull request? 
+    The purpose of a pull request is to get the changes made in your branch merged into the master/main file.
 4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
+    git checkout <existing_branch> //switch between existing branches
+    git checkout b- <new_branch> //create new branch
 5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
+    git fetch -The git fetch command downloads commits, files, and refs from a remote repository into your local repo. When you want to see what everyone else is working on
+    git merge -The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
+    git pull- command is used to fetch and download content from a remote repository and immediately update the local repository to match that content. Once the content is downloaded, git pull will enter a merge workflow. A new merge commit will be-created and HEAD updated to point at the new commit.
 6. What is a merge conflict? How do you resolve a merge conflict? 
+    A merge conflict is when two pull requests that get merged affect the same code. It is resolved by either cherry picking what components from each branch you'd like to merge or selecting one branch over the other to merge.
