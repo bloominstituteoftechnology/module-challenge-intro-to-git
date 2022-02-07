@@ -20,4 +20,3 @@ git push - Uploads all local branch commits to GitHub
 When competing changes are made on the same line or file
 8. How do you resolve a merge conflict?
 By creating a new branch
-
