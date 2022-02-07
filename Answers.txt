@@ -1,0 +1,23 @@
+1. What is git? What is the difference between git and GitHub?
+    - Git is used for pushing different repositories to GitHub
+    - Git is an open source version control system(VCS)
+    - Github is the website git repositories are distributed 
+
+2. Why do we create a branch?
+    - to keep track of whose changing what 
+    - to organize changes made on a large project
+
+3. What is the purpose of a pull request? 
+    - the purpose of a pull request is to tell others about the changes you've pushed to a branch
+    in a repository on Github.
+4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
+    - git switch
+
+5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
+    - git fetch = the git fetch command downloads commits, files, and refs from a remote repository into your local repo
+    - git merge = The git merge command is used by git pull to incorporate changes from another repository and can be used by hand to merge changes from one branch into another.
+    - git pull = Git command used to update the local version of a repository from a remote
+
+6. What is a merge conflict? How do you resolve a merge conflict? 
+    - competing changes are made to the same line of a file
+    - you solve them by figuring out which competeing lines of code you wish to be using for your local repository
