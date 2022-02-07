@@ -24,7 +24,7 @@ To switch to an existing branch, you can use ' git checkout ' command and pass t
 
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
 
-
+git fetch downloads all changes from the remote repository, but doesn't add the changes into the current branch. git merge merges another branch into the current branch you're in into a single branch. git pull downloads changes and directly merges them into the current branch.
 
 7. What is a merge conflict?
 
