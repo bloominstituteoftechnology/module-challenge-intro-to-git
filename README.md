@@ -4,8 +4,6 @@ Welcome to Day 1 at BloomTech! Today we are going to spend some time setting up 
 
 Complete the set up tasks and then get started on the research questions found inside the repository. If you are using a Windows machine, please complete the `pc.md` file, if you are using Mac or Linux please complete `mac.md`.
 
-This project consists of two parts:
-
 ## Task 1: MVP
 You will need to follow the [BloomTech Git Workflow](https://bloomtech.notion.site/bloomtech/BloomTech-Git-Flow-Step-by-step-269f68ae3bf64eb689a8328715a179f9) to add a file to this project follow the steps below:
 
