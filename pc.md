@@ -10,3 +10,13 @@ Now that you are all set up, it's time to learn a little more about the tools of
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
 7. What is a merge conflict?
 8. How do you resolve a merge conflict?
+
+
+1. Git is a revision control system for your source code history.
+2. Github is a hsoting service for Git repo's.  
+3. Branches allow you to compare changes made to orginal code for further review 
+4. Pull request compares the changes made between branches
+5. Git switch -c
+6. Git fetch - downalods commits from a remote repo into local repo, git merge intergrates code onto one branch and git pull combines both.
+7. When the two versions of code differ 
+8. Check where the differences arise and make the necessary changes
