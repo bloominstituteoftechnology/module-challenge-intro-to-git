@@ -20,7 +20,7 @@ A pull request lets others know about the changes you've made to a branch in a r
 
 5. What is the command you can use to switch between branches? For example you are working on FIRSTNAME-LASTNAME branch and you want to switch back to main.
 
-
+To switch to an existing branch, you can use ' git checkout ' command and pass the name of the branch you want to switch to.
 
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
 
