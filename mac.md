@@ -28,6 +28,7 @@ git fetch downloads all changes from the remote repository, but doesn't add the 
 
 7. What is a merge conflict?
 
-
+A merge conflict is when Git can't figure out how to automatically integrate new changes when starting and during a merge process.
 
 8. How do you resolve a merge conflict?
+Its necessary to know whether the conflict occurs and why it occurs. The easiest way to resolve a merge conflict is to open the conflicting file and make necessary changes and try pushing your changes. 
