@@ -15,7 +15,19 @@ Git is a software used for tracking changes in any set of computer files and all
 Creating a new branch allows you to isolate your changes from the master branch. When you create a branch where you're experimenting with code and a bug is produced you can isolate the problem by going back to that newly created branch instead of trying to debug the whole master file.
 
 4. What is the purpose of a Pull Request?
+
+A pull request lets others know about the changes you've made to a branch in a repository on GitHub.
+
 5. What is the command you can use to switch between branches? For example you are working on FIRSTNAME-LASTNAME branch and you want to switch back to main.
+
+
+
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
+
+
+
 7. What is a merge conflict?
+
+
+
 8. How do you resolve a merge conflict?
