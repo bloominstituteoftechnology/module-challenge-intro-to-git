@@ -124,15 +124,46 @@
 
     30. How do I write a comment in CSS?
 
-    /* */ to write comment
-    
-    31. How do I find out what file I am in, when I am using the command line? 
+    /* */ to write comment in CSS
+
+    31. How do I find out what file I am in, when I am using the command line?
+
+    You find out through using pwd command
+
     32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
+
+    You use the ls command
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+
+    The rm or del and write the file name command allows you to remove (or delete) files.
+    You have to be careful though because once you delete you loose everything and cannot be recovered.
+
+    34. Why should I use version control?
+
+    Version control software keeps track of every modification to the code in a special kind of database
+
     35. How often should I commit to github?
+
+    You should commit after you've made some progress on the project you are working on
+
     36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+
+    The gitpush command
+
+    37. Walk me through Lambda's git flow.
+
+    cd desktop
+    cd prefered folder
+    git clone
+    cd into cloned repo
+    code .
+    git checkout -b name of branch
+    git add .
+    git commit -m ''
+    git push
+
+
 
 Stretch Questions
 
