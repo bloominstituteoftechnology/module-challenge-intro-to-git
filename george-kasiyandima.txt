@@ -101,13 +101,31 @@
 
     25. What do we use to change the spacing between lines?
 
-    You can use the <br> tag.
+    The line-height property is used to specify the space between lines.
      
     26. What do we use to change the spacing between letters?
+
+    The letter-spacing property is used to specify the space between the characters in a text.
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+
+    Text-transform- controls the capitalization of text 
+
     28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
+
+    div {
+        boader: 1px dotted black
+    }
+
+    29. How do I select everything on the page?
+
+     You use the Asterisk symbol (*) to select everything on the page
+
     30. How do I write a comment in CSS?
+
+    /* */ to write comment
+    
     31. How do I find out what file I am in, when I am using the command line? 
     32. Using the command line - how do I see a list of files/folders in my current folder?
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
