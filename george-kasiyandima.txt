@@ -168,7 +168,27 @@
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+
+    A block-level element occupies the entire space of its parent element (container), thereby creating a "block."
+
+    Inline elements are those which only occupy the space bounded by the tags defining the element, instead of breaking the flow of the content.
+
     2. What happens when an element is positioned absolutely? 
+
+    The absolutely positioned element will position itself relative to the nearest positioned parent
+
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+    Set the width to 100% and set the height to auto
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+    Three elements display block by default are div, p and section
+    Two elements display inline by default are span and strong
+    One element display inline-block  by default is button
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+    Box model is essentially a box that wraps around every HTML element.
+    Fix for box model is when you set box sizing to boarder box.
