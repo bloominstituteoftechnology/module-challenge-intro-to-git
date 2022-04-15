@@ -15,7 +15,7 @@ Now that you are all set up, it's time to learn a little more about the tools of
 //To compare your branch to the main branch
 
 5. What is the command you can use to switch between branches? For example you are working on FIRSTNAME-LASTNAME branch and you want to switch back to main.
-//git switch Main or git switch anne-hickman
+//git switch main or git switch anne-hickman
 
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. 
 What does each command do?
