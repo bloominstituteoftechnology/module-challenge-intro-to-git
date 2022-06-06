@@ -6,7 +6,7 @@ Now that you are all set up, it's time to learn a little more about the tools of
 Git is an open source distributed verison control system.
 
 2. What is the difference between Git and GitHub?
-Git is the actual version control s ystem, github is a hosting service that allows you to manage and interact with Git repositories.
+Git is the actual version control system, github is a hosting service that allows you to manage and interact with Git repositories.
 
 3. Why do we create a branch?
 It allows you to make changes in a separate environment without compromising the integrity of the master branch. 
