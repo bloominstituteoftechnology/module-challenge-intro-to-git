@@ -7,11 +7,10 @@ Git is a version control system.
 2. What is the difference between Git and GitHub?
 GitHub is the website for storing the Git projects. 
 3. Why do we create a branch?
-We create a new branch to not alter main branch
+We create a new branch to not alter main branch.
 4. What is the purpose of a Pull Request?
 Easier collaboration.
 5. What is the command you can use to switch between branches? For example you are working on the FIRSTNAME-LASTNAME branch and you want to switch back to main.
-cd ..
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
 git fetch downloads repository. git merge merges branches from git. git pull allows you to make changes locally when downloaded
 7. What is a merge conflict?
