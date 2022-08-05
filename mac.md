@@ -12,7 +12,9 @@ Now that you are all set up, it's time to learn a little more about the tools of
    The purpose is so that changes can be seen, discussed, and reviewed by other developers before merging into the main branch.
 5. What is the command you can use to switch between branches? For example you are working on FIRSTNAME-LASTNAME branch and you want to switch back to main.
    You can use git checkout main.
-6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
+6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do? 'Git fetch' it retrives data from the original, but does not do any file transferring so it just sees what changes are available. 'Git pull' it downloads content from you main repository to your local one. 'Git merge' you intergrate data made on your local to the base.
 
 7. What is a merge conflict?
+   Merge conflit happens when Git can't automatically resolve multiple commits.
 8. How do you resolve a merge conflict?
+   Open the file and inspect and make necessary changes.
