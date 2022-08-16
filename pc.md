@@ -1,5 +1,5 @@
 ## Research Questions 
-Answer Questions: 
+Answer the Following Questions: 
 
 1. What is Git?
 	Git is an Open Source Distributed Version Control System. 
