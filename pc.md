@@ -2,7 +2,7 @@
 
 Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en). Docs (short for documentation) are the instructions on how to use a languge or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your Google skills!
 
-1. What is Git?
+1. What is Git? 
 2. What is the difference between Git and GitHub?
 3. Why do we create a branch?
 4. What is the purpose of a Pull Request?
@@ -10,3 +10,12 @@ Now that you are all set up, it's time to learn a little more about the tools of
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
 7. What is a merge conflict?
 8. How do you resolve a merge conflict?
+
+1A. Git is a version control system used for source code management. 
+2A. Github is a cloud hosting service for managing Git repos. 
+3A. By using "git branch yournamehere" 
+4A. To fetch the latest changes from origin 
+5A. git checkout main 
+6A. Fetch is to get the latest changes, Merge is to combine multiple branches into one, Pull is to Fetch and Merge together. 
+7A. When two seperate changes have been made to the same file and Git cannot determine which change is correct.
+8A. By editing the conflicted file(s). 
