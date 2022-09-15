@@ -24,7 +24,7 @@ Now that you are all set up, it's time to learn a little more about the tools of
 
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
    
-   git fetch is the command that tells your local git to retrieve the latest meta-data info from the original. git pull on the other hand does that and brings those changes from the remote repository. 
+   git fetch is the command that tells your local git to retrieve the latest meta-data info from the original. git pull on the other hand does that and brings those changes from the remote repository.   
    Merging is Git's way of putting a forked history back together again. 
 
 
