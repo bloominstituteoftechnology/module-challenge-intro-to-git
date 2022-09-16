@@ -10,3 +10,14 @@ Now that you are all set up, it's time to learn a little more about the tools of
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
 7. What is a merge conflict?
 8. How do you resolve a merge conflict?
+
+Answers
+
+1. Set of commands that we can use in our terminal.
+2. GitHub is a cloud-based service that allows you to access and manage Git repositories and Git lets you manage the code.
+3. Branches are copies of the main code that we had made edits to.
+4. A pull request is how you send your contributions to be reviewed and edited and submitted into the project.
+5. The command to switch between branches is "git checkout main"
+6. 'git fetch' downloads objects and refs from another repository. 'Git merge' joins multiple development histories together. 'Git pull' fetches and integrates with another repository or local branch.
+7. A merge conflict is when there are competing commits occurring when you merge branches.
+8. To resolve a merge conflict, you want to decide which branch changes you want to keep and delete the conflict markers and make final changes.
