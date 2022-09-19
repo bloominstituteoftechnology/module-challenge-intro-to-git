@@ -19,4 +19,4 @@ git pull - used to update the local version of a repository from a remote.
 7. What is a merge conflict?
 Merge conflict is when two people have changed the same lines in a file.
 8. How do you resolve a merge conflict?
-Merge conflict can be resolved by opening the conflicted file and make the necessary changes.
+Merge conflicts can be resolved by opening the conflicted file and make the necessary changes.
