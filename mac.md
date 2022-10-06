@@ -2,7 +2,7 @@
 
 Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en). Docs (short for documentation) are the instructions on how to use a languge or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your Google skills!
 
-1. What is Git? Git is a version control system use to save, manage and keep track of projects.
+1. What is Git? Git is a version control system use to save, manage and keep track of projects. Its great for working with others on the same project.
 2. What is the difference between Git and GitHub? Git is a version control program, Github is a hosting service at allow you to share your work with other developers so they can manage your code or vice versa.
 3. Why do we create a branch? git branch new_branch
 4. What is the purpose of a Pull Request? To download the code on your local computer, so you can work with it.
