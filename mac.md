@@ -9,7 +9,7 @@ Now that you are all set up, it's time to learn a little more about the tools of
 
 2. What is the difference between Git and GitHub?
 
-	While Git is a system to track and manage you codes history, GitHub is a web-based service 
+	While Git is a system to track and manage your codes history, GitHub is a web-based service 
 	that allows you to share projects and code. (GitHub uses Git)
 
 3. Why do we create a branch? 
@@ -28,11 +28,11 @@ Now that you are all set up, it's time to learn a little more about the tools of
 
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
 
-	Git fetch will pretty much just show you that there are changes without integrating into 
+	Git fetch will pretty much just show you that there are changes without integrating it into 
 	your code.
 	Git merge will merge two branches of code into one branch.
 	Git pull will fetch the content and merge the content into the repository. 
-	They all work with getting new content into your code but all do different things.
+	They all work with getting new content into your code but in different ways.
 
 7. What is a merge conflict?
 
