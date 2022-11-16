@@ -42,4 +42,5 @@ Now that you are all set up, it's time to learn a little more about the tools of
 8. How do you resolve a merge conflict?
 
 	You can resolve a merge conflict by modifying the lines by rearranging them or deleting the 
-	lines that are causing the conflict dependin on the scenario. Then continue to git add, and git commit.
+	lines that are causing the conflict depending on the scenario. Then continue to git add, 
+	and git commit.
