@@ -28,11 +28,11 @@ This opens up dialogue about the potentional changes to the files.
 
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
 
-git pull is the combination of two commands, git fetch followed by git merge. 
+- git pull is the combination of two commands, git fetch followed by git merge. 
 
-git fetch downloads the content from the specific remote repository. 
+- git fetch downloads the content from the specific remote repository. 
 
-git merge is to merge the remote content ref and heads into a brand new local merge commit.
+- git merge is to merge the remote content ref and heads into a brand new local merge commit.
 
 
 7. What is a merge conflict?
