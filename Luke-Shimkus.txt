@@ -1,0 +1,76 @@
+Codepen link for Git-for-Web-Development: https://codepen.io/programking/pen/yLyQYep?editors=0100
+
+
+ 1. What is Semantic HTML? 
+Semantic HTML is readable markup for organizing content. 
+    2. What is HTML used for? 
+HTML is used for organizing content and giving it a name where it can be accessed.  
+    3. What is an attribute and where do we put it? 
+An attribute is a html 
+    4. What is the h1 tag used for? How many times should I use it on a page?
+The h1 tag is a header tag and should be used once on a page I belive for SEO reasons. 
+    5. Name two tags that have required attributes
+The a tag and the input tag
+    6. What do we put in the head of our HTML document? 
+Meta information.
+    7. What is an id? 
+An id is a selector for one element. 
+    8. What elements can I add an id to? 
+Any element. 
+    9. How many times can I use the same id on a page? 
+1
+    10. What is a class? 
+A class is a selctor to use on multiple elements. 
+    11. What elements can I add a class to?  
+Any.
+    12. How many times can I use the same class on a page? 
+As many times as you want.
+    13. How do I get my link to open in a new tab?
+Set the target attribute to _blank.
+    14. What is the alt attribute used for? 
+It is used for when images don't load or the source to an image is corrupt. 
+    15. How do I reference an id?
+Using the #.
+    16. What is the difference between a section and a div
+A section is used for a bunch of divs while a div contains a bunch of other HTML tags. 
+    17. What is CSS used for? 
+CSS is used for marking up your HTML and styling it. 
+    18. How to we select an element? Example - every h2 on the page
+You select an element in CSS. If you want to select all h2 then you would simply type: h2 {}.
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+An ID selects one specific element while a class selects multiple elements. If you want all your span tags to be red then you would use a class. But if you want one paragraph to be blue then you would use the id selector.
+    20. How do we select classes in CSS?
+useing a .
+    21. How do we select a p element with a single class of “human””?
+    You would use p.human {} or you can just type .human {}
+    22. What is a parent child selector? When would this be useful? 
+A parent child selector is a way of calling a element without using a class or id. This is useful when you have to do simple stuff.
+    23. How do you select all links within a div with the class of sidebar?
+You would type: .sidebar a {}
+    24. What is a pseudo selector?
+A selctor that access an element in a specific state.
+    25. What do we use the change the spacing between lines?
+The CSS property line-height
+    26. What do we use to change the spacing between letters? The CSS property letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+The CSS property text-transform.
+    28. How do I add a 1px border around my div that is dotted and black?
+The CSS property Border like so: div { border: dotted black; }
+    29. How do I select everything on the page? 
+Using the * selector.
+    30. How do I write a comment in CSS?
+/* THis is a comment */
+    31. How do I find out what file I am in, when I am using the command line? 
+It will be at the front of where you are typing. 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+The ls command. 
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+ rm -a You have to be careful with this cause once you remove it, it's not coming back. 
+    34. Why should I use version control?
+ It helps with workflow and teams. 
+    35. How often should I commit to github?
+Whenever your have finished your project.
+    36. What is the command we would use to push our repo up to github? 
+git push <Link>
+    37. Walk me through Lambda's git flow. 
+You fork the repo you are working on. Create a new branch and the add, merge, and push your changes after you add your TL as a collaborator. 
