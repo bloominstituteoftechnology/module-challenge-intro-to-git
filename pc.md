@@ -7,11 +7,11 @@ If you cannot find what you are looking for in the docs, you can always start to
 1. What is Git? 
 Git is a free distributed control system kinda like cmd but with its own commands and uses
 2. What is the difference between Git and GitHub? 
-Git is where you 
+Git is where you edit code locally, while github is where that code is stored after you upload it for other people to access or as a backup
 3. Why do we create a branch? 
 $git checkout -b (branch name)
 4. What is the purpose of a Pull Request? 
-To check your code fore errors before merging it into the main code.
+To check your code for errors before merging it into the main code.
 5. What is the command you can use to switch between branches? For example you are working on the FIRSTNAME-LASTNAME branch and you want to switch back to main. 
 $git branch -M main
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
