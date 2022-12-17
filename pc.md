@@ -12,4 +12,11 @@ Now that you are all set up, it's time to learn a little more about the tools of
 8. How do you resolve a merge conflict?
 
 Answers 
-1. 
+1. Git is a version control system.  
+2. Git is a version control system, where as GitHub is the place we store out local git repostiories.
+3. We creat a branch to have multiple versions of code to see what changes was made.
+4. A pull request lets others know about what branch you have pushed in a repository. 
+5. Git check out command. 
+6. Git fetch downloads the content from a repository, a Git merge will merge the code in the repository and a Git pull will command will download the code from a remote repository.
+7. A merge conflit is an error that occurs when competing changes are made to the same line of a file.
+8. To resolve a merge you can use the git add command after editing the file.  
