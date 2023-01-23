@@ -3,7 +3,7 @@
 Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en). Docs (short for documentation) are the instructions on how to use a languge or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your Google skills!
 
 1. What is Git?
-A: Git is a set of commands
+A: Git is a versionn control system for tracking changes in computer files
 
 2. What is the difference between Git and GitHub?
 A: Git is a set of commands that allow you to modify and keep track of code history. GitHub is a cloud service where you can upload and store code or download repositories.
