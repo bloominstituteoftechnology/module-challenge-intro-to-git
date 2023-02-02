@@ -57,14 +57,14 @@ You can use the git command
 
 `git merge` Joins two or more development histories together
 
-
+`git pull`  
 
 
 
 
 7. What is a merge conflict?
 
-
+`Merge conflicts often happen when a branch that you merge has one or more competing commits.`
 
 
 
@@ -74,3 +74,18 @@ You can use the git command
 
 
 8. How do you resolve a merge conflict?
+
+You can use a few commands to resolve a git conflict such as
+
+`git merge --abort` This command helps exiting while you are merging branches so you can bring it back to normal.
+
+`git reset` This command resets the conflitcted files to the state they were before they were altered.
+
+
+
+
+
+
+
+
+
