@@ -47,17 +47,13 @@ You can use the git command
 `git switch main`
 
 
-
-
-
-
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. Fetches and integrates from another repo or local branch
 
 `git fetch` Downloads files/folders of code from another repo
 
 `git merge` Joins two or more development histories together
 
-`git pull`  
+`git pull`  is used to fetch code from a remote repo and updates your local repo to match that of the code
 
 
 
