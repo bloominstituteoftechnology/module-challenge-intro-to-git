@@ -14,4 +14,4 @@ others about changes you've pushed to a branch in a repository on GitHub
 them 
 7. What is a merge conflict? Merge conflicts happen when you merge branches that have competing commits
 8. How do you resolve a merge conflict? you must choose which changes to incorporate from the different branches in a new commit.navigate to merge conflict, open text editor, decide if you want to 
-keep only your branch changes or incorporate others, add stage to changes 
+keep only your branch changes or incorporate others, add stage to changes. 
