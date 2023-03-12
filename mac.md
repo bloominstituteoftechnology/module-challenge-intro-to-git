@@ -10,3 +10,16 @@ Now that you are all set up, it's time to learn a little more about the tools of
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
 7. What is a merge conflict?
 8. How do you resolve a merge conflict?
+1a.gits a tool used to manage mutiple different source code edits that get turned 
+into repositories 
+2a git hub is a site/location to store git repositories. while git is the tool 
+used to make those repositories.
+3a to make it easier for mutiple different teams to collaborate on one main code 
+base.
+4a to tell others about changes you made in the repository.
+5a git switch <branchname>
+6a git fetch will download commits and files from a remote repository into your local one, while git merge  combines mutiple branchs of commits into one and git pull will take content from a 
+repository and change the local one to match.
+7a when changes that conflict are made to the same line.
+8a by generating a list of files affected and going in and making changes
+
