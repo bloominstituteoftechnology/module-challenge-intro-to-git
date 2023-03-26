@@ -12,11 +12,18 @@ Now that you are all set up, it's time to learn a little more about the tools of
 8. How do you resolve a merge conflict?
 
 
-1.Git is a an open source version control system that aides in source code management. 
-2.Git is a version control system that lets you track and manage code history where as github is a cloud based hosting service that lets you manage git repo's. 
-3.Git branches are used to create separate lines of developments within a git repo. Branches allow multiple devs to work on differnt features to a project simultaneously without affecting each other's work. 
-4.The purpose of a pull request is to facilitate code review and and collaboration between devs. You can leave comments and suggest modifications in pull requests which can ensure that the changes are well-designed, correctly implemented, and do not introduce any unintended side effects. 
+1.Git is a an open source version control system that aides in source code management.
+ 
+2.Git is a version control system that lets you track and manage code history where as github is a cloud based hosting service that lets you manage git repo's.
+ 
+3.Git branches are used to create separate lines of developments within a git repo. Branches allow multiple devs to work on differnt features to a project simultaneously without affecting each other's work.
+ 
+4.The purpose of a pull request is to facilitate code review and and collaboration between devs. You can leave comments and suggest modifications in pull requests which can ensure that the changes are well-designed, correctly implemented, and do not introduce any unintended side effects.
+ 
 5.git checkout <branch-name>
+
 6.'git fetch' fetches changes from the remote repo but doesn't merge them with the local branch. 'git merge' merges changes from one branch into another branch to create a new commit. 'git pull' is a combination of the two where it fetches changes from the remote repo and merges them into the current branch.
+
 7.A merge conflict is when git is unable to autmoatically merge changes from two different branches. Typically when two or more people modiify the same line of code.
+
 8.To resolve a merge conflict, you can manually edit the conflicted files to remove the conflicts and make the necessary changes. 
