@@ -2,11 +2,11 @@
 
 Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en). Docs (short for documentation) are the instructions on how to use a languge or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your Google skills!
 
-1. What is Git?
-2. What is the difference between Git and GitHub?
-3. Why do we create a branch? 
-4. What is the purpose of a Pull Request?
-5. What is the command you can use to switch between branches? For example you are working on FIRSTNAME-LASTNAME branch and you want to switch back to main.
-6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
-7. What is a merge conflict?
-8. How do you resolve a merge conflict?
+1. What is Git? Git is a set of commands that allows us to interact with git repositories.
+2. What is the difference between Git and GitHub? Git is a set of commands, while GitHub is the cloud storage location for repositories.
+3. Why do we create a branch? We create a branch so multiple users can work with the same piece of code simultaneously without error.
+4. What is the purpose of a Pull Request? Pull requests allow you to review changes to code before merging them into the main branch.
+5. What is the command you can use to switch between branches? For example you are working on FIRSTNAME-LASTNAME branch and you want to switch back to main. git checkout main
+6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do? 'git fetch' pulls in all commits from remote repository, without making any changes to your local files. It allows you to view all the remote's changes without applying them. However, 'git pull' pulls all commits from the remote repository and automatically updates your local files to reflect them exactly. 'git merge' merges any changes from one git branch into another that you specify.
+7. What is a merge conflict? A merge conflict occurs when two users make different changes to the same line of the same file, or when one user edits a file while another deletes, then all those changes are merged into one branch. 
+8. How do you resolve a merge conflict? To resolve a merge conflict, create a pull request to view all the affected files. For merge conflicts caused by competing line edits, you can correct the conflict right on GitHub using 'conflict editor.' For every other kind of conflict, you have to resolve the error in a local clone of the repository and push those changes back into your GitHub branch.
