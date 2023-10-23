@@ -17,7 +17,8 @@ Git vs GitHub: What's the Difference?
 -Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. 
 
 5. What is the command you can use to switch between branches? For example you are working on -FIRSTNAME-LASTNAME branch and you want to switch back to main.
-git checkout main to switch to that branch.
+
+ - "git checkout main" to switch to main branch.
 
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
 Git fetch fetches the changes while git pull merges them after fetching.
